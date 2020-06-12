@@ -1,0 +1,13 @@
+{
+  "name": "box-developer-changelog",
+  "version": "1.0.0",
+  "description": "Box Developer Changelog",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/box/box-developer-changelog.git"
+  },
+  "author": "Box <developer@box.com>",
+  "license": "Apache-2.0",
+  "private": true
+}
