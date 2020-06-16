@@ -1,9 +1,9 @@
 ---
 applied_at: '2019-11-25'
 applies_to:
-  - api
+  - ui-elements
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 # Elements `v11.0` Released
 

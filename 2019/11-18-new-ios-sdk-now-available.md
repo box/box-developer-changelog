@@ -1,9 +1,10 @@
 ---
 applied_at: '2019-11-18'
 applies_to:
-  - api
-is_impactful: false
-is_new_feature: false
+  - ios
+  - sdks
+is_impactful: true
+is_new_feature: true
 ---
 # New iOS SDK Now Available
 

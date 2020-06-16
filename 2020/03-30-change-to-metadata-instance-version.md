@@ -2,7 +2,7 @@
 applied_at: '2020-03-30'
 applies_to:
   - api
-is_impactful: false
+is_impactful: true
 is_new_feature: false
 ---
 # Change to metadata instance version

@@ -3,7 +3,7 @@ applied_at: '2019-12-05'
 applies_to:
   - api
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 # Marker-based Pagination Support for Users API
 

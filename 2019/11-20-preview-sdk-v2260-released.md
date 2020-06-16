@@ -1,7 +1,8 @@
 ---
 applied_at: '2019-11-20'
 applies_to:
-  - api
+  - content-preview
+  - sdks
 is_impactful: false
 is_new_feature: false
 ---

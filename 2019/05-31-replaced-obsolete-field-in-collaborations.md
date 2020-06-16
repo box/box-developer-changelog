@@ -2,8 +2,8 @@
 applied_at: '2019-05-31'
 applies_to:
   - api
-is_impactful: false
-is_new_feature: false
+is_impactful: true
+is_new_feature: true
 ---
 # Replaced Obsolete Field in Collaborations
 

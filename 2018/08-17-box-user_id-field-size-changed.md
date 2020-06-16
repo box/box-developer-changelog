@@ -2,7 +2,7 @@
 applied_at: '2018-08-17'
 applies_to:
   - api
-is_impactful: false
+is_impactful: true
 is_new_feature: false
 ---
 # Box `user_id` field size changed

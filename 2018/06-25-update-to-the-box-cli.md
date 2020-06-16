@@ -1,7 +1,7 @@
 ---
 applied_at: '2018-06-25'
 applies_to:
-  - api
+  - cli
 is_impactful: false
 is_new_feature: false
 ---

@@ -3,7 +3,7 @@ applied_at: '2018-08-21'
 applies_to:
   - api
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 # Add new `action_by` field to enterprise events
 

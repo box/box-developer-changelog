@@ -1,7 +1,8 @@
 ---
 applied_at: '2018-08-16'
 applies_to:
-  - api
+  - salesforce
+  - sdks
 is_impactful: false
 is_new_feature: false
 ---

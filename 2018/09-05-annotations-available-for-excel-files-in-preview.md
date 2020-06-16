@@ -1,9 +1,9 @@
 ---
-applied_at: '2018-09-05'
+applied_at: '2018-09-13'
 applies_to:
-  - api
+  - ui-elements
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 # Annotations available for Excel files in preview
 
