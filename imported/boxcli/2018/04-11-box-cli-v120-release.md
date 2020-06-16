@@ -7,7 +7,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/boxcli/releases/tag/v1.2.0'
 ---
 
-# Box CLI v1.2.0 release
+# Box CLI `v1.2.0` release
 
 * Created bulk actions for the following commands:
   * users

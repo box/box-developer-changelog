@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.40.0'
 ---
 
-# Java SDK v2.40.0 release
+# Java SDK `v2.40.0` release
 
 v2.40.0
 1. Update comments.md ([#749](https://github.com/box/box-java-sdk/pull/749))

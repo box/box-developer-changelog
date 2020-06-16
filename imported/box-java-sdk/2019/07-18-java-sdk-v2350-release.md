@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.35.0'
 ---
 
-# Java SDK v2.35.0 release
+# Java SDK `v2.35.0` release
 
 v2.35.0
 1. Added support for is_externally_owned field ([#714](https://github.com/box/box-java-sdk/pull/714))

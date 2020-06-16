@@ -8,7 +8,7 @@ is_new_feature: false
 source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.9.2'
 ---
 
-# Windows .NET SDK v3.9.2 release
+# Windows .NET SDK `v3.9.2` release
 
 1. Added support for setting flag allowing non owners of a folder to invite collaborators. 
 

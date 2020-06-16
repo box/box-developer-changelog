@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.36.0'
 ---
 
-# Java SDK v2.36.0 release
+# Java SDK `v2.36.0` release
 
 v2.36.0
 1. Added convenience function for shared link and fixed setting nul… ([#720](https://github.com/box/box-java-sdk/pull/720))

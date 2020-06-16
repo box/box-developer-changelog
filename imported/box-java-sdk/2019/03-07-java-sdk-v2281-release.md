@@ -8,7 +8,7 @@ is_new_feature: false
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.28.1'
 ---
 
-# Java SDK v2.28.1 release
+# Java SDK `v2.28.1` release
 
 v2.28.1
 1. Wrong casting for response in BoxAPIResponse for BoxMetadataCascadePolicy.forceApply() ([#685](https://github.com/box/box-java-sdk/pull/685))

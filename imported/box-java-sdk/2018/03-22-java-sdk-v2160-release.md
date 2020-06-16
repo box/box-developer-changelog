@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.16.0'
 ---
 
-# Java SDK v2.16.0 release
+# Java SDK `v2.16.0` release
 
 v2.16.0
 

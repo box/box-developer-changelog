@@ -1,4 +1,6 @@
 {
   "no-inline-html": false,
-  "no-trailing-spaces": false
+  "no-trailing-spaces": false,
+  "line-length": false,
+  "single-trailing-newline": false
 }

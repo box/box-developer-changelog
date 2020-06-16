@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.26.0'
 ---
 
-# Java SDK v2.26.0 release
+# Java SDK `v2.26.0` release
 
 v2.26.0
 1. add missing fields to task and folder and add ability to get fields for tasks ([#677](https://github.com/box/box-java-sdk/pull/677))

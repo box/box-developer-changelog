@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.45.0'
 ---
 
-# Java SDK v2.45.0 release
+# Java SDK `v2.45.0` release
 
 v2.45.0
 1. Add preflight check before chunked uploads ([#782](https://github.com/box/box-java-sdk/pull/782))

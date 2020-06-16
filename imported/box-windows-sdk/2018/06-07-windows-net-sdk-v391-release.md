@@ -8,7 +8,7 @@ is_new_feature: false
 source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.9.1'
 ---
 
-# Windows .NET SDK v3.9.1 release
+# Windows .NET SDK `v3.9.1` release
 
 Fixed bug where Xamarin applications would run out of connections.
 

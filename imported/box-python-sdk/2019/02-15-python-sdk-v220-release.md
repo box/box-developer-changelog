@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.2.0'
 ---
 
-# Python SDK v2.2.0 release
+# Python SDK `v2.2.0` release
 
 - Added abilty for user to [retrieve an avatar](https://github.com/box/box-python-sdk/blob/master/docs/usage/user.md#get-the-avatar-for-a-user) for a user.
 - Changed retry strategy to use exponential backoff with randomized jitter.

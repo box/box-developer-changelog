@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.34.0'
 ---
 
-# Java SDK v2.34.0 release
+# Java SDK `v2.34.0` release
 
 v2.34.0
 1. Added fields: action for task ([#707](https://github.com/box/box-java-sdk/pull/707))

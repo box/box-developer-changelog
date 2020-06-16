@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.12.0'
 ---
 
-# Java SDK v2.12.0 release
+# Java SDK `v2.12.0` release
 
 v2.12.0
 1. Fix collaboration notify parameter ([#545](https://github.com/box/box-java-sdk/pull/545))

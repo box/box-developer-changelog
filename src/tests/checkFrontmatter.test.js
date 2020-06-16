@@ -11,13 +11,15 @@ files.forEach(source => {
       'applied_at',
       'applies_to',
       'is_impactful',
-      'is_new_feature'
+      'is_new_feature',
+      'source_url'
     ])
 
     expect(validator).isArray('applies_to')
     expect(validator).isBoolean('is_new_feature')
     expect(validator).isBoolean('is_impactful')
-    expect(validator).isString('applied_at')  
+    expect(validator).isString('applied_at') 
+    expect(validator).isString('source_url')   
   })
 })
 

@@ -8,7 +8,7 @@ is_new_feature: false
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.14.1'
 ---
 
-# Java SDK v2.14.1 release
+# Java SDK `v2.14.1` release
 
 v2.14.1
 

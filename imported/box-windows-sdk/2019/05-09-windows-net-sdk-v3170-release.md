@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.17.0'
 ---
 
-# Windows .NET SDK v3.17.0 release
+# Windows .NET SDK `v3.17.0` release
 
 - Fixed the encoding of dates in the query parameters for Events and Search endpoints
 - Deprecated `FilesManager.DownloadStreamAsync()` and introduced a replacement method with correct parameter types for byte offsets: `FilesManager.DownloadAsync()`

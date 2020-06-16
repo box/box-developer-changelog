@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.0.0'
 ---
 
-# Python SDK v2.0.0 release
+# Python SDK `v2.0.0` release
 
 **Breaking Changes**
 

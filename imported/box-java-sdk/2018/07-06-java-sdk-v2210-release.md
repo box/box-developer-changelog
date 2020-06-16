@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.21.0'
 ---
 
-# Java SDK v2.21.0 release
+# Java SDK `v2.21.0` release
 
 v2.21.0
 1. Sharedlink password ([#623](https://github.com/box/box-java-sdk/pull/623))

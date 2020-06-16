@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.24.0'
 ---
 
-# Java SDK v2.24.0 release
+# Java SDK `v2.24.0` release
 
 1. added tests and implementation for options object ([#661](https://github.com/box/box-java-sdk/pull/661))
 2. Expose object type on BoxItem ([#662](https://github.com/box/box-java-sdk/pull/662))

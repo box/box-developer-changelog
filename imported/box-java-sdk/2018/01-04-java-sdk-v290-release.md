@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.9.0'
 ---
 
-# Java SDK v2.9.0 release
+# Java SDK `v2.9.0` release
 
 1. Search readme update ([#506](https://github.com/box/box-java-sdk/pull/506))
 2. Add option to pass file SHA-1 hash for upload integrity ([#502](https://github.com/box/box-java-sdk/pull/502))

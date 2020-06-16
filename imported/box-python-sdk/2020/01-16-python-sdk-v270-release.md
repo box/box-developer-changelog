@@ -8,7 +8,7 @@ is_new_feature: true
 source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.7.0'
 ---
 
-# Python SDK v2.7.0 release
+# Python SDK `v2.7.0` release
 
 - Fixed bug in get_admin_events function which caused errors when the optional event_types parameter was omitted.
 - Add marker based pagination for listing users.
