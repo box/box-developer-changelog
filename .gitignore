@@ -1,3 +1,5 @@
 src2
 .env
 .sources
+compiled
+node_modules
