@@ -9,5 +9,14 @@
   },
   "author": "Box <developer@box.com>",
   "license": "Apache-2.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "split-markdown": "node --experimental-modules src/split-markdown.mjs"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.15",
+    "uslug": "^1.0.4"
+  }
 }
