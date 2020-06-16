@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: [ main, staging ]
 
+env:
+  CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"
+
 jobs:
   # The lint job checks that all content is sanitized, 
   # spell checked, and without any obvious dead links
