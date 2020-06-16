@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Platform Activity CSV report
 
 A report has been made available in the Box Admin Console that displays an
 enterprise's utilization of platform resources. The first version of this
@@ -16,4 +16,3 @@ this report will display additional resource consumption (Monthly Active Users,
 bandwidth, and storage) by service and will also include historical data. For
 more information, please see the [Running Reports article in Box
 Community][community].
-

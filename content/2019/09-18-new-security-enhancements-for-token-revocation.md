@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# New security enhancements for token revocation
 
 We have enhanced the capabilities of the [token
 revocation](endpoint://post-oauth2-revoke/) endpoint to permit
@@ -18,3 +18,4 @@ scoped access tokens.
 
 More information is available [here][blog_token_revocation].
 
+[blog_token_revocation]: https://medium.com/box-developer-blog/new-security-enhancements-for-revoking-access-tokens-79b9960a7ce2

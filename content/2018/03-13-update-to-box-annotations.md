@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Update to Box Annotations
 
 Due to performance issues reported by some users, the update has been rolled
 back to prevent critical business applications from getting impacted. Drawing
@@ -18,4 +18,3 @@ Users who used the Drawing Annotations capability while it was available will
 still be able to access their annotations once the feature Edit. Documentation
 is re-enabled. Until then, the said annotations will be stored in our
 application data store but won’t be exposed via the viewers.
-

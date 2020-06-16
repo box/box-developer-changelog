@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Change to metadata instance version
 
 As part of ongoing improvements to our Metadata infrastructure we will be
 rolling out a small change to the [`version`](r:/metadata/#param-$version) value
@@ -24,4 +24,3 @@ can be derived form to the metadata instance version. Therefore we do not expect
 this change to have any impact on any of our customers. Regardless, please reach
 out to your customer success manager or our support channels if you find
 yourself impacted.
-

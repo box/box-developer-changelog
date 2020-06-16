@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Elements `v11.0` Released
 
 Box UI Elements version 11.0 has been released. This update includes three
 major new feature enhancements:
@@ -24,3 +24,6 @@ resources:
 * [Release notes][elements-11-release-notes]
 * [Announcement blog post][elements-11-blog]
 
+[ui-elements-manual-install]: g://embed/ui-elements/installation/#manual-installation
+[elements-11-release-notes]: https://github.com/box/box-ui-elements/releases/tag/v11.0.0
+[elements-11-blog]: https://medium.com/box-developer-blog/announcing-elements-11-88ee900125fd

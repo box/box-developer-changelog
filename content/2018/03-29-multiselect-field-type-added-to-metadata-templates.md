@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# `multiSelect` field type added to metadata templates
 
 We have introduced a new attribute type to
 [Metadata Templates](endpoint://resources/metadata-template/) called
@@ -19,4 +19,3 @@ The addition of this field introduces changes to the
 since enabled `multiSelect` options are represented using an array of string
 values, where each string in the array corresponds to the key of a `multiSelect`
 option.
-

@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Changes to Task (Assignment) API responses
 
 We have released an update to the API responses of the
 [Get Task](endpoint://get-tasks-id) and
@@ -19,4 +19,3 @@ be deleted with the file.
 
 With this new change, the response returned will be the task object with a
 `null` response where the item would be, rather than a 404 error response.
-

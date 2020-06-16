@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# New Shield Error Code
 
 A new error code for [Box Shield][box-shield] has been released. The new
 `403 - forbidden_by_policy` error code will be raised when the enterprise has
@@ -20,3 +20,4 @@ See the
 [error code documentation](guide://api-calls/permissions-and-errors/common-errors)
 for more details and solution path.
 
+[box-shield]: https://www.box.com/shield

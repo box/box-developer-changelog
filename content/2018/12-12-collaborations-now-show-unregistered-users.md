@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Collaborations now show unregistered users
 
 An additional field, `invite_email`, has been added to the collaboration return
 object in the instance where an unregistered user has been added as a
@@ -47,4 +47,3 @@ With this new update the object returned would look like the following:
   ......
 }
 ```
-

@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Generic method added to the Salesforce SDK
 
 The Box for Salesforce Developer Toolkit now provides a global method,
 `sendRequest` that accepts an [`HttpRequest`][salesforce_sdk_httprequest]
@@ -19,3 +19,5 @@ method, please see the [method details](guide://tooling/sdks/salesforce)
 and [sample code](guide://tooling/sdks/salesforce)
 in the Box metadata sidebar for Salesforce Developer Toolkit documentation.
 
+[salesforce_sdk_httprequest]: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_httprequest.htm
+[salesforce_sdk_httpresponse]: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_httpresponse.htm#apex_classes_restful_http_httpresponse

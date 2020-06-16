@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Replaced Obsolete Field in Collaborations
 
 In 2018 a new field, `acceptance_requirements_status` was added to the GET
 collaborations/id API endpoint to support additional notification use cases.
@@ -51,4 +51,3 @@ return the following:
     }
 }
 ```
-

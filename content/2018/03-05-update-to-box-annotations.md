@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Update to Box Annotations
 
 We will be introducing two enhancements to the annotations features available
 via the Box API that your customer uses in their custom application. The
@@ -22,4 +22,3 @@ their touch-enabled devices using touch or a stylus. We are excited to share
 that we're making Drawing Annotations Full release announcement is available
 via the Expiring Embed. Users using annotations via the Get Embed Link API will
 now have a whole new way to express themselves via Box Preview.
-

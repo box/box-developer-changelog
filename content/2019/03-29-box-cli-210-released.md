@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Box CLI 2.1.0 Released
 
 A new version of the Box CLI has been released, taking the version from 2.0.0
 to 2.1.0. This release includes a number of feature enhancements and bug fixes:
@@ -17,3 +17,8 @@ to 2.1.0. This release includes a number of feature enhancements and bug fixes:
 * Fix event-types flag ([link][github_cli_p120])
 * Added build NPM script ([link][github_cli_commit])
 
+[github_cli_p126]: https://github.com/box/boxcli/pull/126
+[github_cli_p129]: https://github.com/box/boxcli/pull/129
+[github_cli_p113]: https://github.com/box/boxcli/pull/113
+[github_cli_p120]: https://github.com/box/boxcli/pull/120
+[github_cli_commit]: https://github.com/box/boxcli/commit/f0f88f66e3014afba616b5a2994157d435094b56

@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Update to the Box CLI
 
 We have released updates to the [Box CLI](guide://tooling/sdks/cli). This
 version includes the following updates:
@@ -27,3 +27,8 @@ version includes the following updates:
   delivers an environment variable or configuration property (for example, in AWS
   individual button or Azure).
 
+[cli_update_multizones]: https://github.com/box/boxcli/pull/91
+[cli_update_multizones_announce]:  https://blog.box.com/blog/multizones-storage-data-residency-compliance/
+[cli_update_csv_operations]: https://github.com/box/boxcli/pull/82
+[cli_update_folder_update_flag]: https://github.com/box/boxcli/pull/92
+[cli_update_config_dump]: https://github.com/box/boxcli/pull/83

@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Metadata-driven retention policies
 
 We have introduced new functionality in the
 [Retention Policy Object](endpoint://resources/retention-policy/)
@@ -19,4 +19,3 @@ Console, we’re also making these capabilities available via the
 [Retention Policy](endpoint://resources/retention-policy/) and
 [Retention Assignment](endpoint://resources/retention-policy-assignment/) APIs
 and in Box's Java, Node, and .NET [SDKs](guides://tooling/sdks).
-

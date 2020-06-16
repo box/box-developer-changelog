@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# New supported values in Tasks API
 
 On June 26th, Box released support for a new task type, general tasks. When
 creating or updating a task, the `action` field can either be `review` for
@@ -21,4 +21,3 @@ The Tasks API doesn't refer to tasks as "General" or "Approval" within the
 response body. This is reflected only within Box's UI.
 
 Docs can be found [here](endpoint://resources/task/).
-

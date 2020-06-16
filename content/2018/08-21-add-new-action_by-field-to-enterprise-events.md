@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Add new `action_by` field to enterprise events
 
 To better document admin actions taken on user accounts, we have added an
 `action_by` mini-user object in the enterprise events response data. This field
@@ -21,4 +21,3 @@ account. For actions taken by a Box internal admin this would be:
 
 The additional object is documented within the enterprise
 [event object attributes](endpoint://resources/event/).
-

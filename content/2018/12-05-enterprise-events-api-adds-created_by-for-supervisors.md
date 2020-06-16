@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Enterprise events API adds `created_by` for supervisors
 
 A minor change has been made to the response object of the
 [enterprise events](endpoint://get-events/#request) API endpoint in the
@@ -39,4 +39,3 @@ With this update that same response would look similar to the following:
   "login": "support@box.com"
 }
 ```
-

@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# New Box Open With Sidebar UI Element
 
 We have released an open beta version of a new Box UI Element, the 'Open With'
 element. 'Open With' will allow developers to embed a menu to open content
@@ -15,4 +15,3 @@ release are Adobe Sign and G Suite.
 
 Documentation and setup instructions for this new element are
 [available here](guide://embed/ui-elements).
-

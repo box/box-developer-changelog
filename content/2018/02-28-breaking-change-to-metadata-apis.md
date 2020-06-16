@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Breaking change to Metadata APIs
 
 On March 29, 2018, we will introduce a new data type (array of strings) in the
 response body of the Metadata API endpoints. We are making this change because
@@ -37,19 +37,3 @@ we are introducing in this change.
   "$scope": "enterprise_12345"
 }
 ```
-
-[cli_v2_release_notes]: https://github.com/box/boxcli/blob/master/CHANGELOG.md#200
-[cli_v2_release_commands]: https://github.com/box/boxcli#command-topics
-[python_sdk_v2]: https://github.com/box/box-python-sdk
-[python_sdk_v2_release_notes]: https://github.com/box/box-python-sdk/releases/tag/v2.0.0
-[salesforce_sdk_httprequest]: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_httprequest.htm
-[salesforce_sdk_httpresponse]: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_httpresponse.htm#apex_classes_restful_http_httpresponse
-[box_relay]: https://www.box.com/collaboration/relay-workflow
-[box_relay_announce]: https://medium.com/box-developer-blog/introducing-the-box-relay-workflow-api-f6eed1457711
-[platform_activity_csv]: https://community.box.com/t5/How-to-Guides-for-Admins/Running-the-Platform-Activity-Report/ta-p/58620
-[cli_update_multizones]: https://github.com/box/boxcli/pull/91
-[cli_update_multizones_announce]:  https://blog.box.com/blog/multizones-storage-data-residency-compliance/
-[cli_update_csv_operations]: https://github.com/box/boxcli/pull/82
-[cli_update_folder_update_flag]: https://github.com/box/boxcli/pull/92
-[cli_update_config_dump]: https://github.com/box/boxcli/pull/83
-[community]: https://community.box.com/t5/How-to-Guides-for-Admins/Running-Reports/ta-p/26790

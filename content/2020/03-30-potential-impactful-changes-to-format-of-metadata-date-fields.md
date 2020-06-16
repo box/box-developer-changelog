@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# Potential impactful changes to format of Metadata `date` fields
 
 As part of ongoing improvements to our Metadata infrastructure we will be
 rolling out three potential impactful changes to the format of `date` fields in
@@ -51,7 +51,7 @@ For example:
 * From now on `2020-01-21T19:20:00.123-08:00` is equivalent to
   `2020-01-22T03:20:00.123Z`
 
-### How this can affect an application
+## How this can affect an application
 
 Any application that implements `RFC3339`-compliant date-time parsing will not
 need to perform any action as these are all valid `RFC3339` values representing
@@ -62,10 +62,9 @@ All official Box SDKs support `RFC3339`-compliant date-time parsing, so any
 application using an up-to-date version of an official Box SDK would not require
 any update.
 
-### What do if this affected your application
+## What do if this affected your application
 
 Roll-out of this change will be performed gradually over the next few weeks.
 Although the metadata team will be monitoring potential impact, please reach out
 to your customer success manager or our support channels if you find yourself
 impacted.
-

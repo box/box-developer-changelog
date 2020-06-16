@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# TLS 1.0 deprecated complete
 
 On May 13th, 2019, Box began the process of disabling TLS 1.0 requests to Box
 APIs. As of today, all TLS 1.0 API requests will be returning a response
@@ -22,3 +22,4 @@ upgrade your systems to TLS 1.2.
 For any questions or for addition support, please
 [file a support ticket][support_ticket].
 
+[support_ticket]: https://community.box.com/t5/custom/page/page-id/BoxSearchLithiumTKB

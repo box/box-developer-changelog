@@ -4,9 +4,9 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: false
-
 ---
 
+# New `classification` field for Files
 
 A new optional field has been made available within the `Field` object,
 `classification`. This field represents the classification that is currently
@@ -32,4 +32,3 @@ additional `fields`](g://api-calls/request-extra-fields).
 
 The classification can be set through the API, Box Shield, or by a user using
 the web application.
-
