@@ -1,9 +1,10 @@
 ---
 applied_at: '2018-10-19'
 applies_to:
-  - api
-is_impactful: false
-is_new_feature: false
+  - python
+  - sdks
+is_impactful: true
+is_new_feature: true
 ---
 
 # Python SDK V2 Launched

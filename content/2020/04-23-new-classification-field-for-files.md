@@ -3,7 +3,7 @@ applied_at: '2020-04-23'
 applies_to:
   - api
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 
 # New `classification` field for Files

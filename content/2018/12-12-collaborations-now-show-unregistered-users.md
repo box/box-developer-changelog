@@ -3,7 +3,7 @@ applied_at: '2018-12-12'
 applies_to:
   - api
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 
 # Collaborations now show unregistered users

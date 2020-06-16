@@ -1,9 +1,9 @@
 ---
 applied_at: '2019-03-29'
 applies_to:
-  - api
+  - cli
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 
 # Box CLI 2.1.0 Released

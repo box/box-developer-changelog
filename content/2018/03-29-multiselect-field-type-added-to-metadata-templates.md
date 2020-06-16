@@ -3,7 +3,7 @@ applied_at: '2018-03-29'
 applies_to:
   - api
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 
 # `multiSelect` field type added to metadata templates

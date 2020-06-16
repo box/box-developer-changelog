@@ -3,7 +3,7 @@ applied_at: '2019-10-25'
 applies_to:
   - api
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 
 # New fields for File Versions

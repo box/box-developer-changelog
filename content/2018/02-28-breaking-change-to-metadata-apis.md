@@ -1,8 +1,8 @@
 ---
-applied_at: '2018-02-28'
+applied_at: '2018-02-29'
 applies_to:
   - api
-is_impactful: false
+is_impactful: true
 is_new_feature: false
 ---
 

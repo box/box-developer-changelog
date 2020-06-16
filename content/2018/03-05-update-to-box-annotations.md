@@ -1,7 +1,7 @@
 ---
 applied_at: '2018-03-05'
 applies_to:
-  - api
+  - ui-elements
 is_impactful: false
 is_new_feature: false
 ---

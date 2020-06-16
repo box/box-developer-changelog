@@ -1,7 +1,7 @@
 ---
 applied_at: '2020-01-20'
 applies_to:
-  - api
+  - postman
 is_impactful: false
 is_new_feature: false
 ---

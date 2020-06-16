@@ -1,9 +1,9 @@
 ---
 applied_at: '2019-01-18'
 applies_to:
-  - api
+  - ui-elements
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 
 # New Sidebar UI Element & Open With Element GA

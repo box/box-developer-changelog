@@ -1,9 +1,9 @@
 ---
 applied_at: '2018-04-18'
 applies_to:
-  - api
+  - other
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 
 # Platform Activity CSV report

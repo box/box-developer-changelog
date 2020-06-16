@@ -1,9 +1,9 @@
 ---
 applied_at: '2019-12-03'
 applies_to:
-  - api
+  - ui-elements
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 
 # Preview SDK `v2.29.0` Released

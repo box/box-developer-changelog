@@ -2,7 +2,7 @@
 applied_at: '2019-04-15'
 applies_to:
   - api
-is_impactful: false
+is_impactful: true
 is_new_feature: false
 ---
 

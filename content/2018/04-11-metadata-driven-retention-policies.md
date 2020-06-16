@@ -3,7 +3,7 @@ applied_at: '2018-04-11'
 applies_to:
   - api
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 ---
 
 # Metadata-driven retention policies
