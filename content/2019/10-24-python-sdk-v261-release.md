@@ -10,4 +10,4 @@ source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.6.1'
 
 # Python SDK `v2.6.1` release
 
-- Added api_ call decorator for copy method.
+- Added `api_` call decorator for copy method.

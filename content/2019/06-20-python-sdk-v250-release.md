@@ -10,4 +10,4 @@ source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.5.0'
 
 # Python SDK `v2.5.0` release
 
-Allowed passing `None` to clear configurable_permission field in the add_member() method.
+Allowed passing `None` to clear `configurable_permission` field in the `add_member()` method.

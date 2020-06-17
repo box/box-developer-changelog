@@ -10,4 +10,4 @@ source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.2.2'
 
 # Python SDK `v2.2.2` release
 
-- Updated requests-toolbelt dependency restriction
+- Updated `requests-toolbelt` dependency restriction

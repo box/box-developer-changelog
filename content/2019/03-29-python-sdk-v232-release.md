@@ -10,4 +10,4 @@ source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.3.2'
 
 # Python SDK `v2.3.2` release
 
-- Fixing an issue in v2.3.1 where package could not be installed.
+- Fixing an issue in `v2.3.1` where package could not be installed.

@@ -10,4 +10,4 @@ source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.6.0'
 
 # Python SDK `v2.6.0` release
 
-Adding a new get admin events function with created_before, created_after, and event_type parameters. Thank you @capk1rk!
+Adding a new get admin events function with `created_before`, `created_after`, and `event_type` parameters. Thank you `@capk1rk`!

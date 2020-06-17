@@ -10,7 +10,7 @@ source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.7.0'
 
 # Python SDK `v2.7.0` release
 
-- Fixed bug in get_admin_events function which caused errors when the optional event_types parameter was omitted.
+- Fixed bug in `get_admin_events` function which caused errors when the optional `event_types` parameter was omitted.
 - Add marker based pagination for listing users.
 - Added support for more attribute parameters when uploading new files and new versions of existing files.
 - Combined preflight check and lookup of accelerator URL into a single request for uploads.

@@ -80,6 +80,10 @@ class LinkValidator {
       .split(/```\w*\n/g)
       .filter((_, index) => index % 2 === 0)
       .join('\n')
+      .split(/`/g)
+      .filter((_, index) => index % 2 === 0)
+      .join('\n')
+    
     // map over all items
     return [...text.matchAll(LOCAL_REFERENCE_REGEX)]
       // get the actual captured part (the reference)
