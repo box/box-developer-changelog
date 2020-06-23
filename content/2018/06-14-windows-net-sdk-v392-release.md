@@ -12,6 +12,5 @@ source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.9.2'
 
 1. Added support for setting flag allowing non owners of a folder to invite collaborators. 
 
-https://www.nuget.org/packages/Box.V2/3.9.2
-https://www.nuget.org/packages/Box.V2.Core/3.9.2
-
+[`nuget.org/packages/Box.V2/3.9.2`](https://www.nuget.org/packages/Box.V2/3.9.2)
+[`nuget.org/packages/Box.V2.Core/3.9.2`](https://www.nuget.org/packages/Box.V2.Core/3.9.2)

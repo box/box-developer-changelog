@@ -17,5 +17,5 @@ source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.12.0'
   and `client.WebLinksManager.DeleteSharedLinkAsync()`
 - Added `client.UsersManager.GetUserAvatarAsync()` for retrieving a user's avatar image
 
-https://www.nuget.org/packages/Box.V2/3.12.0
-https://www.nuget.org/packages/Box.V2.Core/3.12.0
+[`nuget.org/packages/Box.V2/3.12.0`](https://www.nuget.org/packages/Box.V2/3.12.0)
+[`nuget.org/packages/Box.V2.Core/3.12.0`](https://www.nuget.org/packages/Box.V2.Core/3.12.0)

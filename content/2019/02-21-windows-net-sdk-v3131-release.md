@@ -12,5 +12,5 @@ source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.13.1'
 
 - Fixed an issue where some objects related to Events did not have their `.Id` property correctly deserialized from JSON
 
-https://www.nuget.org/packages/Box.V2/3.13.1
-https://www.nuget.org/packages/Box.V2.Core/3.13.1
+[`nuget.org/packages/Box.V2/3.13.1`](https://www.nuget.org/packages/Box.V2/3.13.1)
+[`nuget.org/packages/Box.V2.Core/3.13.1`](https://www.nuget.org/packages/Box.V2.Core/3.13.1)

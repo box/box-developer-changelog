@@ -12,5 +12,5 @@ source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.5.2'
 
 Fix .NET Core package
 
-https://www.nuget.org/packages/Box.V2/3.5.2
-https://www.nuget.org/packages/Box.V2.Core/3.5.2
+[`nuget.org/packages/Box.V2/3.5.2`](https://www.nuget.org/packages/Box.V2/3.5.2)
+[`nuget.org/packages/Box.V2.Core/3.5.2`](https://www.nuget.org/packages/Box.V2.Core/3.5.2)

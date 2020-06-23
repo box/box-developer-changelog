@@ -12,5 +12,5 @@ source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.9.1'
 
 Fixed bug where Xamarin applications would run out of connections.
 
-https://www.nuget.org/packages/Box.V2/3.9.1
-https://www.nuget.org/packages/Box.V2.Core/3.9.1
+[`nuget.org/packages/Box.V2/3.9.1`](https://www.nuget.org/packages/Box.V2/3.9.1)
+[`nuget.org/packages/Box.V2.Core/3.9.1`](https://www.nuget.org/packages/Box.V2.Core/3.9.1)

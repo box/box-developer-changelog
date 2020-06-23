@@ -16,5 +16,5 @@ source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.11.0'
 - Added the ability to set the content modification timestamp on file version upload
 - Fixed issues around reading the source of an event when the source item is a web link
 
-https://www.nuget.org/packages/Box.V2/3.11.0
-https://www.nuget.org/packages/Box.V2.Core/3.11.0
+[`nuget.org/packages/Box.V2/3.11.0`](https://www.nuget.org/packages/Box.V2/3.11.0)
+[`nuget.org/packages/Box.V2.Core/3.11.0`](https://www.nuget.org/packages/Box.V2.Core/3.11.0)

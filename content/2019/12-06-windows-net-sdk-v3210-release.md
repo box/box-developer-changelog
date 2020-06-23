@@ -10,8 +10,8 @@ source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.21.0'
 
 # Windows .NET SDK `v3.21.0` release
 
-See [Changelog](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md[#3210](https://github.com/box/box-windows-sdk/pull/3210)) for details
+See [Changelog](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#3210) for details
 Commits: [`v3.20.0...v3.21.0`](https://github.com/box/box-windows-sdk-v2/compare/`v3.20.0...v3.21.0`)
 
-https://www.nuget.org/packages/Box.V2/3.21.0
-https://www.nuget.org/packages/Box.V2.Core/3.21.0
+[`nuget.org/packages/Box.V2/3.21.0`](https://www.nuget.org/packages/Box.V2/3.21.0)
+[`nuget.org/packages/Box.V2.Core/3.21.0`](https://www.nuget.org/packages/Box.V2.Core/3.21.0)

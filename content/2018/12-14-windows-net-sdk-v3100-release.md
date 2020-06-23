@@ -12,5 +12,5 @@ source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.10.0'
 
 1. Added functionality for Metadata Cascade Policy
 
-https://www.nuget.org/packages/Box.V2
-https://www.nuget.org/packages/Box.V2.Core/
+[`nuget.org/packages/Box.V2`](https://www.nuget.org/packages/Box.V2)
+[`nuget.org/packages/Box.V2.Core`](https://www.nuget.org/packages/Box.V2.Core/)
