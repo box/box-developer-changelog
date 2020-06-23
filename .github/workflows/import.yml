@@ -1,0 +1,22 @@
+# The name of this GH action 
+name: Import
+
+on:
+  repository_dispatch:
+    types: 
+      - release/cbetta/actions-test
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+    - name: Send Slack notification
+      uses: Ilshidur/action-slack@2.0.2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_USERNAME: GitHub Actions
+        SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
+      with:
+        args: "Deployed English Postman collection :rocket:"
