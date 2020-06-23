@@ -26,11 +26,11 @@ source_url: 'https://github.com/box/boxcli/releases/tag/v1.2.0'
     * delete
 * Added filtering by event type to `box events get` and `box events poll`
 * Added a command for deleting metadata templates from files and folders.
-* Bumped underlying `box-windows-sdk` to v3.6.0
+* Bumped underlying `box-windows-sdk` to `v3.6.0`
 * Fixed a bug hindering creating float types for metadata on files and folders.
 * Fixed a bug that did not assign the `User-Agent` HTTP header correctly.
-* Fixed a bug that wasn't reporting all errors to stderr.
+* Fixed a bug that wasn't reporting all errors to `stderr`.
 * Fixed a bug with bulk creation of metadata templates.
 * Fixed a bug giving duplicate commands on group `membership` command.
-* Fixed a bug with creating the wrong object for tracking_codes on users.
+* Fixed a bug with creating the wrong object for `tracking_codes` on users.
 * Fixed a bug requiring an ID in CSV files on bulk creation of users.

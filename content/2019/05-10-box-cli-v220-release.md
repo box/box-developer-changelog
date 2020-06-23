@@ -17,7 +17,7 @@ source_url: 'https://github.com/box/boxcli/releases/tag/v2.2.0'
 - Add metadata set commands ([#136](https://github.com/box/boxcli/pull/136))  [`efa33ed`](https://github.com/box/boxcli/commit/efa33ed)
 - Add issue template ([#138](https://github.com/box/boxcli/pull/138))  [`a5cbddf`](https://github.com/box/boxcli/commit/a5cbddf)
 - Fix duplicate execution during bulk input on delegated command ([#133](https://github.com/box/boxcli/pull/133))  [`ba3d65a`](https://github.com/box/boxcli/commit/ba3d65a)
-- Fix adding web_links to a collection ([#132](https://github.com/box/boxcli/pull/132))  [`8fc2023`](https://github.com/box/boxcli/commit/8fc2023)
+- Fix adding `web_links` to a collection ([#132](https://github.com/box/boxcli/pull/132))  [`8fc2023`](https://github.com/box/boxcli/commit/8fc2023)
 - Add search sort flags ([#131](https://github.com/box/boxcli/pull/131))  [`57f8d3d`](https://github.com/box/boxcli/commit/57f8d3d)
 
 [`v2.1.0...v2.2.0`](https://github.com/box/boxcli/compare/`v2.1.0...v2.2.0`)
