@@ -19,4 +19,4 @@ jobs:
         SLACK_USERNAME: GitHub Actions
         SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
       with:
-        args: "@box/box-developer-changelog received dispatch notification from @cbetta/actions-test"
+        args: "@box/box-developer-changelog received an update from ${{ github.event.client_payload.repository }}"
