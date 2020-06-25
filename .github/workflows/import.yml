@@ -38,8 +38,8 @@ jobs:
           title: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           body: 'Automated pull request for @${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           branch: "${{github.event.client_payload.repository}}/${{steps.split.outputs._2}}"
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          comitter: 'Box DevRel <devrel@box.com>'
+          author: 'Box DevRel <devrel@box.com>'
+          committer	: 'Box DevRel <devrel@box.com>'
           labels: automerge
       
       - name: Send Slack notification
