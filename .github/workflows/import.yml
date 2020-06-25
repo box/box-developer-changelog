@@ -33,9 +33,8 @@ jobs:
 
       - name: Create a new Pull Request
         uses: peter-evans/create-pull-request@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
         with:
+          token: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
           commit-message: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           title: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           body: 'Automated pull request for @${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
