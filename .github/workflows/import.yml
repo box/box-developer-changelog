@@ -21,6 +21,7 @@ jobs:
           REPOSITORY: ${{ github.event.client_payload.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAGS: ${{ github.event.client_payload.tags }}
+          TEMPLATE: ${{ github.event.client_payload.template }}
         run: |
           yarn install
           yarn import:release
