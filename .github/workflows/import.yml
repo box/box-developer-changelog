@@ -42,14 +42,6 @@ jobs:
           committer	: 'Box DevRel <devrel@box.com>'
           labels: automerge
 
-      - name: Kick off CI build for new PR
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
-          repository: box/box-developer-changelog
-          event-type: trigger-ci
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
-
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
         env:

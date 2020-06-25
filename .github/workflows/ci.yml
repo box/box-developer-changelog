@@ -5,7 +5,9 @@ name: CI
 on:
   # Run on any Push
   push:
-  # Run for PRs on main and staging
+    branches:
+      - master
+      - staging
   pull_request:
     branches:
       - main
