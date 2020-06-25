@@ -6,6 +6,9 @@ on:
     types: 
       - release
 
+env:
+  CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"
+
 jobs:
   import:
     runs-on: ubuntu-latest
