@@ -33,6 +33,8 @@ jobs:
 
       - name: Create a new Pull Request
         uses: peter-evans/create-pull-request@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
         with:
           commit-message: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           title: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
@@ -40,6 +42,7 @@ jobs:
           branch: "${{github.event.client_payload.repository}}/${{steps.split.outputs._2}}"
           author: 'Box DevRel <devrel@box.com>'
           committer	: 'Box DevRel <devrel@box.com>'
+          labels: automerge
 
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
