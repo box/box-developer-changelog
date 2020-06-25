@@ -1,3 +1,18 @@
 {
-  "allow": ["postman-postwoman", "remain", "premature", "execution", "invalid"]
+  "allow": [
+    "postman-postwoman",
+    "remain",
+    "premature",
+    "execution",
+    "invalid",
+    "color",
+    "colors",
+    "failed",
+    "hooks",
+    "host-hostess",
+    "stroke",
+    "trap",
+    "period",
+    "dirty"
+  ]
 }

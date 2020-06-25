@@ -3,3 +3,4 @@ src2
 .sources
 compiled
 node_modules
+yarn-error.log
