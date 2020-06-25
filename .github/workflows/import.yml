@@ -32,16 +32,32 @@ jobs:
           yarn install
           yarn import:release
       
+      - name: Lint the new content
+        run: |
+          yarn test
+
       - name: Create a new Pull Request
         uses: peter-evans/create-pull-request@v2
+        if: ${{ failure() }}
         with:
           commit-message: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           title: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           body: 'Automated pull request for @${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           branch: "${{github.event.client_payload.repository}}/${{steps.split.outputs._2}}"
+          author: 'Box DevRel <devrel@box.com>'
+      
+      - uses: EndBug/add-and-commit@v4 
+        if: ${{ success() }}
+        with:
+          author_name: Box DevRel
+          author_email: mail@example.com
+          message: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
       
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
+        if: ${{ always() }}
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_USERNAME: GitHub Actions
