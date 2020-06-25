@@ -1,4 +1,3 @@
-# The name of this GH action 
 name: Import
 
 on:
@@ -41,6 +40,7 @@ jobs:
           branch: "${{github.event.client_payload.repository}}/${{steps.split.outputs._2}}"
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           comitter: 'Box DevRel <devrel@box.com>'
+          labels: automerge
       
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
