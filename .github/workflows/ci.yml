@@ -10,6 +10,9 @@ on:
     branches:
       - main
       - staging
+  repository_dispatch:
+    types: 
+      - trigger-ci
 
 env:
   CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"
