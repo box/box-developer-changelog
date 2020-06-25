@@ -4,7 +4,7 @@ name: CI
 # Defines when this action should be run
 on:
   # Run on any Push
-  push: {}
+  push:
   # Run for PRs on main and staging
   pull_request:
     branches:
