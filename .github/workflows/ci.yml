@@ -4,10 +4,7 @@ name: CI
 # Defines when this action should be run
 on:
   # Run on any Push
-  push:
-    branches:
-      - master
-      - staging
+  push: {}
   pull_request:
     branches:
       - main
