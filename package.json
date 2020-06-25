@@ -18,7 +18,7 @@
     "lint:alex": "alex content/ -q",
     "lint": "concurrently 'yarn lint:links' 'yarn lint:markdown' 'yarn lint:spelling' 'yarn lint:alex'",
     "lint:links": "jest ./src/tests/*",
-    "lint:markdown": "markdownlint -c markdownlintrc.json ./content ./templates",
+    "lint:markdown": "markdownlint -c markdownlintrc.json ./content --fix",
     "lint:spelling": "yarn lint:spelling:interactive -r",
     "lint:spelling:interactive": "mdspell 'content/**/*.md' README.md CONTRIBUTING.md -a -n --en-us -d dictionaries/en_US",
     "pull": "node -e 'require(\"./src/scripts/pull.js\").pull()'",

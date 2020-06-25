@@ -6,8 +6,7 @@ on:
   # Run on any Push
   push: {}
   # Run for PRs on main and staging
-  pull_request:
-    branches: [ main, staging ]
+  pull_request: {}
 
 env:
   CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"

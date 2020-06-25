@@ -7,6 +7,7 @@ import referenceLinks from 'remark-reference-links'
 import fs from 'fs-extra'
 import path from 'path'
 import yaml from 'js-yaml'
+import { exec } from 'child_process'
 
 // Let's use dotenv to also read .env files
 import dotenv from 'dotenv'
@@ -20,8 +21,8 @@ const run = async () => {
   const repository = process.env.REPOSITORY
   const template = process.env.TEMPLATE
 
-  // get the latest releases
-  const releases = await getLatestReleases(repository)
+  // get all the non-prerelease releases
+  const releases = (await getAllReleases(repository)).filter(release => !release.prerelease)
   // determine the current release
   const [release, previousRelease] = getRelevantReleases(releases, tag)
   // determine the increment between this and the previous release
@@ -32,12 +33,14 @@ const run = async () => {
   const title = util.format(template, release.tag_name)
   const slug = uslug(title)
   const filename = `content/${year}/${month}-${day}-${slug}.md`
-  const markdown = parse(release.body)
+  let markdown = parse(release.body)
+  markdown = relativeToAbsoluteUrl(markdown, repository)
+  markdown = codifyHashes(markdown)
 
   // build up the frontmatter
   const frontmatter = yaml.dump({
     applied_at: `${year}-${month}-${day}`,
-    applies_to: process.env.TAGS,
+    applies_to: process.env.TAGS.split(','),
     is_impactful: impactful,
     is_new_feature: newFeature,
     source_url: release.html_url
@@ -47,11 +50,15 @@ const run = async () => {
 
   fs.ensureDirSync(path.dirname(filename))
   fs.writeFileSync(filename, content)
+
+  exec('yarn lint:markdown')
 }
 
-const getLatestReleases = async (repository) => {
-  const response = await axios.get(`https://api.github.com/repos/${repository}/releases`)
-  return response.data
+const getAllReleases = async (repository, page=1) => {
+  const response = await axios.get(`https://api.github.com/repos/${repository}/releases?page=${page}`)
+  const releases = response.data
+  if (releases.length === 0) { return releases }
+  else return [...releases, ...(await getAllReleases(repository, page+1))]
 }
 
 const getRelevantReleases = (releases, tag) => {
@@ -72,32 +79,20 @@ const determineImpact = (currentRelease, previousRelease) => {
   return [isNewFeature(previousVersion, currentVersion), isImpactful(previousVersion, currentVersion)]
 }
 
-const parse = (body) => remark().use(referenceLinks).use(github).processSync(body)
+const parse = (body) => String(remark()
+  .use(referenceLinks)
+  .use(github)
+  .processSync(body))
 
-/// const write = (entry, previousEntry) => {
+const relativeToAbsoluteUrl = (content, repository) => {
+  const regex = /\[(\d+)\]: \.\/(.*)/g
+  return content.replace(regex, `[$1]: https://github.com/${repository}/blob/master/$2`)
+}
 
-
-//   const body = entry.body
-//     .replace(/https:\/\/github.com\/.*\/.*\/compare\/(v\d+\.\d+\.\d+\.\.\.v\d+\.\d+\.\d+)/g, `[$1]($&)`)
-//     .replace(/#(\d+)/g, `[$&](https://github.com/${org}/${repo}/pull/$1)`)
-//     .replace(/[^[](\b[0123456789abcdef]{7}\b)/g, `[$1](https://github.com/${org}/${repo}/commit/$1)`)
-    
-//   const oldVersion = previousEntry ? previousEntry.tag_name.replace('v', '') : '0.0.0'
-//   const newVersion = entry.tag_name.replace('v', '')
-
-//   const frontmatter = yaml.dump({
-//     applied_at: `${year}-${month}-${day}`,
-//     applies_to: tags,
-//     is_impactful: isImpactful(oldVersion, newVersion),
-//     is_new_feature: isNew(oldVersion, newVersion),
-//     source_url: entry.html_url
-//   })
-
-//   const content = `---\n${frontmatter}---\n\n# ${title}\n\n${body}`
-
-//   fs.ensureDirSync(path.dirname(filename))
-//   fs.writeFileSync(filename, content)
-// }
+const codifyHashes = (content) => {
+  const regex = /\[([abcdef0123456789]{7})\]/g
+  return content.replace(regex, `[\`$1\`]`)
+}
 
 const isImpactful = (oldVersion, newVersion) => {
   const [oMajor] = oldVersion.split('.')
