@@ -4,13 +4,10 @@ name: Import
 on:
   repository_dispatch:
     types: 
-      - release
-
-env:
-  CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"
+      - new-release-note
 
 jobs:
-  import:
+  ImportNewReleaseNote:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -34,10 +31,6 @@ jobs:
         run: |
           yarn install
           yarn import:release
-      
-      - name: Lint the new content
-        run: |
-          yarn test
 
       - name: Create a new Pull Request
         uses: peter-evans/create-pull-request@v2
