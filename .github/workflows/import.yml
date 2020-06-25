@@ -12,11 +12,28 @@ jobs:
     timeout-minutes: 10
 
     steps:
-    - name: Send Slack notification
-      uses: Ilshidur/action-slack@2.0.2
-      env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_USERNAME: GitHub Actions
-        SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
-      with:
-        args: "@box/box-developer-changelog received an update for version ${{ github.event.client_payload.ref }} from @${{ github.event.client_payload.repository }}"
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Fetch the new release note
+        env:
+          REF: ${{ github.event.client_payload.ref }}
+          REPOSITORY: ${{ github.event.client_payload.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAGS: ${{ github.event.client_payload.tags }}
+        run: |
+          yarn install
+          yarn import:release
+      
+      - name: Create a new Pull Request
+        uses: peter-evans/create-pull-request@v2
+      
+      - name: Send Slack notification
+        uses: Ilshidur/action-slack@2.0.2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: GitHub Actions
+          SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
+        with:
+          args: "@box/box-developer-changelog received notification of ${{ github.event.client_payload.ref }} from @${{ github.event.client_payload.repository }}"
+          

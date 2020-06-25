@@ -24,7 +24,8 @@
     "pull": "node -e 'require(\"./src/scripts/pull.js\").pull()'",
     "prebuild": "yarn clean",
     "pretest": "yarn pull",
-    "test": "yarn lint"
+    "test": "yarn lint",
+    "import:release": "node --experimental-modules importer/import.mjs"
   },
   "dependencies": {
     "alex": "^8.1.1",
@@ -37,6 +38,9 @@
     "js-yaml": "^3.14.0",
     "markdown-spellcheck": "^1.3.1",
     "markdownlint-cli": "^0.23.1",
+    "remark": "^12.0.0",
+    "remark-github": "^9.0.1",
+    "remark-reference-links": "^5.0.0",
     "sha1-from-file": "^2.0.1",
     "uslug": "^1.0.4"
   }
