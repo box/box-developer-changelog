@@ -41,7 +41,6 @@ jobs:
           branch: "${{github.event.client_payload.repository}}/${{steps.split.outputs._2}}"
           author: 'Box DevRel <devrel@box.com>'
           committer	: 'Box DevRel <devrel@box.com>'
-          labels: automerge
 
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
