@@ -16,7 +16,7 @@ axios.defaults.headers.common['Authorization'] = `token ${process.env.GITHUB_TOK
 
 const run = async () => {
   // parse the tag version and repository name
-  const tag = process.env.REF.split('tags/')[1]
+  const tag = process.env.TAG
   const repository = process.env.REPOSITORY
   const template = process.env.TEMPLATE
 

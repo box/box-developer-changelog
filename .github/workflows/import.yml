@@ -15,9 +15,15 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
 
+      - uses: jungwinter/split@v1
+        id: split
+        with:
+          msg: ${{ github.event.client_payload.ref }}
+          seperator: "/"
+
       - name: Fetch the new release note
         env:
-          REF: ${{ github.event.client_payload.ref }}
+          TAG: ${{ steps.split.outputs._2 }}
           REPOSITORY: ${{ github.event.client_payload.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAGS: ${{ github.event.client_payload.tags }}
@@ -28,6 +34,11 @@ jobs:
       
       - name: Create a new Pull Request
         uses: peter-evans/create-pull-request@v2
+        with:
+          commit-message: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
+          title: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
+          body: 'Automated pull request for @${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
+          branch: "${{github.event.client_payload.repository}}/${{steps.split.outputs._2}}"
       
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
