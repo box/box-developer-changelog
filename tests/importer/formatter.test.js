@@ -1,4 +1,4 @@
-import { Formatter } from '../importer/formatter'
+import { Formatter } from '../../src/Importer/formatter'
 
 describe('#constructor', () => {
   test('should store instance variables', () => {
@@ -39,7 +39,7 @@ describe('.format', () => {
 
     const { markdown, filename } = formatter.format({ currentRelease, previousRelease })
 
-    expect(filename).toEqual('content/2013/02-27-test-project-v110.md')
+    expect(filename).toEqual('2013/02-27-test-project-v110.md')
     expect(markdown).toEqual(`---
 applied_at: '2013-02-27'
 applies_to:
@@ -133,7 +133,7 @@ describe(`.determineImpact`, () => {
     const currentRelease = { tag_name: 'v0.0.1' }
     const previousRelease = null
     const { newFeature, impactful } = formatter.determineImpact({ currentRelease, previousRelease })
-    expect(newFeature).toBeTruthy()
-    expect(impactful).toBeTruthy()
+    expect(newFeature).toBeFalsy()
+    expect(impactful).toBeFalsy()
   })
 })

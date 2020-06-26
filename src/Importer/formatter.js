@@ -59,7 +59,7 @@ class Formatter {
    */
   sanitize(body) {
     let markdown = String(remark()
-      .use(github)
+      .use(github, { repository: this.repository })
       .use(referenceLinks)
       .processSync(body))
     
@@ -186,7 +186,7 @@ class Formatter {
   filename({ currentRelease, title }) {
     const [year, month, day] = currentRelease.published_at.split('T')[0].split('-')
     const slug = uslug(title)
-    return `content/${year}/${month}-${day}-${slug}.md`
+    return `${year}/${month}-${day}-${slug}.md`
   }
 }
 
