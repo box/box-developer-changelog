@@ -14,6 +14,8 @@ const padNestedMarkdownWithNewlines = (contents) => {
 }
 
 const padOpeningLines = (contents) => {
+  let match 
+
   while ((match = openRegex.exec(contents)) !== null) {
     const nextChars = contents.substring(openRegex.lastIndex, openRegex.lastIndex+2)
     const followedByClosingTag = (nextChars === '</')
@@ -31,6 +33,8 @@ const padOpeningLines = (contents) => {
 }
 
 const padClosingLines = (contents) => {
+  let match
+  
   while ((match = closeRegex.exec(contents)) !== null) {
     const prevChars = contents.substring(0, match.index)
     const precededByTwoNewLines = /\n\n$/.test(prevChars)

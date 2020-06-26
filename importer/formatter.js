@@ -45,13 +45,23 @@ class Formatter {
    * It automatically applies some transformations to the markdown.
    */
   markdown({ currentRelease, previousRelease, title }) {
-    // convert the body to markdown, appplying
-    // rules to convert github syntax to links, and extracting all 
-    // links to be reference links at the bottom of the file
+    const markdown = this.sanitize(currentRelease.body)
+    // determine the frontmatter foor the file
+    const frontmatter = this.frontmatter({ currentRelease, previousRelease })
+    // assemble the title, markdown, and frontmatter
+    return `---\n${frontmatter}---\n\n# ${title}\n\n${markdown}`
+  }
+
+  /**
+   * Convert the body to markdown, appplying
+   * rules to convert github syntax to links, and extracting all 
+   * links to be reference links at the bottom of the file} body 
+   */
+  sanitize(body) {
     let markdown = String(remark()
       .use(github)
       .use(referenceLinks)
-      .processSync(currentRelease.body))
+      .processSync(body))
     
     // convert any relative URLs to absolute URLs
     markdown = this.convertRelativeToAbsoluteUrls({ markdown })
@@ -61,11 +71,7 @@ class Formatter {
     markdown = this.codifyUsernames({ markdown })
     // apply markdown lint fixes
     markdown = this.fixMarkdown({ markdown })
-
-    // determine the frontmatter foor the file
-    const frontmatter = this.frontmatter({ currentRelease, previousRelease })
-    // assemble the title, markdown, and frontmatter
-    return `---\n${frontmatter}---\n\n# ${title}\n\n${markdown}`
+    return markdown
   }
 
   /**

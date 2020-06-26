@@ -1,6 +1,8 @@
 const regex = new RegExp(/< *[\w]* ?[^>]*>/, 'g')
 
 const expandSelfClosingTags = (contents) => {
+  let match
+  
   while ((match = regex.exec(contents)) !== null) {
     const precededByTicks = (contents.slice(0, match.index).split('`').length-1) % 2 === 1
     if (!precededByTicks) {
