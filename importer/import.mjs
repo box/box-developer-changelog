@@ -19,7 +19,8 @@ const run = async () => {
   // parse the tag version and repository name
   const tag = process.env.TAG
   const repository = process.env.REPOSITORY
-  const template = process.env.TEMPLATE
+  const repo_name = process.env.REPO_NAME
+  const template = `${repo_name} \`%s\` released`
 
   // get all the non-prerelease releases
   const releases = (await getAllReleases(repository)).filter(release => !release.prerelease)

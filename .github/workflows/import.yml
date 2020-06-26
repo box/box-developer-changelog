@@ -1,6 +1,17 @@
+# This workflow listens to the `new-release-note`
+# dispatch notification, and kicks off the import
+# of the release note entry for the repository and
+# and version provided in the dispatch notification
+# payload.
+#
+# It then creates a new pull request, which should is
+# then automerged with the `automerge` workflow once the
+# linting in the `ci` workflow passes.
+
 name: Import
 
 on:
+  # Only trigger for this notification
   repository_dispatch:
     types: 
       - new-release-note
@@ -11,38 +22,56 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # Check out the latest version of the code
       - name: Check out the repo
         uses: actions/checkout@v2
 
+      # Split the payload ref so we can parse the tag ID
       - uses: jungwinter/split@v1
         id: split
         with:
           msg: ${{ github.event.client_payload.ref }}
           seperator: "/"
 
+      # Use Node to fetch the latest release and store it as a new file
       - name: Fetch the new release note
         env:
+          # The tag of the new release
           TAG: ${{ steps.split.outputs._2 }}
+          # The name of the repository (e.g. box/box-node-sdk)
           REPOSITORY: ${{ github.event.client_payload.repository }}
+          # The access token used to authenticate to the GH API
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAGS: ${{ github.event.client_payload.tags }}
-          TEMPLATE: ${{ github.event.client_payload.template }}
+          # A list of labels to add to the markdown frontmatter
+          LABELS: ${{ github.event.client_payload.labels }}
+          # The name of the repository to use as a template for the title of the
+          # entry
+          REPO_NAME: ${{ github.event.client_payload.repo_name }}
         run: |
           yarn install
           yarn import:release
 
+      # Create a PR with the new content
       - name: Create a new Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
+          # Use a personal access token from box-devrel
+          # This allows for other workflows to be triggered by this PR
           token: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
+          # Specify the body, title, and commit message for this PR.
           commit-message: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           title: '@${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
           body: 'Automated pull request for @${{github.event.client_payload.repository}} ${{steps.split.outputs._2}} release note'
+          # Base the branch name off the repo name and tag
           branch: "${{github.event.client_payload.repository}}/${{steps.split.outputs._2}}"
+          # Make the commit appear to come from box-devrel
           author: 'Box DevRel <devrel@box.com>'
           committer	: 'Box DevRel <devrel@box.com>'
+          # Add a tag that marks the repo as auto-mergable
           labels: allow-automerge
 
+      # Send a slack notification to notify our team that a new release has been
+      # received.
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
         env:
