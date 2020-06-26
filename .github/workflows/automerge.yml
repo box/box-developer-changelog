@@ -1,3 +1,8 @@
+# This workflow listens to any new labels being added to
+# a Pull Request. When the `automerge` label is added, it
+# checks if all required checks pass and automerges the
+# pull request.
+
 name: Auto Merge PRs
 
 on:
@@ -9,8 +14,19 @@ jobs:
   merge-pr:
     runs-on: ubuntu-latest
     steps:
-      - name: Auto-merge pull requests that pass tests
-        uses: "pascalgn/automerge-action@4536e8847eb62fe2f0ee52c8fa92d17aa97f932f"
+      - name: Auto-merge pull requests that pass CI tests
+        uses: "pascalgn/automerge-action@v0.8.4"
         env:
+          # Use the default GITHUB_TOKEN
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          # Prefer a squash merge
           MERGE_METHOD: squash
+          # Requrie the automerge label to be present
+          MERGE_LABELS: automerge
+          # Remove all labels after the fact
+          MERGE_REMOVE_LABELS: "automerge, allow-automerge"
+          # Delete the branch after merging
+          MERGE_DELETE_BRANCH: true
+          # Only allow this for the box-devrel user. This prevents
+          # abuse of the `automerge` label.
+          MERGE_FILTER_AUTHOR: "box-devrel"
