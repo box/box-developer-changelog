@@ -45,7 +45,7 @@ jobs:
 
     - name: Apply the automerge label if all tests pass
       uses: christianvuerings/add-labels@v1
-      # if: contains(github.event.pull_request.labels.*.name, 'allow-automerge')
+      if: ${{ contains(github.event.pull_request.labels.*.name, 'allow-automerge') }}
       with:
         labels: automerge
       env:
