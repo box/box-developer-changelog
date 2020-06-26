@@ -43,6 +43,14 @@ jobs:
         yarn install
         yarn test
 
+    - name: Apply the automerge label if all tests pass
+      uses: christianvuerings/add-labels@v1
+      if: contains(github.event.pull_request.labels.*.name, 'allow-automerge')
+      with:
+        labels: automerge
+      env:
+        GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
+        
     - name: Send Slack notification
       uses: Ilshidur/action-slack@2.0.2
       env:
@@ -51,6 +59,7 @@ jobs:
         SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
       with:
         args: "Changelog passed linting and testing"
+
 
   # The deploy task actually deploys any changes to the en branch
   deploy:
