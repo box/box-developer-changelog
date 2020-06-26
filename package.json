@@ -25,7 +25,7 @@
     "prebuild": "yarn clean",
     "prelint": "yarn pull",
     "test": "jest ./tests/* --coverage --collectCoverageFrom=src/Importer/**/*.js --coverageReporters=html --coverageReporters=text",
-    "import:release": "babel-node -e 'require(\"./src/importer/\").default().importRelease()'"
+    "import:release": "babel-node -e 'let Importer = require(\"./src/importer/\").default; new Importer().importRelease({ destination: \"./content\" })'"
   },
   "dependencies": {
     "@babel/node": "^7.10.3",
