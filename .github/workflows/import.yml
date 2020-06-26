@@ -46,7 +46,7 @@ jobs:
           LABELS: ${{ github.event.client_payload.labels }}
           # The name of the repository to use as a template for the title of the
           # entry
-          REPO_NAME: ${{ github.event.client_payload.repo_name }}
+          REPO_DISPLAY_NAME: ${{ github.event.client_payload.repo_display_name }}
         run: |
           yarn install
           yarn import:release
