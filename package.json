@@ -24,8 +24,7 @@
     "pull": "node -e 'require(\"./src/scripts/pull.js\").pull()'",
     "prebuild": "yarn clean",
     "pretest": "yarn pull",
-    "test": "yarn lint",
-    "test:compiler": "jest ./tests/*",
+    "test": "jest ./tests/*",
     "import:release": "node  importer/import.js"
   },
   "dependencies": {

@@ -48,7 +48,7 @@ jobs:
         # Install the dependencies and run the linter
         run: |
           yarn install
-          yarn test
+          yarn lint
 
       # If this is a PR with the `allow-automerge` label, then apply the
       # `automerge` label after linting passes.
@@ -61,8 +61,6 @@ jobs:
         # This allows for other workflows to be triggered by this label being added
         env:
           GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
-
-            uses: actions/checkout@v2
 
       # Split the payload ref so we can parse the branch name
       - uses: jungwinter/split@v1
