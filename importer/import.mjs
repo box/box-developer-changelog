@@ -41,7 +41,7 @@ const run = async () => {
   // build up the frontmatter
   const frontmatter = yaml.dump({
     applied_at: `${year}-${month}-${day}`,
-    applies_to: process.env.TAGS.split(','),
+    applies_to: process.env.LABELS.split(','),
     is_impactful: impactful,
     is_new_feature: newFeature,
     source_url: release.html_url
