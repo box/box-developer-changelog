@@ -1,7 +1,14 @@
-# The name of this GH action 
+# This workflow listens to new pushes to 
+# the main and staging branches, as well as
+# pull requests to those branches. 
+#
+# It then runs all our linters on this content 
+# and then applies to `automerge` label for any pull
+# request created by `box-devrel` with the `allow-automerge`
+# label.
+
 name: CI
 
-# Defines when this action should be run
 on:
   push: 
     branches:
@@ -12,91 +19,121 @@ on:
       - main
       - staging
 
-env:
-  CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"
-
 jobs:
-  # The lint job checks that all content is sanitized, 
-  # spell checked, and without any obvious dead links
+  # Lint the content and trigger an auto merge on a pull request
   lint:
-    # We run this on the latest ubuntu
     runs-on: ubuntu-latest
     timeout-minutes: 3
 
-    # We use node 14.X
     strategy:
       matrix:
         node-version: [14.x]
 
-    # The following steps are performed for each lint job 
     steps:
-    - name: Check out the repo
-      uses: actions/checkout@v2
-
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Lint the content
-      run: |
-        yarn install
-        yarn test
-
-    - name: Apply the automerge label if all tests pass
-      uses: christianvuerings/add-labels@v1
-      if: ${{ contains(github.event.pull_request.labels.*.name, 'allow-automerge') }}
-      with:
-        labels: automerge
-      env:
-        GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
-        
-    - name: Send Slack notification
-      uses: Ilshidur/action-slack@2.0.2
-      env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_USERNAME: GitHub Actions
-        SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
-      with:
-        args: "Developer Changelog: linting and testing passed"
-
-
-  # The deploy task actually deploys any changes to the en branch
-  deploy:
-    # We run this on the latest ubuntu
-    runs-on: ubuntu-latest
-    timeout-minutes: 3
-
-    # Only run for the main branch
-    if: github.ref == 'refs/heads/main'
-
-    # We use node 14.X
-    strategy:
-      matrix:
-        node-version: [14.x]
-
-    # Requires the lint and test jobs to pass first
-    needs: 
-      - lint
-
-    # The following steps are performed for each lint job 
-    steps:
+      # Check out the current branch
       - name: Check out the repo
         uses: actions/checkout@v2
 
+      # Set up Node JS
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # Perform a lint of the content
+      - name: Lint the content
+        # Pull in the guides from the `en` branch for link validation
+        env:
+          CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"
+        # Install the dependencies and run the linter
+        run: |
+          yarn install
+          yarn test
+
+      # If this is a PR with the `allow-automerge` label, then apply the
+      # `automerge` label after linting passes.
+      - name: Apply the automerge label if needed
+        uses: christianvuerings/add-labels@v1
+        if: ${{ contains(github.event.pull_request.labels.*.name, 'allow-automerge') }}
+        with:
+          labels: automerge
+        # Use a personal access token from box-devrel
+        # This allows for other workflows to be triggered by this label being added
+        env:
+          GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
+
+            uses: actions/checkout@v2
+
+      # Split the payload ref so we can parse the branch name
+      - uses: jungwinter/split@v1
+        id: split
+        with:
+          msg: ${{ github.ref }}
+          seperator: "/"
+      
+      # Finally, send a slack notification to the team to warn them of the new changes.
+      - name: Send Slack notification
+        uses: Ilshidur/action-slack@2.0.2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: GitHub Actions
+          SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
+        with:
+          args: "Developer Changelog: linting and testing passed ${{steps.split.outputs._2}}"
+
+
+  # Deploy any new changes from the `main` / `staging` branches to the 
+  # `en` and `en-staging` branches.
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    # Being extra explicit, we only want this to run on the main and staging branches.
+    if: (github.ref == 'refs/heads/main') || github.ref == 'refs/heads/staging'
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    # Requires the lint job to pass first
+    needs: 
+      - lint
+
+    steps:
+      # Check out the current branch
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      # Compile the content to the build folder
       - name: Compile the content
         run: |
           yarn install
           yarn build
 
+      # Determine the name of the branch to deploy to
+      - uses: haya14busa/action-cond@v1
+        id: branch
+        with:
+          cond: ${{ github.ref == 'refs/heads/main' }}
+          if_true: "en"
+          if_false: "en-staging"
+
+      # Push the new build to the correct branch
       - name: Push compiled content
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
+          # This should not trigger any additional workflows, so we use
+          # the generic token
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: en
+          # The branch is the output of the previous step
+          BRANCH: ${{ steps.branch.outputs.value }}
+          # We push the compiled forlder
           FOLDER: compiled
+          # And we clean up after ourselves
           CLEAN: true
 
+      # Send a slack notification to notify our team that a new release has been
+      # received.
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
         env:
@@ -104,48 +141,4 @@ jobs:
           SLACK_USERNAME: GitHub Actions
           SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
         with:
-          args: "Developer Changelog: Pushed latest markdown to `en` branch :rocket:"
-
-  
-  # The deploy task actually deploys any changes to the en-staging branch
-  deploy-staging:
-    # We run this on the latest ubuntu
-    runs-on: ubuntu-latest
-
-    # Only run for the staging branch
-    if: github.ref == 'refs/heads/staging'
-
-    # We use node 14.X
-    strategy:
-      matrix:
-        node-version: [14.x]
-
-    # Requires the lint and test jobs to pass first
-    needs: 
-      - lint
-
-    # The following steps are performed for each lint job 
-    steps:
-      - name: Check out the repo
-        uses: actions/checkout@v2
-
-      - name: Compile the content
-        run: |
-          yarn install
-          yarn build
-
-      - name: Push compiled content
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: en-staging
-          FOLDER: compiled
-
-      - name: Send Slack notification
-        uses: Ilshidur/action-slack@2.0.2
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_USERNAME: GitHub Actions
-          SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
-        with:
-          args: "Developer Changelog: Pushed latest markdown to `en-staging` branch :rocket:"
+          args: "Developer Changelog: Pushed latest markdown to ` ${{ steps.branch.outputs.value }}` branch :rocket:"
