@@ -1,0 +1,33 @@
+# Acttually run tests to check the compilers behave correctly
+name: Test Code
+
+on:
+  push: 
+    branches:
+      - main
+      - staging
+  pull_request:
+    branches:
+      - main
+      - staging
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Test compiler
+        run: |
+          yarn install
+          yarn test
+
+      - name: Lint code base using GH super linter
+        uses: docker://github/super-linter:v2.2.0

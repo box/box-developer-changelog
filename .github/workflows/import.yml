@@ -8,7 +8,7 @@
 # then automerged with the `automerge` workflow once the
 # linting in the `ci` workflow passes.
 
-name: Import
+name: Import Releases
 
 on:
   # Only trigger for this notification
@@ -17,7 +17,7 @@ on:
       - new-release-note
 
 jobs:
-  ImportNewReleaseNote:
+  import:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 

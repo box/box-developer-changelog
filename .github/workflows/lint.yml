@@ -7,7 +7,7 @@
 # request created by `box-devrel` with the `allow-automerge`
 # label.
 
-name: CI
+name: Lint & Deploy
 
 on:
   push: 

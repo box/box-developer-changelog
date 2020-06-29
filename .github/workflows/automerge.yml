@@ -11,7 +11,7 @@ on:
       - labeled
 
 jobs:
-  merge-pr:
+  automerge:
     runs-on: ubuntu-latest
     steps:
       - name: Auto-merge pull requests that pass CI tests
