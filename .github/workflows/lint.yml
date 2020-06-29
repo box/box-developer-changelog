@@ -72,12 +72,13 @@ jobs:
       # Finally, send a slack notification to the team to warn them of the new changes.
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
+        if: ${{ github.ref == 'refs/heads/master' }}
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_USERNAME: GitHub Actions
           SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
         with:
-          args: "Developer Changelog: linting and testing passed ${{steps.split.outputs._2}}"
+          args: "Developer Changelog: linting and testing"
 
 
   # Deploy any new changes from the `main` / `staging` branches to the 
