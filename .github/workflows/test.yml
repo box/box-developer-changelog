@@ -1,5 +1,12 @@
-# Acttually run tests to check the compilers behave correctly
-name: Test Code
+# This workflow listens to new pushes to 
+# the main and staging branches, as well as
+# pull requests to those branches. 
+#
+# It then runs all our tests for the content compilers
+# to make sure content is still compiled from source
+# markdown correctly
+
+name: Tests
 
 on:
   push: 
@@ -21,13 +28,12 @@ jobs:
         node-version: [14.x]
 
     steps:
+      # First check out the repo
       - name: Check out the repo
         uses: actions/checkout@v2
 
+      # Then make sure all tests pass
       - name: Test compiler
         run: |
           yarn install
           yarn test
-
-      - name: Lint code base using GH super linter
-        uses: docker://github/super-linter:v2.2.0

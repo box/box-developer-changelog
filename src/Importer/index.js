@@ -1,8 +1,8 @@
 import dotenv from 'dotenv'
 
 import { GitHub } from './github'
-import { Formatter } from './Formatter'
-import { Writer } from './Writer'
+import { Formatter } from './formatter'
+import { Writer } from './writer'
 
 // Dotenv used in development mode
 dotenv.config()
