@@ -50,6 +50,11 @@ jobs:
           yarn install
           yarn lint
 
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT" 
+        
       # If this is a PR with the `allow-automerge` label, then apply the
       # `automerge` label after linting passes.
       - name: Apply the automerge label if needed

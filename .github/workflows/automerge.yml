@@ -17,8 +17,10 @@ jobs:
       - name: Auto-merge pull requests that pass CI tests
         uses: "pascalgn/automerge-action@v0.8.4"
         env:
-          # Use the default GITHUB_TOKEN
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          # Use the DISPATCH_ACCESS_TOKEN again, as we will want to doo this as
+          # the box-devrel user. Without this token, a merg won't trigger an
+          # automatic deploy to the `en` branch.
+          GITHUB_TOKEN: "${{ secrets.DISPATCH_ACCESS_TOKEN }}"
           # Prefer a squash merge
           MERGE_METHOD: squash
           # Requrie the automerge label to be present
