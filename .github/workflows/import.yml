@@ -25,6 +25,10 @@ jobs:
       # Check out the latest version of the code
       - name: Check out the repo
         uses: actions/checkout@v2
+        with:
+          # always use the main branch. This allows us to re-reun
+          # a failed import with new code
+          ref: main
 
       # Split the payload ref so we can parse the tag ID
       - uses: jungwinter/split@v1
