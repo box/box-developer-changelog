@@ -3,6 +3,7 @@
 [![Project Status][opensource_img]][opensource]
 [![Project
 Status](https://opensource.box.com/badges/active.svg)](http://opensource.box.com/badges)
+![Test Code](https://github.com/box/box-developer-changelog/workflows/Test%20Code/badge.svg)
 
 This project contain the markdown source for all release notes for Box Platform,
 including the APIs, SDKs, UI elements, and CLI.
