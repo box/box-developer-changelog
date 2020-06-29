@@ -2,7 +2,7 @@ import fs, { removeSync } from 'fs-extra'
 import axios from 'axios'
 import nock from 'nock'
 
-import Importer from '../../src/importer'
+import Importer from '../../src/Importer'
 
 axios.defaults.adapter = require('axios/lib/adapters/http')
 
