@@ -71,8 +71,6 @@ jobs:
           # Make the commit appear to come from box-devrel
           author: 'Box DevRel <devrel@box.com>'
           committer	: 'Box DevRel <devrel@box.com>'
-          # Add a tag that marks the repo as auto-mergable
-          labels: allow-automerge
 
       # Send a slack notification to notify our team that a new release has been
       # received.

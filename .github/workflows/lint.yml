@@ -49,17 +49,12 @@ jobs:
         run: |
           yarn install
           yarn lint
-
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT" 
         
-      # If this is a PR with the `allow-automerge` label, then apply the
+      # If this is a PR by `box-devrel`, then apply the
       # `automerge` label after linting passes.
       - name: Apply the automerge label if needed
         uses: christianvuerings/add-labels@v1
-        if: ${{ contains(github.event.pull_request.labels.*.name, 'allow-automerge') }}
+        if: ${{ github.event_name == 'pull_request' && github.actor == 'box-devrel' }}
         with:
           labels: automerge
         # Use a personal access token from box-devrel
