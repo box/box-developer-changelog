@@ -1,9 +1,7 @@
 # Box Developer Changelog
 
+[![Tests][cibadge]][cilink]
 [![Project Status][opensource_img]][opensource]
-[![Project
-Status](https://opensource.box.com/badges/active.svg)](http://opensource.box.com/badges)
-![Tests](https://github.com/box/box-developer-changelog/workflows/Tests/badge.svg)
 
 This project contain the markdown source for all release notes for Box Platform,
 including the APIs, SDKs, UI elements, and CLI.
@@ -36,5 +34,7 @@ specific language governing permissions and limitations under the License.
 [contrib]: CONTRIBUTING.md
 [boxdev]: https://developer.box.com/changelog
 [opensource]: http://opensource.box.com/badges
+[cibadge]: https://github.com/box/box-developer-changelog/workflows/Tests/badge.svg
+[cilink]: https://github.com/box/box-developer-changelog/actions?query=workflow%3ATests
 
 [opensource_img]: https://opensource.box.com/badges/active.svg

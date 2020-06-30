@@ -140,4 +140,4 @@ jobs:
           SLACK_USERNAME: GitHub Actions
           SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
         with:
-          args: "Developer Changelog: Pushed latest markdown to ` ${{ steps.branch.outputs.value }}` branch :rocket:"
+          args: "Developer Changelog: Pushed latest markdown to `${{ steps.branch.outputs.value }}` branch :rocket:"
