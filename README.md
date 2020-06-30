@@ -23,7 +23,24 @@ to the source of this project.
 1. [Adding a new release note](./docs/add-release-note.md)
 1. [Contributing a pull request](./docs/pull-request.md)
 1. [Markdown style guide](./docs/markdown.md)
-1. [Release note templates](./docs/templates.md)
+
+### Quick Start & Templates
+
+The quickest way to start adding a new release note is to use the build in
+templates and generator.
+
+```
+git clone git@github.com:box/box-developer-changelog.git box-developer-changelog
+cd box-developer-changelog
+yarn install
+cp .env.example .env
+yarn new
+```
+
+The `yarn new` command will take you through a set of questions and will then
+create a new entry based on the [standard](./templates/standard.md) template. A
+[short](..templates/short.md) template is also available when working with more
+complex changes. 
 
 ## Automatic contributions
 

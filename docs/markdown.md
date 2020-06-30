@@ -7,7 +7,7 @@
 The following guidance will help you pass all spell checks and other common
 issues when working with Markdown.
 
-## Limit line length.
+## Limit line length
 
 We enforce a maximum line length of 80 characters. In general this is enough for
 most people to easily read the content. Most advanced code editors allow for
