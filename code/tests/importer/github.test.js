@@ -24,7 +24,7 @@ describe('.relevantReleases', () => {
   let tag = null
   let token = null
   let github = null
-  let releases = JSON.parse(fs.readFileSync('./tests/importer/releases.json'))
+  let releases = JSON.parse(fs.readFileSync('./code/tests/importer/releases.json'))
 
   beforeEach(() => {
     repository = 'cbetta/actions-test'

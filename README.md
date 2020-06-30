@@ -9,13 +9,54 @@ including the APIs, SDKs, UI elements, and CLI.
 Visit [`developer.box.com/changelog`][boxdev] to see the latest changes in Box
 Platform.
 
-## Contributing
+## Manual contributions
 
-To add or edit any of the guides, please have a look at the
+To edit any of the existing release notes, please have a look at the
 [`./content`](./content) folder.
 
-For more details on adding to this project, please see the
-[CONTRIBUTING.md][contrib] guide.
+Please follow the [contribution guidelines](./CONTRIBUTING.md) when contributing
+to the source of this project.
+
+1. [Installation & setup](./docs/index.md)
+1. [Notes for Box employees](./docs/boxers.md)
+1. [The project structure](./docs/structure.md)
+1. [Adding a new release note](./docs/add-release-note.md)
+1. [Contributing a pull request](./docs/pull-request.md)
+1. [Markdown style guide](./docs/markdown.md)
+1. [Release note templates](./docs/templates.md)
+
+## Automatic contributions
+
+This project has been set up to automatically pull in new release notes from the
+[Box CLI, Java, Windows, and .NET SDKs, and UI
+elements](https://github.com/box/sdks).
+
+When a new GitHub release is created for one of these repositories, a GitHub
+Action will send a notification to this repository which will trigger off
+another GitHub action in this project that pulls in the content and opens a new
+Pull Request.
+
+Once the pull request is created, another process will kick off to test and lint
+the new content and automatically merge the pull request. This new content will
+then be compiled and pushed to the `en` branch, where it will be picked up by
+Netlify to be combined with all other developer content and pushed to
+[`developer.box.com`](https://developer.box.com).
+
+<details>
+  <summary>A flow chart of this process</summary>
+  
+  ![Flow chart of new releases](./docs/flowchart.svg)
+
+</details>
+
+## Translation
+
+The content in this repository is automatically translated to Japanese by our
+in-house translation team. Once a day a snapshot will be made from the `en` to
+the `en-snapshot` branch. Then, once translated, the new Japanese content is
+pushed to the `jp` branch where it is picked up by Netlify and combined with all
+other translated content and pushed to
+[`ja.developer.box.com`](https://ja.developer.box.com).
 
 ## Usage & License
 
@@ -23,7 +64,7 @@ Copyright 2020 Box, Inc. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
 this file except in compliance with the License. You may obtain a copy of the
-License at http://www.apache.org/licenses/LICENSE-2.0.
+License at <http://www.apache.org/licenses/LICENSE-2.0>.
 
 Unless required by applicable law or agreed to in writing, software distributed
 under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR

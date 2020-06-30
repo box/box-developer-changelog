@@ -33,7 +33,7 @@ describe('.importRelease', () => {
   })
 
   test('should create a new release', async (done) => {
-    const releases = JSON.parse(fs.readFileSync('./tests/importer/releases.json'))
+    const releases = JSON.parse(fs.readFileSync('./code/tests/importer/releases.json'))
 
     process.env.REPOSITORY = 'cbetta/actions-test'
     process.env.REPO_DISPLAY_NAME = 'Test'

@@ -1,0 +1,35 @@
+sequenceDiagram
+	participant R as SDKs/CLI
+  participant C as Changelog
+  participant N as Netlify
+
+  Activate R
+  Note over R: New GitHub Release created
+  R ->> R: New release triggers "notify" GitHub action
+  R ->> C: Sends dispatch notification
+  Deactivate R
+  Activate C
+  C ->> C: Notification trigger "import" GitHub action
+  R -->> C: Import release note via GitHub API
+  Note over C: Write release note to file
+  Note over C: Create new Pull Request
+  C ->> C: New PR triggers "lint" GitHub action
+  Note over C: Lints content
+  Note over C: Add "automerge" label to PR if tests pass
+  C ->> C: New label triggers "automerge" GitHub action
+  Note over C: Merge pull request
+  C -> C: Merge triggers "Lint & Deploy" GitHub action
+  Note over C: Lint merged content
+  Note over C: Sanitize and compile content
+  Note over C: Push compiled content to `en` branch
+  C ->> N: Push to `en` branch triggers new Netlify build
+  Deactivate C
+  Activate N
+  C -->> N: Pull in all release notes
+  Note over N: Build out new dev docs site
+  Note over N: Push new build to Netlify CDN
+  Deactivate N
+
+
+
+					
