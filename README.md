@@ -29,7 +29,7 @@ to the source of this project.
 The quickest way to start adding a new release note is to use the build in
 templates and generator.
 
-```
+```bash
 git clone git@github.com:box/box-developer-changelog.git box-developer-changelog
 cd box-developer-changelog
 yarn install
