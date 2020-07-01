@@ -89,3 +89,25 @@ names.
 | Add `owner` Field to Files | Add `owner` field to files |
 | Allow File API To Use JWT  | Allow file API to use JWT  |
 | Box CLI `3.0.0` Release    | Box CLI `3.0.0` release    |
+
+## Don't use bare URLs
+
+Ideally, don't use bare URLs.
+
+```md
+For more help go to https://developer.box.com/support
+```
+
+Instead, use links and a descriptive text.
+
+```md
+For more help go to [our support page](https://developer.box.com/support).
+```
+
+If really needed, you can remove the scheme and `www` from a URL, and link to it
+as follows.
+
+```md
+After running the command, the new content will be 
+available on [`locahost:8000`](http://localhost:8000/)
+```
