@@ -117,6 +117,15 @@ jobs:
           if_true: "en"
           if_false: "en-staging"
 
+      # Determine the netlify webhook to call
+      - uses: haya14busa/action-cond@v1
+        id: netlify_webhook
+        with:
+          cond: ${{ steps.branch.outputs.value == 'en' }}
+          if_true: ${{ secrets.NETLIFY_BOXDEV_WEBHOOK }}
+          if_false: ${{ secrets.NETLIFY_BOXDEV_STAGING_WEBHOOK }}
+
+
       # Push the new build to the correct branch
       - name: Push compiled content
         uses: s0/git-publish-subdir-action@develop
@@ -125,6 +134,12 @@ jobs:
           BRANCH: ${{ steps.branch.outputs.value }}
           FOLDER: compiled
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 'Trigger Netlify deployment'
+        uses: jasongitmail/fast-webhook@v1
+        with:
+          url: ${{ steps.branch.netlify_webhook.value }}
+          json: '{}'
 
       # Send a slack notification to notify our team that a new release has been
       # received.
