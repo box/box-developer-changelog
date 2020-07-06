@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2018-02-01-java-sdk-v2120-release
 previous_page_id: 2018-01-25-java-sdk-v2110-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/01-31-windows-net-sdk-v342-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/01-31-windows-net-sdk-v342-release.md
 ---
 # Windows .NET SDK `v3.4.2` release
 

@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2019-10-25-new-fields-for-file-versions
 previous_page_id: 2019-10-24-java-sdk-v2410-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/10-24-python-sdk-v261-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/10-24-python-sdk-v261-release.md
 ---
 # Python SDK `v2.6.1` release
 

@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2020-03-30-potential-impactful-changes-to-format-of-metadata-date-fields
 previous_page_id: 2020-02-25-windows-net-sdk-v3220-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2020/03-30-change-to-metadata-instance-version.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/03-30-change-to-metadata-instance-version.md
 ---
 # Change to metadata instance version
 

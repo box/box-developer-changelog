@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2019-02-21-windows-net-sdk-v3131-release
 previous_page_id: 2019-02-15-python-sdk-v221-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/02-21-java-sdk-v2280-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/02-21-java-sdk-v2280-release.md
 ---
 # Java SDK `v2.28.0` release
 

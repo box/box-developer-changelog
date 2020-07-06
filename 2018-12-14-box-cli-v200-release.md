@@ -17,7 +17,7 @@ parent_id: changelog
 next_page_id: 2018-12-14-windows-net-sdk-v3100-release
 previous_page_id: 2018-12-13-java-sdk-v2250-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/12-14-box-cli-v200-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/12-14-box-cli-v200-release.md
 ---
 # Box CLI `v2.0.0` release
 

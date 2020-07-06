@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2019-10-17-java-sdk-v2390-release
 previous_page_id: 2019-09-19-java-sdk-v2380-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/09-19-windows-net-sdk-v3200-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/09-19-windows-net-sdk-v3200-release.md
 ---
 # Windows .NET SDK `v3.20.0` release
 

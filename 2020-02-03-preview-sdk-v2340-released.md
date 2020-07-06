@@ -17,7 +17,7 @@ parent_id: changelog
 next_page_id: 2020-02-13-box-ios-sdk-v400-released
 previous_page_id: 2020-01-22-python-sdk-v271-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2020/02-03-preview-sdk-v2340-released.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/02-03-preview-sdk-v2340-released.md
 ---
 # Preview SDK `v2.34.0` Released
 

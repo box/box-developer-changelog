@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2018-03-29-multiselect-field-type-added-to-metadata-templates
 previous_page_id: 2018-03-28-update-to-box-annotations
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/03-29-java-sdk-v2161-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/03-29-java-sdk-v2161-release.md
 ---
 # Java SDK `v2.16.1` release
 

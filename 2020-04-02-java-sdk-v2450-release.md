@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2020-04-09-java-sdk-v2460-release
 previous_page_id: 2020-04-01-node-sdk-v1320-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2020/04-02-java-sdk-v2450-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/04-02-java-sdk-v2450-release.md
 ---
 # Java SDK `v2.45.0` release
 

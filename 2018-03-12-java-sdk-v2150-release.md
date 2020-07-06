@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2018-03-13-update-to-box-annotations
 previous_page_id: 2018-03-05-update-to-box-annotations
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/03-12-java-sdk-v2150-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/03-12-java-sdk-v2150-release.md
 ---
 # Java SDK `v2.15.0` release
 

@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2020-01-20-refreshed-postman-collection-quick-start
 previous_page_id: ''
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2020/01-16-python-sdk-v270-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/01-16-python-sdk-v270-release.md
 ---
 # Python SDK `v2.7.0` release
 

@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2019-12-05-marker-based-pagination-support-for-users-api
 previous_page_id: 2019-11-26-box-ui-elements-v1102-released
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/12-03-preview-sdk-v2290-released.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/12-03-preview-sdk-v2290-released.md
 ---
 # Preview SDK `v2.29.0` Released
 

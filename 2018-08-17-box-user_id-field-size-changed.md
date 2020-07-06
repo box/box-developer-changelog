@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2018-08-21-add-new-action_by-field-to-enterprise-events
 previous_page_id: 2018-08-16-generic-method-added-to-the-salesforce-sdk
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/08-17-box-user_id-field-size-changed.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/08-17-box-user_id-field-size-changed.md
 ---
 # Box `user_id` field size changed
 

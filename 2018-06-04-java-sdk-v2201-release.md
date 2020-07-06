@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2018-06-07-windows-net-sdk-v391-release
 previous_page_id: 2018-05-24-java-sdk-v2200-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/06-04-java-sdk-v2201-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/06-04-java-sdk-v2201-release.md
 ---
 # Java SDK `v2.20.1` release
 

@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2018-12-12-collaborations-now-show-unregistered-users
 previous_page_id: 2018-11-16-java-sdk-v2240-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/12-05-enterprise-events-api-adds-created_by-for-supervisors.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/12-05-enterprise-events-api-adds-created_by-for-supervisors.md
 ---
 # Enterprise events API adds `created_by` for supervisors
 

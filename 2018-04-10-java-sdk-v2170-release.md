@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2018-04-11-box-cli-v120-release
 previous_page_id: 2018-03-29-multiselect-field-type-added-to-metadata-templates
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/04-10-java-sdk-v2170-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/04-10-java-sdk-v2170-release.md
 ---
 # Java SDK `v2.17.0` release
 

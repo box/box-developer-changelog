@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2018-09-05-annotations-available-for-excel-files-in-preview
 previous_page_id: 2018-08-23-java-sdk-v2230-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/09-04-windows-net-sdk-v393-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/09-04-windows-net-sdk-v393-release.md
 ---
 # Windows .NET SDK `v3.9.3` release
 

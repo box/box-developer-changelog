@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2019-10-23-new-shield-error-code
 previous_page_id: 2019-10-17-java-sdk-v2390-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/10-18-relay-api-endpoints-will-eol-on-december-31st-2019.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/10-18-relay-api-endpoints-will-eol-on-december-31st-2019.md
 ---
 # Relay API Endpoints will EOL on December 31st, 2019
 

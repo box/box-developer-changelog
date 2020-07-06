@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2018-02-28-breaking-change-to-metadata-apis
 previous_page_id: 2018-02-08-java-sdk-v2130-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/02-15-java-sdk-v2140-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/02-15-java-sdk-v2140-release.md
 ---
 # Java SDK `v2.14.0` release
 

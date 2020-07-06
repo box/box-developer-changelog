@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2018-01-31-windows-net-sdk-v342-release
 previous_page_id: 2018-01-12-java-sdk-v2100-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/01-25-java-sdk-v2110-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/01-25-java-sdk-v2110-release.md
 ---
 # Java SDK `v2.11.0` release
 

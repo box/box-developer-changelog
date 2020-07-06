@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2019-11-25-elements-v110-released
 previous_page_id: 2019-11-21-node-sdk-v1300-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/11-25-box-ui-elements-v1101-released.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/11-25-box-ui-elements-v1101-released.md
 ---
 # Box UI elements `v11.0.1` released
 

@@ -17,7 +17,7 @@ parent_id: changelog
 next_page_id: 2020-04-21-new-metadata-query-apis-available
 previous_page_id: 2020-04-09-java-sdk-v2460-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2020/04-21-box-cli-v251-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/04-21-box-cli-v251-release.md
 ---
 # Box CLI `v2.5.1` release
 

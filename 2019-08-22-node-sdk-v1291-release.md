@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2019-08-29-box-cli-v240-release
 previous_page_id: 2019-08-22-java-sdk-v2370-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/08-22-node-sdk-v1291-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/08-22-node-sdk-v1291-release.md
 ---
 # Node SDK `v1.29.1` release
 

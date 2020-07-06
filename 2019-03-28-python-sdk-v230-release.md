@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2019-03-28-windows-net-sdk-v3150-release
 previous_page_id: 2019-03-28-node-sdk-v1280-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/03-28-python-sdk-v230-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/03-28-python-sdk-v230-release.md
 ---
 # Python SDK `v2.3.0` release
 

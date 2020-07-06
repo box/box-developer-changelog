@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2019-11-09-box-ui-elements-v1100-released
 previous_page_id: 2019-10-25-new-fields-for-file-versions
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/10-25-new-parameters-for-search-api.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/10-25-new-parameters-for-search-api.md
 ---
 # New parameters for Search API
 

@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2019-01-18-windows-net-sdk-v3110-release
 previous_page_id: 2019-01-17-java-sdk-v2260-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/01-18-new-sidebar-ui-element-open-with-element-ga.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/01-18-new-sidebar-ui-element-open-with-element-ga.md
 ---
 # New Sidebar UI Element & Open With Element GA
 

@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2019-08-22-java-sdk-v2370-release
 previous_page_id: 2019-07-18-java-sdk-v2350-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/08-01-java-sdk-v2360-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/08-01-java-sdk-v2360-release.md
 ---
 # Java SDK `v2.36.0` release
 

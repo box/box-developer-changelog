@@ -19,7 +19,7 @@ parent_id: changelog
 next_page_id: 2018-06-25-update-to-the-box-cli
 previous_page_id: 2018-06-14-windows-net-sdk-v392-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/06-18-box-android-sdk-v420-released.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/06-18-box-android-sdk-v420-released.md
 ---
 # Box Android SDK `v4.2.0` released
 

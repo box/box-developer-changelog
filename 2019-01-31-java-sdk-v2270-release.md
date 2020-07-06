@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2019-02-08-python-sdk-v210-release
 previous_page_id: 2019-01-18-windows-net-sdk-v3110-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/01-31-java-sdk-v2270-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/01-31-java-sdk-v2270-release.md
 ---
 # Java SDK `v2.27.0` release
 

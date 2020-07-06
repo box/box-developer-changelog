@@ -19,7 +19,7 @@ parent_id: changelog
 next_page_id: 2020-06-23-box-python-sdk-v290-released
 previous_page_id: 2020-05-12-windows-net-sdk-v3230-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2020/05-15-box-ios-sdk-v410-released.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/05-15-box-ios-sdk-v410-released.md
 ---
 # Box iOS SDK `v4.1.0` released
 

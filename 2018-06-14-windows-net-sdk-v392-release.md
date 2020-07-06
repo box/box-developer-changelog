@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2018-06-18-box-android-sdk-v420-released
 previous_page_id: 2018-06-07-windows-net-sdk-v391-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/06-14-windows-net-sdk-v392-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/06-14-windows-net-sdk-v392-release.md
 ---
 # Windows .NET SDK `v3.9.2` release
 

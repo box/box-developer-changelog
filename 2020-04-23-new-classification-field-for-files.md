@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2020-04-24-python-sdk-v280-release
 previous_page_id: 2020-04-23-java-sdk-v2470-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2020/04-23-new-classification-field-for-files.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/04-23-new-classification-field-for-files.md
 ---
 # New `classification` field for Files
 

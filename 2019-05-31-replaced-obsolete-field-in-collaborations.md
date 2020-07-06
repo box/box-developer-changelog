@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2019-06-06-java-sdk-v2340-release
 previous_page_id: 2019-05-23-java-sdk-v2330-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/05-31-replaced-obsolete-field-in-collaborations.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/05-31-replaced-obsolete-field-in-collaborations.md
 ---
 # Replaced Obsolete Field in Collaborations
 

@@ -18,7 +18,7 @@ parent_id: changelog
 next_page_id: 2019-05-09-windows-net-sdk-v3170-release
 previous_page_id: 2019-04-25-node-sdk-v1290-release
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2019/04-29-windows-net-sdk-v3160-release.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/04-29-windows-net-sdk-v3160-release.md
 ---
 # Windows .NET SDK `v3.16.0` release
 

@@ -16,7 +16,7 @@ parent_id: changelog
 next_page_id: 2018-08-09-java-sdk-v2220-release
 previous_page_id: 2018-07-11-historical-platform-activity-csv-report
 source_url: >-
-  https://github.com/box/developer.box.com/blob/main/content/2018/07-31-expanded-relay-workflow-api.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/07-31-expanded-relay-workflow-api.md
 ---
 # Expanded Relay Workflow API
 
