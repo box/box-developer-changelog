@@ -21,6 +21,14 @@ class Compiler {
       copyAssets(source, target, filename)
     })
   }
+
+  writeIndex(source = './content/', target = './compiled/') {
+    const index = glob.sync(`${source}/**/*.md`)
+      .map(entry => entry.replace(source, ''))
+      .map(entry => entry.replace('.md', ''))
+    
+    fs.writeFileSync(path.join(target, 'index.json'), JSON.stringify(index, null, 2))
+  }
 }
 
 const copyAssets = (sourceDir, targetDir, source) => {

@@ -13,6 +13,7 @@
   "scripts": {
     "build": "concurrently 'yarn:build:*'",
     "build:entries": "babel-node -e 'require(\"./code/src\").writeChangelog()'",
+    "build:index": "babel-node -e 'require(\"./code/src\").writeIndex()'",
     "clean": "rm -rf ./compiled",
     "clean:all": "rm -rf ./.sources ./compiled",
     "lint:alex": "alex content/ -q",
