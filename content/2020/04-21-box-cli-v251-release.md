@@ -4,7 +4,7 @@ applies_to:
   - cli
 is_impactful: false
 is_new_feature: true
-source_url: 'https://github.com/box/boxcli/releases/tag/v2.5.1'
+release_source_url: 'https://github.com/box/boxcli/releases/tag/v2.5.1'
 ---
 
 # Box CLI `v2.5.1` release

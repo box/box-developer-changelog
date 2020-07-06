@@ -5,7 +5,7 @@ applies_to:
   - sdks
 is_impactful: true
 is_new_feature: true
-source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.0.0'
+release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.0.0'
 ---
 
 # Python SDK `v2.0.0` release

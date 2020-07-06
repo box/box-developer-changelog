@@ -5,7 +5,7 @@ applies_to:
   - ui-elements
 is_impactful: false
 is_new_feature: false
-source_url: 'https://github.com/box/box-ui-elements/releases/tag/v11.0.1'
+release_source_url: 'https://github.com/box/box-ui-elements/releases/tag/v11.0.1'
 ---
 
 # Box UI elements `v11.0.1` released

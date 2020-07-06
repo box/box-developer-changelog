@@ -6,6 +6,7 @@ const unIndentNestedMarkdown = require('./unIndentNestedMarkdown')
 const expandSelfClosingTags = require('./expandSelfClosingTags')
 const addFinalLine = require('./addFinalLine')
 const inlineTags = require('./inlineTags')
+const extractFrontmatter = require('./extractFrontmatter')
 
 class MarkdownProcessor {
   constructor({ sourcePath }) {
@@ -23,8 +24,8 @@ class MarkdownProcessor {
   }) {
     // read the content and transform it
     const contents = fs.readFileSync(this.sourcePath).toString()
-    const transformedContents = this.transform({ contents  })
-    const sourceName = this.sourcePath.replace(from, '')
+    const sourceName = this.sourcePath.replace(from, '').replace('/', '-')
+    const transformedContents = this.transform({ contents })
     // determine the destination
     const destinationPath = path.resolve(to, sourceName)
     const destinationDirectory = path.dirname(destinationPath)
@@ -47,7 +48,9 @@ class MarkdownProcessor {
   transform({ 
     contents
   }) {
-    let [_, frontmatter, markdown, ...rest] = contents.split('---\n')
+    let [_, frontmatter, markdown, ...rest] = contents.split(/---\r?\n/)
+
+    frontmatter = extractFrontmatter(frontmatter, this.sourcePath)
 
     markdown = [markdown, ...rest].join('---\n')
     

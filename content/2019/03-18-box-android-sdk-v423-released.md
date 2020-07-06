@@ -6,7 +6,7 @@ applies_to:
   - android
 is_impactful: false
 is_new_feature: false
-source_url: 'https://github.com/box/box-android-sdk/releases/tag/v4.2.3'
+release_source_url: 'https://github.com/box/box-android-sdk/releases/tag/v4.2.3'
 ---
 
 # Box Android SDK `v4.2.3` released

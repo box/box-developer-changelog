@@ -47,7 +47,7 @@ applies_to:
   - bar
 is_impactful: false
 is_new_feature: true
-source_url: 'https://github.com/test/test-sdk/releases/tag/v1.1.0'
+release_source_url: 'https://github.com/test/test-sdk/releases/tag/v1.1.0'
 ---
 
 # Test Project v1.1.0

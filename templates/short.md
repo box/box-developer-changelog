@@ -3,7 +3,7 @@ applied_at: {{applied_at}}
 applies_to: {{applies_to}}
 is_impactful: {{is_impactful}}
 is_new_feature: {{is_new_feature}}
-source_url: null
+release_source_url: null
 ---
 
 # {{{title}}}

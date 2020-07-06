@@ -5,7 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
-source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.5.2'
+release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.5.2'
 ---
 
 # Windows .NET SDK `v3.5.2` release

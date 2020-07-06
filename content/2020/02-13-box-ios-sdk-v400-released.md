@@ -6,7 +6,7 @@ applies_to:
   - ios
 is_impactful: true
 is_new_feature: true
-source_url: 'https://github.com/box/box-ios-sdk/releases/tag/v4.0.0'
+release_source_url: 'https://github.com/box/box-ios-sdk/releases/tag/v4.0.0'
 ---
 
 # Box iOS SDK `v4.0.0` released

@@ -5,7 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
-source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.20.2'
+release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.20.2'
 ---
 
 # Java SDK `v2.20.2` release

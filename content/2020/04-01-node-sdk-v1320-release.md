@@ -5,7 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
-source_url: 'https://github.com/box/box-node-sdk/releases/tag/v1.32.0'
+release_source_url: 'https://github.com/box/box-node-sdk/releases/tag/v1.32.0'
 ---
 
 # Node SDK `v1.32.0` release

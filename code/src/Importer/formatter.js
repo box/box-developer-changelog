@@ -97,7 +97,7 @@ class Formatter {
       // wether this change was an increase in the Minor version
       is_new_feature: newFeature,
       // the original URL of the release note
-      source_url: currentRelease.html_url
+      release_source_url: currentRelease.html_url
     })
   }
 

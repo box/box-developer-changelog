@@ -27,6 +27,8 @@ class Compiler {
     const index = glob.sync(`${source}/**/*.md`)
       .map(entry => entry.replace(source, ''))
       .map(entry => entry.replace('.md', ''))
+      .map(entry => entry.replace('/', '-'))
+      .filter(entry => entry !== 'index')
     
     fs.writeFileSync(path.join(target, 'index.json'), JSON.stringify(index, null, 2))
   }

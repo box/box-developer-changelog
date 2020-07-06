@@ -15,7 +15,7 @@ applies_to:
   - ' foo'
 is_impactful: false
 is_new_feature: false
-source_url: 'https://github.com/cbetta/actions-test/releases/tag/v1.0.10'
+release_source_url: 'https://github.com/cbetta/actions-test/releases/tag/v1.0.10'
 ---
 
 # Test \`v1.0.10\` released
