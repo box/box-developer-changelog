@@ -65,7 +65,7 @@ sibling_id: ''
 parent_id: changelog
 next_page_id: ''
 previous_page_id: ''
-source_url: 'https://github.com/box/developer.box.com/blob/main/content/guides/foo.md'
+source_url: 'https://github.com/box/box-developer-changelog/blob/main/content/guides/foo.md'
 ---
 <Foobar id='no1' data-type="type" disabled>
 
@@ -148,7 +148,7 @@ sibling_id: ''
 parent_id: changelog
 next_page_id: ''
 previous_page_id: ''
-source_url: 'https://github.com/box/developer.box.com/blob/main/content/guides/foo.md'
+source_url: 'https://github.com/box/box-developer-changelog/blob/main/content/guides/foo.md'
 ---
 <Header to='/guides' centered >
 
