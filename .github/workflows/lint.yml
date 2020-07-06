@@ -125,7 +125,6 @@ jobs:
           if_true: ${{ secrets.NETLIFY_BOXDEV_WEBHOOK }}
           if_false: ${{ secrets.NETLIFY_BOXDEV_STAGING_WEBHOOK }}
 
-
       # Push the new build to the correct branch
       - name: Push compiled content
         uses: s0/git-publish-subdir-action@develop
@@ -138,7 +137,7 @@ jobs:
       - name: 'Trigger Netlify deployment'
         uses: jasongitmail/fast-webhook@v1
         with:
-          url: ${{ steps.branch.netlify_webhook.value }}
+          url: ${{ steps.netlify_webhook.outputs.value }}
           json: '{}'
 
       # Send a slack notification to notify our team that a new release has been
