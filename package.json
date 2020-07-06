@@ -49,7 +49,7 @@
     "markdownlint": "^0.20.4",
     "markdownlint-cli": "^0.23.1",
     "markdownlint-rule-helpers": "^0.11.0",
-    "nock": "^12.0.3",
+    "nock": "^13.0.2",
     "randomstring": "^1.1.5",
     "remark": "^12.0.0",
     "remark-github": "^9.0.1",
