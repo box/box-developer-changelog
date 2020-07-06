@@ -8,7 +8,7 @@ const TYPES = {
   guides: 'guide'
 }
 
-const REPO_NAME = 'box/developer.box.com'
+const REPO_NAME = 'box/box-developer-changelog'
 
 const extractFrontmatter = (frontmatter, sourcePath) => {
   frontmatter = yaml.load(frontmatter) || {}
