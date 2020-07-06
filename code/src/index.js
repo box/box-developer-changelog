@@ -20,6 +20,7 @@ class Compiler {
     glob.sync(`${source}/**/*.+(jpg|jpeg|png|gif)`).forEach(filename => {
       copyAssets(source, target, filename)
     })
+    this.writeIndex(source, target)
   }
 
   writeIndex(source = './content/', target = './compiled/') {
