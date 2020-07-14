@@ -24,6 +24,25 @@ files.forEach(source => {
     expect(validator).isString('applied_at') 
     expect(validator).isString('source_url')   
     expect(validator).isString('release_source_url')   
+
+    expect(validator).isOneOf('applies_to', [
+      'sdks',
+      'node',
+      'python',
+      'windows',
+      'java',
+      'cli',
+      'mobile',
+      'ios',
+      'android',
+      'api',
+      'content-preview',
+      'ui-elements',
+      'postman',
+      'salesforce',
+      'reports',
+      'other'
+    ])
   })
 })
 

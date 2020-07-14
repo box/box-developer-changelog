@@ -35,7 +35,7 @@ For example.
 ---
 applied_at: '2020-05-12'
 applies_to:
-  - dotnet
+  - windows
   - sdks
 is_impactful: false
 is_new_feature: true

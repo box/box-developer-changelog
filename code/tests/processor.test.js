@@ -9,7 +9,7 @@ test('should transform a complicated use case', () => {
   const contents = `---
 applied_at: '2018-06-18'
 applies_to:
-  - sdk
+  - sdks
   - mobile
   - android
 is_impactful: false
@@ -47,7 +47,7 @@ release_source_url: 'https://github.com/box/box-android-sdk/releases/tag/v4.2.0'
   expect(output).toEqual(`---
 applied_at: '2018-06-18'
 applies_to:
-  - sdk
+  - sdks
   - mobile
   - android
 is_impactful: false
@@ -111,7 +111,7 @@ test('should inline tags', () => {
 ---
 applied_at: '2018-06-18'
 applies_to:
-  - sdk
+  - sdks
   - mobile
   - android
 is_impactful: false
@@ -132,7 +132,7 @@ expect(output).toEqual(`
 ---
 applied_at: '2018-06-18'
 applies_to:
-  - sdk
+  - sdks
   - mobile
   - android
 is_impactful: false

@@ -64,9 +64,10 @@ class FronmatterValidator {
   }
 
   validateIsOneOf(key, keys) {
-    const isValid = keys.includes(this.frontmatter[key])
+    const entries = this.frontmatter[key] || []
+    const isValid = entries.every(k => keys.includes(k))
     const pass = isValid || this.frontmatter[key] === undefined
-    const message = pass ? '' : `Frontmatter value ${key} in '${this.source}' frontmatter needs to be one of ${keys}`
+    const message = pass ? '' : `Frontmatter value ${key} in '${this.source}' frontmatter needs to be one of ${keys} (found ${this.frontmatter[key]})`
 
     return {
       pass: pass,

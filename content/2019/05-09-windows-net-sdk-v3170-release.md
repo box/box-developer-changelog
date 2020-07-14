@@ -1,7 +1,7 @@
 ---
 applied_at: '2019-05-09'
 applies_to:
-  - dotnet
+  - windows
   - sdks
 is_impactful: false
 is_new_feature: true
