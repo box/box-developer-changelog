@@ -2,11 +2,10 @@ const Processor = require('../src/processor')
 let processor = null
 
 beforeAll(() => {
-  processor = new Processor({ sourcePath: './content/guides/foo.md' })
+  processor = new Processor({ sourcePath: './content/2018/06-18-box-android-sdk-420-release.md'  })
 })
 
 test('should transform a complicated use case', () => {
-  const isGuide = false
   const contents = `---
 applied_at: '2018-06-18'
 applies_to:
@@ -44,7 +43,7 @@ release_source_url: 'https://github.com/box/box-android-sdk/releases/tag/v4.2.0'
   </Tabs>
 </Foobar>`
 
-  const output = processor.transform({ contents, isGuide, fileId: '2018/06-18-box-android-sdk-420-release' })
+  const output = processor.transform({ contents })
   expect(output).toEqual(`---
 applied_at: '2018-06-18'
 applies_to:
@@ -57,15 +56,17 @@ release_source_url: 'https://github.com/box/box-android-sdk/releases/tag/v4.2.0'
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: guides-foo
+id: 2018-06-18-box-android-sdk-420-release
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2018-01-04-java-sdk-v290-release
 previous_page_id: ''
-source_url: 'https://github.com/box/box-developer-changelog/blob/main/content/guides/foo.md'
+source_url: >-
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/06-18-box-android-sdk-420-release.md
+published_at: '2018-06-18'
 ---
 <Foobar id='no1' data-type="type" disabled>
 
@@ -125,7 +126,7 @@ release_source_url: 'https://github.com/box/box-android-sdk/releases/tag/v4.2.0'
 </Header>
 `
 
-const output = processor.transform({ contents, isGuide: false, fileId: '2018/06-18-box-android-sdk-420-release' })
+const output = processor.transform({ contents })
 
 expect(output).toEqual(`
 ---
@@ -140,15 +141,17 @@ release_source_url: 'https://github.com/box/box-android-sdk/releases/tag/v4.2.0'
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: guides-foo
+id: 2018-06-18-box-android-sdk-420-release
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2018-01-04-java-sdk-v290-release
 previous_page_id: ''
-source_url: 'https://github.com/box/box-developer-changelog/blob/main/content/guides/foo.md'
+source_url: >-
+  https://github.com/box/box-developer-changelog/blob/main/content/2018/06-18-box-android-sdk-420-release.md
+published_at: '2018-06-18'
 ---
 <Header to='/guides' centered >
 

@@ -25,6 +25,7 @@ const extractFrontmatter = (frontmatter, sourcePath) => {
   frontmatter.next_page_id = nextPageId(sourcePath)
   frontmatter.previous_page_id = previousPageId(sourcePath)
   frontmatter.source_url = sourceUrl(sourcePath)
+  frontmatter.published_at = publishedAt(sourcePath)
 
   return yaml.dump(frontmatter)
 }
@@ -63,8 +64,11 @@ const previousPageId = (path) => {
   return id(nextPage)
 }
 
-const checkIsIndex = (name) => (name.endsWith('/index.md') || name.endsWith('-index.md'))
-const not = (match) => (item) => item !== match
+const publishedAt = (sourcePath) => {
+  const match = sourcePath.match(/\d{4}\/\d{2}-\d{2}/)
+  if (!match?.[0]) { return null }
+  return match[0].replace('/', '-')
+}
 
 const sourceUrl = (sourcePath) => {
   return `https://github.com/${REPO_NAME}/blob/main/${sourcePath.replace('./', '')}`
