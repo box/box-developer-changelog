@@ -1,7 +1,7 @@
 ---
 applied_at: '2020-02-13'
 applies_to:
-  - sdk
+  - sdks
   - mobile
   - ios
 is_impactful: true

@@ -1,7 +1,7 @@
 ---
 applied_at: '2019-03-18'
 applies_to:
-  - sdk
+  - sdks
   - mobile
   - android
 is_impactful: false

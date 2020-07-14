@@ -9,7 +9,7 @@
   {
     "id": "2018-01-10-windows-net-sdk-v341-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -30,7 +30,7 @@
   {
     "id": "2018-01-31-windows-net-sdk-v342-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -90,14 +90,14 @@
   {
     "id": "2018-03-15-windows-net-sdk-v351-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
   {
     "id": "2018-03-21-windows-net-sdk-v352-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -111,7 +111,7 @@
   {
     "id": "2018-03-27-windows-net-sdk-v360-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -156,7 +156,7 @@
   {
     "id": "2018-04-11-windows-net-sdk-v370-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -176,7 +176,7 @@
   {
     "id": "2018-04-30-windows-net-sdk-v380-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -190,7 +190,7 @@
   {
     "id": "2018-05-10-windows-net-sdk-v390-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -211,21 +211,21 @@
   {
     "id": "2018-06-07-windows-net-sdk-v391-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
   {
     "id": "2018-06-14-windows-net-sdk-v392-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
   {
     "id": "2018-06-18-box-android-sdk-v420-released",
     "applies_to": [
-      "sdk",
+      "sdks",
       "mobile",
       "android"
     ]
@@ -304,7 +304,7 @@
   {
     "id": "2018-09-04-windows-net-sdk-v393-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -383,7 +383,7 @@
   {
     "id": "2018-12-14-windows-net-sdk-v3100-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -416,7 +416,7 @@
   {
     "id": "2019-01-18-windows-net-sdk-v3110-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -437,14 +437,14 @@
   {
     "id": "2019-02-08-windows-net-sdk-v3120-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
   {
     "id": "2019-02-14-windows-net-sdk-v3130-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -472,14 +472,14 @@
   {
     "id": "2019-02-21-windows-net-sdk-v3131-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
   {
     "id": "2019-03-01-windows-net-sdk-v3140-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -493,7 +493,7 @@
   {
     "id": "2019-03-07-windows-net-sdk-v3141-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -507,7 +507,7 @@
   {
     "id": "2019-03-18-box-android-sdk-v423-released",
     "applies_to": [
-      "sdk",
+      "sdks",
       "mobile",
       "android"
     ]
@@ -529,7 +529,7 @@
   {
     "id": "2019-03-28-windows-net-sdk-v3150-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -609,14 +609,14 @@
   {
     "id": "2019-04-29-windows-net-sdk-v3160-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
   {
     "id": "2019-05-09-windows-net-sdk-v3170-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -675,7 +675,7 @@
   {
     "id": "2019-06-20-windows-net-sdk-v3180-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -729,7 +729,7 @@
   {
     "id": "2019-08-29-windows-net-sdk-v3190-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -755,7 +755,7 @@
   {
     "id": "2019-09-19-windows-net-sdk-v3200-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -874,7 +874,7 @@
   {
     "id": "2019-12-06-windows-net-sdk-v3210-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -942,7 +942,7 @@
   {
     "id": "2020-02-13-box-ios-sdk-v400-released",
     "applies_to": [
-      "sdk",
+      "sdks",
       "mobile",
       "ios"
     ]
@@ -964,7 +964,7 @@
   {
     "id": "2020-02-25-windows-net-sdk-v3220-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
@@ -1048,14 +1048,14 @@
   {
     "id": "2020-05-12-windows-net-sdk-v3230-release",
     "applies_to": [
-      "dotnet",
+      "windows",
       "sdks"
     ]
   },
   {
     "id": "2020-05-15-box-ios-sdk-v410-released",
     "applies_to": [
-      "sdk",
+      "sdks",
       "mobile",
       "ios"
     ]
