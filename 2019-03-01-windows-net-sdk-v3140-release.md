@@ -19,6 +19,7 @@ next_page_id: 2019-03-07-java-sdk-v2281-release
 previous_page_id: 2019-02-21-windows-net-sdk-v3131-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-01-windows-net-sdk-v3140-release.md
+published_at: '2019-03-01'
 ---
 # Windows .NET SDK `v3.14.0` release
 

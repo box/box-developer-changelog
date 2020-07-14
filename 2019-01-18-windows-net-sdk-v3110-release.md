@@ -19,6 +19,7 @@ next_page_id: 2019-01-31-java-sdk-v2270-release
 previous_page_id: 2019-01-18-new-sidebar-ui-element-open-with-element-ga
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/01-18-windows-net-sdk-v3110-release.md
+published_at: '2019-01-18'
 ---
 # Windows .NET SDK `v3.11.0` release
 

@@ -20,6 +20,7 @@ next_page_id: 2019-03-28-node-sdk-v1280-release
 previous_page_id: 2019-03-14-python-sdk-v222-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-18-box-android-sdk-v423-released.md
+published_at: '2019-03-18'
 ---
 # Box Android SDK `v4.2.3` released
 

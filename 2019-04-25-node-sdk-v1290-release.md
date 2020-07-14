@@ -19,6 +19,7 @@ next_page_id: 2019-04-29-windows-net-sdk-v3160-release
 previous_page_id: 2019-04-25-java-sdk-v2320-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-25-node-sdk-v1290-release.md
+published_at: '2019-04-25'
 ---
 # Node SDK `v1.29.0` release
 

@@ -19,6 +19,7 @@ next_page_id: 2018-04-18-platform-activity-csv-report
 previous_page_id: 2018-04-11-metadata-driven-retention-policies
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-11-windows-net-sdk-v370-release.md
+published_at: '2018-04-11'
 ---
 # Windows .NET SDK `v3.7.0` release
 

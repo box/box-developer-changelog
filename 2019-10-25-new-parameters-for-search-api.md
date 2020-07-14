@@ -17,6 +17,7 @@ next_page_id: 2019-11-09-box-ui-elements-v1100-released
 previous_page_id: 2019-10-25-new-fields-for-file-versions
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/10-25-new-parameters-for-search-api.md
+published_at: '2019-10-25'
 ---
 # New parameters for Search API
 

@@ -19,6 +19,7 @@ next_page_id: ''
 previous_page_id: 2020-06-24-box-java-sdk-v2480-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-25-box-node-sdk-v1330-released.md
+published_at: '2020-06-25'
 ---
 # Box Node SDK `v1.33.0` released
 
