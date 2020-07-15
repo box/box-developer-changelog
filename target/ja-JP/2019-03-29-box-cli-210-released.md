@@ -17,6 +17,7 @@ next_page_id: 2019-03-29-box-cli-v210-release
 previous_page_id: 2019-03-28-windows-net-sdk-v3150-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-29-box-cli-210-released.md
+published_at: '2019-03-29'
 ---
 # Box CLI 2.1.0 Released
 

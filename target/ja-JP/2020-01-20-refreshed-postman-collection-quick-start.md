@@ -17,6 +17,7 @@ next_page_id: 2020-01-21-java-sdk-v2440-release
 previous_page_id: 2020-01-16-python-sdk-v270-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/01-20-refreshed-postman-collection-quick-start.md
+published_at: '2020-01-20'
 ---
 # Refreshed Postman Collection & Quick Start
 

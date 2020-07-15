@@ -17,6 +17,7 @@ next_page_id: 2019-11-26-box-ui-elements-v1102-released
 previous_page_id: 2019-11-25-box-ui-elements-v1101-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-25-elements-v110-released.md
+published_at: '2019-11-25'
 ---
 # Elements `v11.0` Released
 

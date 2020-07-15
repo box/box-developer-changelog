@@ -1,7 +1,7 @@
 ---
 applied_at: '2019-03-07'
 applies_to:
-  - dotnet
+  - windows
   - sdks
 is_impactful: false
 is_new_feature: false
@@ -19,6 +19,7 @@ next_page_id: 2019-03-14-python-sdk-v222-release
 previous_page_id: 2019-03-07-java-sdk-v2281-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-07-windows-net-sdk-v3141-release.md
+published_at: '2019-03-07'
 ---
 # Windows .NET SDK `v3.14.1` release
 

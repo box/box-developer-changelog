@@ -19,6 +19,7 @@ next_page_id: 2018-08-16-generic-method-added-to-the-salesforce-sdk
 previous_page_id: 2018-07-31-expanded-relay-workflow-api
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-09-java-sdk-v2220-release.md
+published_at: '2018-08-09'
 ---
 # Java SDK `v2.22.0` release
 

@@ -18,6 +18,7 @@ next_page_id: 2019-08-29-python-sdk-v260-release
 previous_page_id: 2019-08-22-node-sdk-v1291-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-29-box-cli-v240-release.md
+published_at: '2019-08-29'
 ---
 # Box CLI `v2.4.0` release
 

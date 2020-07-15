@@ -19,6 +19,7 @@ next_page_id: 2020-02-25-windows-net-sdk-v3220-release
 previous_page_id: 2020-02-13-java-sdk-v2441-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/02-14-node-sdk-v1310-release.md
+published_at: '2020-02-14'
 ---
 # Node SDK `v1.31.0` release
 

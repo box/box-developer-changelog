@@ -17,6 +17,7 @@ next_page_id: 2019-05-16-python-sdk-v241-release
 previous_page_id: 2019-05-10-box-cli-v220-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-15-tls-10-deprecated-complete.md
+published_at: '2019-05-15'
 ---
 # TLS 1.0 deprecated complete
 
@@ -28,7 +29,7 @@ Impacted developers will have been notified through multiple channels over the
 last 6-12 months, but should your application be impacted you will need to
 update your systems to again be able to make API requests to Box.
 
-Please see our [TLS 1.0 deprecation guide](page://changelog/tls-1.1) to
+Please see our TLS 1.0 deprecation guide to
 upgrade your systems to TLS 1.2.
 
 For any questions or for addition support, please

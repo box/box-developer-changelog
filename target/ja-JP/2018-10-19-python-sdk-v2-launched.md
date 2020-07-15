@@ -18,6 +18,7 @@ next_page_id: 2018-11-01-python-sdk-v200-release
 previous_page_id: 2018-09-27-new-box-open-with-sidebar-ui-element
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/10-19-python-sdk-v2-launched.md
+published_at: '2018-10-19'
 ---
 # Python SDK V2 Launched
 

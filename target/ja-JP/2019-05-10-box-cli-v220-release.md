@@ -18,6 +18,7 @@ next_page_id: 2019-05-15-tls-10-deprecated-complete
 previous_page_id: 2019-05-09-windows-net-sdk-v3170-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-10-box-cli-v220-release.md
+published_at: '2019-05-10'
 ---
 # Box CLI `v2.2.0` release
 
