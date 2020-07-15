@@ -1061,6 +1061,12 @@
     ]
   },
   {
+    "id": "2020-06-11-change-to-enterprise-events-for-tasks",
+    "applies_to": [
+      "api"
+    ]
+  },
+  {
     "id": "2020-06-23-box-python-sdk-v290-released",
     "applies_to": [
       "sdks",
@@ -1079,6 +1085,12 @@
     "applies_to": [
       "sdks",
       "node"
+    ]
+  },
+  {
+    "id": "2020-07-15-changes-to-metadata-query-api-syntax",
+    "applies_to": [
+      "api"
     ]
   }
 ]
