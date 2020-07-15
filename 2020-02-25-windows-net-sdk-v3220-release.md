@@ -1,7 +1,7 @@
 ---
 applied_at: '2020-02-25'
 applies_to:
-  - dotnet
+  - windows
   - sdks
 is_impactful: false
 is_new_feature: true
@@ -19,6 +19,7 @@ next_page_id: 2020-03-30-change-to-metadata-instance-version
 previous_page_id: 2020-02-14-node-sdk-v1310-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/02-25-windows-net-sdk-v3220-release.md
+published_at: '2020-02-25'
 ---
 # Windows .NET SDK `v3.22.0` release
 

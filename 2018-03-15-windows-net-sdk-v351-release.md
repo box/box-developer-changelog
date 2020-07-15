@@ -1,7 +1,7 @@
 ---
 applied_at: '2018-03-15'
 applies_to:
-  - dotnet
+  - windows
   - sdks
 is_impactful: false
 is_new_feature: true
@@ -19,6 +19,7 @@ next_page_id: 2018-03-21-windows-net-sdk-v352-release
 previous_page_id: 2018-03-13-update-to-box-annotations
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-15-windows-net-sdk-v351-release.md
+published_at: '2018-03-15'
 ---
 # Windows .NET SDK `v3.5.1` release
 

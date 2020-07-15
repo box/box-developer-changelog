@@ -18,6 +18,7 @@ next_page_id: 2019-03-29-python-sdk-v232-release
 previous_page_id: 2019-03-29-box-cli-210-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-29-box-cli-v210-release.md
+published_at: '2019-03-29'
 ---
 # Box CLI `v2.1.0` release
 

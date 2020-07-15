@@ -19,6 +19,7 @@ next_page_id: 2019-11-25-box-ui-elements-v1101-released
 previous_page_id: 2019-11-20-preview-sdk-v2260-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-21-node-sdk-v1300-release.md
+published_at: '2019-11-21'
 ---
 # Node SDK `v1.30.0` release
 

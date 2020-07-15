@@ -1,7 +1,7 @@
 ---
 applied_at: '2019-12-06'
 applies_to:
-  - dotnet
+  - windows
   - sdks
 is_impactful: false
 is_new_feature: true
@@ -19,6 +19,7 @@ next_page_id: 2019-12-17-java-sdk-v2420-release
 previous_page_id: 2019-12-05-marker-based-pagination-support-for-users-api
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-06-windows-net-sdk-v3210-release.md
+published_at: '2019-12-06'
 ---
 # Windows .NET SDK `v3.21.0` release
 

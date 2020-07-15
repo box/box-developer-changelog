@@ -19,6 +19,7 @@ next_page_id: 2019-08-29-windows-net-sdk-v3190-release
 previous_page_id: 2019-08-29-box-cli-v240-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-29-python-sdk-v260-release.md
+published_at: '2019-08-29'
 ---
 # Python SDK `v2.6.0` release
 

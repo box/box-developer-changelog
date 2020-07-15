@@ -1,7 +1,7 @@
 ---
 applied_at: '2019-05-09'
 applies_to:
-  - dotnet
+  - windows
   - sdks
 is_impactful: false
 is_new_feature: true
@@ -19,6 +19,7 @@ next_page_id: 2019-05-10-box-cli-v220-release
 previous_page_id: 2019-04-29-windows-net-sdk-v3160-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-09-windows-net-sdk-v3170-release.md
+published_at: '2019-05-09'
 ---
 # Windows .NET SDK `v3.17.0` release
 

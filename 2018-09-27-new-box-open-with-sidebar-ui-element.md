@@ -17,6 +17,7 @@ next_page_id: 2018-10-19-python-sdk-v2-launched
 previous_page_id: 2018-09-27-java-sdk-v2232-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/09-27-new-box-open-with-sidebar-ui-element.md
+published_at: '2018-09-27'
 ---
 # New Box Open With Sidebar UI Element
 

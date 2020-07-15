@@ -1,7 +1,7 @@
 ---
 applied_at: '2018-06-14'
 applies_to:
-  - dotnet
+  - windows
   - sdks
 is_impactful: false
 is_new_feature: false
@@ -19,6 +19,7 @@ next_page_id: 2018-06-18-box-android-sdk-v420-released
 previous_page_id: 2018-06-07-windows-net-sdk-v391-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-14-windows-net-sdk-v392-release.md
+published_at: '2018-06-14'
 ---
 # Windows .NET SDK `v3.9.2` release
 
