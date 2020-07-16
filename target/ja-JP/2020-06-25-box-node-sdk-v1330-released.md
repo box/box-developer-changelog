@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2020-07-15-changes-to-metadata-query-api-syntax
 previous_page_id: 2020-06-24-box-java-sdk-v2480-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-25-box-node-sdk-v1330-released.md
