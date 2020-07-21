@@ -10,8 +10,6 @@ release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.49.0'
 
 # Box Java SDK `v2.49.0` released
 
-v2.49.0
-
 1. Add `fields` parameter for metadata query ([#826][1])
 2. Add zip functionality ([#825][2])
 3. Fix bug with setting the unshared at date for a shared link ([#819][3])
