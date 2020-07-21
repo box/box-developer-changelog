@@ -1092,5 +1092,11 @@
     "applies_to": [
       "api"
     ]
+  },
+  {
+    "id": "2020-07-16-change-to-enterprise-events-for-content-access",
+    "applies_to": [
+      "api"
+    ]
   }
 ]
