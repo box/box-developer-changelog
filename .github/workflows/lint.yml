@@ -1,0 +1,189 @@
+# This workflow listens to new pushes to 
+# the main and staging branches, as well as
+# pull requests to those branches. 
+#
+# It then runs all our linters on this content 
+# and then applies to `automerge` label for any pull
+# request created by `box-devrel` with the `allow-automerge`
+# label.
+
+name: Lint & Deploy
+
+on:
+  push: 
+    branches:
+      - main
+      - staging
+  pull_request:
+    branches:
+      - main
+      - staging
+
+jobs:
+  # Lint the content and trigger an auto merge on a pull request
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      # Check out the current branch
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      # Set up Node JS
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # Perform a lint of the content
+      - name: Lint the content
+        # Pull in the guides from the `en` branch for link validation
+        env:
+          CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"
+        # Install the dependencies and run the linter
+        run: |
+          yarn install
+          yarn lint
+        
+      # If this is a PR by `box-devrel`, then apply the
+      # `automerge` label after linting passes.
+      - name: Apply the automerge label if needed
+        uses: christianvuerings/add-labels@v1
+        if: ${{ github.event_name == 'pull_request' && github.actor == 'box-devrel' }}
+        with:
+          labels: automerge
+        # Use a personal access token from box-devrel
+        # This allows for other workflows to be triggered by this label being added
+        env:
+          GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
+
+      # Split the payload ref so we can parse the branch name
+      - uses: jungwinter/split@v1
+        id: split
+        with:
+          msg: ${{ github.ref }}
+          seperator: "/"
+      
+      # Finally, send a slack notification to the team to warn them of the new changes.
+      - name: Send Slack notification
+        uses: Ilshidur/action-slack@2.0.2
+        if: ${{ github.ref == 'refs/heads/master' }}
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: GitHub Actions
+          SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
+        with:
+          args: "Developer Changelog: linting and testing"
+
+
+  # Deploy any new changes from the `main` / `staging` branches to the 
+  # `en` and `en-staging` branches.
+  push-to-en:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    # Being extra explicit, we only want this to run on the main and staging branches.
+    if: (github.ref == 'refs/heads/main') || github.ref == 'refs/heads/staging'
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    # Requires the lint job to pass first
+    needs: 
+      - lint
+
+    steps:
+      # Check out the current branch
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      # Compile the content to the build folder
+      - name: Compile the content
+        run: |
+          yarn install
+          yarn build
+
+      # Determine the name of the branch to deploy to
+      - uses: haya14busa/action-cond@v1
+        id: branch
+        with:
+          cond: ${{ github.ref == 'refs/heads/main' }}
+          if_true: "en"
+          if_false: "en-staging"
+
+      # Determine the netlify webhook to call
+      - uses: haya14busa/action-cond@v1
+        id: netlify_webhook
+        with:
+          cond: ${{ steps.branch.outputs.value == 'en' }}
+          if_true: ${{ secrets.NETLIFY_BOXDEV_WEBHOOK }}
+          if_false: ${{ secrets.NETLIFY_BOXDEV_STAGING_WEBHOOK }}
+
+      # Push the new build to the correct branch
+      - name: Push compiled content
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: ${{ steps.branch.outputs.value }}
+          FOLDER: compiled
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 'Trigger Netlify deployment'
+        uses: jasongitmail/fast-webhook@v1
+        with:
+          url: ${{ steps.netlify_webhook.outputs.value }}
+          json: '{}'
+
+      # Send a slack notification to notify our team that a new release has been
+      # received.
+      - name: Send Slack notification
+        uses: Ilshidur/action-slack@2.0.2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: GitHub Actions
+          SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
+        with:
+          args: "Developer Changelog: Pushed latest markdown to `${{ steps.branch.outputs.value }}` branch :rocket:"
+
+  # A task that notifies Netlify of changes to the jp branch
+  notify-from-jp:
+    # We run this on the latest ubuntu
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/jp'
+    timeout-minutes: 3
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: 'Trigger Netlify deployment'
+        uses: jasongitmail/fast-webhook@v1
+        with:
+          url: ${{ secrets.NETLIFY_BOXDEV_JP_WEBHOOK }}
+          json: '{}'
+
+      - name: Send Slack notification
+        uses: Ilshidur/action-slack@2.0.2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: GitHub Actions
+          SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
+        with:
+          args: "Pushed latest Markdown to `jp` branch :rocket:"
+
+      - name: Send Slack notification
+        uses: Ilshidur/action-slack@2.0.2
+        if: ${{ failure() }}
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: GitHub Actions
+          SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
+        with:
+          args: "Error running `notify-from-jp` job in OpenAPI CI"
