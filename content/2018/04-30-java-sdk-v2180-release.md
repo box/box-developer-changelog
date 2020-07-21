@@ -5,10 +5,11 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.18.0'
 ---
 
-# Java SDK `v2.18.0` release
+# Java SDK `v2.18.0` released
 
 1. Error object ([#588](https://github.com/box/box-java-sdk/pull/588))
 2. Quick fix for NPE on `request.toString()` in interceptor ([#595](https://github.com/box/box-java-sdk/pull/595))

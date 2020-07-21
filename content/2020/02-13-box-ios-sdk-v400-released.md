@@ -6,6 +6,7 @@ applies_to:
   - ios
 is_impactful: true
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-ios-sdk/releases/tag/v4.0.0'
 ---
 

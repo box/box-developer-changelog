@@ -4,10 +4,11 @@ applies_to:
   - cli
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/boxcli/releases/tag/v2.4.0'
 ---
 
-# Box CLI `v2.4.0` release
+# Box CLI `v2.4.0` released
 
 [CHANGELOG](https://github.com/box/boxcli/blob/master/CHANGELOG.md#240-2019-08-29)
 

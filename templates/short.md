@@ -3,6 +3,8 @@ applied_at: {{applied_at}}
 applies_to: {{applies_to}}
 is_impactful: {{is_impactful}}
 is_new_feature: {{is_new_feature}}
+show_excerpt: true
+collapse: true
 release_source_url: null
 ---
 
@@ -11,6 +13,8 @@ release_source_url: null
 Sometimes a changelog will include a lot of content. In these cases you might
 instead want to create a short changelog entry and then link out to a guide that
 provides more details.
+
+<!-- more -->
 
 ## Features
 

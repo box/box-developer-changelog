@@ -4,10 +4,11 @@ applies_to:
   - cli
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/boxcli/releases/tag/v1.2.0'
 ---
 
-# Box CLI `v1.2.0` release
+# Box CLI `v1.2.0` released
 
 * Created bulk actions for the following commands:
   * users

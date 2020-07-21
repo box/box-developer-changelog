@@ -4,9 +4,10 @@ applies_to:
   - cli
 is_impactful: false
 is_new_feature: true
+collapse: true
 ---
 
-# Box CLI 2.1.0 Released
+# Box CLI 2.1.0 release
 
 A new version of the Box CLI has been released, taking the version from 2.0.0
 to 2.1.0. This release includes a number of feature enhancements and bug fixes:

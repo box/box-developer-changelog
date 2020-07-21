@@ -5,10 +5,11 @@ applies_to:
   - sdks
 is_impactful: true
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.0.0'
 ---
 
-# Python SDK `v2.0.0` release
+# Python SDK `v2.0.0` released
 
 ## Breaking Changes
 

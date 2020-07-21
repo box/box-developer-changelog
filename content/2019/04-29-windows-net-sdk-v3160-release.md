@@ -5,10 +5,11 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.16.0'
 ---
 
-# Windows .NET SDK `v3.16.0` release
+# Windows .NET SDK `v3.16.0` released
 
 - Added `sort` and `direction` parameters to `client.SearchManager.SearchAsync()` to  control sort order
 - Added `extension` parameter to `client.FilesManager.GetThumbnailAsync()` to control which thumbnail format is returned (thanks `@guilmori`!)

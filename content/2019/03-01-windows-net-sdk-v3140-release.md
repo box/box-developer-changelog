@@ -5,10 +5,11 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.14.0'
 ---
 
-# Windows .NET SDK `v3.14.0` release
+# Windows .NET SDK `v3.14.0` released
 
 - Added trace ID to API response exception message.
 - Fix deserialization of translated task assignment status.

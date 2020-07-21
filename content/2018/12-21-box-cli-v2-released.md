@@ -6,7 +6,7 @@ is_impactful: true
 is_new_feature: true
 ---
 
-# Box CLI V2 Released
+# Box CLI V2 release
 
 A major version release (V2) has been made to the [Box CLI](guide://tooling/sdks/cli).
 See the following links for updated information:

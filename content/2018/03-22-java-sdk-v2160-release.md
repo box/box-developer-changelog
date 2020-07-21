@@ -5,10 +5,11 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.16.0'
 ---
 
-# Java SDK `v2.16.0` release
+# Java SDK `v2.16.0` released
 
 1. Adjust JWT expiration interval ([#572](https://github.com/box/box-java-sdk/pull/572))
 2. Allow setting custom headers on API connection ([#562](https://github.com/box/box-java-sdk/pull/562))

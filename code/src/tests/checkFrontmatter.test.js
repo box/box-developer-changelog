@@ -14,12 +14,17 @@ files.forEach(source => {
       'is_new_feature',
       'source_url',
       'release_source_url',
-      'alias_paths'
+      'alias_paths',
+      'collapse',
+      'show_excerpt'
     ])
 
     expect(validator).isArray('applies_to')
     expect(validator).isArray('alias_paths')
     expect(validator).isBoolean('is_new_feature')
+    expect(validator).isBoolean('is_impactful')
+    expect(validator).isBoolean('collapse')
+    expect(validator).isBoolean('show_excerpt')
     expect(validator).isBoolean('is_impactful')
     expect(validator).isString('applied_at') 
     expect(validator).isString('source_url')   

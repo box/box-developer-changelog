@@ -18,7 +18,7 @@ into the `./content` folder based on your answers.
 $ yarn new
 yarn run v1.22.4
 $ babel-node ./code/src/scripts/new-release-from-template.js
-? What is a short title for this release? Box CLI `1.0.1` release
+? What is a short title for this release? Box CLI `1.0.1` released
 ? When will this release go into effect? This may be a date in the past. 2020-06-30
 ? When will this release be published? This can be an estimate. 2020-06-30
 ? What projects will this apply to? Please select any that apply. cli

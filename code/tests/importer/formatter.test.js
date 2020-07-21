@@ -48,6 +48,7 @@ applies_to:
 is_impactful: false
 is_new_feature: true
 release_source_url: 'https://github.com/test/test-sdk/releases/tag/v1.1.0'
+collapse: true
 ---
 
 # Test Project v1.1.0

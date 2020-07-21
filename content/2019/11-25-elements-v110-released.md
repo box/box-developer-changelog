@@ -1,9 +1,12 @@
 ---
 applied_at: '2019-11-25'
 applies_to:
+  - sdks
   - ui-elements
 is_impactful: false
 is_new_feature: true
+collapse: true
+show_excerpt: true
 ---
 
 # Elements `v11.0` Released
@@ -14,6 +17,8 @@ major new feature enhancements:
 * Content Explorer Grid View.
 * New Tasks Experience within the Preview Sidebar.
 * Visual Versions for the Preview Sidebar.
+
+<!-- more -->
 
 Updated JavaScript and CSS files links for this release are available within
 the [UI Elements manual installation instructions][ui-elements-manual-install].

@@ -5,10 +5,11 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.10.0'
 ---
 
-# Windows .NET SDK `v3.10.0` release
+# Windows .NET SDK `v3.10.0` released
 
 1. Added functionality for Metadata Cascade Policy
 

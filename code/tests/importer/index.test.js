@@ -16,6 +16,7 @@ applies_to:
 is_impactful: false
 is_new_feature: false
 release_source_url: 'https://github.com/cbetta/actions-test/releases/tag/v1.0.10'
+collapse: true
 ---
 
 # Test \`v1.0.10\` released

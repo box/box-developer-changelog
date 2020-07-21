@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: true
+collapse: true
+show_excerpt: true
 ---
 
 # Change to enterprise events for tasks
@@ -11,6 +13,8 @@ is_new_feature: true
 Starting today, the [enterprise event stream](g://events/for-enterprise/) will
 begin producing new task and task assignment events, and some existing task
 events will return additional fields.
+
+<!-- more -->
 
 ## New events
 

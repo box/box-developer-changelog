@@ -1,6 +1,7 @@
 ---
 applied_at: '2018-09-27'
 applies_to:
+  - sdks
   - ui-elements
 is_impactful: false
 is_new_feature: true
