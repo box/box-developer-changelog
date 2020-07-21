@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: true
+collapse: true
+show_excerpt: true
 ---
 
 # Change to enterprise events for tasks
