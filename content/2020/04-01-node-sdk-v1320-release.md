@@ -5,10 +5,11 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-node-sdk/releases/tag/v1.32.0'
 ---
 
-# Node SDK `v1.32.0` release
+# Node SDK `v1.32.0` released
 
 - Temporarily removed Node 4 and Node 5 builds from Travis, due to tests not passing.  Will investigate, going forward ([#495](https://github.com/box/box-node-sdk/pull/495)). [`dc558e9`](https://github.com/box/box-node-sdk/commit/dc558e9)
 - Fixed an issue where an error is thrown during a retry when a response is not returned by the previous call  ([#477](https://github.com/box/box-node-sdk/pull/477)). [`f1b3449`](https://github.com/box/box-node-sdk/commit/f1b3449)

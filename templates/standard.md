@@ -3,6 +3,8 @@ applied_at: {{applied_at}}
 applies_to: {{applies_to}}
 is_impactful: {{is_impactful}}
 is_new_feature: {{is_new_feature}}
+collapse: true
+show_excerpt: true
 release_source_url: null
 ---
 
@@ -11,9 +13,13 @@ release_source_url: null
 About titles: good titles are less than 50 characters,
 explain what changed, and follow previous similar entries. For example:
 
-* Box CLI `v3.0.0` release
+* Box CLI `v3.0.0` released
 * New Metadata Query APIs available 
 * Change to metadata instance version
+
+<!-- more -->
+
+Everything behind this comment is hidden by default if the `collapse` value in the frontmatter is set to `true` and `show_excerpt` is also set to `true`.
 
 Start with a small section that explains in basic terms what has changed
 and how this impacts a customers. Make sure to add to related content, for

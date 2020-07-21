@@ -5,9 +5,10 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.5.0'
 ---
 
-# Python SDK `v2.5.0` release
+# Python SDK `v2.5.0` released
 
 Allowed passing `None` to clear `configurable_permission` field in the `add_member()` method.

@@ -5,6 +5,7 @@ applies_to:
   - node
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-node-sdk/releases/tag/v1.33.0'
 ---
 

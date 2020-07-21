@@ -5,9 +5,10 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 ---
 
-# Preview SDK `v2.34.0` Released
+# Preview SDK `v2.34.0` released
 
 Version `2.34.0` of the Preview SDK has been released. New JavaScript and CSS
 Preview files have been made available. To adopt new changes, please see the

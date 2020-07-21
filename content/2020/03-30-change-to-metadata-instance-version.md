@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: false
+collapse: true
+show_excerpt: true
 ---
 
 # Change to metadata instance version
@@ -11,6 +13,8 @@ is_new_feature: false
 As part of ongoing improvements to our Metadata infrastructure we will be
 rolling out a small change to the [`version`](r:/metadata/#param-$version) value
 of a metadata Instance.
+
+<!-- more -->
 
 Previously, the version number associated with a metadata instance would be
 incremented if a field on the associated metadata template was deleted, or if an

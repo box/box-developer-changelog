@@ -7,7 +7,7 @@ is_impactful: true
 is_new_feature: true
 ---
 
-# New iOS SDK Now Available
+# New iOS SDK now available
 
 A new major release of the iOS SDK has been released and is now generally
 available. The new SDK includes a number of major revisions:

@@ -1,12 +1,14 @@
 ---
 applied_at: '2019-12-03'
 applies_to:
+  - sdks
   - ui-elements
 is_impactful: false
 is_new_feature: true
+collapse: true
 ---
 
-# Preview SDK `v2.29.0` Released
+# Preview SDK `v2.29.0` released
 
 Version `2.29.0` of the Preview SDK has been released. New JavaScript and CSS
 Preview files have been made available. To adopt new changes, please see the

@@ -5,6 +5,7 @@ applies_to:
   - java
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.48.0'
 ---
 
