@@ -1086,5 +1086,12 @@
     "applies_to": [
       "api"
     ]
+  },
+  {
+    "id": "2020-07-17-box-java-sdk-v2490-released",
+    "applies_to": [
+      "sdks",
+      "java"
+    ]
   }
 ]
