@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: true
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
