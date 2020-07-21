@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.36.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-01-java-sdk-v2360-release.md
 published_at: '2019-08-01'
 ---
-# Java SDK `v2.36.0` release
+# Java SDK `v2.36.0` released
 
 1. Added convenience function for shared link and fixed setting… ([#720](https://github.com/box/box-java-sdk/pull/720))
 2. Add missing fields to files, folders, and web links ([#719](https://github.com/box/box-java-sdk/pull/719))

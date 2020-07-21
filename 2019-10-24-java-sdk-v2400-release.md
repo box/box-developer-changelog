@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.40.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/10-24-java-sdk-v2400-release.md
 published_at: '2019-10-24'
 ---
-# Java SDK `v2.40.0` release
+# Java SDK `v2.40.0` released
 
 1. Update `comments.md` ([#749](https://github.com/box/box-java-sdk/pull/749))
 2. Update `events.md` ([#750](https://github.com/box/box-java-sdk/pull/750))

@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.6.0'
 is_index: false
 category_id: changelog
@@ -21,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-29-python-sdk-v260-release.md
 published_at: '2019-08-29'
 ---
-# Python SDK `v2.6.0` release
+# Python SDK `v2.6.0` released
 
 Adding a new get admin events function with `created_before`, `created_after`, and `event_type` parameters. Thank you `@capk1rk`!

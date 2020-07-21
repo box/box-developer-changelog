@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.21.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/07-06-java-sdk-v2210-release.md
 published_at: '2018-07-06'
 ---
-# Java SDK `v2.21.0` release
+# Java SDK `v2.21.0` released
 
 1. `Sharedlink` password ([#623](https://github.com/box/box-java-sdk/pull/623))
 2. correct link ([#626](https://github.com/box/box-java-sdk/pull/626))

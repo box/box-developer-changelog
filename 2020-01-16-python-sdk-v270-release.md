@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.7.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/01-16-python-sdk-v270-release.md
 published_at: '2020-01-16'
 ---
-# Python SDK `v2.7.0` release
+# Python SDK `v2.7.0` released
 
 - Fixed bug in `get_admin_events` function which caused errors when the optional `event_types` parameter was omitted.
 - Add marker based pagination for listing users.

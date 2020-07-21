@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.5.0'
 is_index: false
 category_id: changelog
@@ -21,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/06-20-python-sdk-v250-release.md
 published_at: '2019-06-20'
 ---
-# Python SDK `v2.5.0` release
+# Python SDK `v2.5.0` released
 
 Allowed passing `None` to clear `configurable_permission` field in the `add_member()` method.

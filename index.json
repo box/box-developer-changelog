@@ -71,6 +71,7 @@
   {
     "id": "2018-03-05-update-to-box-annotations",
     "applies_to": [
+      "sdks",
       "ui-elements"
     ]
   },
@@ -84,6 +85,7 @@
   {
     "id": "2018-03-13-update-to-box-annotations",
     "applies_to": [
+      "sdks",
       "ui-elements"
     ]
   },
@@ -311,6 +313,7 @@
   {
     "id": "2018-09-05-annotations-available-for-excel-files-in-preview",
     "applies_to": [
+      "sdks",
       "ui-elements"
     ]
   },
@@ -331,6 +334,7 @@
   {
     "id": "2018-09-27-new-box-open-with-sidebar-ui-element",
     "applies_to": [
+      "sdks",
       "ui-elements"
     ]
   },
@@ -375,12 +379,6 @@
     ]
   },
   {
-    "id": "2018-12-14-box-cli-v200-release",
-    "applies_to": [
-      "cli"
-    ]
-  },
-  {
     "id": "2018-12-14-windows-net-sdk-v3100-release",
     "applies_to": [
       "windows",
@@ -410,6 +408,7 @@
   {
     "id": "2019-01-18-new-sidebar-ui-element-open-with-element-ga",
     "applies_to": [
+      "sdks",
       "ui-elements"
     ]
   },
@@ -535,12 +534,6 @@
   },
   {
     "id": "2019-03-29-box-cli-210-released",
-    "applies_to": [
-      "cli"
-    ]
-  },
-  {
-    "id": "2019-03-29-box-cli-v210-release",
     "applies_to": [
       "cli"
     ]
@@ -840,15 +833,9 @@
     ]
   },
   {
-    "id": "2019-11-25-box-ui-elements-v1101-released",
-    "applies_to": [
-      "sdks",
-      "ui-elements"
-    ]
-  },
-  {
     "id": "2019-11-25-elements-v110-released",
     "applies_to": [
+      "sdks",
       "ui-elements"
     ]
   },
@@ -862,6 +849,7 @@
   {
     "id": "2019-12-03-preview-sdk-v2290-released",
     "applies_to": [
+      "sdks",
       "ui-elements"
     ]
   },

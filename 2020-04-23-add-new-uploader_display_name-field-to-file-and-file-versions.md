@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: true
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -24,6 +26,8 @@ published_at: '2020-04-23'
 A new field, `uploader_display_name` has been added to both file and file
 version resources. This field provides the name of the user at the time of
 upload.
+
+<!-- more -->
 
 ```json
 {

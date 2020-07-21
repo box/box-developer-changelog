@@ -25,6 +25,8 @@ Starting today, the [enterprise event stream](g://events/for-enterprise/) will
 begin producing new task and task assignment events, and some existing task
 events will return additional fields.
 
+<!-- more -->
+
 ## New events
 
 * A new `TASK_UPDATE` event is triggered when a task is updated

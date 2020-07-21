@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.9.3'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/09-04-windows-net-sdk-v393-release.md
 published_at: '2018-09-04'
 ---
-# Windows .NET SDK `v3.9.3` release
+# Windows .NET SDK `v3.9.3` released
 
 - Strong named the assembly
 

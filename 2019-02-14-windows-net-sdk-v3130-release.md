@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.13.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-14-windows-net-sdk-v3130-release.md
 published_at: '2019-02-14'
 ---
-# Windows .NET SDK `v3.13.0` release
+# Windows .NET SDK `v3.13.0` released
 
 - Added the `.InviteEmail` property to `BoxCollaboration` objects, which displays the email address for the invited
 user in a pending collaboration

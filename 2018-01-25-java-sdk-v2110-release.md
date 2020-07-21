@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.11.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/01-25-java-sdk-v2110-release.md
 published_at: '2018-01-25'
 ---
-# Java SDK `v2.11.0` release
+# Java SDK `v2.11.0` released
 
 1. Fix chunked upload for files > 2GB ([#531](https://github.com/box/box-java-sdk/pull/531))
 2. Add updated file version upload endpoint and deprecate old method ([#524](https://github.com/box/box-java-sdk/pull/524))

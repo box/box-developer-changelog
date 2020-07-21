@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: true
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -24,6 +26,8 @@ published_at: '2020-04-23'
 A new optional field has been made available within the `Field` object,
 `classification`. This field represents the classification that is currently
 applied to a file.
+
+<!-- more -->
 
 The classification can be requested via any endpoint that returns a file, like
 the [Get file information](endpoint://get-files-id) and supports [requesting

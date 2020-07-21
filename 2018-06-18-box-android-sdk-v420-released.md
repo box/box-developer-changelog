@@ -6,6 +6,7 @@ applies_to:
   - android
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-android-sdk/releases/tag/v4.2.0'
 is_index: false
 category_id: changelog

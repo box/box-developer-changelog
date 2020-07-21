@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.2.2'
 is_index: false
 category_id: changelog
@@ -21,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-14-python-sdk-v222-release.md
 published_at: '2019-03-14'
 ---
-# Python SDK `v2.2.2` release
+# Python SDK `v2.2.2` released
 
 - Updated `requests-toolbelt` dependency restriction

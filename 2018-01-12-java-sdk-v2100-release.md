@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.10.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/01-12-java-sdk-v2100-release.md
 published_at: '2018-01-12'
 ---
-# Java SDK `v2.10.0` release
+# Java SDK `v2.10.0` released
 
 - Add optional `is_confirmed` parameter for adding user email alias ([#499](https://github.com/box/box-java-sdk/pull/499))
 - Add support for token revocation ([#510](https://github.com/box/box-java-sdk/pull/510))

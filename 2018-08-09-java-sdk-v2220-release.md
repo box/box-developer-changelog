@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.22.0'
 is_index: false
 category_id: changelog
@@ -21,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-09-java-sdk-v2220-release.md
 published_at: '2018-08-09'
 ---
-# Java SDK `v2.22.0` release
+# Java SDK `v2.22.0` released
 
 1. patch for transfer content to another user ([#632](https://github.com/box/box-java-sdk/pull/632))
