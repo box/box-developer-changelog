@@ -31,7 +31,6 @@ class Compiler {
       .map(entry => entry.replace('/', '-'))
       .filter(entry => entry !== 'index')
       .sort()
-      .map(entry => entryWithLabels(entry))
     
     fs.writeFileSync(path.join(target, 'index.json'), JSON.stringify(index, null, 2))
   }
@@ -47,16 +46,6 @@ const copyAssets = (sourceDir, targetDir, source) => {
 
   if (sourceHash !== destinationHash) {
     fs.copyFileSync(source, destination)
-  }
-}
-
-const entryWithLabels = (id) => {
-  const content = fs.readFileSync(path.join('./compiled', `${id}.md`)).toString()
-  const [_, fm] = content.split('---')
-  const { applies_to } = yaml.load(fm)
-  return {
-    id,
-    applies_to
   }
 }
 
