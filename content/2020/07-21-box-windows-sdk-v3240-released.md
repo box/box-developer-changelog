@@ -2,7 +2,7 @@
 applied_at: '2020-07-21'
 applies_to:
   - sdks
-  - dotnet
+  - windows
 is_impactful: false
 is_new_feature: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.24.0'
