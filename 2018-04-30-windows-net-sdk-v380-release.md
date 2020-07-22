@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.8.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-30-windows-net-sdk-v380-release.md
 published_at: '2018-04-30'
 ---
-# Windows .NET SDK `v3.8.0` release
+# Windows .NET SDK `v3.8.0` released
 
 - Fixed an issue where users could not create `BoxClient` on `Xamarin`
 - Added File property to `BoxLock` objects in events

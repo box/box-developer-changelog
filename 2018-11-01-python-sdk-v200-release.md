@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: true
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.0.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/11-01-python-sdk-v200-release.md
 published_at: '2018-11-01'
 ---
-# Python SDK `v2.0.0` release
+# Python SDK `v2.0.0` released
 
 ## Breaking Changes
 

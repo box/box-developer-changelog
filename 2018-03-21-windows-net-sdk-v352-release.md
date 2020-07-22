@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.5.2'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-21-windows-net-sdk-v352-release.md
 published_at: '2018-03-21'
 ---
-# Windows .NET SDK `v3.5.2` release
+# Windows .NET SDK `v3.5.2` released
 
 Fix .NET Core package
 

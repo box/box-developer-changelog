@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.5.1'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-15-windows-net-sdk-v351-release.md
 published_at: '2018-03-15'
 ---
-# Windows .NET SDK `v3.5.1` release
+# Windows .NET SDK `v3.5.1` released
 
 - Switched to exponential backoff when the SDK receives a rate limit or server error response.
 - Force support for TLS `v1.1` or higher when available to improve the security of connections to the Box API.

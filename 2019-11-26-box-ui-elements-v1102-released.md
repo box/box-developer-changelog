@@ -5,6 +5,7 @@ applies_to:
   - ui-elements
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-ui-elements/releases/tag/v11.0.2'
 is_index: false
 category_id: changelog

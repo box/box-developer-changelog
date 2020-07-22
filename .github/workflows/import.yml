@@ -70,7 +70,8 @@ jobs:
           branch: "${{github.event.client_payload.repository}}/${{steps.split.outputs._2}}"
           # Make the commit appear to come from box-devrel
           author: 'Box DevRel <devrel@box.com>'
-          committer	: 'Box DevRel <devrel@box.com>'
+          committer: 'Box DevRel <devrel@box.com>'
+          team-reviewers: '@box/changelog-reviewers'
 
       # Send a slack notification to notify our team that a new release has been
       # received.

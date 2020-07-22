@@ -19,7 +19,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/12-21-box-cli-v2-released.md
 published_at: '2018-12-21'
 ---
-# Box CLI V2 Released
+# Box CLI V2 release
 
 A major version release (V2) has been made to the [Box CLI](guide://tooling/sdks/cli).
 See the following links for updated information:

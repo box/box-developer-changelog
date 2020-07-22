@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.30.1'
 is_index: false
 category_id: changelog
@@ -21,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-08-java-sdk-v2301-release.md
 published_at: '2019-04-08'
 ---
-# Java SDK `v2.30.1` release
+# Java SDK `v2.30.1` released
 
 1. Fix date parsing to correctly handle RFC3339 timezone format ([#693](https://github.com/box/box-java-sdk/pull/693))

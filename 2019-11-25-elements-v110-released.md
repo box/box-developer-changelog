@@ -1,9 +1,12 @@
 ---
 applied_at: '2019-11-25'
 applies_to:
+  - sdks
   - ui-elements
 is_impactful: false
 is_new_feature: true
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -14,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2019-11-26-box-ui-elements-v1102-released
-previous_page_id: 2019-11-25-box-ui-elements-v1101-released
+previous_page_id: 2019-11-21-node-sdk-v1300-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-25-elements-v110-released.md
 published_at: '2019-11-25'
@@ -27,6 +30,8 @@ major new feature enhancements:
 * Content Explorer Grid View.
 * New Tasks Experience within the Preview Sidebar.
 * Visual Versions for the Preview Sidebar.
+
+<!-- more -->
 
 Updated JavaScript and CSS files links for this release are available within
 the [UI Elements manual installation instructions][ui-elements-manual-install].

@@ -4,6 +4,7 @@ applies_to:
   - cli
 is_impactful: false
 is_new_feature: true
+collapse: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -13,13 +14,13 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2019-03-29-box-cli-v210-release
+next_page_id: 2019-03-29-python-sdk-v232-release
 previous_page_id: 2019-03-28-windows-net-sdk-v3150-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-29-box-cli-210-released.md
 published_at: '2019-03-29'
 ---
-# Box CLI 2.1.0 Released
+# Box CLI 2.1.0 release
 
 A new version of the Box CLI has been released, taking the version from 2.0.0
 to 2.1.0. This release includes a number of feature enhancements and bug fixes:

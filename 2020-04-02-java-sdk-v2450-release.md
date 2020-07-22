@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.45.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-02-java-sdk-v2450-release.md
 published_at: '2020-04-02'
 ---
-# Java SDK `v2.45.0` release
+# Java SDK `v2.45.0` released
 
 1. Add preflight check before chunked uploads ([#782](https://github.com/box/box-java-sdk/pull/782))
 2. Check that part was successfully uploaded for large file uploads… ([#781](https://github.com/box/box-java-sdk/pull/781))

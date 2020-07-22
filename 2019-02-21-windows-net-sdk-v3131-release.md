@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.13.1'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-21-windows-net-sdk-v3131-release.md
 published_at: '2019-02-21'
 ---
-# Windows .NET SDK `v3.13.1` release
+# Windows .NET SDK `v3.13.1` released
 
 - Fixed an issue where some objects related to Events did not have their `.Id` property correctly deserialized from JSON
 

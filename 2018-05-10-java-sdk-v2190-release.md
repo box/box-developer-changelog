@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.19.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/05-10-java-sdk-v2190-release.md
 published_at: '2018-05-10'
 ---
-# Java SDK `v2.19.0` release
+# Java SDK `v2.19.0` released
 
 1. Multizones ([#598](https://github.com/box/box-java-sdk/pull/598))
 2. Add `getLogin()` method on `BoxCollaborator.Info` ([#602](https://github.com/box/box-java-sdk/pull/602))

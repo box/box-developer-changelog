@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.42.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-17-java-sdk-v2420-release.md
 published_at: '2019-12-17'
 ---
-# Java SDK `v2.42.0` release
+# Java SDK `v2.42.0` released
 
 1. `SDK-1168` Metadata Query ([#760](https://github.com/box/box-java-sdk/pull/760))
 2. Add marker based pagination for get users methods ([#759](https://github.com/box/box-java-sdk/pull/759))

@@ -1,9 +1,11 @@
 ---
 applied_at: '2019-12-03'
 applies_to:
+  - sdks
   - ui-elements
 is_impactful: false
 is_new_feature: true
+collapse: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -19,7 +21,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-03-preview-sdk-v2290-released.md
 published_at: '2019-12-03'
 ---
-# Preview SDK `v2.29.0` Released
+# Preview SDK `v2.29.0` released
 
 Version `2.29.0` of the Preview SDK has been released. New JavaScript and CSS
 Preview files have been made available. To adopt new changes, please see the

@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.16.1'
 is_index: false
 category_id: changelog
@@ -21,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-29-java-sdk-v2161-release.md
 published_at: '2018-03-29'
 ---
-# Java SDK `v2.16.1` release
+# Java SDK `v2.16.1` released
 
 1. Add `CONTENT_ACCESS` event type.  ([#581](https://github.com/box/box-java-sdk/pull/581))

@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.24.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/11-16-java-sdk-v2240-release.md
 published_at: '2018-11-16'
 ---
-# Java SDK `v2.24.0` release
+# Java SDK `v2.24.0` released
 
 1. added tests and implementation for options object ([#661](https://github.com/box/box-java-sdk/pull/661))
 2. Expose object type on `BoxItem` ([#662](https://github.com/box/box-java-sdk/pull/662))

@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.11.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/01-18-windows-net-sdk-v3110-release.md
 published_at: '2019-01-18'
 ---
-# Windows .NET SDK `v3.11.0` release
+# Windows .NET SDK `v3.11.0` released
 
 - Added support for reading and writing more Group fields
 - Fixed an issue where the `UnsharedAt` field of a shared link could not be set to `null`

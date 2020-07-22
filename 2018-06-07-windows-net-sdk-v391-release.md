@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.9.1'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-07-windows-net-sdk-v391-release.md
 published_at: '2018-06-07'
 ---
-# Windows .NET SDK `v3.9.1` release
+# Windows .NET SDK `v3.9.1` released
 
 Fixed bug where Xamarin applications would run out of connections.
 

@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-node-sdk/releases/tag/v1.29.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-25-node-sdk-v1290-release.md
 published_at: '2019-04-25'
 ---
-# Node SDK `v1.29.0` release
+# Node SDK `v1.29.0` released
 
 - Prepare `v1.29.0` release ([#381](https://github.com/box/box-node-sdk/pull/381))  [`4860e7c`](https://github.com/box/box-node-sdk/commit/4860e7c)
 - Add convenience methods for setting metadata ([#376](https://github.com/box/box-node-sdk/pull/376))  [`1938e39`](https://github.com/box/box-node-sdk/commit/1938e39)
