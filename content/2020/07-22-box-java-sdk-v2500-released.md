@@ -11,7 +11,7 @@ collapse: true
 
 # Box Java SDK `v2.50.0` released
 
-v2.50.0
+`v2.50.0`
 
 1. Add retries on request creation errors ([#828][1])
 
