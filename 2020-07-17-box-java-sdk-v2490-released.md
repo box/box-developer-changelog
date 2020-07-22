@@ -6,6 +6,7 @@ applies_to:
 is_impactful: false
 is_new_feature: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.49.0'
+collapse: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
