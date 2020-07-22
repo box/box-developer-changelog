@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.16.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-29-windows-net-sdk-v3160-release.md
 published_at: '2019-04-29'
 ---
-# Windows .NET SDK `v3.16.0` release
+# Windows .NET SDK `v3.16.0` released
 
 * Added `sort` and `direction` parameters to `client.SearchManager.SearchAsync()` to  control sort order
 * Added `extension` parameter to `client.FilesManager.GetThumbnailAsync()` to control which thumbnail format is returned (thanks `@guilmori`!)

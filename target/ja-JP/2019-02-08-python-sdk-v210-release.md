@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.1.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-08-python-sdk-v210-release.md
 published_at: '2019-02-08'
 ---
-# Python SDK `v2.1.0` release
+# Python SDK `v2.1.0` released
 
 * Added ability for user to [chunk upload files](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#chunked-upload) and resume uploads for interrupted uploads.
 * Added ability to [verify webhook message](https://github.com/box/box-python-sdk/blob/master/docs/usage/webhook.md#validate-webhook-message)

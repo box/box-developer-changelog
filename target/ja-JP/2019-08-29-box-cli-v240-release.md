@@ -4,6 +4,7 @@ applies_to:
   - cli
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/boxcli/releases/tag/v2.4.0'
 is_index: false
 category_id: changelog
@@ -20,7 +21,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-29-box-cli-v240-release.md
 published_at: '2019-08-29'
 ---
-# Box CLI `v2.4.0` release
+# Box CLI `v2.4.0` released
 
 [CHANGELOG](https://github.com/box/boxcli/blob/master/CHANGELOG.md#240-2019-08-29)
 

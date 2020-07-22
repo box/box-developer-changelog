@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.26.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/01-17-java-sdk-v2260-release.md
 published_at: '2019-01-17'
 ---
-# Java SDK `v2.26.0` release
+# Java SDK `v2.26.0` released
 
 1. add missing fields to task and folder and add ability to get fields for tasks ([#677](https://github.com/box/box-java-sdk/pull/677))
 2. Fixed typos in `README.md` ([#678](https://github.com/box/box-java-sdk/pull/678))

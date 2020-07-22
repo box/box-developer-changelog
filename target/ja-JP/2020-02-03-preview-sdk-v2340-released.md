@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -20,7 +21,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/02-03-preview-sdk-v2340-released.md
 published_at: '2020-02-03'
 ---
-# Preview SDK `v2.34.0` Released
+# Preview SDK `v2.34.0` released
 
 Version `2.34.0` of the Preview SDK has been released. New JavaScript and CSS
 Preview files have been made available. To adopt new changes, please see the

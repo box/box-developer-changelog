@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: false
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -25,6 +27,8 @@ As part of ongoing improvements to our Metadata infrastructure we will be
 rolling out three potential impactful changes to the format of `date` fields in
 metadata templates. These changes make the format our API returns more
 consistent between API calls.
+
+<!-- more -->
 
 The first change affects the usage of time zone offsets in dates. Previously,
 the API would inconsistently return dates with and without timezone offsets if a

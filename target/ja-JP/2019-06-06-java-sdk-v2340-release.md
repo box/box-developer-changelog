@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.34.0'
 is_index: false
 category_id: changelog
@@ -21,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/06-06-java-sdk-v2340-release.md
 published_at: '2019-06-06'
 ---
-# Java SDK `v2.34.0` release
+# Java SDK `v2.34.0` released
 
 1. Added fields: action for task ([#707](https://github.com/box/box-java-sdk/pull/707))

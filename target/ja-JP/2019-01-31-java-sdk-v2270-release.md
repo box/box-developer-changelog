@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.27.0'
 is_index: false
 category_id: changelog
@@ -21,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/01-31-java-sdk-v2270-release.md
 published_at: '2019-01-31'
 ---
-# Java SDK `v2.27.0` release
+# Java SDK `v2.27.0` released
 
 1. Metadata Classification ([#671](https://github.com/box/box-java-sdk/pull/671))

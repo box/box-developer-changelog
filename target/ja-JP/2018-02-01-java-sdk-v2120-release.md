@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.12.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/02-01-java-sdk-v2120-release.md
 published_at: '2018-02-01'
 ---
-# Java SDK `v2.12.0` release
+# Java SDK `v2.12.0` released
 
 1. Fix collaboration notify parameter ([#545](https://github.com/box/box-java-sdk/pull/545))
 2. Add OAuth 2.0 token creation event type ([#533](https://github.com/box/box-java-sdk/pull/533))

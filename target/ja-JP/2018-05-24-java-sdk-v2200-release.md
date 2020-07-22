@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.20.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/05-24-java-sdk-v2200-release.md
 published_at: '2018-05-24'
 ---
-# Java SDK `v2.20.0` release
+# Java SDK `v2.20.0` released
 
 1. multi select metadata field ([#610](https://github.com/box/box-java-sdk/pull/610))
 2. Fix check for duplicate As-User headers ([#612](https://github.com/box/box-java-sdk/pull/612))

@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.14.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/02-15-java-sdk-v2140-release.md
 published_at: '2018-02-15'
 ---
-# Java SDK `v2.14.0` release
+# Java SDK `v2.14.0` released
 
 1. fixes missing `can_view_path` property on collaboration object ([#560](https://github.com/box/box-java-sdk/pull/560))
 2. Add missing methods and documentation ([#559](https://github.com/box/box-java-sdk/pull/559))

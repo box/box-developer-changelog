@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.3.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-28-python-sdk-v230-release.md
 published_at: '2019-03-28'
 ---
-# Python SDK `v2.3.0` release
+# Python SDK `v2.3.0` released
 
 * Added the ability to set [file description upon upload](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#upload-a-file)
 * Added support for [basic authenticated proxy and unauthenticated proxy](https://github.com/box/box-python-sdk/blob/master/docs/usage/configuration.md#proxy)

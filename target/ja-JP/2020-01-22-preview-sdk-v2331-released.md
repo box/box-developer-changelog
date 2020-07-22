@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -20,7 +21,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/01-22-preview-sdk-v2331-released.md
 published_at: '2020-01-22'
 ---
-# Preview SDK `v2.33.1` Released
+# Preview SDK `v2.33.1` released
 
 Version `2.33.1` of the Preview SDK has been released. New JavaScript and CSS
 Preview files have been made available. To adopt new changes, please see the

@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: true
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -23,6 +25,10 @@ published_at: '2020-07-15'
 
 The [Metadata Query API][g_mdq_api] has been updated to **require explicitly
 defined response fields**.
+
+[g_mdq_api]: g://metadata/queries
+
+<!-- more -->
 
 ```curl
 curl -X POST https://api.box.com/2.0/metadata_queries/execute_read \
@@ -132,5 +138,3 @@ containing an `item` and a `metadata` instance.
 This legacy syntax **will remain available for any existing Metadata Query API
 users only**. The legacy syntax will be turned off When all existing customers
 have been migrated over to the new syntax.
-
-[g_mdq_api]: g://metadata/queries

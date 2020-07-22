@@ -5,6 +5,7 @@ applies_to:
   - python
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.9.0'
 is_index: false
 category_id: changelog

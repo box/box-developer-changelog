@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.4.1'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/01-10-windows-net-sdk-v341-release.md
 published_at: '2018-01-10'
 ---
-# Windows .NET SDK `v3.4.1` release
+# Windows .NET SDK `v3.4.1` released
 
 Added support for [Collaboration Whitelisting](https://developer.box.com/v2.0/reference#collaboration-whitelist-object)
 Added Event Type enum

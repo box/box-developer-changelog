@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v2.8.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-24-python-sdk-v280-release.md
 published_at: '2020-04-24'
 ---
-# Python SDK `v2.8.0` release
+# Python SDK `v2.8.0` released
 
 * Added support for token exchange using shared links
 * Added the ability to pass in a SHA1 value for file uploads

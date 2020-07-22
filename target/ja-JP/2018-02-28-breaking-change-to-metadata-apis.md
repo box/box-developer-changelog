@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: false
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -28,6 +30,8 @@ This new field type represents a checkbox type multiple selection of values
 when creating template instances on files or folders. The selected options for
 this field type are stored in an array of strings, where each string in the
 array corresponds to the key of the chosen `multiSelect` option.
+
+<!-- more -->
 
 An example metadata template JSON response body is shown below. The value for
 the key `audience1` shows an example of the new data type (array of strings) that

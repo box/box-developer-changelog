@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-java-sdk/releases/tag/v2.18.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-30-java-sdk-v2180-release.md
 published_at: '2018-04-30'
 ---
-# Java SDK `v2.18.0` release
+# Java SDK `v2.18.0` released
 
 1. Error object ([#588](https://github.com/box/box-java-sdk/pull/588))
 2. Quick fix for NPE on `request.toString()` in interceptor ([#595](https://github.com/box/box-java-sdk/pull/595))

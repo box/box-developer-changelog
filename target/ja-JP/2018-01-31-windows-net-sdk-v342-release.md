@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.4.2'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/01-31-windows-net-sdk-v342-release.md
 published_at: '2018-01-31'
 ---
-# Windows .NET SDK `v3.4.2` release
+# Windows .NET SDK `v3.4.2` released
 
 Updated Box SDK Version in `NuSpec` file to fix dependency issues for `Box V2` and `Box V2.Core`.
 

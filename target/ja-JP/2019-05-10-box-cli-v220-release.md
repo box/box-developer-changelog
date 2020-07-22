@@ -4,6 +4,7 @@ applies_to:
   - cli
 is_impactful: true
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/boxcli/releases/tag/v2.2.0'
 is_index: false
 category_id: changelog
@@ -20,7 +21,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-10-box-cli-v220-release.md
 published_at: '2019-05-10'
 ---
-# Box CLI `v2.2.0` release
+# Box CLI `v2.2.0` released
 
 * Update CHANGELOG for `v2.2.0` release ([#143](https://github.com/box/boxcli/pull/143))  [`96b49d5`](https://github.com/box/boxcli/commit/96b49d5)
 * Remove unnecessary dependency ([#141](https://github.com/box/boxcli/pull/141))  [`7ac5563`](https://github.com/box/boxcli/commit/7ac5563)

@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: false
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.14.1'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-07-windows-net-sdk-v3141-release.md
 published_at: '2019-03-07'
 ---
-# Windows .NET SDK `v3.14.1` release
+# Windows .NET SDK `v3.14.1` released
 
 * Removed unnecessary `package.config` from sample files.
 

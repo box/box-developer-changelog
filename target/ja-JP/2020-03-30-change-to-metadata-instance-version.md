@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: false
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -24,6 +26,8 @@ published_at: '2020-03-30'
 As part of ongoing improvements to our Metadata infrastructure we will be
 rolling out a small change to the [`version`](r:/metadata/#param-$version) value
 of a metadata Instance.
+
+<!-- more -->
 
 Previously, the version number associated with a metadata instance would be
 incremented if a field on the associated metadata template was deleted, or if an

@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: true
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -27,6 +29,8 @@ collaborator on a file or folder. This change was put in place because the
 current `accessible_by` object returned would show `null` as the result for an
 unregistered user. The new field will now show the email address that was used
 to invite the user.
+
+<!-- more -->
 
 This change affects the following endpoints:
 

@@ -20,7 +20,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-18-new-ios-sdk-now-available.md
 published_at: '2019-11-18'
 ---
-# New iOS SDK Now Available
+# New iOS SDK now available
 
 A new major release of the iOS SDK has been released and is now generally
 available. The new SDK includes a number of major revisions:

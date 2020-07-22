@@ -4,6 +4,7 @@ applies_to:
   - cli
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/boxcli/releases/tag/v1.2.0'
 is_index: false
 category_id: changelog
@@ -20,7 +21,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-11-box-cli-v120-release.md
 published_at: '2018-04-11'
 ---
-# Box CLI `v1.2.0` release
+# Box CLI `v1.2.0` released
 
 * Created bulk actions for the following commands:
 * users

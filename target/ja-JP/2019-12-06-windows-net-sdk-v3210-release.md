@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.21.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-06-windows-net-sdk-v3210-release.md
 published_at: '2019-12-06'
 ---
-# Windows .NET SDK `v3.21.0` release
+# Windows .NET SDK `v3.21.0` released
 
 See [Changelog](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#3210) for details
 Commits: [`v3.20.0...v3.21.0`](https://github.com/box/box-windows-sdk-v2/compare/`v3.20.0...v3.21.0`)

@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: true
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -27,6 +29,8 @@ This field includes terms of service, 2-factor auth, and strong password
 requirements. The existing `acceptance_requirements` field, which only contains
 Terms of Service requirements, have been replaced with the new
 `acceptance_requirements_status`.
+
+<!-- more -->
 
 Previously a call to `GET
 /collaboration/<collaboration_id>?fields=acceptance_requirements` would return

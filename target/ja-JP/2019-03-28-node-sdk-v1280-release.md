@@ -5,6 +5,7 @@ applies_to:
   - sdks
 is_impactful: false
 is_new_feature: true
+collapse: true
 release_source_url: 'https://github.com/box/box-node-sdk/releases/tag/v1.28.0'
 is_index: false
 category_id: changelog
@@ -21,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-28-node-sdk-v1280-release.md
 published_at: '2019-03-28'
 ---
-# Node SDK `v1.28.0` release
+# Node SDK `v1.28.0` released
 
 * Prepare for `v1.28.0` release ([#366](https://github.com/box/box-node-sdk/pull/366))  [`8fa21de`](https://github.com/box/box-node-sdk/commit/8fa21de)
 * Add common item methods for Web Links ([#364](https://github.com/box/box-node-sdk/pull/364))  [`7549d4f`](https://github.com/box/box-node-sdk/commit/7549d4f)

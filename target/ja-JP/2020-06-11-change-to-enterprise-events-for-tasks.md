@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: true
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -24,6 +26,8 @@ published_at: '2020-06-11'
 Starting today, the [enterprise event stream](g://events/for-enterprise/) will
 begin producing new task and task assignment events, and some existing task
 events will return additional fields.
+
+<!-- more -->
 
 ## New events
 

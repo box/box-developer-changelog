@@ -4,6 +4,8 @@ applies_to:
   - api
 is_impactful: true
 is_new_feature: false
+collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
@@ -25,6 +27,8 @@ A minor change has been made to the response object of the
 [enterprise events](endpoint://get-events/#request) API endpoint in the
 event that an action is taken by a supervisor or internal admin user, such as a
 Box admin.
+
+<!-- more -->
 
 Prior to this update the user information of the supervisor or internal admin
 user would be displayed in the `created_by` field of the response object. With
