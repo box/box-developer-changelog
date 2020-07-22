@@ -11,11 +11,12 @@ collapse: true
 
 # Box Windows SDK `v3.24.0` released
 
-See [Changelog][1] for details
+See [Changelog][1] for details.
+
 Commits: [https://github.com/box/box-windows-sdk-v2/compare/v3.23.0...v3.24.0][2]
 
-[https://www.nuget.org/packages/Box.V2/3.24.0][3]
-[https://www.nuget.org/packages/Box.V2.Core/3.24.0][4]
+[`nuget.org/packages/Box.V2/3.24.0`][3]
+[`nuget.org/packages/Box.V2.Core/3.24.0`][4]
 
 [1]: https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#3240-2020-07-21
 
