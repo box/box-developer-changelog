@@ -12,7 +12,7 @@ collapse: true
 # Box Node SDK `v1.34.0` released
 
 - Add zip functionality ([#525][1]) [`2f89357`][2]
-- Add proxy support for http, https, socks and pac protocols ([#529][3]) [`b08cc24`][4]
+- Add proxy support for HTTP, HTTPS, SOCKS and PAC protocols ([#529][3]) [`b08cc24`][4]
 
 [https://github.com/box/box-node-sdk/compare/v1.33.0...v1.34.0][5]
 
