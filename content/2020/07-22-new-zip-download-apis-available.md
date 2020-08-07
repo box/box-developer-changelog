@@ -4,8 +4,7 @@ applies_to:
   - api
 is_impactful: false
 is_new_feature: true
-collapse: true
-show_excerpt: true
+collapse: false
 ---
 
 # New Zip Download APIs available
