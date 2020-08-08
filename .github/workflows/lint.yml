@@ -135,10 +135,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 'Trigger Netlify deployment'
-        uses: jasongitmail/fast-webhook@v1
-        with:
-          url: ${{ steps.netlify_webhook.outputs.value }}
-          json: '{}'
+        uses: joelwmale/webhook-action@master
+        env:
+          WEBHOOK_URL: ${{ steps.netlify_webhook.outputs.value }}
+          data: '{}'
 
       # Send a slack notification to notify our team that a new release has been
       # received.
@@ -164,11 +164,11 @@ jobs:
 
     steps:
       - name: 'Trigger Netlify deployment'
-        uses: jasongitmail/fast-webhook@v1
-        with:
-          url: ${{ secrets.NETLIFY_BOXDEV_JP_WEBHOOK }}
-          json: '{}'
-
+        uses: joelwmale/webhook-action@master
+        env:
+          WEBHOOK_URL: ${{ secrets.NETLIFY_BOXDEV_JP_WEBHOOK }}
+          data: '{}'
+  
       - name: Send Slack notification
         uses: Ilshidur/action-slack@2.0.2
         env:
