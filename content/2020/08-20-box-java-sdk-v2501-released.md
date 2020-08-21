@@ -11,8 +11,6 @@ collapse: true
 
 # Box Java SDK `v2.50.1` released
 
-v2.50.1
-
-1. Fix bug that occurred when downscoping a token for a Box folder ([#832][1])
+Fix bug that occurred when downscoping a token for a Box folder ([#832][1])
 
 [1]: https://github.com/box/box-java-sdk/issues/832
