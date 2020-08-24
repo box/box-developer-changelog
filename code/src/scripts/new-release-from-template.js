@@ -4,6 +4,7 @@ import fs from 'fs'
 import path from 'path'
 import uslug from 'uslug'
 import randomstring from 'randomstring'
+import yaml from 'js-yaml'
 
 // A regex to validate the date
 const dateRegex = new RegExp(/^\d\d\d\d-\d\d-\d\d$/)
@@ -70,6 +71,7 @@ const run = async () => {
   ])
 
   // Compile the template with the answers to get our markdown
+  answers.applies_to = `\n${yaml.dump(answers.applies_to).trim()}`
   const markdown = template(answers)
 
   // Determine the file name

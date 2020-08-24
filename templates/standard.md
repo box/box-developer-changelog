@@ -1,11 +1,11 @@
 ---
-applied_at: {{applied_at}}
+applied_at: "{{applied_at}}"
 applies_to: {{applies_to}}
 is_impactful: {{is_impactful}}
 is_new_feature: {{is_new_feature}}
 collapse: true
 show_excerpt: true
-release_source_url: null
+release_source_url: ''
 ---
 
 # {{{title}}}
