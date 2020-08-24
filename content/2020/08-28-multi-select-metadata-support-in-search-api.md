@@ -11,7 +11,7 @@ release_source_url: ''
 
 # New `multiSelect` metadata support in search API
 
-Starting today, the [Search API][search] adds support for searching for items
+Starting today, the [Search API][search] adds support for matching items
 by multiple values of a [`multiSelect` metadata field][multi_select]. Before this
 change, it was not possible to find items that matched multiple values for a
 `multiSelect` field.
@@ -28,8 +28,8 @@ curl -G 'https://api.box.com/2.0/search' \
 <!-- more -->
 
 In this example, the `mdfilters` query parameter contains one filter with a
-`scope`, `templateKey`, a set of `filters`. Here is the same filter in a more
-readable format.
+`scope`, a `templateKey`, and a set of `filters`. Here is the same filter 
+in a more readable format.
 
 ```json
 [
@@ -48,7 +48,7 @@ readable format.
 
 What is new here is that the `products` filter now performs a match on multiple
 values, only returning files and folders for which the template has a `products`
-value of both `shield` and `platform`.
+value of either `shield` and `platform`.
 
 [search]: e://get_search
 [multi_select]: g://metadata/fields/multi-select
