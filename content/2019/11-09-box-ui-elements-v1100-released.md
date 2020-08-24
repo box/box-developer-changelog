@@ -309,7 +309,7 @@ release_source_url: 'https://github.com/box/box-ui-elements/releases/tag/v11.0.0
 
 ### BREAKING CHANGES
 
-- **`formik`:** `inputProps` dropped from Toggle component. `formik` has been upgraded to V2. Upgrade guide [https://github.com/jaredpalmer/formik/blob/master/docs/migrating-v2.md][553]
+- **`formik`:** `inputProps` dropped from Toggle component. `formik` has been upgraded to V2. [Upgrade guide][553].
 
 - Peer dependency React requirement have been bumped higher
 
