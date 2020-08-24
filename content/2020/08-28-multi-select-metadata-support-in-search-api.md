@@ -13,8 +13,7 @@ release_source_url: ''
 
 Starting today, the [Search API][search] adds support for matching items
 by multiple values of a [`multiSelect` metadata field][multi_select]. Before this
-change, it was not possible to find items that matched multiple values for a
-`multiSelect` field.
+change, it was not possible to find items by the value of a `multiSelect` field.
 
 To perform a search for items where a metadata field matches
 multiple values, the `mdfilters` parameter now supports a list of values.
@@ -48,7 +47,10 @@ in a more readable format.
 
 What is new here is that the `products` filter now performs a match on multiple
 values, only returning files and folders for which the template has a `products`
-value of either `shield` and `platform`.
+value of either `shield` and `platform`. It's worth noting that the value of the
+field can contain multiple values and only match on one value. For example 
+`["shield", "platform"]` will be a match for the filter `["shield", "platform"]`
+as they both include `shield`.
 
 [search]: e://get_search
 [multi_select]: g://metadata/fields/multi-select
