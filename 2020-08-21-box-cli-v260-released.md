@@ -5,7 +5,7 @@ applies_to:
 is_impactful: false
 is_new_feature: true
 release_source_url: 'https://github.com/box/boxcli/releases/tag/v2.6.0'
-collapse: true
+collapse: false
 is_index: false
 category_id: changelog
 subcategory_id: ''
