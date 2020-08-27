@@ -22,9 +22,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-08-python-sdk-v210-release.md
 published_at: '2019-02-08'
 ---
-# Python SDK `v2.1.0` released
+# Python SDK `v2.1.0`のリリース
 
-* Added ability for user to [chunk upload files](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#chunked-upload) and resume uploads for interrupted uploads.
-* Added ability to [verify webhook message](https://github.com/box/box-python-sdk/blob/master/docs/usage/webhook.md#validate-webhook-message)
-* Added ability for user to add metadata classification to [files](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#set-a-classification) and [folders](https://github.com/box/box-python-sdk/blob/master/docs/usage/folders.md#set-a-classification).
-* Bug fix where calling  `.response_object()` method on an API object could throw.
+* ユーザーが[ファイルを分割アップロード](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#chunked-upload)して、中断されたアップロードを再開する機能が追加されました。
+* [Webhookメッセージを確認する](https://github.com/box/box-python-sdk/blob/master/docs/usage/webhook.md#validate-webhook-message)機能が追加されました。
+* ユーザーがメタデータの分類を[ファイル](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#set-a-classification)や[フォルダ](https://github.com/box/box-python-sdk/blob/master/docs/usage/folders.md#set-a-classification)に追加する機能が追加されました。
+* APIオブジェクトで`.response_object()`メソッドを呼び出すとスローされるバグの修正。

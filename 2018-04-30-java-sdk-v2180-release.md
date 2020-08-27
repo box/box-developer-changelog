@@ -22,9 +22,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-30-java-sdk-v2180-release.md
 published_at: '2018-04-30'
 ---
-# Java SDK `v2.18.0` released
+# Java SDK `v2.18.0`のリリース
 
-1. Error object ([#588](https://github.com/box/box-java-sdk/pull/588))
-2. Quick fix for NPE on `request.toString()` in interceptor ([#595](https://github.com/box/box-java-sdk/pull/595))
-3. Add support for fetching representation content ([#583](https://github.com/box/box-java-sdk/pull/583))
-4. fixed `BoxConfig` constructor method where `privateKeyPassword` was not being set ([#593](https://github.com/box/box-java-sdk/pull/593))
+1. エラーオブジェクト ([#588](https://github.com/box/box-java-sdk/pull/588))
+2. インターセプタの`request.toString()`のNPEのクイック修正 ([#595](https://github.com/box/box-java-sdk/pull/595))
+3. レプリゼンテーションコンテンツ取得のサポートを追加 ([#583](https://github.com/box/box-java-sdk/pull/583))
+4. `privateKeyPassword`が設定されていなかった`BoxConfig`コンストラクタメソッドを修正 ([#593](https://github.com/box/box-java-sdk/pull/593))

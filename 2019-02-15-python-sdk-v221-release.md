@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-15-python-sdk-v221-release.md
 published_at: '2019-02-15'
 ---
-# Python SDK `v2.2.1` released
+# Python SDK `v2.2.1`のリリース
 
-* Fixing an issue in `v2.2.0` where package could not be installed.
+* パッケージをインストールできなかった`v2.2.0`の問題を修正しています。

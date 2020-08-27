@@ -22,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/07-18-java-sdk-v2350-release.md
 published_at: '2019-07-18'
 ---
-# Java SDK `v2.35.0` released
+# Java SDK `v2.35.0`のリリース
 
-1. Added support for `is_externally_owned` field ([#714](https://github.com/box/box-java-sdk/pull/714))
-2. Added exception messaging for old `error` and `error_description` ([#710](https://github.com/box/box-java-sdk/pull/710))
+1. `is_externally_owned`フィールドのサポートを追加 ([#714](https://github.com/box/box-java-sdk/pull/714))
+2. 古い`error`および`error_description`の例外メッセージを追加 ([#710](https://github.com/box/box-java-sdk/pull/710))

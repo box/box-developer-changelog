@@ -22,20 +22,16 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-30-updates-to-search-relevance-performance.md
 published_at: '2020-07-30'
 ---
-# Updates to Search Relevance & Performance
+# 検索の関連性とパフォーマンスの更新
 
-In January, updates were released to Box's search [tokenizer][wiki-tokenizer],
-improving the relevancy of search results and performance. This change does not
-effect how metadata is tokenized.
+1月に、Boxの検索用[トークナイザ][wiki-tokenizer]に対する更新がリリースされ、検索結果の関連性とパフォーマンスが向上しました。今回の変更によるメタデータのトークン化への影響はありません。
 
-Notable changes to the API-initiated searches include:
+APIによる検索の注目すべき変更点は以下のとおりです。
 
-* The ability to use "[stop words][wiki-stop-words]", for example "the", "is"
-  "at", "which", and "on".
-* Improved Japanese text tokenization and improved search results.
+* 「the」、「is」、「at」、「which」、「on」などの「[ストップワード][wiki-stop-words]」が使用可能になりました
+* 日本語テキストのトークン化が改善され、検索結果が向上しました
 
-See the [full-text search][search_guide] documentation for more
-information on how to search using Box's API.
+BoxのAPIを使用した検索方法の詳細については、[全文検索][search_guide]に関するドキュメントを参照してください。
 
 [wiki-stop-words]: https://en.wikipedia.org/wiki/Stop_words
 

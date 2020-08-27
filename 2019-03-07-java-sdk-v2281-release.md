@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-07-java-sdk-v2281-release.md
 published_at: '2019-03-07'
 ---
-# Java SDK `v2.28.1` released
+# Java SDK `v2.28.1`のリリース
 
-1. Wrong casting for response in `BoxAPIResponse` for `BoxMetadataCascadePolicy.forceApply()` ([#685](https://github.com/box/box-java-sdk/pull/685))
+1. `BoxMetadataCascadePolicy.forceApply()`の`BoxAPIResponse`での応答の間違ったキャスト ([#685](https://github.com/box/box-java-sdk/pull/685))

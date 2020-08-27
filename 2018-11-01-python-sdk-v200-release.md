@@ -22,212 +22,117 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/11-01-python-sdk-v200-release.md
 published_at: '2018-11-01'
 ---
-# Python SDK `v2.0.0` released
+# Python SDK `v2.0.0`のリリース
 
-## Breaking Changes
+## 重大な変更
 
-* Python 2.6 is no longer supported.
+* Python 2.6はサポートされなくなりました。
 
-* Python 3.3 is no longer supported.
+* Python 3.3はサポートされなくなりました。
 
-* `client.search()` now returns a `Search` object that exposes a `query()` method to call the Search API.
-  Use `client.search().query(**search_params)` instead of `client.search(**search_params)`.
+* `client.search()`により、検索APIを呼び出すための`query()`メソッドを公開する`Search`オブジェクトが返されるようになりました。`client.search(**search_params)`の代わりに`client.search().query(**search_params)`を使用してください。
 
-* `client.get_memberships(...)` has a change in signature. The limit and offset parameters have swapped positions to keep
-  consistency with the rest of the SDK.
+* `client.get_memberships(...)`の署名が変更されました。他のSDKとの一貫性を保つため、制限パラメータとオフセットパラメータの位置が入れ替えられました。
 
-* `client.groups(...)` has been changed to `client.get_groups`. The limit and offset parameters have swapped positions.
+* `client.groups(...)`が`client.get_groups`に変更されました。制限パラメータとオフセットパラメータの位置が入れ替えられました。
 
-* The `unshared_at` parameter for `item.create_shared_link(...)` and `file.get_shared_link_download_url(...)`
-  now takes an `RFC3339-formatted <https://tools.ietf.org/html/rfc3339#section-5.8>` `unicode` string instead of a
-  `datetime.date`.  Users migrating from `v1.x` can pass the value of `date.isoformat()` instead of the `date`
-  object itself.
+* `item.create_shared_link(...)`と`file.get_shared_link_download_url(...)`の`unshared_at`パラメータは、`datetime.date`ではなく`RFC3339-formatted <https://tools.ietf.org/html/rfc3339#section-5.8>` `unicode`文字列を取得するようになりました。ユーザーは`v1.x`から移行する場合、`date`オブジェクト自体ではなく`date.isoformat()`の値を渡すことができます。
 
-* `Events.get_events(...)` now returns a list of `Event` instances rather than a list of `dict`
-  representing events.  `Event` inherits from `Mapping` but will not have all the same capabilities as
-  `dict`.
+* `Events.get_events(...)`では、イベントを表す`dict`のリストではなく、`Event`インスタンスのリストが返されるようになりました。`Event`は`Mapping`から継承されますが、`dict`と同じ機能をすべて備えているとは限りません。
 
-  * Your code is affected if you use `Events.get_events(...)` and expect a list of `dict` rather than a list of
-    `Mapping`.  For example, if you use `__setitem__` (`event['key'] = value`), `update()`, `copy()`, or
-    if your code depends on the `str` or `repr` of the `Event`.  Use of `__getitem__` (`event['key']`),
-    `get()`, and other `Mapping` methods is unaffected.  See the [Python
-    documentation](https://docs.python.org/2.7/library/collections.html#collections-abstract-base-classes) for methods supported on
-    `Mapping` instances.
+  * `Events.get_events(...)`を使用していて、`Mapping`のリストではなく`dict`のリストを想定する場合、コードは影響を受けます。たとえば、`__setitem__` (`event['key'] = value`)、`update()`、`copy()`を使用する場合、またはコードが`Event`の`str`または`repr`に依存する場合がこれに該当します。`__getitem__` (`event['key']`)、`get()`、およびその他の`Mapping`メソッドの使用は影響を受けません。`Mapping`インスタンスでサポートされているメソッドについては、[Pythonドキュメント](https://docs.python.org/2.7/library/collections.html#collections-abstract-base-classes)を参照してください。
 
-  * Migration: If you still need to treat an `Event` as a `dict`, you can get a deepcopy of the original `dict`
-    using the new property on `BaseAPIJSONObject`, `response_object`.
+  * 移行: まだ`Event`を`dict`として扱う必要がある場合は、`BaseAPIJSONObject`の新しいプロパティ`response_object`を使用して、元の`dict`のディープコピーを取得できます。
 
-* `LoggingNetwork` has been removed. Logging calls are now made from the `DefaultNetwork` class. In addition,
-  the logging format strings in this class have changed in a way that
-  will break logging for any applications that have overridden any of these
-  strings. They now use keyword format placeholders instead of positional
-  placeholders. All custom format strings will now have to use the same keyword
-  format placeholders. Though this is a breaking change, the good news is that
-  using keyword format placeholders means that any future changes will be
-  automatically backwards-compatible (as long as there aren't any changes to
-  change/remove any of the keywords).
+* `LoggingNetwork`は削除されました。ロギングの呼び出しは`DefaultNetwork`クラスから行われるようになりました。さらに、このクラスのロギング形式の文字列は、これらの文字列をオーバーライドしたアプリケーションのロギングを中断する形で変更されました。位置指定のプレースホルダではなく、キーワード形式のプレースホルダが使用されるようになりました。今後、カスタム形式の文字列はすべて、同じキーワード形式のプレースホルダを使用する必要があります。これは重大な変更ですが、キーワード形式のプレースホルダを使用すると、今後の変更は自動的に後方互換性が維持されるという利点があります (キーワードの変更/削除を伴う変更が行われない限り)。
 
-* `File.update_contents()` and `File.update_contents_with_stream()` now
-  correctly return a `File` object with the correct internal JSON structure.
-  Previously it would return a `File` object where the file JSON is hidden
-  inside `file['entries'][0]`. This is a bug fix, but will be a breaking
-  change for any clients that have already written code to handle the bug.
+* `File.update_contents()`と`File.update_contents_with_stream()`では、適切な内部JSON構造を持つ`File`オブジェクトが正しく返されるようになりました。以前は、ファイルJSONが`file['entries'][0]`内で非表示になっている`File`オブジェクトが返されていました。これはバグ修正ですが、このバグを処理するコードをすでに作成しているクライアントにとっては重大な変更になります。
 
-* Comparing two objects (e.g. a `File` and a `Folder`) that have the same Box ID but different types with `==`
-  will now correctly return `False`.
+* Box IDが同じでもタイプが異なる2つのオブジェクト (例: `File`と`Folder`) を`==`で比較した場合に、`False`が正しく返されるようになりました。
 
-* The following methods now return iterators over the entire collection of returned objects, rather than
-  a single page:
+* 次のメソッドでは、単一のページではなく、返されたオブジェクトのコレクション全体の反復子が返されるようになりました。
 
   * `client.users()`
   * `client.groups()`
   * `client.search().query()`
   * `folder.get_items()`
 
-  Since `folder.get_items()` now returns an iterator, `folder.get_items_limit_offset()` and
-  `folder.get_items_marker()` have been removed.  To use marker based paging with `folder.get_items()`,
-  pass the `use_marker=True` parameter and optionally specify a `marker` parameter to begin paging from that
-  point in the collection.
+  `folder.get_items()`が反復子を返すようになったため、`folder.get_items_limit_offset()`と`folder.get_items_marker()`は削除されました。マーカーベースのページングを`folder.get_items()`で使用するには、`use_marker=True`パラメータを渡し、オプションとして`marker`パラメータを指定して、コレクションのそのポイントからページングを開始します。
 
-  Additionally, `group.membership()` has been renamed to `group.get_memberships()`, and returns an iterator of
-  membership objects.  This method no longer provides the option to return tuples with paging information.
+  さらに、`group.membership()`は名前が`group.get_memberships()`に変更され、メンバーシップオブジェクトの反復子を返すようになりました。このメソッドでは、ページング情報を含むタプルを返すオプションが提供されなくなりました。
 
-* The `Translator` class has been reworked; `translator.get(...)` still returns the constructor for the object class
-  corresponding to the passed in type, but `translator.translate(...)` now takes a `Session` and response object
-  directly and produces the translated object.  This method will also translate any nested objects found.
+* `Translator`クラスが変更されました。`translator.get(...)`は引き続き、渡された型に対応するオブジェクトクラスのコンストラクタを返しますが、`translator.translate(...)`は、`Session`と応答オブジェクトを直接受け取り、変換されたオブジェクトを生成します。また、このメソッドは、ネストされたオブジェクトが見つかった場合にもそれらを変換します。
 
-  * This change obviates the need for `GroupMembership` to have a custom constructor; it now uses the default
-    `BaseObject` constructor.
+  * この変更により、`GroupMembership`にカスタムコンストラクタを使用する必要はなくなります。そのため、デフォルトの`BaseObject`コンストラクタが使用されるようになります。
 
-## Features
+## 機能
 
-* All publicly documented API endpoints and parameters should now be supported by the SDK
+* 公開されているAPIエンドポイントとパラメータはすべて、SDKでサポートされるようになりました。
 
-* Added more flexibility to the object translation system:
+* オブジェクト変換システムの柔軟性が向上しました。
 
-* Can create non-global `Translator` instances, which can extend or
-  not-extend the global default `Translator`.
+* 非グローバルの`Translator`インスタンスを作成できます。これにより、グローバルなデフォルトの`Translator`を拡張することも、拡張しないことも可能です。
 
-* Can initialize `BoxSession` with a custom `Translator`.
+* カスタム`Translator`で`BoxSession`を初期化できます。
 
-* Can register custom subclasses on the `Translator` which is associated
-  with a `BoxSession` or a `Client`.
+* `BoxSession`または`Client`に関連付けられている`Translator`にカスタムサブクラスを登録できます。
 
-* All translation of API responses now use the `Translator` that is
-  referenced by the `BoxSession`, instead of directly using the global
-  default `Translator`.
+* API応答のすべての変換で、グローバルなデフォルトの`Translator`を直接使用する代わりに、`BoxSession`で参照される`Translator`が使用されるようになりました。
 
-* Nested objects are now translated by `translator.translate()`
+* ネストされたオブジェクトは`translator.translate()`によって変換されるようになりました。
 
-* When the `auto_session_renewal` is `True` when calling any of the request
-  methods on `BoxSession`, if there is no access token, `BoxSession` will
-  renew the token _before_ making the request. This saves an API call.
+* `BoxSession`に対してリクエストメソッドのいずれかを呼び出すときに`auto_session_renewal`が`True`である場合、アクセストークンがないと、`BoxSession`は、リクエストを実行する_前に_トークンを更新します。これにより、API呼び出しが1回省略されます。
 
-* Auth objects can now be closed, which prevents them from being used to
-  request new tokens. This will also revoke any existing tokens (though that
-  feature can be turned off by passing `revoke=False`). Also introduces a
-  `closing()` context manager method, which will auto-close the auth object
-  on exit.
+* 認証オブジェクトを閉じられるようになりました。これにより、これらのオブジェクトは新しいトークンのリクエストに使用できなくなります。また、既存のトークンも取り消されます (ただし、この機能は、`revoke=False`を渡すことで無効にできます)。加えて、終了時に認証オブジェクトを自動的に閉じる`closing()`コンテキストマネージャメソッドも導入されます。
 
-* Various enhancements to the `JWTAuth` baseclass:
+* `JWTAuth`基本クラスに対するさまざまな機能強化:
 
-* The `authenticate_app_user()` method is renamed to
-  `authenticate_user()`, to reflect that it may now be used to authenticate
-  managed users as well. See the method `docstring` for details.
-  `authenticate_app_user()` is now an alias of `authenticate_user()`, in
-  order to not introduce an unnecessary backwards-incompatibility.
+* `authenticate_app_user()`メソッドは、管理対象ユーザーの認証にも使用できるようになったことを示すため、`authenticate_user()`という名前に変更されました。詳細については、メソッドの`docstring`を参照してください。`authenticate_app_user()`は、不要な後方非互換性が発生しないよう、`authenticate_user()`のエイリアスとなりました。
 
-* The `user` argument to `authenticate_user()` may now be either a user
-  ID string or a `User` instance. Before it had to be a `User` instance.
+* `authenticate_user()`への`user`引数に、ユーザーID文字列と`User`インスタンスのいずれかを指定できるようになりました。以前は、`User`インスタンスを指定する必要がありました。
 
-* The constructor now accepts an optional `user` keyword argument, which
-  may be a user ID string or a `User` instance. When this is passed,
-  `authenticate_user()` and can be called without passing a value for the
-  `user` argument. More importantly, this means that `refresh()` can be
-  called immediately after construction, with no need for a manual call to
-  `authenticate_user()`. Combined with the aforementioned improvement to
-  the `auto_session_renewal` functionality of `BoxSession`, this means
-  that authentication for `JWTAuth` objects can be done completely
-  automatically, at the time of first API call.
+* コンストラクタは、オプションの`user`キーワード引数を受け取るようになりました。これには、ユーザーID文字列と`User`インスタンスのいずれかを指定できます。この引数が渡されると、`user`引数の値を渡さなくても`authenticate_user()`を呼び出すことができます。さらに重要なことに、これは、構築後すぐに`refresh()`を呼び出すことができることを意味します。その際、`authenticate_user()`を手動で呼び出す必要はありません。前述の`BoxSession`の`auto_session_renewal`機能の改善と組み合わせることで、最初のAPI呼び出し時に、`JWTAuth`オブジェクトの認証を完全に自動で実行できます。
 
-* The constructor now supports passing the RSA private key in two different
-  ways: by file system path (existing functionality), or by passing the key
-  data directly (new functionality). The `rsa_private_key_file_sys_path`
-  parameter is now optional, but it is required to pass exactly one of
-  `rsa_private_key_file_sys_path` or `rsa_private_key_data`.
+* コンストラクタは、RSA秘密キーの受け渡し方法を2つサポートしています。1つはファイルシステムパスを使用する方法 (既存の機能)、もう1つはキーデータを直接渡す方法 (新機能) です。`rsa_private_key_file_sys_path`パラメータは省略可能になりましたが、`rsa_private_key_file_sys_path`または`rsa_private_key_data`のどちらか1つを渡す必要があります。
 
-* Document that the `enterprise_id` argument to `JWTAuth` is allowed to
-  be `None`.
+* `JWTAuth`の`enterprise_id`引数を`None`にできることが文書化されました。
 
-* `authenticate_instance()` now accepts an `enterprise` argument, which
-  can be used to set and authenticate as the enterprise service account user,
-  if `None` was passed for `enterprise_id` at construction time.
+* `authenticate_instance()`は`enterprise`引数を受け取れるようになりました。これは、構築時に`None`が`enterprise_id`に渡された場合に、会社のサービスアカウントユーザーとして設定および認証するために使用できます。
 
-* Authentications that fail due to the expiration time not falling within the
-  correct window of time are now automatically retried using the time given
-  in the Date header of the Box API response. This can happen naturally when
-  the system time of the machine running the Box SDK doesn't agree with the
-  system time of the Box API servers.
+* 有効期限が適切な期間に含まれないことが原因で失敗した認証は、Box API応答のDateヘッダーで指定された時間を使用して、自動的に再試行されるようになりました。これは、Box SDKを実行しているマシンのシステム時刻がBox APIサーバーのシステム時刻と一致しない場合に必然的に発生する可能性があります。
 
-* Added an `Event` class.
+* `Event`クラスが追加されました。
 
-* Moved `metadata()` method to `Item` so it's now available for `Folder`
-  as well as `File`.
+* `metadata()`メソッドは`Folder`および`File`で使用できるように`Item`に移動されました。
 
-* The `BaseAPIJSONObject` baseclass (which is a superclass of all API
-  response objects) now supports `__contains__` and `__iter__`. They behave
-  the same as for `Mapping`. That is, `__contains__` checks for JSON keys
-  in the object, and `__iter__` yields all of the object's keys.
+* `BaseAPIJSONObject`基本クラス (すべてのAPI応答オブジェクトのスーパークラス) が`__contains__`および`__iter__`をサポートするようになりました。これらの動作は`Mapping`と同じです。つまり、`__contains__`はオブジェクトのJSONキーをチェックし、`__iter__`はそのオブジェクトのすべてのキーを生成します。
 
-* Added a `RecentItem` class.
+* `RecentItem`クラスが追加されました。
 
-* Added `client.get_recent_items()` to retrieve a user's recently accessed items on Box.
+* Box上でユーザーが最近アクセスした項目を取得する`client.get_recent_items()`が追加されました。
 
-* Added support for the `can_view_path` parameter when creating new collaborations.
+* 新しいコラボレーション作成時の`can_view_path`パラメータのサポートが追加されました。
 
-* Added `BoxObjectCollection` and subclasses `LimitOffsetBasedObjectCollection` and
-  `MarkerBasedObjectCollection` to more directly manage paging of objects from an endpoint.
-  These classes manage the logic of constructing requests to an endpoint and storing the results,
-  then provide `__next__` to iterate over the results. The option to return results one
-  by one or as a `Page` of results is also provided.
+* エンドポイントからのオブジェクトのページングをより直接的に管理できるように`BoxObjectCollection`とサブクラス`LimitOffsetBasedObjectCollection`および`MarkerBasedObjectCollection`が追加されました。これらのクラスは、エンドポイントへのリクエストを構成して結果を格納するロジックを管理し、結果に対して繰り返し適用される`__next__`を提供します。結果を1つずつ返すか結果の`Page`として返すオプションも提供されます。
 
-* Added a `downscope_token()` method to the `Client` class. This generates a token that
-  has its permissions reduced to the provided scopes and for the optionally provided
-  `File` or `Folder`.
+* `downscope_token()`メソッドが`Client`クラスに追加されました。このメソッドによって生成されるトークンの権限は、指定されたスコープや、オプションとして指定された`File`または`Folder`に下げられています。
 
-* Added methods for configuring `JWTAuth` from config file: `JWTAuth.from_settings_file` and
-  `JWTAuth.from_settings_dictionary`.
+* 構成ファイルから`JWTAuth`を構成するためのメソッド`JWTAuth.from_settings_file`と`JWTAuth.from_settings_dictionary`が追加されました。
 
-* Added `network_response` property to `BoxOAuthException`.
+* `network_response`プロパティが`BoxOAuthException`に追加されました。
 
-* API Configuration can now be done per `BoxSession` instance.
+* APIの構成を`BoxSession`インスタンスごとに実行できるようになりました。
 
-## Other
+## その他
 
-* Added extra information to `BoxAPIException`.
-* Added `collaboration()` method to `Client`.
-* Reworked the class hierarchy.  Previously, `BaseEndpoint` was the parent of `BaseObject` which was the parent
-  of all smart objects.  Now `BaseObject` is a child of both `BaseEndpoint` and `BaseAPIJSONObject`.
-  `BaseObject` is the parent of all objects that are a part of the REST API.  Another subclass of
-  `BaseAPIJSONObject`, `APIJSONObject`, was created to represent pseudo-smart objects such as `Event` that are not
-  directly accessible through an API endpoint.
-* Added `network_response_constructor` as an optional property on the
-  `Network` interface. Implementations are encouraged to override this
-  property, and use it to construct `NetworkResponse` instances. That way,
-  subclass implementations can extend the functionality of the
-  `NetworkResponse`, by re-overriding this property. This property is defined
-  and used in the `DefaultNetwork` implementation.
-* Move response logging to a new `LoggingNetworkResponse` class (which is
-  made possible by the aforementioned `network_response_constructor`
-  property). Now the SDK decides whether to log the response body, based on
-  whether the caller reads or streams the content.
-* Add more information to the request/response logs from `LoggingNetwork`.
-* Add logging for request exceptions in `LoggingNetwork`.
-* Bugfix so that the return value of `JWTAuth.refresh()` correctly matches
-  that of the auth interface (by returning a tuple of
-  ((access token), (refresh token or None)), instead of only the access token).
-  In particular, this fixes an exception in `BoxSession` that always occurred
-  when it tried to refresh any `JWTAuth` object.
-* Fixed an exception that was being raised from `ExtendableEnumMeta.__dir__()`.
-* `CPython` 3.6 support.
-* Increased required minimum version of six to 1.9.0.
+* `BoxAPIException`に追加情報が加えられました。
+* `collaboration()`メソッドが`Client`に追加されました。
+* クラス階層が変更されました。これまで、`BaseEndpoint`は、すべてのスマートオブジェクトの親である`BaseObject`の親でした。今後、`BaseObject`は`BaseEndpoint`と`BaseAPIJSONObject`両方の子になります。`BaseObject`は、REST APIに含まれるすべてのオブジェクトの親です。`BaseAPIJSONObject`の別のサブクラスである`APIJSONObject`は、APIエンドポイントから直接アクセスできない`Event`など、疑似スマートオブジェクトを表すために作成されました。
+* `network_response_constructor`が`Network`インターフェイスの省略可能なプロパティとして追加されました。実装では、このプロパティを一時的に無効にし、これを使用して`NetworkResponse`インスタンスを構築することをお勧めします。このように、サブクラスの実装では、このプロパティを再度一時的に無効にすることで、`NetworkResponse`の機能を拡張できます。このプロパティは、`DefaultNetwork`実装で定義および使用されます。
+* 応答ログは新しい`LoggingNetworkResponse`クラスに移動されます (これは前述の`network_response_constructor`プロパティによって可能になります)。応答本文をログに記録するかどうかは、呼び出し元がコンテンツを読み取るかストリーミングするかに基づき、SDKで決定されます。
+* `LoggingNetwork`からのリクエスト/応答ログに情報が追加されました。
+* `LoggingNetwork`にリクエスト例外のログ記録が追加されました。
+* `JWTAuth.refresh()`の戻り値が認証インターフェイスの戻り値と正確に一致するようバグが修正されました (そのために、アクセストークンのみではなく、((アクセストークン), (更新トークンまたはなし)) のタプルを返します)。特に、`JWTAuth`オブジェクトを更新しようとしたときに常に発生していた`BoxSession`の例外が修正されます。
+* `ExtendableEnumMeta.__dir__()`から発生していた例外が修正されました。
+* `CPython` 3.6のサポート。
+* 必要最低限のバージョンが6から1.9.0に引き上げられました。

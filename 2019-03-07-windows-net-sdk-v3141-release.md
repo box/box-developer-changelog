@@ -22,9 +22,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-07-windows-net-sdk-v3141-release.md
 published_at: '2019-03-07'
 ---
-# Windows .NET SDK `v3.14.1` released
+# Windows .NET SDK `v3.14.1`のリリース
 
-* Removed unnecessary `package.config` from sample files.
+* サンプルファイルから不要な`package.config`が削除されました。
 
 [`nuget.org/packages/Box.V2/3.14.1`](https://www.nuget.org/packages/Box.V2/3.14.1)
 [`nuget.org/packages/Box.V2.Core/3.14.1`](https://www.nuget.org/packages/Box.V2.Core/3.14.1)

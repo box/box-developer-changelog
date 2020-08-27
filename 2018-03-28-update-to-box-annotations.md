@@ -19,6 +19,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-28-update-to-box-annotations.md
 published_at: '2018-03-28'
 ---
-# Update to Box Annotations
+# Boxの注釈を更新
 
-The annotations update announced on March 5, 2018 has been re-enabled.
+2018年3月5日に発表された注釈の更新が再び有効になりました。

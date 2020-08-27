@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/09-13-java-sdk-v2231-release.md
 published_at: '2018-09-13'
 ---
-# Java SDK `v2.23.1` released
+# Java SDK `v2.23.1`のリリース
 
-1. Fix opening too many TCP connections when issuing a high number of requests ([#646](https://github.com/box/box-java-sdk/pull/646))
+1. 多数のリクエストを発行する際に開かれるTCP接続が多すぎる問題を修正 ([#646](https://github.com/box/box-java-sdk/pull/646))

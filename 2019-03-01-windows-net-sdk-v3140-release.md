@@ -22,10 +22,10 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-01-windows-net-sdk-v3140-release.md
 published_at: '2019-03-01'
 ---
-# Windows .NET SDK `v3.14.0` released
+# Windows .NET SDK `v3.14.0`のリリース
 
-* Added trace ID to API response exception message.
-* Fix deserialization of translated task assignment status.
+* API応答の例外メッセージにトレースIDが追加されました。
+* 変換されたタスク割り当てステータスの逆シリアル化が修正されました。
 
 [`nuget.org/packages/Box.V2/3.14.0`](https://www.nuget.org/packages/Box.V2/3.14.0)
 [`nuget.org/packages/Box.V2.Core/3.14.0`](https://www.nuget.org/packages/Box.V2.Core/3.14.0)

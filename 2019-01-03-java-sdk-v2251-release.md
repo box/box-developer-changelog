@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/01-03-java-sdk-v2251-release.md
 published_at: '2019-01-03'
 ---
-# Java SDK `v2.25.1` released
+# Java SDK `v2.25.1`のリリース
 
-1. dependency upgrade for `bouncycastle` and `jose4j` ([#669](https://github.com/box/box-java-sdk/pull/669))
+1. `bouncycastle`と`jose4j`の依存関係のアップグレード ([#669](https://github.com/box/box-java-sdk/pull/669))

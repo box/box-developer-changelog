@@ -21,25 +21,19 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/12-12-collaborations-now-show-unregistered-users.md
 published_at: '2018-12-12'
 ---
-# Collaborations now show unregistered users
+# コラボレーションに未登録ユーザーを表示
 
-An additional field, `invite_email`, has been added to the collaboration return
-object in the instance where an unregistered user has been added as a
-collaborator on a file or folder. This change was put in place because the
-current `accessible_by` object returned would show `null` as the result for an
-unregistered user. The new field will now show the email address that was used
-to invite the user.
+ファイルまたはフォルダのコラボレータとして未登録ユーザーが追加されている場合のために、コラボレーション戻りオブジェクトにフィールド`invite_email`が追加されました。現在返される`accessible_by`オブジェクトでは未登録ユーザーの結果として`null`が表示されることから、この変更が加えられました。新しいフィールドには、ユーザーの招待に使用されたメールアドレスが表示されます。
 
 <!-- more -->
 
-This change affects the following endpoints:
+この変更は以下のエンドポイントに影響します。
 
-* [Get Collaboration](endpoint://get-collaborations-id)
-* [Get File Collaborations](endpoint://get-files-id-collaborations)
-* [Get Folder Collaborations](endpoint://get-folders-id-collaborations)
+* [コラボレーションを取得](endpoint://get-collaborations-id)
+* [ファイルコラボレーションを取得](endpoint://get-files-id-collaborations)
+* [フォルダコラボレーションを取得](endpoint://get-folders-id-collaborations)
 
-Previously a collaboration object with an unregistered user would look like the
-following:
+これまで、未登録ユーザーを含むコラボレーションオブジェクトは以下のように表示されていました。
 
 ```js
 {
@@ -51,7 +45,7 @@ following:
 }
 ```
 
-With this new update the object returned would look like the following:
+今回の更新により、返されるオブジェクトは以下のように表示されます。
 
 ```js
 {

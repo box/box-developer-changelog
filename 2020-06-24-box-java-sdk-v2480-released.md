@@ -22,18 +22,18 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-24-box-java-sdk-v2480-released.md
 published_at: '2020-06-24'
 ---
-# Box Java SDK `v2.48.0` released
+# Box Java SDK `v2.48.0`のリリース
 
 `v2.48.0`
 
-1. Add ability to get groups by name with fields option ([#789][1])
-2. Add shared link downscoping ([#785][2])
-3. Deprecate the use of float for Metadata values, in preference of the underlying value (double) ([#811][3])
-4. Add iterator support for group collaborations ([#813][4])
-5. Add ability to set the filename when uploading a new version of a file ([#810][5])
-6. Add support for the classification field for Files and Folders ([#809][6])
-7. Add support for setting Tracking Codes ([#766][7])
-8. Fix issue for `getIsExternallyOwned()` for Files and Folders ([#808][8])
+1. フィールドオプションにより名前ごとにグループを取得する機能を追加 ([#789][1])
+2. 共有リンクのダウンスコープを追加 ([#785][2])
+3. メタデータ値の浮動小数点の使用を非推奨にして、基になる値 (double) を優先 ([#811][3])
+4. グループコラボレーション用に反復子のサポートを追加 ([#813][4])
+5. ファイルの新しいバージョンをアップロードする際にファイル名を設定する機能を追加 ([#810][5])
+6. ファイルとフォルダの分類フィールドのサポートを追加 ([#809][6])
+7. 追跡コードの設定のサポートを追加 ([#766][7])
+8. ファイルとフォルダの`getIsExternallyOwned()`に関する問題を修正 ([#808][8])
 
 [1]: https://github.com/box/box-java-sdk/issues/789
 

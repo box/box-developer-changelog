@@ -21,14 +21,14 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-21-box-cli-v251-release.md
 published_at: '2020-04-21'
 ---
-# Box CLI `v2.5.1` released
+# Box CLI `v2.5.1`のリリース
 
-[CHANGELOG](https://github.com/box/boxcli/blob/master/CHANGELOG.md#251-2020-04-14)
+[変更ログ](https://github.com/box/boxcli/blob/master/CHANGELOG.md#251-2020-04-14)
 
-* Added `--quiet` flag to suppress any non-error output to `stderr` ([#167](https://github.com/box/boxcli/pull/167)) [`27045c6`](https://github.com/box/boxcli/commit/27045c6)
-* Fixed a bug for the `--restrict-collaboration` flag for `box folders:update` where previously the flag would not restrict the collaborations when passed as true and would restrict collaborations when passed as false ([#175](https://github.com/box/boxcli/pull/175)) [`e6e1120`](https://github.com/box/boxcli/commit/e6e1120)
-* Added `box trash:restore` to restore a trashed item and `box trash:get` to get information on a trashed item ([#179](https://github.com/box/boxcli/pull/179)) [`74db947`](https://github.com/box/boxcli/commit/74db947)
-* Fixed a bug where flags that can be specified multiple times in a single command could not be passed through the command line for bulk commands ([#183](https://github.com/box/boxcli/pull/183)) [`63db0ac`](https://github.com/box/boxcli/commit/63db0ac)
-* **Note**: Skipped version 2.5.0 due to development of new release process
+* `stderr`へのエラー以外の出力を抑制する`--quiet`フラグを追加 ([#167](https://github.com/box/boxcli/pull/167)) [`27045c6`](https://github.com/box/boxcli/commit/27045c6)
+* `box folders:update`の`--restrict-collaboration`フラグのバグを修正。これまで、このフラグは、trueとして渡された場合にコラボレーションが制限されず、falseとして渡された場合にコラボレーションが制限されていました ([#175](https://github.com/box/boxcli/pull/175)) [`e6e1120`](https://github.com/box/boxcli/commit/e6e1120)
+* ごみ箱の項目を復元する`box trash:restore`とごみ箱の項目の情報を取得する`box trash:get`を追加 ([#179](https://github.com/box/boxcli/pull/179)) [`74db947`](https://github.com/box/boxcli/commit/74db947)
+* 単一のコマンドで複数回指定できるフラグが一括コマンドのコマンドラインで渡されないバグを修正 ([#183](https://github.com/box/boxcli/pull/183)) [`63db0ac`](https://github.com/box/boxcli/commit/63db0ac)
+* **注**: 新しいリリースプロセスの開発のため、バージョン2.5.0はスキップされました
 
 [`v2.4.0...v2.5.1`](https://github.com/box/boxcli/compare/`v2.4.0...v2.5.1`)

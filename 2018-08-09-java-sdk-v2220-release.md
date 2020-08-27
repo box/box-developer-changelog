@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-09-java-sdk-v2220-release.md
 published_at: '2018-08-09'
 ---
-# Java SDK `v2.22.0` released
+# Java SDK `v2.22.0`のリリース
 
-1. patch for transfer content to another user ([#632](https://github.com/box/box-java-sdk/pull/632))
+1. 別のユーザーにコンテンツを転送するためのパッチ ([#632](https://github.com/box/box-java-sdk/pull/632))

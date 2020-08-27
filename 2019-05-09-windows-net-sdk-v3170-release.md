@@ -22,10 +22,10 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-09-windows-net-sdk-v3170-release.md
 published_at: '2019-05-09'
 ---
-# Windows .NET SDK `v3.17.0` released
+# Windows .NET SDK `v3.17.0`のリリース
 
-* Fixed the encoding of dates in the query parameters for Events and Search endpoints
-* Deprecated `FilesManager.DownloadStreamAsync()` and introduced a replacement method with correct parameter types for byte offsets: `FilesManager.DownloadAsync()`
+* イベントと検索のエンドポイントのクエリパラメータでの日付のエンコードを修正
+* `FilesManager.DownloadStreamAsync()`のサポートを終了し、バイトオフセットに適切なパラメータ型が設定された後継のメソッド`FilesManager.DownloadAsync()`を導入
 
 [`nuget.org/packages/Box.V2/3.17.0`](https://www.nuget.org/packages/Box.V2/3.17.0)
 [`nuget.org/packages/Box.V2.Core/3.17.0`](https://www.nuget.org/packages/Box.V2.Core/3.17.0)

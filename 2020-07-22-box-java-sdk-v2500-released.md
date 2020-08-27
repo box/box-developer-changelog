@@ -22,10 +22,10 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-22-box-java-sdk-v2500-released.md
 published_at: '2020-07-22'
 ---
-# Box Java SDK `v2.50.0` released
+# Box Java SDK `v2.50.0`のリリース
 
 `v2.50.0`
 
-1. Add retries on request creation errors ([#828][1])
+1. リクエスト作成エラー時の再試行回数を追加 ([#828][1])
 
 [1]: https://github.com/box/box-java-sdk/issues/828

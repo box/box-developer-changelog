@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-29-java-sdk-v2161-release.md
 published_at: '2018-03-29'
 ---
-# Java SDK `v2.16.1` released
+# Java SDK `v2.16.1`のリリース
 
-1. Add `CONTENT_ACCESS` event type.  ([#581](https://github.com/box/box-java-sdk/pull/581))
+1. `CONTENT_ACCESS`イベントタイプを追加 ([#581](https://github.com/box/box-java-sdk/pull/581))

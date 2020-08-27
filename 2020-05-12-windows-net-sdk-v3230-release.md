@@ -22,10 +22,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/05-12-windows-net-sdk-v3230-release.md
 published_at: '2020-05-12'
 ---
-# Windows .NET SDK `v3.23.0` released
+# Windows .NET SDK `v3.23.0`のリリース
 
-See [Changelog](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#3230-2020-05-12) for details
-Commits: [`v3.22.0...v3.23.0`](https://github.com/box/box-windows-sdk-v2/compare/`v3.22.0...v3.23.0`)
+詳細については、[変更ログ](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#3230-2020-05-12)を参照してください。コミット: [`v3.22.0...v3.23.0`](https://github.com/box/box-windows-sdk-v2/compare/`v3.22.0...v3.23.0`)
 
 [`nuget.org/packages/Box.V2/3.23.0`](https://www.nuget.org/packages/Box.V2/3.23.0)
 [`nuget.org/packages/Box.V2.Core/3.23.0`](https://www.nuget.org/packages/Box.V2.Core/3.23.0)

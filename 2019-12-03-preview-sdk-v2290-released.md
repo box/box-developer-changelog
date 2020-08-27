@@ -21,15 +21,11 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-03-preview-sdk-v2290-released.md
 published_at: '2019-12-03'
 ---
-# Preview SDK `v2.29.0` released
+# Preview SDK `v2.29.0`のリリース
 
-Version `2.29.0` of the Preview SDK has been released. New JavaScript and CSS
-Preview files have been made available. To adopt new changes, please see the
-[UI Elements manual installation][ui-elements-manual-install] links for Content
-Preview.
+Preview SDKのバージョン`2.29.0`がリリースされ、新しいJavaScriptとCSSのPreviewファイルが使用可能になりました。新しい変更を導入するには、Content Preview用のリンクを[UI Elementの手動によるインストール][ui-elements-manual-install]に関する記事で確認してください。
 
-Please see the `v2.29.0` [release notes][preview-2.29-release-notes] for a list
-of all feature changes.
+機能の変更点の全一覧については、`v2.29.0`の[リリースノート][preview-2.29-release-notes]を参照してください。
 
 [ui-elements-manual-install]: g://embed/ui-elements/installation/#manual-installation
 

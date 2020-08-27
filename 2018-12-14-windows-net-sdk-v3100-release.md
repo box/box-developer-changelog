@@ -22,9 +22,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/12-14-windows-net-sdk-v3100-release.md
 published_at: '2018-12-14'
 ---
-# Windows .NET SDK `v3.10.0` released
+# Windows .NET SDK `v3.10.0`のリリース
 
-1. Added functionality for Metadata Cascade Policy
+1. メタデータカスケードポリシーの機能を追加
 
 [`nuget.org/packages/Box.V2`](https://www.nuget.org/packages/Box.V2)
 [`nuget.org/packages/Box.V2.Core`](https://www.nuget.org/packages/Box.V2.Core/)

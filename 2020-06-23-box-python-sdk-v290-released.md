@@ -22,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-23-box-python-sdk-v290-released.md
 published_at: '2020-06-23'
 ---
-# Box Python SDK `v2.9.0` released
+# Box Python SDK `v2.9.0`のリリース
 
-* Fix exception handling for OAuth
-* Fix path parameter sanitization
+* OAuthの例外処理を修正
+* パスパラメータのサニタイズを修正

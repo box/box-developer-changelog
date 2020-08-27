@@ -22,9 +22,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-21-windows-net-sdk-v352-release.md
 published_at: '2018-03-21'
 ---
-# Windows .NET SDK `v3.5.2` released
+# Windows .NET SDK `v3.5.2`のリリース
 
-Fix .NET Core package
+.NET Coreパッケージを修正
 
 [`nuget.org/packages/Box.V2/3.5.2`](https://www.nuget.org/packages/Box.V2/3.5.2)
 [`nuget.org/packages/Box.V2.Core/3.5.2`](https://www.nuget.org/packages/Box.V2.Core/3.5.2)

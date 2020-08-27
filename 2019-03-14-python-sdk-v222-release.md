@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-14-python-sdk-v222-release.md
 published_at: '2019-03-14'
 ---
-# Python SDK `v2.2.2` released
+# Python SDK `v2.2.2`のリリース
 
-* Updated `requests-toolbelt` dependency restriction
+* `requests-toolbelt`依存関係の制限を更新

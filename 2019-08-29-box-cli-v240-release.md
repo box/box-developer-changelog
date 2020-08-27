@@ -21,15 +21,15 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-29-box-cli-v240-release.md
 published_at: '2019-08-29'
 ---
-# Box CLI `v2.4.0` released
+# Box CLI `v2.4.0`のリリース
 
-[CHANGELOG](https://github.com/box/boxcli/blob/master/CHANGELOG.md#240-2019-08-29)
+[変更ログ](https://github.com/box/boxcli/blob/master/CHANGELOG.md#240-2019-08-29)
 
-* Fix output when updating collaboration role to owner ([#165](https://github.com/box/boxcli/pull/165))  [`f8be639`](https://github.com/box/boxcli/commit/f8be639)
-* Print all columns in CSV output for heterogeneous collection ([#164](https://github.com/box/boxcli/pull/164))  [`a8dda02`](https://github.com/box/boxcli/commit/a8dda02)
-* Update plugin-help to resolve warning about `lodash.template` ([#160](https://github.com/box/boxcli/pull/160))  [`3730bc5`](https://github.com/box/boxcli/commit/3730bc5)
-* Bump `lodash` from 4.17.11 to 4.17.13 ([#156](https://github.com/box/boxcli/pull/156))  [`d035e74`](https://github.com/box/boxcli/commit/d035e74)
-* Add support for setting external app user ID ([#153](https://github.com/box/boxcli/pull/153))  [`d68b61b`](https://github.com/box/boxcli/commit/d68b61b)
-* Update `js-yaml` to 3.13.1 ([#151](https://github.com/box/boxcli/pull/151))  [`13745df`](https://github.com/box/boxcli/commit/13745df)
+* コラボレーションロールを所有者に更新する際の出力を修正 ([#165](https://github.com/box/boxcli/pull/165)) [`f8be639`](https://github.com/box/boxcli/commit/f8be639)
+* 異種コレクションのすべての列をCSVに出力 ([#164](https://github.com/box/boxcli/pull/164)) [`a8dda02`](https://github.com/box/boxcli/commit/a8dda02)
+* plugin-helpを更新して`lodash.template`に関する警告を解決 ([#160](https://github.com/box/boxcli/pull/160)) [`3730bc5`](https://github.com/box/boxcli/commit/3730bc5)
+* `lodash`を4.17.11から4.17.13に昇格 ([#156](https://github.com/box/boxcli/pull/156)) [`d035e74`](https://github.com/box/boxcli/commit/d035e74)
+* 外部アプリユーザーIDの設定のサポートを追加 ([#153](https://github.com/box/boxcli/pull/153)) [`d68b61b`](https://github.com/box/boxcli/commit/d68b61b)
+* `js-yaml`を3.13.1に更新 ([#151](https://github.com/box/boxcli/pull/151)) [`13745df`](https://github.com/box/boxcli/commit/13745df)
 
 [`v2.3.0...v2.4.0`](https://github.com/box/boxcli/compare/`v2.3.0...v2.4.0`)

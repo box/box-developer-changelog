@@ -19,15 +19,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/07-31-expanded-relay-workflow-api.md
 published_at: '2018-07-31'
 ---
-# Expanded Relay Workflow API
+# Relay Workflow APIの拡張
 
-We have expanded the capabilities of [Box Relay][box_relay], a workflow tool
-co-developed between Box and IBM, with a new Workflow API. The Relay Workflow
-API allows you to launch Box Relay workflows and retrieve the statuses of those
-workflows from within your application. It also allows you to view which
-workflow templates have been published in file directly into your instance of
-Box Relay. For more information about the API, please see our
-[announcement blog post][box_relay_announce].
+BoxとIBMで共同開発されたワークフローツール[Box Relay][box_relay]の機能が、新しいWorkflow APIによって拡張されました。Relay Workflow APIを使用すると、Box Relayワークフローを起動し、アプリケーション内からそれらのワークフローのステータスを取得できます。また、Box Relayのインスタンスに直接ファイルで公開されているワークフローテンプレートを表示することもできます。APIの詳細については、Boxの[お知らせに関するブログ記事][box_relay_announce]を参照してください。
 
 [box_relay]: https://www.box.com/collaboration/relay-workflow
 

@@ -23,19 +23,19 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/05-15-box-ios-sdk-v410-released.md
 published_at: '2020-05-15'
 ---
-# Box iOS SDK `v4.1.0` released
+# Box iOS SDK `v4.1.0`のリリース
 
 Box iOS SDK
 
-**Breaking Changes:**
+**重大な変更:**
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add ability to cancel uploads and downloads
-* Add support for the uploader display name field for Files and File Versions
-* Add support for the classification field for Files and Folders
-* Add path parameter sanitization
+* アップロードとダウンロードをキャンセルする機能を追加
+* ファイルとファイルバージョンのアップローダー表示名フィールドのサポートを追加
+* ファイルとフォルダの分類フィールドのサポートを追加
+* パスパラメータのサニタイズを追加
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Fix logging of API responses
+* API応答のログ記録を修正

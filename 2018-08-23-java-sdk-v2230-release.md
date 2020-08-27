@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-23-java-sdk-v2230-release.md
 published_at: '2018-08-23'
 ---
-# Java SDK `v2.23.0` released
+# Java SDK `v2.23.0`のリリース
 
-1. Metadata cascade policy ([#603](https://github.com/box/box-java-sdk/pull/603))
+1. メタデータカスケードポリシー ([#603](https://github.com/box/box-java-sdk/pull/603))

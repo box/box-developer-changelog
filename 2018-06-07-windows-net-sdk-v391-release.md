@@ -22,9 +22,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-07-windows-net-sdk-v391-release.md
 published_at: '2018-06-07'
 ---
-# Windows .NET SDK `v3.9.1` released
+# Windows .NET SDK `v3.9.1`のリリース
 
-Fixed bug where Xamarin applications would run out of connections.
+Xamarinアプリケーションの接続が切れるバグが修正されました。
 
 [`nuget.org/packages/Box.V2/3.9.1`](https://www.nuget.org/packages/Box.V2/3.9.1)
 [`nuget.org/packages/Box.V2.Core/3.9.1`](https://www.nuget.org/packages/Box.V2.Core/3.9.1)

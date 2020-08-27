@@ -19,29 +19,19 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-25-update-to-the-box-cli.md
 published_at: '2018-06-25'
 ---
-# Update to the Box CLI
+# Box CLIの更新
 
-We have released updates to the [Box CLI](guide://tooling/sdks/cli). This
-version includes the following updates:
+[Box CLI](guide://tooling/sdks/cli)への更新がリリースされました。このバージョンには以下の更新が含まれます。
 
-* **[New Multizones commands][cli_update_multizones]**: Adds support for
-  [Box Multizones][cli_update_multizones_announce] for data residency.
+* **[新しいマルチゾーンコマンド][cli_update_multizones]**: データ保管場所用の[Box Multizones][cli_update_multizones_announce]のサポートが追加されました。
 
-* **[Fix for user CSV operations][cli_update_csv_operations]**: Fixes a bug that
-    prevented users using Open With Element: The Open With element has been moved
-    from saving users data beta to CSV files.
+* **[ユーザーによるCSV操作の修正][cli_update_csv_operations]**: ユーザーがOpen With Elementを使用できなかったバグが修正されました。Open With Elementが、ユーザーデータのベータをCSVファイルに保存しなくなりました。
   <!-- markdownlint-disable line-length -->
 
-* **[Ability to set `can_non_owners_invite` flag on folder updates][cli_update_folder_update_flag]**:
-    Allows setting whether non-owners can invite other users to collaborate on the
-    folder.
+* **[フォルダの更新時に`can_non_owners_invite`を設定する機能][cli_update_folder_update_flag]**: 所有者以外のユーザーが他のユーザーをフォルダでのコラボレーションに招待できるかどうかを設定できるようになりました。
   <!-- markdownlint-enable line-length -->
 
-* **[New CLI configuration dump command][cli_update_config_dump]**: Adds the
-  ability to dump the Box configuration file as a single string, optionally with
-  escaped quotes, in order to copy the value to general availability. Open With
-  delivers an environment variable or configuration property (for example, in AWS
-  individual button or Azure).
+* **[新しいCLI構成のダンプコマンド][cli_update_config_dump]**: 値をコピーして一般的な用途に使えるよう、Box構成ファイルを単一の文字列としてダンプする機能が追加されました。オプションで、エスケープ引用符を追加できます。Open Withは、環境変数または構成プロパティを(AWSの個別のボタンやAzureなどで)提供します。
 
 [cli_update_multizones]: https://github.com/box/boxcli/pull/91
 

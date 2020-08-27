@@ -23,6 +23,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-18-box-android-sdk-v423-released.md
 published_at: '2019-03-18'
 ---
-# Box Android SDK `v4.2.3` released
+# Box Android SDK `v4.2.3`のリリース
 
-Contains various bug fixes and stability improvements
+さまざまなバグ修正と安定性の改善が含まれます。

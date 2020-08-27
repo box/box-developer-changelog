@@ -22,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-01-java-sdk-v2290-release.md
 published_at: '2019-04-01'
 ---
-# Java SDK `v2.29.0` released
+# Java SDK `v2.29.0`のリリース
 
-1. Support for uploading file with description ([#690](https://github.com/box/box-java-sdk/pull/690))
-2. Add sort and direction fields to search ([#689](https://github.com/box/box-java-sdk/pull/689))
+1. 説明付きのファイルのアップロードのサポート ([#690](https://github.com/box/box-java-sdk/pull/690))
+2. 並べ替えと方向のフィールドを検索に追加 ([#689](https://github.com/box/box-java-sdk/pull/689))

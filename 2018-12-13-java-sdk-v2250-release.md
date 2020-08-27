@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/12-13-java-sdk-v2250-release.md
 published_at: '2018-12-13'
 ---
-# Java SDK `v2.25.0` released
+# Java SDK `v2.25.0`のリリース
 
-1. Allow content streaming to box through `outputstream`. [#667](https://github.com/box/box-java-sdk/pull/667)
+1. `outputstream`を介したBoxへのコンテンツストリーミングを許可。[#667](https://github.com/box/box-java-sdk/pull/667)

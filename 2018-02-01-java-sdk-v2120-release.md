@@ -22,10 +22,10 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/02-01-java-sdk-v2120-release.md
 published_at: '2018-02-01'
 ---
-# Java SDK `v2.12.0` released
+# Java SDK `v2.12.0`のリリース
 
-1. Fix collaboration notify parameter ([#545](https://github.com/box/box-java-sdk/pull/545))
-2. Add OAuth 2.0 token creation event type ([#533](https://github.com/box/box-java-sdk/pull/533))
-3. Implement invite user to enterprise ([#504](https://github.com/box/box-java-sdk/pull/504))
-4. Switch to `X-Box-UA` header for analytics ([#536](https://github.com/box/box-java-sdk/pull/536))
-5. Reduce Large File Upload memory usage ([#543](https://github.com/box/box-java-sdk/pull/543))
+1. コラボレーション通知パラメータを修正 ([#545](https://github.com/box/box-java-sdk/pull/545))
+2. OAuth 2.0トークン作成イベントタイプを追加 ([#533](https://github.com/box/box-java-sdk/pull/533))
+3. 会社へのユーザーの招待を実装 ([#504](https://github.com/box/box-java-sdk/pull/504))
+4. 分析用の`X-Box-UA`ヘッダーに切り替え ([#536](https://github.com/box/box-java-sdk/pull/536))
+5. 大きなファイルのアップロード時のメモリ使用量を削減 ([#543](https://github.com/box/box-java-sdk/pull/543))

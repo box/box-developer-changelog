@@ -22,9 +22,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-14-windows-net-sdk-v392-release.md
 published_at: '2018-06-14'
 ---
-# Windows .NET SDK `v3.9.2` released
+# Windows .NET SDK `v3.9.2`のリリース
 
-1. Added support for setting flag allowing non owners of a folder to invite collaborators.
+1. コラボレータの招待をフォルダの所有者以外に許可するフラグの設定のサポートが追加されました。
 
 [`nuget.org/packages/Box.V2/3.9.2`](https://www.nuget.org/packages/Box.V2/3.9.2)
 [`nuget.org/packages/Box.V2.Core/3.9.2`](https://www.nuget.org/packages/Box.V2.Core/3.9.2)

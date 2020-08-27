@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/01-31-java-sdk-v2270-release.md
 published_at: '2019-01-31'
 ---
-# Java SDK `v2.27.0` released
+# Java SDK `v2.27.0`のリリース
 
-1. Metadata Classification ([#671](https://github.com/box/box-java-sdk/pull/671))
+1. メタデータの分類 ([#671](https://github.com/box/box-java-sdk/pull/671))

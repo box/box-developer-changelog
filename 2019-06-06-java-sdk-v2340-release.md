@@ -22,6 +22,6 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/06-06-java-sdk-v2340-release.md
 published_at: '2019-06-06'
 ---
-# Java SDK `v2.34.0` released
+# Java SDK `v2.34.0`のリリース
 
-1. Added fields: action for task ([#707](https://github.com/box/box-java-sdk/pull/707))
+1. タスクのfields:アクションを追加 ([#707](https://github.com/box/box-java-sdk/pull/707))

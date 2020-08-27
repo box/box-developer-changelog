@@ -21,8 +21,8 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-23-box-cli-v230-release.md
 published_at: '2019-05-23'
 ---
-# Box CLI `v2.3.0` released
+# Box CLI `v2.3.0`のリリース
 
-[CHANGELOG](https://github.com/box/boxcli/blob/master/CHANGELOG.md#230-2019-05-23)
+[変更ログ](https://github.com/box/boxcli/blob/master/CHANGELOG.md#230-2019-05-23)
 
 [`v2.2.0...v2.3.0`](https://github.com/box/boxcli/compare/`v2.2.0...v2.3.0`)
