@@ -1,0 +1,66 @@
+name: Lint & Deploy
+
+on:
+  push: 
+    branches:
+      - jp
+      - en
+      - en-staging
+
+jobs:
+  # Notify the en branch
+  notify-en:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    # Being extra explicit, we only want this to run on the en branch
+    if: github.ref == 'refs/heads/en
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: 'Trigger Netlify deployment'
+        uses: joelwmale/webhook-action@master
+        env:
+          WEBHOOK_URL: ${{ secrets.NETLIFY_BOXDEV_WEBHOOK }}
+          data: '{}'
+
+  # Notify the en-staging branch
+  notify-en-staging:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    # Being extra explicit, we only want this to run on the en-staging branch
+    if: github.ref == 'refs/heads/en-staging
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: 'Trigger Netlify deployment'
+        uses: joelwmale/webhook-action@master
+        env:
+          WEBHOOK_URL: ${{ secrets.NETLIFY_BOXDEV_STAGING_WEBHOOK }}
+          data: '{}'
+
+  # Notify the jp branch
+  notify-jp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    # Being extra explicit, we only want this to run on the jp branch
+    if: github.ref == 'refs/heads/jp
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: 'Trigger Netlify deployment'
+        uses: joelwmale/webhook-action@master
+        env:
+          WEBHOOK_URL: ${{ secrets.NETLIFY_BOXDEV_JP_WEBHOOK }}
+          data: '{}'           
