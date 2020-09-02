@@ -1,4 +1,4 @@
-name: Lint & Deploy
+name: Notify
 
 on:
   push: 
