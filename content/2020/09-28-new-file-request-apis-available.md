@@ -30,8 +30,6 @@ curl -i -X POST "https://api.box.com/2.0/file_requests/42037322/copy" \
      }'
 ```
 
----
-
 Additional APIs are available that allow a developer to get more details 
 about a file request, update a file request, and delete a file request.
 For more details, please check out the developer documentation.
