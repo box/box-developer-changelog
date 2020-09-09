@@ -71,7 +71,7 @@ jobs:
           # Make the commit appear to come from box-devrel
           author: 'Box DevRel <devrel@box.com>'
           committer: 'Box DevRel <devrel@box.com>'
-          team-reviewers: '@box/changelog-reviewers'
+          team-reviewers: 'changelog-reviewers'
 
       # Send a slack notification to notify our team that a new release has been
       # received.
