@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2020-09-28-new-file-request-apis-available
 previous_page_id: 2020-08-21-box-cli-v260-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/08-25-multi-select-metadata-support-in-search-api.md

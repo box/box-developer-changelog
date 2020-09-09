@@ -40,11 +40,19 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      # Determine the content repo to pull from
+      - uses: haya14busa/action-cond@v1
+        id: content_repo
+        with:
+          cond: ${{ github.ref == 'refs/heads/staging' }}
+          if_true: "https://github.com/box/developer.box.com.git#en-staging"
+          if_false: "https://github.com/box/developer.box.com.git#en"
+
       # Perform a lint of the content
       - name: Lint the content
         # Pull in the guides from the `en` branch for link validation
         env:
-          CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"
+          CONTENT_REPO: ${{ steps.content_repo.outputs.value }}
         # Install the dependencies and run the linter
         run: |
           yarn install
