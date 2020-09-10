@@ -52,7 +52,7 @@ jobs:
     timeout-minutes: 3
 
     # Being extra explicit, we only want this to run on the jp branch
-    if: github.ref == 'refs/heads/jp
+    if: github.ref == 'refs/heads/jp'
 
     strategy:
       matrix:
