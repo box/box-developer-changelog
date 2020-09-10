@@ -4,7 +4,7 @@ applies_to:
 - api
 is_impactful: false
 is_new_feature: true
-collapse: true
+collapse: false
 show_excerpt: true
 release_source_url: ''
 ---
