@@ -37,8 +37,8 @@ For more details, please check out the developer documentation.
 * **Create a template file request**: [Guide][g_template]
 * **Create a copy of a file request**: [Guide][g_copy] | [API Reference][copy]
 * **Get information about a file request**: [Guide][g_get] | [API Reference][get]
-* **Update a file request's configuration**: [Guide][g_del] | [API Reference][put]
-* **Delete a file request**: [Guide][g_put] | [API Reference][del]
+* **Update a file request's configuration**: [Guide][g_put] | [API Reference][put]
+* **Delete a file request**: [Guide][g_del] | [API Reference][del]
 
 [copy]: e://post_file_requests_id_copy
 [get]: e://get_file_requests_id
