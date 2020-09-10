@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 3
 
     # Being extra explicit, we only want this to run on the en branch
-    if: github.ref == 'refs/heads/en
+    if: github.ref == 'refs/heads/en'
 
     strategy:
       matrix:
@@ -33,7 +33,7 @@ jobs:
     timeout-minutes: 3
 
     # Being extra explicit, we only want this to run on the en-staging branch
-    if: github.ref == 'refs/heads/en-staging
+    if: github.ref == 'refs/heads/en-staging'
 
     strategy:
       matrix:
