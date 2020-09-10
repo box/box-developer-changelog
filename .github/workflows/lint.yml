@@ -132,7 +132,7 @@ jobs:
           REPO: self
           BRANCH: ${{ steps.branch.outputs.value }}
           FOLDER: compiled
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
 
       # Send a slack notification to notify our team that a new release has been
       # received.

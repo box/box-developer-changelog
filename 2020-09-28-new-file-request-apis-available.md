@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2020-08-25-multi-select-metadata-support-in-search-api
+previous_page_id: 2020-09-10-group-api-adds-new-filter-and-permissions
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/09-28-new-file-request-apis-available.md
 published_at: '2020-09-28'
