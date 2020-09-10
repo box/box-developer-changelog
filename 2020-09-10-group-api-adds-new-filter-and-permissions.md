@@ -25,10 +25,10 @@ published_at: '2020-09-10'
 # Group API adds new filter and permissions
 
 The [`GET /groups`](e://get_groups) API now supports
-filtering groups by name using a new `filter_name` field.
+filtering groups by name using a new `filter_term` field.
 
 ```curl
-curl -i -X GET "https://api.box.com/2.0/groups?filter_name=Engineering" \
+curl -i -X GET "https://api.box.com/2.0/groups?filter_term=Engineering" \
      -H "Authorization: Bearer <ACCESS_TOKEN>"
 ```
 
