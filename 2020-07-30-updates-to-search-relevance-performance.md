@@ -1,5 +1,5 @@
 ---
-applied_at: '2020-07-30'
+applied_at: '2020-01-31'
 applies_to:
   - api
 is_impactful: false
