@@ -18,6 +18,7 @@
     "clean:all": "rm -rf ./.sources ./compiled",
     "lint:alex": "alex content/ -q",
     "lint": "concurrently 'yarn lint:links' 'yarn lint:markdown' 'yarn lint:spelling' 'yarn lint:alex'",
+    "lint!": "watch 'yarn lint' content/",
     "lint:links": "jest ./code/src/tests/*",
     "lint:markdown": "markdownlint -c markdownlintrc.json ./**/*.md --ignore ./node_modules --fix",
     "lint:spelling": "yarn lint:spelling:interactive -r",
@@ -26,6 +27,7 @@
     "prebuild": "yarn clean ",
     "prelint": "yarn pull",
     "test": "jest ./code/tests/* --coverage --collectCoverageFrom=code/**/*.js --coverageReporters=html --coverageReporters=text",
+    "test!": "yarn test --watchAll",
     "import:release": "babel-node -e 'let Importer = require(\"./code/src/Importer/\").default; new Importer().importRelease({ destination: \"./content\" })'",
     "new": "babel-node ./code/src/scripts/new-release-from-template.js"
   },
@@ -57,6 +59,7 @@
     "remark-reference-links": "^5.0.0",
     "sha1-from-file": "^2.0.1",
     "strip-indent": "^3.0.0",
-    "uslug": "^1.0.4"
+    "uslug": "^1.0.4",
+    "watch": "^1.0.2"
   }
 }
