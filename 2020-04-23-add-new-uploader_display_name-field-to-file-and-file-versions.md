@@ -20,6 +20,7 @@ previous_page_id: 2020-04-21-new-metadata-query-apis-available
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-23-add-new-uploader_display_name-field-to-file-and-file-versions.md
 published_at: '2020-04-23'
+fullyTranslated: true
 ---
 # ファイルおよびファイルバージョンに新しい`uploader_display_name`を追加
 

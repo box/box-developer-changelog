@@ -21,6 +21,7 @@ previous_page_id: 2019-03-28-node-sdk-v1280-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-28-python-sdk-v230-release.md
 published_at: '2019-03-28'
+fullyTranslated: true
 ---
 # Python SDK `v2.3.0`のリリース
 

@@ -18,6 +18,7 @@ previous_page_id: 2018-04-11-box-cli-v120-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-11-metadata-driven-retention-policies.md
 published_at: '2018-04-11'
+fullyTranslated: true
 ---
 # メタデータ駆動のリテンションポリシー
 

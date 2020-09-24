@@ -21,6 +21,7 @@ previous_page_id: ''
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/01-04-java-sdk-v290-release.md
 published_at: '2018-01-04'
+fullyTranslated: true
 ---
 # Java SDK `v2.9.0`のリリース
 

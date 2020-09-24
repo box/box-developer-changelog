@@ -21,6 +21,7 @@ previous_page_id: 2019-03-01-windows-net-sdk-v3140-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-07-java-sdk-v2281-release.md
 published_at: '2019-03-07'
+fullyTranslated: true
 ---
 # Java SDK `v2.28.1`のリリース
 

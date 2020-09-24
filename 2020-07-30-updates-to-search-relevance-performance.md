@@ -21,6 +21,7 @@ previous_page_id: 2020-07-22-new-zip-download-apis-available
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-30-updates-to-search-relevance-performance.md
 published_at: '2020-07-30'
+fullyTranslated: true
 ---
 # 検索の関連性とパフォーマンスの更新
 

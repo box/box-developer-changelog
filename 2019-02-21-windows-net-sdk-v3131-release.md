@@ -21,6 +21,7 @@ previous_page_id: 2019-02-21-java-sdk-v2280-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-21-windows-net-sdk-v3131-release.md
 published_at: '2019-02-21'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.13.1`のリリース
 

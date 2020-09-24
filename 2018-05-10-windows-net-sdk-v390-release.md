@@ -21,6 +21,7 @@ previous_page_id: 2018-05-10-java-sdk-v2190-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/05-10-windows-net-sdk-v390-release.md
 published_at: '2018-05-10'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.9.0`のリリース
 

@@ -18,6 +18,7 @@ previous_page_id: 2019-06-20-windows-net-sdk-v3180-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/06-26-new-supported-values-in-tasks-api.md
 published_at: '2019-06-26'
+fullyTranslated: true
 ---
 # Tasks APIで新たにサポートされる値
 

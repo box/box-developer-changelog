@@ -21,6 +21,7 @@ previous_page_id: 2019-09-19-java-sdk-v2380-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/09-19-windows-net-sdk-v3200-release.md
 published_at: '2019-09-19'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.20.0`のリリース
 

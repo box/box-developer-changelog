@@ -20,6 +20,7 @@ previous_page_id: 2019-05-23-java-sdk-v2330-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-31-replaced-obsolete-field-in-collaborations.md
 published_at: '2019-05-31'
+fullyTranslated: true
 ---
 # コラボレーションで廃止されたフィールドを置き換え
 

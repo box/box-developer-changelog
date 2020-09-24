@@ -21,6 +21,7 @@ previous_page_id: 2019-04-04-java-sdk-v2300-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-08-java-sdk-v2301-release.md
 published_at: '2019-04-08'
+fullyTranslated: true
 ---
 # Java SDK `v2.30.1`のリリース
 

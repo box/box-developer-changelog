@@ -21,6 +21,7 @@ previous_page_id: 2018-10-19-python-sdk-v2-launched
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/11-01-python-sdk-v200-release.md
 published_at: '2018-11-01'
+fullyTranslated: true
 ---
 # Python SDK `v2.0.0`のリリース
 

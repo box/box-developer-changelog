@@ -21,6 +21,7 @@ previous_page_id: 2019-05-15-tls-10-deprecated-complete
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-16-python-sdk-v241-release.md
 published_at: '2019-05-16'
+fullyTranslated: true
 ---
 # Python SDK `v2.4.1`のリリース
 

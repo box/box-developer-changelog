@@ -19,6 +19,7 @@ previous_page_id: 2018-03-12-java-sdk-v2150-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-13-update-to-box-annotations.md
 published_at: '2018-03-13'
+fullyTranslated: true
 ---
 # Boxの注釈を更新
 

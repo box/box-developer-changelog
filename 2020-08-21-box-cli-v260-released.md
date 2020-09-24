@@ -20,6 +20,7 @@ previous_page_id: 2020-08-20-box-node-sdk-v1342-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/08-21-box-cli-v260-released.md
 published_at: '2020-08-21'
+fullyTranslated: true
 ---
 # Box CLI `v2.6.0`のリリース
 

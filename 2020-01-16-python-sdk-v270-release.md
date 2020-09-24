@@ -21,6 +21,7 @@ previous_page_id: ''
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/01-16-python-sdk-v270-release.md
 published_at: '2020-01-16'
+fullyTranslated: true
 ---
 # Python SDK `v2.7.0`のリリース
 

@@ -20,6 +20,7 @@ previous_page_id: 2020-04-23-java-sdk-v2470-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-23-new-classification-field-for-files.md
 published_at: '2020-04-23'
+fullyTranslated: true
 ---
 # ファイルの新しい`classification`フィールド
 

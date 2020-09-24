@@ -22,6 +22,7 @@ previous_page_id: 2018-06-14-windows-net-sdk-v392-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-18-box-android-sdk-v420-released.md
 published_at: '2018-06-18'
+fullyTranslated: true
 ---
 # Box Android SDK `v4.2.0`のリリース
 

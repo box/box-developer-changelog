@@ -21,6 +21,7 @@ previous_page_id: 2018-06-04-java-sdk-v2201-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-07-windows-net-sdk-v391-release.md
 published_at: '2018-06-07'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.9.1`のリリース
 

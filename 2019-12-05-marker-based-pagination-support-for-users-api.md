@@ -18,6 +18,7 @@ previous_page_id: 2019-12-03-preview-sdk-v2290-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-05-marker-based-pagination-support-for-users-api.md
 published_at: '2019-12-05'
+fullyTranslated: true
 ---
 # Users APIでマーカーベースのページ割りがサポート対象に
 

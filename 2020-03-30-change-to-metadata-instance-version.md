@@ -20,6 +20,7 @@ previous_page_id: 2020-02-25-windows-net-sdk-v3220-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/03-30-change-to-metadata-instance-version.md
 published_at: '2020-03-30'
+fullyTranslated: true
 ---
 # メタデータインスタンスのバージョンに対する変更
 

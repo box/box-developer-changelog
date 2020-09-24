@@ -21,6 +21,7 @@ previous_page_id: ''
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/01-03-java-sdk-v2251-release.md
 published_at: '2019-01-03'
+fullyTranslated: true
 ---
 # Java SDK `v2.25.1`のリリース
 

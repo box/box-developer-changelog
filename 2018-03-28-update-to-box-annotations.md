@@ -18,6 +18,7 @@ previous_page_id: 2018-03-27-windows-net-sdk-v360-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-28-update-to-box-annotations.md
 published_at: '2018-03-28'
+fullyTranslated: true
 ---
 # Boxの注釈を更新
 

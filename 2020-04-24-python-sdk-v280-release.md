@@ -21,6 +21,7 @@ previous_page_id: 2020-04-23-new-classification-field-for-files
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-24-python-sdk-v280-release.md
 published_at: '2020-04-24'
+fullyTranslated: true
 ---
 # Python SDK `v2.8.0`のリリース
 

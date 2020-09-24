@@ -19,6 +19,7 @@ previous_page_id: 2018-09-04-windows-net-sdk-v393-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/09-05-annotations-available-for-excel-files-in-preview.md
 published_at: '2018-09-05'
+fullyTranslated: true
 ---
 # Excelファイルのプレビューで注釈が利用可能に
 

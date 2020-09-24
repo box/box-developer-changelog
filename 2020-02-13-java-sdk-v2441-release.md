@@ -21,6 +21,7 @@ previous_page_id: 2020-02-13-box-ios-sdk-v400-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/02-13-java-sdk-v2441-release.md
 published_at: '2020-02-13'
+fullyTranslated: true
 ---
 # Java SDK `v2.44.1`のリリース
 

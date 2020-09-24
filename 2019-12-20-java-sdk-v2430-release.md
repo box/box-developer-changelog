@@ -21,6 +21,7 @@ previous_page_id: 2019-12-17-java-sdk-v2420-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-20-java-sdk-v2430-release.md
 published_at: '2019-12-20'
+fullyTranslated: true
 ---
 # Java SDK `v2.43.0`のリリース
 

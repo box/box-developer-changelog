@@ -21,6 +21,7 @@ previous_page_id: 2019-04-29-windows-net-sdk-v3160-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-09-windows-net-sdk-v3170-release.md
 published_at: '2019-05-09'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.17.0`のリリース
 

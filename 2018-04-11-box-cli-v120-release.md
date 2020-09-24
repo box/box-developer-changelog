@@ -20,6 +20,7 @@ previous_page_id: 2018-04-10-java-sdk-v2170-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-11-box-cli-v120-release.md
 published_at: '2018-04-11'
+fullyTranslated: true
 ---
 # Box CLI `v1.2.0`のリリース
 

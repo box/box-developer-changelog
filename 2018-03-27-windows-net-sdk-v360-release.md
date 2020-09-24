@@ -21,6 +21,7 @@ previous_page_id: 2018-03-22-java-sdk-v2160-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-27-windows-net-sdk-v360-release.md
 published_at: '2018-03-27'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.6.0`のリリース
 

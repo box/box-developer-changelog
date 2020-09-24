@@ -20,6 +20,7 @@ previous_page_id: 2020-04-09-java-sdk-v2460-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-21-box-cli-v251-release.md
 published_at: '2020-04-21'
+fullyTranslated: true
 ---
 # Box CLI `v2.5.1`のリリース
 

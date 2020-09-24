@@ -18,6 +18,7 @@ previous_page_id: 2019-09-11-new-completion_rule-field-for-tasks
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/09-18-new-security-enhancements-for-token-revocation.md
 published_at: '2019-09-18'
+fullyTranslated: true
 ---
 # トークン無効化のための新しいセキュリティ強化
 

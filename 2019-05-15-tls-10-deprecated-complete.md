@@ -18,6 +18,7 @@ previous_page_id: 2019-05-10-box-cli-v220-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-15-tls-10-deprecated-complete.md
 published_at: '2019-05-15'
+fullyTranslated: true
 ---
 # TLS 1.0非推奨の完了
 

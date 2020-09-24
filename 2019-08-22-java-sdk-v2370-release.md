@@ -21,6 +21,7 @@ previous_page_id: 2019-08-01-java-sdk-v2360-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-22-java-sdk-v2370-release.md
 published_at: '2019-08-22'
+fullyTranslated: true
 ---
 # Java SDK `v2.37.0`のリリース
 

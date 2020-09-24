@@ -18,6 +18,7 @@ previous_page_id: 2018-08-16-generic-method-added-to-the-salesforce-sdk
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-17-box-user_id-field-size-changed.md
 published_at: '2018-08-17'
+fullyTranslated: true
 ---
 # Box `user_id`フィールドのサイズを変更
 

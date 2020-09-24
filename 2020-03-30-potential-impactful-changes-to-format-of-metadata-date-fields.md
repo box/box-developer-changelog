@@ -20,6 +20,7 @@ previous_page_id: 2020-03-30-change-to-metadata-instance-version
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/03-30-potential-impactful-changes-to-format-of-metadata-date-fields.md
 published_at: '2020-03-30'
+fullyTranslated: true
 ---
 # メタデータの`date`フィールドの形式に影響する可能性のある変更
 

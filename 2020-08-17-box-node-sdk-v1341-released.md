@@ -21,6 +21,7 @@ previous_page_id: 2020-08-07-box-node-sdk-v1340-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/08-17-box-node-sdk-v1341-released.md
 published_at: '2020-08-17'
+fullyTranslated: true
 ---
 # Box Node SDK `v1.34.1`のリリース
 

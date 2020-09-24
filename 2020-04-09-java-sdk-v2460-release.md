@@ -21,6 +21,7 @@ previous_page_id: 2020-04-02-java-sdk-v2450-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-09-java-sdk-v2460-release.md
 published_at: '2020-04-09'
+fullyTranslated: true
 ---
 # Java SDK `v2.46.0`のリリース
 

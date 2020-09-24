@@ -18,6 +18,7 @@ previous_page_id: 2018-07-11-historical-platform-activity-csv-report
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/07-31-expanded-relay-workflow-api.md
 published_at: '2018-07-31'
+fullyTranslated: true
 ---
 # Relay Workflow APIの拡張
 

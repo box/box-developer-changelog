@@ -18,6 +18,7 @@ previous_page_id: 2018-08-17-box-user_id-field-size-changed
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-21-add-new-action_by-field-to-enterprise-events.md
 published_at: '2018-08-21'
+fullyTranslated: true
 ---
 # エンタープライズイベントに新しい`action_by`フィールドを追加
 

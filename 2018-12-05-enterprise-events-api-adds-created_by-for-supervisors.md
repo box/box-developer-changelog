@@ -20,6 +20,7 @@ previous_page_id: 2018-11-16-java-sdk-v2240-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/12-05-enterprise-events-api-adds-created_by-for-supervisors.md
 published_at: '2018-12-05'
+fullyTranslated: true
 ---
 # エンタープライズイベントAPIにスーパーバイザー向けの`created_by`を追加
 

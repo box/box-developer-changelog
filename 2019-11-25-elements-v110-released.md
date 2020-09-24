@@ -21,6 +21,7 @@ previous_page_id: 2019-11-21-node-sdk-v1300-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-25-elements-v110-released.md
 published_at: '2019-11-25'
+fullyTranslated: true
 ---
 # Elements `v11.0`のリリース
 

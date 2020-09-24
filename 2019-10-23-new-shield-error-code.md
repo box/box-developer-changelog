@@ -18,6 +18,7 @@ previous_page_id: 2019-10-18-relay-api-endpoints-will-eol-on-december-31st-2019
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/10-23-new-shield-error-code.md
 published_at: '2019-10-23'
+fullyTranslated: true
 ---
 # 新しいShieldエラーコード
 

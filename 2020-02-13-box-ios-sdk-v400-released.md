@@ -22,6 +22,7 @@ previous_page_id: 2020-02-03-preview-sdk-v2340-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/02-13-box-ios-sdk-v400-released.md
 published_at: '2020-02-13'
+fullyTranslated: true
 ---
 # Box iOS SDK `v4.0.0`のリリース
 

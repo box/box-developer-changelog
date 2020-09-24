@@ -22,6 +22,7 @@ previous_page_id: 2020-05-12-windows-net-sdk-v3230-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/05-15-box-ios-sdk-v410-released.md
 published_at: '2020-05-15'
+fullyTranslated: true
 ---
 # Box iOS SDK `v4.1.0`のリリース
 

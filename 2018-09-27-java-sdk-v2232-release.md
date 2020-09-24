@@ -21,6 +21,7 @@ previous_page_id: 2018-09-13-java-sdk-v2231-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/09-27-java-sdk-v2232-release.md
 published_at: '2018-09-27'
+fullyTranslated: true
 ---
 # Java SDK `v2.23.2`のリリース
 

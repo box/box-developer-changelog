@@ -18,6 +18,7 @@ previous_page_id: 2019-08-29-windows-net-sdk-v3190-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/09-11-new-completion_rule-field-for-tasks.md
 published_at: '2019-09-11'
+fullyTranslated: true
 ---
 # タスクの新しい`completion_rule`フィールド
 

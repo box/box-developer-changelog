@@ -21,6 +21,7 @@ previous_page_id: 2019-05-23-box-cli-v230-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-23-java-sdk-v2330-release.md
 published_at: '2019-05-23'
+fullyTranslated: true
 ---
 # Java SDK `v2.33.0`のリリース
 

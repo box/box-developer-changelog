@@ -21,6 +21,7 @@ previous_page_id: 2019-03-28-python-sdk-v230-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-28-windows-net-sdk-v3150-release.md
 published_at: '2019-03-28'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.15.0`のリリース
 

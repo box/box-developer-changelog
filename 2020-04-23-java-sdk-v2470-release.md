@@ -21,6 +21,7 @@ previous_page_id: 2020-04-23-add-new-uploader_display_name-field-to-file-and-fil
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-23-java-sdk-v2470-release.md
 published_at: '2020-04-23'
+fullyTranslated: true
 ---
 # Java SDK `v2.47.0`のリリース
 

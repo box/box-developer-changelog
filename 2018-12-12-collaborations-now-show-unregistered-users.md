@@ -20,6 +20,7 @@ previous_page_id: 2018-12-05-enterprise-events-api-adds-created_by-for-superviso
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/12-12-collaborations-now-show-unregistered-users.md
 published_at: '2018-12-12'
+fullyTranslated: true
 ---
 # コラボレーションに未登録ユーザーを表示
 

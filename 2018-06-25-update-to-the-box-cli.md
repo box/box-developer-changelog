@@ -18,6 +18,7 @@ previous_page_id: 2018-06-18-box-android-sdk-v420-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-25-update-to-the-box-cli.md
 published_at: '2018-06-25'
+fullyTranslated: true
 ---
 # Box CLIの更新
 

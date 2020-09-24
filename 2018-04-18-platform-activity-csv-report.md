@@ -18,6 +18,7 @@ previous_page_id: 2018-04-11-windows-net-sdk-v370-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-18-platform-activity-csv-report.md
 published_at: '2018-04-18'
+fullyTranslated: true
 ---
 # プラットフォームアクティビティのCSVレポート
 

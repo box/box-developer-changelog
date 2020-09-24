@@ -21,6 +21,7 @@ previous_page_id: 2018-01-10-windows-net-sdk-v341-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/01-12-java-sdk-v2100-release.md
 published_at: '2018-01-12'
+fullyTranslated: true
 ---
 # Java SDK `v2.10.0`のリリース
 

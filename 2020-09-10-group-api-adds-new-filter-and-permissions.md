@@ -21,6 +21,7 @@ previous_page_id: 2020-08-25-multi-select-metadata-support-in-search-api
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/09-10-group-api-adds-new-filter-and-permissions.md
 published_at: '2020-09-10'
+fullyTranslated: true
 ---
 # グループAPIで新しいフィルタと権限を追加
 

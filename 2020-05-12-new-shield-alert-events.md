@@ -18,6 +18,7 @@ previous_page_id: 2020-04-24-python-sdk-v280-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/05-12-new-shield-alert-events.md
 published_at: '2020-05-12'
+fullyTranslated: true
 ---
 # 新しいShieldアラートイベント
 

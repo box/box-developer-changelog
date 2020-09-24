@@ -21,6 +21,7 @@ previous_page_id: 2019-10-23-new-shield-error-code
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/10-24-java-sdk-v2400-release.md
 published_at: '2019-10-24'
+fullyTranslated: true
 ---
 # Java SDK `v2.40.0`のリリース
 

@@ -20,6 +20,7 @@ previous_page_id: 2020-01-21-java-sdk-v2440-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/01-22-preview-sdk-v2331-released.md
 published_at: '2020-01-22'
+fullyTranslated: true
 ---
 # Preview SDK `v2.33.1`のリリース
 

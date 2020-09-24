@@ -21,6 +21,7 @@ previous_page_id: 2018-04-30-java-sdk-v2180-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-30-windows-net-sdk-v380-release.md
 published_at: '2018-04-30'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.8.0`のリリース
 

@@ -21,6 +21,7 @@ previous_page_id: 2020-07-17-box-java-sdk-v2490-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-21-box-windows-sdk-v3240-released.md
 published_at: '2020-07-21'
+fullyTranslated: true
 ---
 # Box Windows SDK `v3.24.0`のリリース
 

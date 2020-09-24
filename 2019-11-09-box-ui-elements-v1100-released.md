@@ -21,6 +21,7 @@ previous_page_id: 2019-10-25-new-parameters-for-search-api
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-09-box-ui-elements-v1100-released.md
 published_at: '2019-11-09'
+fullyTranslated: true
 ---
 # Box UI Elements `v11.0.0`のリリース
 

@@ -18,6 +18,7 @@ previous_page_id: 2018-08-21-add-new-action_by-field-to-enterprise-events
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-21-add-new-fields-to-folder-update-and-get-info-endpoints.md
 published_at: '2018-08-21'
+fullyTranslated: true
 ---
 # フォルダを更新エンドポイントおよびフォルダ情報の取得エンドポイントに新しいフィールドを追加
 

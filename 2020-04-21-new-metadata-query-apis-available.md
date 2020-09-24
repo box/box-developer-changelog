@@ -18,6 +18,7 @@ previous_page_id: 2020-04-21-box-cli-v251-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-21-new-metadata-query-apis-available.md
 published_at: '2020-04-21'
+fullyTranslated: true
 ---
 # 新しいメタデータクエリAPI
 

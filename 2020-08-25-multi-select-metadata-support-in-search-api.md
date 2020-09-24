@@ -21,6 +21,7 @@ previous_page_id: 2020-08-21-box-cli-v260-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/08-25-multi-select-metadata-support-in-search-api.md
 published_at: '2020-08-25'
+fullyTranslated: true
 ---
 # 検索APIで新しい`multiSelect`メタデータがサポート
 

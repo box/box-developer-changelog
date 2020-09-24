@@ -19,6 +19,7 @@ previous_page_id: 2020-07-22-box-java-sdk-v2500-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-22-new-zip-download-apis-available.md
 published_at: '2020-07-22'
+fullyTranslated: true
 ---
 # 新しい圧縮ダウンロードAPI
 

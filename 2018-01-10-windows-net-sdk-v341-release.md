@@ -21,6 +21,7 @@ previous_page_id: 2018-01-04-java-sdk-v290-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/01-10-windows-net-sdk-v341-release.md
 published_at: '2018-01-10'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.4.1`のリリース
 

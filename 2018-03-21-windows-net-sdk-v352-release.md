@@ -21,6 +21,7 @@ previous_page_id: 2018-03-15-windows-net-sdk-v351-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-21-windows-net-sdk-v352-release.md
 published_at: '2018-03-21'
+fullyTranslated: true
 ---
 # Windows .NET SDK `v3.5.2`のリリース
 

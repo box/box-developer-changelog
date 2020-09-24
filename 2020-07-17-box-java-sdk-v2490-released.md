@@ -21,6 +21,7 @@ previous_page_id: 2020-07-16-change-to-enterprise-events-for-content-access
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-17-box-java-sdk-v2490-released.md
 published_at: '2020-07-17'
+fullyTranslated: true
 ---
 # Box Java SDK `v2.49.0`のリリース
 

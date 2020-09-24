@@ -18,6 +18,7 @@ previous_page_id: 2018-07-06-java-sdk-v2210-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/07-11-historical-platform-activity-csv-report.md
 published_at: '2018-07-11'
+fullyTranslated: true
 ---
 # プラットフォームアクティビティ履歴のCSVレポート
 
