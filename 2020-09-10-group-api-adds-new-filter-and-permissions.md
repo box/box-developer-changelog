@@ -1,5 +1,5 @@
 ---
-applied_at: '2020-07-07'
+applied_at: '2020-09-10'
 applies_to:
   - api
 is_impactful: false
@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2020-09-28-new-file-request-apis-available
+next_page_id: 2020-09-25-search-api-adds-support-for-shared-links
 previous_page_id: 2020-08-25-multi-select-metadata-support-in-search-api
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/09-10-group-api-adds-new-filter-and-permissions.md
@@ -25,10 +25,10 @@ published_at: '2020-09-10'
 # Group API adds new filter and permissions
 
 The [`GET /groups`](e://get_groups) API now supports
-filtering groups by name using a new `filter_name` field.
+filtering groups by name using a new `filter_term` field.
 
 ```curl
-curl -i -X GET "https://api.box.com/2.0/groups?filter_name=Engineering" \
+curl -i -X GET "https://api.box.com/2.0/groups?filter_term=Engineering" \
      -H "Authorization: Bearer <ACCESS_TOKEN>"
 ```
 
