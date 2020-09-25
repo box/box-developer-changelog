@@ -12,8 +12,8 @@ release_source_url: ''
 # Search API adds support for Shared Links
 
 The [Search API][endpoint] now supports returning files, 
-folders and web links that the user has accessed through a
-shared link.
+folders and web links that the user has recently accessed
+through a shared link.
 
 Shared items can be requested by calling the 
 [`GET /search`][endpoint] API with the new 
