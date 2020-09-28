@@ -38,7 +38,7 @@ affected, take the following steps:
 * Go to the
  [Box developer console](https://cloud.app.box.com/developers/console) as the
  user who owns the application(s).
-* For each OAuth 2 application, click on the applicationto open it.
+* For each OAuth 2 application, click on the application to open it.
 * From the left navigation, click on "Configuration".
 * Scroll down to the "OAuth 2.0 Redirect URI" section. 
 * For any application where this URL is blank, add the URL that is being used
