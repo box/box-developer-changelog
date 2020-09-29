@@ -7,7 +7,7 @@
 # request created by `box-devrel` with the `allow-automerge`
 # label.
 
-name: Lint & Deploy
+name: Lint & Build
 
 on:
   push: 
@@ -40,11 +40,19 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      # Determine the content repo to pull from
+      - uses: haya14busa/action-cond@v1
+        id: content_repo
+        with:
+          cond: ${{ github.ref == 'refs/heads/staging' }}
+          if_true: "https://github.com/box/developer.box.com.git#en-staging"
+          if_false: "https://github.com/box/developer.box.com.git#en"
+
       # Perform a lint of the content
       - name: Lint the content
         # Pull in the guides from the `en` branch for link validation
         env:
-          CONTENT_REPO: "https://github.com/box/developer.box.com.git#en"
+          CONTENT_REPO: ${{ steps.content_repo.outputs.value }}
         # Install the dependencies and run the linter
         run: |
           yarn install
@@ -83,7 +91,7 @@ jobs:
 
   # Deploy any new changes from the `main` / `staging` branches to the 
   # `en` and `en-staging` branches.
-  push-to-en:
+  deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 3
 
@@ -117,14 +125,6 @@ jobs:
           if_true: "en"
           if_false: "en-staging"
 
-      # Determine the netlify webhook to call
-      - uses: haya14busa/action-cond@v1
-        id: netlify_webhook
-        with:
-          cond: ${{ steps.branch.outputs.value == 'en' }}
-          if_true: ${{ secrets.NETLIFY_BOXDEV_WEBHOOK }}
-          if_false: ${{ secrets.NETLIFY_BOXDEV_STAGING_WEBHOOK }}
-
       # Push the new build to the correct branch
       - name: Push compiled content
         uses: s0/git-publish-subdir-action@develop
@@ -132,13 +132,7 @@ jobs:
           REPO: self
           BRANCH: ${{ steps.branch.outputs.value }}
           FOLDER: compiled
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: 'Trigger Netlify deployment'
-        uses: joelwmale/webhook-action@master
-        env:
-          WEBHOOK_URL: ${{ steps.netlify_webhook.outputs.value }}
-          data: '{}'
+          GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
 
       # Send a slack notification to notify our team that a new release has been
       # received.
@@ -150,40 +144,3 @@ jobs:
           SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
         with:
           args: "Developer Changelog: Pushed latest markdown to `${{ steps.branch.outputs.value }}` branch :rocket:"
-
-  # A task that notifies Netlify of changes to the jp branch
-  notify-from-jp:
-    # We run this on the latest ubuntu
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/jp'
-    timeout-minutes: 3
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-
-    steps:
-      - name: 'Trigger Netlify deployment'
-        uses: joelwmale/webhook-action@master
-        env:
-          WEBHOOK_URL: ${{ secrets.NETLIFY_BOXDEV_JP_WEBHOOK }}
-          data: '{}'
-  
-      - name: Send Slack notification
-        uses: Ilshidur/action-slack@2.0.2
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_USERNAME: GitHub Actions
-          SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
-        with:
-          args: "Pushed latest Markdown to `jp` branch :rocket:"
-
-      - name: Send Slack notification
-        uses: Ilshidur/action-slack@2.0.2
-        if: ${{ failure() }}
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_USERNAME: GitHub Actions
-          SLACK_AVATAR: "https://avatars3.githubusercontent.com/u/8659759?s=200&v=4"
-        with:
-          args: "Error running `notify-from-jp` job in OpenAPI CI"

@@ -38,4 +38,4 @@ BoxのAPIを使用した検索方法の詳細については、[全文検索][se
 
 [wiki-tokenizer]: https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization
 
-[search_guide]: g://search/full-text-search
+[search_guide]: g://search/
