@@ -39,4 +39,4 @@ information on how to search using Box's API.
 
 [wiki-stop-words]: https://en.wikipedia.org/wiki/Stop_words
 [wiki-tokenizer]: https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization
-[search_guide]: g://search/full-text-search
+[search_guide]: g://search/
