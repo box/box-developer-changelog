@@ -10,7 +10,7 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Changes to OAuth 2 app redirect URL requirements
+# Change to OAuth 2 app redirect URI requirements
 
 On October 29th, 2020, Box will begin employing stricter requirements for
 redirect URLs used within new and existing
