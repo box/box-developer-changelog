@@ -1,6 +1,6 @@
 ---
 applied_at: '2020-01-31'
-applies_to: 
+applies_to:
   - api
 is_impactful: false
 is_new_feature: true
@@ -19,7 +19,7 @@ Notable changes to the API-initiated searches include:
 
 * The ability to use "[stop words][wiki-stop-words]", for example "the", "is"
   "at", "which", and "on".
-* Improved Japanese text tokenization and improved search results. 
+* Improved Japanese text tokenization and improved search results.
 
 See the [full-text search][search_guide] documentation for more
 information on how to search using Box's API.
