@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2020-09-29-changes-to-oauth-2-app-redirect-url-requirements
+previous_page_id: 2020-10-02-box-python-sdk-v2100-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-02-new-file-request-apis-available.md
 published_at: '2020-10-02'
