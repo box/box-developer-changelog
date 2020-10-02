@@ -4,12 +4,13 @@ applies_to:
 - api
 is_impactful: false
 is_new_feature: false
-collapse: true
+collapse: false
 show_excerpt: true
 release_source_url: ''
 ---
 
 # Metadata Cascade Policies API leaves Beta
+
 The [Metadata Cascade Policies API][mdc_api] is now generally available to all
 and no longer in Beta.
 
