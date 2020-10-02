@@ -1,6 +1,6 @@
 ---
-applied_at: "2020-09-28"
-applies_to: 
+applied_at: "2020-10-02"
+applies_to:
 - api
 is_impactful: false
 is_new_feature: true
@@ -16,7 +16,7 @@ developers to create and update File Requests. We've
 updated the [reference documentation][copy] and added
 [new guides][guides] to help you manage your file requests.
 
-To create a copy of an existing file request, all you need is 
+To create a copy of an existing file request, all you need is
 the unique ID of an existing file request, and the ID of the
 folder to apply the new request to.
 
@@ -26,11 +26,11 @@ curl -i -X POST "https://api.box.com/2.0/file_requests/42037322/copy" \
      -d '{
        "folder": {
          "id": "2233212"
-       }       
+       }
      }'
 ```
 
-Additional APIs are available that allow a developer to get more details 
+Additional APIs are available that allow a developer to get more details
 about a file request, update a file request, and delete a file request.
 For more details, please check out the developer documentation.
 
