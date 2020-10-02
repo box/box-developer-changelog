@@ -15,12 +15,12 @@ collapse: true
 
 - Add support for `copyInstanceOnItemCopy` field for metadata templates ([#546][1])
 - Allow creating tasks with the `action` and `completion_rule` parameters ([#544][2])
-- Add zip functionality ([#539][3])
+- Add Zip functionality ([#539][3])
 
 **Bug Fixes:**
 
 - Fix bug with updating a collaboration role to owner ([#536][4])
-- Allow ints to be passed in as item IDs ([#530][5])
+- Allow `ints` to be passed in as item IDs ([#530][5])
 
 [1]: https://github.com/box/box-ios-sdk/pull/546
 
