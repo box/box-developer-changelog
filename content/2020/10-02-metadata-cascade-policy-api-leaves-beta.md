@@ -10,15 +10,16 @@ release_source_url: ''
 ---
 
 # Metadata Cascade Policies API leaves Beta
-
 The [Metadata Cascade Policies API][mdc_api] is now generally available to all
 and no longer in Beta.
 
 Over the past years, we've made a lot of technical improvements to our metadata
 infrastructure and we're happy to announce that we've now gotten to the moment
-where the Metadata Cascade Policies API is leaving Beta.
+where the Metadata Cascade Policies API is leaving Beta. This release does not
+involve any breaking changes and any existing application should not see any
+impact from this release.
 
-Since we initially launched Metadata Cascade Policies has become over 10 times
+Since we initially launched, Metadata Cascade Policies has become over 10 times
 faster when applying metadata to new instances. Additionally, we've also made
 significant strides in reliability and observability to ensure a top-notch API
 experience, in line with the rest of our API suite.
