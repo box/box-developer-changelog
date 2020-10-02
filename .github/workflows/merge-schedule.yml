@@ -7,7 +7,7 @@ on:
       - synchronize
   schedule:
     # https://crontab.guru/every-hour
-    - cron: 0 * * * *
+    - cron: 0 16 * * *
 
 jobs:
   merge_schedule:
@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: gr2m/merge-schedule-action@v1.x
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DISPATCH_ACCESS_TOKEN }}
