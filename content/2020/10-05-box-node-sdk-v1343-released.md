@@ -13,6 +13,6 @@ collapse: true
 
 Bug Fixes:
 
-- Upgrade ajv dependency ([#545][1])
+- Upgrade `ajv` dependency ([#545][1])
 
 [1]: https://github.com/box/box-node-sdk/issues/545
