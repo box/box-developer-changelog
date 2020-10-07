@@ -27,6 +27,6 @@ fullyTranslated: true
 
 バグ修正:
 
-* Upgrade `ajv` dependency ([#545][1])
+* `ajv`依存関係のアップグレード ([#545][1])
 
 [1]: https://github.com/box/box-node-sdk/issues/545
