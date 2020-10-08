@@ -1,5 +1,5 @@
 ---
-applied_at: '2020-09-25'
+applied_at: '2020-10-08'
 applies_to:
   - api
 is_impactful: false
@@ -10,17 +10,17 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2020-09-25-search-api-adds-support-for-shared-links
+id: 2020-10-08-search-api-adds-support-for-shared-links
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2020-09-29-changes-to-oauth-2-app-redirect-url-requirements
-previous_page_id: 2020-09-10-group-api-adds-new-filter-and-permissions
+next_page_id: ''
+previous_page_id: ''
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2020/09-25-search-api-adds-support-for-shared-links.md
-published_at: '2020-09-25'
+  https://github.com/box/box-developer-changelog/blob/main/content/2020-10-08-search-api-adds-support-for-shared-links.md
+published_at: null
 ---
 # Search API adds support for Shared Links
 

@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: ''
-next_page_id: ''
+next_page_id: 2020-10-08-search-api-adds-support-for-shared-links
 previous_page_id: ''
 source_url: 'https://github.com/box/box-developer-changelog/blob/main/content/index.md'
 published_at: null
