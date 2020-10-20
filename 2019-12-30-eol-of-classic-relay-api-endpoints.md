@@ -1,5 +1,5 @@
 ---
-applied_at: '2019-12-31'
+applied_at: '2019-12-30'
 applies_to:
   - api
 is_impactful: true
@@ -7,7 +7,7 @@ is_new_feature: false
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2019-12-31-eol-of-classic-relay-api-endpoints
+id: 2019-12-30-eol-of-classic-relay-api-endpoints
 rank: null
 total_steps: null
 type: changelog
@@ -16,8 +16,8 @@ parent_id: changelog
 next_page_id: ''
 previous_page_id: 2019-12-20-java-sdk-v2430-release
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2019/12-31-eol-of-classic-relay-api-endpoints.md
-published_at: '2019-12-31'
+  https://github.com/box/box-developer-changelog/blob/main/content/2019/12-30-eol-of-classic-relay-api-endpoints.md
+published_at: '2019-12-30'
 ---
 # EOL of Classic Relay API Endpoints
 

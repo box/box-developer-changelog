@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2019-12-31-eol-of-classic-relay-api-endpoints
+next_page_id: 2019-12-30-eol-of-classic-relay-api-endpoints
 previous_page_id: 2019-12-17-java-sdk-v2420-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-20-java-sdk-v2430-release.md
