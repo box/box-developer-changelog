@@ -24,8 +24,8 @@ collapse: true
 
 - Fix bug with JWT Authentication automatic retry ([#697][5])
 
-[https://www.nuget.org/packages/Box.V2/3.25.0][6]
-[https://www.nuget.org/packages/Box.V2.Core/3.25.0][7]
+[`www.nuget.org/packages/Box.V2/3.25.0`][6]
+[`www.nuget.org/packages/Box.V2.Core/3.25.0`][7]
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/703
 
