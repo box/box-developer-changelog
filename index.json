@@ -173,5 +173,10 @@
   "2020-08-25-multi-select-metadata-support-in-search-api",
   "2020-09-10-group-api-adds-new-filter-and-permissions",
   "2020-09-25-search-api-adds-support-for-shared-links",
-  "2020-09-29-changes-to-oauth-2-app-redirect-url-requirements"
+  "2020-09-29-changes-to-oauth-2-app-redirect-url-requirements",
+  "2020-10-02-box-python-sdk-v2100-released",
+  "2020-10-02-new-file-request-apis-available",
+  "2020-10-05-box-node-sdk-v1343-released",
+  "2020-10-08-search-api-adds-support-for-shared-links",
+  "2020-10-19-box-windows-sdk-v3250-released"
 ]
