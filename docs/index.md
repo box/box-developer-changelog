@@ -10,17 +10,10 @@
 This project has a few prerequisites.
 
 * [`Git`](https://git-scm.com/) to download the source code
-* When using Docker
-  * A local installation of Docker. I'd recommend the
-    [Docker Desktop](https://www.docker.com/products/docker-desktop)
-    on Mac.
-  * [Docker Compose](https://docs.docker.com/compose/) which can be
-    installed with `Homebrew` using `brew install docker-compose`.
-* When not using Docker
-  * [`Node.js`](https://nodejs.org/) for compilation and linting of the API
-    specification. Ideally Node 12 or above.
-  * [`Yarn`](https://yarnpkg.com/) is the Node package manager for this project. It can be installed with
-    `npm i -g yarn` if Node is installed.
+* [`Node.js`](https://nodejs.org/) for compilation and linting of the API
+  specification. Ideally Node 12 or above.
+* [`Yarn`](https://yarnpkg.com/) is the Node package manager for this project. It can be installed with
+  `npm i -g yarn` if Node is installed.
 
 ## Download the code
 
@@ -58,16 +51,6 @@ yarn lint:spelling # makes sure there are no obvious spelling mistakes
 yarn lint:alex # makes sure we're not using any offensive language in our content
 ```
 <!-- markdownlint-enable line-length -->
-
-## Linting with Docker
-
-To perform continuous linting with Docker, a docker image is provided.
-
-```sh
-docker-compose up
-```
-
-This will watch for changes and run the linter without the need to install Node.
 
 ## Content compilation
 

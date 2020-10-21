@@ -20,7 +20,34 @@ The following is the rough layout of this project.
 - `code/` - The code base that includes our linting code, as well as our
   functional tests.
 - `.spelling` - Contains additional words that need to be added to the
-  dictionary. This is used to add words that are not in the dictionarity 
+  dictionary. This is used to add words that are not in the dictionarity
+- `.github/` - Contains templates for GitHub Issues and Pull Requests, as well
+  as workflows for GitHub Actions.
+  - `workflows/`
+    - `import.yml` - Triggered by a dispatch notification from any of our SDKs
+      and CLI. These dispatch notifications are sent by GitHub actions in those
+      repositories when a new release is published to GitHub. This Action then
+      imports the release name and description, writes it out as markdown, and
+      opens a new pull request for that release.
+    - `lint.yml` - When a change is pushed to the `main` or `staging` branches, or
+      when a pull request is opened for those branches, this runs the linter to
+      validate the new content is valid markdown and has no spelling mistakes.
+      If this was a pull request opened by the `box-devrel` user and the linting
+      passes, then an `automerge` label is applied. It is also used to build new
+      content on the `main` and `staging` branch and push them to the `en` and
+      `en-staging` branches.
+    - `automerge.yml` - Triggered when a pull request is labeled with the
+      `automerge` tag by the `box-devrel` user. It merges the pull request.
+    - `merge-schedule.yml` - Triggered daily at 4PM UTC. It checks for any pull
+      requests that have a `/schedule [date]` statement in their description and
+      merges them.
+    - `notify.yml` - When a new commit is made to the `en`, `en-staging` and
+      `jp` branches then this action is triggered. It notifies Netlify of the
+      new changes which triggers a rebuild.
+    - `test.yml` - When a change is pushed to the `main` or `staging` branches,
+      or when a pull request is opened for those branches, this runs the test
+      suite to make sure the code that builds the content still works as
+      expected.
 - `.alexrc` - Contains our rules for [Alex.JS](https://alexjs.com), used to
   limit the language used in our docs.
 
