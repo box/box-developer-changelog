@@ -1,5 +1,5 @@
 ---
-applied_at: '2020-10-26'
+applied_at: '2020-10-22'
 applies_to:
   - api
 is_impactful: false
@@ -10,7 +10,7 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2020-10-26-new-folder-lock-apis-now-available
+id: 2020-10-22-new-folder-lock-apis-now-available
 rank: null
 total_steps: null
 type: changelog
@@ -19,8 +19,8 @@ parent_id: changelog
 next_page_id: ''
 previous_page_id: 2020-10-21-metadata-cascade-policy-api-leaves-beta
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2020/10-26-new-folder-lock-apis-now-available.md
-published_at: '2020-10-26'
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/10-22-new-folder-lock-apis-now-available.md
+published_at: '2020-10-22'
 fullyTranslated: true
 ---
 # フォルダのロックAPIが新しく利用可能になりました
