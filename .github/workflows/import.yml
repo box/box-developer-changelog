@@ -57,7 +57,7 @@ jobs:
 
       # Create a PR with the new content
       - name: Create a new Pull Request
-        uses: peter-evans/create-pull-request@v2
+        uses: peter-evans/create-pull-request@v3
         with:
           # Use a personal access token from box-devrel
           # This allows for other workflows to be triggered by this PR
