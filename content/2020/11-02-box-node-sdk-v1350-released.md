@@ -13,6 +13,6 @@ collapse: true
 
 **New Features and Enhancements:**
 
-- Add support for search param to get shared link items ([#547][1])
+- Add support for search parameter to get shared link items ([#547][1])
 
 [1]: https://github.com/box/box-node-sdk/issues/547
