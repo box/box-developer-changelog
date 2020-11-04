@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2020-11-04-box-cli-v270-released
 previous_page_id: 2020-10-22-new-folder-lock-apis-now-available
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-29-box-java-sdk-v2510-released.md
