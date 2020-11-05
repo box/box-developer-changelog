@@ -26,12 +26,12 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Make commands `collaborations:add`, `shared-links:update`, `shared-links:delete`, `users:search` that were previously hidden, now available ([#211][1])
-* Add `filter_term` parameter to `groups:list` ([#210][2])
+* 以前非表示になっていたコマンド`collaborations:add`、`shared-links:update`、`shared-links:delete`、`users:search`が使用可能になりました ([#211][1])
+* `filter_term`パラメータを`groups:list`に追加 ([#210][2])
 
 **バグ修正:**
 
-* Fix bug with setting proxy settings ([#213][3])
+* プロキシ設定に関するバグを修正 ([#213][3])
 
 [1]: https://github.com/box/boxcli/issues/211
 
