@@ -23,10 +23,10 @@ source_url: >-
 published_at: '2020-11-09'
 fullyTranslated: true
 ---
-# Simplified App Creation Flow
+# シンプルになったアプリ作成フロー
 
-A new, simplified app creation flow is now available in the Box [Developer Console](https://app.box.com/developers/console). The three types of applications are Custom Apps, Limited Access Apps, and Box Custom Skills.
+新しくシンプルになったアプリ作成フローがBox[開発者コンソール](https://app.box.com/developers/console)で使用できるようになりました。アプリケーションには、カスタムアプリ、アクセス制限付きアプリ、Boxカスタムスキルの3種類があります。
 
-We added plain language to describe exactly when to select each app type and links to relevant documentation if you require additional information to help with your selection. The application type you select impacts which authentication methods are available.
+Boxでは、各種アプリを選択するタイミングを正確に説明するための平易な言葉と、選択に役立つ追加情報が必要な方のために関連するドキュメントへのリンクを追加しました。アプリケーションの種類の選択によって、使用できる認証方法に影響があります。
 
-Most notably, is our new app type, Limited Access Apps. Select this app type if you'd like to leverage [Box View](g://embed/box-view/) or Box's preview services within another application. This app type only provides access to [app token authentication](g://authentication/app-token/), which has [restricted API capabilities](g://authentication/app-token/endpoints/). For full details, please visit our [guide](g://applications/select/) on selecting an app type.
+中でも注目すべきは、Boxの新しいアプリの種類であるアクセス制限付きアプリです。このアプリの種類は、[Box View](g://embed/box-view/)を使用したり、別のアプリケーション内でBoxのプレビューサービスを使用したりする場合に選択してください。この種類で利用できるのは、[APIの機能が制限されている](g://authentication/app-token/endpoints/)[アプリトークン認証](g://authentication/app-token/)のみです。詳細については、アプリの種類の選択に関する[ガイド](g://applications/select/)を参照してください。
