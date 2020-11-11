@@ -38,10 +38,10 @@ class Formatter {
 
   // PRIVATE
 
-  
+
   /**
    * Determines the markdown body of the file, including the frontmatter.
-   * 
+   *
    * It automatically applies some transformations to the markdown.
    */
   markdown({ currentRelease, previousRelease, title }) {
@@ -54,22 +54,22 @@ class Formatter {
 
   /**
    * Convert the body to markdown, appplying
-   * rules to convert github syntax to links, and extracting all 
-   * links to be reference links at the bottom of the file} body 
+   * rules to convert github syntax to links, and extracting all
+   * links to be reference links at the bottom of the file} body
    */
   sanitize(body) {
     let markdown = String(remark()
-      .use(github, { repository: this.repository })
+      .use(github, { repository: this.repository, mentionStrong: false })
       .use(referenceLinks)
       .processSync(body))
-    
+
     // convert any relative URLs to absolute URLs
     markdown = this.convertRelativeToAbsoluteUrls({ markdown })
     // make sure to wrap any Git hash in backticks
     markdown = this.codifyHashes({ markdown })
     // make sure to wrap any GitHub usernames in backticks
     markdown = this.codifyUsernames({ markdown })
-    // apply markdown lint fixes
+    // // apply markdown lint fixes
     markdown = this.fixMarkdown({ markdown })
     return markdown
   }
@@ -84,7 +84,7 @@ class Formatter {
     // determine if the difference between the current and the previous release
     // imply an impactful release or a new feature.
     const { impactful, newFeature } = this.determineImpact({ currentRelease, previousRelease })
-    
+
     // convert the metadata to yaml
     return yaml.dump({
       // the date this entry applies at (which is the same as the date in the
@@ -115,11 +115,11 @@ class Formatter {
 
     // determine the 2 keys features
     return {
-      newFeature: this.isNewFeature({ previousVersion, currentVersion }), 
+      newFeature: this.isNewFeature({ previousVersion, currentVersion }),
       impactful: this.isImpactful({ previousVersion, currentVersion })
     }
   }
-  
+
   /**
    * Determines if the difference between the current and previous version implies
    * that the change was impactful.
@@ -147,26 +147,26 @@ class Formatter {
     const regex = /\[(\d+)\]: \.\/(.*)/g
     return markdown.replace(regex, `[$1]: https://github.com/${this.repository}/blob/master/$2`)
   }
-  
+
   /**
    * Wraps a git hash in backticks:
-   * 
+   *
    * [abc123a] => [`abc123a`]
    */
   codifyHashes({ markdown }) {
     const regex = /\[([abcdef0123456789]{7})\]/g
     return markdown.replace(regex, `[\`$1\`]`)
   }
-  
+
   /**
    * Wraps a GitHub uername in backticks:
-   * 
+   *
    * [@cbetta] => [`@cbetta`]
    */
   codifyUsernames({ markdown }) {
     const regex = /\[(@\w*)\]/g
     return markdown.replace(regex, `[\`$1\`]`)
-  }  
+  }
 
   /**
    * Applies any obvious to fix markdown mistakes using mardownlint
@@ -176,7 +176,7 @@ class Formatter {
     const fixes = markdownlint.sync({ strings: { content: markdown }, resultVersion: 3 })
       .content
       .filter(error => error.fixInfo)
-  
+
     if (fixes.length <= 0) { return markdown }
     else return markdownlintRuleHelpers.applyFixes(markdown, fixes)
   }
