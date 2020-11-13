@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2020-11-09-simplified-app-creation-flow
+previous_page_id: 2020-11-13-box-content-preview-v2570-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-13-box-java-sdk-v2511-released.md
 published_at: '2020-11-13'
