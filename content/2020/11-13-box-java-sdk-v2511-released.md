@@ -13,4 +13,5 @@ collapse: true
 
 **Bug Fixes:**
 
-* Fix for cross-enterprise collaborator calls to updateMetadata on files
+* Fix for cross-enterprise collaborator calls to `updateMetadata`
+  on files
