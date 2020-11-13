@@ -1,36 +1,35 @@
 ---
-applied_at: '2020-10-26'
+applied_at: '2020-10-22'
 applies_to:
   - api
 is_impactful: false
 is_new_feature: true
-collapse: true
+collapse: false
 show_excerpt: true
 release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2020-10-26-new-folder-lock-apis-now-available
+id: 2020-10-22-new-folder-lock-apis-now-available
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2020-10-29-box-java-sdk-v2510-released
-previous_page_id: 2020-10-22-new-folder-lock-apis-now-available
+next_page_id: 2020-10-26-new-folder-lock-apis-now-available
+previous_page_id: 2020-10-21-metadata-cascade-policy-api-leaves-beta
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2020/10-26-new-folder-lock-apis-now-available.md
-published_at: '2020-10-26'
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/10-22-new-folder-lock-apis-now-available.md
+published_at: '2020-10-22'
 ---
 # New Folder Lock APIs now available
 
-A new collections of APIs have been released to allow developers to lock move
-and delete operations on folders. New [API reference][e_post] and
-[guides][g_post] have been made available to help create and manage you folder
-locks.
+A new collections of APIs have been released to permit the restriction of move
+and delete actions on folders. New [API reference][e_post] and [guides][g_post]
+have been made available to help create and manage you folder locks.
 
 To create a lock on a folder to prevent it from being moved or deleted, supply
-the ID of a folder to the `folder_locks` endpoint.
+the ID of a folder to the `POST /folder_locks/` endpoint.
 
 ```curl
 curl -i -X POST "https://api.box.com/2.0/folder_locks" \
@@ -45,11 +44,11 @@ curl -i -X POST "https://api.box.com/2.0/folder_locks" \
 ```
 
 Additional API endpoints are available to allow a developer to list all locks
-on a given folder, or to delete an existing folder lock with a folder lock ID.
+on a given folder, or to remove an existing folder lock from a folder.
 
 * **Create a folder lock**: [Guide][g_post] | [API Reference][e_post]
 * **List all locks on a folder**: [Guide][g_get] | [API Reference][e_get]
-* **Delete a folder lock**: [Guide][g_del] | [API Reference][e_del]
+* **Remove a folder lock**: [Guide][g_del] | [API Reference][e_del]
 
 [e_get]: e://get-folder-locks
 [e_post]: e://post-folder-locks
