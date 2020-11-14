@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2020-11-13-box-content-preview-v2570-released
 previous_page_id: 2020-11-04-box-cli-v270-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-09-simplified-app-creation-flow.md
