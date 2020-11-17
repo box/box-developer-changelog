@@ -16,7 +16,7 @@ collapse: true
 
 **New Features and Enhancements:**
 
-* Add error information to OAuth web session failures
+* Add error information for failed OAuth web sessions
 
 **Bug Fixes:**
 
