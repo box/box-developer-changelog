@@ -22,4 +22,4 @@ fullyTranslated: true
 ---
 # フォルダを更新エンドポイントおよびフォルダ情報の取得エンドポイントに新しいフィールドを追加
 
-[フォルダを更新APIエンドポイント](endpoint://put-folders-id)の`is_collaboration_restricted_to_enterprise`に、2つのメジャーリリースが追加されました。これは、将来のコラボレーションを会社内のみに制限するかどうかを設定するために作成されるブール値です。既存のコラボレーションには影響しません。このフィールドの値は、[フォルダ情報の取得エンドポイント](endpoint://get-folders-id)を呼び出したときにも表示されます。
+[フォルダを更新APIエンドポイント](endpoint://put-folders-id)の`is_collaboration_restricted_to_enterprise`に、2つのメジャーリリースが追加されました。これは、将来のコラボレーションをEnterprise内のみに制限するかどうかを設定するために作成されるブール値です。既存のコラボレーションには影響しません。このフィールドの値は、[フォルダ情報の取得エンドポイント](endpoint://get-folders-id)を呼び出したときにも表示されます。

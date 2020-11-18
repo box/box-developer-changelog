@@ -27,4 +27,4 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* 会社間でのコラボレータによるファイルに対する`updateMetadata`の呼び出しの修正
+* Enterprise間でのコラボレータによるファイルに対する`updateMetadata`の呼び出しの修正

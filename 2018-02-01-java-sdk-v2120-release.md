@@ -27,6 +27,6 @@ fullyTranslated: true
 
 1. コラボレーション通知パラメータを修正 ([#545](https://github.com/box/box-java-sdk/pull/545))
 2. OAuth 2.0トークン作成イベントタイプを追加 ([#533](https://github.com/box/box-java-sdk/pull/533))
-3. 会社へのユーザーの招待を実装 ([#504](https://github.com/box/box-java-sdk/pull/504))
+3. Enterpriseへのユーザーの招待を実装 ([#504](https://github.com/box/box-java-sdk/pull/504))
 4. 分析用の`X-Box-UA`ヘッダーに切り替え ([#536](https://github.com/box/box-java-sdk/pull/536))
 5. 大きなファイルのアップロード時のメモリ使用量を削減 ([#543](https://github.com/box/box-java-sdk/pull/543))

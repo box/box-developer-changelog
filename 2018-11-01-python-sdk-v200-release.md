@@ -98,7 +98,7 @@ fullyTranslated: true
 
 * `JWTAuth`の`enterprise_id`引数を`None`にできることが文書化されました。
 
-* `authenticate_instance()`は`enterprise`引数を受け取れるようになりました。これは、構築時に`None`が`enterprise_id`に渡された場合に、会社のサービスアカウントユーザーとして設定および認証するために使用できます。
+* `authenticate_instance()`は`enterprise`引数を受け取れるようになりました。これは、構築時に`None`が`enterprise_id`に渡された場合に、Enterpriseのサービスアカウントユーザーとして設定および認証するために使用できます。
 
 * 有効期限が適切な期間に含まれないことが原因で失敗した認証は、Box API応答のDateヘッダーで指定された時間を使用して、自動的に再試行されるようになりました。これは、Box SDKを実行しているマシンのシステム時刻がBox APIサーバーのシステム時刻と一致しない場合に必然的に発生する可能性があります。
 

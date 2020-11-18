@@ -30,9 +30,9 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add error information for failed OAuth web sessions
+* 失敗したOAuth ウェブセッションのエラー情報を追加
 
 **バグ修正:**
 
-* Fix bug with creating collaboration
-* Fix bug with getting enterprise events
+* コラボレーションの作成に関するバグを修正
+* エンタープライズイベントの取得に関するバグを修正
