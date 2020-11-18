@@ -16,7 +16,7 @@ release_source_url: ''
 Announcing a new way to leverage server to server, JWT, authentication:
 Client Credentials Grant. Prior to today, we required a public/private key pair
 and assertion to verify an application's identity and retrieve an Access Token.
-Now,you can request a token using only your client ID and client secret.
+Now, you can request a token using only your client ID and client secret.
 
 ```cURL
 curl --location --request POST ‘https://api.box.com/oauth2/token’ \
