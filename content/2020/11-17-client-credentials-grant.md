@@ -9,7 +9,7 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Client Credentials Grant
+# Announcing Client Credentials Grant authentication
 
 <!-- more -->
 
