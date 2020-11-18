@@ -3,7 +3,7 @@ applied_at: "2020-11-17"
 applies_to: 
 - api
 is_impactful: false
-is_new_feature: false
+is_new_feature: true
 collapse: false
 show_excerpt: true
 release_source_url: ''
