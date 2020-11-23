@@ -24,7 +24,7 @@ published_at: '2018-01-10'
 ---
 # Windows .NET SDK `v3.4.1` released
 
-Added support for [Collaboration Whitelisting](https://developer.box.com/v2.0/reference#collaboration-whitelist-object)
+Added support for [Allowed Collaboration Domains](https://developer.box.com/reference/resources/collaboration-allowlist-entry/)
 Added Event Type enum
 Fixed deserialization issue with `BoxRepresentationStatus`
 
