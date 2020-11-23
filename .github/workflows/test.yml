@@ -1,6 +1,6 @@
-# This workflow listens to new pushes to 
+# This workflow listens to new pushes to
 # the main and staging branches, as well as
-# pull requests to those branches. 
+# pull requests to those branches.
 #
 # It then runs all our tests for the content compilers
 # to make sure content is still compiled from source
@@ -9,7 +9,7 @@
 name: Tests
 
 on:
-  push: 
+  push:
     branches:
       - main
       - staging
