@@ -25,7 +25,7 @@ fullyTranslated: true
 ---
 # Windows .NET SDK `v3.4.1`のリリース
 
-[コラボレーションホワイトリスト](https://developer.box.com/v2.0/reference#collaboration-whitelist-object)のサポートを追加。イベントタイプ列挙型を追加。`BoxRepresentationStatus`での逆シリアル化の問題を修正
+Added support for [Allowed Collaboration Domains](https://developer.box.com/reference/resources/collaboration-allowlist-entry/) Added Event Type enum Fixed deserialization issue with `BoxRepresentationStatus`
 
 [`nuget.org/packages/Box.V2/3.4.1`](https://www.nuget.org/packages/Box.V2/3.4.1)
 [`nuget.org/packages/Box.V2.Core/3.4.1`](https://www.nuget.org/packages/Box.V2.Core/3.4.1)
