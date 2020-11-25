@@ -14,7 +14,8 @@ collapse: true
 **New Features and Enhancements:**
 
 * Add folder lock functionality ([#856][1])
-* Add support for search param to get shared link items ([#855][2])
+* Add support for search parameter to get shared link
+  items ([#855][2])
 
 **Bug Fixes:**
 
