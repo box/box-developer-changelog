@@ -31,7 +31,7 @@ quick-start guide. Key features include:
   automatically detects when API credentials have expired and offers integrated
   solutions for refreshing these credentials when needed.
 
-The [legacy Postman collection][legacy-postman-collection] will remain available
+The [legacy Postman collection][legacy-postman-collection] will stay available
 for the foreseeable future.
 
 [postman-quick-start-guide]: g://tooling/postman/quick-start

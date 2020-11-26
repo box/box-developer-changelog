@@ -135,6 +135,6 @@ containing an `item` and a `metadata` instance.
 }
 ```
 
-This legacy syntax **will remain available for any existing Metadata Query API
+This legacy syntax **will still be available for any existing Metadata Query API
 users only**. The legacy syntax will be turned off When all existing customers
 have been migrated over to the new syntax.

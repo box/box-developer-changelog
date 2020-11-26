@@ -29,7 +29,7 @@ published_at: '2020-11-17'
 
 **New Features and Enhancements:**
 
-* Add error information for failed OAuth web sessions
+* Add error information for disconnected OAuth web sessions
 
 **Bug Fixes:**
 
