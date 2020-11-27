@@ -26,7 +26,7 @@ fullyTranslated: true
 # Windows .NET SDK `v3.14.0`のリリース
 
 * API応答の例外メッセージにトレースIDが追加されました。
-* 変換されたタスク割り当てステータスの逆シリアル化が修正されました。
+* 変換されたタスク割り当てステータスの逆シリアル化を修正
 
 [`nuget.org/packages/Box.V2/3.14.0`](https://www.nuget.org/packages/Box.V2/3.14.0)
 [`nuget.org/packages/Box.V2.Core/3.14.0`](https://www.nuget.org/packages/Box.V2.Core/3.14.0)
