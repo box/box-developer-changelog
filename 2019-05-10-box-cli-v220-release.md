@@ -31,7 +31,7 @@ fullyTranslated: true
 * 変換された委任コマンドで一括入力エラーをキャッチ ([#134](https://github.com/box/boxcli/pull/134)) [`5cd5eee`](https://github.com/box/boxcli/commit/5cd5eee)
 * メタデータ設定コマンドを追加 ([#136](https://github.com/box/boxcli/pull/136)) [`efa33ed`](https://github.com/box/boxcli/commit/efa33ed)
 * Issueテンプレートを追加 ([#138](https://github.com/box/boxcli/pull/138)) [`a5cbddf`](https://github.com/box/boxcli/commit/a5cbddf)
-* 委任されたコマンドでの一括入力中に発生する重複実行を修正 ([#133](https://github.com/box/boxcli/pull/133)) [`ba3d65a`](https://github.com/box/boxcli/commit/ba3d65a)
+* Fix duplicate call during bulk input on delegated command ([#133](https://github.com/box/boxcli/pull/133)) [`ba3d65a`](https://github.com/box/boxcli/commit/ba3d65a)
 * コレクションへの`web_links`の追加を修正 ([#132](https://github.com/box/boxcli/pull/132)) [`8fc2023`](https://github.com/box/boxcli/commit/8fc2023)
 * 検索の並べ替えフラグを追加 ([#131](https://github.com/box/boxcli/pull/131)) [`57f8d3d`](https://github.com/box/boxcli/commit/57f8d3d)
 

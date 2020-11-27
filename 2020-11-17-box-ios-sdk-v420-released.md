@@ -30,7 +30,7 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* 失敗したOAuth ウェブセッションのエラー情報を追加
+* Add error information for disconnected OAuth web sessions
 
 **バグ修正:**
 
