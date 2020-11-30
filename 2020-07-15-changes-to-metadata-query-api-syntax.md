@@ -130,4 +130,4 @@ curl -X POST https://api.box.com/2.0/metadata_queries/execute_read \
 }
 ```
 
-This legacy syntax **will still be available for any existing Metadata Query API users only**. The legacy syntax will be turned off When all existing customers have been migrated over to the new syntax.
+この従来の構文は、**既存のメタデータクエリAPIユーザーだけが引き続き利用できます**。既存のユーザー全員が新しい構文に移行すると、従来の構文は無効になります。

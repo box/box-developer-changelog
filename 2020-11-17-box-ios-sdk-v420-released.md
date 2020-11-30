@@ -30,7 +30,7 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add error information for disconnected OAuth web sessions
+* 接続が切断されたOAuthウェブセッションのエラー情報を追加
 
 **バグ修正:**
 

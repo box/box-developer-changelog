@@ -27,7 +27,7 @@ Box Postmanコレクションは、新機能と、統合されたクイックス
 * エンドツーエンドの[Postmanクイックスタートガイド][postman-quick-start-guide]。これは、ユーザーがPostmanのインストール、Boxアプリの設定、PostmanへのAPI資格情報の読み込みを行う際に役立ちます。
 * Box API用に[再編成されたPostmanコレクション][postman-collection]。これにより、API資格情報の期限切れが自動的に検出され、必要に応じてこれらの資格情報を更新するための統合ソリューションが提供されます。
 
-The [legacy Postman collection][legacy-postman-collection] will stay available for the foreseeable future.
+しばらくの間は[従来のPostmanコレクション][legacy-postman-collection]も引き続きご利用いただけます。
 
 [postman-quick-start-guide]: g://tooling/postman/quick-start
 
