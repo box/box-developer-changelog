@@ -26,5 +26,5 @@ published_at: '2020-04-02'
 
 1. Add preflight check before chunked uploads ([#782](https://github.com/box/box-java-sdk/pull/782))
 2. Check that part was successfully uploaded for large file uploads… ([#781](https://github.com/box/box-java-sdk/pull/781))
-3. Fix bug with premature disconnect in File Rename ([#779](https://github.com/box/box-java-sdk/pull/779))
+3. Fix bug with unexpected disconnect in File Rename ([#779](https://github.com/box/box-java-sdk/pull/779))
 4. Return metadata for each item returned by a metadata query ([#778](https://github.com/box/box-java-sdk/pull/778))
