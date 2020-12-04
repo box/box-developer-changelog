@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2020-12-03-box-cli-v280-released
 previous_page_id: 2020-11-17-client-credentials-grant
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-24-box-java-sdk-v2520-released.md
