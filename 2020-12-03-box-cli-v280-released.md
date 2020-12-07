@@ -24,17 +24,17 @@ fullyTranslated: true
 ---
 # Box CLI `v2.8.0`のリリース
 
-**Warning:**
+**警告:**
 
-* Due to the changes in ([#217][1]), additional details about Box Items may now be returned for some commands.
+* ([#217][1]) の変更により、Box項目の詳細が一部のコマンドに対して返されるようになりました。
 
 **新機能と機能強化:**
 
-* Output contents of array for bulk commands ([#217][1])
+* 一括コマンドの配列の内容を出力 ([#217][1])
 
 **バグ修正:**
 
-* Fix bug with setting proxy settings ([#218][2])
+* プロキシ設定に関するバグを修正 ([#218][2])
 
 [1]: https://github.com/box/boxcli/pull/217
 
