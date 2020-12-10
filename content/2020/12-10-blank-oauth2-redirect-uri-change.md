@@ -14,8 +14,8 @@ release_source_url: ''
 On September 28th, 2020 we announced upcoming changes to our
 [security requirements for OAuth 2 app redirect URIs][oauth2-changelog-notice].
 As of today, applications that use a blank redirect URI will no longer be
-permitted, and will begin to produce an error when attempting to redirect the
-user, stating that there is a mismatched URI.
+permitted, and will begin to produce an error stating `redirect_uri missing`
+when attempting to redirect the user, stating that there is a mismatched URI.
 
 Impacted applications will have received multiple emails to the developer email
 address associated with the application and account, and are part of a small
