@@ -67,8 +67,7 @@ const previousPageId = (path) => {
 const publishedAt = (sourcePath) => {
   const match = sourcePath.match(/\d{4}\/\d{2}-\d{2}/)
   if (!match?.[0]) { return null }
-  //return match[0].replace('/', '-')
-  return match[0]
+  return match[0].replace('/', '-')
 }
 
 const sourceUrl = (sourcePath) => {
