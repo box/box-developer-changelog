@@ -19,7 +19,7 @@ next_page_id: 2020-06-23-box-python-sdk-v290-released
 previous_page_id: 2020-05-15-box-ios-sdk-v410-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-11-change-to-enterprise-events-for-tasks.md
-published_at: '2020-06-11'
+published_at: 2020/06-11
 ---
 # Change to enterprise events for tasks
 

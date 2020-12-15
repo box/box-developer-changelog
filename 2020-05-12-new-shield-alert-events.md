@@ -17,7 +17,7 @@ next_page_id: 2020-05-12-windows-net-sdk-v3230-release
 previous_page_id: 2020-04-24-python-sdk-v280-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/05-12-new-shield-alert-events.md
-published_at: '2020-05-12'
+published_at: 2020/05-12
 ---
 # New shield alert events
 

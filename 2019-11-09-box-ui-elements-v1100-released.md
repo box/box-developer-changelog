@@ -20,7 +20,7 @@ next_page_id: 2019-11-18-new-ios-sdk-now-available
 previous_page_id: 2019-10-25-new-parameters-for-search-api
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-09-box-ui-elements-v1100-released.md
-published_at: '2019-11-09'
+published_at: 2019/11-09
 ---
 # Box UI elements `v11.0.0` released
 

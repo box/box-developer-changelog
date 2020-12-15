@@ -20,7 +20,7 @@ next_page_id: 2020-02-03-preview-sdk-v2340-released
 previous_page_id: 2020-01-22-preview-sdk-v2331-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/01-22-python-sdk-v271-release.md
-published_at: '2020-01-22'
+published_at: 2020/01-22
 ---
 # Python SDK `v2.7.1` released
 

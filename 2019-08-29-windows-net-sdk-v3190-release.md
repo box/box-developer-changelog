@@ -20,7 +20,7 @@ next_page_id: 2019-09-11-new-completion_rule-field-for-tasks
 previous_page_id: 2019-08-29-python-sdk-v260-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-29-windows-net-sdk-v3190-release.md
-published_at: '2019-08-29'
+published_at: 2019/08-29
 ---
 # Windows .NET SDK `v3.19.0` released
 

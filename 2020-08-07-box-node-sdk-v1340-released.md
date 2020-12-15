@@ -20,7 +20,7 @@ next_page_id: 2020-08-17-box-node-sdk-v1341-released
 previous_page_id: 2020-07-30-updates-to-search-relevance-performance
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/08-07-box-node-sdk-v1340-released.md
-published_at: '2020-08-07'
+published_at: 2020/08-07
 ---
 # Box Node SDK `v1.34.0` released
 

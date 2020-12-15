@@ -20,7 +20,7 @@ next_page_id: ''
 previous_page_id: 2020-12-03-new-type-field-in-search-api-responses
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/12-14-blank-oauth2-redirect-uri-change.md
-published_at: '2020-12-14'
+published_at: 2020/12-14
 ---
 # Blank OAuth 2 redirect URI change
 

@@ -20,7 +20,7 @@ next_page_id: 2020-05-15-box-ios-sdk-v410-released
 previous_page_id: 2020-05-12-new-shield-alert-events
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/05-12-windows-net-sdk-v3230-release.md
-published_at: '2020-05-12'
+published_at: 2020/05-12
 ---
 # Windows .NET SDK `v3.23.0` released
 

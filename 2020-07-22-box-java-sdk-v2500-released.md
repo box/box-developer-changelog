@@ -20,7 +20,7 @@ next_page_id: 2020-07-22-new-zip-download-apis-available
 previous_page_id: 2020-07-21-box-windows-sdk-v3240-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-22-box-java-sdk-v2500-released.md
-published_at: '2020-07-22'
+published_at: 2020/07-22
 ---
 # Box Java SDK `v2.50.0` released
 

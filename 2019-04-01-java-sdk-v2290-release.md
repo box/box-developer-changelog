@@ -20,7 +20,7 @@ next_page_id: 2019-04-04-java-sdk-v2300-release
 previous_page_id: 2019-03-29-python-sdk-v232-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-01-java-sdk-v2290-release.md
-published_at: '2019-04-01'
+published_at: 2019/04-01
 ---
 # Java SDK `v2.29.0` released
 

@@ -19,7 +19,7 @@ next_page_id: 2019-11-21-node-sdk-v1300-release
 previous_page_id: 2019-11-18-new-ios-sdk-now-available
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-20-preview-sdk-v2260-released.md
-published_at: '2019-11-20'
+published_at: 2019/11-20
 ---
 # Preview SDK `v2.26.0` released
 

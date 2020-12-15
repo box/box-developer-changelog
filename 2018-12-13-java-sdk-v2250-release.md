@@ -20,7 +20,7 @@ next_page_id: 2018-12-14-windows-net-sdk-v3100-release
 previous_page_id: 2018-12-12-collaborations-now-show-unregistered-users
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/12-13-java-sdk-v2250-release.md
-published_at: '2018-12-13'
+published_at: 2018/12-13
 ---
 # Java SDK `v2.25.0` released
 

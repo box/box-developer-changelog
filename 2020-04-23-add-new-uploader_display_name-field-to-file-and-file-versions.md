@@ -19,7 +19,7 @@ next_page_id: 2020-04-23-java-sdk-v2470-release
 previous_page_id: 2020-04-21-new-metadata-query-apis-available
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-23-add-new-uploader_display_name-field-to-file-and-file-versions.md
-published_at: '2020-04-23'
+published_at: 2020/04-23
 ---
 # Add new `uploader_display_name` field to file and file versions
 

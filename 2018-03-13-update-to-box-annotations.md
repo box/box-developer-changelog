@@ -18,7 +18,7 @@ next_page_id: 2018-03-15-windows-net-sdk-v351-release
 previous_page_id: 2018-03-12-java-sdk-v2150-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-13-update-to-box-annotations.md
-published_at: '2018-03-13'
+published_at: 2018/03-13
 ---
 # Update to Box Annotations
 

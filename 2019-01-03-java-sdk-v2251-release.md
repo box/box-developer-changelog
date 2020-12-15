@@ -20,7 +20,7 @@ next_page_id: 2019-01-17-java-sdk-v2260-release
 previous_page_id: ''
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/01-03-java-sdk-v2251-release.md
-published_at: '2019-01-03'
+published_at: 2019/01-03
 ---
 # Java SDK `v2.25.1` released
 

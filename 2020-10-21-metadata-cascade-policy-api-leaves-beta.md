@@ -20,7 +20,7 @@ next_page_id: 2020-10-22-new-folder-lock-apis-now-available
 previous_page_id: 2020-10-19-box-windows-sdk-v3250-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-21-metadata-cascade-policy-api-leaves-beta.md
-published_at: '2020-10-21'
+published_at: 2020/10-21
 ---
 # Metadata Cascade Policies API leaves Beta
 

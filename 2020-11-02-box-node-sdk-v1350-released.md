@@ -20,7 +20,7 @@ next_page_id: 2020-11-04-box-cli-v270-released
 previous_page_id: 2020-10-29-box-java-sdk-v2510-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-02-box-node-sdk-v1350-released.md
-published_at: '2020-11-02'
+published_at: 2020/11-02
 ---
 # Box Node SDK `v1.35.0` released
 

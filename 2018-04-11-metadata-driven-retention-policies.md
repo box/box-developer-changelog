@@ -17,7 +17,7 @@ next_page_id: 2018-04-11-windows-net-sdk-v370-release
 previous_page_id: 2018-04-11-box-cli-v120-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-11-metadata-driven-retention-policies.md
-published_at: '2018-04-11'
+published_at: 2018/04-11
 ---
 # Metadata-driven retention policies
 

@@ -20,7 +20,7 @@ next_page_id: 2019-09-19-windows-net-sdk-v3200-release
 previous_page_id: 2019-09-18-new-security-enhancements-for-token-revocation
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/09-19-java-sdk-v2380-release.md
-published_at: '2019-09-19'
+published_at: 2019/09-19
 ---
 # Java SDK `v2.38.0` released
 

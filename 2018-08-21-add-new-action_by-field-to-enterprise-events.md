@@ -17,7 +17,7 @@ next_page_id: 2018-08-21-add-new-fields-to-folder-update-and-get-info-endpoints
 previous_page_id: 2018-08-17-box-user_id-field-size-changed
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-21-add-new-action_by-field-to-enterprise-events.md
-published_at: '2018-08-21'
+published_at: 2018/08-21
 ---
 # Add new `action_by` field to enterprise events
 

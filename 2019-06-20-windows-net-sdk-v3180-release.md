@@ -20,7 +20,7 @@ next_page_id: 2019-06-26-new-supported-values-in-tasks-api
 previous_page_id: 2019-06-20-python-sdk-v250-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/06-20-windows-net-sdk-v3180-release.md
-published_at: '2019-06-20'
+published_at: 2019/06-20
 ---
 # Windows .NET SDK `v3.18.0` released
 

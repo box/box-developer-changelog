@@ -17,7 +17,7 @@ next_page_id: 2018-06-28-java-sdk-v2202-release
 previous_page_id: 2018-06-18-box-android-sdk-v420-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-25-update-to-the-box-cli.md
-published_at: '2018-06-25'
+published_at: 2018/06-25
 ---
 # Update to the Box CLI
 

@@ -18,7 +18,7 @@ next_page_id: 2019-11-20-preview-sdk-v2260-released
 previous_page_id: 2019-11-09-box-ui-elements-v1100-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-18-new-ios-sdk-now-available.md
-published_at: '2019-11-18'
+published_at: 2019/11-18
 ---
 # New iOS SDK now available
 

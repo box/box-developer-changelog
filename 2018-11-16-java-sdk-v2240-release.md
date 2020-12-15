@@ -20,7 +20,7 @@ next_page_id: 2018-12-05-enterprise-events-api-adds-created_by-for-supervisors
 previous_page_id: 2018-11-01-python-sdk-v200-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/11-16-java-sdk-v2240-release.md
-published_at: '2018-11-16'
+published_at: 2018/11-16
 ---
 # Java SDK `v2.24.0` released
 
