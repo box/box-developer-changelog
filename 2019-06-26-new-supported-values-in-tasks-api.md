@@ -17,7 +17,7 @@ next_page_id: 2019-07-18-java-sdk-v2350-release
 previous_page_id: 2019-06-20-windows-net-sdk-v3180-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/06-26-new-supported-values-in-tasks-api.md
-published_at: 2019/06-26
+published_at: '2019-06-26'
 ---
 # New supported values in Tasks API
 

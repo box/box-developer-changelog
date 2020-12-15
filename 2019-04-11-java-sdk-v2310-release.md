@@ -20,7 +20,7 @@ next_page_id: 2019-04-15-changes-to-task-assignment-api-responses
 previous_page_id: 2019-04-10-box-cli-v140-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-11-java-sdk-v2310-release.md
-published_at: 2019/04-11
+published_at: '2019-04-11'
 ---
 # Java SDK `v2.31.0` released
 

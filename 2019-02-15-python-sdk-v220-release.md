@@ -20,7 +20,7 @@ next_page_id: 2019-02-15-python-sdk-v221-release
 previous_page_id: 2019-02-14-windows-net-sdk-v3130-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-15-python-sdk-v220-release.md
-published_at: 2019/02-15
+published_at: '2019-02-15'
 ---
 # Python SDK `v2.2.0` released
 

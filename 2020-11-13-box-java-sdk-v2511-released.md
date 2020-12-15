@@ -20,7 +20,7 @@ next_page_id: 2020-11-17-box-ios-sdk-v420-released
 previous_page_id: 2020-11-13-box-content-preview-v2570-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-13-box-java-sdk-v2511-released.md
-published_at: 2020/11-13
+published_at: '2020-11-13'
 ---
 # Box Java SDK `v2.51.1` released
 

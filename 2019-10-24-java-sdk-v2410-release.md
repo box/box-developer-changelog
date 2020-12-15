@@ -20,7 +20,7 @@ next_page_id: 2019-10-24-python-sdk-v261-release
 previous_page_id: 2019-10-24-java-sdk-v2400-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/10-24-java-sdk-v2410-release.md
-published_at: 2019/10-24
+published_at: '2019-10-24'
 ---
 # Java SDK `v2.41.0` released
 

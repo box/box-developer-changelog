@@ -20,7 +20,7 @@ next_page_id: 2019-12-20-java-sdk-v2430-release
 previous_page_id: 2019-12-06-windows-net-sdk-v3210-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-17-java-sdk-v2420-release.md
-published_at: 2019/12-17
+published_at: '2019-12-17'
 ---
 # Java SDK `v2.42.0` released
 

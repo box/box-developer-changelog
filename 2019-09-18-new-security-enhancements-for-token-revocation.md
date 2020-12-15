@@ -17,7 +17,7 @@ next_page_id: 2019-09-19-java-sdk-v2380-release
 previous_page_id: 2019-09-11-new-completion_rule-field-for-tasks
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/09-18-new-security-enhancements-for-token-revocation.md
-published_at: 2019/09-18
+published_at: '2019-09-18'
 ---
 # New security enhancements for token revocation
 

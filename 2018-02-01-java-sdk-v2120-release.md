@@ -20,7 +20,7 @@ next_page_id: 2018-02-08-java-sdk-v2130-release
 previous_page_id: 2018-01-31-windows-net-sdk-v342-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/02-01-java-sdk-v2120-release.md
-published_at: 2018/02-01
+published_at: '2018-02-01'
 ---
 # Java SDK `v2.12.0` released
 

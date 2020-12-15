@@ -20,7 +20,7 @@ next_page_id: 2020-11-13-box-java-sdk-v2511-released
 previous_page_id: 2020-11-09-simplified-app-creation-flow
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-13-box-content-preview-v2570-released.md
-published_at: 2020/11-13
+published_at: '2020-11-13'
 ---
 # Box Content Preview `v2.57.0` released
 

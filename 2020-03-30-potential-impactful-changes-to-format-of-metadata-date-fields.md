@@ -19,7 +19,7 @@ next_page_id: 2020-04-01-node-sdk-v1320-release
 previous_page_id: 2020-03-30-change-to-metadata-instance-version
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/03-30-potential-impactful-changes-to-format-of-metadata-date-fields.md
-published_at: 2020/03-30
+published_at: '2020-03-30'
 ---
 # Potential impactful changes to format of Metadata `date` fields
 

@@ -20,7 +20,7 @@ next_page_id: 2020-06-25-box-node-sdk-v1330-released
 previous_page_id: 2020-06-23-box-python-sdk-v290-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-24-box-java-sdk-v2480-released.md
-published_at: 2020/06-24
+published_at: '2020-06-24'
 ---
 # Box Java SDK `v2.48.0` released
 

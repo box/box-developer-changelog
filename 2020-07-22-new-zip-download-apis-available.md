@@ -18,7 +18,7 @@ next_page_id: 2020-07-30-updates-to-search-relevance-performance
 previous_page_id: 2020-07-22-box-java-sdk-v2500-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-22-new-zip-download-apis-available.md
-published_at: 2020/07-22
+published_at: '2020-07-22'
 ---
 # New Zip Download APIs available
 

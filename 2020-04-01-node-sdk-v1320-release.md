@@ -20,7 +20,7 @@ next_page_id: 2020-04-02-java-sdk-v2450-release
 previous_page_id: 2020-03-30-potential-impactful-changes-to-format-of-metadata-date-fields
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-01-node-sdk-v1320-release.md
-published_at: 2020/04-01
+published_at: '2020-04-01'
 ---
 # Node SDK `v1.32.0` released
 

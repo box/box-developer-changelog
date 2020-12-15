@@ -18,7 +18,7 @@ next_page_id: 2018-08-17-box-user_id-field-size-changed
 previous_page_id: 2018-08-09-java-sdk-v2220-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-16-generic-method-added-to-the-salesforce-sdk.md
-published_at: 2018/08-16
+published_at: '2018-08-16'
 ---
 # Generic method added to the Salesforce SDK
 

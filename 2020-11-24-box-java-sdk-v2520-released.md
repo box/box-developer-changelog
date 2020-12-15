@@ -20,7 +20,7 @@ next_page_id: 2020-12-03-box-cli-v280-released
 previous_page_id: 2020-11-17-client-credentials-grant
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-24-box-java-sdk-v2520-released.md
-published_at: 2020/11-24
+published_at: '2020-11-24'
 ---
 # Box Java SDK `v2.52.0` released
 

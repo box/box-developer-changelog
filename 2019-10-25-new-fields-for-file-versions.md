@@ -17,7 +17,7 @@ next_page_id: 2019-10-25-new-parameters-for-search-api
 previous_page_id: 2019-10-24-python-sdk-v261-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/10-25-new-fields-for-file-versions.md
-published_at: 2019/10-25
+published_at: '2019-10-25'
 ---
 # New fields for File Versions
 

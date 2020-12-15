@@ -18,7 +18,7 @@ next_page_id: 2018-09-13-java-sdk-v2231-release
 previous_page_id: 2018-09-04-windows-net-sdk-v393-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/09-05-annotations-available-for-excel-files-in-preview.md
-published_at: 2018/09-05
+published_at: '2018-09-05'
 ---
 # Annotations available for Excel files in preview
 

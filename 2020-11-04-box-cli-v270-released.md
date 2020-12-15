@@ -19,7 +19,7 @@ next_page_id: 2020-11-09-simplified-app-creation-flow
 previous_page_id: 2020-11-02-box-node-sdk-v1350-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-04-box-cli-v270-released.md
-published_at: 2020/11-04
+published_at: '2020-11-04'
 ---
 # Box CLI `v2.7.0` released
 

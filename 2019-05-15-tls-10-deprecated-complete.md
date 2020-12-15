@@ -17,7 +17,7 @@ next_page_id: 2019-05-16-python-sdk-v241-release
 previous_page_id: 2019-05-10-box-cli-v220-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-15-tls-10-deprecated-complete.md
-published_at: 2019/05-15
+published_at: '2019-05-15'
 ---
 # TLS 1.0 deprecated complete
 

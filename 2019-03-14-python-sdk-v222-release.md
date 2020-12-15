@@ -20,7 +20,7 @@ next_page_id: 2019-03-18-box-android-sdk-v423-released
 previous_page_id: 2019-03-07-windows-net-sdk-v3141-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-14-python-sdk-v222-release.md
-published_at: 2019/03-14
+published_at: '2019-03-14'
 ---
 # Python SDK `v2.2.2` released
 

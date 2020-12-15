@@ -20,7 +20,7 @@ next_page_id: 2019-08-22-node-sdk-v1291-release
 previous_page_id: 2019-08-01-java-sdk-v2360-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-22-java-sdk-v2370-release.md
-published_at: 2019/08-22
+published_at: '2019-08-22'
 ---
 # Java SDK `v2.37.0` released
 

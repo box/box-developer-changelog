@@ -17,7 +17,7 @@ next_page_id: 2019-09-18-new-security-enhancements-for-token-revocation
 previous_page_id: 2019-08-29-windows-net-sdk-v3190-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/09-11-new-completion_rule-field-for-tasks.md
-published_at: 2019/09-11
+published_at: '2019-09-11'
 ---
 # New `completion_rule` field for Tasks
 

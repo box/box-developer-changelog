@@ -20,7 +20,7 @@ next_page_id: 2019-01-18-new-sidebar-ui-element-open-with-element-ga
 previous_page_id: 2019-01-03-java-sdk-v2251-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/01-17-java-sdk-v2260-release.md
-published_at: 2019/01-17
+published_at: '2019-01-17'
 ---
 # Java SDK `v2.26.0` released
 

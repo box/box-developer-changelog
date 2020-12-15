@@ -20,7 +20,7 @@ next_page_id: 2020-10-29-box-java-sdk-v2510-released
 previous_page_id: 2020-10-21-metadata-cascade-policy-api-leaves-beta
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-22-new-folder-lock-apis-now-available.md
-published_at: 2020/10-22
+published_at: '2020-10-22'
 ---
 # New Folder Lock APIs now available
 

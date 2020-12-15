@@ -20,7 +20,7 @@ next_page_id: 2020-06-24-box-java-sdk-v2480-released
 previous_page_id: 2020-06-11-change-to-enterprise-events-for-tasks
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-23-box-python-sdk-v290-released.md
-published_at: 2020/06-23
+published_at: '2020-06-23'
 ---
 # Box Python SDK `v2.9.0` released
 

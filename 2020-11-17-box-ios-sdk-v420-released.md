@@ -21,7 +21,7 @@ next_page_id: 2020-11-17-client-credentials-grant
 previous_page_id: 2020-11-13-box-java-sdk-v2511-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-17-box-ios-sdk-v420-released.md
-published_at: 2020/11-17
+published_at: '2020-11-17'
 ---
 # Box iOS SDK `v4.2.0` released
 

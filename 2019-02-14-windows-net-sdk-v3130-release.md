@@ -20,7 +20,7 @@ next_page_id: 2019-02-15-python-sdk-v220-release
 previous_page_id: 2019-02-08-windows-net-sdk-v3120-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-14-windows-net-sdk-v3130-release.md
-published_at: 2019/02-14
+published_at: '2019-02-14'
 ---
 # Windows .NET SDK `v3.13.0` released
 

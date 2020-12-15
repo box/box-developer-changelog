@@ -20,7 +20,7 @@ next_page_id: 2019-12-03-preview-sdk-v2290-released
 previous_page_id: 2019-11-25-elements-v110-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-26-box-ui-elements-v1102-released.md
-published_at: 2019/11-26
+published_at: '2019-11-26'
 ---
 # Box UI elements `v11.0.2` released
 

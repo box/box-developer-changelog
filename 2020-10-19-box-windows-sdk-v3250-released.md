@@ -20,7 +20,7 @@ next_page_id: 2020-10-21-metadata-cascade-policy-api-leaves-beta
 previous_page_id: 2020-10-08-search-api-adds-support-for-shared-links
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-19-box-windows-sdk-v3250-released.md
-published_at: 2020/10-19
+published_at: '2020-10-19'
 ---
 # Box Windows SDK `v3.25.0` released
 

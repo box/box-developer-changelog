@@ -17,7 +17,7 @@ next_page_id: 2020-07-17-box-java-sdk-v2490-released
 previous_page_id: 2020-07-15-changes-to-metadata-query-api-syntax
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-16-change-to-enterprise-events-for-content-access.md
-published_at: 2020/07-16
+published_at: '2020-07-16'
 ---
 # Change to enterprise events for content access
 

@@ -20,7 +20,7 @@ next_page_id: 2020-10-19-box-windows-sdk-v3250-released
 previous_page_id: 2020-10-05-box-node-sdk-v1343-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-08-search-api-adds-support-for-shared-links.md
-published_at: 2020/10-08
+published_at: '2020-10-08'
 ---
 # Search API adds support for Shared Links
 

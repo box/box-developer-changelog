@@ -19,7 +19,7 @@ next_page_id: 2018-03-01-java-sdk-v2141-release
 previous_page_id: 2018-02-15-java-sdk-v2140-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/02-28-breaking-change-to-metadata-apis.md
-published_at: 2018/02-28
+published_at: '2018-02-28'
 ---
 # Breaking change to Metadata APIs
 

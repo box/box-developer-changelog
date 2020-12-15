@@ -19,7 +19,7 @@ next_page_id: 2018-12-13-java-sdk-v2250-release
 previous_page_id: 2018-12-05-enterprise-events-api-adds-created_by-for-supervisors
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/12-12-collaborations-now-show-unregistered-users.md
-published_at: 2018/12-12
+published_at: '2018-12-12'
 ---
 # Collaborations now show unregistered users
 
