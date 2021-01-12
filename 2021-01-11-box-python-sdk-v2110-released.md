@@ -27,6 +27,6 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Deprecate and add method for getting a thumbnail ([#572][1])
+* サムネイルを取得するためのメソッドの廃止および追加 ([#572][1])
 
 [1]: https://github.com/box/box-python-sdk/pull/572

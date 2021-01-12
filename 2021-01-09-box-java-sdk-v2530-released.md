@@ -27,6 +27,6 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add offset and limit parameters to `BoxFolder.getChildren` ([#861][1])
+* `BoxFolder.getChildren`へのオフセットおよび制限パラメータの追加 ([#861][1])
 
 [1]: https://github.com/box/box-java-sdk/pull/861
