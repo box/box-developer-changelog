@@ -191,5 +191,8 @@
   "2020-11-24-box-java-sdk-v2520-released",
   "2020-12-03-box-cli-v280-released",
   "2020-12-03-new-type-field-in-search-api-responses",
-  "2020-12-14-blank-oauth2-redirect-uri-change"
+  "2020-12-14-blank-oauth2-redirect-uri-change",
+  "2021-01-09-box-java-sdk-v2530-released",
+  "2021-01-11-box-python-sdk-v2110-released",
+  "2021-01-15-metadata-query-index-changes"
 ]
