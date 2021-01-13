@@ -20,7 +20,7 @@ way in which indexes are used by removing the explicit requirement to supply an
 index through the `use_index` key in a metadata query API request.
 
 There is no impact to existing applications that are currently supplying an
-index through the `use_index` key. The supplied index will simply be ignored in
+index through the `use_index` key. The supplied index will be ignored in
 the request and the most efficient index will be automatically applied.
 
 ## Previous Indexing Process
