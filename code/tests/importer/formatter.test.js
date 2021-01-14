@@ -11,7 +11,7 @@ describe('#constructor', () => {
     expect(formatter.labels).toEqual(['foo', 'bar'])
     expect(formatter.repository).toEqual(repository)
   })
-}) 
+})
 
 
 describe('.format', () => {
@@ -21,7 +21,7 @@ describe('.format', () => {
     const titleTemplate = `Test Project`
     const labels = 'foo,bar'
     const repository = `test/test-sdk`
-    
+
     formatter = new Formatter({ titleTemplate, labels, repository })
   })
 
@@ -56,7 +56,7 @@ collapse: true
 This is a new release.
 `)
   })
-}) 
+})
 
 describe(`.sanitize`, () => {
   let formatter = null
@@ -65,7 +65,7 @@ describe(`.sanitize`, () => {
     const titleTemplate = `Test Project`
     const labels = 'foo,bar'
     const repository = `test/test-sdk`
-    
+
     formatter = new Formatter({ titleTemplate, labels, repository })
   })
 
@@ -76,21 +76,21 @@ describe(`.sanitize`, () => {
   })
 
   test('should codify hashes', () => {
-    const body = 'Test\n\n([abcdef1][1])'
+    const body = 'Test\n\n(abcdef1)'
     const markdown = formatter.sanitize(body)
-    expect(markdown).toBe('Test\n\n([`abcdef1`][1])\n')
+    expect(markdown).toBe('Test\n\n([`abcdef1`][1])\n\n[1]: https://github.com/test/test-sdk/commit/abcdef1\n')
   })
 
   test('should codify usernames', () => {
-    const body = 'Test\n\n([@cbetta][1])'
+    const body = 'Test\n\n(@cbetta)'
     const markdown = formatter.sanitize(body)
-    expect(markdown).toBe('Test\n\n([`@cbetta`][1])\n')
+    expect(markdown).toBe('Test\n\n([`@cbetta`][1])\n\n[1]: https://github.com/cbetta\n')
   })
 
   test('should fix generic fixable markdown errors', () => {
     const body = 'Test\n\n-  Too many spaces\n-  In front of these lists'
     const markdown = formatter.sanitize(body)
-    expect(markdown).toBe('Test\n\n- Too many spaces\n- In front of these lists\n')
+    expect(markdown).toBe('Test\n\n* Too many spaces\n* In front of these lists\n')
   })
 })
 
@@ -101,7 +101,7 @@ describe(`.determineImpact`, () => {
     const titleTemplate = jest.fn()
     const labels = 'foo,bar'
     const repository = jest.fn()
-    
+
     formatter = new Formatter({ titleTemplate, labels, repository })
   })
 

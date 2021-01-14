@@ -65,7 +65,7 @@ rather than listed side-by-side with the item. Only fields specified in the
 ## Legacy syntax
 
 For reference, the API would previously return all standard fields for an item
-as well as the matched metadata. 
+as well as the matched metadata.
 
 ```curl
 curl -X POST https://api.box.com/2.0/metadata_queries/execute_read \
@@ -122,6 +122,6 @@ containing an `item` and a `metadata` instance.
 }
 ```
 
-This legacy syntax **will remain available for any existing Metadata Query API
+This legacy syntax **will still be available for any existing Metadata Query API
 users only**. The legacy syntax will be turned off When all existing customers
 have been migrated over to the new syntax.

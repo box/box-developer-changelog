@@ -58,7 +58,7 @@ release_source_url: 'https://github.com/box/box-ui-elements/releases/tag/v11.0.0
 - **`explorer`:** fetch shared link on demand ([#1479][80]) ([`2d29628`][81])
 - **`feed`:** inline error for deeplinking feed items ([#1655][82]) ([`e2be3bd`][83])
 - **`feed`:** Task assignee names not truncating IE11 ([#1694][84]) ([`a20e610`][85])
-- **`floatfield`:** always allow trailing period for float field ([#1178][86]) ([`61d4e3d`][87])
+- **`floatfield`:** always allow trailing `.` for float field ([#1178][86]) ([`61d4e3d`][87])
 - **`footer-indicator`:** move tooltip to appear above footer indicator ([`bf7782c`][88])
 - **`header-flyout`:** Constraint to window to fix IE11 scroll bug ([#1310][89]) ([`f8bb323`][90])
 - **`i18n`:** change "accepted" copy to "approved" ([#1214][91]) ([`674bf45`][92])
@@ -89,9 +89,9 @@ release_source_url: 'https://github.com/box/box-ui-elements/releases/tag/v11.0.0
 - **`notifications`:** add accessibility attributes ([#1682][141]) ([`21af355`][142])
 - **`open-with`:** better error messaging ([#1489][143]) ([`d3d98a5`][144])
 - **`pill-selector`:** Allow copy pasting line separated values ([#1350][145]) ([`7933932`][146])
-- **`pill-selector`:** expose `onInput` to trap input ([#1450][147]) ([`48d22a4`][148])
+- **`pill-selector`:** expose `onInput` to catch input ([#1450][147]) ([`48d22a4`][148])
 - **`pill-selector`:** UX tweaks ([#1315][149]) ([`e4fdf58`][150])
-- **`pill-selector-dropdown`:** disable pills when `PillSelector` is disabled ([#1357][151]) ([`2bf496e`][152])
+- **`pill-selector-dropdown`:** disable pills when `PillSelector` is turned off ([#1357][151]) ([`2bf496e`][152])
 - **`pill-selector-dropdown`:** fix aria attributes ([#1681][153]) ([`1e0d1ab`][154])
 - **`pill-selector-dropdown`:** Fix for pills getting removed on click ([#1367][155]) ([`d67fcfe`][156])
 - **`pills`:** Fix vertical centering of pill selector input text ([#1364][157]) ([`d47c69c`][158])
@@ -114,14 +114,14 @@ release_source_url: 'https://github.com/box/box-ui-elements/releases/tag/v11.0.0
 - **`sidebar`:** More semantically accessible tabs ([#1236][191]) ([`eb398fc`][192])
 - **`sidebar`:** padding on item properties versions ([#1263][193]) ([`853e106`][194])
 - **`sidebar`:** removing unwanted parenthesis in empty state ([#1645][195]) ([`824f390`][196])
-- **`sidebar`:** Set dirty state if the sidebar was forced open ([#1366][197]) ([`e71409c`][198])
+- **`sidebar`:** Set contaminated state if the sidebar was forced open ([#1366][197]) ([`e71409c`][198])
 - **`sidebar`:** Update `flexbox` for Activity Feed Container ([#1341][199]) ([`c5e07b1`][200])
 - **`subheader`:** Add logic around grid view ([#1659][201]) ([`7a53050`][202])
 - **`task`:** string for task completed rule icon ([#1573][203]) ([`79c3f00`][204])
 - **`task-form`:** clear task assignee autocomplete on form submit ([#1605][205]) ([`63efa10`][206])
 - **`task-form`:** disallow text input in date picker ([#1540][207]) ([`af49827`][208])
 - **`task-form`:** don't disable task form submit button ([#1323][209]) ([`9a4137b`][210])
-- **`task-form`:** Update error message when leaving invalid required field ([#1353][211]) ([`be10f37`][212])
+- **`task-form`:** Update error message when leaving not valued but required field ([#1353][211]) ([`be10f37`][212])
 - **`task-new`:** alignment fixes, CSS refactor ([#1312][213]) ([`411c3e9`][214])
 - **`task-new`:** fix placement of task status checkmark ([#1321][215]) ([`9f554ff`][216])
 - **`task-new`:** Minor visual tweak to add tasks menu ([#1334][217]) ([`95a3c73`][218])
@@ -187,7 +187,7 @@ release_source_url: 'https://github.com/box/box-ui-elements/releases/tag/v11.0.0
 ### Features
 
 - **`activity-feed`:** add support for deeplinking tasks and comments ([#1623][324]) ([`52ecdcb`][325])
-- **`additional-tabs`:** gray out disabled apps ([#1503][326]) ([`132782d`][327])
+- **`additional-tabs`:** gray out turned off apps ([#1503][326]) ([`132782d`][327])
 - **`avatarinitials`:** move `backgroundColor` into SCSS ([#1585][328]) ([`781a246`][329])
 - **`bdl`:** Add script for SCSS `bdl` scoping ([#1546][330]) ([`9bdc1e6`][331])
 - **`classification`:** change icon for classify/classification action ([#1520][332]) ([`8eb68b3`][333])
@@ -279,10 +279,10 @@ release_source_url: 'https://github.com/box/box-ui-elements/releases/tag/v11.0.0
 - **`unified-share-modal`:** Show external collaborators indicator ([#1256][505]) ([`613a438`][506])
 - **`uploads`:** add resin targets for uploads manager ([#1384][507]) ([`29d2af5`][508])
 - **`uploads`:** resume a single file upload ([#1552][509]) ([`093f889`][510])
-- **`uploads`:** resume multiple failed uploads ([#1553][511]) ([`60406b9`][512])
+- **`uploads`:** resume multiple unsuccessful uploads ([#1553][511]) ([`60406b9`][512])
 - **`uploads`:** uploads manager contents for resumable uploads ([#1555][513]) ([`8380bc7`][514])
 - **`usm`:** expand Invite Section based on `initiallySelectedContacts` ([#1470][515]) ([`b756a22`][516])
-- **`validators`:** host, `ipv4` and domain name validators ([#1212][517]) ([`f653dac`][518])
+- **`validators`:** `host`, `ipv4` and domain name validators ([#1212][517]) ([`f653dac`][518])
 - **`versions`:** Add client-side error messages for version actions ([#1404][519]) ([`8ead57c`][520])
 - **`versions`:** Add resin tracking for sidebar back button ([#1309][521]) ([`901c23d`][522])
 - **`versions`:** Add resin tracking to all version history actions ([#1285][523]) ([`a4942d3`][524])
@@ -398,7 +398,7 @@ The `FormattedCompMessage` component supports replacement parameters in a React-
 
 Note that the `Param` tags can be used inside of `Plural` tags as well, as they are normal components.
 
-- **`deps`:** Peer dependencies have been updated and will require host applications to update as well to avoid NPM warnings.
+- **`deps`:** Peer dependencies have been updated and will require downstream applications to update as well to avoid NPM warnings.
 - **`icons`:** Old `IconShare` defaulted to `26x26` and old `IconCollaboration` defaulted to `27x26` but new icons are defaulted to `32x32`.  Also, default SVG classnames are now changed to `bdl-IconShare` and `bdl-IconCollaboration`.
 
 [1]: https://github.com/box/box-ui-elements/compare/v10.2.0...v11.0.0
