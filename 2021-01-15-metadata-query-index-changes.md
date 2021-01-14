@@ -26,7 +26,7 @@ published_at: '2021-01-15'
 
 When making file / folder [metadata query][mdq] requests, a
 [search index][mdq-index] needs to be created for queries where more than
-10,000 files / folders are being search.
+10,000 files / folders are being searched.
 
 To improve the efficiency and simplicity of this process, we have changed the
 way in which indexes are used by removing the explicit requirement to supply an
