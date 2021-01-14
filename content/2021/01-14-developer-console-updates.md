@@ -28,9 +28,9 @@ The **Scope** section is now grouped by action type: content, administrative,
 and developer.
 
 
-**App Approval Process**: [Guide](g://applications/custom-apps/app-approval/)
-**Scopes**: [Guide](g://api-calls/permissions-and-errors/scopes/)
-**Application Access**:
+* **App Approval Process**: [Guide](g://applications/custom-apps/app-approval/)
+* **Scopes**: [Guide](g://api-calls/permissions-and-errors/scopes/)
+* **Application Access**:
 [Guide](g://applications/custom-apps/jwt-setup/#application-access)
 
 ## Updates
