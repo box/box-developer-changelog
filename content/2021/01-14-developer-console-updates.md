@@ -14,7 +14,7 @@ release_source_url: ''
 A new **Authorization** tab is now available in the Developer Console. In
 addition, clarifying UI changes were made to the **Application Access** and
 **Scope** settings within the **Configuration** tab to ease these decisions. 
-These changes do not impact the functionlity of the settings.
+These changes do not impact the functionality of the settings.
 
 <!-- more -->
 
