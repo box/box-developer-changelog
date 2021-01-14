@@ -8,7 +8,6 @@ collapse: false
 show_excerpt: false
 release_source_url: ''
 ---
-
 # Updates to Search Relevance & Performance
 
 In January, updates were released to Box's search [tokenizer][wiki-tokenizer],

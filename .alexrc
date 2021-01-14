@@ -1,19 +1,10 @@
 {
   "allow": [
-    "postman-postwoman",
-    "remain",
-    "premature",
-    "execution",
-    "invalid",
+    "japanese",
     "color",
     "colors",
-    "failed",
-    "hooks",
-    "host-hostess",
+    "postman-postwoman",
     "stroke",
-    "trap",
-    "period",
-    "dirty",
-    "japanese"
+    "hooks"
   ]
 }

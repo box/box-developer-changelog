@@ -1,7 +1,7 @@
 name: Notify
 
 on:
-  push: 
+  push:
     branches:
       - jp
       - en
@@ -21,17 +21,17 @@ jobs:
         node-version: [14.x]
 
     steps:
-      - name: 'Trigger Netlify deployment'
-        uses: joelwmale/webhook-action@master
+      - name: "Trigger Netlify deployment"
+        uses: joelwmale/webhook-action@2.0.2
         env:
           WEBHOOK_URL: ${{ secrets.NETLIFY_BOXDEV_WEBHOOK }}
-          data: '{}'
+          data: "{}"
 
-      - name: 'Trigger Netlify deployment (Box.dev mirror)'
-        uses: joelwmale/webhook-action@master
+      - name: "Trigger Netlify deployment (Box.dev mirror)"
+        uses: joelwmale/webhook-action@2.0.2
         env:
           WEBHOOK_URL: ${{ secrets.NETLIFY_BOXDEV_MIRROR_WEBHOOK }}
-          data: '{}'
+          data: "{}"
 
   # Notify the en-staging branch
   notify-en-staging:
@@ -46,11 +46,11 @@ jobs:
         node-version: [14.x]
 
     steps:
-      - name: 'Trigger Netlify deployment'
-        uses: joelwmale/webhook-action@master
+      - name: "Trigger Netlify deployment"
+        uses: joelwmale/webhook-action@2.0.2
         env:
           WEBHOOK_URL: ${{ secrets.NETLIFY_BOXDEV_STAGING_WEBHOOK }}
-          data: '{}'
+          data: "{}"
 
   # Notify the jp branch
   notify-jp:
@@ -65,8 +65,8 @@ jobs:
         node-version: [14.x]
 
     steps:
-      - name: 'Trigger Netlify deployment'
-        uses: joelwmale/webhook-action@master
+      - name: "Trigger Netlify deployment"
+        uses: joelwmale/webhook-action@2.0.2
         env:
           WEBHOOK_URL: ${{ secrets.NETLIFY_BOXDEV_JP_WEBHOOK }}
-          data: '{}'           
+          data: "{}"
