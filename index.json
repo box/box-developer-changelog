@@ -172,6 +172,7 @@
   "2020-08-21-box-cli-v260-released",
   "2020-08-25-multi-select-metadata-support-in-search-api",
   "2020-09-10-group-api-adds-new-filter-and-permissions",
+  "2020-09-25-search-api-adds-support-for-shared-links",
   "2020-09-29-changes-to-oauth-2-app-redirect-url-requirements",
   "2020-10-02-box-python-sdk-v2100-released",
   "2020-10-02-new-file-request-apis-available",
@@ -180,6 +181,7 @@
   "2020-10-19-box-windows-sdk-v3250-released",
   "2020-10-21-metadata-cascade-policy-api-leaves-beta",
   "2020-10-22-new-folder-lock-apis-now-available",
+  "2020-10-26-new-folder-lock-apis-now-available",
   "2020-10-29-box-java-sdk-v2510-released",
   "2020-11-02-box-node-sdk-v1350-released",
   "2020-11-04-box-cli-v270-released",
@@ -191,8 +193,9 @@
   "2020-11-24-box-java-sdk-v2520-released",
   "2020-12-03-box-cli-v280-released",
   "2020-12-03-new-type-field-in-search-api-responses",
-  "2020-12-10-blank-oauth2-redirect-uri-change",
+  "2020-12-14-blank-oauth2-redirect-uri-change",
   "2021-01-09-box-java-sdk-v2530-released",
   "2021-01-11-box-python-sdk-v2110-released",
+  "2021-01-14-developer-console-updates",
   "2021-01-15-metadata-query-index-changes"
 ]
