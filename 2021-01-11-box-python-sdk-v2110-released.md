@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-01-15-metadata-query-index-changes
 previous_page_id: 2021-01-09-box-java-sdk-v2530-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/01-11-box-python-sdk-v2110-released.md
