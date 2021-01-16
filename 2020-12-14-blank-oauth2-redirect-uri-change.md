@@ -10,7 +10,7 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2020-12-10-blank-oauth2-redirect-uri-change
+id: 2020-12-14-blank-oauth2-redirect-uri-change
 rank: null
 total_steps: null
 type: changelog
@@ -19,8 +19,8 @@ parent_id: changelog
 next_page_id: ''
 previous_page_id: 2020-12-03-new-type-field-in-search-api-responses
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2020/12-10-blank-oauth2-redirect-uri-change.md
-published_at: '2020-12-10'
+  https://github.com/box/box-developer-changelog/blob/main/content/2020/12-14-blank-oauth2-redirect-uri-change.md
+published_at: '2020-12-14'
 fullyTranslated: true
 ---
 # 空のOAuth 2リダイレクトURIの変更
