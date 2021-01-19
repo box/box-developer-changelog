@@ -23,35 +23,35 @@ source_url: >-
 published_at: '2021-01-15'
 fullyTranslated: true
 ---
-# Metadata Query index changes
+# メタデータクエリのインデックスの変更
 
-When making file / folder [metadata query][mdq] requests, a [search index][mdq-index] needs to be created for queries where more than 10,000 files / folders are being searched.
+ファイル/フォルダの[メタデータクエリ][mdq]リクエストを実行する際、検索対象となるファイル/フォルダが10,000を超えるクエリには[検索インデックス][mdq-index]の作成が必要になります。
 
-To improve the efficiency and simplicity of this process, we have changed the way in which indexes are used by removing the explicit requirement to supply an index through the `use_index` key in a metadata query API request.
+このプロセスの効率を改善し、より簡潔にするために、メタデータクエリAPIリクエストで`use_index`キーを使用してインデックスを指定するという明示的な要件をなくすことで、インデックスの使用方法を変更しました。
 
 <!-- more -->
 
-There is no impact to existing applications that are currently supplying an index through the `use_index` key. The supplied index will be ignored in the request and the most efficient index will be automatically applied.
+現在`use_index`キーを使用してインデックスを指定している既存のアプリケーションに影響はありません。指定されたインデックスはリクエストで無視され、最も効率的なインデックスが自動的に適用されます。
 
-## Previous Indexing Process
+## 以前のインデックス作成プロセス
 
-The following was the previous process for creating and using an index for a metadata query request involving 10,000+ files / folders in the search. This is the process being replaced.
+検索対象のファイル/フォルダが10,000を超えるメタデータクエリリクエストに対してインデックスを作成して使用する場合の以前のプロセスは以下のとおりです。これは、変更前のプロセスです。
 
-* [Contact][mdq-contact] the metadata query team to request an index.
-* The metadata query team would create the index and supply back the name of the newly created index.
-* When making [metadata query requests][mdq-request] this index name was supplied as the value for the `use_index` key in the API request.
+* メタデータクエリチームに[問い合わせて][mdq-contact]インデックスをリクエストします。
+* メタデータクエリチームによってインデックスが作成され、新しく作成されたインデックスの名前が提供されます。
+* [メタデータクエリリクエスト][mdq-request]の実行時に、このインデックス名をAPIリクエストの`use_index`キーの値として指定しました。
 
-## New Indexing Process
+## 新しいインデックス作成プロセス
 
-The following is the new process for creating and using an index.
+インデックスを作成して使用する新しいプロセスは以下のとおりです。
 
-* [Contact][mdq-contact] the metadata query team to request an index.
+* メタデータクエリチームに[問い合わせて][mdq-contact]インデックスをリクエストします。
 
-The `use_index` key within the metadata query API request has been removed. Instead, the most efficient query will be automatically applied during the search process.
+メタデータクエリAPIリクエスト内の`use_index`キーは削除されました。その代わり、検索処理中に最も効率的なクエリが自動的に適用されます。
 
-Indexes that are currently supplied in the `use_index` key will be ignored, and instead the most efficient index will be used.
+`use_index`キーで現在指定されているインデックスは無視され、代わりに最も効率的なインデックスが使用されます。
 
-Application owners may safely remove the `use_index` key and value from their metadata query requests at their discretion.
+アプリケーションの所有者は、自己の判断でメタデータクエリリクエストから`use_index`キーと値を安全に削除できます。
 
 [mdq]: g://metadata/queries/
 
