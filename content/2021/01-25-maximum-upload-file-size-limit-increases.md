@@ -14,6 +14,8 @@ release_source_url: ''
 The maximum file size that may be uploaded via the API has been increased for
 the following Box account plans.
 
+<!-- more -->
+
 * Business Plus
 * Enterprise
 * Digital Workplace Suite
