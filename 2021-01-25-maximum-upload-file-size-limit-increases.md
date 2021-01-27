@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2021-01-25'
 fullyTranslated: true
 ---
-# Maximum upload file size limit increases
+# ファイルの最大アップロードサイズの増加
 
-The maximum file size that may be uploaded via the API has been increased for the following Box account plans.
+以下のBoxアカウントプランで、APIを介してアップロードできる最大ファイルサイズが増加しました。
 
 <!-- more -->
 
@@ -34,8 +34,8 @@ The maximum file size that may be uploaded via the API has been increased for th
 * Digital Workplace Suite
 * Digital Workplace Global Suite
 
-The prior maximum upload file size for these account types was **5 GB**. This update increases the maximum file size to **15 GB**, effective immediately.
+これまで、これらのアカウントの最大アップロードサイズは**5 GB**でした。このアップデートにより、最大ファイルサイズが**15 GB**に増加し、すぐに有効になります。
 
-For more information on the maximum file sizes for all account plans, please refer to the [direct uploads][direct-uploads] documentation.
+すべてのアカウントの最大ファイルサイズの詳細については、[直接アップロード][direct-uploads]を参照してください。
 
 [direct-uploads]: g://uploads/direct/
