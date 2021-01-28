@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-01-28-box-node-sdk-v1360-released
 previous_page_id: 2021-01-15-metadata-query-index-changes
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/01-25-maximum-upload-file-size-limit-increases.md
