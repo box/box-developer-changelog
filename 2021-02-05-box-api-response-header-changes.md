@@ -25,8 +25,8 @@ published_at: '2021-02-05'
 # Box API response header changes that may impact your applications
 
 On May 10th, 2021, as part of our continued infrastructure upgrade, Box's API
-response headers will standardize to always return as lowercase, in line with
-industry best practices and our API documentation.
+response headers will standardize to always return in a case-insensitive
+manner, in line with industry best practices and our API documentation.
 
 This change has the following potential impact:
 * [Salesforce SDK `v1`][salesforce-sdk-v1] users will be impacted and will need
