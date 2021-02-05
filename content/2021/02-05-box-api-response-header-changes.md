@@ -84,10 +84,10 @@ public final static String HEADER_LOCATION_LOWER_CASE = 'location';
 public final static String HEADER_LOCATION_CAPITALIZED = 'Location';
 ```
 
-If those lines are present then you are using `v1.1.0` of the Salesforce SDK,
-which is not impacted and no changes are needed. If those lines are not present
-then you are using `v1.0` of the Salesforce SDK, which will be impacted and will
-need to be updated.
+If those lines are present then you are using `v1.1.0` or later of the
+Salesforce SDK, which is not impacted and no changes are needed. If those lines
+are not present then you are using `v1.0` of the Salesforce SDK, which will be
+impacted and will need to be updated.
 
 ## Salesforce SDK `v1` users: How to make the change
 
