@@ -54,7 +54,7 @@ curl -G 'https://api.box.com/2.0/search' \
 ]
 ```
 
-今回新しく、`products`フィルタが複数の値での照合を実行するようになりました。これにより、テンプレートの`products`値が`shield`と`platform`のいずれかであるファイルおよびフォルダのみが返されます。注目すべきは、フィールドの値には複数の値を含めることができ、一致するのは1つの値のみでかまわないことです。たとえば、`["shield", "platform"]`がフィルタ`["shield", "platform"]`に一致するのは、その両方に`shield`が含まれているためです。
+What is new here is that the `products` filter now performs a match on multiple values, only returning files and folders for which the template has a `products` value of either `shield` or `platform`. The value of the field can contain multiple values and only match on one of the values specified in the filter. For example `["shield", "governance"]` will be a match for the filter `["shield", "platform"]` as `shield` is included in the filter.
 
 [search]: e://get_search
 
