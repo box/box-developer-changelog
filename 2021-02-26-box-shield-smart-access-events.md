@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2021-02-05-box-api-response-header-changes
+previous_page_id: 2021-02-26-box-cli-v290-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/02-26-box-shield-smart-access-events.md
 published_at: '2021-02-26'
