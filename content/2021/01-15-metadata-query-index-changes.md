@@ -13,11 +13,13 @@ release_source_url: ''
 
 When making file / folder [metadata query][mdq] requests, a
 [search index][mdq-index] needs to be created for queries where more than
-10,000 files / folders are being search.
+10,000 files / folders are being searched.
 
 To improve the efficiency and simplicity of this process, we have changed the
 way in which indexes are used by removing the explicit requirement to supply an
 index through the `use_index` key in a metadata query API request.
+
+<!-- more -->
 
 There is no impact to existing applications that are currently supplying an
 index through the `use_index` key. The supplied index will be ignored in
