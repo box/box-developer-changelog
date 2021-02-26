@@ -14,7 +14,7 @@ collapse: true
 
 * Add ability to add an option to a metadata template multi select field ([#230][1])
 * Add folder lock functionality ([#232][2])
-* Add support for search param to get shared link items ([#233][3])
+* Add support for search parameter to get shared link items ([#233][3])
 
 **Bug Fixes:**
 
