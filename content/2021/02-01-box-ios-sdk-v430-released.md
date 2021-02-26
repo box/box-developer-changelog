@@ -21,8 +21,8 @@ collapse: true
 
 **Bug Fixes:**
 
-* Update gems to patch kramdown vulnerability ([#742][3])
-* Update gems to patch activesupport vulnerability ([#745][4])
+* Update gems to patch `kramdown` vulnerability ([#742][3])
+* Update gems to patch `activesupport` vulnerability ([#745][4])
 
 [1]: https://github.com/box/box-ios-sdk/pull/746
 
