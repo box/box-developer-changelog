@@ -60,10 +60,10 @@ in a more readable format.
 
 What is new here is that the `products` filter now performs a match on multiple
 values, only returning files and folders for which the template has a `products`
-value of either `shield` and `platform`. It's worth noting that the value of the
-field can contain multiple values and only match on one value. For example
-`["shield", "platform"]` will be a match for the filter `["shield", "platform"]`
-as they both include `shield`.
+value of either `shield` or `platform`. The value of the field can contain
+multiple values and only match on one of the values specified in the filter.
+For example `["shield", "governance"]` will be a match for the filter
+`["shield", "platform"]` as `shield` is included in the filter.
 
 [search]: e://get_search
 [multi_select]: g://metadata/fields/multi-select

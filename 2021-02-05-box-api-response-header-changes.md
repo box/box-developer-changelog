@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-02-26-box-shield-smart-access-events
 previous_page_id: 2021-01-28-box-node-sdk-v1360-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/02-05-box-api-response-header-changes.md
@@ -25,8 +25,9 @@ published_at: '2021-02-05'
 # Box API response header changes that may impact your applications
 
 On May 10th, 2021, as part of our continued infrastructure upgrade, Box's API
-response headers will standardize to always return as lowercase, in line with
-industry best practices and our API documentation.
+response headers will standardize to always return in a case-insensitive
+manner, in line with industry best practices and our API documentation.
+
 
 This change has the following potential impact:
 * [Salesforce SDK `v1`][salesforce-sdk-v1] users will be impacted and will need
@@ -97,10 +98,11 @@ public final static String HEADER_LOCATION_LOWER_CASE = 'location';
 public final static String HEADER_LOCATION_CAPITALIZED = 'Location';
 ```
 
-If those lines are present then you are using `v1.1.0` of the Salesforce SDK,
-which is not impacted and no changes are needed. If those lines are not present
-then you are using `v1.0` of the Salesforce SDK, which will be impacted and will
-need to be updated.
+If those lines are present then you are using `v1.1.0` or later of the
+Salesforce SDK, which is not impacted and no changes are needed. If those lines
+are not present then you are using `v1.0` of the Salesforce SDK, which will be
+impacted and will need to be updated.
+
 
 ## Salesforce SDK `v1` users: How to make the change
 
