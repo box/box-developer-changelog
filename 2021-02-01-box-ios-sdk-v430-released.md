@@ -30,13 +30,13 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add support for OAuth 2 custom callback URL ([#746][1])
-* Add support for zip download ([#749][2])
+* OAuth 2カスタムコールバックURLのサポートを追加 ([#746][1])
+* 圧縮ダウンロードのサポートを追加 ([#749][2])
 
 **バグ修正:**
 
-* Update gems to patch `kramdown` vulnerability ([#742][3])
-* Update gems to patch `activesupport` vulnerability ([#745][4])
+* `kramdown`の脆弱性にパッチを適用するためにgemを更新 ([#742][3])
+* `activesupport`の脆弱性にパッチを適用するためにgemを更新 ([#745][4])
 
 [1]: https://github.com/box/box-ios-sdk/pull/746
 
