@@ -15,7 +15,6 @@ On May 10th, 2021, as part of our continued infrastructure upgrade, Box's API
 response headers will standardize to always return in a case-insensitive
 manner, in line with industry best practices and our API documentation.
 
-
 This change has the following potential impact:
 * [Salesforce SDK `v1`][salesforce-sdk-v1] users will be impacted and will need
 to upgrade to a recent SDK version. Not doing so will cause your Box
@@ -89,7 +88,6 @@ If those lines are present then you are using `v1.1.0` or later of the
 Salesforce SDK, which is not impacted and no changes are needed. If those lines
 are not present then you are using `v1.0` of the Salesforce SDK, which will be
 impacted and will need to be updated.
-
 
 ## Salesforce SDK `v1` users: How to make the change
 
