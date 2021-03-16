@@ -14,8 +14,8 @@ release_source_url: ''
 External collection events are now available via the
 [enterprise events][enterprise-events] stream.
 
-[Collections][collections] in Box are a way to group files, folders, and bookmarks
-without putting them all into a folder together. These new events provide
+[Collections][collections] in Box are a way to group files, folders, and web
+links without putting them all into a folder together. These new events provide
 a method for monitoring when collection actions are taken within an enterprise.
 
 The events follow the standard event object schema, and include the
