@@ -22,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/03-25-service-account-information-in-developer-console.md
 published_at: '2021-03-25'
 ---
-# Service Account information in Developer Console
+# Service Account email added to Developer Console
 
 Upon Admin authorization of an application leveraging server authentication,
 the auto-generated email address of the Service Account is now surfaced in the
@@ -35,7 +35,8 @@ To learn more, see our guide on [User Types][ut] and [Service Accounts][sa].
 
 ## Features
 
-* Add auto-generated email address of Service Account user to Developer Console
+* Added auto-generated email address of Service Account user to Developer
+Console
 
 [ut]: https://developer.box.com/guides/authentication/user-types/
 [sa]: https://developer.box.com/guides/authentication/user-types/service-account/
