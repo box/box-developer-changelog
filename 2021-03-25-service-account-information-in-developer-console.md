@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2021-03-25'
 fullyTranslated: true
 ---
-# Service Account email added to Developer Console
+# 開発者コンソールへのサービスアカウントのメールアドレスの追加
 
-Upon Admin authorization of an application leveraging server authentication, the auto-generated email address of the Service Account is now surfaced in the General tab of the Developer Console. This email address can then be used to collaborate the user on Box content. The format will always be `AutomationUser_AppServiceID_RandomString@boxdevedition.com`. For example, `AutomationUser_123456_6jCo6Pqwo@boxdevedition.com`.
+サーバー認証を利用するアプリケーションを管理者が承認すると、サービスアカウントの自動生成メールアドレスが開発者コンソールの \[一般] タブに表示されるようになりました。その後、このメールアドレスは、Boxコンテンツでユーザーをコラボレータに設定するために使用できます。これは、必ず`AutomationUser_AppServiceID_RandomString@boxdevedition.com`形式になります (例: `AutomationUser_123456_6jCo6Pqwo@boxdevedition.com`)。
 
-To learn more, see our guide on [User Types][ut] and [Service Accounts][sa].
+詳細については、[ユーザータイプ][ut]と[サービスアカウント][sa]のガイドを参照してください。
 
 ## 機能
 
-* Added auto-generated email address of Service Account user to Developer Console
+* サービスアカウントユーザーの自動生成メールアドレスを開発者コンソールに追加
 
 [ut]: https://developer.box.com/guides/authentication/user-types/
 
