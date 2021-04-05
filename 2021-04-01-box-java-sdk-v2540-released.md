@@ -27,11 +27,11 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add file request support ([#869][1])
+* ファイルリクエストのサポートを追加 ([#869][1])
 
 **バグ修正:**
 
-* Fix `BoxWeblink` deserialization ([#881][2])
+* `BoxWeblink`の逆シリアル化を修正 ([#881][2])
 
 [1]: https://github.com/box/box-java-sdk/pull/869
 
