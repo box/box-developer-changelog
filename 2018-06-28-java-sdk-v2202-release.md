@@ -25,4 +25,4 @@ fullyTranslated: true
 ---
 # Java SDK `v2.20.2`のリリース
 
-1. 応答ヘッダーで大文字と小文字の区別なし ([#620](https://github.com/box/box-java-sdk/pull/620))
+1. レスポンスヘッダーで大文字と小文字の区別なし ([#620](https://github.com/box/box-java-sdk/pull/620))
