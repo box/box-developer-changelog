@@ -8,7 +8,7 @@ is_new_feature: false
 
 # Update to the Box CLI
 
-We have released updates to the [Box CLI](guide://tooling/sdks/cli). This
+We have released updates to the [Box CLI](guide://tooling/cli/quick-start). This
 version includes the following updates:
 
 * **[New Multizones commands][cli_update_multizones]**: Adds support for
