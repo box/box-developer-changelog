@@ -1,5 +1,5 @@
 ---
-applied_at: '2021-04-09'
+applied_at: '2021-04-13'
 applies_to:
   - api
 is_impactful: false
@@ -9,9 +9,15 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Token Exchange Optional Parameter Added
+# New option for downscoping tokens using shared links
+When requesting an access token, you now have the ability to downscope that token to a file or folder using a shared link.
+
+This new parameter may be used instead of using the `resource` parameter, which allows you to supply a file or folder ID to perform the same action.
 
 <!-- more -->
+
+## Updates
+- Added new `box_shared_link` request parameter to [downscoping documentation][1]. A shared link may be supplied to downscope an access token in the below way.
 
 ```bash
 {
@@ -24,9 +30,7 @@ release_source_url: ''
      -d "box_shared_link=https://cloud.box.com/s/123456" \
 }
 ```
+- Added `box_shared_link` request parameter to [request access token API reference][2].
 
-## Updates
-
-When requesting a token, you now have the ability to downscope that token for a shared link using the link URL instead of using a `resource` URL. Password protected links are not supported. This option cannot be used in addition to the `resource` option nor can it be a shared link created on a weblink.
-
-- Added the ability to downscope a token for a [shared link](g://shared-links)
+[1]: https://developer.box.com/guides/authentication/access-tokens/downscope/#downscoping-in-practice
+[2]: https://developer.box.com/reference/post-oauth2-token/#request
