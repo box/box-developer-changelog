@@ -207,5 +207,6 @@
   "2021-03-16-new-collection-events",
   "2021-03-25-new-metadata-query-indicies-endpoint",
   "2021-03-25-service-account-information-in-developer-console",
-  "2021-04-01-box-java-sdk-v2540-released"
+  "2021-04-01-box-java-sdk-v2540-released",
+  "2021-04-13-token-exchange-optional-parameter-added"
 ]
