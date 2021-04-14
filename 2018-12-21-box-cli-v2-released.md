@@ -22,11 +22,11 @@ fullyTranslated: true
 ---
 # Box CLI V2のリリース
 
-[Box CLI](guide://tooling/sdks/cli)のメジャーバージョン (V2) がリリースされました。更新された情報については、以下のリンクを参照してください。
+[Box CLI](guide://tooling/cli/quick-start)のメジャーバージョン (V2) がリリースされました。更新された情報については、以下のリンクを参照してください。
 
 * [リリースノート][cli_v2_release_notes]: 大きな修正の詳細、重大な変更、バグの修正。
 * [コマンドの一覧][cli_v2_release_commands]: 新しいCLIで利用可能なすべてのコマンド。
-* [インストールオプション](guide://tooling/sdks/cli): スタンドアロンインストーラとソースコードオプション。
+* [インストールオプション](guide://tooling/cli/quick-start/install-and-configure): スタンドアロンインストーラとソースコードオプション。
 
 [cli_v2_release_notes]: https://github.com/box/boxcli/blob/master/CHANGELOG.md#200
 
