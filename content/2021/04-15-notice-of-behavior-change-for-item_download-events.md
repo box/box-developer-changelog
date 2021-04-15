@@ -34,12 +34,6 @@ created for the owner of the content and will not be produced for
 collaborators. This will help to reduce the noise of the event stream while
 preserving the ability to see when items are downloaded as a content owner.
 
-In the rare case that you have a JWT application that is using a service
-account which is collaborated in on all other user content, and is listening for
-download events for that collaboration event, you may still collect
-`ITEM_DOWNLOAD` events for users by making requests
-[as that user][user-access-token].
-
 ## Where to get support
 
 Should you have any issues or need further guidance, please post a request to
