@@ -13,7 +13,9 @@ release_source_url: ''
 
 Starting today, we will begin rolling out changes to the behavior
 of item download events when an application consumes those events from our
-[event API endpoints][event-apis]. 
+[event API endpoints][event-apis]. This change will only affect the
+`ITEM_DOWNLOAD` [user event][user-events] and will not affect existing
+[enterprise events][enterprise-events].
 
 This change will not cause downtown within existing applications or require any
 application changes to prevent uptime disruptions.
@@ -39,6 +41,8 @@ preserving the ability to see when items are downloaded as a content owner.
 Should you have any issues or need further guidance, please post a request to
 our [developer forum][forum] for any help needed.
 
-[event-apis]: r://resources/event/
+[event-apis]: https://developer.box.com/reference/get-events/
+[user-events]: https://developer.box.com/guides/events/for-user/#event-types
+[enterprise-events]: https://developer.box.com/guides/events/for-enterprise/
 [user-access-token]: g://authentication/jwt/user-access-tokens/
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
