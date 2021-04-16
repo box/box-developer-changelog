@@ -26,12 +26,13 @@ published_at: '2021-04-15'
 
 Starting today, we will begin rolling out changes to the behavior
 of item download events when an application consumes those events from our
-[event API endpoints][event-apis]. This change will only affect the
-`ITEM_DOWNLOAD` [user event][user-events] and will not affect existing
-[enterprise events][enterprise-events].
+[event API endpoints][event-apis].
 
-This change will not cause downtown within existing applications or require any
-application changes to prevent uptime disruptions.
+This change will only affect the
+`ITEM_DOWNLOAD` [user event][user-events] and will not affect existing
+[enterprise events][enterprise-events]. The new behavior will not cause
+downtime within existing applications or require any application changes to
+prevent uptime disruptions.
 
 <!-- more -->
 
