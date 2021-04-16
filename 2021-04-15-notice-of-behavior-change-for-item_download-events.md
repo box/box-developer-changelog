@@ -23,23 +23,23 @@ source_url: >-
 published_at: '2021-04-15'
 fullyTranslated: true
 ---
-# Notice of behavior change for item download events
+# 項目ダウンロードイベントの動作変更のお知らせ
 
-Starting today, we will begin rolling out changes to the behavior of item download events when an application consumes those events from our [event API endpoints][event-apis].
+本日以降、アプリケーションがBoxの[イベントAPIエンドポイント][event-apis]から項目ダウンロードイベントを使用した場合のこのイベントの動作に対する変更のリリースを開始します。
 
-This change will not cause downtown within existing applications or require any application changes to prevent uptime disruptions.
+この変更により、既存のアプリケーション内でダウンタイムが発生することはありません。また、稼働時間の中断を防ぐためのアプリケーションの変更も必要ありません。
 
 <!-- more -->
 
 ## 変更の概要
 
-Within the previous behavior when events were consumed, downloaded item events were surfaced through the `ITEM_DOWNLOAD` event type for the owner of the content as well as any contributors assigned to the content. This meant that if a file with 2000 collaborators on it was downloaded, the file owner plus all 2000 collaborators would have an event created stating that the file was downloaded.
+以前の動作では、イベントを使用した場合、ダウンロードされた項目イベントが、コンテンツの所有者およびコンテンツに割り当てられたすべてのコラボレータのイベントタイプ`ITEM_DOWNLOAD`によって表示されました。つまり、2,000人のコラボレータが存在するファイルがダウンロードされた場合、このファイルの所有者に加えて2,000人のコラボレータ全員に、ファイルがダウンロードされたことを示すイベントが作成されます。
 
-With the new behavior, notification of an item being downloaded will only be created for the owner of the content and will not be produced for collaborators. This will help to reduce the noise of the event stream while preserving the ability to see when items are downloaded as a content owner.
+新しい動作では、項目のダウンロードに関する通知がコンテンツの所有者に対してのみ作成され、コラボレータに対しては生成されません。これは、コンテンツの所有者としていつ項目がダウンロードされたかを確認できるようにしたままイベントストリームのノイズを低減するのに役立ちます。
 
 ## サポートを受けるには
 
-Should you have any issues or need further guidance, please post a request to our [developer forum][forum] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][forum]にリクエストを投稿してください。
 
 [event-apis]: r://resources/event/
 
