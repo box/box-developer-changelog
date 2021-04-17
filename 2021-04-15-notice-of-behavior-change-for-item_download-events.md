@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-04-16-box-python-sdk-v2120-released
 previous_page_id: 2021-04-13-token-exchange-optional-parameter-added
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/04-15-notice-of-behavior-change-for-item_download-events.md
@@ -27,7 +27,7 @@ fullyTranslated: true
 
 本日以降、アプリケーションがBoxの[イベントAPIエンドポイント][event-apis]から項目ダウンロードイベントを使用した場合のこのイベントの動作に対する変更のリリースを開始します。
 
-この変更により、既存のアプリケーション内でダウンタイムが発生することはありません。また、稼働時間の中断を防ぐためのアプリケーションの変更も必要ありません。
+This change will only affect the `ITEM_DOWNLOAD` [user event][user-events] and will not affect existing [enterprise events][enterprise-events]. The new behavior will not cause downtime within existing applications or require any application changes to prevent uptime disruptions.
 
 <!-- more -->
 
@@ -41,7 +41,11 @@ fullyTranslated: true
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][forum]にリクエストを投稿してください。
 
-[event-apis]: r://resources/event/
+[event-apis]: https://developer.box.com/reference/get-events/
+
+[user-events]: https://developer.box.com/guides/events/for-user/#event-types
+
+[enterprise-events]: https://developer.box.com/guides/events/for-enterprise/
 
 [user-access-token]: g://authentication/jwt/user-access-tokens/
 
