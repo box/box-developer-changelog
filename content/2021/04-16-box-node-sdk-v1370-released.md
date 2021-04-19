@@ -13,7 +13,7 @@ collapse: true
 
 **New Features and Enhancements:**
 
-* Add support for copyInstanceOnItemCopy field for metadata templates ([#572][1])
+* Add support for `copyInstanceOnItemCopy` field for metadata templates ([#572][1])
 
 **Bug Fixes:**
 
