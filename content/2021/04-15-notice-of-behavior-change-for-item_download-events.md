@@ -15,8 +15,11 @@ Starting today, we will begin rolling out changes to the behavior
 of item download events when an application consumes those events from our
 [event API endpoints][event-apis]. 
 
-This change will not cause downtown within existing applications or require any
-application changes to prevent uptime disruptions.
+This change will only affect the
+`ITEM_DOWNLOAD` [user event][user-events] and will not affect existing
+[enterprise events][enterprise-events]. The new behavior will not cause
+downtime within existing applications or require any application changes to
+prevent uptime disruptions.
 
 <!-- more -->
 
@@ -34,17 +37,13 @@ created for the owner of the content and will not be produced for
 collaborators. This will help to reduce the noise of the event stream while
 preserving the ability to see when items are downloaded as a content owner.
 
-In the rare case that you have a JWT application that is using a service
-account which is collaborated in on all other user content, and is listening for
-download events for that collaboration event, you may still collect
-`ITEM_DOWNLOAD` events for users by making requests
-[as that user][user-access-token].
-
 ## Where to get support
 
 Should you have any issues or need further guidance, please post a request to
 our [developer forum][forum] for any help needed.
 
-[event-apis]: r://resources/event/
+[event-apis]: https://developer.box.com/reference/get-events/
+[user-events]: https://developer.box.com/guides/events/for-user/#event-types
+[enterprise-events]: https://developer.box.com/guides/events/for-enterprise/
 [user-access-token]: g://authentication/jwt/user-access-tokens/
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
