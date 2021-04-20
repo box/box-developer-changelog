@@ -27,12 +27,12 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add support for `copyInstanceOnItemCopy` field for metadata templates ([#572][1])
+* メタデータテンプレートの`copyInstanceOnItemCopy`フィールドのサポートを追加 ([#572][1])
 
 **バグ修正:**
 
-* Fix webhook signature validation ([#568][2])
-* Update dependencies to patch security vulnerabilities ([#578][3])
+* Webhook署名の検証を修正 ([#568][2])
+* セキュリティの脆弱性にパッチを適用するための依存関係の更新 ([#578][3])
 
 [1]: https://github.com/box/box-node-sdk/pull/572
 

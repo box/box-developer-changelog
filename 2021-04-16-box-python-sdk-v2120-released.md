@@ -27,10 +27,10 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add metadata query functionality ([#574][1])
-* Add folder lock functionality ([#581][2])
-* Add search query support for the `include_recent_shared_links` field ([#582][3])
-* Update `get_groups()` to use documented parameter to filter by name ([#586][4])
+* メタデータクエリ機能を追加 ([#574][1])
+* フォルダロック機能を追加 ([#581][2])
+* `include_recent_shared_links`フィールドの検索クエリサポートを追加 ([#582][3])
+* ドキュメントされたパラメータを使用して名前でフィルタをかけるために`get_groups()`を更新 ([#586][4])
 
 [1]: https://github.com/box/box-python-sdk/pull/574
 

@@ -27,7 +27,7 @@ fullyTranslated: true
 
 本日以降、アプリケーションがBoxの[イベントAPIエンドポイント][event-apis]から項目ダウンロードイベントを使用した場合のこのイベントの動作に対する変更のリリースを開始します。
 
-This change will only affect the `ITEM_DOWNLOAD` [user event][user-events] and will not affect existing [enterprise events][enterprise-events]. The new behavior will not cause downtime within existing applications or require any application changes to prevent uptime disruptions.
+この変更は`ITEM_DOWNLOAD`[ユーザーイベント][user-events]のみに影響し、既存の[エンタープライズイベント][enterprise-events]には影響しません。この新しい動作により、既存のアプリケーション内でダウンタイムが発生することはありません。また、稼働時間の中断を防ぐためのアプリケーションの変更も必要ありません。
 
 <!-- more -->
 
