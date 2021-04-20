@@ -46,5 +46,5 @@ This release has introduced the following new content and features.
  retention policy assignment.
 
 [retention-policies]: g://retention-policies
-[files-retention]: r://get-retention-policy-assignments-id-files-under-retention
-[file-versions-retention]: r://get-retention-policy-assignments-id-files-versions-under-retention
+[files-retention]: e://get-retention-policy-assignments-id-files-under-retention
+[file-versions-retention]: e://get-retention-policy-assignments-id-files-versions-under-retention
