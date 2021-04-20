@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2021-04-16-box-python-sdk-v2120-released
+next_page_id: 2021-04-16-box-node-sdk-v1370-released
 previous_page_id: 2021-04-13-token-exchange-optional-parameter-added
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/04-15-notice-of-behavior-change-for-item_download-events.md
