@@ -16,9 +16,9 @@ collapse: true
 
 **New Features and Enhancements:**
 
-* Add support for search param to get shared link items ([#756][1])
+* Add support for search parameter to get shared link items ([#756][1])
 * Add support for folder lock functionality ([#759][2])
-* Add support for copyInstanceOnItemCopy field for metadata templates ([#763][3])
+* Add support for `copyInstanceOnItemCopy` field for metadata templates ([#763][3])
 * Add support for stream upload of new file versions and add support for 'If-Match' header when uploading new file versions ([#766][4])
 * Add additional details field for `Event` model ([#770][5])
 
