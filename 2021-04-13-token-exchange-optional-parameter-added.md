@@ -39,11 +39,11 @@ fullyTranslated: true
 {
   curl -i -X POST "https://api.box.com/oauth2/token" \
      -H "Content-Type: application/x-www-form-urlencoded" \
-     -d "client_id=[CLIENT_ID]" \
-     -d "client_secret=[CLIENT_SECRET]" \
-     -d "code=[CODE]" \
-     -d "grant_type=authorization_code"\
+     -d "subject_token=[ACCESS_TOKEN]" \
+     -d "subject_token_type=urn:ietf:params:oauth:token-type:access_token" \
+     -d "scope=item_upload item_preview base_explorer" \
      -d "box_shared_link=https://cloud.box.com/s/123456" \
+     -d "grant_type=urn:ietf:params:oauth:grant-type:token-exchange"
 }
 ```
 
