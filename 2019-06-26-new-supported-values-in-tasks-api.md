@@ -26,6 +26,6 @@ fullyTranslated: true
 
 この変更は、タスク割り当ての更新時に使用できる値にも影響します。承認/レビュータスクを更新する場合、`resolution_state`を`incomplete`、`approved`、または`rejected`に設定できます。一般/完了タスクには、`incomplete`または`completed`の`resolution_state`を指定できます。
 
-Tasks APIの応答の本文内では、タスクに「一般」や「承認」という分類が付けられません。これは、BoxのUIでのみ反映されます。
+Tasks APIのレスポンスの本文内では、タスクに「一般」や「承認」という分類が付けられません。これは、BoxのUIでのみ反映されます。
 
 ドキュメントは[こちら](endpoint://resources/task/)で参照できます。

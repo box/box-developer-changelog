@@ -35,9 +35,9 @@ curl -i -X GET https://api.box.com/2.0/search?query=Contract&include_recent_shar
 
 このクエリパラメータが指定されていない場合またはtrueに設定されていない場合、デフォルトでは、このAPIによって共有項目が返されることはありません。
 
-## 応答形式の変更
+## レスポンス形式の変更
 
-`include_recent_shared_links`を`true`に設定した場合、追加情報を返すことができるように応答が若干変更されました。APIでは、ファイル、フォルダ、およびウェブリンクの直接的なリストではなく、`item`と`accessible_via_shared_link`プロパティを含むオブジェクトのリストが返されるようになりました。
+`include_recent_shared_links`を`true`に設定した場合、追加情報を返すことができるようにレスポンスが若干変更されました。APIでは、ファイル、フォルダ、およびウェブリンクの直接的なリストではなく、`item`と`accessible_via_shared_link`プロパティを含むオブジェクトのリストが返されるようになりました。
 
 <!-- more -->
 
@@ -94,6 +94,6 @@ curl -i -X GET https://api.box.com/2.0/search?query=Contract&include_recent_shar
 
 </Tabs>
 
-この応答形式の変更は、新しいクエリパラメータを使用して行われるAPI呼び出しのみに適用されるため、既存のアプリケーションに影響することはありません。
+このレスポンス形式の変更は、新しいクエリパラメータを使用して行われるAPI呼び出しのみに適用されるため、既存のアプリケーションに影響することはありません。
 
 [endpoint]: e://get_search

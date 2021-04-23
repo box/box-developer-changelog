@@ -29,7 +29,7 @@ fullyTranslated: true
 * イベントの`BoxLock`オブジェクトにファイルプロパティを追加
 * メタデータテンプレートを削除するための`MetadataManager.DeleteMetadataTemplate(string scope, string template)`を追加
 * `BoxConfig`でAPI URLが変更可能に
-* API応答エラーオブジェクト/メッセージを改善
+* APIレスポンスエラーオブジェクト/メッセージを改善
 
 [`nuget.org/packages/Box.V2/3.8.0`](https://www.nuget.org/packages/Box.V2/3.8.0)
 [`nuget.org/packages/Box.V2.Core/3.8.0`](https://www.nuget.org/packages/Box.V2.Core/3.8.0)

@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2020-12-03'
 fullyTranslated: true
 ---
-# 検索APIの応答の新しい`type`フィールド
+# 検索APIのレスポンスの新しい`type`フィールド
 
-返された共有リンク項目の[検索結果応答オブジェクト][search_result_shared_link]に、新しいフィールド`type`が導入されました。
+返された共有リンク項目の[検索結果レスポンスオブジェクト][search_result_shared_link]に、新しいフィールド`type`が導入されました。
 
-この応答オブジェクト形式が返されるのは、`include_recent_shared_links`クエリパラメータを`true`に設定した状態で[コンテンツの検索][search_content]エンドポイントを呼び出した場合のみです。
+このレスポンスオブジェクト形式が返されるのは、`include_recent_shared_links`クエリパラメータを`true`に設定した状態で[コンテンツの検索][search_content]エンドポイントを呼び出した場合のみです。
 
-現在この応答オブジェクトを使用している既存のアプリケーションに影響はありません。
+現在このレスポンスオブジェクトを使用している既存のアプリケーションに影響はありません。
 
 ## 更新内容
 
@@ -59,7 +59,7 @@ fullyTranslated: true
 }
 ```
 
-形式の詳細については、[共有リンクの検索結果][search_result_shared_link]応答オブジェクトを参照してください。
+形式の詳細については、[共有リンクの検索結果][search_result_shared_link]レスポンスオブジェクトを参照してください。
 
 [search_content]: https://developer.box.com/reference/get-search/
 

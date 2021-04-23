@@ -62,7 +62,7 @@ fullyTranslated: true
 
   さらに、`group.membership()`は名前が`group.get_memberships()`に変更され、メンバーシップオブジェクトの反復子を返すようになりました。このメソッドでは、ページング情報を含むタプルを返すオプションが提供されなくなりました。
 
-* `Translator`クラスが変更されました。`translator.get(...)`は引き続き、渡された型に対応するオブジェクトクラスのコンストラクタを返しますが、`translator.translate(...)`は、`Session`と応答オブジェクトを直接受け取り、変換されたオブジェクトを生成します。また、このメソッドは、ネストされたオブジェクトが見つかった場合にもそれらを変換します。
+* `Translator`クラスが変更されました。`translator.get(...)`は引き続き、渡された型に対応するオブジェクトクラスのコンストラクタを返しますが、`translator.translate(...)`は、`Session`とレスポンスオブジェクトを直接受け取り、変換されたオブジェクトを生成します。また、このメソッドは、ネストされたオブジェクトが見つかった場合にもそれらを変換します。
 
   * この変更により、`GroupMembership`にカスタムコンストラクタを使用する必要はなくなります。そのため、デフォルトの`BaseObject`コンストラクタが使用されるようになります。
 
@@ -78,7 +78,7 @@ fullyTranslated: true
 
 * `BoxSession`または`Client`に関連付けられている`Translator`にカスタムサブクラスを登録できます。
 
-* API応答のすべての変換で、グローバルなデフォルトの`Translator`を直接使用する代わりに、`BoxSession`で参照される`Translator`が使用されるようになりました。
+* APIレスポンスのすべての変換で、グローバルなデフォルトの`Translator`を直接使用する代わりに、`BoxSession`で参照される`Translator`が使用されるようになりました。
 
 * ネストされたオブジェクトは`translator.translate()`によって変換されるようになりました。
 
@@ -100,13 +100,13 @@ fullyTranslated: true
 
 * `authenticate_instance()`は`enterprise`引数を受け取れるようになりました。これは、構築時に`None`が`enterprise_id`に渡された場合に、Enterpriseのサービスアカウントユーザーとして設定および認証するために使用できます。
 
-* 有効期限が適切な期間に含まれないことが原因で失敗した認証は、Box API応答のDateヘッダーで指定された時間を使用して、自動的に再試行されるようになりました。これは、Box SDKを実行しているマシンのシステム時刻がBox APIサーバーのシステム時刻と一致しない場合に必然的に発生する可能性があります。
+* 有効期限が適切な期間に含まれないことが原因で失敗した認証は、Box APIレスポンスのDateヘッダーで指定された時間を使用して、自動的に再試行されるようになりました。これは、Box SDKを実行しているマシンのシステム時刻がBox APIサーバーのシステム時刻と一致しない場合に必然的に発生する可能性があります。
 
 * `Event`クラスが追加されました。
 
 * `metadata()`メソッドは`Folder`および`File`で使用できるように`Item`に移動されました。
 
-* `BaseAPIJSONObject`基本クラス (すべてのAPI応答オブジェクトのスーパークラス) が`__contains__`および`__iter__`をサポートするようになりました。これらの動作は`Mapping`と同じです。つまり、`__contains__`はオブジェクトのJSONキーをチェックし、`__iter__`はそのオブジェクトのすべてのキーを生成します。
+* `BaseAPIJSONObject`基本クラス (すべてのAPIレスポンスオブジェクトのスーパークラス) が`__contains__`および`__iter__`をサポートするようになりました。これらの動作は`Mapping`と同じです。つまり、`__contains__`はオブジェクトのJSONキーをチェックし、`__iter__`はそのオブジェクトのすべてのキーを生成します。
 
 * `RecentItem`クラスが追加されました。
 
@@ -130,8 +130,8 @@ fullyTranslated: true
 * `collaboration()`メソッドが`Client`に追加されました。
 * クラス階層が変更されました。これまで、`BaseEndpoint`は、すべてのスマートオブジェクトの親である`BaseObject`の親でした。今後、`BaseObject`は`BaseEndpoint`と`BaseAPIJSONObject`両方の子になります。`BaseObject`は、REST APIに含まれるすべてのオブジェクトの親です。`BaseAPIJSONObject`の別のサブクラスである`APIJSONObject`は、APIエンドポイントから直接アクセスできない`Event`など、疑似スマートオブジェクトを表すために作成されました。
 * `network_response_constructor`が`Network`インターフェイスの省略可能なプロパティとして追加されました。実装では、このプロパティを一時的に無効にし、これを使用して`NetworkResponse`インスタンスを構築することをお勧めします。このように、サブクラスの実装では、このプロパティを再度一時的に無効にすることで、`NetworkResponse`の機能を拡張できます。このプロパティは、`DefaultNetwork`実装で定義および使用されます。
-* 応答ログは新しい`LoggingNetworkResponse`クラスに移動されます (これは前述の`network_response_constructor`プロパティによって可能になります)。応答本文をログに記録するかどうかは、呼び出し元がコンテンツを読み取るかストリーミングするかに基づき、SDKで決定されます。
-* `LoggingNetwork`からのリクエスト/応答ログに情報が追加されました。
+* レスポンスログは新しい`LoggingNetworkResponse`クラスに移動されます (これは前述の`network_response_constructor`プロパティによって可能になります)。レスポンス本文をログに記録するかどうかは、呼び出し元がコンテンツを読み取るかストリーミングするかに基づき、SDKで決定されます。
+* `LoggingNetwork`からのリクエスト/レスポンスログに情報が追加されました。
 * `LoggingNetwork`にリクエスト例外のログ記録が追加されました。
 * `JWTAuth.refresh()`の戻り値が認証インターフェイスの戻り値と正確に一致するようバグが修正されました (そのために、アクセストークンのみではなく、((アクセストークン), (更新トークンまたはなし)) のタプルを返します)。特に、`JWTAuth`オブジェクトを更新しようとしたときに常に発生していた`BoxSession`の例外が修正されます。
 * `ExtendableEnumMeta.__dir__()`から発生していた例外が修正されました。

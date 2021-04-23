@@ -25,5 +25,5 @@ fullyTranslated: true
 ---
 # Java SDK `v2.20.1`のリリース
 
-1. 応答例外でJSON解析エラーを処理 ([#615](https://github.com/box/box-java-sdk/pull/615))
+1. レスポンス例外でJSON解析エラーを処理 ([#615](https://github.com/box/box-java-sdk/pull/615))
 2. `uploadNewVersion()`の戻りオブジェクトを修正 ([#614](https://github.com/box/box-java-sdk/pull/614))

@@ -30,17 +30,17 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add support for search parameter to get shared link items ([#756][1])
-* Add support for folder lock functionality ([#759][2])
-* Add support for `copyInstanceOnItemCopy` field for metadata templates ([#763][3])
-* Add support for stream upload of new file versions and add support for 'If-Match' header when uploading new file versions ([#766][4])
-* Add additional details field for `Event` model ([#770][5])
+* 共有リンク項目を取得するための検索パラメータのサポートを追加 ([#756][1])
+* フォルダロック機能のサポートを追加 ([#759][2])
+* メタデータテンプレートの`copyInstanceOnItemCopy`フィールドのサポートを追加 ([#763][3])
+* 新しいファイルバージョンのストリームアップロードのサポートを追加、新しいファイルバージョンのアップロード時の「If-Match」ヘッダーのサポートを追加 ([#766][4])
+* `Event`モデルの詳細フィールドを追加 ([#770][5])
 
 **バグ修正:**
 
-* Pass only a scheme to iOS Authentication APIs ([#755][6])
-* Update `listEnterpriseGroups()` to use documented parameter for filtering by name ([#757][7])
-* Fix bug for OAuth where the callback is not called if token has been revoked ([#762][8])
+* iOS認証APIにスキーマのみを渡す ([#755][6])
+* 名前によるフィルタにドキュメントされたパラメータを使用するよう`listEnterpriseGroups()`を更新 ([#757][7])
+* トークンが取り消された場合にコールバックが呼び出されない、OAuthのバグを修正 ([#762][8])
 
 [1]: https://github.com/box/box-ios-sdk/pull/756
 

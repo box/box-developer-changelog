@@ -39,5 +39,5 @@ fullyTranslated: true
 12. コラボレーションホワイトリスト ([#492](https://github.com/box/box-java-sdk/pull/492))
 13. 空の本文のごみ箱への移動のパッチ ([#495](https://github.com/box/box-java-sdk/pull/495))
 14. nullの有効期限を許可することで無期限のBoxファイルロックのサポートを追加 ([#494](https://github.com/box/box-java-sdk/pull/494))
-15. Batch APIに対する応答の追加のテスト ([#474](https://github.com/box/box-java-sdk/pull/474))
+15. Batch APIに対するレスポンスの追加のテスト ([#474](https://github.com/box/box-java-sdk/pull/474))
 16. `BoxDeveloperEditionAPIConnection - decryptPrivateKey() - PEMParser returns PrivateKeyInfo already - Invalid cast` [#470](https://github.com/box/box-java-sdk/pull/470)を修正 ([#471](https://github.com/box/box-java-sdk/pull/471))

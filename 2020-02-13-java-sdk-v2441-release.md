@@ -26,4 +26,4 @@ fullyTranslated: true
 # Java SDK `v2.44.1`のリリース
 
 1. Java Loggerのフォーマットのバグを修正 ([#775](https://github.com/box/box-java-sdk/pull/775))
-2. 応答の日付/時刻の解析を改善 ([#772](https://github.com/box/box-java-sdk/pull/772))
+2. レスポンスの日付/時刻の解析を改善 ([#772](https://github.com/box/box-java-sdk/pull/772))
