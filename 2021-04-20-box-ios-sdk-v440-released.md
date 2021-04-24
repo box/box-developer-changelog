@@ -17,7 +17,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-04-22-box-ui-elements-v1300-released
 previous_page_id: 2021-04-16-box-python-sdk-v2120-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/04-20-box-ios-sdk-v440-released.md
