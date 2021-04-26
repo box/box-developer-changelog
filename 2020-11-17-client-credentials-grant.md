@@ -45,7 +45,7 @@ curl --location --request POST ‘https://api.box.com/oauth2/token’ \
 
 * 新しいアプリケーション用の認証オプションとしてクライアント資格情報許可を追加しました
 * クライアントシークレットのコピー/表示に2FAの要件を追加しました
-* Enterpriseの承認要求に選択した認証方法を追加しました
+* Enterpriseの承認リクエストに選択した認証方法を追加しました
 * 認証タイプを変更する機能を削除しました
 
 [guide]: g://authentication/jwt/without-sdk/#client-credentials-grant
