@@ -13,6 +13,6 @@ collapse: true
 
 **Bug Fixes:**
 
-* Insensitive language: replace whitelist with allowlist ([#625][1])
+* Insensitive language: replace `whitelist` with `allowlist` ([#625][1])
 
 [1]: https://github.com/box/box-node-sdk/pull/625
