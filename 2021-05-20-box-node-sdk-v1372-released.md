@@ -27,7 +27,7 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* Fix backwards compatibility issue by moving some TypeScript [`@types`][1] as direct dependencies ([#630][2])
+* 一部のTypeScript[`@types`][1]を直接的な依存関係として移動することで、後方互換性の問題を修正 ([#630][2])
 
 [1]: https://github.com/types
 

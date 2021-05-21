@@ -27,6 +27,6 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* Insensitive language: replace `whitelist` with `allowlist` ([#625][1])
+* 不適切な用語: `whitelist`から`allowlist`への変更 ([#625][1])
 
 [1]: https://github.com/box/box-node-sdk/pull/625
