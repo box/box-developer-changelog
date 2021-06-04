@@ -9,7 +9,7 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Upcoming change to JWT token format
+# Upcoming change to JWT format
 
 On August 4th, 2021, as part of our continued infrastructure upgrades, we will
 begin deployment of a change that may affect custom applications leveraging
@@ -25,11 +25,12 @@ notified directly via email.
 
 ## Change overview
 
-<!--alex ignore special-->
+<!--alex ignore-->
 This change may only impact applications leveraging Server Authentication with
 JSON Web Tokens (JWT). Tokens will continue to return as a string as stated in
 our [documentation][tokendoc]. However, the format will be longer and contain
 special characters. 
+<!--alex enable-->
 
 An example of a token returned today: `NXWd9KDPVofXQKZJlQjICCWFHEmuOihs`. 
 
