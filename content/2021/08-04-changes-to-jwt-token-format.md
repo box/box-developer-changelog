@@ -28,6 +28,7 @@ notified directly via email.
 This change may only impact applications leveraging Server Authentication with
 JSON Web Tokens (JWT). Tokens will continue to return as a string as stated in
 our [documentation][tokendoc]. However, the format will be longer and contain
+<!--alex ignore special-->
 special characters. 
 
 An example of a token returned today: `NXWd9KDPVofXQKZJlQjICCWFHEmuOihs`. 
@@ -82,6 +83,7 @@ assess impact:
 If you are successfully able to store the token in the database no further
 action is necessary to prepare for this change.
 
+<!--alex ignore special-->
 If you are unable to store the token, your database must be updated to support
 the additional length and special characters.
 
