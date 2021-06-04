@@ -11,7 +11,7 @@ release_source_url: ''
 
 # Upcoming change to JWT token format
 
-On August 4th, 2021, as part of our continued infrastructure upgrade, we will
+On August 4th, 2021, as part of our continued infrastructure upgrades, we will
 begin deployment of a change that may affect applications leveraging Server
 Authentication with JSON Web Tokens (JWT).
 
