@@ -12,10 +12,10 @@ release_source_url: ''
 # Upcoming change to JWT token format
 
 On August 4th, 2021, as part of our continued infrastructure upgrades, we will
-begin deployment of a change that may affect applications leveraging Server
-Authentication with JSON Web Tokens (JWT).
+begin deployment of a change that may affect custom applications leveraging
+Server Authentication with JSON Web Tokens (JWT).
 
-Potential impact will require additional verification for customers who do not
+Potential impact will require additional verification from customers who do not
 use an official [Box SDK][box-sdks] and are storing tokens in a database.
 
 All customers and application owners who are potentially impacted have been
@@ -59,7 +59,7 @@ For each application identified above, you will need to determine:
 
 1. Is it using an official [Box SDK][box-sdks]? If so, no further action is
   required to prepare for this change. While it is always best practice to be
-  on the latest version, no minimum versions are required.
+  on the latest version, no minimum versions are required for compatibility.
 
 <!--alex ignore special-->
 2. If an official SDK is not used, are tokens stored in a database? If so, you
@@ -73,7 +73,7 @@ JWT and stores tokens in a database, you will want to preform the test below
 before August 4th. 
 
 As mentioned above, the new format for tokens is currently used when
-[downscoping a token][downscope]. Therefore, preform the following steps to 
+[downscoping tokens][downscope]. Therefore, preform the following steps to 
 assess impact: 
 
 1. Generate an Access Token for the application
@@ -82,6 +82,9 @@ assess impact:
 
 If you are successfully able to store the token in the database no further
 action is necessary to prepare for this change.
+
+If you are unable to store the token, your database must be updated to support
+the additional length and special characters.
 
 ## Where to get support
 
