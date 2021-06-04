@@ -90,5 +90,5 @@ jwt-set-rollout@box.com.
 
 
 [box-sdks]: https://developer.box.com/sdks-and-tools
-[tokendoc]: e://resources/access-token
-[downscope]: g://authentication/access-tokens/downscope
+[tokendoc]: https://developer.box.com/reference/post-oauth2-token/
+[downscope]: https://developer.box.com/guides/authentication/access-tokens/downscope
