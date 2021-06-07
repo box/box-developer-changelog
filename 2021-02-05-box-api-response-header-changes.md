@@ -74,7 +74,7 @@ public final static String HEADER_LOCATION_CAPITALIZED = 'Location';
 
 影響を受けるアプリケーションを更新するには、使用しているSalesforce SDKのバージョンを更新する必要があります。[最新バージョン][salesforce-sdk]のSDKへのアップグレードをお勧めしますが、アプリケーションに影響がないようにするには、[`v1.1.0`以降][salesforce-sdk-releases]であればどれでも十分です。
 
-## サポートを受けるには
+## サポート情報
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxサポートチームに[チケットを申請][support]するか、Boxの[開発者向けフォーラム][forum]にリクエストを投稿してください。
 
