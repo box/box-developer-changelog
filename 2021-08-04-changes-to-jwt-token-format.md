@@ -41,7 +41,7 @@ fullyTranslated: true
 
 special characters.
 
-現在の返されるトークンの例: `NXWd9KDPVofXQKZJlQjICCWFHEmuOihs`。
+現在返されるトークンの例: `NXWd9KDPVofXQKZJlQjICCWFHEmuOihs`
 
 今回の変更後、トークンは次の形式で返されます。
 
