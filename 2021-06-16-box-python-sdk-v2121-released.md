@@ -27,6 +27,6 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* Fix bug when thumbnail representations are not found ([#597][1])
+* サムネイルレプリゼンテーションが見つからない場合のバグの修正 ([#597][1])
 
 [1]: https://github.com/box/box-python-sdk/pull/597
