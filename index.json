@@ -212,5 +212,13 @@
   "2021-04-15-notice-of-behavior-change-for-item_download-events",
   "2021-04-16-box-node-sdk-v1370-released",
   "2021-04-16-box-python-sdk-v2120-released",
-  "2021-04-27-new-apis-to-get-files-versions-under-retention"
+  "2021-04-20-box-ios-sdk-v440-released",
+  "2021-04-22-box-ui-elements-v1300-released",
+  "2021-04-27-new-apis-to-get-files-versions-under-retention",
+  "2021-05-19-box-node-sdk-v1371-released",
+  "2021-05-20-box-node-sdk-v1372-released",
+  "2021-06-16-box-python-sdk-v2121-released",
+  "2021-07-01-notice-of-behavior-change-for-item-open-events",
+  "2021-07-16-manual-start-workflow-endpoints-now-active",
+  "2021-08-04-changes-to-jwt-token-format"
 ]

@@ -16,8 +16,8 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
-previous_page_id: 2021-04-16-box-python-sdk-v2120-released
+next_page_id: 2021-05-19-box-node-sdk-v1371-released
+previous_page_id: 2021-04-22-box-ui-elements-v1300-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/04-27-new-apis-to-get-files-versions-under-retention.md
 published_at: '2021-04-27'
