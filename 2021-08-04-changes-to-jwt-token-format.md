@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2021-07-01-notice-of-behavior-change-for-item-open-events
+previous_page_id: 2021-07-16-updated-file-size-limits
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/08-04-changes-to-jwt-token-format.md
 published_at: '2021-08-04'
