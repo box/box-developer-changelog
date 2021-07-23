@@ -10,7 +10,7 @@ is_new_feature: true
 
 We have enhanced the capabilities of the [token
 revocation](endpoint://post-oauth2-revoke/) endpoint to permit
-[downscoped tokens](guides://authentication/access-tokens/downscope) to be
+[downscoped tokens](guides://authentication/tokens/downscope) to be
 revoked prior to their expiration time. Previous to this update only fully
 scoped access tokens could be revoked through the /revoke endpoint. With this
 new enhancement downscoped tokens may now be revoked in addition to the fully
