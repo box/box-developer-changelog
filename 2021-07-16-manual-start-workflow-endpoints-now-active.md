@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2021-08-04-changes-to-jwt-token-format
+next_page_id: 2021-07-16-updated-file-size-limits
 previous_page_id: 2021-07-01-notice-of-behavior-change-for-item-open-events
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/07-16-manual-start-workflow-endpoints-now-active.md
