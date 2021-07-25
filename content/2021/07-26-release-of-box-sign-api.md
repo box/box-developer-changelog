@@ -13,8 +13,9 @@ release_source_url: ''
 # Release of Box Sign API
 
 Today, July 26th, 2021, beings the roll out of Box Sign! Programmatically
-harness the full functionality of the Box Sign web app experience by leveraging
-our newest API endpoints to create, list, resend, and cancel Box Sign requests.
+harness the full functionality of the [Box Sign web app experience][webapp] by
+leveraging our newest API endpoints to create, list, resend, and cancel Box Sign
+requests.
 
 While Box Sign does not need to be enabled by an Admin to use its API endpoints,
 it does need to be rolled out to your enterprise. We will notify Admins as it
@@ -52,14 +53,18 @@ curl -i -X PUT "https://api.box.com/2.0/sign_requests" \
 
 ## Features
 
-* Add endpoint to create Box Sign requests: [Guide][c] | [API reference][c_ref]
-* Add endpoint to list Box Sign requests: [Guide][l] | [API reference][l_ref]
-* Add endpoint to get Box Sign requests by ID: [Guide][g] |
+* Add endpoint to **create** Box Sign requests: [Guide][c] |
+  [API reference][c_ref]
+* Add endpoint to **list** Box Sign requests: [Guide][l] |
+  [API reference][l_ref]
+* Add endpoint to **get** Box Sign requests by ID: [Guide][g] |
   [API reference][g_ref]
-* Add endpoint to resend Box Sign requests: [Guide][r] | [API reference][r_ref]
-* Add endpoint to cancel Box Sign requests: [Guide][ca] |
+* Add endpoint to **resend** Box Sign requests: [Guide][r] |
+  [API reference][r_ref]
+* Add endpoint to **cancel** Box Sign requests: [Guide][ca] |
   [API reference][ca_ref]
 
+[webapp]: https://support.box.com/hc/en-us/articles/4404086827411-Introducing-Box-Sign
 [log]: https://support.box.com/hc/en-us/articles/4404095202579-Viewing-the-signing-log
 [c]: g://box-sign/create-sign-request
 [c_ref]: e:///post-sign-requests
