@@ -12,76 +12,61 @@ release_source_url: ''
 
 # Release of Box Sign API
 
-About titles: good titles are less than 50 characters,
-explain what changed, and follow previous similar entries. For example:
+Today, July 26th, 2021, beings the roll out of Box Sign! Programmatically
+harness the full functionality of the Box Sign web app experience by leveraging
+our newest API endpoints to create, list, resend, and cancel Box Sign requests.
 
-* Box CLI `v3.0.0` released
-* New Metadata Query APIs available 
-* Change to metadata instance version
+While Box Sign does not need to be enabled by an Admin to use its API endpoints,
+it does need to be rolled out to your enterprise. We will notify Admins as it
+becomes available for their Box instance.
 
 <!-- more -->
 
-Everything behind this comment is hidden by default if the `collapse` value in the frontmatter is set to `true` and `show_excerpt` is also set to `true`.
+At a minimum, creating a Box Sign request requires selecting a file for
+signature, a destination folder for the signed document/[signing log][log], and
+designating signers. At this time, only one file can be signed per request.
 
-Start with a small section that explains in basic terms what has changed
-and how this impacts a customers. Make sure to add to related content, for
-example:
-
-* [A guide](g://tooling/postman/) links to the `developer.box.com/guides/tooling/postman/` guide
-* [An endpoint](e://get_files_id) links to the `developer.box.com/reference/get-files-id` reference docs
-* [A resource](r://file) links to the `developer.box.com/reference/resources/file` reference docs
-
-Make sure to use back ticks (`\`\) to escape any words that would not pass the spellchecker
-or would not need translating. For example:
-
-* Product names like `NodeJS`
-* References to function names like `getFileById()`, `BoxConfig.doThatThing()`, etc
-* References to variable names like `file_id`, `allow_access`, etc
-* Version numbers, like `v1.0.0`, or `V2.0`
-* Or alternatively capitalize acronyms, like TLS, SSH, etc, as these will be
-  ignored by the spell-checker as well.
-
-Finally, include some examples. The more specific you can be the better. For
-example:
-
-Before:
-
-```js
-{}
+```curl 
+curl -i -X PUT "https://api.box.com/2.0/sign_requests" \
+     -H "Authorization: Bearer <ACCESS_TOKEN>" \
+     -d '{
+       "signers": [
+          {    
+            "role": "signer",
+            "email": "example_email@box.com"
+          }
+        ],
+       "source_files": [
+          {
+            "type": "file",
+            "id": "123456789"
+          }
+       ],
+       "parent_folder": 
+          {
+            "type": "folder",
+            "id": "0987654321"
+          }
+     }'
 ```
-
-After: 
-
-```js
-{
-  "access": true
-}
-```
-
-> If at this point your file is becoming longer than 50 lines, you might want to
-> consider using our `short.md` template instead.
 
 ## Features
 
-Remove this section if there are no new features in this release. Provides a list
-of new features in this release. Each entry in this list should start with a verb.
+* Add endpoint to create Box Sign requests: [Guide][c] | [API reference][c_ref]
+* Add endpoint to list Box Sign requests: [Guide][l] | [API reference][l_ref]
+* Add endpoint to get Box Sign requests by ID: [Guide][g] |
+  [API reference][g_ref]
+* Add endpoint to resend Box Sign requests: [Guide][r] | [API reference][r_ref]
+* Add endpoint to cancel Box Sign requests: [Guide][ca] |
+  [API reference][ca_ref]
 
-* Add the ability to find files by path 
-* Add support for the `Zoom` API
-
-## Updates
-
-Remove this section if there are no new updates in this release. Provides a list
-of updates in this release that are not bug fixes or new features. Each entry in this 
-list should start with a verb.
-
-* Remove the ability to search for files by path 
-* Update our Node dependencies
-
-## Bug Fixes
-
-Remove this section if there are no new bug fixes in this release. Provides a list
-of problems that have been fixed in this release. Each entry in this list should start with a verb.
-
-* Fix retry logic in authentication requests
-* Fix access to pterodactyl cage
+[c]: g://box-sign/create-sign-request
+[c_ref]: e:///post-sign-requests
+[l]: g://box-sign/list-sign-requests/#all
+[l_ref]: e://get-sign-requests
+[g]: g://box-sign/list-sign-requests/#by-id
+[g_ref]: e://get-sign-requests-id
+[r]: g://box-sign/resend-sign-request
+[r_ref]: e://post-sign-requests-id-resend
+[ca]: g://box-sign/cancel-sign-request
+[ca_ref]: e://post-sign-requests-id-cancel
