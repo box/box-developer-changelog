@@ -60,6 +60,7 @@ curl -i -X PUT "https://api.box.com/2.0/sign_requests" \
 * Add endpoint to cancel Box Sign requests: [Guide][ca] |
   [API reference][ca_ref]
 
+[log]: https://support.box.com/hc/en-us/articles/4404095202579-Viewing-the-signing-log
 [c]: g://box-sign/create-sign-request
 [c_ref]: e:///post-sign-requests
 [l]: g://box-sign/list-sign-requests/#all
