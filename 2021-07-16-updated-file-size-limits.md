@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2021-07-26-release-of-box-sign-api
+next_page_id: 2021-07-26-box-java-sdk-v2550-released
 previous_page_id: 2021-07-16-manual-start-workflow-endpoints-now-active
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/07-16-updated-file-size-limits.md

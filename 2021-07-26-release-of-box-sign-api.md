@@ -18,7 +18,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2021-08-04-changes-to-jwt-token-format
-previous_page_id: 2021-07-16-updated-file-size-limits
+previous_page_id: 2021-07-26-box-java-sdk-v2550-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/07-26-release-of-box-sign-api.md
 published_at: '2021-07-26'
