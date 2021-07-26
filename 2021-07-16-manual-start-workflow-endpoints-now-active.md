@@ -23,21 +23,21 @@ source_url: >-
 published_at: '2021-07-16'
 fullyTranslated: true
 ---
-# New Manual Start Workflow Endpoints
+# 手動開始ワークフローの新しいエンドポイント
 
-Two new API endpoints have been introduced for [Box Relay](https://www.box.com/collaboration/relay-workflow)
+[Box Relay](https://www.box.com/collaboration/relay-workflow)用に2つのAPIエンドポイントが新しく導入されました。
 
-* Get workflows configured on a folder
-* Start a manual start flow within a workflow for file(s)
+* フォルダに構成されたワークフローを取得する
+* ファイルのワークフロー内で手動開始フローを開始する
 
 <!-- more -->
 
-The new endpoints do not allow you to update any information within the workflows. Also, the post endpoint can only start flows with a `trigger_type` of `WORKFLOW_MANUAL_START`. There is an optional `outcome_parametes` object within the post request body. If your flow is configured to accept selections at start time, you will need to send in these as a parameter. A guide with all the options you can send in will be made available soon.
+この新しいエンドポイントでは、ワークフロー内での情報の更新が許可されません。また、POSTエンドポイントで開始できるのは、`trigger_type`が`WORKFLOW_MANUAL_START`のフローのみです。POSTリクエスト本文内には`outcome_parametes`オブジェクト (省略可) があります。開始時に選択内容を承認するようフローが構成されている場合は、その選択内容をパラメータとして送信する必要があります。送信できるすべてのオプションを含むガイドは、まもなく利用できるようになります。
 
 ## 機能
 
 このリリースでは、以下の新しいコンテンツと機能が導入されました。
 
-* New [workflow](r://workflow) resource
-* New [GET](e://get_workflows) workflows endpoint
-* New [POST](e://post_workflows_id_start) start manual workflow endpoint
+* 新しい[ワークフロー](r://workflow)リソース
+* 新しい[GET](e://get_workflows)ワークフローエンドポイント
+* 新しい[POST](e://post_workflows_id_start)手動開始ワークフローエンドポイント
