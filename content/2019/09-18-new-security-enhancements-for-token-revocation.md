@@ -19,4 +19,4 @@ scoped access tokens.
 More information is available [here][blog_token_revocation].
 
 [blog_token_revocation]: https://medium.com/box-developer-blog/new-security-enhancements-for-revoking-access-tokens-79b9960a7ce2
-[downscope: g://authentication/tokens/downscope
+[downscope]: g://authentication/tokens/downscope
