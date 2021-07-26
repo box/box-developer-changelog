@@ -26,7 +26,7 @@ NOTE: Due to the benign nature of the "breaking change" below, we decided NOT to
 * Add `SHIELD_JUSTIFICATION_APPROVAL` event type ([#898][5])
 * Add ability to get files under retention for assignment and file versions under retention for assignment ([#899][6])
 * Add `TASK_UPDATE`, `FILE_VERSION_RESTORE` and `ADVANCED_FOLDER_SETTINGS_UPDATE` event types ([#902][7])
-* Add SignAPI support ([#904][8])
+* Add Box Sign API support ([#904][8])
 
 **Bug Fixes:**
 
