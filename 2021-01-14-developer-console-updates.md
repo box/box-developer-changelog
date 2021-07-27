@@ -33,9 +33,9 @@ fullyTranslated: true
 
 \[**構成**] タブに関しては、JWTの \[**アプリケーションアクセス**] の設定に役立つヒントが追加されたため、\[**アプリアクセスのみ**] と \[**アプリアクセス + Enterpriseアクセス**] のどちらにするかを明確に決めやすくなりました。現在、\[**Scope (スコープ)**] セクションは、操作の種類 (コンテンツ操作、管理操作、管理者操作) でグループ化されています。
 
-* **アプリの承認プロセス**: [ガイド](g://applications/custom-apps/app-approval/)
-* **スコープ**: [ガイド](g://api-calls/permissions-and-errors/scopes/)
-* **アプリケーションアクセス**: [ガイド](g://applications/custom-apps/jwt-setup/#application-access)
+* **アプリの承認プロセス**: [ガイド](g://authorization/custom-app-approval)
+* **スコープ**: [ガイド](g://api-calls/permissions-and-errors/scopes)
+* **アプリケーションアクセス**: [ガイド](g://authentication/jwt/jwt-setup/#application-access)
 
 ## 更新内容
 

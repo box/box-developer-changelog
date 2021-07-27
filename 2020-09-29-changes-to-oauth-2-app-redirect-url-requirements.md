@@ -28,7 +28,7 @@ fullyTranslated: true
 
 日本時間2020年10月30日から、Boxでは、アプリケーションに影響を及ぼす可能性のある新規および既存の[OAuth 2](g://authentication/oauth2/)ベースのBox統合で使用されるリダイレクトURIに対してより厳しい要件を使用します。
 
-現在アプリケーションの構成で空のリダイレクトURIを使用している既存のアプリケーション所有者は、[こちらの説明](g://applications/custom-apps/oauth2-setup/#redirect-uri)に従って、コードのリダイレクト手順 ([こちらを参照](g://authentication/oauth2/with-sdk/#2-redirect-user)) で使用されているリダイレクトと一致するようリダイレクトURIを更新する必要があります。
+現在アプリケーションの構成で空のリダイレクトURIを使用している既存のアプリケーション所有者は、[こちらの説明](g://authentication/oauth2/oauth2-setup/#redirect-uri)に従って、コードのリダイレクト手順 ([こちらを参照](g://authentication/oauth2/with-sdk/#2-redirect-user)) で使用されているリダイレクトと一致するようリダイレクトURIを更新する必要があります。
 
 2020年10月30日以降、まだ空のURIを使用して構成されているアプリケーションでは、URIの調整が行われない場合にユーザーがアプリケーションにリダイレクトされると、エラーが返されるようになります。
 
