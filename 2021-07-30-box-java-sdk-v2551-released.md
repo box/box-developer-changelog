@@ -27,7 +27,7 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* Restore methods for Execute Metadata Query, which were removed in [#890][1], and mark them as deprecated ([#905][2])
+* [#890][1]で削除されたメタデータクエリ実行の方式を復元し、非推奨としてマーク ([#905][2])
 
 [1]: https://github.com/box/box-java-sdk/pull/890
 
