@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2021-08-04-changes-to-jwt-token-format
+next_page_id: 2021-08-03-getting-started-guide
 previous_page_id: 2021-07-26-release-of-box-sign-api
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/07-30-box-java-sdk-v2551-released.md
