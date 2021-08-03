@@ -33,4 +33,4 @@ Discover best use cases, user models, architecture patterns, and more.
 [value]: g://getting-started/locating-values
 [auth]: g://authorization
 [security]: g://security
-[bestprac]: g://guides/authentication/best-practices
+[bestprac]: g://authentication/best-practices
