@@ -24,7 +24,7 @@ Discover best use cases, user models, architecture patterns, and more.
 * Locating common values: [Guide][value]
 * Security overview: [Guide][security]
 * Authentication best practices: [Guide][bestprac]
-* Detailed authorizaton steps: [Guide][auth]
+* Detailed authorization steps: [Guide][auth]
 
 [guide]: g://getting-started
 [usecase]: g://getting-started/use-cases
