@@ -1,5 +1,5 @@
 ---
-applied_at: '2021-08-04'
+applied_at: '2021-06-04'
 applies_to:
   - api
 is_impactful: true
@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2021-07-26-release-of-box-sign-api
+previous_page_id: 2021-08-03-getting-started-guide
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/08-04-changes-to-jwt-token-format.md
 published_at: '2021-08-04'

@@ -32,7 +32,7 @@ your application.
 
 Existing application owners that currently use a blank redirect URI in their
 application configuration, as
-[described here](g://authentication/oauth2/with-sdk/#redirect-uri), will
+[described here](g://authentication/oauth2/oauth2-setup/#redirect-uri), will
 need to update the redirect URI to match the redirect used within the code
 redirect step,
 [described here](g://authentication/oauth2/with-sdk/#2-redirect-user).

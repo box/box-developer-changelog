@@ -17,8 +17,8 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2021-08-04-changes-to-jwt-token-format
-previous_page_id: 2021-07-16-updated-file-size-limits
+next_page_id: 2021-07-30-box-java-sdk-v2551-released
+previous_page_id: 2021-07-26-box-java-sdk-v2550-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/07-26-release-of-box-sign-api.md
 published_at: '2021-07-26'
@@ -67,15 +67,16 @@ curl -i -X PUT "https://api.box.com/2.0/sign_requests" \
 ## Features
 
 * Add endpoint to **create** Box Sign requests: [Guide][c] |
-  [API reference][c_ref]
+[API reference][c_ref]
 * Add endpoint to **list** Box Sign requests: [Guide][l] |
-  [API reference][l_ref]
+[API reference][l_ref]
 * Add endpoint to **get** Box Sign requests by ID: [Guide][g] |
-  [API reference][g_ref]
+[API reference][g_ref]
 * Add endpoint to **resend** Box Sign requests: [Guide][r] |
-  [API reference][r_ref]
+[API reference][r_ref]
 * Add endpoint to **cancel** Box Sign requests: [Guide][ca] |
-  [API reference][ca_ref]
+[API reference][ca_ref]
+* Java SDK support: [GitHub][gh]
 
 [webapp]: https://support.box.com/hc/en-us/articles/4404086827411-Introducing-Box-Sign
 [log]: https://support.box.com/hc/en-us/articles/4404095202579-Viewing-the-signing-log
@@ -89,3 +90,4 @@ curl -i -X PUT "https://api.box.com/2.0/sign_requests" \
 [r_ref]: e://post-sign-requests-id-resend
 [ca]: g://box-sign/cancel-sign-request
 [ca_ref]: e://post-sign-requests-id-cancel
+[gh]: https://github.com/box/box-java-sdk/blob/main/doc/sign_requests.md

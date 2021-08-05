@@ -42,7 +42,7 @@ and developer.
 
 
 * **App Approval Process**: [Guide](g://authorization/custom-app-approval)
-* **Scopes**: [Guide](g://api-calls/permissions-and-errors/scopes/)
+* **Scopes**: [Guide](g://api-calls/permissions-and-errors/scopes)
 * **Application Access**:
 [Guide](g://authentication/jwt/jwt-setup/#application-access)
 
