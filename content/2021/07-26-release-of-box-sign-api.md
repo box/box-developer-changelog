@@ -63,6 +63,10 @@ curl -i -X PUT "https://api.box.com/2.0/sign_requests" \
   [API reference][r_ref]
 * Add endpoint to **cancel** Box Sign requests: [Guide][ca] |
   [API reference][ca_ref]
+<<<<<<< HEAD
+=======
+* Java SDK support: [GitHub][gh]
+>>>>>>> 5185925277915d01d1fc388fb299037b83e8d218
 
 [webapp]: https://support.box.com/hc/en-us/articles/4404086827411-Introducing-Box-Sign
 [log]: https://support.box.com/hc/en-us/articles/4404095202579-Viewing-the-signing-log
@@ -76,3 +80,7 @@ curl -i -X PUT "https://api.box.com/2.0/sign_requests" \
 [r_ref]: e://post-sign-requests-id-resend
 [ca]: g://box-sign/cancel-sign-request
 [ca_ref]: e://post-sign-requests-id-cancel
+<<<<<<< HEAD
+=======
+[gh]: https://github.com/box/box-java-sdk/blob/main/doc/sign_requests.md
+>>>>>>> 5185925277915d01d1fc388fb299037b83e8d218

@@ -6,6 +6,7 @@
     "postman-postwoman",
     "stroke",
     "hooks",
-    "Special"
+    "Special",
+    "execute"
   ]
 }

@@ -19,7 +19,11 @@ your application.
 
 Existing application owners that currently use a blank redirect URI in their
 application configuration, as
+<<<<<<< HEAD
 [described here](g://authentication/oauth2/with-sdk/#redirect-uri), will
+=======
+[described here](g://authentication/oauth2/oauth2-setup/#redirect-uri), will
+>>>>>>> 5185925277915d01d1fc388fb299037b83e8d218
 need to update the redirect URI to match the redirect used within the code
 redirect step,
 [described here](g://authentication/oauth2/with-sdk/#2-redirect-user). 

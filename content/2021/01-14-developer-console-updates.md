@@ -29,7 +29,11 @@ and developer.
 
 
 * **App Approval Process**: [Guide](g://authorization/custom-app-approval)
+<<<<<<< HEAD
 * **Scopes**: [Guide](g://api-calls/permissions-and-errors/scopes/)
+=======
+* **Scopes**: [Guide](g://api-calls/permissions-and-errors/scopes)
+>>>>>>> 5185925277915d01d1fc388fb299037b83e8d218
 * **Application Access**:
 [Guide](g://authentication/jwt/jwt-setup/#application-access)
 
