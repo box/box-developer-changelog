@@ -52,6 +52,7 @@
     "markdownlint": "^0.22.0",
     "markdownlint-cli": "^0.25.0",
     "markdownlint-rule-helpers": "^0.13.0",
+    "merge": "^2.1.1",
     "nock": "^13.0.2",
     "randomstring": "^1.1.5",
     "remark": "^13.0.0",
@@ -59,6 +60,7 @@
     "remark-reference-links": "^5.0.0",
     "sha1-from-file": "^2.0.1",
     "strip-indent": "^3.0.0",
+    "trim": "^1.0.1",
     "uslug": "^1.0.4",
     "watch": "^1.0.2"
   }
