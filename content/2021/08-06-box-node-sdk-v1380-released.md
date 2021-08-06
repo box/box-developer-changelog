@@ -14,7 +14,7 @@ collapse: true
 **New Features and Enhancements:**
 
 * Add sensitive language event types for admin invites ([#648][1])
-* Use BetterDocs to adapt `JSDocs` to `TypeScript` ([#646][2])
+* Use `BetterDocs` to adapt `JSDocs` to `TypeScript` ([#646][2])
 * Change `ProxyAgent` import to be dynamic ([#641][3])
 * New API for get files and file versions under retention ([#585][4])
 
