@@ -1,5 +1,5 @@
 ---
-applied_at: "2021-08-24"
+applied_at: "2021-08-25"
 applies_to: 
 - api
 is_impactful: false
@@ -13,7 +13,10 @@ release_source_url: ''
 
 Two new API endpoints have been introduced to get files and file versions that
 are under retention for a given retention policy assignment. These APIs are
-part of the [retention policy][retention-policies] suite of APIs.
+part of the [retention policy][retention-policies] suite of APIs. They are
+intended to replace the separate [file][file] and [file version][file-version]
+retention endpoints, which will soon be deprecated from the Box API. The date
+of the deprecation will be announced at a later date.
 
 <!-- more -->
 
@@ -35,3 +38,5 @@ This release has introduced the following new content and features.
 [retention-policies]: g://retention-policies
 [files-retention]: e://get-retention-policy-assignments-id-files-under-retention
 [file-versions-retention]: e://get-retention-policy-assignments-id-files-versions-under-retention
+[file]: e://get-file-version-retentions-id
+[file-version]: e://get-file-version-retentions
