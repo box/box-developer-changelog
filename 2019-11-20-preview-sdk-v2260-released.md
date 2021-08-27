@@ -24,7 +24,7 @@ fullyTranslated: true
 ---
 # Preview SDK `v2.26.0`のリリース
 
-Preview SDKのバージョン`2.26.0`がリリースされ、新しいJavaScriptとCSSのPreviewファイルが使用可能になりました。新しい変更を導入するには、Content Preview用のリンクを[UI Elementの手動によるインストール][ui-elements-manual-install]に関する記事で確認してください。
+Preview SDKのバージョン`2.26.0`がリリースされ、新しいJavaScriptとCSSのPreviewファイルが使用可能になりました。新しい変更を導入するには、コンテンツプレビュー用のリンクを[UI Elementの手動によるインストール][ui-elements-manual-install]に関する記事で確認してください。
 
 機能の変更点の全一覧については、`v2.26.0`の[リリースノート][preview-2.26-release-notes]を参照してください。
 

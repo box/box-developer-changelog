@@ -24,7 +24,7 @@ fullyTranslated: true
 ---
 # Preview SDK `v2.33.1`のリリース
 
-Preview SDKのバージョン`2.33.1`がリリースされ、新しいJavaScriptとCSSのPreviewファイルが使用可能になりました。新しい変更を導入するには、Content Preview用のリンクを[UI Elementの手動によるインストール][ui-elements-manual-install]に関する記事で確認してください。
+Preview SDKのバージョン`2.33.1`がリリースされ、新しいJavaScriptとCSSのPreviewファイルが使用可能になりました。新しい変更を導入するには、コンテンツプレビュー用のリンクを[UI Elementの手動によるインストール][ui-elements-manual-install]に関する記事で確認してください。
 
 機能の変更点の全一覧については、`v2.33.1`の[リリースノート][preview-2.33-release-notes]を参照してください。
 
