@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2021-08-06-box-node-sdk-v1380-released
+previous_page_id: 2021-08-30-box-node-sdk-v1390-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/09-01-new-enhancements-to-retention-apis.md
 published_at: '2021-09-01'
@@ -48,10 +48,10 @@ This release has introduced the following new content and features.
  of file versions under retention that are associated with the specified
  retention policy assignment.
 * Added an editable `description` field to the
- [retention policy][retention-policy]resource.
+ [retention policy][retention-policy] resource.
 * Added a non-writable `start_field_date` to the
  [retention policy assignment][retention-policy-assignment]
- resource. This field shows the metadata field's key id. The value can also be
+ resource. This field is the metadata field's key id. The value can also be
  `upload_date` if the `assigned_to` type is not `metadata_template` or a date
  field has not been selected.
 
