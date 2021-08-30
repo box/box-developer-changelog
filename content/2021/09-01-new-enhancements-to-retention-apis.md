@@ -35,10 +35,10 @@ This release has introduced the following new content and features.
  of file versions under retention that are associated with the specified
  retention policy assignment.
 * Added an editable `description` field to the
- [retention policy][retention-policy]resource.
+ [retention policy][retention-policy] resource.
 * Added a non-writable `start_field_date` to the
  [retention policy assignment][retention-policy-assignment]
- resource. This field shows the metadata field's key id. The value can also be
+ resource. This field is the metadata field's key id. The value can also be
  `upload_date` if the `assigned_to` type is not `metadata_template` or a date
  field has not been selected.
 
