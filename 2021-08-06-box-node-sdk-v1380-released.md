@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2021-08-30-new-apis-to-get-files-versions-under-retention
+next_page_id: 2021-09-01-new-enhancements-to-retention-apis
 previous_page_id: 2021-08-04-changes-to-jwt-token-format
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/08-06-box-node-sdk-v1380-released.md
