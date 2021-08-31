@@ -13,7 +13,7 @@ collapse: true
 
 **New Features and Enhancements:**
 
-* Replace `submaster` GroupMembershipRole with `coadmin`. Replace `MASTER_INVITE_ACCEPT` and `MASTER_INVITE_REJECT` with `ADMIN_INVITE_ACCEPT` and `ADMIN_INVITE_REJECT`. ([#907][1])
+* Replace `submaster` `GroupMembershipRole` with `coadmin`. Replace `MASTER_INVITE_ACCEPT` and `MASTER_INVITE_REJECT` with `ADMIN_INVITE_ACCEPT` and `ADMIN_INVITE_REJECT`. ([#907][1])
 * Add `tracking_codes` to create User API call ([#910][2])
 
 **Bug Fixes:**
