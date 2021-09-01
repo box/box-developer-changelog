@@ -27,8 +27,8 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add support for Box Sign API ([#658][1])
-* Enhance TS Imports ([#656][2])
+* Box Sign APIのサポートを追加 ([#658][1])
+* TS Importsを強化 ([#656][2])
 
 [1]: https://github.com/box/box-node-sdk/pull/658
 
