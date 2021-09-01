@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-08-31-box-java-sdk-v2560-released
 previous_page_id: 2021-08-06-box-node-sdk-v1380-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/08-30-box-node-sdk-v1390-released.md
