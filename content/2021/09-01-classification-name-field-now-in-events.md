@@ -11,13 +11,13 @@ release_source_url: ''
 
 # Classification Name Field now in Events API
 
-If a `classification` exists on content, the events[events] API will now
-return the `classification` `name` field in the response object.
+If a classification exists on content, the [events][events] API now
+returns the classification `name` field in the response object.
 
 <!-- more -->
 
 * The updates to the event source response object can be
-seen [here][event-source]
+seen [here][event-source].
 * A new [guide page][event-triggers] has been added to show examples for an
 event triggered by a user source and an event source.
 
@@ -80,6 +80,6 @@ Should you have any issues or need further guidance, please post a request to
 our [developer forum][forum] for any help needed.
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
-[events]: https://developer.box.com/reference/get-events/
-[event-source]: https://developer.box.com/reference/resources/event-source/
-[event-triggers]: https://developer.box.com/guides/events/event-triggers/
+[events]: e://get-events/
+[event-source]: e://resources/event-source/
+[event-triggers]: g://events/event-triggers/
