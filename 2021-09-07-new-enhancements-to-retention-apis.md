@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-09-10-extend-retention-via-files-api
 previous_page_id: 2021-09-01-classification-name-field-now-in-events
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/09-07-new-enhancements-to-retention-apis.md
