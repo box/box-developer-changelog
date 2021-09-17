@@ -1,16 +1,15 @@
 ---
 applied_at: "2021-12-21"
 applies_to: 
-- api
 - ui-elements
 is_impactful: false
 is_new_feature: false
-collapse: true
-show_excerpt: true
+collapse: false
+show_excerpt: false
 release_source_url: ''
 ---
 
-# End of Support for Open With UI Element and End of Life for Adobe Sign
+# EOS for Open With UI Element and EOL for Adobe Sign
 
 Today, the [Open With UI element][owuie] can integrate with Box Tools, Google
 Workspace, and Adobe Sign. In an effort to continuously improve the Box
