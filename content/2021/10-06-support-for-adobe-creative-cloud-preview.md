@@ -12,7 +12,7 @@ release_source_url: ''
 
 # Support for Adobe Creative Cloud Previews
 
-In conjuntion with WebApp preview, Adobe Photoshop, Illustrator,
+In conjunction with WebApp preview, Adobe Photoshop, Illustrator,
 and InDesign files are now supported via API.
 
 ## Updates
