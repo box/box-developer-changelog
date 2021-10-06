@@ -16,9 +16,12 @@ A new report will be gradually deployed to customers starting Thursday, October
 
 <!-- more -->
 
-Checkout the [guide][report] to see the steps required to run a report! As
-always, if you have issues you may file a [support ticket][support] or post on
-our [developer forum][forum]. 
+Developers can now review API activity for their applications by generating an
+App Diagnostics Report from the Developer Console. Checkout the
+[guide][report] to see the steps required to run a report!
+
+As always, if you have issues you may file a
+[support ticket][support] or post on our [developer forum][forum].
 
 [report]: g://api-calls/permissions-and-errors/app-diagnostics-report
 [support]: https://developer.box.com/support
