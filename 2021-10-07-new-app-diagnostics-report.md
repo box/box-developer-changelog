@@ -16,8 +16,8 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
-previous_page_id: 2021-09-21-end-of-support-for-open-with-ui-element
+next_page_id: 2021-10-07-update-to-webhooks-response
+previous_page_id: 2021-10-06-support-for-adobe-creative-cloud-preview
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/10-07-new-app-diagnostics-report.md
 published_at: '2021-10-07'
