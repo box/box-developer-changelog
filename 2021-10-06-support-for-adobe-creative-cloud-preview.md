@@ -18,7 +18,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2021-10-07-new-app-diagnostics-report
-previous_page_id: 2021-09-21-end-of-support-for-open-with-ui-element
+previous_page_id: 2021-09-29-box-node-sdk-v200-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/10-06-support-for-adobe-creative-cloud-preview.md
 published_at: '2021-10-06'
