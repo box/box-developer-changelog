@@ -17,7 +17,7 @@ collapse: true
 
 **New Features and Enhancements:**
 
-* Add support for is_external_collab_restricted User property ([#668][2])
+* Add support for `is_external_collab_restricted` User property ([#668][2])
 * Bump proxy-agent from 4.0.0 to 5.0.0 ([#664][3])
 
 [1]: https://github.com/box/box-node-sdk/pull/670
