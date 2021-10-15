@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2021-10-07'
 fullyTranslated: true
 ---
-# New App Diagnostics Report
+# 新しいアプリ診断レポート
 
-A new report will be gradually deployed to customers starting Thursday, October 7th, 2021. We plan to have the report released to all customers by October 25th.
+日本時間2021年10月8日以降、新しいレポートが順次リリースされます。このレポートは、10月25日までにすべてのお客様にリリースされる予定です。
 
 <!-- more -->
 
-Developers can now review API activity for their applications by generating an App Diagnostics Report from the Developer Console. Checkout the [guide][report] to see the steps required to run a report!
+開発者は、開発者コンソールからアプリ診断レポートを生成することにより、自分のアプリケーションに対するAPIアクティビティを確認できるようになりました。レポートの実行に必要な手順については、[ガイド][report]をご確認ください。
 
-As always, if you have issues you may file a [support ticket][support] or post on our [developer forum][forum].
+これまでと同様、問題が発生した場合は、[サポートチケット][support]を申請するか、[開発者向けフォーラム][forum]に英語で投稿してください。
 
 [report]: g://api-calls/permissions-and-errors/app-diagnostics-report
 

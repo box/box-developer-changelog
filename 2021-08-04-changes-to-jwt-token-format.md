@@ -88,7 +88,7 @@ fbwYl2CmHdXAKbZKtXTHjzB0CZixZriT_wRUpsN8GTrrxGbx9ukgzJWRJwelGZ_1Yx7vP4Zkx3OfR5Be
 
 ## サポート情報
 
-Should you have any questions or need further guidance, please email [jwt-set-rollout@box.com](mailto:jwt-set-rollout@box.com).
+ご質問がある場合やさらにガイドが必要な場合は、[jwt-set-rollout@box.com](mailto:jwt-set-rollout@box.com)に英語でお問い合わせください。
 
 [box-sdks]: https://developer.box.com/sdks-and-tools
 
