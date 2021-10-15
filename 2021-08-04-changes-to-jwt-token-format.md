@@ -88,7 +88,7 @@ fbwYl2CmHdXAKbZKtXTHjzB0CZixZriT_wRUpsN8GTrrxGbx9ukgzJWRJwelGZ_1Yx7vP4Zkx3OfR5Be
 
 ## サポート情報
 
-本件に関するご質問は、販売店から指定されたサポート窓口にお問い合わせください。
+Should you have any questions or need further guidance, please email [jwt-set-rollout@box.com](mailto:jwt-set-rollout@box.com).
 
 [box-sdks]: https://developer.box.com/sdks-and-tools
 
