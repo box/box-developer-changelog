@@ -14,8 +14,8 @@ collapse: true
 **New Features and Enhancements:**
 
 * Add support for marker-based paging in `BoxFolder.getChildren` ([#927][1])
-* Upgraded `minimal-json` to v0.9.5
-* Upgraded `jose4j` to v0.7.9
+* Upgraded `minimal-json` to version 0.9.5
+* Upgraded `jose4j` to version 0.7.9
 * Adding Gradle wrapper in version 4.0.1 ([#928][2])
 
 **Bug Fixes:**
