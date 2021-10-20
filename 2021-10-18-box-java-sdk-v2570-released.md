@@ -35,7 +35,7 @@ fullyTranslated: true
 **バグ修正:**
 
 * 無限再帰の修正 ([#924][3])
-* `BoxFile`および`BoxFolder`の`BoxSharedLink`にバニティURLを設定できないことを修正 ([#925][4])
+* `BoxFile`および`BoxFolder`の`BoxSharedLink`にバニティURLを設定できないバグの修正 ([#925][4])
 
 [1]: https://github.com/box/box-java-sdk/pull/927
 
