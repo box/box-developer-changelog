@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-10-20-app-diagnostics-report-feedback
 previous_page_id: 2021-10-07-update-to-webhooks-response
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/10-18-box-java-sdk-v2570-released.md
