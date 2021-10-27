@@ -16,8 +16,7 @@ For full details, please see our [Box Sign events guide][seg].
 
 ## Updates
 
-<!--alex ignore cancelled-->
-<!--alex ignore expired-->
+<!--alex ignore cancelled and expired-->
 * Add sign request [document events][d]: created, converted, completed,
 cancelled and expired
 
