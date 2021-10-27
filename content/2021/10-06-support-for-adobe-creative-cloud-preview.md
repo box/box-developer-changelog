@@ -17,7 +17,7 @@ and InDesign files are now supported via API.
 
 ## Updates
 
-Files with extensions `indt'`, `idml`, `indd`, and `inx` are supported by:
+Files with extensions `indt`, `idml`, `indd`, and `inx` are supported by:
 
 * [Thumbnails][thumb]
 * [Image Viewer UI Element][ui-el]
