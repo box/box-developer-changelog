@@ -35,7 +35,7 @@ fullyTranslated: true
 
 * 署名リクエストの署名者イベントを追加: 割り当て、署名者による表示、ダウンロード、転送、署名、拒否
 
-* 2つの新しいステータスを追加: \<c1 />、\<c2 />
+* 2つの新しい[ステータス][stat]を追加: `downloaded`、`downloaded and signed`
 
 [stat]: e://resources/sign-requests/#param-status
 
