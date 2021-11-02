@@ -245,3 +245,10 @@ expired
 PagingIterator
 BoxClient
 SignAPI
+BoxConfigBuilder
+BoxConfig
+async
+DateTimeOffset
+DateTime
+completion_rule
+testability
