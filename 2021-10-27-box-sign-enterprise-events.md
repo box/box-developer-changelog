@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-10-28-box-ios-sdk-v500-released
 previous_page_id: 2021-10-20-box-ui-elements-v1400-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/10-27-box-sign-enterprise-events.md
