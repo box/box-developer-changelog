@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2021-09-29-box-node-sdk-v200-released
-previous_page_id: 2021-09-10-extend-retention-via-files-api
+previous_page_id: 2021-09-07-new-enhancements-to-retention-apis
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/09-21-end-of-support-for-open-with-ui-element.md
 published_at: '2021-09-21'

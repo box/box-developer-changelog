@@ -231,7 +231,6 @@
   "2021-08-31-notice-of-behavior-change-for-item-preview-events",
   "2021-09-01-classification-name-field-now-in-events",
   "2021-09-07-new-enhancements-to-retention-apis",
-  "2021-09-10-extend-retention-via-files-api",
   "2021-09-21-end-of-support-for-open-with-ui-element",
   "2021-09-29-box-node-sdk-v200-released",
   "2021-09-30-box-python-sdk-v2130-released",
@@ -243,5 +242,6 @@
   "2021-10-20-box-ui-elements-v1400-released",
   "2021-10-27-box-sign-enterprise-events",
   "2021-10-28-box-ios-sdk-v500-released",
-  "2021-11-02-box-windows-sdk-v400-released"
+  "2021-11-02-box-windows-sdk-v400-released",
+  "2021-11-03-extend-retention-via-files-api"
 ]

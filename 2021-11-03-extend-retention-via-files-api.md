@@ -1,5 +1,5 @@
 ---
-applied_at: '2021-09-10'
+applied_at: '2021-11-03'
 applies_to:
   - api
 is_impactful: false
@@ -10,17 +10,17 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2021-09-10-extend-retention-via-files-api
+id: 2021-11-03-extend-retention-via-files-api
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2021-09-21-end-of-support-for-open-with-ui-element
-previous_page_id: 2021-09-07-new-enhancements-to-retention-apis
+next_page_id: ''
+previous_page_id: 2021-11-02-box-windows-sdk-v400-released
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2021/09-10-extend-retention-via-files-api.md
-published_at: '2021-09-10'
+  https://github.com/box/box-developer-changelog/blob/main/content/2021/11-03-extend-retention-via-files-api.md
+published_at: '2021-11-03'
 ---
 # Extend Retention Via Files API
 
