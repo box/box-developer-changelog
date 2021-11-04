@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-11-03-extend-retention-via-files-api
 previous_page_id: 2021-10-28-box-ios-sdk-v500-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/11-02-box-windows-sdk-v400-released.md
