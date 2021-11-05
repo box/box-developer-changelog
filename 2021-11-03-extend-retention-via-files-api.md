@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2021-11-03'
 fullyTranslated: true
 ---
-# Extend Retention Via Files API
+# ファイルAPIを使用したリテンションポリシーの拡張
 
-Now, you can extend the retention date for a file that is already under retention using the new `disposition_at` field. If the date is extended, it cannot be reverted or updated to a date prior to the new date.
+すでにリテンションの対象となっているファイルの保持期間を、新しい`disposition_at`フィールドを使用して延長できるようになりました。日付を延長した場合は、元に戻すことも、新しい日付より前の日付に更新することもできません。
 
 <!-- more -->
 
 ## 更新内容
 
-* Added a `disposition_at` field to the [File(Full) resource][file-full]
-* Added a `disposition_at` parameter to the [PUT file endpoint][file-put]
-* Added a note in the [retention policy guide section][extend-retention]
+* [ファイル (詳細) リソース][file-full]に`disposition_at`フィールドを追加
+* [PUTファイルエンドポイント][file-put]に`disposition_at`パラメータを追加
+* [ガイドのリテンションポリシーセクション][extend-retention]に注記を追加
 
 ## サポート情報
 
