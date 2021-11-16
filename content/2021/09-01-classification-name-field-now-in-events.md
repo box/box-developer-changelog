@@ -82,4 +82,4 @@ our [developer forum][forum] for any help needed.
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 [events]: e://get-events/
 [event-source]: e://resources/event-source/
-[event-triggers]: g://events/event-triggers/
+[event-triggers]: g://events/event-triggers/event-source

@@ -28,5 +28,5 @@ following:
 * `COLLECTION_ITEM_DELETE`: An item was removed from a collection
 * `COLLECTION_ITEM_UPDATE`: An item in a collection was updated
 
-[enterprise-events]: g://events/for-enterprise/
+[enterprise-events]: g://events/enterprise-events/for-enterprise/
 [collections]: g://collections/
