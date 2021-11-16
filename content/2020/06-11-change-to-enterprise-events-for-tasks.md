@@ -10,7 +10,7 @@ show_excerpt: true
 
 # Change to enterprise events for tasks
 
-Starting today, the [enterprise event stream](g://events/for-enterprise/) will
+Starting today, the [enterprise event stream](g://events/enterprise-events/for-enterprise/) will
 begin producing new task and task assignment events, and some existing task
 events will return additional fields.
 
@@ -75,5 +75,5 @@ the `additional_details` object.
 }
 ```
 
-See the [enterprise events](g://events/for-enterprise/) documentation
+See the [enterprise events](g://events/enterprise-events/for-enterprise/) documentation
 for more information on other event types.
