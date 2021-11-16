@@ -26,7 +26,7 @@ requires the user to be an enterprise admin or co-admin with the permission to
 
 We have made several documentation updates to help you learn about the new option
 
-* Completely reorganized the [events][event-api] guide section for
+* Completely reorganized the [events][event-guide] guide section for
   easier understanding, including adding additional information to all pages
   in the various sections
 * Updated the OpenAPI specification for the [`GET /events`][event-api] endpoint
@@ -41,4 +41,5 @@ our [developer forum][forum] for any help needed.
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 [event-api]: e://get-events
+[event-guide]: g://events
 [migration]: g://events/enterprise-events/migrate-to-stream
