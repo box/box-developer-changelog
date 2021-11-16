@@ -41,4 +41,4 @@ our [developer forum][forum] for any help needed.
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 [event-api]: e://get-events
-[migration]: g:/events/enterprise-events/migrate-to-stream
+[migration]: g://events/enterprise-events/migrate-to-stream
