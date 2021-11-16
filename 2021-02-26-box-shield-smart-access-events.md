@@ -54,5 +54,5 @@ events to the enterprise events stream
 
 [box-shield]: https://www.box.com/shield
 [eo]: r://event/
-[events]: g://events/for-enterprise/
-[saguide]:g://events/shield-alert-events/#smart-access
+[events]: g://events/enterprise-events/for-enterprise/
+[saguide]:g://events/event-triggers/shield-alert-events/#smart-access

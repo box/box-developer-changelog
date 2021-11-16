@@ -243,5 +243,6 @@
   "2021-10-27-box-sign-enterprise-events",
   "2021-10-28-box-ios-sdk-v500-released",
   "2021-11-02-box-windows-sdk-v400-released",
-  "2021-11-03-extend-retention-via-files-api"
+  "2021-11-03-extend-retention-via-files-api",
+  "2021-11-16-added-retention-policy-marker-based-pagination"
 ]
