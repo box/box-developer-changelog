@@ -18,9 +18,9 @@ events after they happen in Box.
 <!-- more -->
 
 We recommend that applications subscribing to live events through `admin_logs`
-migrate to `admin_logs_streaming` for the lowest latency. The events API
-requires the user to be an enterprise admin or co-admin with the permission to
-**Run new reports and access existing reports**.
+migrate to `admin_logs_streaming` for the lowest and most consistent latency.
+This `stream_type` requires the user to be an enterprise admin or co-admin with
+the permission to **Run new reports and access existing reports**.
 
 ## Updates
 
