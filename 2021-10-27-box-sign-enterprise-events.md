@@ -40,7 +40,7 @@ forwarded, signed and declined
 * Add two new [statuses][stat]: `downloaded` and `downloaded and signed`
 
 [stat]: e://resources/sign-requests/#param-status
-[s]: g://events/sign-events/#signer-events
-[d]: g://events/sign-events/#document-events
-[seg]: g://events/sign-events
+[s]: g://events/event-triggers/sign-events/#signer-events
+[d]: g://events/event-triggers/sign-events/#document-events
+[seg]: g://events/event-triggers/sign-events
 [sign]: g://box-sign
