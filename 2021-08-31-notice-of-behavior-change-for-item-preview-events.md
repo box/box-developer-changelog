@@ -43,8 +43,8 @@ fullyTranslated: true
 
 [event-apis]: https://developer.box.com/reference/get-events/
 
-[user-events]: https://developer.box.com/guides/events/for-user/#event-types
+[user-events]: https://developer.box.com/guides/events/enterprise-events/for-user/#event-types
 
-[enterprise-events]: https://developer.box.com/guides/events/for-enterprise/
+[enterprise-events]: https://developer.box.com/guides/events/user-events/for-enterprise/
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

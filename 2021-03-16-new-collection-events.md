@@ -38,6 +38,6 @@ Boxの[コレクション][collections]を使用すると、ファイル、フ�
 * `COLLECTION_ITEM_DELETE`: 項目がコレクションから削除されました
 * `COLLECTION_ITEM_UPDATE`: コレクション内の項目が更新されました
 
-[enterprise-events]: g://events/for-enterprise/
+[enterprise-events]: g://events/enterprise-events/for-enterprise/
 
 [collections]: g://collections/

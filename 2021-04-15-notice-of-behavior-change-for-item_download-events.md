@@ -43,9 +43,9 @@ fullyTranslated: true
 
 [event-apis]: https://developer.box.com/reference/get-events/
 
-[user-events]: https://developer.box.com/guides/events/for-user/#event-types
+[user-events]: https://developer.box.com/guides/events/user-events/for-user/#event-types
 
-[enterprise-events]: https://developer.box.com/guides/events/for-enterprise/
+[enterprise-events]: https://developer.box.com/guides/events/enterprise-events/for-enterprise/
 
 [user-access-token]: g://authentication/jwt/user-access-tokens/
 

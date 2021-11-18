@@ -43,6 +43,6 @@ fullyTranslated: true
 
 [eo]: r://event/
 
-[events]: g://events/for-enterprise/
+[events]: g://events/enterprise-events/for-enterprise/
 
-[saguide]: g://events/shield-alert-events/#smart-access
+[saguide]: g://events/event-triggers/shield-alert-events/#smart-access

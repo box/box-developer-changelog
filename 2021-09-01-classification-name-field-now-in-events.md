@@ -93,4 +93,4 @@ fullyTranslated: true
 
 [event-source]: e://resources/event-source/
 
-[event-triggers]: g://events/event-triggers/
+[event-triggers]: g://events/event-triggers/event-source

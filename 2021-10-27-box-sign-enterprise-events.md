@@ -39,10 +39,10 @@ fullyTranslated: true
 
 [stat]: e://resources/sign-requests/#param-status
 
-[s]: g://events/sign-events/#signer-events
+[s]: g://events/event-triggers/sign-events/#signer-events
 
-[d]: g://events/sign-events/#document-events
+[d]: g://events/event-triggers/sign-events/#document-events
 
-[seg]: g://events/sign-events
+[seg]: g://events/event-triggers/sign-events
 
 [sign]: g://box-sign
