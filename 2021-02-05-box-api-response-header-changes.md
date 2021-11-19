@@ -76,7 +76,7 @@ public final static String HEADER_LOCATION_CAPITALIZED = 'Location';
 
 ## サポート情報
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxサポートチームに[チケットを申請][support]するか、Boxの[開発者向けフォーラム][forum]にリクエストを投稿してください。
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxサポートチームに[チケットを申請][support]するか、Boxの[開発者向けフォーラム][forum]に英語でリクエストを投稿してください。
 
 [salesforce-sdk-v1]: https://github.com/box/box-salesforce-sdk/releases/tag/1.0.0
 
