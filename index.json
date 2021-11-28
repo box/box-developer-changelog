@@ -246,5 +246,6 @@
   "2021-11-03-extend-retention-via-files-api",
   "2021-11-16-added-retention-policy-marker-based-pagination",
   "2021-11-17-new-event-stream-live-monitoring",
-  "2021-11-22-new-shield-download-event"
+  "2021-11-22-new-shield-download-event",
+  "2021-11-23-box-java-sdk-v2580-released"
 ]
