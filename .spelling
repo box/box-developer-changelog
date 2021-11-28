@@ -252,3 +252,6 @@ DateTimeOffset
 DateTime
 completion_rule
 testability
+stream_type
+admin_logs_streaming
+enums
