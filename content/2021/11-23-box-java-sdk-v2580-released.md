@@ -13,7 +13,7 @@ collapse: true
 
 **New Features and Enhancements:**
 
-* SDK support for new GET /events stream_type: admin_logs_streaming ([#938][1])
+* SDK support for new GET /events `stream_type`: `admin_logs_streaming` ([#938][1])
 * Adding `BoxDeveloperEditionAPIConnection#getUserConnection` to indicate that we can use this connection for managed users or app users ([#940][2])
 
 **Bug Fixes:**
