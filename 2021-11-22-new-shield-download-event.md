@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-11-23-box-java-sdk-v2580-released
 previous_page_id: 2021-11-17-new-event-stream-live-monitoring
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/11-22-new-shield-download-event.md
