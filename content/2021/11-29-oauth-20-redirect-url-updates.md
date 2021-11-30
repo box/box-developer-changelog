@@ -11,16 +11,16 @@ release_source_url: ''
 
 #  OAuth 2.0 Redirect URL Updates
 
-Today, we released the a new feature to the Box Developer Console, allowing developers to add multiple redirect URIs to an OAuth 2.0 application.
+Today, we released a new feature to the Box Developer Console, allowing developers to add multiple redirect URIs for an OAuth 2.0 application.
 
 <!-- more -->
 
-Starting today November 29, 2021, new applications using OAuth 2.0 will require the
+Starting November 29, 2021, new applications using OAuth 2.0 will require the
 URIs set in the configuration tab of the Developer Console to strictly match the
-one used during redirect. In addition, both new and exiting applications, will
+one used during redirect. In addition, both new and existing applications, will
 gain the ability to add multiple redirect URIs.
  
-For existing applications, the deadline to make changes to this URL to avoid service
+For existing applications, the deadline to make changes to this URL and avoid service
 disruption is May 13, 2022.
 
 ## Updates
@@ -36,7 +36,7 @@ Should you have any issues or need further guidance, please post a request to
 our [developer forum][forum] for any help needed.
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
-[url-redirect]: e://https://developer.box.com/reference/get-authorize/#param-redirect_uri
+[url-redirect]: e://get-authorize/#param-redirect_uri
 [oauth-setup]: g://authentication/oauth2/oauth2-setup/
 [oauth-sdk]: g://authentication/oauth2/with-sdk/
 [oauth-nosdk]: g://authentication/oauth2/without-sdk/
