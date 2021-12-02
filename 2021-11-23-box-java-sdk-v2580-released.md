@@ -27,7 +27,7 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* SDK support for new GET /events `stream_type`: `admin_logs_streaming` ([#938][1])
+* 新しいGET /events `stream_type`である`admin_logs_streaming`のSDKサポート ([#938][1])
 * 管理対象ユーザーまたはApp Userにこの接続を使用できることを示すために`BoxDeveloperEditionAPIConnection#getUserConnection`を追加 ([#940][2])
 
 **バグ修正:**

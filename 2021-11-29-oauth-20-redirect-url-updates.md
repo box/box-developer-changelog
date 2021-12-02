@@ -23,22 +23,22 @@ source_url: >-
 published_at: '2021-11-29'
 fullyTranslated: true
 ---
-# OAuth 2.0 Redirect URL Updates
+# OAuth 2.0リダイレクトURIの更新情報
 
-Today, we released a new feature to the Box Developer Console, allowing developers to add multiple redirect URIs for an OAuth 2.0 application.
+本日、Box開発者コンソールの新機能をリリースしました。開発者は、この新機能を使用して、OAuth 2.0アプリケーション用に複数のリダイレクトURIを追加できるようになります。
 
 <!-- more -->
 
-Starting November 29, 2021, new applications using OAuth 2.0 will require the URIs set in the configuration tab of the Developer Console to strictly match the one used during redirect. In addition, both new and existing applications, will gain the ability to add multiple redirect URIs.
+日本時間2021年11月30日以降、OAuth 2.0を使用した新しいアプリケーションでは、開発者コンソールの \[構成] タブに設定されているURIが、リダイレクト時に使用されるURIと完全に一致する必要があります。さらに、新しいアプリケーションと既存のアプリケーションの両方で、複数のリダイレクトURIを追加できるようになります。
 
-For existing applications, the deadline to make changes to this URL and avoid service disruption is May 13, 2022.
+既存のアプリケーションについては、日本時間2022年5月14日までに、このURIを変更してサービスの中断を回避してください。
 
 ## 更新内容
 
-* The Box Developer Console OAuth 2.0 application configuration section has a new button to add multiple redirect URIs
-* Redirect URIs now force strict checking to match the URI passed in and URIs configured in the OAuth 2.0 application configuration
-* Updated the `redirect_uri` query parameter wording on the [`GET /authorize`][url-redirect] endpoint page
-* Updated the OAuth 2.0 [setup][oauth-setup], [with SDK][oauth-sdk], and [without SDK][oauth-nosdk] guide pages
+* Box開発者コンソールのOAuth 2.0アプリケーションの構成セクションに、複数のリダイレクトURIを追加するための新しいボタンが用意されました
+* リダイレクトURIは、渡されたURIと、OAuth 2.0アプリケーションの構成で設定されたURIを一致させるように厳密なチェックを強制するようになりました
+* [`GET /authorize`][url-redirect]エンドポイントのページで`redirect_uri`クエリパラメータの表現を更新しました
+* OAuth 2.0の[設定][oauth-setup]、[SDKを使用したOAuth 2.0][oauth-sdk]、[SDKを使用しないOAuth 2.0][oauth-nosdk]に関するガイドページを更新しました
 
 ## サポート情報
 
