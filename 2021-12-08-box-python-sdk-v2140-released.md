@@ -27,15 +27,15 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add `admin_logs_streaming` support for events stream (`#623 <https://github.com/box/box-python-sdk/pull/623>`\_)
-* Add `vanity_name` parameter for creating shared link to a file or folder (`#637 <https://github.com/box/box-python-sdk/pull/637>`\_)
-* Add getting files and file versions under retention for a retention policy assignment (`#633 <https://github.com/box/box-python-sdk/pull/633>`\_)
-* Support base item operations for WebLink class (`#639 <https://github.com/box/box-python-sdk/pull/639>`\_)
+* イベントストリームに対する`admin_logs_streaming`のサポートを追加 (`#623 <https://github.com/box/box-python-sdk/pull/623>`\_)
+* ファイルまたはフォルダへの共有リンクを作成するための`vanity_name`パラメータを追加 (`#637 <https://github.com/box/box-python-sdk/pull/637>`\_)
+* リテンションポリシー割り当てのために、リテンションの対象となるファイルおよびファイルバージョンの取得を追加 (`#633 <https://github.com/box/box-python-sdk/pull/633>`\_)
+* WebLinkクラスの基本の項目操作をサポート (`#639 <https://github.com/box/box-python-sdk/pull/639>`\_)
 
 **バグ修正:**
 
-* Limit cryptography to version \<3.5.0 (\`#636 <https://github.com/box/box-python-sdk/pull/636>
+* 暗号化技術をバージョン3.5.0未満に制限 (\`#636 <https://github.com/box/box-python-sdk/pull/636>
 
 \`\_)
 
-* Avoid raising 404 when a thumbnail cannot be generated for a file (`#642 <https://github.com/box/box-python-sdk/pull/642>`\_)
+* ファイルのサムネイルを生成できないときの404エラーの発生を回避 (`#642 <https://github.com/box/box-python-sdk/pull/642>`\_)
