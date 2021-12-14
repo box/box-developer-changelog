@@ -13,13 +13,13 @@ collapse: true
 
 **Bug Fixes:**
 
-* add missing configureAwait(false) when awaiting to prevent deadlocks ([#775][1]) ([`b16267e`][2])
+* add missing `configureAwait`(false) when awaiting to prevent deadlocks ([#775][1]) ([`b16267e`][2])
 
 **New Features and Enhancements:**
 
-* add configurable Timeout for BoxClient ([#779][3]) ([`ac842ed`][4])
-* add file request api ([#777][5]) ([`1098f75`][6])
-* add vanity_name to SharedLink ([#782][7]) ([`00a1e26`][8])
+* add configurable `Timeout` for `BoxClient` ([#779][3]) ([`ac842ed`][4])
+* add file request API ([#777][5]) ([`1098f75`][6])
+* add `vanity_name` to `SharedLink` ([#782][7]) ([`00a1e26`][8])
 
 <https://www.nuget.org/packages/Box.V2/4.1.0>
 <https://www.nuget.org/packages/Box.V2.Core/4.1.0>
