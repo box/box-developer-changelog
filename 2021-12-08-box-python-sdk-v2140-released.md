@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2021-12-14-box-windows-sdk-v410-released
 previous_page_id: 2021-11-29-oauth-20-redirect-url-updates
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/12-08-box-python-sdk-v2140-released.md
