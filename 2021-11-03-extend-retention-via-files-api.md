@@ -31,7 +31,7 @@ fullyTranslated: true
 
 ## 更新内容
 
-* [ファイル (詳細) リソース][file-full]に`disposition_at`フィールドを追加
+* [ファイル (Full) リソース][file-full]に`disposition_at`フィールドを追加
 * [PUTファイルエンドポイント][file-put]に`disposition_at`パラメータを追加
 * [ガイドのリテンションポリシーセクション][extend-retention]に注記を追加
 
