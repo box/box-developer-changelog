@@ -33,14 +33,12 @@ published_at: '2021-12-08'
 
 **Bug Fixes:**
 
-* Limit cryptography to version <3.5.0 ([#636][5]) * Avoid raising 404 when a thumbnail cannot be generated for a file ([#642][6])  [1]: <https://github.com/box/box-python-sdk/pull/623>
+* Limit cryptography to version <3.5.0 ([#636][5])
+* Avoid raising 404 when a thumbnail cannot be generated for a file ([#642][6])
 
-[2]: <https://github.com/box/box-python-sdk/pull/637>
-
-[3]: <https://github.com/box/box-python-sdk/pull/633>
-
-[4]: <https://github.com/box/box-python-sdk/pull/639>
-
-[5]: <https://github.com/box/box-python-sdk/pull/636>
-
-[6]: <https://github.com/box/box-python-sdk/pull/642>
+[1]: https://github.com/box/box-python-sdk/pull/623
+[2]: https://github.com/box/box-python-sdk/pull/637
+[3]: https://github.com/box/box-python-sdk/pull/633
+[4]: https://github.com/box/box-python-sdk/pull/639
+[5]: https://github.com/box/box-python-sdk/pull/636
+[6]: https://github.com/box/box-python-sdk/pull/642
