@@ -13,12 +13,19 @@ collapse: true
 
 **New Features and Enhancements:**
 
-* Add `admin_logs_streaming` support for events stream (`#623 <https://github.com/box/box-python-sdk/pull/623>`\_)
-* Add `vanity_name` parameter for creating shared link to a file or folder (`#637 <https://github.com/box/box-python-sdk/pull/637>`\_)
-* Add getting files and file versions under retention for a retention policy assignment (`#633 <https://github.com/box/box-python-sdk/pull/633>`\_)
-* Support base item operations for WebLink class (`#639 <https://github.com/box/box-python-sdk/pull/639>`\_)
+* Add `admin_logs_streaming` support for events stream ([#623][1])
+* Add `vanity_name` parameter for creating shared link to a file or folder ([#637][2])
+* Add getting files and file versions under retention for a retention policy assignment ([#633][3])
+* Support base item operations for WebLink class ([#639][4])
 
 **Bug Fixes:**
 
-* Limit cryptography to version <3.5.0 (`#636 <https://github.com/box/box-python-sdk/pull/636>`\_)
-* Avoid raising 404 when a thumbnail cannot be generated for a file (`#642 <https://github.com/box/box-python-sdk/pull/642>`\_)
+* Limit cryptography to version <3.5.0 ([#636][5])
+* Avoid raising 404 when a thumbnail cannot be generated for a file ([#642][6])
+
+[1]: <https://github.com/box/box-python-sdk/pull/623>
+[2]: <https://github.com/box/box-python-sdk/pull/637>
+[3]: <https://github.com/box/box-python-sdk/pull/633>
+[4]: <https://github.com/box/box-python-sdk/pull/639>
+[5]: <https://github.com/box/box-python-sdk/pull/636>
+[6]: <https://github.com/box/box-python-sdk/pull/642>
