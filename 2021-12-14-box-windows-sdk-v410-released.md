@@ -27,13 +27,13 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* add missing `configureAwait`(false) when awaiting to prevent deadlocks ([#775][1]) ([`b16267e`][2])
+* デッドロックの防止を待機中に欠落している`configureAwait`(false) を追加 ([#775][1]) ([`b16267e`][2])
 
 **新機能と機能強化:**
 
-* add configurable `Timeout` for `BoxClient` ([#779][3]) ([`ac842ed`][4])
-* add file request API ([#777][5]) ([`1098f75`][6])
-* add `vanity_name` to `SharedLink` ([#782][7]) ([`00a1e26`][8])
+* `BoxClient`用に設定可能な`Timeout`を追加 ([#779][3]) ([`ac842ed`][4])
+* ファイルリクエストAPIを追加 ([#777][5]) ([`1098f75`][6])
+* `vanity_name`を`SharedLink`に追加 ([#782][7]) ([`00a1e26`][8])
 
 <https://www.nuget.org/packages/Box.V2/4.1.0>
 
