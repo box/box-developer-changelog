@@ -3,6 +3,7 @@ applied_at: '2021-12-17'
 applies_to:
   - python
   - java
+  - sdks
 is_impactful: true
 is_new_feature: true
 collapse: true
