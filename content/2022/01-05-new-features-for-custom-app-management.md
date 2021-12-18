@@ -1,0 +1,38 @@
+---
+applied_at: "2022-01-05"
+applies_to: 
+- api
+is_impactful: true
+is_new_feature: true
+collapse: true
+show_excerpt: true
+release_source_url: ''
+---
+
+# New Features For Custom App Management
+
+Today, we released changes to the apps sections of the Box Admin Console. You
+can now view and manage authorization for customer OAuth 2.0 Applications.
+
+<!-- more -->
+
+In addition to adding new functionality, we also made updates to the UI of
+the Custom Apps Manager. For more information on the changes and authorization
+in general, check out the [blog post][2].
+
+## Updates
+
+* Screenshots have been updated on the [authorization][3],[custom app approval][4], [limited access approval][5], and [security][6] guide pages
+* Information on the OAuth 2.0 custom application approval process has been added to the [custom app approval][4] guide page
+
+## Where to get support
+
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
+
+[1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
+[2]: https://medium.com/@anovotny_12970/custom-apps-manager-updates-c79ccf8ebe97
+[3]: g://authorization
+[4]: g://authorization/custom-app-approval
+[5]: g://authorization/limited-access-approval
+[6]: g://security
