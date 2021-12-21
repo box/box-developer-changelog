@@ -37,7 +37,7 @@ fullyTranslated: true
 
 ## 機能
 
-* Box Shieldの外部コラボレーションと正当な理由の承認のサポートをエンタープライズイベントストリームに追加
+* Box Shieldの外部コラボレーションと正当な理由の承認のサポートをEnterprise Event Streamに追加
 
 [box-shield]: https://www.box.com/shield
 

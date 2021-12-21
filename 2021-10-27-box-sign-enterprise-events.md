@@ -25,7 +25,7 @@ fullyTranslated: true
 ---
 # Box Signエンタープライズイベント
 
-[Box Sign][sign]イベントが、エンタープライズイベントストリームを使用して利用できるようになりました。詳細については、[Box Signイベントガイド][seg]をご参照ください。
+[Box Sign][sign]イベントが、Enterprise Event Streamを使用して利用できるようになりました。詳細については、[Box Signイベントガイド][seg]をご参照ください。
 
 ## 更新内容
 

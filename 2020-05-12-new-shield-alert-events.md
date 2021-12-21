@@ -22,7 +22,7 @@ fullyTranslated: true
 ---
 # 新しいShieldアラートイベント
 
-本日をもって、[Box Shield][box-shield]は、新しいイベントをリッスンするよう構成されている、Shieldをご利用のお客様向けに、[エンタープライズイベントストリーム](g://events/enterprise-events/for-enterprise/)内で新しいセキュリティイベントの生成を開始します。
+本日をもって、[Box Shield][box-shield]は、新しいイベントをリッスンするよう構成されている、Shieldをご利用のお客様向けに、[Enterprise Event Stream](g://events/enterprise-events/for-enterprise/)内で新しいセキュリティイベントの生成を開始します。
 
 Shieldによって生成される可能性があるインシデントイベントは以下のとおりです。
 

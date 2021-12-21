@@ -24,7 +24,7 @@ fullyTranslated: true
 ---
 # タスクに関するエンタープライズイベントの変更
 
-本日以降、[エンタープライズイベントストリーム](g://events/enterprise-events/for-enterprise/)は、新しいタスクとタスク割り当てイベントの生成を開始します。一部の既存のタスクイベントでは追加のフィールドが返されます。
+本日以降、[Enterprise Event Stream](g://events/enterprise-events/for-enterprise/)は、新しいタスクとタスク割り当てイベントの生成を開始します。一部の既存のタスクイベントでは追加のフィールドが返されます。
 
 <!-- more -->
 

@@ -22,7 +22,7 @@ fullyTranslated: true
 ---
 # コンテンツアクセスに関するエンタープライズイベントの変更
 
-本日以降、[エンタープライズイベントストリーム](g://events/enterprise-events/for-enterprise/)は、新しいコンテンツアクセスイベントの生成を開始します。
+本日以降、[Enterprise Event Stream](g://events/enterprise-events/for-enterprise/)は、新しいコンテンツアクセスイベントの生成を開始します。
 
 新しい`CONTENT_ACCESS`イベントは、ファイルに承認済みのユーザーがアクセスしたか、プログラムによってBoxアプリケーションがアクセスしたときにトリガーされます。
 
