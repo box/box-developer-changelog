@@ -25,7 +25,7 @@ fullyTranslated: true
 ---
 # Box Shieldスマートアクセスイベント
 
-外部コラボレーションの制限および正当な理由の承認のイベントが[エンタープライズイベント][events]ストリームから使用可能になりました。
+外部コラボレーションの制限および正当な理由の承認のイベントが[Enterprise Event][events] Streamから使用可能になりました。
 
 この高度なセキュリティ機能を活用するには、[Box Shield][box-shield]を購入し、Box Enterpriseで有効にする必要があります。
 

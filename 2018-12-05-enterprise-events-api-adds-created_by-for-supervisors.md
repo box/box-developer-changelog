@@ -22,9 +22,9 @@ source_url: >-
 published_at: '2018-12-05'
 fullyTranslated: true
 ---
-# エンタープライズイベントAPIにスーパーバイザー向けの`created_by`を追加
+# Enterprise Event APIにスーパーバイザー向けの`created_by`を追加
 
-Box管理者などのスーパーバイザーまたは内部管理者ユーザーがアクションを実行する場合の[エンタープライズイベント](endpoint://get-events/#request) APIエンドポイントのレスポンスオブジェクトに小さな変更が加えられました。
+Box管理者などのスーパーバイザーまたは内部管理者ユーザーがアクションを実行する場合の[Enterprise Event](endpoint://get-events/#request) APIエンドポイントのレスポンスオブジェクトに小さな変更が加えられました。
 
 <!-- more -->
 

@@ -20,10 +20,10 @@ source_url: >-
 published_at: '2020-07-16'
 fullyTranslated: true
 ---
-# コンテンツアクセスに関するエンタープライズイベントの変更
+# コンテンツアクセスに関するEnterprise Eventの変更
 
 本日以降、[Enterprise Event Stream](g://events/enterprise-events/for-enterprise/)は、新しいコンテンツアクセスイベントの生成を開始します。
 
 新しい`CONTENT_ACCESS`イベントは、ファイルに承認済みのユーザーがアクセスしたか、プログラムによってBoxアプリケーションがアクセスしたときにトリガーされます。
 
-その他のイベントタイプの詳細については、[エンタープライズイベント](g://events/enterprise-events/for-enterprise/)に関するドキュメントを参照してください。
+その他のイベントタイプの詳細については、[Enterprise Event](g://events/enterprise-events/for-enterprise/)に関するドキュメントを参照してください。

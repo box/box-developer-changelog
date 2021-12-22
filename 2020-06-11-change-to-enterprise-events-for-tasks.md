@@ -22,7 +22,7 @@ source_url: >-
 published_at: '2020-06-11'
 fullyTranslated: true
 ---
-# タスクに関するエンタープライズイベントの変更
+# タスクに関するEnterprise Eventの変更
 
 本日以降、[Enterprise Event Stream](g://events/enterprise-events/for-enterprise/)は、新しいタスクとタスク割り当てイベントの生成を開始します。一部の既存のタスクイベントでは追加のフィールドが返されます。
 
@@ -79,4 +79,4 @@ fullyTranslated: true
 }
 ```
 
-その他のイベントタイプの詳細については、[エンタープライズイベント](g://events/enterprise-events/for-enterprise/)に関するドキュメントを参照してください。
+その他のイベントタイプの詳細については、[Enterprise Event](g://events/enterprise-events/for-enterprise/)に関するドキュメントを参照してください。

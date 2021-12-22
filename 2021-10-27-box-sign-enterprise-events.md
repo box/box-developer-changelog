@@ -23,7 +23,7 @@ source_url: >-
 published_at: '2021-10-27'
 fullyTranslated: true
 ---
-# Box Signエンタープライズイベント
+# Box SignのEnterprise Event
 
 [Box Sign][sign]イベントが、Enterprise Event Streamを使用して利用できるようになりました。詳細については、[Box Signイベントガイド][seg]をご参照ください。
 
