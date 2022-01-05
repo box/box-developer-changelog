@@ -45,7 +45,7 @@ Should you have any issues or need further guidance, please post a request to
 our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
-[2]: https://medium.com/@anovotny_12970/custom-apps-manager-updates-c79ccf8ebe97
+[2]: https://medium.com/box-developer-blog
 [3]: g://authorization
 [4]: g://authorization/custom-app-approval
 [5]: g://authorization/limited-access-approval
