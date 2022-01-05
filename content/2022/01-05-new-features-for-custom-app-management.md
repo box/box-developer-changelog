@@ -10,13 +10,23 @@ release_source_url: ''
 ---
 
 # New Features For Custom App Management
-
-Today, we released changes to the apps sections of the Box Admin Console. You can now view and manage authorization for custom OAuth 2.0 Applications.
+<!--alex ignore -->
+Today, we released changes to the Custom Apps Manager section of the Box Admin Console. Now, you can more easily view and manage enablement of custom OAuth 2.0
+Applications.
+<!--alex enable -->
 
 <!-- more -->
 
 In addition to adding new functionality, we also made updates to the UI of the Custom Apps Manager. For more information on the changes and authorizing apps that
 use the Box API, check out the [blog post][2].
+
+```md
+<!-- markdownlint-disable line-length -->
+
+<iframe src=“https://players.brightcove.net/6232633676001/default_default/index.html?videoId=6287841456001” allowfullscreen=“” allow=“encrypted-media” width=“960" height=“540”></iframe>
+
+<!-- markdownlint-enable line-length -->
+```
 
 ## Updates
 
