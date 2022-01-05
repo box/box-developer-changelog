@@ -34,14 +34,6 @@ Applications.
 In addition to adding new functionality, we also made updates to the UI of the Custom Apps Manager. For more information on the changes and authorizing apps that
 use the Box API, check out the [blog post][2].
 
-```md
-<!-- markdownlint-disable line-length -->
-
-<iframe src=“https://players.brightcove.net/6232633676001/default_default/index.html?videoId=6287841456001” allowfullscreen=“” allow=“encrypted-media” width=“960" height=“540”></iframe>
-
-<!-- markdownlint-enable line-length -->
-```
-
 ## Updates
 
 * Screenshots have been updated on the [authorization][3], [custom app approval][4], [limited access approval][5], and [security][6] guide pages
