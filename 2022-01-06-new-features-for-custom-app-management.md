@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-01-10-new-access-only-collaboration-field
 previous_page_id: ''
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/01-06-new-features-for-custom-app-management.md
