@@ -23,7 +23,6 @@ devrel-build
 homebrew
 localhost
 PDFs
-PNGs
 RFC-3339
 cryptographic
 UTF-8
@@ -204,8 +203,10 @@ getter
 setter
 analytics
 execution
+deseralize
 deserialization
 deserialized
+deserializing
 lifecycle
 subcomponents
 subcomponent
