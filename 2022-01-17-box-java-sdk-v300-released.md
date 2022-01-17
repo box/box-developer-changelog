@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2022-01-17-box-python-sdk-v300-released
-previous_page_id: 2022-01-06-new-features-for-custom-app-management
+previous_page_id: 2022-01-17-box-ios-sdk-v510-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/01-17-box-java-sdk-v300-released.md
 published_at: '2022-01-17'
