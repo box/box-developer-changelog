@@ -15,13 +15,13 @@ collapse: true
 ### New Features and Enhancements
 
 * Allow to customize URL for the `OAuth2` authorization page ([#811][1]) ([`1901d29`][2])
-* **Events:** Add support for `admin_logs_streaming stream` type ([#800][3]) ([`0a3118e`][4])
-* **RetentionPolicy:** New API for get files and file versions under retention ([#807][5]) ([`38327f0`][6])
-* **SharedLink:** add support for `vanity_name` ([#799][7]) ([`3ea6eb2`][8])
+* **`Events`:** Add support for `admin_logs_streaming stream` type ([#800][3]) ([`0a3118e`][4])
+* **`RetentionPolicy`:** New API for get files and file versions under retention ([#807][5]) ([`38327f0`][6])
+* **`SharedLink`:** add support for `vanity_name` ([#799][7]) ([`3ea6eb2`][8])
 
 ### Bug Fixes
 
-* **SignRequest:** Fix encoding `date_value` to `yyyy-mm-dd` format in `prefillTag` ([#806][9]) ([`4f902a4`][10])
+* **`SignRequest`:** Fix encoding `date_value` to `yyyy-mm-dd` format in `prefillTag` ([#806][9]) ([`4f902a4`][10])
 
 [1]: https://github.com/box/box-ios-sdk/issues/811
 
