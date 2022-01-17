@@ -31,9 +31,9 @@ collapse: true
 * Changed `BoxFileVersion` class and removed `fileVersion` field ([#978][1]) ([`8c39451`][17])
 * Changed SDK loggers name to `"com.box.sdk"`, fixes [#638][18] ([#950][19]) ([`443c230`][20])
 * Date parsing error when `BoxSignRequestPrefillTag` created with date value. ([#970][21]) ([`cc2c8da`][22])
-* Fix sending limit param in `EventLog` ([#977][23]) ([`96bdccc`][24])
-* Fixed `NullPointerException` when empty metadata used on BoxFile or `BoxFolder` ([#918][25]) ([#945][26]) ([`68bc3c5`][27])
-* Fixes issue ([#951][28]) error when deserialising sign request ([#952][29]) ([`070bdc5`][30])
+* Fix sending limit parameter in `EventLog` ([#977][23]) ([`96bdccc`][24])
+* Fixed `NullPointerException` when empty metadata used on `BoxFile` or `BoxFolder` ([#918][25]) ([#945][26]) ([`68bc3c5`][27])
+* Fixes issue ([#951][28]) error when deserializing sign request ([#952][29]) ([`070bdc5`][30])
 
 ### Dependency Upgrades
 
