@@ -92,7 +92,11 @@ As mentioned above, the new format for tokens is currently used when
 assess impact:
 
 1. Generate an Access Token for the application
+<!--alex ignore special-->
+
 2. [Downscope][downscope] the token from step 1
+<!--alex ignore special-->
+
 3. Attempt to store the downscoped token in your database
 
 If you are successfully able to store the token in the database no further
