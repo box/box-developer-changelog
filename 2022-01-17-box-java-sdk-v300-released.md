@@ -46,7 +46,7 @@ published_at: '2022-01-17'
 * Date parsing error when `BoxSignRequestPrefillTag` created with date value. ([#970][21]) ([`cc2c8da`][22])
 * Fix sending limit parameter in `EventLog` ([#977][23]) ([`96bdccc`][24])
 * Fixed `NullPointerException` when empty metadata used on `BoxFile` or `BoxFolder` ([#918][25]) ([#945][26]) ([`68bc3c5`][27])
-* Cannot `deseralize` sign request, fixes issue ([#951][28]). ([#952][29]) ([`070bdc5`][30])
+* Cannot deseralize sign request, fixes issue ([#951][28]). ([#952][29]) ([`070bdc5`][30])
 
 ### Dependency Upgrades
 

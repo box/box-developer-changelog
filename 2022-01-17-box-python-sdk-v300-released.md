@@ -39,7 +39,7 @@ published_at: '2022-01-17'
 
 **Bug Fixes:**
 
-* Add missing `api_call` decorators on `multi-iput` calls ([#653][8])
+* Add missing `api_call` decorators on `multi-input` calls ([#653][8])
 * Added `py.typed` file for `mypy` to recognize type hints ([#657][9])
 
 [1]: https://github.com/box/box-python-sdk/pull/645
