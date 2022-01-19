@@ -11,9 +11,9 @@ collapse: true
 
 # Box UI Elements `v13.0.0` released
 
-# [13.0.0][1] (2021-04-22)
+## [13.0.0][1] (2021-04-22)
 
-### Bug Fixes & Features
+## Bug Fixes & Features
 
 This release fixes several bugs. For a full list, [please see the release notes][1]
 
