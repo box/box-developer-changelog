@@ -204,8 +204,10 @@ getter
 setter
 analytics
 execution
+deseralize
 deserialization
 deserialized
+deserializing
 lifecycle
 subcomponents
 subcomponent
