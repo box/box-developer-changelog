@@ -21,13 +21,16 @@ previous_page_id: 2020-10-22-new-folder-lock-apis-now-available
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-26-new-folder-lock-apis-now-available.md
 published_at: '2020-10-26'
-fullyTranslated: true
 ---
-# 新しくなったフォルダロックAPI
+# New Folder Lock APIs now available
 
-開発者がフォルダに対する移動操作と削除操作をロックできるように、APIの新しいコレクションがリリースされました。フォルダロックの作成および管理に役立つ、新しい[APIリファレンス][e_post]と[ガイド][g_post]が使用可能になりました。
+A new collections of APIs have been released to allow developers to lock move
+and delete operations on folders. New [API reference][e_post] and
+[guides][g_post] have been made available to help create and manage you folder
+locks.
 
-フォルダが移動または削除されないようにそのフォルダにロックを作成するには、`folder_locks`エンドポイントにフォルダのIDを指定します。
+To create a lock on a folder to prevent it from being moved or deleted, supply
+the ID of a folder to the `folder_locks` endpoint.
 
 ```curl
 curl -i -X POST "https://api.box.com/2.0/folder_locks" \
@@ -41,11 +44,12 @@ curl -i -X POST "https://api.box.com/2.0/folder_locks" \
      }'
 ```
 
-また、開発者が特定のフォルダに対するすべてのロックのリストを取得したり、フォルダロックIDを使用して既存のフォルダロックを削除したりできるように、追加のAPIエンドポイントが提供されています。
+Additional API endpoints are available to allow a developer to list all locks
+on a given folder, or to delete an existing folder lock with a folder lock ID.
 
-* **フォルダのロックを作成する**: [ガイド][g_post] \| [APIリファレンス][e_post]
-* **フォルダに対するすべてのロックのリストを取得する**: [ガイド][g_get] \| [APIリファレンス][e_get]
-* **フォルダのロックを削除する**: [ガイド][g_del] \| [APIリファレンス][e_del]
+* **Create a folder lock**: [Guide][g_post] \| [API Reference][e_post]
+* **List all locks on a folder**: [Guide][g_get] \| [API Reference][e_get]
+* **Delete a folder lock**: [Guide][g_del] \| [API Reference][e_del]
 
 [e_get]: e://get-folder-locks
 

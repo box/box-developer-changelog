@@ -19,10 +19,15 @@ previous_page_id: 2018-09-04-windows-net-sdk-v393-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/09-05-annotations-available-for-excel-files-in-preview.md
 published_at: '2018-09-05'
-fullyTranslated: true
 ---
-# Excelファイルのプレビューで注釈が利用可能に
+# Annotations available for Excel files in preview
 
-現在、注釈が有効になっていても、[Box UI Content Preview Element](guide://embed/ui-elements)または有効期限付き埋め込みリンクによる注釈機能がプレビューのExcelファイル内に表示されません(`showAnnotations=true`)。
+Currently, annotations capabilities don't appear within Excel files in preview,
+either via the
+[Box UI Content Preview element](guide://embed/ui-elements) or
+expiring embed, even if annotations are enabled (`showAnnotations=true`).
 
-**2018年9月13日**以降、ユーザーは他のファイルタイプ(PDF、doc、PPT)と同様に、Excelファイルに注釈を付けることができます。3つの注釈タイプ(ハイライト、ポイント、描画)のすべてがサポートされます。`showAnnotations`が`true`に設定されている場合、Excelファイルの注釈が表示されます。
+Starting on **September 13th, 2018**, users will be able to annotate Excel
+files like they can other file types (PDFs, docs, PPT). All 3 annotation
+types (highlight, point, and drawing) will be supported. If `showAnnotations`
+is set to `true` annotations on Excel files will be displayed.

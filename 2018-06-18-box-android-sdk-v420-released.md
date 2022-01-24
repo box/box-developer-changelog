@@ -22,8 +22,7 @@ previous_page_id: 2018-06-14-windows-net-sdk-v392-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-18-box-android-sdk-v420-released.md
 published_at: '2018-06-18'
-fullyTranslated: true
 ---
-# Box Android SDK `v4.2.0`のリリース
+# Box Android SDK `v4.2.0` released
 
-このバージョンは、TLS 1.0のサポート終了後に16台以上のデバイスをサポートすることを目的としています。
+This version is to provide support for 16+ devices once TLS 1.0 is deprecated.

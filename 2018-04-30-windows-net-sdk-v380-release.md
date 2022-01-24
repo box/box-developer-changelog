@@ -21,15 +21,14 @@ previous_page_id: 2018-04-30-java-sdk-v2180-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-30-windows-net-sdk-v380-release.md
 published_at: '2018-04-30'
-fullyTranslated: true
 ---
-# Windows .NET SDK `v3.8.0`のリリース
+# Windows .NET SDK `v3.8.0` released
 
-* ユーザーが`Xamarin`に`BoxClient`を作成できない問題を修正
-* イベントの`BoxLock`オブジェクトにファイルプロパティを追加
-* メタデータテンプレートを削除するための`MetadataManager.DeleteMetadataTemplate(string scope, string template)`を追加
-* `BoxConfig`でAPI URLが変更可能に
-* APIレスポンスエラーオブジェクト/メッセージを改善
+* Fixed an issue where users could not create `BoxClient` on `Xamarin`
+* Added File property to `BoxLock` objects in events
+* Added `MetadataManager.DeleteMetadataTemplate(string scope, string template)` for deleting a Metadata template
+* Made API URLs modifiable in `BoxConfig`
+* Improved API response error objects/messages
 
 [`nuget.org/packages/Box.V2/3.8.0`](https://www.nuget.org/packages/Box.V2/3.8.0)
 [`nuget.org/packages/Box.V2.Core/3.8.0`](https://www.nuget.org/packages/Box.V2.Core/3.8.0)

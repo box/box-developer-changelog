@@ -21,17 +21,20 @@ previous_page_id: 2021-10-06-support-for-adobe-creative-cloud-preview
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/10-07-new-app-diagnostics-report.md
 published_at: '2021-10-07'
-fullyTranslated: true
 ---
-# 新しいアプリ診断レポート
+# New App Diagnostics Report
 
-日本時間2021年10月8日以降、新しいレポートが順次リリースされます。このレポートは、10月25日までにすべてのお客様にリリースされる予定です。
+A new report will be gradually deployed to customers starting Thursday, October
+7th, 2021. We plan to have the report released to all customers by October 25th.
 
 <!-- more -->
 
-開発者は、開発者コンソールからアプリ診断レポートを生成することにより、自分のアプリケーションに対するAPIアクティビティを確認できるようになりました。レポートの実行に必要な手順については、[ガイド][report]をご確認ください。
+Developers can now review API activity for their applications by generating an
+App Diagnostics Report from the Developer Console. Checkout the
+[guide][report] to see the steps required to run a report!
 
-これまでと同様、問題が発生した場合は、[サポートチケット][support]を申請するか、[開発者向けフォーラム][forum]に英語で投稿してください。
+As always, if you have issues you may file a
+[support ticket][support] or post on our [developer forum][forum].
 
 [report]: g://api-calls/permissions-and-errors/app-diagnostics-report
 

@@ -21,10 +21,9 @@ previous_page_id: 2020-08-17-box-node-sdk-v1341-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/08-20-box-java-sdk-v2501-released.md
 published_at: '2020-08-20'
-fullyTranslated: true
 ---
-# Box Java SDK `v2.50.1`のリリース
+# Box Java SDK `v2.50.1` released
 
-Box内のフォルダのトークンをダウンスコープする際に発生するバグを修正
+Fix bug that occurred when downscoping a token for a Box folder ([#832][1])
 
 [1]: https://github.com/box/box-java-sdk/issues/832

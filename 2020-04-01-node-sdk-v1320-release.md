@@ -21,12 +21,11 @@ previous_page_id: 2020-03-30-potential-impactful-changes-to-format-of-metadata-d
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-01-node-sdk-v1320-release.md
 published_at: '2020-04-01'
-fullyTranslated: true
 ---
-# Node SDK `v1.32.0`のリリース
+# Node SDK `v1.32.0` released
 
-* テストに合格しなかったためノード4とノード5のビルドをTravisから一時的に削除。今後調査予定 ([#495](https://github.com/box/box-node-sdk/pull/495))。[`dc558e9`](https://github.com/box/box-node-sdk/commit/dc558e9)
-* 前の呼び出しでレスポンスが返されないときに再試行中にエラーがスローされる問題を修正 ([#477](https://github.com/box/box-node-sdk/pull/477))。[`f1b3449`](https://github.com/box/box-node-sdk/commit/f1b3449)
-* メタデータに基づいてBox項目に[クエリを実行](./docs/metadata.md#query)する機能を追加 ([#487](https://github.com/box/box-node-sdk/pull/487))。[`6f08931`](https://github.com/box/box-node-sdk/commit/6f08931)
+* Temporarily removed Node 4 and Node 5 builds from Travis, due to tests not passing.  Will investigate, going forward ([#495](https://github.com/box/box-node-sdk/pull/495)). [`dc558e9`](https://github.com/box/box-node-sdk/commit/dc558e9)
+* Fixed an issue where an error is thrown during a retry when a response is not returned by the previous call  ([#477](https://github.com/box/box-node-sdk/pull/477)). [`f1b3449`](https://github.com/box/box-node-sdk/commit/f1b3449)
+* Added the ability to [query](./docs/metadata.md#query) Box items based on their metadata ([#487](https://github.com/box/box-node-sdk/pull/487)). [`6f08931`](https://github.com/box/box-node-sdk/commit/6f08931)
 
 [`v1.31.0...v1.32.0`](https://github.com/box/box-node-sdk/compare/`v1.31.0...v1.32.0`)

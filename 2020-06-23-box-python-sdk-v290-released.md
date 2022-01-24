@@ -21,9 +21,8 @@ previous_page_id: 2020-06-11-change-to-enterprise-events-for-tasks
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-23-box-python-sdk-v290-released.md
 published_at: '2020-06-23'
-fullyTranslated: true
 ---
-# Box Python SDK `v2.9.0`のリリース
+# Box Python SDK `v2.9.0` released
 
-* OAuthの例外処理を修正
-* パスパラメータのサニタイズを修正
+* Fix exception handling for OAuth
+* Fix path parameter sanitization

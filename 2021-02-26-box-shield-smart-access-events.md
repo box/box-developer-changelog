@@ -21,23 +21,33 @@ previous_page_id: 2021-02-26-box-cli-v290-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/02-26-box-shield-smart-access-events.md
 published_at: '2021-02-26'
-fullyTranslated: true
 ---
-# Box Shieldスマートアクセスイベント
+# Box Shield Smart Access events
 
-外部コラボレーションの制限および正当な理由の承認のイベントが[Enterprise Event][events] Streamから使用可能になりました。
+External collaboration restriction and justification approval events are now
+available via the [enterprise events][events] stream.
 
-この高度なセキュリティ機能を活用するには、[Box Shield][box-shield]を購入し、Box Enterpriseで有効にする必要があります。
+[Box Shield][box-shield] must be purchased and enabled on a Box enterprise in
+order to take advantage of these advanced security offerings.
 
 <!-- more -->
 
-これらのイベントは、`event_type`値が次のいずれかに設定されている、標準的な[イベントオブジェクト][eo]スキーマに従います: `SHIELD_EXTERNAL_COLLAB_INVITE_BLOCKED_MISSING_JUSTIFICATION`、`SHIELD_EXTERNAL_COLLAB_INVITE_JUSTIFIED`、`SHIELD_EXTERNAL_COLLAB_INVITE_BLOCKED`、`SHIELD_EXTERNAL_COLLAB_ACCESS_BLOCKED_MISSING_JUSTIFICATION`、`SHIELD_EXTERNAL_COLLAB_ACCESS_BLOCKED`、`SHIELD_JUSTIFICATION_APPROVAL`。
+These events follow the standard [event object][eo] schema, with the
+`event_type` value set of:
+`SHIELD_EXTERNAL_COLLAB_INVITE_BLOCKED_MISSING_JUSTIFICATION`,
+`SHIELD_EXTERNAL_COLLAB_INVITE_JUSTIFIED`,
+`SHIELD_EXTERNAL_COLLAB_INVITE_BLOCKED`
+`SHIELD_EXTERNAL_COLLAB_ACCESS_BLOCKED_MISSING_JUSTIFICATION`,
+`SHIELD_EXTERNAL_COLLAB_ACCESS_BLOCKED`, or
+`SHIELD_JUSTIFICATION_APPROVAL`.
 
-各イベントの`additional_details`ペイロードでは、より多くの情報が提供されます。詳細については、BoxのShieldイベントの[ガイド][saguide]を参照してください。
+The `additional_details` payload of each event provides more information. Full
+details can be found in our \[Shield Events [guide][saguide].
 
-## 機能
+## Features
 
-* Box Shieldの外部コラボレーションと正当な理由の承認のサポートをEnterprise Event Streamに追加
+* Add support for Box Shield external collaboration and justification approval
+  events to the enterprise events stream
 
 [box-shield]: https://www.box.com/shield
 

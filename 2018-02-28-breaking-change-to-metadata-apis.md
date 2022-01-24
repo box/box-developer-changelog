@@ -20,15 +20,22 @@ previous_page_id: 2018-02-15-java-sdk-v2140-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/02-28-breaking-change-to-metadata-apis.md
 published_at: '2018-02-28'
-fullyTranslated: true
 ---
-# メタデータAPIへの重大な変更
+# Breaking change to Metadata APIs
 
-2018年3月29日に、メタデータAPIエンドポイントのレスポンス本文に新しいデータ型 (文字列の配列) が導入されます。この変更は、Boxのメタデータテンプレートに`multiSelect`という新しいフィールドタイプを追加するために行われます。この新しいフィールドタイプは、ファイルまたはフォルダにテンプレートインスタンスを作成する際の、複数の値を選択するためのチェックボックスタイプを表します。このフィールドタイプでは、選択されたオプションが文字列の配列に格納されます。この配列内の各文字列が、選択された`multiSelect`オプションのキーに対応します。
+On March 29, 2018, we will introduce a new data type (array of strings) in the
+response body of the Metadata API endpoints. We are making this change because
+we are adding a new field type to metadata templates in Box called `multiSelect`.
+This new field type represents a checkbox type multiple selection of values
+when creating template instances on files or folders. The selected options for
+this field type are stored in an array of strings, where each string in the
+array corresponds to the key of the chosen `multiSelect` option.
 
 <!-- more -->
 
-以下にメタデータテンプレートのJSONレスポンス本文の例を示します。キー`audience1`の値は、この変更で導入される新しいデータ型 (文字列の配列) の例を示しています。
+An example metadata template JSON response body is shown below. The value for
+the key `audience1` shows an example of the new data type (array of strings) that
+we are introducing in this change.
 
 ```js
 {

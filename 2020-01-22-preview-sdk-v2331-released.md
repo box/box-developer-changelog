@@ -20,13 +20,16 @@ previous_page_id: 2020-01-21-java-sdk-v2440-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/01-22-preview-sdk-v2331-released.md
 published_at: '2020-01-22'
-fullyTranslated: true
 ---
-# Preview SDK `v2.33.1`のリリース
+# Preview SDK `v2.33.1` released
 
-Preview SDKのバージョン`2.33.1`がリリースされ、新しいJavaScriptとCSSのPreviewファイルが使用可能になりました。新しい変更を導入するには、コンテンツプレビュー用のリンクを[UI Elementの手動によるインストール][ui-elements-manual-install]に関する記事で確認してください。
+Version `2.33.1` of the Preview SDK has been released. New JavaScript and CSS
+Preview files have been made available. To adopt new changes, please see the
+[UI Elements manual installation][ui-elements-manual-install] links for Content
+Preview.
 
-機能の変更点の全一覧については、`v2.33.1`の[リリースノート][preview-2.33-release-notes]を参照してください。
+Please see the `v2.33.1` [release notes][preview-2.33-release-notes] for a list
+of all feature changes.
 
 [ui-elements-manual-install]: g://embed/ui-elements/installation/#manual-installation
 

@@ -21,25 +21,39 @@ previous_page_id: 2021-08-31-box-java-sdk-v2560-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/08-31-notice-of-behavior-change-for-item-preview-events.md
 published_at: '2021-08-31'
-fullyTranslated: true
 ---
-# 項目プレビューイベントの動作変更のお知らせ
+# Notice of behavior change for item preview events
 
-本日以降、アプリケーションがBoxの[イベントAPIエンドポイント][event-apis]から項目プレビューイベントを使用した場合のこのイベントの動作に対する変更のリリースを開始します。
+Starting today, we will begin rolling out changes to the behavior
+of item preview events when an application consumes those events from our
+[event API endpoints][event-apis].
 
-この変更は`ITEM_PREVIEW`[User Event][user-events]のみに影響し、既存の[Enterprise Event][enterprise-events]には影響しません。この新しい動作により、既存のアプリケーション内でダウンタイムが発生することはありません。また、稼働時間の中断を防ぐためのアプリケーションの変更も必要ありません。
+This change will only affect the
+`ITEM_PREVIEW` [user event][user-events] and will not affect existing
+[enterprise events][enterprise-events]. The new behavior will not cause
+downtime within existing applications or require any application changes to
+prevent uptime disruptions.
 
 <!-- more -->
 
-## 変更の概要
+## Change overview
 
-以前の動作では、イベントを使用した場合、プレビューされた項目イベントが、コンテンツの所有者およびコンテンツに割り当てられたすべてのコラボレータのイベントタイプ`ITEM_PREVIEW`によって表示されました。つまり、2,000人のコラボレータが存在するファイルがプレビューされた場合、このファイルの所有者に加えて2,000人のコラボレータ全員に、ファイルがプレビューされたことを示すイベントが作成されます。
+Within the previous behavior when events were consumed, previewed item
+events were surfaced through the `ITEM_PREVIEW` event type for the owner of
+the content as well as any contributors assigned to the content. This meant
+that if a file with 2000 collaborators on it was previewed, the file owner
+plus all 2000 collaborators would have an event created stating that the file
+was previewed.
 
-新しい動作では、項目のプレビューに関する通知がコンテンツの所有者に対してのみ作成され、コラボレータに対しては生成されません。これは、コンテンツの所有者としていつ項目がプレビューされたかを確認できるようにしたままイベントストリームのノイズを低減するのに役立ちます。
+With the new behavior, notification of an item being previewed will only be
+created for the owner of the content and will not be produced for
+collaborators. This will help to reduce the noise of the event stream while
+preserving the ability to see when items are previewed as a content owner.
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][forum]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][forum] for any help needed.
 
 [event-apis]: https://developer.box.com/reference/get-events/
 

@@ -21,24 +21,26 @@ previous_page_id: 2019-11-21-node-sdk-v1300-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/11-25-elements-v110-released.md
 published_at: '2019-11-25'
-fullyTranslated: true
 ---
-# Elements `v11.0`のリリース
+# Elements `v11.0` Released
 
-Box UI Elementsバージョン11.0がリリースされました。この更新には、主要な新機能の強化が3つ含まれています。
+Box UI Elements version 11.0 has been released. This update includes three
+major new feature enhancements:
 
-* コンテンツエクスプローラのグリッドビュー。
-* プレビューのサイドバー内の新しいタスク機能。
-* プレビューのサイドバーの複数のビジュアルバージョン。
+* Content Explorer Grid View.
+* New Tasks Experience within the Preview Sidebar.
+* Visual Versions for the Preview Sidebar.
 
 <!-- more -->
 
-このリリース向けに更新されたJavaScriptファイルとCSSファイルへのリンクは、[UI Elementの手動によるインストール手順][ui-elements-manual-install]内で入手できます。
+Updated JavaScript and CSS files links for this release are available within
+the [UI Elements manual installation instructions][ui-elements-manual-install].
 
-このリリースの変更点の詳細については、次のリソースを参照してください。
+For full information on changes in this release please see the following
+resources:
 
-* [リリースノート][elements-11-release-notes]
-* [お知らせに関するブログ記事][elements-11-blog]
+* [Release notes][elements-11-release-notes]
+* [Announcement blog post][elements-11-blog]
 
 [ui-elements-manual-install]: g://embed/ui-elements/installation/#manual-installation
 

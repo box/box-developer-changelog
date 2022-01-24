@@ -21,13 +21,17 @@ previous_page_id: 2020-10-02-box-python-sdk-v2100-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-02-new-file-request-apis-available.md
 published_at: '2020-10-02'
-fullyTranslated: true
 ---
-# 新しいファイルリクエストAPI
+# New File Request APIs available
 
-APIの新しいコレクションが利用可能になりました。開発者はこれを使用して、ファイルリクエストを作成および更新できます。Boxは、ファイルリクエストの管理に役立つよう、[リファレンスドキュメント][copy]を更新したほか、[新しいガイド][guides]を追加しました。
+A new collection of APIs are now available that allows
+developers to create and update File Requests. We've
+updated the [reference documentation][copy] and added
+[new guides][guides] to help you manage your file requests.
 
-既存のファイルリクエストのコピーを作成するために必要なのは、既存のファイルリクエストの一意のIDと、新しいリクエストの適用先となるフォルダのIDだけです。
+To create a copy of an existing file request, all you need is
+the unique ID of an existing file request, and the ID of the
+folder to apply the new request to.
 
 ```curl
 curl -i -X POST "https://api.box.com/2.0/file_requests/42037322/copy" \
@@ -39,13 +43,15 @@ curl -i -X POST "https://api.box.com/2.0/file_requests/42037322/copy" \
      }'
 ```
 
-さらに、開発者がファイルリクエストの詳細を取得したり、ファイルリクエストを更新または削除したりできるように追加のAPIも利用可能になりました。詳細については、開発者向けドキュメントをご確認ください。
+Additional APIs are available that allow a developer to get more details
+about a file request, update a file request, and delete a file request.
+For more details, please check out the developer documentation.
 
-* **テンプレートのファイルリクエストを作成する**: [ガイド][g_template]
-* **ファイルリクエストのコピーを作成する**: [ガイド][g_copy] \| [APIリファレンス][copy]
-* **ファイルリクエストに関する情報を取得する**: [ガイド][g_get] \| [APIリファレンス][get]
-* **ファイルリクエストの構成を更新する**: [ガイド][g_put] \| [APIリファレンス][put]
-* **ファイルリクエストを削除する**: [ガイド][g_del] \| [APIリファレンス][del]
+* **Create a template file request**: [Guide][g_template]
+* **Create a copy of a file request**: [Guide][g_copy] \| [API Reference][copy]
+* **Get information about a file request**: [Guide][g_get] \| [API Reference][get]
+* **Update a file request's configuration**: [Guide][g_put] \| [API Reference][put]
+* **Delete a file request**: [Guide][g_del] \| [API Reference][del]
 
 [copy]: e://post_file_requests_id_copy
 

@@ -18,8 +18,11 @@ previous_page_id: 2018-08-21-add-new-action_by-field-to-enterprise-events
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-21-add-new-fields-to-folder-update-and-get-info-endpoints.md
 published_at: '2018-08-21'
-fullyTranslated: true
 ---
-# フォルダを更新エンドポイントおよびフォルダ情報の取得エンドポイントに新しいフィールドを追加
+# Add new fields to folder update and get info endpoints
 
-[フォルダを更新APIエンドポイント](endpoint://put-folders-id)の`is_collaboration_restricted_to_enterprise`に、2つのメジャーリリースが追加されました。これは、将来のコラボレーションをEnterprise内のみに制限するかどうかを設定するために作成されるブール値です。既存のコラボレーションには影響しません。このフィールドの値は、[フォルダ情報の取得エンドポイント](endpoint://get-folders-id)を呼び出したときにも表示されます。
+Two major releases have been added to the [update folder API endpoint](endpoint://put-folders-id),
+`is_collaboration_restricted_to_enterprise`. This is a boolean value made to
+set whether future collaborations should be restricted to within the enterprise
+only. This does not affect existing collaborations. The value of this field
+will also be displayed when calling the [get folder info endpoint](endpoint://get-folders-id).

@@ -21,12 +21,11 @@ previous_page_id: 2020-10-29-box-java-sdk-v2510-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-02-box-node-sdk-v1350-released.md
 published_at: '2020-11-02'
-fullyTranslated: true
 ---
-# Box Node SDK `v1.35.0`のリリース
+# Box Node SDK `v1.35.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* 共有リンク項目を取得するための検索パラメータのサポートを追加 ([#547][1])
+* Add support for search parameter to get shared link items ([#547][1])
 
 [1]: https://github.com/box/box-node-sdk/issues/547

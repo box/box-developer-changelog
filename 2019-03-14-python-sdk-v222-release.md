@@ -21,8 +21,7 @@ previous_page_id: 2019-03-07-windows-net-sdk-v3141-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-14-python-sdk-v222-release.md
 published_at: '2019-03-14'
-fullyTranslated: true
 ---
-# Python SDK `v2.2.2`のリリース
+# Python SDK `v2.2.2` released
 
-* `requests-toolbelt`依存関係の制限を更新
+* Updated `requests-toolbelt` dependency restriction

@@ -21,8 +21,7 @@ previous_page_id: 2019-10-24-java-sdk-v2410-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/10-24-python-sdk-v261-release.md
 published_at: '2019-10-24'
-fullyTranslated: true
 ---
-# Python SDK `v2.6.1`のリリース
+# Python SDK `v2.6.1` released
 
-* コピーメソッドに`api_`呼び出しデコレータが追加されました。
+* Added `api_` call decorator for copy method.

@@ -21,27 +21,26 @@ previous_page_id: 2022-01-17-box-java-sdk-v300-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/01-17-box-python-sdk-v300-released.md
 published_at: '2022-01-17'
-fullyTranslated: true
 ---
-# Box Python SDK `v3.0.0`のリリース
+# Box Python SDK `v3.0.0` released
 
-**重大な変更**
+**Breaking Changes**
 
-* Python 2.7のサポートを終了 ([#645][1])
-* 不足しているパラメータ`stream_position to get_admin_events`メソッドを追加 ([#648][2])
-* Python 3.5のサポートを終了 ([#654][3])
-* 不適切な用語を使用している非推奨のコードを削除 ([#651][4])
-* 一部の関数でキーワードのみの引数の使用を強制 ([#656][5])
+* Drop support for python 2.7 ([#645][1])
+* Add missing parameter `stream_position to get_admin_events` method ([#648][2])
+* Drop support for python 3.5 ([#654][3])
+* Remove deprecated code using insensitive language ([#651][4])
+* Enforcing usage of keyword-only arguments in some functions ([#656][5])
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* `six`ライブラリと`__future__` importを削除 ([#646][6])
-* メソッドのパラメータにタイプヒントを追加 ([#650][7])
+* Remove `six` library and `__future__` imports ([#646][6])
+* Add type hints to method parameters ([#650][7])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* `multi-iput`の呼び出しに不足している`api_call`デコレータを追加 ([#653][8])
-* `mypy`がタイプヒントを認識できるように`py.typed`ファイルを追加 ([#657][9])
+* Add missing `api_call` decorators on `multi-input` calls ([#653][8])
+* Added `py.typed` file for `mypy` to recognize type hints ([#657][9])
 
 [1]: https://github.com/box/box-python-sdk/pull/645
 

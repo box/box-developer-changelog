@@ -21,8 +21,7 @@ previous_page_id: 2020-01-20-refreshed-postman-collection-quick-start
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/01-21-java-sdk-v2440-release.md
 published_at: '2020-01-21'
-fullyTranslated: true
 ---
-# Java SDK `v2.44.0`のリリース
+# Java SDK `v2.44.0` released
 
-1. 認証リクエストの再試行を修正 ([#764](https://github.com/box/box-java-sdk/pull/764))
+1. Fix Authentication Request Retries ([#764](https://github.com/box/box-java-sdk/pull/764))

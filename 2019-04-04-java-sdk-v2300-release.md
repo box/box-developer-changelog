@@ -21,8 +21,7 @@ previous_page_id: 2019-04-01-java-sdk-v2290-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-04-java-sdk-v2300-release.md
 published_at: '2019-04-04'
-fullyTranslated: true
 ---
-# Java SDK `v2.30.0`のリリース
+# Java SDK `v2.30.0` released
 
-1. `action_by`フィールドを`BoxEvent`に追加 ([#692](https://github.com/box/box-java-sdk/pull/692))
+1. Added `action_by` field to `BoxEvent` ([#692](https://github.com/box/box-java-sdk/pull/692))

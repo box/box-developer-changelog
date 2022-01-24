@@ -21,8 +21,7 @@ previous_page_id: 2018-03-29-multiselect-field-type-added-to-metadata-templates
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-10-java-sdk-v2170-release.md
 published_at: '2018-04-10'
-fullyTranslated: true
 ---
-# Java SDK `v2.17.0`のリリース
+# Java SDK `v2.17.0` released
 
-1. メタデータ駆動のリテンションポリシーのサポートを追加 ([#535](https://github.com/box/box-java-sdk/pull/535))
+1. Add Metadata-driven Retention Policies support ([#535](https://github.com/box/box-java-sdk/pull/535))

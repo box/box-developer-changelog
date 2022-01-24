@@ -21,8 +21,7 @@ previous_page_id: 2018-09-05-annotations-available-for-excel-files-in-preview
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/09-13-java-sdk-v2231-release.md
 published_at: '2018-09-13'
-fullyTranslated: true
 ---
-# Java SDK `v2.23.1`のリリース
+# Java SDK `v2.23.1` released
 
-1. 多数のリクエストを発行する際に開かれるTCP接続が多すぎる問題を修正 ([#646](https://github.com/box/box-java-sdk/pull/646))
+1. Fix opening too many TCP connections when issuing a high number of requests ([#646](https://github.com/box/box-java-sdk/pull/646))

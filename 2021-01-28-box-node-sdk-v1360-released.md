@@ -21,19 +21,18 @@ previous_page_id: 2021-01-25-maximum-upload-file-size-limit-increases
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/01-28-box-node-sdk-v1360-released.md
 published_at: '2021-01-28'
-fullyTranslated: true
 ---
-# Box Node SDK `v1.36.0`のリリース
+# Box Node SDK `v1.36.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* フォルダロック機能を追加 ([#560][1])
-* 名前によるグループのフィルタリングのサポートを追加 ([#561][2])
+* Add folder lock functionality ([#560][1])
+* Add support for filtering groups by name ([#561][2])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* プロキシサポートの問題にパッチを適用するためのプロキシエージェントの更新 ([#563][3])
-* セキュリティの脆弱性にパッチを適用するための依存関係の更新 ([#566][4])
+* Update proxy-agent to patch proxy support issue ([#563][3])
+* Update dependencies to patch security vulnerabilities ([#566][4])
 
 [1]: https://github.com/box/box-node-sdk/pull/560
 

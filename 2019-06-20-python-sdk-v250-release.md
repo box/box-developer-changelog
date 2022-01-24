@@ -21,8 +21,7 @@ previous_page_id: 2019-06-06-java-sdk-v2340-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/06-20-python-sdk-v250-release.md
 published_at: '2019-06-20'
-fullyTranslated: true
 ---
-# Python SDK `v2.5.0`のリリース
+# Python SDK `v2.5.0` released
 
-`None`を渡して`add_member()`メソッドの`configurable_permission`フィールドをクリアできるようになりました。
+Allowed passing `None` to clear `configurable_permission` field in the `add_member()` method.

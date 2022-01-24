@@ -21,9 +21,8 @@ previous_page_id: 2018-05-24-java-sdk-v2200-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/06-04-java-sdk-v2201-release.md
 published_at: '2018-06-04'
-fullyTranslated: true
 ---
-# Java SDK `v2.20.1`のリリース
+# Java SDK `v2.20.1` released
 
-1. レスポンス例外でJSON解析エラーを処理 ([#615](https://github.com/box/box-java-sdk/pull/615))
-2. `uploadNewVersion()`の戻りオブジェクトを修正 ([#614](https://github.com/box/box-java-sdk/pull/614))
+1. Handle JSON parse error in response exception ([#615](https://github.com/box/box-java-sdk/pull/615))
+2. Fix return object for `uploadNewVersion()` ([#614](https://github.com/box/box-java-sdk/pull/614))

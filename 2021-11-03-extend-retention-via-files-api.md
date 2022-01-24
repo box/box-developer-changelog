@@ -21,23 +21,25 @@ previous_page_id: 2021-11-02-box-windows-sdk-v400-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/11-03-extend-retention-via-files-api.md
 published_at: '2021-11-03'
-fullyTranslated: true
 ---
-# ファイルAPIを使用したリテンションポリシーの拡張
+# Extend Retention Via Files API
 
-すでにリテンションの対象となっているファイルの保持期間を、新しい`disposition_at`フィールドを使用して延長できるようになりました。日付を延長した場合は、元に戻すことも、新しい日付より前の日付に更新することもできません。
+Now, you can extend the retention date for a file that is already under
+retention using the new `disposition_at` field. If the date is extended, it
+cannot be reverted or updated to a date prior to the new date.
 
 <!-- more -->
 
-## 更新内容
+## Updates
 
-* [ファイル (Full) リソース][file-full]に`disposition_at`フィールドを追加
-* [PUTファイルエンドポイント][file-put]に`disposition_at`パラメータを追加
-* [ガイドのリテンションポリシーセクション][extend-retention]に注記を追加
+* Added a `disposition_at` field to the [File(Full) resource][file-full]
+* Added a `disposition_at` parameter to the [PUT file endpoint][file-put]
+* Added a note in the [retention policy guide section][extend-retention]
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][forum]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][forum] for any help needed.
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

@@ -21,9 +21,8 @@ previous_page_id: 2019-02-15-python-sdk-v221-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-21-java-sdk-v2280-release.md
 published_at: '2019-02-21'
-fullyTranslated: true
 ---
-# Java SDK `v2.28.0`のリリース
+# Java SDK `v2.28.0` released
 
-1. トレースID付きの例外メッセージにリクエストIDを追加 ([#684](https://github.com/box/box-java-sdk/pull/684))
-2. ユーザーアバター機能 ([#683](https://github.com/box/box-java-sdk/pull/683))
+1. Added Request ID to exception message with Trace ID ([#684](https://github.com/box/box-java-sdk/pull/684))
+2. user avatar feature ([#683](https://github.com/box/box-java-sdk/pull/683))

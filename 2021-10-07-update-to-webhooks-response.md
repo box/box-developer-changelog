@@ -21,18 +21,18 @@ previous_page_id: 2021-10-07-new-app-diagnostics-report
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/10-07-update-to-webhooks-response.md
 published_at: '2021-10-07'
-fullyTranslated: true
 ---
-# Webhookのレスポンスの更新
+# Update to Webhooks Response
 
-[Webhookのレスポンス][webhooks]は、entriesの配列で適切なWebhook (Mini) オブジェクトを示すように更新されました。
+The [webhook response][webhooks] has been updated to show the correct
+Webhook (Mini) object in the entries array.
 
 <!-- more -->
 
-## バグ修正
+## Bug Fixes
 
-* [Webhook][mini]用に`mini`リソースを追加
-* [Webhookを取得][webhooks]のレスポンスオブジェクトを修正
+* Added a `mini` resource for [Webhook][mini]
+* Corrected the [get-webhooks][webhooks] response object
 
 [support]: https://developer.box.com/support
 

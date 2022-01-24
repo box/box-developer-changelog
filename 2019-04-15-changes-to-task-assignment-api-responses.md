@@ -18,12 +18,17 @@ previous_page_id: 2019-04-11-java-sdk-v2310-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-15-changes-to-task-assignment-api-responses.md
 published_at: '2019-04-15'
-fullyTranslated: true
 ---
-# Task (Assignment) APIのレスポンスの変更
+# Changes to Task (Assignment) API responses
 
-[タスクを取得](endpoint://get-tasks-id)エンドポイントおよび[タスク割り当てを取得](endpoint://get-task-assignments-id)エンドポイントのAPIレスポンスの更新がリリースされました。
+We have released an update to the API responses of the
+[Get Task](endpoint://get-tasks-id) and
+[Get Task Assignment](endpoint://get-task-assignments-id) endpoints.
 
-この変更の前は、有効なタスクIDでタスクまたはタスク割り当てを取得する呼び出しを実行したときに、そのファイルが削除されているか、自分の権限が変更されてファイルを表示できなくなっていると、タスクがファイルとともに削除されたという404エラーが返されていました。
+Prior to this change, if a call was made to get a task or task assignment with
+a valid task ID, and that file was deleted or your permissions changed to
+prevent viewing the file, you would receive a 404 error because the tasks would
+be deleted with the file.
 
-この新しい変更により、返されるレスポンスは404エラーレスポンスではなく、その項目が存在するものとする`null`レスポンスを持つタスクオブジェクトになります。
+With this new change, the response returned will be the task object with a
+`null` response where the item would be, rather than a 404 error response.

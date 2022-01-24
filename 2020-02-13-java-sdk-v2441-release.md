@@ -21,9 +21,8 @@ previous_page_id: 2020-02-13-box-ios-sdk-v400-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/02-13-java-sdk-v2441-release.md
 published_at: '2020-02-13'
-fullyTranslated: true
 ---
-# Java SDK `v2.44.1`のリリース
+# Java SDK `v2.44.1` released
 
-1. Java Loggerのフォーマットのバグを修正 ([#775](https://github.com/box/box-java-sdk/pull/775))
-2. レスポンスの日付/時刻の解析を改善 ([#772](https://github.com/box/box-java-sdk/pull/772))
+1. Fix formatting bug for Java Logger ([#775](https://github.com/box/box-java-sdk/pull/775))
+2. Improve date / time parsing for responses ([#772](https://github.com/box/box-java-sdk/pull/772))

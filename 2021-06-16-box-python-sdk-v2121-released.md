@@ -21,12 +21,11 @@ previous_page_id: 2021-05-20-box-node-sdk-v1372-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/06-16-box-python-sdk-v2121-released.md
 published_at: '2021-06-16'
-fullyTranslated: true
 ---
-# Box Python SDK `v2.12.1`のリリース
+# Box Python SDK `v2.12.1` released
 
-**バグ修正:**
+**Bug Fixes:**
 
-* サムネイルレプリゼンテーションが見つからない場合のバグの修正 ([#597][1])
+* Fix bug when thumbnail representations are not found ([#597][1])
 
 [1]: https://github.com/box/box-python-sdk/pull/597

@@ -21,13 +21,15 @@ previous_page_id: 2020-08-21-box-cli-v260-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/08-25-multi-select-metadata-support-in-search-api.md
 published_at: '2020-08-25'
-fullyTranslated: true
 ---
-# 検索APIで新しい`multiSelect`メタデータがサポート
+# New `multiSelect` metadata support in search API
 
-本日以降、[検索API][search]では、[`multiSelect`メタデータフィールド][multi_select]の複数の値による項目の照合がサポートされるようになりました。この変更が行われる前は、`multiSelect`フィールドの値で項目を検索することはできませんでした。
+Starting today, the [Search API][search] adds support for matching items
+by multiple values of a [`multiSelect` metadata field][multi_select]. Before this
+change, it was not possible to find items by the value of a `multiSelect` field.
 
-メタデータフィールドが複数の値と一致する項目の検索を実行するために、`mdfilters`パラメータでは値のリストがサポートされるようになりました。
+To perform a search for items where a metadata field matches
+multiple values, the `mdfilters` parameter now supports a list of values.
 
 ```curl
 curl -G 'https://api.box.com/2.0/search' \
@@ -37,7 +39,9 @@ curl -G 'https://api.box.com/2.0/search' \
 
 <!-- more -->
 
-この例の`mdfilters`クエリパラメータには、`scope`、`templateKey`、一連の`filters`を含むフィルタが1つ指定されています。
+In this example, the `mdfilters` query parameter contains one filter with a
+`scope`, a `templateKey`, and a set of `filters`. Here is the same filter
+in a more readable format.
 
 ```json
 [
@@ -54,7 +58,12 @@ curl -G 'https://api.box.com/2.0/search' \
 ]
 ```
 
-今回、ここでは新しく、`products`に対するフィルタは複数の値で検索できるようになりました。これにより、テンプレートの`products`値が`shield`または`platform`のいずれかであるファイルおよびフォルダのみが返されます。フィルタには複数の値を含めることができ、フィルタに指定された値のうち1つでも値があれば一致します。たとえば、`["shield", "governance"]`に対してフィルタ`["shield", "platform"]`が一致するのは、`shield`がフィルタに含まれているためです。
+What is new here is that the `products` filter now performs a match on multiple
+values, only returning files and folders for which the template has a `products`
+value of either `shield` or `platform`. The value of the field can contain
+multiple values and only match on one of the values specified in the filter.
+For example `["shield", "governance"]` will be a match for the filter
+`["shield", "platform"]` as `shield` is included in the filter.
 
 [search]: e://get_search
 

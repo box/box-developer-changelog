@@ -20,16 +20,21 @@ previous_page_id: 2019-05-23-java-sdk-v2330-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/05-31-replaced-obsolete-field-in-collaborations.md
 published_at: '2019-05-31'
-fullyTranslated: true
 ---
-# コラボレーションで廃止されたフィールドを置き換え
+# Replaced Obsolete Field in Collaborations
 
-2018年に、新しいフィールド`acceptance_requirements_status`がGETコラボレーション/ID APIエンドポイントに追加され、追加の通知ユースケースがサポートされるようになりました。このフィールドには、利用規約、2要素認証、強力なパスワードの要件が含まれます。利用規約の要件のみを含む既存の`acceptance_requirements`フィールドは、新しい`acceptance_requirements_status`に置き換えられました。
+In 2018 a new field, `acceptance_requirements_status` was added to the GET
+collaborations/id API endpoint to support additional notification use cases.
+This field includes terms of service, 2-factor auth, and strong password
+requirements. The existing `acceptance_requirements` field, which only contains
+Terms of Service requirements, have been replaced with the new
+`acceptance_requirements_status`.
 
 <!-- more -->
 
-以前は、`GET
-/collaboration/<collaboration_id>?fields=acceptance_requirements`への呼び出しで以下のようなオブジェクトが返されていました。
+Previously a call to `GET
+/collaboration/<collaboration_id>?fields=acceptance_requirements` would return
+an object like the following:
 
 ```js
 "acceptance_requirements": {
@@ -40,8 +45,9 @@ fullyTranslated: true
 }
 ```
 
-新しいフィールドを使用すると、リクエスト`GET
-/collaboration/<collaboration_id>?fields=acceptance_requirements_status`は以下を返します。
+With the new field, the request `GET
+/collaboration/<collaboration_id>?fields=acceptance_requirements_status` would
+return the following:
 
 ```js
  "acceptance_requirements_status": {

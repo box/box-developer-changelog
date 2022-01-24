@@ -21,12 +21,11 @@ previous_page_id: 2021-04-22-box-ui-elements-v1300-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/05-19-box-node-sdk-v1371-released.md
 published_at: '2021-05-19'
-fullyTranslated: true
 ---
-# Box Node SDK `v1.37.1`のリリース
+# Box Node SDK `v1.37.1` released
 
-**バグ修正:**
+**Bug Fixes:**
 
-* 不適切な用語: `whitelist`から`allowlist`への変更 ([#625][1])
+* Insensitive language: replace `whitelist` with `allowlist` ([#625][1])
 
 [1]: https://github.com/box/box-node-sdk/pull/625

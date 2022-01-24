@@ -21,8 +21,7 @@ previous_page_id: 2019-04-15-changes-to-task-assignment-api-responses
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-25-java-sdk-v2320-release.md
 published_at: '2019-04-25'
-fullyTranslated: true
 ---
-# Java SDK `v2.32.0`のリリース
+# Java SDK `v2.32.0` released
 
-1. メタデータ設定をサポート ([#697](https://github.com/box/box-java-sdk/pull/697))
+1. Support for Set Metadata ([#697](https://github.com/box/box-java-sdk/pull/697))

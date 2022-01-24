@@ -22,20 +22,19 @@ previous_page_id: 2022-01-06-new-features-for-custom-app-management
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/01-17-box-ios-sdk-v510-released.md
 published_at: '2022-01-17'
-fullyTranslated: true
 ---
-# Box iOS SDK `v5.1.0`のリリース
+# Box iOS SDK `v5.1.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* `OAuth2`承認ページのURLのカスタマイズを許可 ([#811][1]) ([`1901d29`][2])
-* **`Events`:** `admin_logs_streaming stream`タイプのサポートを追加 ([#800][3]) ([`0a3118e`][4])
-* **`RetentionPolicy`:** リテンションの対象となっているファイルおよびファイルバージョンを取得するための新しいAPI ([#807][5]) ([`38327f0`][6])
-* **`SharedLink`:** `vanity_name`のサポートを追加 ([#799][7]) ([`3ea6eb2`][8])
+* Allow to customize URL for the `OAuth2` authorization page ([#811][1]) ([`1901d29`][2])
+* **`Events`:** Add support for `admin_logs_streaming stream` type ([#800][3]) ([`0a3118e`][4])
+* **`RetentionPolicy`:** New API for get files and file versions under retention ([#807][5]) ([`38327f0`][6])
+* **`SharedLink`:** add support for `vanity_name` ([#799][7]) ([`3ea6eb2`][8])
 
-### バグ修正
+### Bug Fixes
 
-* **`SignRequest`:** `prefillTag`でエンコード`date_value`を`yyyy-mm-dd`形式に修正 ([#806][9]) ([`4f902a4`][10])
+* **`SignRequest`:** Fix encoding `date_value` to `yyyy-mm-dd` format in `prefillTag` ([#806][9]) ([`4f902a4`][10])
 
 [1]: https://github.com/box/box-ios-sdk/issues/811
 

@@ -21,10 +21,9 @@ previous_page_id: 2018-04-30-windows-net-sdk-v380-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/05-10-java-sdk-v2190-release.md
 published_at: '2018-05-10'
-fullyTranslated: true
 ---
-# Java SDK `v2.19.0`のリリース
+# Java SDK `v2.19.0` released
 
-1. マルチゾーン ([#598](https://github.com/box/box-java-sdk/pull/598))
-2. `BoxCollaborator.Info`に`getLogin()`メソッドを追加 ([#602](https://github.com/box/box-java-sdk/pull/602))
-3. メタデータでの`multiSelect`フィールドのサポートを追加 ([#597](https://github.com/box/box-java-sdk/pull/597))
+1. Multizones ([#598](https://github.com/box/box-java-sdk/pull/598))
+2. Add `getLogin()` method on `BoxCollaborator.Info` ([#602](https://github.com/box/box-java-sdk/pull/602))
+3. Add support for `multiSelect` fields in metadata ([#597](https://github.com/box/box-java-sdk/pull/597))

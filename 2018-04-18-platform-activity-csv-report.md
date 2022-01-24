@@ -18,8 +18,14 @@ previous_page_id: 2018-04-11-windows-net-sdk-v370-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-18-platform-activity-csv-report.md
 published_at: '2018-04-18'
-fullyTranslated: true
 ---
-# プラットフォームアクティビティのCSVレポート
+# Platform Activity CSV report
 
-Box管理コンソールでEnterpriseのプラットフォームリソースの使用状況を表示するレポートを利用できるようになりました。このレポートの最初のバージョンでは、実効日である2018年4月1日までの、Boxの既存のContent APIに対するAPI呼び出しの総数への統合が表示されます。このレポートの今後の反復では、サービスごとの追加のリソース消費(月間アクティブユーザー、帯域幅、ストレージ)が表示され、履歴データも含められます。詳細については、[Boxコミュニティの記事「レポートの実行」][community]を参照してください。
+A report has been made available in the Box Admin Console that displays an
+enterprise's utilization of platform resources. The first version of this
+report displays integration into the total number of API calls to the Box
+existing Content API by day effective April 1st, 2018. Future iterations of
+this report will display additional resource consumption (Monthly Active Users,
+bandwidth, and storage) by service and will also include historical data. For
+more information, please see the [Running Reports article in Box
+Community][community].

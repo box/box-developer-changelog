@@ -21,62 +21,102 @@ previous_page_id: 2021-02-01-box-ios-sdk-v430-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/02-05-box-api-response-header-changes.md
 published_at: '2021-02-05'
-fullyTranslated: true
 ---
-# アプリケーションに影響を及ぼす可能性があるBox APIレスポンスヘッダーの変更
+# Box API response header changes that may impact your applications
 
-日本時間2021年5月11日に、インフラストラクチャの継続的なアップグレードの一環として、BoxのAPIレスポンスヘッダーが業界のベストプラクティスとAPIドキュメントに従って標準化され、常に小文字で返されるようになります。
+On May 10th, 2021, as part of our continued infrastructure upgrade, Box's API
+response headers will standardize to always return in a case-insensitive
+manner, in line with industry best practices and our API documentation.
 
-この変更は、以下の影響を及ぼす可能性があります。
+This change has the following potential impact:
 
-* [Salesforce SDK `v1`][salesforce-sdk-v1]のユーザーは、影響を受けるため、最新のSDKバージョンにアップグレードする必要があります。アップグレードしなかった場合、2021年5月10日を過ぎると、Box Salesforce統合は機能しなくなります。
-* Box APIのユーザーで、[Box SDK][box-sdks]のいずれも使用していない場合は影響を受ける可能性があるため、コード全体でヘッダーの使用状況を確認する必要があります。ヘッダーの使用状況によっては、調整しないと、Box API統合で中断が生じる可能性があります。
+* [Salesforce SDK `v1`][salesforce-sdk-v1] users will be impacted and will need
+  to upgrade to a recent SDK version. Not doing so will cause your Box
+  Salesforce integration to cease functioning after May 10th, 2021.
+* Box API consumers who do not use one of the [Box SDKs][box-sdks] may be
+  impacted and will need to verify header usage through their code. Depending on
+  your header usage, not making adjustments may cause disruptions in your
+  Box API integration.
 
-影響を受ける可能性があるユーザーとアプリケーション管理者全員に、メールで直接通知済みです。
+All customers and application admins who are potentially impacted have been
+notified directly via email.
 
 <!-- more -->
 
-## 変更の概要
+## Change overview
 
-上記のリターンヘッダー (`location`や`retry-after`など) を使用しているアプリケーションでは、そのアプリケーションが大文字小文字を区別せずにこれらのヘッダーをチェックしているかを確認することが必要になります。この1年間で、Boxは自社のネットワークおよび可観測性のインフラストラクチャをアップグレードしてきました。このようなアップグレードでは、お客様のためにBoxの製品の信頼性と利用可能性の向上を目標としています。この具体的な変更により、Boxは、更新されたサービスプロキシを展開できるようになるため、サービストラフィックの監視強化、問題点の迅速な特定、アプリケーションパフォーマンスのチューニングを実現できます。
+Applications that are using the return headers described above, such as
+`location` and `retry-after`, will need to verify that their applications are
+checking for these headers in a case-insensitive fashion. Over the past 12
+months Box has been upgrading its networking and observability infrastructure.
+These upgrades aim to improve reliability and availability of Box's products
+for our customers. This specific change allows Box to deploy an updated service
+proxy, enabling Box to better monitor service traffic, quickly find
+problem areas, and tune application performance.
 
-## APIをご利用の場合: アプリケーションへの影響の確認
+## API Consumers: Verifying application impact
 
-使用するアプリケーションが影響を受けるかどうかを確認するには、コードのレビューが必要になります。Box公式SDKのいずれかをBox APIへの接続だけに使用している場合は影響を受けません。SDKでは、大文字小文字を区別せずにレスポンスヘッダーが処理されるためです。
+Verifying whether your application(s) will be impacted will require a review of
+your code. If you are solely using one of the official Box SDKs to connect to
+Box APIs, you will not be impacted as the SDKs handle response headers in a
+case-insensitive manner.
 
-影響を受けているかどうかを確認するには、以下の手順に従います。
+You may verify whether you are impacted with the following steps:
 
-* Box APIリクエストからのレスポンスを処理するアプリケーションコードを特定します。これらのレスポンスからレスポンスヘッダーを抽出しなければ、影響を受けることはありません。
-* このようなレスポンスヘッダーを抽出する場合、ヘッダーの大文字小文字を区別する必要があると、影響を受ける可能性があります。 
+* Locate the code in your application which handles the responses from Box API
+  requests. If you are not extracting the response headers from these responses,
+  you are not impacted.
+* If you are extracting those response headers, you may be impacted if you are
+  expecting those headers in a case-sensitive fashion. 
 
-たとえば、`Location`ヘッダーの先頭が大文字`L`で返されること (つまり、特定の文字による文字列の直接比較) を想定している場合は、変更後に中断されないようにコードを修正する必要があります。
+For instance, if you are expecting the `Location` header to be returned with a
+starting capital `L`, a direct string comparison with a specific case, then
+your code will need to be altered to prevent it from breaking after the change
+is made.
 
-## APIをご利用の場合: 変更方法
+## API Consumers: How to make the change
 
-影響を受けるアプリケーションを更新するには、これらのレスポンスヘッダーを確認する際に大文字小文字を区別しないようにしてください。具体的には、ヘッダー (`Location`など) が送信される際に先頭が大文字`L`でも小文字`l`でも同様に処理されるよう、慎重にコードを作成する必要があります。たとえば、このプロセスを処理するための2つの方法として、確認する前にすべてのヘッダーを強制的に小文字にするか、大文字小文字を区別しない正規表現による文字列チェックを使用することができます。
+To update the impacted application(s), ensure that you are checking these
+response headers in a case-insensitive manner. Specifically, your code should
+be built in a defensive way to ensure that if a header, such as `Location`, is
+sent with an initial capital `L` or a lowercase `l`, it'll be handled in the
+same way. For example, forcing all headers to lowercase before checking, or
+using a case-insensitive regex string check, are two viable methods for
+handling this process.
 
-## Salesforce SDK `v1`をご利用の場合: アプリケーションへの影響の確認
+## Salesforce SDK `v1` users: Verifying application impact
 
-Box Salesforce SDKの`v1.0`を使用しているかどうかわからない場合は、アプリケーションコード内で、Box Salesforce SDKを格納している場所に移動し、以下の手順を実行します。
+If you are unsure whether you are using `v1.0` of the Box Salesforce SDK, go to
+the application code location where you have stored the Box Salesforce SDK and
+do the following:
 
-次のSalesforce SDKファイルを読み込む: `src/classes/BoxApiRequest.cls`
+Load the following Salesforce SDK file: `src/classes/BoxApiRequest.cls`
 
-以下の行 ([6～7行目][salesforce-code]) を探す。
+Look for the following lines ([should be lines 6-7][salesforce-code]):
 
 ```apex
 public final static String HEADER_LOCATION_LOWER_CASE = 'location';
 public final static String HEADER_LOCATION_CAPITALIZED = 'Location';
 ```
 
-上記の行が存在する場合は、使用しているSalesforce SDKは`v1.1.0`以降です。この場合は影響を受けず、変更も必要ありません。上記の行が存在しない場合、使用しているSalesforce SDKは`v1.0`です。この場合は影響を受けるため、更新する必要があります。
+If those lines are present then you are using `v1.1.0` or later of the
+Salesforce SDK, which is not impacted and no changes are needed. If those lines
+are not present then you are using `v1.0` of the Salesforce SDK, which will be
+impacted and will need to be updated.
 
-## Salesforce SDK `v1`をご利用の場合: 変更方法
+## Salesforce SDK `v1` users: How to make the change
 
-影響を受けるアプリケーションを更新するには、使用しているSalesforce SDKのバージョンを更新する必要があります。[最新バージョン][salesforce-sdk]のSDKへのアップグレードをお勧めしますが、アプリケーションに影響がないようにするには、[`v1.1.0`以降][salesforce-sdk-releases]であればどれでも十分です。
+To update the impacted application(s), you will need to update the version of
+the Salesforce SDK that you are using. It is recommended that you upgrade to
+the [most recent version][salesforce-sdk] of the SDK, but anything from
+[`v1.1.0` or later][salesforce-sdk-releases] will be adequate to ensure that
+there is no impact to your application(s).
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxサポートチームに[チケットを申請][support]するか、Boxの[開発者向けフォーラム][forum]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please
+[file a ticket][support] with our support team or post a request to our
+[developer forum][forum] for any help needed.
 
 [salesforce-sdk-v1]: https://github.com/box/box-salesforce-sdk/releases/tag/1.0.0
 

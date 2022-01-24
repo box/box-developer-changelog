@@ -21,23 +21,30 @@ previous_page_id: 2021-11-03-extend-retention-via-files-api
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/11-16-added-retention-policy-marker-based-pagination.md
 published_at: '2021-11-16'
-fullyTranslated: true
 ---
-# リテンションポリシーのマーカーベースのページ割りの追加
+# Added Retention Policy Marker Based Pagination
 
-BoxのOpenAPIの仕様は、リテンションポリシーおよびリテンションポリシー割り当てのエンドポイントで`marker`ベースのページ割りと`fields`クエリパラメータの使用を示すために更新されました。
+Our OpenAPI specification has been updated for retention policy and retention
+policy assignment endpoints to show use of `marker` based pagination and
+`fields` query parameters.
 
 <!-- more -->
 
-## 更新内容
+## Updates
 
-更新内容は以下のとおりです。
+The following updates were made:
 
-* [`GET /retention-policies`](e://get-retention-policies)および[`GET /retention-policies-id-assignments`](e://get-retention-policies-id-assignments)エンドポイントに`fields`、`limit`、`marker`クエリパラメータを追加しました。
-* [リテンションポリシー](e://resources/retention-policies)および[リテンションポリシー割り当て](e://resources/retention-policy-assignments)のレスポンスオブジェクトに`limit`と`next_marker `を追加しました。
+* Added `fields`, `limit`, and `marker` query parameters to the
+  [`GET /retention-policies`](e://get-retention-policies) and
+  [`GET /retention-policies-id-assignments`](e://get-retention-policies-id-assignments)
+  endpoints.
+* Added `limit` and `next_marker ` to the response object for
+  [retention policies](e://resources/retention-policies) and
+  [retention policy assignments](e://resources/retention-policy-assignments)
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][forum]に英語で投稿してください。
+Should you have any issues or need further guidance, please create a post on
+our [developer forum][forum] for any help needed.
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

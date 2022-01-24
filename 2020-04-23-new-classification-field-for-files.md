@@ -20,15 +20,18 @@ previous_page_id: 2020-04-23-java-sdk-v2470-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-23-new-classification-field-for-files.md
 published_at: '2020-04-23'
-fullyTranslated: true
 ---
-# ファイルの新しい`classification`フィールド
+# New `classification` field for Files
 
-`Field`オブジェクト内で、新しいオプションフィールドである`classification`が使用可能になりました。このフィールドは、現在ファイルに適用されている分類を表します。
+A new optional field has been made available within the `Field` object,
+`classification`. This field represents the classification that is currently
+applied to a file.
 
 <!-- more -->
 
-分類は、[ファイル情報の取得](endpoint://get-files-id)など、ファイルを返す任意のエンドポイントを介してリクエストでき、[追加`fields`のリクエスト](g://api-calls/request-extra-fields)をサポートします。
+The classification can be requested via any endpoint that returns a file, like
+the [Get file information](endpoint://get-files-id) and supports [requesting
+additional `fields`](g://api-calls/request-extra-fields).
 
 ```js
 {
@@ -44,4 +47,5 @@ fullyTranslated: true
 }
 ```
 
-分類は、APIまたはBox Shieldを介して設定することも、ユーザーがウェブアプリケーションを使用して設定することもできます。
+The classification can be set through the API, Box Shield, or by a user using
+the web application.

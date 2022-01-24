@@ -21,23 +21,23 @@ previous_page_id: 2021-07-30-box-java-sdk-v2551-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/08-03-getting-started-guide.md
 published_at: '2021-08-03'
-fullyTranslated: true
 ---
-# 新しい入門ガイド
+# New Getting Started Guide
 
-Box APIの利用を開始するには、Boxの[ステップバイステップガイド][guide]をご確認ください。最適なユースケース、ユーザーモデル、アーキテクチャパターンなどを紹介しています。
+Check out our [step by step guide][guide] to getting started with the Box API.
+Discover best use cases, user models, architecture patterns, and more.
 
 <!-- more -->
 
-## 機能
+## Features
 
-* ユースケースの評価: [ガイド][usecase]
-* 一般的なユーザーモデル: [ガイド][usemodel]
-* 一般的なアーキテクチャパターン: [ガイド][arch]
-* 一般的な値の確認: [ガイド][value]
-* セキュリティの概要: [ガイド][security]
-* 認証のベストプラクティス: [ガイド][bestprac]
-* 詳細な承認手順: [ガイド][auth]
+* Use case evaluation: [Guide][usecase]
+* Common user models: [Guide][usemodel]
+* Common architecture patterns: [Guide][arch]
+* Locating common values: [Guide][value]
+* Security overview: [Guide][security]
+* Authentication best practices: [Guide][bestprac]
+* Detailed authorization steps: [Guide][auth]
 
 [guide]: g://getting-started
 

@@ -23,19 +23,28 @@ previous_page_id: 2021-12-14-box-windows-sdk-v410-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/12-17-end-of-support-for-obsolete-language-versions.md
 published_at: '2021-12-17'
-fullyTranslated: true
 ---
-# 廃止された言語バージョンのサポートの終了
+# End of Support for Obsolete Language Versions
 
-Python SDKおよびJava SDKの次のメジャーバージョンをリリースする予定です。これに伴い、廃止された言語バージョンのサポートが終了となりますのでご注意ください。
+As Box to prepares to release the next major versions of the Python and
+Java SDKs, this is an alert that support is ending for obsolete language
+versions.
 
 <!-- more -->
 
-日本時間2022年1月18日に、[Python][2] SDKと[Java][3] SDKのライブラリのメジャーリリースが計画されており、廃止された言語バージョンのサポートが終了する予定です。Python SDKでは、Python SDKのバージョン`v3.0.0`以降のPython 2.7およびPython 3.5のサポートが終了します。Java SDKでは、Java SDKのバージョン`v3.0.0`以降のJava 7のサポートが終了します。Python SDKまたはJava SDKを使用するアプリケーションでは、[GitHub][4]のリリースセクションにあるこれらのライブラリの古いバージョンをそれぞれ使用できますが、今後の新機能は使用できません。
+On January 17, 2022, major releases of the [Python][2] and [Java][3] SDK
+libraries are planned, ending support for obsolete language versions. The Python
+SDK will abandon Python 2.7 and Python 3.5 starting from version `v3.0.0` of the
+Python SDK. The Java SDK will abandon Java 7 starting from version `v3.0.0` of
+the Java SDK. Applications using the Python or Java SDK can still use the
+respective older versions of those libraries located in the [GitHub][4]
+release section, but any future new features will not be available for use.
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][1]に英語でリクエストを投稿してください。また、それぞれのGitHubリポジトリでSDKチームにお問い合わせいただくことも可能です。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed. You can also connect with the SDK
+team on the respective GitHub repository.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

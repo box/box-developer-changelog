@@ -21,12 +21,11 @@ previous_page_id: 2020-10-02-new-file-request-apis-available
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-05-box-node-sdk-v1343-released.md
 published_at: '2020-10-05'
-fullyTranslated: true
 ---
-# Box Node SDK `v1.34.3`のリリース
+# Box Node SDK `v1.34.3` released
 
-バグ修正:
+Bug Fixes:
 
-* `ajv`依存関係のアップグレード ([#545][1])
+* Upgrade `ajv` dependency ([#545][1])
 
 [1]: https://github.com/box/box-node-sdk/issues/545

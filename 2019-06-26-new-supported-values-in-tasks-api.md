@@ -18,14 +18,19 @@ previous_page_id: 2019-06-20-windows-net-sdk-v3180-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/06-26-new-supported-values-in-tasks-api.md
 published_at: '2019-06-26'
-fullyTranslated: true
 ---
-# Tasks APIで新たにサポートされる値
+# New supported values in Tasks API
 
-6月26日に、新しいタスクタイプである一般タスクのサポートが開始されました。タスクを作成または更新する際に、`action`フィールドが、承認タスクの場合は`review`に、新しい一般タスクの場合は`complete`になります。
+On June 26th, Box released support for a new task type, general tasks. When
+creating or updating a task, the `action` field can either be `review` for
+approval tasks or `complete` for the new general tasks.
 
-この変更は、タスク割り当ての更新時に使用できる値にも影響します。承認/レビュータスクを更新する場合、`resolution_state`を`incomplete`、`approved`、または`rejected`に設定できます。一般/完了タスクには、`incomplete`または`completed`の`resolution_state`を指定できます。
+This change also affects the accepted values when updating a task assignment.
+If you want to update an approval/review task, the `resolution_state` can be
+set to `incomplete`, `approved`, or `rejected`. A general/complete task can
+have a `resolution_state` of `incomplete` or `completed`.
 
-Tasks APIのレスポンスの本文内では、タスクに「一般」や「承認」という分類が付けられません。これは、BoxのUIでのみ反映されます。
+The Tasks API doesn't refer to tasks as "General" or "Approval" within the
+response body. This is reflected only within Box's UI.
 
-ドキュメントは[こちら](endpoint://resources/task/)で参照できます。
+Docs can be found [here](endpoint://resources/task/).

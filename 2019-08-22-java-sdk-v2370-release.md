@@ -21,9 +21,8 @@ previous_page_id: 2019-08-01-java-sdk-v2360-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/08-22-java-sdk-v2370-release.md
 published_at: '2019-08-22'
-fullyTranslated: true
 ---
-# Java SDK `v2.37.0`のリリース
+# Java SDK `v2.37.0` released
 
-1. `BoxConfig.readFrom()`に関する認証ドキュメントを改良 ([#723](https://github.com/box/box-java-sdk/pull/723))
-2. 複数選択メタデータの置換機能を追加 ([#726](https://github.com/box/box-java-sdk/pull/726))
+1. Improving authentication docs for `BoxConfig.readFrom()` ([#723](https://github.com/box/box-java-sdk/pull/723))
+2. Add replace functionality for multi select metadata ([#726](https://github.com/box/box-java-sdk/pull/726))

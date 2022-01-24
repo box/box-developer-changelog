@@ -21,13 +21,15 @@ previous_page_id: 2019-02-08-python-sdk-v210-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-08-windows-net-sdk-v3120-release.md
 published_at: '2019-02-08'
-fullyTranslated: true
 ---
-# Windows .NET SDK `v3.12.0`のリリース
+# Windows .NET SDK `v3.12.0` released
 
-* ファイルのコラボレーションのコレクション全体をページングできるように`client.FilesManager.GetCollaborationsCollectionAsync()`と非推奨の`client.FilesManager.GetCollaborationsAsync()`を追加
-* `client.WebLinksManager.CopyAsync()`、`client.WebLinksManager.CreateSharedLinkAsync()`、および`client.WebLinksManager.DeleteSharedLinkAsync()`を追加
-* ユーザーのアバター画像を取得するための`client.UsersManager.GetUserAvatarAsync()`を追加
+* Added `client.FilesManager.GetCollaborationsCollectionAsync()` and deprecated
+  `client.FilesManager.GetCollaborationsAsync()` to enable paging through the entire
+  collection of collaborations on a file
+* Added `client.WebLinksManager.CopyAsync()`, `client.WebLinksManager.CreateSharedLinkAsync()`,
+  and `client.WebLinksManager.DeleteSharedLinkAsync()`
+* Added `client.UsersManager.GetUserAvatarAsync()` for retrieving a user's avatar image
 
 [`nuget.org/packages/Box.V2/3.12.0`](https://www.nuget.org/packages/Box.V2/3.12.0)
 [`nuget.org/packages/Box.V2.Core/3.12.0`](https://www.nuget.org/packages/Box.V2.Core/3.12.0)

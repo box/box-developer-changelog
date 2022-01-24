@@ -21,9 +21,8 @@ previous_page_id: 2019-12-06-windows-net-sdk-v3210-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/12-17-java-sdk-v2420-release.md
 published_at: '2019-12-17'
-fullyTranslated: true
 ---
-# Java SDK `v2.42.0`のリリース
+# Java SDK `v2.42.0` released
 
-1. `SDK-1168` メタデータクエリ ([#760](https://github.com/box/box-java-sdk/pull/760))
-2. ユーザー取得メソッドにマーカーベースのページ割りを追加 ([#759](https://github.com/box/box-java-sdk/pull/759))
+1. `SDK-1168` Metadata Query ([#760](https://github.com/box/box-java-sdk/pull/760))
+2. Add marker based pagination for get users methods ([#759](https://github.com/box/box-java-sdk/pull/759))

@@ -21,23 +21,34 @@ previous_page_id: 2021-06-16-box-python-sdk-v2121-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/07-01-notice-of-behavior-change-for-item-open-events.md
 published_at: '2021-07-01'
-fullyTranslated: true
 ---
-# 項目を開くイベントの動作変更のお知らせ
+# Notice of behavior change for item open events
 
-本日以降、アプリケーションがBoxの[イベントAPIエンドポイント][event-apis]から`ITEM_OPEN`イベントを使用した場合のこのイベントの動作に対する変更のリリースを開始します。
+Starting today, we will begin rolling out changes to the behavior
+of `ITEM_OPEN` events when an application consumes those events from our
+[event API endpoint][event-apis].
 
-この変更は`ITEM_OPEN` [Enterprise Event][user-events]のみに影響します。この新しい動作により、既存のアプリケーション内でダウンタイムが発生することはありません。また、稼働時間の中断を防ぐためのアプリケーションの変更も必要ありません。
+This change will only affect the `ITEM_OPEN` [enterprise event][user-events].
+The new behavior will not cause downtime within existing applications or
+require any application changes to prevent uptime disruptions.
 
-## 変更の概要
+## Change overview
 
-以前の動作では、イベントを使用した場合、開かれた項目イベントが、コンテンツの所有者およびコンテンツに割り当てられたすべてのコラボレータのイベントタイプ`ITEM_OPEN`によって表示されました。つまり、2,000人のコラボレータが存在するファイルがDriveなどで開かれた場合、このファイルの所有者に加えて2,000人のコラボレータ全員に、ファイルが開かれたことを示すイベントが作成されます。
+Within the previous behavior when events were consumed, opened item events were
+surfaced through the `ITEM_OPEN` event type for the owner of the content as
+well as any contributors assigned to the content. This meant that if a file with
+2000 collaborators on it was opened, say on Drive, the file owner plus all
+2000 collaborators would have an event created stating that the file was opened.
 
-新しい動作では、項目が開かれたという通知がコンテンツの所有者に対してのみ作成され、コラボレータに対しては生成されません。これは、コンテンツの所有者としていつ項目が開かれたかを確認できるようにしたままイベントストリームのノイズを低減するのに役立ちます。
+With the new behavior, notification of an item being opened will only be created
+for the owner of the content and will not be produced for collaborators. This
+will help to reduce the noise of the event stream while preserving the ability
+to see when items are opened as a content owner.
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][forum]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][forum] for any help needed.
 
 [event-apis]: https://developer.box.com/reference/get-events
 
