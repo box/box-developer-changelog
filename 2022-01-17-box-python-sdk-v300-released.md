@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-01-26-box-python-sdk-v301-released
 previous_page_id: 2022-01-17-box-java-sdk-v300-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/01-17-box-python-sdk-v300-released.md
