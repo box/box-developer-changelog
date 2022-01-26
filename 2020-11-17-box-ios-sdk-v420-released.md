@@ -22,16 +22,17 @@ previous_page_id: 2020-11-13-box-java-sdk-v2511-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-17-box-ios-sdk-v420-released.md
 published_at: '2020-11-17'
+fullyTranslated: true
 ---
-# Box iOS SDK `v4.2.0` released
+# Box iOS SDK `v4.2.0`のリリース
 
-**Breaking Changes:**
+**重大な変更:**
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add error information for disconnected OAuth web sessions
+* 接続が切断されたOAuthウェブセッションのエラー情報を追加
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Fix bug with creating collaboration
-* Fix bug with getting enterprise events
+* コラボレーションの作成に関するバグを修正
+* Enterprise Eventの取得に関するバグを修正

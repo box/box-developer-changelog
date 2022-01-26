@@ -20,29 +20,24 @@ previous_page_id: 2020-05-15-box-ios-sdk-v410-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-11-change-to-enterprise-events-for-tasks.md
 published_at: '2020-06-11'
+fullyTranslated: true
 ---
-# Change to enterprise events for tasks
+# タスクに関するEnterprise Eventの変更
 
-Starting today, the [enterprise event stream](g://events/enterprise-events/for-enterprise/) will
-begin producing new task and task assignment events, and some existing task
-events will return additional fields.
+本日以降、[Enterprise Event Stream](g://events/enterprise-events/for-enterprise/)は、新しいタスクとタスク割り当てイベントの生成を開始します。一部の既存のタスクイベントでは追加のフィールドが返されます。
 
 <!-- more -->
 
-## New events
+## 新しいイベント
 
-* A new `TASK_UPDATE` event is triggered when a task is updated
-* A new `TASK_ASSIGNMENT_DELETE` event is triggered when a task is unassigned
-  from a user
+* タスクが更新されると、新しい`TASK_UPDATE`イベントがトリガーされます
+* ユーザーからタスクの割り当てが解除されると、新しい`TASK_ASSIGNMENT_DELETE`イベントがトリガーされます
 
-## Updated events
+## 更新されたイベント
 
-### Changes to `TASK_CREATE`
+### `TASK_CREATE`の変更
 
-When a task is created, the event now includes the task's ID (`task.id`), the ID
-of the user who created the task (`task.created_by.id`), the task's description
-(`task.message`), and the optional due date of the task  (`task.due_date`)
-within the `additional_details` object.
+タスクが作成されたときに、このイベントでは、タスクのID (`task.id`)、タスクを作成したユーザーのID (`task.created_by.id`)、タスクの説明 (`task.message`)、およびタスクの期日 (`task.due_date`、省略可) が`additional_details`オブジェクト内に含まれるようになりました。
 
 ```json
 "additional_details": {
@@ -59,13 +54,9 @@ within the `additional_details` object.
 }
 ```
 
-### Changes to `TASK_ASSIGNMENT_CREATE` and `TASK_ASSIGNMENT_UPDATE`
+### `TASK_ASSIGNMENT_CREATE`および`TASK_ASSIGNMENT_UPDATE`の変更
 
-When a task assignment is created or updated, the event now includes the task's
-ID (`task.id`), the ID of the assigned user (`task_assignment.assigned_to.id`)
-and their login (`task_assignment.assigned_to.login`), the task's description
-(`task.message`), and the optional due date of the task (`task.due_date`) within
-the `additional_details` object.
+タスク割り当てが作成または更新されたときに、このイベントでは、タスクのID (`task.id`)、タスクを割り当てられたユーザーのID (`task_assignment.assigned_to.id`) とそのログイン (`task_assignment.assigned_to.login`)、タスクの説明 (`task.message`)、およびタスクの期日 (`task.due_date`、省略可) が`additional_details`オブジェクト内に含まれるようになりました。
 
 ```json
 "additional_details": {
@@ -88,5 +79,4 @@ the `additional_details` object.
 }
 ```
 
-See the [enterprise events](g://events/enterprise-events/for-enterprise/) documentation
-for more information on other event types.
+その他のイベントタイプの詳細については、[Enterprise Event](g://events/enterprise-events/for-enterprise/)に関するドキュメントを参照してください。

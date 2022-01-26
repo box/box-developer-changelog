@@ -21,40 +21,33 @@ previous_page_id: 2021-03-16-new-collection-events
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/03-25-new-metadata-query-indicies-endpoint.md
 published_at: '2021-03-25'
+fullyTranslated: true
 ---
-# New Metadata Query Indices Endpoint
+# 新しいメタデータクエリインデックスのエンドポイント
 
-A new API endpoint has been introduced to get a list of metadata query indices
-for a given template and scope.
+指定したテンプレートとスコープのメタデータクエリインデックスのリストを取得する新しいAPIエンドポイントが導入されました。
 
 <!-- more -->
 
-Metadata queries provide a way to find files and folders by searching for the
-metadata attached to them.
+メタデータクエリを使用すると、ファイルやフォルダに追加されているメタデータを検索して、そのファイルやフォルダを見つけることができます。
 
-When performing metadata queries on 10,000 or more files or folders,
-non-performant queries may produce an `HTTP 403` error.
-[Creating a search index][mdq-indices-guide-create] delivers the ability to run
-these queries at scale to bypass this error state, and are automatically applied
-during the querying process.
+10,000を超えるファイルやフォルダに対してメタデータクエリを実行する際に、クエリのパフォーマンスが悪いと`HTTP 403`エラーが発生する場合があります。[検索インデックスを作成][mdq-indices-guide-create]すれば、これらのクエリを大規模に実行して、このエラー状態を回避できます。また、検索インデックスは、クエリの処理中に自動的に適用されます。
 
-The new endpoint permits the lookup of these created search indices.
+この新しいエンドポイントにより、作成されたこれらの検索インデックスの参照が可能になります。
 
-## Features
+## 機能
 
-This release has introduced the following new content and features.
+このリリースでは、以下の新しいコンテンツと機能が導入されました。
 
-* New [API endpoint][mdq-indices-endpoint] to get a list of metadata query
-  indices by scope and template.
-* New metadata query index [response object][mdq-index-response].
-* New metadata query indices [response object][mdq-indices-response].
+* スコープやメタデータを指定してメタデータクエリインデックスのリストを取得するための新しい[APIエンドポイント][mdq-indices-endpoint]。
+* 新しいメタデータクエリインデックスの[レスポンスオブジェクト][mdq-index-response]。
+* 新しいメタデータクエリインデックス (複数) の[レスポンスオブジェクト][mdq-indices-response]。
 
-## Updates
+## 更新内容
 
-This release includes the following updated content.
+このリリースでは、次のように、コンテンツが更新されました。
 
-* Updated [metadata query indices][mdq-indices-guide] guide to include details
-  on how to get a list of metadata query indices. 
+* メタデータクエリインデックスのリストを取得する方法の詳細が記載されている[メタデータクエリインデックス][mdq-indices-guide]ガイドを更新。 
 
 [mdq-indices-guide-create]: g://metadata/queries/indexes/#request-an-index
 

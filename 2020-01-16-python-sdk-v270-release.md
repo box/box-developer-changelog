@@ -21,13 +21,14 @@ previous_page_id: ''
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/01-16-python-sdk-v270-release.md
 published_at: '2020-01-16'
+fullyTranslated: true
 ---
-# Python SDK `v2.7.0` released
+# Python SDK `v2.7.0`のリリース
 
-* Fixed bug in `get_admin_events` function which caused errors when the optional `event_types` parameter was omitted.
-* Add marker based pagination for listing users.
-* Added support for more attribute parameters when uploading new files and new versions of existing files.
-* Combined preflight check and lookup of accelerator URL into a single request for uploads.
-* Fixed JWT retry logic so a new JTI claim is generated on each retry.
-* Fixed bug where JWT authentication requests returned incorrect error codes.
-* Fixed retry logic so when a Retry-After header is passed back from the API, the SDK waits for the amount of time specified in the header before retrying.
+* 省略可能な`event_types`パラメータの省略時にエラーが発生する`get_admin_events`関数のバグが修正されました。
+* ユーザーのリスト取得にマーカーベースのページ割りが追加されました。
+* 新しいファイルや既存ファイルの新バージョンをアップロードするときにより多くの属性パラメータがサポートされるようになりました。
+* アクセラレータURLの事前チェックとルックアップがアップロードの単一のリクエストに統合されました。
+* JWTの再試行ロジックが修正され、再試行ごとに新しいJTIクレームが生成されるようになりました。
+* JWT認証リクエストが誤ったエラーコードを返すバグが修正されました。
+* 再試行ロジックが修正され、APIからRetry-Afterヘッダーが返された場合、SDKは再試行の前にヘッダーで指定された時間待機するようになりました。

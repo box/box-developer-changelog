@@ -21,17 +21,18 @@ previous_page_id: 2021-09-29-box-node-sdk-v200-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/09-30-box-python-sdk-v2130-released.md
 published_at: '2021-09-30'
+fullyTranslated: true
 ---
-# Box Python SDK `v2.13.0` released
+# Box Python SDK `v2.13.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Sensitive language replacement ([#609][1])
-* Add BoxSign support ([#617][2])
+* 不適切な用語の変更 ([#609][1])
+* Box Signのサポートを追加 ([#617][2])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Upgrade cryptography to version 3 ([#620][3])
+* 暗号化技術をバージョン3にアップグレード ([#620][3])
 
 [1]: https://github.com/box/box-python-sdk/pull/609
 

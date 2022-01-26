@@ -20,12 +20,11 @@ previous_page_id: 2020-04-21-new-metadata-query-apis-available
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-23-add-new-uploader_display_name-field-to-file-and-file-versions.md
 published_at: '2020-04-23'
+fullyTranslated: true
 ---
-# Add new `uploader_display_name` field to file and file versions
+# ファイルおよびファイルバージョンに新しい`uploader_display_name`を追加
 
-A new field, `uploader_display_name` has been added to both file and file
-version resources. This field provides the name of the user at the time of
-upload.
+新しいフィールド`uploader_display_name`がファイルリソースとファイルバージョンリソースの両方に追加されました。このフィールドでは、アップロード時にユーザーの名前を指定します。
 
 <!-- more -->
 
@@ -36,14 +35,11 @@ upload.
 }
 ```
 
-This field can be requested on any of the file and file
-version endpoints by providing the `fields` query parameter, for example:
+このフィールドをファイルおよびファイルバージョンのエンドポイントのいずれかでリクエストするには、`fields`クエリパラメータを指定します。以下に例を示します。
 
 ```bash
 curl -X GET https://api.box.com/2.0/files/12345?fields=uploader_display_name \
      -H 'Authorization: Bearer <ACCESS_TOKEN>'
 ```
 
-When the file is uploaded by a logged out anonymous, the email of the
-user is returned instead. If no email is available then the field will default
-to the text `Someone`.
+ログアウトした匿名ユーザーがファイルをアップロードすると、そのユーザーのメールアドレスが返されます。使用可能なメールアドレスがない場合、このフィールドはデフォルトで`Someone`というテキストが設定されます。

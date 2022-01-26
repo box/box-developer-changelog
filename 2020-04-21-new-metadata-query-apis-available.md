@@ -18,13 +18,11 @@ previous_page_id: 2020-04-21-box-cli-v251-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-21-new-metadata-query-apis-available.md
 published_at: '2020-04-21'
+fullyTranslated: true
 ---
-# New Metadata Query APIs available
+# 新しいメタデータクエリAPI
 
-A new API is now available that allows developers to query files and folders
-by the metadata attached to them. We've updated the reference documentation for
-this [Metadata Query API][e_mdq_api], as well as released some brand new
-[guides][g_mdq_api] and an update to the [metadata quick start guide][qs_mdq_api].
+新しいAPIが使用可能になりました。開発者はこのAPIを使用して、ファイルやフォルダに追加されているメタデータによってそのファイルやフォルダに対してクエリを実行できます。Boxは、こちらの[メタデータクエリAPI][e_mdq_api]のリファレンスドキュメントを更新したほか、新しい[ガイド][g_mdq_api]と[メタデータのクイックスタートガイド][qs_mdq_api]の更新をリリースしました。
 
 [e_mdq_api]: e://post_metadata_queries_execute_read
 

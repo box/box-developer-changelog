@@ -21,11 +21,12 @@ previous_page_id: 2020-07-30-updates-to-search-relevance-performance
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/08-07-box-node-sdk-v1340-released.md
 published_at: '2020-08-07'
+fullyTranslated: true
 ---
-# Box Node SDK `v1.34.0` released
+# Box Node SDK `v1.34.0`のリリース
 
-* Add zip functionality ([#525][1]) [`2f89357`][2]
-* Add proxy support for HTTP, HTTPS, SOCKS and PAC protocols ([#529][3]) [`b08cc24`][4]
+* Zip機能の追加 ([#525][1]) [`2f89357`][2]
+* HTTP、HTTPS、SOCKS、PACプロトコルのプロキシサポートの追加 ([#529][3]) [`b08cc24`][4]
 
 [https://github.com/box/box-node-sdk/compare/v1.33.0...v1.34.0][5]
 

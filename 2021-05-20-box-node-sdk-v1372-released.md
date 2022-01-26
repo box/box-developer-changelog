@@ -21,12 +21,13 @@ previous_page_id: 2021-05-19-box-node-sdk-v1371-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/05-20-box-node-sdk-v1372-released.md
 published_at: '2021-05-20'
+fullyTranslated: true
 ---
-# Box Node SDK `v1.37.2` released
+# Box Node SDK `v1.37.2`のリリース
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Fix backwards compatibility issue by moving some TypeScript [`@types`][1] as direct dependencies ([#630][2])
+* 一部のTypeScript[`@types`][1]を直接的な依存関係として移動することで、後方互換性の問題を修正 ([#630][2])
 
 [1]: https://github.com/types
 

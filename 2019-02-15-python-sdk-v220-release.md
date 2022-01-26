@@ -21,8 +21,9 @@ previous_page_id: 2019-02-14-windows-net-sdk-v3130-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-15-python-sdk-v220-release.md
 published_at: '2019-02-15'
+fullyTranslated: true
 ---
-# Python SDK `v2.2.0` released
+# Python SDK `v2.2.0`のリリース
 
-* Added ability for user to [retrieve an avatar](https://github.com/box/box-python-sdk/blob/master/docs/usage/user.md#get-the-avatar-for-a-user) for a user.
-* Changed retry strategy to use exponential back-off with randomized jitter.
+* ユーザーがユーザーの[アバターを取得](https://github.com/box/box-python-sdk/blob/master/docs/usage/user.md#get-the-avatar-for-a-user)する機能が追加されました。
+* ランダム化されたジッターを伴う指数バックオフを使用するよう再試行戦略が変更されました。

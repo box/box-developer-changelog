@@ -21,21 +21,21 @@ previous_page_id: 2021-10-07-update-to-webhooks-response
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/10-18-box-java-sdk-v2570-released.md
 published_at: '2021-10-18'
+fullyTranslated: true
 ---
-# Box Java SDK `v2.57.0` released
+# Box Java SDK `v2.57.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add support for marker-based paging in `BoxFolder.getChildren` ([#927][1])
-* Upgraded `minimal-json` to version 0.9.5
-* Upgraded `jose4j` to version 0.7.9
-* Adding Gradle wrapper in version 4.0.1 ([#928][2])
+* `BoxFolder.getChildren`でのマーカーベースのページ割りのサポートを追加 ([#927][1])
+* `minimal-json`をバージョン0.9.5にアップグレード
+* `jose4j`をバージョン0.7.9にアップグレード
+* バージョン4.0.1にGradleラッパーを追加 ([#928][2])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Fix for infinite recursion ([#924][3])
-* Fix unable to set Vanity URL on `BoxSharedLink` for `BoxFile` and `BoxFolder`
-  ([#925][4])
+* 無限再帰の修正 ([#924][3])
+* `BoxFile`および`BoxFolder`の`BoxSharedLink`にバニティURLを設定できないバグの修正 ([#925][4])
 
 [1]: https://github.com/box/box-java-sdk/pull/927
 

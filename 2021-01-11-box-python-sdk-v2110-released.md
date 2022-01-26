@@ -21,11 +21,12 @@ previous_page_id: 2021-01-09-box-java-sdk-v2530-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/01-11-box-python-sdk-v2110-released.md
 published_at: '2021-01-11'
+fullyTranslated: true
 ---
-# Box Python SDK `v2.11.0` released
+# Box Python SDK `v2.11.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Deprecate and add method for getting a thumbnail ([#572][1])
+* サムネイルを取得するためのメソッドの廃止および追加 ([#572][1])
 
 [1]: https://github.com/box/box-python-sdk/pull/572

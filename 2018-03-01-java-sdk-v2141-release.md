@@ -21,9 +21,10 @@ previous_page_id: 2018-02-28-breaking-change-to-metadata-apis
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-01-java-sdk-v2141-release.md
 published_at: '2018-03-01'
+fullyTranslated: true
 ---
-# Java SDK `v2.14.1` released
+# Java SDK `v2.14.1`のリリース
 
-1. Add randomization to exponential backoff ([#565](https://github.com/box/box-java-sdk/pull/565))
-2. Force TLS version 1.1 or greater when supported ([#548](https://github.com/box/box-java-sdk/pull/548))
-3. Delay successive API calls by `EventStream` ([#564](https://github.com/box/box-java-sdk/pull/564))
+1. 指数バックオフにランダム化を追加 ([#565](https://github.com/box/box-java-sdk/pull/565))
+2. サポート対象時にTLSバージョン1.1以降を強制 ([#548](https://github.com/box/box-java-sdk/pull/548))
+3. 連続するAPI呼び出しを`EventStream`によって遅延 ([#564](https://github.com/box/box-java-sdk/pull/564))

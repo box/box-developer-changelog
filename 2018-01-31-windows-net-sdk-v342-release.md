@@ -21,10 +21,11 @@ previous_page_id: 2018-01-25-java-sdk-v2110-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/01-31-windows-net-sdk-v342-release.md
 published_at: '2018-01-31'
+fullyTranslated: true
 ---
-# Windows .NET SDK `v3.4.2` released
+# Windows .NET SDK `v3.4.2`のリリース
 
-Updated Box SDK Version in `NuSpec` file to fix dependency issues for `Box V2` and `Box V2.Core`.
+`NuSpec`ファイルのBox SDKバージョンを更新し、`Box V2`および`Box V2.Core`の依存関係の問題を修正しました。
 
 [`nuget.org/packages/Box.V2/3.4.2`](https://www.nuget.org/packages/Box.V2/3.4.2)
 [`nuget.org/packages/Box.V2.Core/3.4.2`](https://www.nuget.org/packages/Box.V2.Core/3.4.2)

@@ -21,23 +21,24 @@ previous_page_id: 2020-11-09-simplified-app-creation-flow
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-13-box-content-preview-v2570-released.md
 published_at: '2020-11-13'
+fullyTranslated: true
 ---
-# Box Content Preview `v2.57.0` released
+# Box Content Preview `v2.57.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add react versions of core control components ([#1282][1282])
-* Add react versions of existing control icons ([#1280][1280])
-* Add react versions of fullscreen and zoom controls ([#1283][1283])
-* Add react versions of text viewer controls ([#1284][1284])
-* Add instrumentation for annotation creation ([#1275][1275])
-* Upgrade `react` and `react-dom` to `^16.9.0` ([#1278][1278])
+* コアコントロールコンポーネントのReactバージョンを追加 ([#1282][1282])
+* 既存のコントロールアイコンのReactバージョンを追加 ([#1280][1280])
+* 全画面コントロールとズームコントロールのReactバージョンを追加 ([#1283][1283])
+* テキストビューアーコントロールのReactバージョンを追加 ([#1284][1284])
+* 注釈作成の手段を追加 ([#1275][1275])
+* `react`および`react-dom`を`^16.9.0`にアップグレード ([#1278][1278])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Select newly created annotation ([#1276][1276])
-* Allow download of files via embedded links in Chrome ([#1277][1277])
-* Revert `pdf.js` to `v2.2.228` due to font rendering issue ([#1274][1274])
+* 新しく作成した注釈を選択 ([#1276][1276])
+* Chromeで埋め込みリンクを使用したファイルのダウンロードを許可 ([#1277][1277])
+* フォントのレンダリングに関する問題により`pdf.js`を`v2.2.228`に戻す ([#1274][1274])
 
 [1282]: https://github.com/box/box-content-preview/pull/1282
 

@@ -18,17 +18,8 @@ previous_page_id: 2018-04-11-box-cli-v120-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-11-metadata-driven-retention-policies.md
 published_at: '2018-04-11'
+fullyTranslated: true
 ---
-# Metadata-driven retention policies
+# メタデータ駆動のリテンションポリシー
 
-We have introduced new functionality in the
-[Retention Policy Object](endpoint://resources/retention-policy/)
-API Explorer element to support metadata-driven retention policies, where
-retention policies can be applied to individual files based on custom metadata.
-This also enables customers to configure retention policies at the launch file
-level in addition to at the global and folder levels. In addition to bringing
-these new, expanded Box Governance capabilities to Box Admins via the Box Admin
-Console, we’re also making these capabilities available via the
-[Retention Policy](endpoint://resources/retention-policy/) and
-[Retention Assignment](endpoint://resources/retention-policy-assignment/) APIs
-and in Box's Java, Node, and .NET [SDKs](guides://tooling/sdks).
+[リテンションポリシーオブジェクト](endpoint://resources/retention-policy/)APIエクスプローラElementに、メタデータ駆動のリテンションポリシーをサポートする新しい機能が導入されました。この機能では、カスタムメタデータに基づいてリテンションポリシーを個々のファイルに適用できます。これにより、グローバルレベルおよびフォルダレベルに加えて、起動ファイルレベルでもリテンションポリシーを設定できます。これらの新しい拡張されたBox Governance機能は、Box管理コンソールを介してBox管理者に提供され、さらに[リテンションポリシー](endpoint://resources/retention-policy/)および[リテンションの割り当て](endpoint://resources/retention-policy-assignment/)API、BoxのJava、Node、および.NET [ SDK](guides://tooling/sdks)でも使用できるようになります。

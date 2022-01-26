@@ -21,17 +21,18 @@ previous_page_id: 2021-04-15-notice-of-behavior-change-for-item_download-events
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/04-16-box-node-sdk-v1370-released.md
 published_at: '2021-04-16'
+fullyTranslated: true
 ---
-# Box Node SDK `v1.37.0` released
+# Box Node SDK `v1.37.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add support for `copyInstanceOnItemCopy` field for metadata templates ([#572][1])
+* メタデータテンプレートの`copyInstanceOnItemCopy`フィールドのサポートを追加 ([#572][1])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Fix webhook signature validation ([#568][2])
-* Update dependencies to patch security vulnerabilities ([#578][3])
+* Webhook署名の検証を修正 ([#568][2])
+* セキュリティの脆弱性にパッチを適用するための依存関係の更新 ([#578][3])
 
 [1]: https://github.com/box/box-node-sdk/pull/572
 

@@ -21,8 +21,9 @@ previous_page_id: 2020-04-23-new-classification-field-for-files
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/04-24-python-sdk-v280-release.md
 published_at: '2020-04-24'
+fullyTranslated: true
 ---
-# Python SDK `v2.8.0` released
+# Python SDK `v2.8.0`のリリース
 
-* Added support for token exchange using shared links
-* Added the ability to pass in a SHA1 value for file uploads
+* 共有リンクを使用したトークン交換のサポートを追加
+* ファイルのアップロードでSHA1値を渡す機能を追加

@@ -18,18 +18,15 @@ previous_page_id: 2018-12-14-windows-net-sdk-v3100-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/12-21-box-cli-v2-released.md
 published_at: '2018-12-21'
+fullyTranslated: true
 ---
-# Box CLI V2 release
+# Box CLI V2のリリース
 
-A major version release (V2) has been made to the [Box CLI](guide://tooling/cli/quick-start).
-See the following links for updated information:
+[Box CLI](guide://tooling/cli/quick-start)のメジャーバージョン (V2) がリリースされました。更新された情報については、以下のリンクを参照してください。
 
-* [Release notes][cli_v2_release_notes]: Major revision details, breaking
-  changes, and bug fixes.
-* [Command list][cli_v2_release_commands]: All commands available in the new
-  CLI.
-* [Installation options](guide://tooling/cli/quick-start/install-and-configure): Standalone installers and
-  source code options.
+* [リリースノート][cli_v2_release_notes]: 大きな修正の詳細、重大な変更、バグの修正。
+* [コマンドの一覧][cli_v2_release_commands]: 新しいCLIで利用可能なすべてのコマンド。
+* [インストールオプション](guide://tooling/cli/quick-start/install-and-configure): スタンドアロンインストーラとソースコードオプション。
 
 [cli_v2_release_notes]: https://github.com/box/boxcli/blob/master/CHANGELOG.md#200
 

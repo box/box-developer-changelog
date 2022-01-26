@@ -21,8 +21,9 @@ previous_page_id: 2019-03-28-node-sdk-v1280-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-28-python-sdk-v230-release.md
 published_at: '2019-03-28'
+fullyTranslated: true
 ---
-# Python SDK `v2.3.0` released
+# Python SDK `v2.3.0`のリリース
 
-* Added the ability to set [file description upon upload](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#upload-a-file)
-* Added support for [basic authenticated proxy and unauthenticated proxy](https://github.com/box/box-python-sdk/blob/master/docs/usage/configuration.md#proxy)
+* [アップロード時にファイルの説明](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#upload-a-file)を設定する機能を追加
+* [基本的な認証プロキシと非認証プロキシ](https://github.com/box/box-python-sdk/blob/master/docs/usage/configuration.md#proxy)のサポートを追加

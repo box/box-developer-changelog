@@ -21,12 +21,12 @@ previous_page_id: 2019-02-08-windows-net-sdk-v3120-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/02-14-windows-net-sdk-v3130-release.md
 published_at: '2019-02-14'
+fullyTranslated: true
 ---
-# Windows .NET SDK `v3.13.0` released
+# Windows .NET SDK `v3.13.0`のリリース
 
-* Added the `.InviteEmail` property to `BoxCollaboration` objects, which displays the email address for the invited
-  user in a pending collaboration
-* Added `.Timezone`, `.IsExternalCollabRestricted`, `.Tags`, and `.Hostname` properties to `BoxUser` objects
+* `BoxCollaboration`オブジェクトに`.InviteEmail`プロパティを追加。このプロパティは、保留中のコラボレーションで招待されたユーザーのメールアドレスを表示します。
+* `BoxUser`オブジェクトに`.Timezone`、`.IsExternalCollabRestricted`、`.Tags`、および`.Hostname`プロパティを追加
 
 [`nuget.org/packages/Box.V2/3.13.0`](https://www.nuget.org/packages/Box.V2/3.13.0)
 [`nuget.org/packages/Box.V2.Core/3.13.0`](https://www.nuget.org/packages/Box.V2.Core/3.13.0)

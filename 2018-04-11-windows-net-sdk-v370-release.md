@@ -21,11 +21,12 @@ previous_page_id: 2018-04-11-metadata-driven-retention-policies
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/04-11-windows-net-sdk-v370-release.md
 published_at: '2018-04-11'
+fullyTranslated: true
 ---
-# Windows .NET SDK `v3.7.0` released
+# Windows .NET SDK `v3.7.0`のリリース
 
-1. Added support for assigning a retention policy to a metadata template
-2. Added `CONTENT_ACCESS` event type to enum
+1. メタデータテンプレートにリテンションポリシーを割り当てるためのサポートを追加
+2. 列挙型に`CONTENT_ACCESS`イベントタイプを追加
 
 [`nuget.org/packages/Box.V2/3.7.0`](https://www.nuget.org/packages/Box.V2/3.7.0)
 [`nuget.org/packages/Box.V2.Core/3.7.0`](https://www.nuget.org/packages/Box.V2.Core/3.7.0)

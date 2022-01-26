@@ -21,16 +21,17 @@ previous_page_id: 2021-03-25-service-account-information-in-developer-console
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/04-01-box-java-sdk-v2540-released.md
 published_at: '2021-04-01'
+fullyTranslated: true
 ---
-# Box Java SDK `v2.54.0` released
+# Box Java SDK `v2.54.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add file request support ([#869][1])
+* ファイルリクエストのサポートを追加 ([#869][1])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Fix `BoxWeblink` deserialization ([#881][2])
+* `BoxWeblink`の逆シリアル化を修正 ([#881][2])
 
 [1]: https://github.com/box/box-java-sdk/pull/869
 

@@ -21,26 +21,17 @@ previous_page_id: 2020-10-19-box-windows-sdk-v3250-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/10-21-metadata-cascade-policy-api-leaves-beta.md
 published_at: '2020-10-21'
+fullyTranslated: true
 ---
-# Metadata Cascade Policies API leaves Beta
+# メタデータカスケードポリシーAPIのベータ版終了
 
-The [Metadata Cascade Policies API][mdc_api] is now generally available to all
-and no longer in Beta.
+[メタデータカスケードポリシーAPI][mdc_api]が一般公開されたため、ベータ版の提供を終了しました。
 
-Over the past years, we've made a lot of technical improvements to our metadata
-infrastructure and we're happy to announce that we've now gotten to the moment
-where the Metadata Cascade Policies API is leaving Beta. This release does not
-involve any breaking changes and any existing application should not see any
-impact from this release.
+ここ数年、Boxでは、メタデータインフラストラクチャに対して多くの技術的な改善を行ってきました。そしてようやくメタデータカスケードポリシーAPIのベータ版を終了することになりました。このリリースには重大は変更は含まれていません。また、既存のアプリケーションでは、このリリースによる影響は見られません。
 
-Since we initially launched, Metadata Cascade Policies has become over 10 times
-faster when applying metadata to new instances. Additionally, we've also made
-significant strides in reliability and observability to ensure a top-notch API
-experience, in line with the rest of our API suite.
+最初のリリース以来、メタデータカスケードポリシーでは、メタデータを新しいインスタンスに適用する際の処理速度が10倍以上になりました。さらに、Boxは、他のBox APIに合わせて、最適なAPIエクスペリエンスを保証するために信頼性と可観測性においても大きく前進しました。
 
-For more details about metadata, and metadata cascade policies, please visit the
-[Metadata guides][guides] and our dedicated [Metadata Cascade Policies][mdc_api]
-reference documentation.
+メタデータとメタデータカスケードポリシーの詳細については、[メタデータのガイド][guides]、およびBox専用の[メタデータカスケードポリシー][mdc_api]リファレンスドキュメントを参照してください。
 
 [mdc_api]: e://post_metadata_cascade_policies
 

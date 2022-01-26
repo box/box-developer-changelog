@@ -21,32 +21,24 @@ previous_page_id: 2021-01-11-box-python-sdk-v2110-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/01-14-developer-console-updates.md
 published_at: '2021-01-14'
+fullyTranslated: true
 ---
-# Developer Console Updates
+# 開発者コンソールのアップデート
 
-A new **Authorization** tab is now available in the Developer Console. In
-addition, clarifying UI changes were made to the **Application Access** and
-**Scope** settings within the **Configuration** tab to ease these decisions.
-These changes do not impact the functionality of the settings.
+開発者コンソールで新しく \[**承認**] タブが使用可能になりました。さらに、\[**構成**] タブ内の \[**アプリケーションアクセス**] と \[**Scope (スコープ)**] の設定でUIがわかりやすく変更されたことで、設定を決定しやすくなりました。このような変更は、設定の機能には影響しません。
 
 <!-- more -->
 
-Now, developers will navigate to the  **Authorization** tab to submit the
-application directly to their Box Admin for authorization approval.
+これで、開発者は \[**承認**] タブに移動して、承認を得るためにアプリケーションを直接Box管理者に送信するようになります。
 
-As for the **Configuration** tab, helpful tips were added to the JWT
-**Application Access** settings to facilitate a clear decision
-between **App Only Access** or **App Access + Enterprise Access**.
-The **Scope** section is now grouped by action type: content, administrative,
-and developer.
+\[**構成**] タブに関しては、JWTの \[**アプリケーションアクセス**] の設定に役立つヒントが追加されたため、\[**アプリアクセスのみ**] と \[**アプリアクセス + Enterpriseアクセス**] のどちらにするかを明確に決めやすくなりました。現在、\[**Scope (スコープ)**] セクションは、操作の種類 (コンテンツ操作、管理操作、管理者操作) でグループ化されています。
 
-* **App Approval Process**: [Guide](g://authorization/custom-app-approval)
-* **Scopes**: [Guide](g://api-calls/permissions-and-errors/scopes)
-* **Application Access**:
-  [Guide](g://authentication/jwt/jwt-setup/#application-access)
+* **アプリの承認プロセス**: [ガイド](g://authorization/custom-app-approval)
+* **スコープ**: [ガイド](g://api-calls/permissions-and-errors/scopes)
+* **アプリケーションアクセス**: [ガイド](g://authentication/jwt/jwt-setup/#application-access)
 
-## Updates
+## 更新内容
 
-* Added Authorization tab to the Developer Console
-* Updated the UI for JWT Application Access settings under the Configuration tab
-* Updated the UI grouping of Scopes under the Configuration tab
+* 開発者コンソールに \[承認] タブを追加しました
+* \[構成] タブでJWTの \[アプリケーションアクセス] の設定用UIを更新しました
+* \[構成] タブで \[Scopes (スコープ)] のUIのグループ化を更新しました

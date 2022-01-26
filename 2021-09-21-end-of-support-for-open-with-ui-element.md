@@ -21,29 +21,19 @@ previous_page_id: 2021-09-07-new-enhancements-to-retention-apis
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/09-21-end-of-support-for-open-with-ui-element.md
 published_at: '2021-09-21'
+fullyTranslated: true
 ---
-# EOS for Open With UI Element and EOL for Adobe Sign
+# Open With UI ElementおよびAdobe Signの公式サポート終了
 
-Today, the [Open With UI element][owuie] can integrate with Box Tools, Google
-Workspace, and Adobe Sign. In an effort to continuously improve the Box
-experience, we are focusing our resources on new features and functionality that
-better align with our users' evolving needs.
+本日、[Open With UI Element][owuie]をBox Tools、Google Workspace、およびAdobe Signと統合できるようになりました。Boxでは、常にエクスペリエンスの改善に向けて取り組む中で、変化するユーザーのニーズにより合った新しい機能の開発に今後も注力してまいります。
 
-December 21, 2021 the following changes will occur:
+日本時間2021年12月22日に、以下の変更が行われる予定です。
 
-* We will discontinue support of the Box Open With UI Element for Box Tools and
-  Google Workspace for any new customers. A new customer is any customer not using
-  this element prior to December 21. Any customers leveraging the Open With UI
-  Element with Box Tools and/or Google Workspace prior to December 21 are
-  considered existing customers and will continue to receive support until further
-  notice. The Box Tools and Google Workspace Web App functionality will not be
-  impacted.
+* Box ToolsおよびGoogle Workspaceでは、新規のお客様に対するBox Open With UI Elementのサポートが終了する予定です。12月22日までにこのUI Elementを使用しなかったお客様は、新規のお客様とみなされます。12月22日までにBox Tools/Google WorkspaceでOpen With UI Elementを利用した場合は、既存のお客様とみなされ、別途通知があるまで引き続きサポートを受けることができます。Box ToolsおよびGoogle Workspaceのウェブアプリ機能に影響はありません。
 
-* Adobe Sign will no longer be available for use by new or existing customers
-  via the Open With UI element or Web Application.
+* Adobe Signは、新規のお客様も既存のお客様も、Open With UI Elementまたはウェブアプリから使用できなくなる予定です。
 
-Should you have any further questions, please contact us by opening a
-[support][support] ticket or posting on the [developer forum][forum].
+ご質問がある場合は、[サポート][support]チケットを作成するか[開発者向けフォーラム][forum]に英語で投稿してお問い合わせください。
 
 [owuie]: g://embed/ui-elements/open-with
 

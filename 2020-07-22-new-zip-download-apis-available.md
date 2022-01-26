@@ -19,13 +19,10 @@ previous_page_id: 2020-07-22-box-java-sdk-v2500-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/07-22-new-zip-download-apis-available.md
 published_at: '2020-07-22'
+fullyTranslated: true
 ---
-# New Zip Download APIs available
+# 新しい圧縮ダウンロードAPI
 
-A new collection of APIs are now available that allows developers to create a
-Zip file containing a specified list of files and folders. We've updated the
-reference documentation for this [Zip Download API][zip_downloads_api]. SDK
-support for these new endpoints is currently in development and scheduled
-to be released in the next 3 months.
+APIの新しいコレクションが利用可能になりました。開発者は、これを使用して、指定したリストのファイルやフォルダを含む圧縮ファイルを作成できます。Boxは、この[圧縮ダウンロードAPI][zip_downloads_api]に関するリファレンスドキュメントを更新しました。これらの新しいエンドポイントに対するSDKのサポートは、現在開発中であり、今後3か月以内にリリースする予定です。
 
 [zip_downloads_api]: e://post_zip_downloads

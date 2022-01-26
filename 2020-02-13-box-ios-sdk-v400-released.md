@@ -22,16 +22,17 @@ previous_page_id: 2020-02-03-preview-sdk-v2340-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/02-13-box-ios-sdk-v400-released.md
 published_at: '2020-02-13'
+fullyTranslated: true
 ---
-# Box iOS SDK `v4.0.0` released
+# Box iOS SDK `v4.0.0`のリリース
 
 Box iOS SDK
 
-**Breaking Changes:**
+**重大な変更:**
 
-* Change `status` field for task assignments from a String to an Enum
-* Remove `macOS`, `tvOS`, and `watchOS` support
+* タスク割り当ての`status`フィールドを文字列から列挙型に変更
+* `macOS`、`tvOS`、および`watchOS`のサポートを削除
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Make authentication session classes `OAuth2Session`, `SingleTokenSession`, and `DelegatedAuthSession` public
+* 認証セッションクラス`OAuth2Session`、`SingleTokenSession`、`DelegatedAuthSession`を公開

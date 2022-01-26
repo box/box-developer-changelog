@@ -21,16 +21,13 @@ previous_page_id: 2021-07-16-manual-start-workflow-endpoints-now-active
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/07-16-updated-file-size-limits.md
 published_at: '2021-07-16'
+fullyTranslated: true
 ---
-# Updated file size limits
+# ファイルサイズの上限の更新
 
-Today we released our newest business plan, Enterprise Plus, which supports
-uploads and downloads up to 150GB. In addition, we upgraded file size limits for
-some of our existing plans, as detailed below. For details on how to confirm
-the file size limit for your account, please visit our
-[upload guide][uploadguide].
+本日、Boxの新しいBusinessプランとしてEnterprise Plusプランをリリースしました。このプランでは、最大150 GBのアップロードとダウンロードをサポートします。また、以下のとおり、一部の既存プランでもファイルサイズの上限をアップグレードしました。ご利用のアカウントのファイルサイズの上限を確認する方法については、[アップロードに関するガイド][uploadguide]を参照してください。
 
-## Updates
+## 更新内容
 
 * Enterprise: 50 GB
 * Digital Workplace Suite: 50 GB

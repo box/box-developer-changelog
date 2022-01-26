@@ -21,18 +21,19 @@ previous_page_id: 2021-12-08-box-python-sdk-v2140-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/12-14-box-windows-sdk-v410-released.md
 published_at: '2021-12-14'
+fullyTranslated: true
 ---
-# Box Windows SDK `v4.1.0` released
+# Box Windows SDK `v4.1.0`のリリース
 
-**Bug Fixes:**
+**バグ修正:**
 
-* add missing `configureAwait`(false) when awaiting to prevent deadlocks ([#775][1]) ([`b16267e`][2])
+* デッドロックの防止を待機中に欠落している`configureAwait`(false) を追加 ([#775][1]) ([`b16267e`][2])
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* add configurable `Timeout` for `BoxClient` ([#779][3]) ([`ac842ed`][4])
-* add file request API ([#777][5]) ([`1098f75`][6])
-* add `vanity_name` to `SharedLink` ([#782][7]) ([`00a1e26`][8])
+* `BoxClient`用に設定可能な`Timeout`を追加 ([#779][3]) ([`ac842ed`][4])
+* ファイルリクエストAPIを追加 ([#777][5]) ([`1098f75`][6])
+* `vanity_name`を`SharedLink`に追加 ([#782][7]) ([`00a1e26`][8])
 
 <https://www.nuget.org/packages/Box.V2/4.1.0>
 

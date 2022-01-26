@@ -21,11 +21,12 @@ previous_page_id: 2020-06-24-box-java-sdk-v2480-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/06-25-box-node-sdk-v1330-released.md
 published_at: '2020-06-25'
+fullyTranslated: true
 ---
-# Box Node SDK `v1.33.0` released
+# Box Node SDK `v1.33.0`のリリース
 
-* Add path parameter sanitization ([#505][1]) [`46b780a`][2]
-* Add support for all streams for uploading files ([#519][3]) [`93a27ec`][4]
+* パスパラメータのサニタイズを追加 ([#505][1]) [`46b780a`][2]
+* ファイルのアップロードのためにすべてのストリームのサポートを追加 ([#519][3]) [`93a27ec`][4]
 
 [https://github.com/box/box-node-sdk/compare/v1.32.0...v1.33.0][5]
 

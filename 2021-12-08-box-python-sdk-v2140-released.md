@@ -21,20 +21,21 @@ previous_page_id: 2021-11-29-oauth-20-redirect-url-updates
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/12-08-box-python-sdk-v2140-released.md
 published_at: '2021-12-08'
+fullyTranslated: true
 ---
-# Box Python SDK `v2.14.0` released
+# Box Python SDK `v2.14.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add `admin_logs_streaming` support for events stream ([#623][1])
-* Add `vanity_name` parameter for creating shared link to a file or folder ([#637][2])
-* Add getting files and file versions under retention for a retention policy assignment ([#633][3])
-* Support base item operations for WebLink class ([#639][4])
+* イベントストリームに対する`admin_logs_streaming`のサポートを追加 ([#623][1])
+* ファイルまたはフォルダへの共有リンクを作成するための`vanity_name`パラメータを追加 ([#637][2])
+* リテンションポリシー割り当てのために、リテンションの対象となるファイルおよびファイルバージョンの取得を追加 ([#633][3])
+* WebLinkクラスの基本の項目操作をサポート ([#639][4])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Limit cryptography to version \<3.5.0 ([#636][5])
-* Avoid raising 404 when a thumbnail cannot be generated for a file ([#642][6])
+* 暗号化技術をバージョン3.5.0未満に制限 ([#636][5])
+* ファイルのサムネイルを生成できないときの404エラーの発生を回避 ([#642][6])
 
 [1]: https://github.com/box/box-python-sdk/pull/623
 

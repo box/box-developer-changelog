@@ -20,14 +20,15 @@ previous_page_id: 2020-08-20-box-node-sdk-v1342-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/08-21-box-cli-v260-released.md
 published_at: '2020-08-21'
+fullyTranslated: true
 ---
-# Box CLI `v2.6.0` released
+# Box CLI `v2.6.0`のリリース
 
-[CHANGELOG][1]
+[変更ログ][1]
 
-* Add zip functionality ([#203][2]) [`1953639`][3]
-* Add proxy support for `http`, `https`, `socks` and `pac` protocols. Proxy settings can be found under `box configure:settings` ([#202][4]) [`21671c8`][5]
-* Fix filename issue when saving reports on Windows ([#195][6]) [`31853d3`][7]
+* Zip機能の追加 ([#203][2]) [`1953639`][3]
+* `http`、`https`、`socks`、`pac`プロトコルのプロキシサポートの追加。プロキシ設定は、`box configure:settings` ([#202][4]) [`21671c8`][5]で確認できます。
+* Windowsでレポートを保存する際に発生するファイル名の問題を修正 ([#195][6]) [`31853d3`][7]
 
 [https://github.com/box/boxcli/compare/v2.5.1...v2.6.0][8]
 

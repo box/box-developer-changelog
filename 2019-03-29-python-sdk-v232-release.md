@@ -21,7 +21,8 @@ previous_page_id: 2019-03-29-box-cli-210-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/03-29-python-sdk-v232-release.md
 published_at: '2019-03-29'
+fullyTranslated: true
 ---
-# Python SDK `v2.3.2` released
+# Python SDK `v2.3.2`のリリース
 
-* Fixing an issue in `v2.3.1` where package could not be installed.
+* パッケージをインストールできなかった`v2.3.1`の問題を修正しています。

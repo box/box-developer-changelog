@@ -20,13 +20,14 @@ previous_page_id: 2021-10-20-app-diagnostics-report-feedback
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/10-20-box-ui-elements-v1400-released.md
 published_at: '2021-10-20'
+fullyTranslated: true
 ---
-# Box UI Elements `v14.0.0` released
+# Box UI Elements `v14.0.0`のリリース
 
 ## [14.0.0][1] (2021-10-20)
 
-## Bug Fixes & Features
+## バグ修正と機能
 
-This release fixes several bugs. For a full list, [please see the release notes][1]
+このリリースでは、複数のバグが修正されます。全一覧については、[リリースノートを参照してください][1]。
 
 [1]: https://github.com/box/box-ui-elements/releases/tag/v14.0.0

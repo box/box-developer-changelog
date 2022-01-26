@@ -19,5 +19,6 @@ next_page_id: ''
 previous_page_id: ''
 source_url: 'https://github.com/box/box-developer-changelog/blob/main/content/index.md'
 published_at: null
+fullyTranslated: true
 ---
-# Changelog
+# 変更ログ

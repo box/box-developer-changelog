@@ -21,38 +21,29 @@ previous_page_id: 2020-09-10-group-api-adds-new-filter-and-permissions
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/09-25-search-api-adds-support-for-shared-links.md
 published_at: '2020-09-25'
+fullyTranslated: true
 ---
-# Search API adds support for Shared Links
+# 検索APIで共有リンクのサポートを追加
 
-The [Search API][endpoint] now supports returning files,
-folders and web links that the user has recently accessed
-through a shared link.
+[検索API][endpoint]では、ユーザーが最近共有リンクを介してアクセスしたファイル、フォルダ、およびウェブリンクが返されるようになりました。
 
-Shared items can be requested by calling the
-[`GET /search`][endpoint] API with the new
-`include_recent_shared_links` query parameter set to `true`.
+共有項目をリクエストするには、新しい`include_recent_shared_links`クエリパラメータを`true`に設定して[`GET /search`][endpoint] APIを呼び出します。
 
 ```sh
 curl -i -X GET https://api.box.com/2.0/search?query=Contract&include_recent_shared_link=true
 ```
 
-By default, the API won't return any shared items if this
-query parameter is not provided or not set to true.
+このクエリパラメータが指定されていない場合またはtrueに設定されていない場合、デフォルトでは、このAPIによって共有項目が返されることはありません。
 
-## Change in response format
+## レスポンス形式の変更
 
-When `include_recent_shared_links` is set to `true`, the
-response has slightly changed to allow for the additional
-information to be returned. Rather than returning a direct list
-of files, folders, and web links the API now returns a list of
-objects containing an `item` and an `accessible_via_shared_link`
-property.
+`include_recent_shared_links`を`true`に設定した場合、追加情報を返すことができるようにレスポンスが若干変更されました。APIでは、ファイル、フォルダ、およびウェブリンクの直接的なリストではなく、`item`と`accessible_via_shared_link`プロパティを含むオブジェクトのリストが返されるようになりました。
 
 <!-- more -->
 
 <Tabs>
 
-<Tab title='With shared link results'>
+<Tab title="共有リンクが含まれる結果">
 
 ```json
 {
@@ -78,7 +69,7 @@ property.
 
 </Tab>
 
-<Tab title='Without'>
+<Tab title="共有リンクが含まれない結果">
 
 ```json
 {
@@ -103,7 +94,6 @@ property.
 
 </Tabs>
 
-This change in response format should not impact any existing applications
-as it only applies to any API call made with the new query parameter.
+このレスポンス形式の変更は、新しいクエリパラメータを使用して行われるAPI呼び出しのみに適用されるため、既存のアプリケーションに影響することはありません。
 
 [endpoint]: e://get_search

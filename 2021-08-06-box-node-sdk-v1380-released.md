@@ -21,24 +21,24 @@ previous_page_id: 2021-08-04-changes-to-jwt-token-format
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/08-06-box-node-sdk-v1380-released.md
 published_at: '2021-08-06'
+fullyTranslated: true
 ---
-# Box Node SDK `v1.38.0` released
+# Box Node SDK `v1.38.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add sensitive language event types for admin invites ([#648][1])
-* Use `BetterDocs` to adapt `JSDocs` to `TypeScript` ([#646][2])
-* Change `ProxyAgent` import to be dynamic ([#641][3])
-* New API for get files and file versions under retention ([#585][4])
+* 管理者による招待のために機密性の高い言語イベントタイプを追加 ([#648][1])
+* `BetterDocs`を使用して`JSDocs`を`TypeScript`に適合 ([#646][2])
+* `ProxyAgent`のインポートを動的に変更 ([#641][3])
+* リテンションの対象となっているファイルおよびファイルバージョンを取得するための新しいAPI ([#585][4])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Deeply freeze Config except Buffers and Readable streams ([#651][5])
-* Fix a typo in docs of `src/managers/search.ts` ([#649][6])
-* Update broken documentation link ([#647][7])
-* fix type annotations for `exchangeToken` functions ([#645][8])
-* Deprecate files `getThumbnail` API in favor of 
-  `getRepresentationContent` ([#627][9])
+* BuffersおよびReadableストリームを除くConfigを強く固定 ([#651][5])
+* `src/managers/search.ts`のドキュメントの誤字を修正 ([#649][6])
+* ドキュメントのリンク切れを更新 ([#647][7])
+* `exchangeToken`関数の注釈の種類を修正 ([#645][8])
+* ファイルの`getThumbnail` APIのサポートを終了して`getRepresentationContent`を推奨 ([#627][9])
 
 [1]: https://github.com/box/box-node-sdk/pull/648
 

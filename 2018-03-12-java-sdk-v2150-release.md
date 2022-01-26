@@ -21,8 +21,9 @@ previous_page_id: 2018-03-05-update-to-box-annotations
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-12-java-sdk-v2150-release.md
 published_at: '2018-03-12'
+fullyTranslated: true
 ---
-# Java SDK `v2.15.0` released
+# Java SDK `v2.15.0`のリリース
 
-1. Allow retrieving Collaboration fields ([#570](https://github.com/box/box-java-sdk/pull/570))
-2. Implement Get Metadata Template by ID ([#568](https://github.com/box/box-java-sdk/pull/568))
+1. コラボレーションフィールドの取得を許可 ([#570](https://github.com/box/box-java-sdk/pull/570))
+2. IDによるメタデータテンプレートの取得を実装 ([#568](https://github.com/box/box-java-sdk/pull/568))

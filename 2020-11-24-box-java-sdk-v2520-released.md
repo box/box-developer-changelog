@@ -21,18 +21,18 @@ previous_page_id: 2020-11-17-client-credentials-grant
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/11-24-box-java-sdk-v2520-released.md
 published_at: '2020-11-24'
+fullyTranslated: true
 ---
-# Box Java SDK `v2.52.0` released
+# Box Java SDK `v2.52.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add folder lock functionality ([#856][1])
-* Add support for search parameter to get shared link
-  items ([#855][2])
+* フォルダロック機能を追加 ([#856][1])
+* 共有リンク項目を取得するための検索パラメータのサポートを追加 ([#855][2])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Fix bug with updating tracking codes ([#857][3])
+* 追跡コードを更新する際のバグを修正 ([#857][3])
 
 [1]: https://github.com/box/box-java-sdk/pull/856
 

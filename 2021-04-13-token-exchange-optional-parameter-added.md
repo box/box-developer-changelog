@@ -21,18 +21,19 @@ previous_page_id: 2021-04-01-box-java-sdk-v2540-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2021/04-13-token-exchange-optional-parameter-added.md
 published_at: '2021-04-13'
+fullyTranslated: true
 ---
-# New option for downscoping tokens using shared links
+# 共有リンクを使用してトークンをダウンスコープするための新しいオプション
 
-When requesting an access token, you now have the ability to downscope that token to a file or folder using a shared link.
+アクセストークンをリクエストする際、共有リンクを使用してそのトークンをファイルまたはフォルダにダウンスコープできるようになりました。
 
-This new parameter may be used instead of using the `resource` parameter, which allows you to supply a file or folder ID to perform the same action.
+この新しいパラメータは、`resource`パラメータの代わりに使用できます。このパラメータを使用すると、ファイルIDまたはフォルダIDを指定して同じ操作を実行できます。
 
 <!-- more -->
 
-## Updates
+## 更新内容
 
-* Added new `box_shared_link` request parameter to [downscoping documentation][1]. A shared link may be supplied to downscope an access token in the below way.
+* 新しい`box_shared_link`リクエストパラメータを[ダウンスコープのドキュメント][1]に追加しました。以下の方法で、共有リンクを指定してアクセストークンをダウンスコープできます。
 
 ```bash
 {
@@ -46,7 +47,7 @@ This new parameter may be used instead of using the `resource` parameter, which 
 }
 ```
 
-* Added `box_shared_link` request parameter to [request access token API reference][2].
+* `box_shared_link`リクエストパラメータを[アクセストークンをリクエストAPIリファレンス][2]に追加しました。
 
 [1]: https://developer.box.com/guides/authentication/access-tokens/downscope/#downscoping-in-practice
 

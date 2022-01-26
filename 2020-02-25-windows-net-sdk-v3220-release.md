@@ -21,11 +21,11 @@ previous_page_id: 2020-02-14-node-sdk-v1310-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2020/02-25-windows-net-sdk-v3220-release.md
 published_at: '2020-02-25'
+fullyTranslated: true
 ---
-# Windows .NET SDK `v3.22.0` released
+# Windows .NET SDK `v3.22.0`のリリース
 
-See [Changelog](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#3220-2020-02-25) for details
-Commits: [`v3.21.0...v3.22.0`](https://github.com/box/box-windows-sdk-v2/compare/`v3.21.0...v3.22.0`)
+詳細については、[変更ログ](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#3220-2020-02-25)を参照してください。コミット: [`v3.21.0...v3.22.0`](https://github.com/box/box-windows-sdk-v2/compare/`v3.21.0...v3.22.0`)
 
 [`nuget.org/packages/Box.V2/3.22.0`](https://www.nuget.org/packages/Box.V2/3.22.0)
 [`nuget.org/packages/Box.V2.Core/3.22.0`](https://www.nuget.org/packages/Box.V2.Core/3.22.0)

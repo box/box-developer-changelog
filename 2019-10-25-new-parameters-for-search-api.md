@@ -18,11 +18,10 @@ previous_page_id: 2019-10-25-new-fields-for-file-versions
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/10-25-new-parameters-for-search-api.md
 published_at: '2019-10-25'
+fullyTranslated: true
 ---
-# New parameters for Search API
+# 検索APIの新しいパラメータ
 
-New optional query parameters have been made available for the
-[Search API](e://get-search), namely `sort` and `direction`.
+[Search API](e://get-search)で、新しいオプションクエリパラメータである`sort`と`direction`を使用できるようになりました。
 
-The purpose of these parameters is to allow applications to sort items by their
-`modified_at` date in ascending or descending order.
+このパラメータの目的は、アプリケーションが項目を`modified_at`日付で昇順または降順にソートできるようにすることです。

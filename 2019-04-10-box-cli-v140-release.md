@@ -20,7 +20,8 @@ previous_page_id: 2019-04-08-java-sdk-v2301-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2019/04-10-box-cli-v140-release.md
 published_at: '2019-04-10'
+fullyTranslated: true
 ---
-# Box CLI `v1.4.0` released
+# Box CLI `v1.4.0`のリリース
 
-* Added the option to update collaboration expiration date
+* コラボレーションの有効期限を更新するオプションを追加

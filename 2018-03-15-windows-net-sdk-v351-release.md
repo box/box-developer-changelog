@@ -21,13 +21,14 @@ previous_page_id: 2018-03-13-update-to-box-annotations
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/03-15-windows-net-sdk-v351-release.md
 published_at: '2018-03-15'
+fullyTranslated: true
 ---
-# Windows .NET SDK `v3.5.1` released
+# Windows .NET SDK `v3.5.1`のリリース
 
-* Switched to exponential backoff when the SDK receives a rate limit or server error response.
-* Force support for TLS `v1.1` or higher when available to improve the security of connections to the Box API.
-* Perform modified retry on JWT auth for when the local clock and the Box Server clock are not aligned as well as if the JWT ID has already been consumed.
-* Made `name` parameter optional on `RestoreTrashedAsync()`.
+* SDKがレート制限またはサーバーエラーレスポンスを受信したときに指数バックオフに切り替えられました。
+* Box APIへの接続のセキュリティを強化するため、可能な場合はTLS `v1.1`以上のサポートを強制します。
+* ローカルのクロックとBoxサーバーのクロックが一致しない場合、およびJWT IDがすでに使用されている場合にJWT認証で変更された再試行を実行します。
+* `RestoreTrashedAsync()`の`name`パラメータが省略可能になりました。
 
 [`nuget.org/packages/Box.V2/3.5.1`](https://www.nuget.org/packages/Box.V2/3.5.1)
 [`nuget.org/packages/Box.V2.Core/3.5.1`](https://www.nuget.org/packages/Box.V2.Core/3.5.1)

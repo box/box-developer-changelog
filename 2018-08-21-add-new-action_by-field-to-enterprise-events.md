@@ -18,19 +18,16 @@ previous_page_id: 2018-08-17-box-user_id-field-size-changed
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2018/08-21-add-new-action_by-field-to-enterprise-events.md
 published_at: '2018-08-21'
+fullyTranslated: true
 ---
-# Add new `action_by` field to enterprise events
+# Enterprise Eventに新しい`action_by`フィールドを追加
 
-To better document admin actions taken on user accounts, we have added an
-`action_by` mini-user object in the enterprise events response data. This field
-will display the admin account which performed the user action, if applicable.
+ユーザーアカウントで実行された管理者アクションをより適切に記録するために、Enterprise Eventのレスポンスデータに`action_by`ミニユーザーオブジェクトが追加されました。このフィールドには、該当する場合に、ユーザー操作を実行した管理者アカウントが表示されます。
 
-For enterprise admins this would include the ID, login, and name of their
-account. For actions taken by a Box internal admin this would be:
+Enterpriseの管理者の場合、これにはアカウントのID、ログイン、および名前が含まれます。Boxの内部管理者が実行したアクションの場合、これは以下のようになります。
 
 * id: `box_support`
 * login: `support@box.com`
 * name: `Box Support`
 
-The additional object is documented within the enterprise
-[event object attributes](endpoint://resources/event/).
+追加のオブジェクトは、Enterpriseの[イベントオブジェクト属性](endpoint://resources/event/)内に記録されます。
