@@ -27,6 +27,6 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* Move sphinx to test requirements ([#662][1])
+* sphinxをテスト要件に移動 ([#662][1])
 
 [1]: https://github.com/box/box-python-sdk/pull/662
