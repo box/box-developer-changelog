@@ -19,11 +19,11 @@ collapse: true
 
 * Add support for login with OAuth ([#240][3])
 * feat: support as-user flag for bulk files and when token is present ([#270][4])
-* Add support for copyInstanceOnItemCopy field for metadata templates  ([#239][5])
-* Add support note to the mdfilter equality check in search ([#253][6])
+* Add support for `copyInstanceOnItemCopy` field for metadata templates  ([#239][5])
+* Add support note to the `mdfilter` equality check in search ([#253][6])
 * Add support for Box Sign API ([#258][7])
 * Add support Metadata Query API ([#259][8])
-* fix: folder:collaborations:add make role a required flag (SDK-1070) ([#261][9])
+* fix: `folder:collaborations:add` make `role` a required flag (SDK-1070) ([#261][9])
 * Minor dependencies upgrade
 * Add new API for files and file versions under retention ([#250][10])
 * Adding support for sign request ([#258][11])
