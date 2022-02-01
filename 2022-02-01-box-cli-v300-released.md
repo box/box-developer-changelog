@@ -23,12 +23,19 @@ published_at: '2022-02-01'
 ---
 # Box CLI `v3.0.0` released
 
-**Breaking Changes**
+Today, we released `v3.0.0` of the [Box CLI][17]. This release has several enhancements and some breaking changes.
 
-* Drop support for Node 10
-* Insensitive language changes ([#247][1], [#252][2])
+<!-- more -->
 
-**New Features and Enhancements**
+In addition to CLI enhancements and documentation changes, we also released a brand new [YouTube video][18] that shows using our Box CLI Quick Start to get started with the CLI in less than
+five minutes!
+
+## Developer Documentation Changes
+
+* Updated the [Box CLI Quick Start Guide][19] to use the OAuth 2.0 Authentication method
+* Moved the [JWT setup steps][20] to an appendix
+
+## New Features and Enhancements
 
 * Add support for login with OAuth ([#240][3])
 * feat: support as-user flag for bulk files and when token is present ([#270][4])
@@ -44,10 +51,23 @@ published_at: '2022-02-01'
 * chore: enforce conventional commits ([#268][13])
 * feat: support as-user flag for bulk files and when token is present ([#270][14])
 
-**Bug Fixes:**
+## Breaking Changes
+
+* Drop support for Node 10
+* Insensitive language changes ([#247][1], [#252][2])
+
+## Bug Fixes
 
 * fix: folder:collaborations:add make role a required flag ([#261][15])
 * fix: Fixed shared-links delete example. ([#262][16])
+
+## Where to get support
+
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][0] for any help needed. You can also connect with the SDK
+team on the respective GitHub repository.
+
+[0]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 
 [1]: https://github.com/box/boxcli/issues/247
 
@@ -80,3 +100,11 @@ published_at: '2022-02-01'
 [15]: https://github.com/box/boxcli/issues/261
 
 [16]: https://github.com/box/boxcli/issues/262
+
+[17]: https://github.com/box/boxcli/releases
+
+[18]: https://www.youtube.com/watch?v=21d2l1ebAPs&list=PL0F3BD5B64D6A39F1
+
+[19]: g://tooling/cli/quick-start
+
+[20]: g://tooling/cli/jwt-cli
