@@ -23,9 +23,9 @@ published_at: '2021-10-20'
 ---
 # Box UI Elements `v14.0.0` released
 
-# [14.0.0][1] (2021-10-20)
+## [14.0.0][1] (2021-10-20)
 
-### Bug Fixes & Features
+## Bug Fixes & Features
 
 This release fixes several bugs. For a full list, [please see the release notes][1]
 
