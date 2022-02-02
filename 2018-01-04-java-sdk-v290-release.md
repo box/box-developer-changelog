@@ -28,7 +28,7 @@ fullyTranslated: true
 1. `readme`更新の検索 ([#506](https://github.com/box/box-java-sdk/pull/506))
 2. アップロードの整合性のためにファイルの`SHA-1`ハッシュを渡すオプションを追加 ([#502](https://github.com/box/box-java-sdk/pull/502))
 3. イベントログの制限 ([#507](https://github.com/box/box-java-sdk/pull/507))
-4. 利用規約 ([#484](https://github.com/box/box-java-sdk/pull/484))
+4. サービス利用規約 ([#484](https://github.com/box/box-java-sdk/pull/484))
 5. `wiremock`ポートの変更 ([#505](https://github.com/box/box-java-sdk/pull/505))
 6. 冗長な`response.disconnect()`を`moveFolderToUser()`から削除 ([#485](https://github.com/box/box-java-sdk/pull/485))
 7. イベントの`readme`のパッチ ([#503](https://github.com/box/box-java-sdk/pull/503))

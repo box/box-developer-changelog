@@ -24,7 +24,7 @@ fullyTranslated: true
 ---
 # コラボレーションで廃止されたフィールドを置き換え
 
-2018年に、新しいフィールド`acceptance_requirements_status`がGETコラボレーション/ID APIエンドポイントに追加され、追加の通知ユースケースがサポートされるようになりました。このフィールドには、利用規約、2要素認証、強力なパスワードの要件が含まれます。利用規約の要件のみを含む既存の`acceptance_requirements`フィールドは、新しい`acceptance_requirements_status`に置き換えられました。
+2018年に、新しいフィールド`acceptance_requirements_status`がGETコラボレーション/ID APIエンドポイントに追加され、追加の通知ユースケースがサポートされるようになりました。このフィールドには、サービス利用規約、2要素認証、強力なパスワードの要件が含まれます。サービス利用規約の要件のみを含む既存の`acceptance_requirements`フィールドは、新しい`acceptance_requirements_status`に置き換えられました。
 
 <!-- more -->
 
