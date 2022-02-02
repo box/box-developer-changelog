@@ -23,7 +23,7 @@ published_at: '2022-02-01'
 ---
 # Box CLI `v3.0.0` released
 
-Today, we released `v3.0.0` of the [Box CLI][17]. This release has several enhancements and some breaking changes.
+Today, we released `v3.0.0` of the [Box CLI][17].  This release has several enhancements, most notably - addition of OAuth 2.0 support.
 
 <!-- more -->
 
