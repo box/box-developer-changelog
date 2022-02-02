@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-02-02-end-of-support-for-dicom
 previous_page_id: 2022-01-26-box-python-sdk-v301-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/02-01-box-cli-v300-released.md
