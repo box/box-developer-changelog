@@ -90,7 +90,7 @@ team on the respective GitHub repository.
 
 [17]: https://github.com/box/boxcli/releases
 
-[18]: https://www.youtube.com/watch?v=21d2l1ebAPs&list=PL0F3BD5B64D6A39F1
+[18]: https://www.youtube.com/watch?v=whxT3Bdx3E0&list=PL0F3BD5B64D6A39F1
 
 [19]: g://tooling/cli/quick-start
 
