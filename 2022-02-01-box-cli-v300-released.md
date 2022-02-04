@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-02-02-end-of-support-for-dicom
 previous_page_id: 2022-01-26-box-python-sdk-v301-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/02-01-box-cli-v300-released.md
@@ -24,42 +24,42 @@ fullyTranslated: true
 ---
 # Box CLI `v3.0.0`のリリース
 
-Today, we released `v3.0.0` of the [Box CLI][17]. This release has several enhancements, most notably - addition of OAuth 2.0 support.
+[Box CLI][17]の`v3.0.0`をリリースしました。このリリースでは、OAuth 2.0サポートの追加のほか、いくつかの機能強化を実施しました。
 
 <!-- more -->
 
-In addition to CLI enhancements and documentation changes, we also released a brand new [YouTube video][18] that shows using our Box CLI Quick Start to get started with the CLI in less than five minutes!
+CLIの機能強化やドキュメントの変更に加え、新しく[YouTube動画][18] (英語) もリリースしました。この動画では、Box CLIのクイックスタートガイドを使用して、5分ほどでCLIを利用する方法を紹介しています。
 
-## Developer Documentation Changes
+## 開発者向けドキュメントの変更
 
-* Updated the [Box CLI Quick Start Guide][19] to use the OAuth 2.0 Authentication method
-* Moved the [JWT setup steps][20] to an appendix
+* OAuth 2.0認証方法の使用について[Box CLIのクイックスタートガイド][19] (※日本語版は現在準備中) を更新
+* [JWTの設定手順][20] (※日本語版は現在準備中) を付録に移動
 
 ## 新機能と機能強化
 
-* Add support for login with OAuth ([#240][3])
-* feat: support as-user flag for bulk files and when token is present ([#270][4])
-* Add support for `copyInstanceOnItemCopy` field for metadata templates ([#239][5])
-* Add support note to the `mdfilter` equality check in search ([#253][6])
-* Add support for Box Sign API ([#258][7])
-* Add support Metadata Query API ([#259][8])
-* fix: `folder:collaborations:add` make `role` a required flag (`SDK-1070`) ([#261][9])
-* Minor dependencies upgrade
-* Add new API for files and file versions under retention ([#250][10])
-* Adding support for sign request ([#258][11])
-* Support Metadata Query API ([#259][12])
-* chore: enforce conventional commits ([#268][13])
-* feat: support as-user flag for bulk files and when token is present ([#270][14])
+* OAuthを使用したログインのサポートを追加 ([#240][3])
+* 機能: ファイルの一括処理時やトークンがある場合にas-userフラグをサポート ([#270][4])
+* メタデータテンプレートの`copyInstanceOnItemCopy`フィールドのサポートを追加 ([#239][5])
+* 検索の`mdfilter`の等価チェックにサポートに関する注記を追加 ([#253][6])
+* Box Sign APIのサポートを追加 ([#258][7])
+* メタデータクエリAPIのサポートを追加 ([#259][8])
+* 修正: `folder:collaborations:add`が`role`を必須のフラグに設定 (`SDK-1070`) ([#261][9])
+* 依存関係のマイナーアップグレード
+* リテンションの対象となっているファイルおよびファイルバージョン用に新しいAPIを追加 ([#250][10])
+* 署名リクエストのサポートを追加 ([#258][11])
+* メタデータクエリAPIをサポート ([#259][12])
+* 作業: 従来のコミットを適用 ([#268][13])
+* 機能: ファイルの一括処理時やトークンがある場合にas-userフラグをサポート ([#270][14])
 
 ## 重大な変更
 
-* Drop support for Node 10
-* Insensitive language changes ([#247][1], [#252][2])
+* Node 10のサポートを終了 (#10)
+* 不適切な用語の変更 ([#247][1]、[#252][2])
 
 ## バグ修正
 
-* fix: folder:collaborations:add make role a required flag ([#261][15])
-* fix: Fixed shared-links delete example. ([#262][16])
+* 修正: folder:collaborations:addがroleを必須のフラグに設定 ([#261][15])
+* 修正: 共有リンクの削除の例を修正 ([#262][16])
 
 ## サポート情報
 
