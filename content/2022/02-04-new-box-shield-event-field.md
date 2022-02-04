@@ -9,9 +9,9 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# New Box Shield Access Policy Montioring Mode
+# New Box Shield Access Policy Monitoring Mode
 
-Recently, Box Shield added a [new feature][3] that allows admins to test out Access Policies with a new montioring mode.
+Recently, Box Shield added a [new feature][3] that allows admins to test out Access Policies with a new monitoring mode.
 
 <!-- more -->
 
