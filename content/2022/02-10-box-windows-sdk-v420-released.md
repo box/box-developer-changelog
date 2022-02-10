@@ -14,16 +14,16 @@ collapse: true
 **Bug Fixes:**
 
 * correctly pass null when rolling out user from the enterprise ([#792][1]) ([`c85c573`][2])
-* Creating BoxAuthenticationFailedException no longer throws an exception ([#790][3]) ([`55a706e`][4])
-* Null Argument Exception in AutoPaginate ([#666][5]) ([`c61f08c`][6])
+* Creating `BoxAuthenticationFailedException` no longer throws an exception ([#790][3]) ([`55a706e`][4])
+* Null Argument Exception in `AutoPaginate` ([#666][5]) ([`c61f08c`][6])
 
 **New Features and Enhancements:**
 
-* add admin_logs_streaming support ([#797][7]) ([`a775e1e`][8])
-* add Client Credentials Grant auth support ([#799][9]) ([`b8a64ca`][10])
-* add disposition_at field to the File object ([#793][11]) ([`2766a91`][12])
-* add possibility to set auth token uri in BoxConfig ([#794][13]) ([`ae8cd8b`][14])
-* deprecate index_name in ExecuteMetadataQuery ([#800][15]) ([`6a6a0e4`][16])
+* add `admin_logs_streaming` support ([#797][7]) ([`a775e1e`][8])
+* add Client Credentials Grant `auth` support ([#799][9]) ([`b8a64ca`][10])
+* add `disposition_at` field to the File object ([#793][11]) ([`2766a91`][12])
+* add possibility to set `auth` token `uri` in `BoxConfig` ([#794][13]) ([`ae8cd8b`][14])
+* deprecate `index_name` in `ExecuteMetadataQuery` ([#800][15]) ([`6a6a0e4`][16])
 
 <https://www.nuget.org/packages/Box.V2/4.2.0>
 <https://www.nuget.org/packages/Box.V2.Core/4.2.0>
