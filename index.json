@@ -261,5 +261,6 @@
   "2022-02-02-end-of-support-for-dicom",
   "2022-02-10-box-windows-sdk-v420-released",
   "2022-02-14-new-box-shield-event-field",
-  "2022-02-14-notice-of-behavior-change-for-collab-events"
+  "2022-02-14-notice-of-behavior-change-for-collab-events",
+  "2022-02-15-client-credentials-support-in-the-sdks"
 ]
