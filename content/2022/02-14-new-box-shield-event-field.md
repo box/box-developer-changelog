@@ -18,6 +18,7 @@ Recently, Box Shield added a [new feature][3] that allows admins to test out Acc
 ## Updates
 
 * Added the new `controlMode` field to all events in the [Smart Access events section][2]
+* Added application and FTP restriction information in the Smart Access events section
 
 ## Where to get support
 
