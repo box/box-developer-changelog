@@ -16,8 +16,8 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-02-14-notice-of-behavior-change-for-collab-events
-previous_page_id: 2022-02-04-new-box-shield-event-field
+next_page_id: 2022-02-14-new-box-shield-event-field
+previous_page_id: 2022-02-02-end-of-support-for-dicom
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/02-10-box-windows-sdk-v420-released.md
 published_at: '2022-02-10'
