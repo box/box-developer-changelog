@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-02-16-client-credentials-support-in-the-sdks
 previous_page_id: 2022-02-14-new-box-shield-event-field
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/02-16-box-python-sdk-v310-released.md
