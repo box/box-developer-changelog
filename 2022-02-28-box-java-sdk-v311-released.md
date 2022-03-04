@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-03-03-developer-documentation-updates
 previous_page_id: 2022-02-18-box-java-sdk-v310-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/02-28-box-java-sdk-v311-released.md
