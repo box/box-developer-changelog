@@ -23,29 +23,29 @@ source_url: >-
 published_at: '2022-03-03'
 fullyTranslated: true
 ---
-# Developer Documentation Updates
+# 開発者向けドキュメントの更新
 
-Today, we released several updates and bug fixes to our developer documentation. Click below to find out more information!
+開発者向けドキュメントの更新およびバグ修正をいくつかリリースしました。以下をクリックして詳細を確認してください。
 
 <!-- more -->
 
 ## 更新内容
 
-* Added additional trailing backslashes for [metadata query][mq] examples
-* Removed extra quotes from [metadata query][mq] examples
-* Updated and added examples for [Shield Smart Access][shield] events
-* Added note to the `can_view_path` [field][collab]
-* Corrected [trash][trash] resources to represent the right responses returned by the API
-* Added an `iOS` filter to the changelog
-* Added note to folder lock [endpoint][folder-lock]
-* Added note to [developer token][dt] guide that says revoking token removes webhook
-* Removed the `94x94` option from the [thumbnail][tn] endpoint
-* Added note to the events [`limit` parameter][ge]
-* Added note to the [user `login` parameter][ue]
-* Added app users to the PUT [`user`][ue] endpoint
-* Added `external_app_user_id` field to the PUT [`user`][ue] endpoint
-* Changed all references throughout documentation of `X-REF-HINTS` to `x-rep-hints`
-* Added new fields to all 11 Box Sign [events][sign]
+* [メタデータクエリ][mq]の例に末尾のバックスラッシュを追加
+* [メタデータクエリ][mq]の例から余分な引用符を削除
+* [Shieldスマートアクセス][shield]イベントの例を更新および追加
+* `can_view_path`[フィールド][collab]に注記を追加
+* APIで返される適切なレスポンスを表すよう[ごみ箱][trash]のリソースを修正
+* 変更ログに`iOS`フィルタを追加
+* フォルダロック[エンドポイント][folder-lock]に注記を追加
+* [開発者トークン][dt]ガイドに、トークンを取り消すとWebhookが削除されるという注記を追加
+* [サムネイル][tn]エンドポイントから`94x94`オプションを削除
+* イベントの[`limit`パラメータ][ge]に注記を追加
+* [ユーザーの`login`パラメータ][ue]に注記を追加
+* PUT [`user`][ue]エンドポイントにApp Userを追加
+* PUT [`user`][ue]エンドポイントに`external_app_user_id`フィールドを追加
+* ドキュメント全体で`X-REF-HINTS`の参照すべてを`x-rep-hints`に変更
+* Box Signの11個の[イベント][sign]すべてに新しいフィールドを追加
 
 ## サポート情報
 
