@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add setting `disposition_at` field for files under retention ([#710][1]) ([`91b1373`][2])
-* Add support for Client Credentials Grant authentication method ([#705][3]) ([`d33d16d`][4])
+* リテンションの対象となるファイル用に`disposition_at`フィールドの設定を追加 ([#710][1]) ([`91b1373`][2])
+* クライアント資格情報許可による認証方法のサポートを追加 ([#705][3]) ([`d33d16d`][4])
 
 ### バグ修正
 
-* Add missing `box_sign` object to `__all__` list ([#708][5]) ([`5d80481`][6])
-* Fix `jwt` import errors ([#711][7]) ([`ee7bb6f`][8])
+* 欠落している`box_sign`オブジェクトを`__all__`リストに追加 ([#708][5]) ([`5d80481`][6])
+* `jwt`インポートのエラーを修正 ([#711][7]) ([`ee7bb6f`][8])
 
 [1]: https://github.com/box/box-python-sdk/issues/710
 
