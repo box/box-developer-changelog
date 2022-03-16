@@ -18,7 +18,7 @@ release_source_url: ''
 
 # Announcing SDK Supported Versions
 
-Only the current **major** version of a SDK is supported. New features,
+Starting July 30 2022, only the current **major** version of a SDK will be supported. New features,
 functionality, bug fixes, and security updates will only be added to the
 current **major** version.
 
@@ -31,7 +31,7 @@ the upgrade. We always recommend that all users run the latest available minor r
 SDK major release at the earliest convenient time and before the EOL date.
 
 We use a modified version of [Semantic Versioning][2] for all changes. See
-[version strategy][3] for details which is effective from 30 July 2022.
+[version strategy][3] for details.
 
 ## Supported version for each SDK
 
