@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-03-16-announcing-sdk-supported-versions
 previous_page_id: 2022-03-03-developer-documentation-updates
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/03-11-box-python-sdk-v320-released.md
