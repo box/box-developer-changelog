@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Allow using `As-User` header with CCG Authentication ([#1031][1]) ([`b0c2389`][2])
-* Fix retry logic when `Retry-After` header is present ([#1033][3]) ([`05224c4`][4])
+* CCG認証での`As-User`ヘッダーの使用を許可 ([#1031][1]) ([`b0c2389`][2])
+* `Retry-After`ヘッダーが存在する場合の再試行ロジックを修正 ([#1033][3]) ([`05224c4`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1031
 

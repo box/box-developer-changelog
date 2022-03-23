@@ -28,8 +28,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add `disposition_at` field to the `File` object ([#814][1]) ([`3c90df0`][2])
-* Add support for Client Credentials Grant authentication method ([#821][3]) ([`f6d7542`][4])
+* `disposition_at`フィールドを`File`オブジェクトに追加 ([#814][1]) ([`3c90df0`][2])
+* クライアント資格情報許可による認証方法のサポートを追加 ([#821][3]) ([`f6d7542`][4])
 
 [1]: https://github.com/box/box-ios-sdk/issues/814
 
