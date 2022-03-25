@@ -24,7 +24,7 @@ published_at: '2022-03-25'
 ---
 # New Search API Query Parameter
 
-Now, you filter searching for content in the API using the new field `recent_updater_user_ids`.
+Now, you can filter searching for content in the API using the new field `recent_updater_user_ids`.
 
 <!-- more -->
 
