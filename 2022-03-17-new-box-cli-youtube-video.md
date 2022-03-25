@@ -17,7 +17,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-03-18-box-ios-sdk-v520-released
 previous_page_id: 2022-03-16-announcing-sdk-supported-versions
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/03-17-new-box-cli-youtube-video.md
