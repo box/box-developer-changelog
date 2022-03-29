@@ -23,22 +23,22 @@ source_url: >-
 published_at: '2022-03-25'
 fullyTranslated: true
 ---
-# New Search API Query Parameter
+# 検索APIの新しいクエリパラメータ
 
-Now, you can filter searching for content in the API using the new field `recent_updater_user_ids`.
+新しいフィールド`recent_updater_user_ids`を使用してAPIでのコンテンツの検索にフィルタをかけられるようになりました。
 
 <!-- more -->
 
 ## 更新内容
 
-* Added new query parameter `recent_updater_user_ids` to the [`GET /get-search`][2] API endpoint
+* [`GET /get-search`][2] APIエンドポイントに新しいクエリパラメータ`recent_updater_user_ids`を追加
 
 ## 機能
 
-* Limits the search results to any items that have been updated by the given list of users, defined as a list of comma separated user IDs.
-* This feature only searches back to the last 10 versions of an item.
+* 指定したユーザーリスト (ユーザーIDのカンマ区切りリストとして定義) によって更新された項目のみに検索結果を絞り込みます。
+* この機能では、項目の過去10バージョンのみを検索します。
 
-### cURL Example
+### cURLの例
 
 ```curl
 curl -i -X GET "https://api.box.com/2.0/search?query=sales&recent_updater_user_ids=1234567890,2314567890" \
