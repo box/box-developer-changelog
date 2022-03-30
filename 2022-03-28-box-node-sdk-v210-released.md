@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Client Credentials Grant authentication method ([#709][1]) ([`fbf4e80`][2])
-* Deprecating `index_name` when executing metadata query ([#686][3]) ([`e01cc65`][4])
-* **test:** add support for testing with Jest ([#676][5]) ([`1a11759`][6])
+* クライアント資格情報許可による認証方法 ([#709][1]) ([`fbf4e80`][2])
+* メタデータクエリ実行時の`index_name`のサポート終了 ([#686][3]) ([`e01cc65`][4])
+* **テスト:** Jestによるテストのサポートを追加 ([#676][5]) ([`1a11759`][6])
 
 ### バグ修正
 
-* Client Credentials Grant authentication method supports token down-scoping ([#710][7]) ([`730368f`][8])
-* Fix JWT expiration field being float instead of integer ([#715][9]) ([`7e950f1`][10]), closes [#713][11]
+* クライアント資格情報許可による認証方法でトークンのダウンスコープをサポート ([#710][7]) ([`730368f`][8])
+* 整数ではなく浮動小数点にJWT有効期限フィールドを修正 ([#715][9]) ([`7e950f1`][10])、[#713][11]をクローズ
 
 [1]: https://github.com/box/box-node-sdk/issues/709
 
