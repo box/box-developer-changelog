@@ -13,7 +13,7 @@ release_source_url: ''
 
 Starting today, we will begin rolling out changes to the behavior of
 collaboration events when an application consumes those events from our
-[event API endpoints][event-apis] when `stream_type` is set to `changes`. 
+[event API endpoints][event-apis].
 
 This change will only affect `COLLAB_INVITE_COLLABORATOR`,
 `COLLAB_ADD_COLLABORATOR`, `COLLAB_ROLE_CHANGE`, and 
@@ -30,7 +30,7 @@ or require any application changes to prevent uptime disruptions.
 Previously, events of type `COLLAB_INVITE_COLLABORATOR`,
 `COLLAB_ADD_COLLABORATOR`, `COLLAB_ROLE_CHANGE`, and
 `COLLAB_REMOVE_COLLABORATOR` created notifications
-for the acted on users that were listening to the `changes` stream.
+for the acted upon users that were listening to the `changes` stream.
 Owners of the collaborated item would not receive these events unless
 they were listening to the `all` stream as well.
 
