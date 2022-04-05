@@ -27,12 +27,12 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* add `SourceLink` support for Core project ([#795][1]) ([`a9cbede`][2])
+* Coreプロジェクト向けに`SourceLink`のサポートを追加 ([#795][1]) ([`a9cbede`][2])
 
 **バグ修正:**
 
-* add missing enum to string parsing in several places ([#813][3]) ([`e370282`][4])
-* properly cast response when uploading a new file version using session ([#810][5]) ([`73d877f`][6])
+* 複数の場所で文字列解析に不足している列挙型を追加 ([#813][3]) ([`e370282`][4])
+* セッションを使用して新しいファイルバージョンをアップロードする場合に適切にレスポンスをキャスト ([#810][5]) ([`73d877f`][6])
 
 <https://www.nuget.org/packages/Box.V2/4.3.0>
 
