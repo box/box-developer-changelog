@@ -10,17 +10,17 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2022-04-04-notice-of-behavior-change-for-collab-events
+id: 2022-04-06-notice-of-behavior-change-for-collab-events
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-04-06-notice-of-behavior-change-for-collab-events
-previous_page_id: 2022-04-01-box-windows-sdk-v430-released
+next_page_id: ''
+previous_page_id: 2022-04-04-notice-of-behavior-change-for-collab-events
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2022/04-04-notice-of-behavior-change-for-collab-events.md
-published_at: '2022-04-04'
+  https://github.com/box/box-developer-changelog/blob/main/content/2022/04-06-notice-of-behavior-change-for-collab-events.md
+published_at: '2022-04-06'
 ---
 # Notice of behavior change for collaboration events on the changes stream
 
