@@ -33,7 +33,7 @@ Now, developers can make files editable via shared links using the API.
 * Added a new `shared_link_permission_options` field to the [`file--full`][4] resource
 * Added a [shared link section for web links][6] in the reference documentation
 * Added a [permissions page][7] to the shared links guide documentation
-* Combined the [update and add shared link][] guide page since they utilize the same PUT endpoint
+* Combined the [update and add shared link][8] guide page since they utilize the same PUT endpoint
 * Updated code snippets across several shared link pages
 
 ## Enhancement Details
