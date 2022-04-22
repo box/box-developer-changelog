@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2022-04-07-new-editable-shared-links-api
+previous_page_id: 2022-04-21-improvements-in-custom-apps-approval-flow
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/04-25-new-app-center.md
 published_at: '2022-04-25'

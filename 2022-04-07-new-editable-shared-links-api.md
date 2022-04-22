@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-04-25-new-app-center
+next_page_id: 2022-04-19-box-windows-sdk-v431-released
 previous_page_id: 2022-04-06-notice-of-behavior-change-for-collab-events
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/04-07-new-editable-shared-links-api.md
