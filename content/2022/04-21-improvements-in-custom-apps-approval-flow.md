@@ -11,7 +11,7 @@ release_source_url: ''
 
 # Improvements In Custom Apps Approval Flow
 
-Today we added further improvements to the custom apps approval flow. As a result, you can now use a new **Enablement** tab in Developer Console to directly request a Box Admin to enable 0Auth 2.0 custom apps. 
+Today we added further improvements to the custom apps approval flow. As a result, you can now use a new **Enablement** tab in Developer Console to directly request a Box Admin to enable OAuth 2.0 custom apps. 
 
 Additionally, Box Admins can use Custom Apps Manager to view and enable custom apps in Admin Console.
 
