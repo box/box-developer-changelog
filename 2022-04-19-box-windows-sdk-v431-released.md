@@ -27,7 +27,7 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* simplify base `urls` usage ([#815][1]) ([`f8e7344`][2])
+* 基になる`urls`の使用を簡素化 ([#815][1]) ([`f8e7344`][2])
 
 <https://www.nuget.org/packages/Box.V2/4.3.1>
 
