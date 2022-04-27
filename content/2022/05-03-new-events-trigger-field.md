@@ -9,7 +9,7 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# New additional field for Sign Events
+# New Field In Sign Events Payload
 
 Now, the `additional_details` payload for Sign Events includes the `batch_send` field. 
 
@@ -19,7 +19,7 @@ Now, the `additional_details` payload for Sign Events includes the `batch_send` 
 * Added new field `batch_send` to `additional_details` payload for [Sign Events][2] 
 
 ## Features
-* The `batch_send` field added in the event payload provides the ID of the batch including data of recipients the sign request was sent to.
+* The `batch_send` field in the event payload provides the batch ID. This ID is used to identify the batch that includes the data of the sign request recipients.
 
 
 ## Where to get support
