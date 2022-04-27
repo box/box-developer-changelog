@@ -1,5 +1,5 @@
 ---
-applied_at: '2021-05-03'
+applied_at: '2022-05-03'
 applies_to:
   - api
 is_impactful: true
@@ -10,7 +10,7 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2022-05-03-new-events-trigger-field
+id: 2022-05-03-new-sign-events-payload-field
 rank: null
 total_steps: null
 type: changelog
@@ -19,7 +19,7 @@ parent_id: changelog
 next_page_id: ''
 previous_page_id: 2022-04-25-new-app-center
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2022/05-03-new-events-trigger-field.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2022/05-03-new-sign-events-payload-field.md
 published_at: '2022-05-03'
 ---
 # New Field Added to Sign Events Payload
