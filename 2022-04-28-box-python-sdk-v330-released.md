@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add support for multiple date time formats ([#722][1]) ([`92364de`][2])
+* 複数の日時形式のサポートを追加 ([#722][1]) ([`92364de`][2])
 
 ### バグ修正
 
-* Add missing fields to metadata template field ([#719][3]) ([`9e574a3`][4]), closes [#717][5]
-* Upload session commit return None on 202 ([#718][6]) ([`86a1856`][7]), closes [#715][8]
+* 不足していたフィールドをmetadata templateフィールドに追加 ([#719][3]) ([`9e574a3`][4])、[#717][5]をクローズ
+* upload_sessionのコミットで202の場合にNoneを戻す ([#718][6]) ([`86a1856`][7])、[#715][8]をクローズ
 
 [1]: https://github.com/box/box-python-sdk/issues/722
 
