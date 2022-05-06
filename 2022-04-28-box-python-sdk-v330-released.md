@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-05-06-new-editable-shared-links-api
+next_page_id: 2022-05-03-new-sign-events-payload-field
 previous_page_id: 2022-04-28-box-node-sdk-v230-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/04-28-box-python-sdk-v330-released.md
