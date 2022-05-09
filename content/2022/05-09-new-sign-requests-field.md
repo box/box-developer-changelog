@@ -11,7 +11,7 @@ release_source_url: ''
 
 # New Field Added to Sign Requests
 
-Box Sign request API response objects now include a new field, `content_type`. This field identifies the type of content expected for the `type` of `input` selected for the signer to complete.
+Box Sign request response objects now include a new field - `content_type`. This field identifies the type of content expected for the `type` of `input` selected for the signer to complete.
 
 <!-- more -->
 
@@ -21,7 +21,7 @@ Box Sign request API response objects now include a new field, `content_type`. T
 ## Where to get support
 
 Should you have any issues or need further guidance, please post a request to
-our [developer forum][1] for any help needed.
+our [developer forum][1].
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 [2]: r://sign-request/#param-signers-inputs-content_type
