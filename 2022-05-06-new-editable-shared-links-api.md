@@ -23,20 +23,20 @@ source_url: >-
 published_at: '2022-05-06'
 fullyTranslated: true
 ---
-# New Editable Shared Links API
+# 新しい編集可能な共有リンクAPI
 
-Now, developers can make files editable via shared links using the API.
+開発者は、APIを使用して共有リンクでファイルを編集可能にできるようになりました。
 
 <!-- more -->
 
-## Documentation Updates
+## ドキュメントの更新
 
-* Added a new `can_edit` value to the `permissions` object for the [file][3], [folder][2], and [web link][5] resources
-* Added a new `shared_link_permission_options` field to the [`file--full`][4] resource
-* Added a [shared link section for web links][6] in the reference documentation
-* Added a [permissions page][7] to the shared links guide documentation
-* Combined the [update and add shared link][8] guide page since they utilize the same PUT endpoint
-* Updated code snippets across several shared link pages
+* [ファイル][3]、[フォルダ][2]、[ウェブリンク][5]リソースの`permissions`オブジェクトに新しい`can_edit`値を追加
+* [`file--full`][4]リソースに新しい`shared_link_permission_options`フィールドを追加
+* リファレンスドキュメントに[ウェブリンクの共有リンクセクション][6]を追加
+* 共有リンクのガイドドキュメントに[権限に関するページ][7]を追加
+* 同じPUTエンドポイントを使用しているため、[共有リンクの更新と追加][8]のガイドページを統合
+* 複数の共有リンクページでコードスニペットを更新
 
 ## Enhancement Details
 
