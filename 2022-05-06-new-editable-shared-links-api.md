@@ -38,12 +38,12 @@ fullyTranslated: true
 * 同じPUTエンドポイントを使用しているため、[共有リンクの更新と追加][8]のガイドページを統合
 * 複数の共有リンクページでコードスニペットを更新
 
-## Enhancement Details
+## 機能強化の詳細
 
-* Instead of having to collaborate a user into a file to give edit access, you can set the `shared_link.permissions.can_edit` field to `true`.
-* The `can_edit` field will be returned for all shared link objects on files, folders, and web links; however, you can only set it to true for a file.
-* Our SDK libraries will gain this feature in the coming quarters.
-* If an admin has turned off editable shared links in the admin console, you will not be able to use this feature.
+* ファイルにコラボレータとしてユーザーを設定するのではなく、`shared_link.permissions.can_edit`フィールドを`true`に設定することで編集アクセス権限を付与できます。
+* ファイル、フォルダ、ウェブリンクのすべての共有リンクオブジェクトで`can_edit`フィールドが返されます。ただし、ファイルの場合はtrueにしか設定できません。
+* この機能は今後の数四半期で弊社のSDKライブラリに追加されます。
+* 管理者が編集可能な共有リンクを管理コンソールでオフにした場合、この機能は使用できません。
 
 ### cURLの例
 
