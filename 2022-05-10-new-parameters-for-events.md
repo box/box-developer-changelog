@@ -26,8 +26,8 @@ published_at: '2022-05-10'
 
 The Event API now includes two new parameters:
 
-* `created_at` specifying the exact time an event was created
-* `recorded_at` specifying the time an event was registered in the database
+* `created_at` specifying when an event was created
+* `recorded_at` specifying when an event was registered in the database
 
 <!-- more -->
 
