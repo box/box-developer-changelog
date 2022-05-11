@@ -1,5 +1,5 @@
 ---
-applied_at: "2022-05-10"
+applied_at: "2022-05-11"
 applies_to: 
 - api
 is_impactful: true
@@ -9,9 +9,9 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# New Parameters Added to Event API Reference
+# New Fields Added to Event Specification
 
-The Event API now includes two new parameters:
+The Event resource specification now includes two new fields:
 
 * `created_at` specifying when an event was created
 * `recorded_at` specifying when an event was registered in the database
@@ -19,7 +19,7 @@ The Event API now includes two new parameters:
 <!-- more -->
 
 ## Updates
-* Added new parameters `created_at` and `recorded_at` to [Event API Reference][2].
+* Added new parameters `created_at` and `recorded_at` to the [Event] resource specification [2].
 
 ## Where to get support
 
