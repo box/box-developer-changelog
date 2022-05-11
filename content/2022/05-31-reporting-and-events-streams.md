@@ -9,18 +9,19 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Events Streams - Device trust failure
+# Events Streams - Device trust
 
 Get additional details when a device trust check fails, including:
 
 * Is an agent present on the device
 * The client environment
 * The list of policies
-* The specific properties that failed/passed
+* The status of each policy property
 
 <!-- more -->
 
-When querying the `api.box.com/2.0/events?stream_type=admin_logs&event_type=DEVICE_TRUST_CHECK_FAILED` the response includes additional_details section, detailing device properties, the specific policies, and the policies properties validations.
+When querying the `api.box.com/2.0/events?stream_type=admin_logs
+&event_type=DEVICE_TRUST_CHECK_FAILED` the response includes `additional_details` , detailing device properties, the specific policies, and the policies properties validations.
 
 Example: 
 
