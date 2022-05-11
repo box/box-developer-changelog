@@ -9,7 +9,7 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# New Parameters Added to Event Specification
+# New Fields Added to Event Specification
 
 The Event resource specification now includes two new fields:
 
