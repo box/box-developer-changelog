@@ -19,7 +19,7 @@ The Event resource specification now includes two new fields:
 <!-- more -->
 
 ## Updates
-* Added new parameters `created_at` and `recorded_at` to the [Event] resource specification [2].
+* Added new fields `created_at` and `recorded_at` to the [Event] resource specification [2].
 
 ## Where to get support
 
