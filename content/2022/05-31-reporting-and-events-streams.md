@@ -11,17 +11,11 @@ release_source_url: ''
 
 # Events Streams - Device trust
 
-Get additional details when a device trust check fails, including:
-
-* Is an agent present on the device
-* The client environment
-* The list of policies
-* The status of each policy property
+Get additional details when a device trust check fails, such as the device properties, the specific policies, and each policy properties validation.
 
 <!-- more -->
 
-When querying the `api.box.com/2.0/events?stream_type=admin_logs
-&event_type=DEVICE_TRUST_CHECK_FAILED` the response includes `additional_details` , detailing device properties, the specific policies, and the policies properties validations.
+When querying the [enterprise event stream][1] for an `event_type` of `DEVICE_TRUST_CHECK_FAILED` the response includes `additional_details` about the event. 
 
 Example: 
 
@@ -56,10 +50,9 @@ Example:
   }
 }
 ```
-## Use Cases
-You can use this information to generate device compliance reports and quickly identify non compliant devices.
 
-## Reporting preview
-??
-## Reporting CSV
-??
+>Checkout the documentation on [setting up device trust security](https://support.box.com/hc/en-us/articles/360044194993-Setting-Up-Device-Trust-Security-Requirements) for more information on how to manage your trust policies.
+>
+>Reports can be generated in Admin Console > [Reports](https://app.box.com/master/reports) > User Activity (select the Device Trust Check under Login)
+
+[1]: g://events/enterprise-events/for-enterprise
