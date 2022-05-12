@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-05-09-new-sign-requests-field
+next_page_id: 2022-05-11-new-fields-in-event-api-ref
 previous_page_id: 2022-05-06-new-editable-shared-links-api
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/05-06-new-sign-events-payload-field.md
