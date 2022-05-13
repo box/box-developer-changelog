@@ -22,7 +22,7 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/05-31-reporting-and-events-streams.md
 published_at: '2022-05-31'
 ---
-# Events Streams - Device trust
+# Device trust event stream updates
 
 Get additional details when a device trust check fails, such as the device properties, the specific policies, and each policy properties validation.
 
@@ -64,8 +64,10 @@ Example:
 }
 ```
 
->Checkout the documentation on [setting up device trust security](https://support.box.com/hc/en-us/articles/360044194993-Setting-Up-Device-Trust-Security-Requirements) for more information on how to manage your trust policies.
->
->Reports can be generated in Admin Console > [Reports](https://app.box.com/master/reports) > User Activity (select the Device Trust Check under Login)
+## For more information
+
+Checkout the documentation on [setting up device trust security](https://support.box.com/hc/en-us/articles/360044194993-Setting-Up-Device-Trust-Security-Requirements) for more information on how to manage your device trust policies.
+
+Reports can be generated in Admin Console > [Reports](https://app.box.com/master/reports) > User Activity (select the `failed device trust check` under Login)
 
 [1]: g://events/enterprise-events/for-enterprise
