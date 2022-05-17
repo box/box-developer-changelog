@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2022-05-12-new-sign-requests-field
+previous_page_id: 2022-05-18-new-endpoints-for-user-avatar
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/05-31-reporting-and-events-streams.md
 published_at: '2022-05-31'
