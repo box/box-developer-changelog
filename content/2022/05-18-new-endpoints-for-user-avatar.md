@@ -13,7 +13,7 @@ release_source_url: ''
 
 The User Avatar API now supports adding, updating, and deleting user avatars.
 
-To create or update a user avatar, call the [`POST /user-avatar`][2] endpoint. Remeber to include the path to the file you want to upload.
+To create or update a user avatar, call the [`POST /user-avatar`][2] endpoint. Remember to include the path to the file you want to upload.
 
 ```sh
 curl -i -X POST -L https://api.box.net/2.0/users/userID/avatar --H 'Authorization: Bearer {token}'--form 'pic=@"path/to/file/file.jpeg"'
