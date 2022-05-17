@@ -24,19 +24,19 @@ published_at: '2022-05-18'
 ---
 # New Endpoints to Manage User Avatars
 
-The User Avatar API now supports adding, updating, and deleting user avatars.
+Starting today, the User Avatar APIs supports adding, updating, and deleting user avatars.
 
-To create or update a user avatar, call the [`POST /user-avatar`][2] endpoint. Remember to include the path to the file you want to upload.
+To create or update a user avatar, call the [`POST /user-avatar`][2] endpoint. Remember to include the path to the file you want to upload. If an avatar already exists, it will be replaced with the new photo uploaded.
 
 ```sh
-curl -i -X POST -L https://api.box.net/2.0/users/userID/avatar --H 'Authorization: Bearer {token}'--form 'pic=@"path/to/file/file.jpeg"'
+curl -i -X POST -L https://api.box.net/2.0/users/userID/avatar --H 'Authorization: Bearer <ACCESS_TOKEN>' --form 'pic=@"path/to/file/file.jpeg"'
 ```
 The response includes the [user avatar][4] object with URLs to the file location.
 
 To delete a user avatar, call the [`DELETE /user-avatar`][3] endpoint:
 
 ```sh
-curl -i -X DELETE -L https://api.box.net/2.0/users/userID/avatar -H 'Authorization: Bearer {token}'
+curl -i -X DELETE -L https://api.box.net/2.0/users/userID/avatar -H 'Authorization: Bearer <ACCESS_TOKEN>'
 ```
 
 ## Where to get support
