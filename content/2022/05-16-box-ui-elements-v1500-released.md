@@ -1,7 +1,6 @@
 ---
 applied_at: '2022-05-16'
 applies_to:
-  - frontend
   - ui-elements
 is_impactful: true
 is_new_feature: true
@@ -15,6 +14,7 @@ collapse: true
 
 ## Bug Fixes & Features
 
-This release fixes several bugs and adds new features. For a full list of changes, [please see the release notes][1].
+This release fixes several bugs and adds new features.
+For a full list of changes, [please see the release notes][1].
 
 [1]: https://github.com/box/box-ui-elements/releases/tag/v15.0.0
