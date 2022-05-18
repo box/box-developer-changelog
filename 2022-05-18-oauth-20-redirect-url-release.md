@@ -39,10 +39,10 @@ you should have received four emails over the past few months describing how to 
 
 If you did not receive the email or missed the communication, below you will find the steps to mitigate any issues.
 
-* You can change the redirect URL in the Box Developer Console configuration tab for your application.
+1. You can change the redirect URL in the Box Developer Console configuration tab for your application.
 - If the URLs are static, then you can update the Developer console to add multiple URLs
 - If the URLs are dynamic, then update your application to use a static URL or use the state parameter
-* You can change the redirect URL used in your application code to strictly match the URL in the developer console.
+2. You can change the redirect URL used in your application code to strictly match the URL in the developer console.
 
 For option #1, please use these steps:
 - Login to Box as the application owner and navigate to the Box Developer Console
