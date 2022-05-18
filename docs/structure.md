@@ -91,4 +91,4 @@ The section at the top, in between the pair of triple dashes, is the Front Matte
 
 ---
 
-[**Next:** Adding a new release note](./docs/add-release-note.md)
+[**Next:** Adding a new release note](./add-release-note.md)
