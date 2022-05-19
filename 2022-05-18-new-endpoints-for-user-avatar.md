@@ -16,8 +16,8 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
-previous_page_id: 2022-05-11-new-fields-in-event-api-ref
+next_page_id: 2022-05-18-oauth-20-redirect-url-release
+previous_page_id: 2022-05-16-box-ui-elements-v1500-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/05-18-new-endpoints-for-user-avatar.md
 published_at: '2022-05-18'
