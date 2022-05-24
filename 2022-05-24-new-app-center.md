@@ -1,5 +1,5 @@
 ---
-applied_at: '2021-04-25'
+applied_at: '2021-05-24'
 applies_to:
   - api
 is_impactful: true
@@ -10,17 +10,17 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2022-04-25-new-app-center
+id: 2022-05-24-new-app-center
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-04-28-box-node-sdk-v230-released
-previous_page_id: 2022-04-22-box-ios-sdk-v521-released
+next_page_id: 2022-05-31-reporting-and-events-streams
+previous_page_id: 2022-05-24-box-java-sdk-v320-released
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2022/04-25-new-app-center.md
-published_at: '2022-04-25'
+  https://github.com/box/box-developer-changelog/blob/main/content/2022/05-24-new-app-center.md
+published_at: '2022-05-24'
 ---
 # New Box App Center (formally App Gallery)
 

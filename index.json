@@ -282,7 +282,6 @@
   "2022-04-20-box-node-sdk-v220-released",
   "2022-04-21-improvements-in-custom-apps-approval-flow",
   "2022-04-22-box-ios-sdk-v521-released",
-  "2022-04-25-new-app-center",
   "2022-04-28-box-node-sdk-v230-released",
   "2022-04-28-box-python-sdk-v330-released",
   "2022-05-06-new-editable-shared-links-api",
@@ -293,5 +292,6 @@
   "2022-05-18-new-endpoints-for-user-avatar",
   "2022-05-18-oauth-20-redirect-url-release",
   "2022-05-24-box-java-sdk-v320-released",
+  "2022-05-24-new-app-center",
   "2022-05-31-reporting-and-events-streams"
 ]
