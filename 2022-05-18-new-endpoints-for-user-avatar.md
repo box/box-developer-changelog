@@ -27,18 +27,21 @@ fullyTranslated: true
 
 本日より、ユーザーアバターAPIでユーザーアバターの追加、更新、削除がサポートされるようになりました。
 
-ユーザーアバターを作成または更新するには、アップロードするファイルへのパスを含めて[`POST /user-avatar`][2]エンドポイントを呼び出します。すでにアバターが存在する場合は、新しくアップロードされた写真に置き換えられます。
+ユーザーアバターを作成または更新するには、アップロードするファイルへのパスを含めて[`POST /users-id-avatar`][2]エンドポイントを呼び出します。すでにアバターが存在する場合は、新しくアップロードされた写真に置き換えられます。
 
 ```sh
-curl -i -X POST -L https://api.box.net/2.0/users/userID/avatar --H 'Authorization: Bearer <ACCESS_TOKEN>' --form 'pic=@"path/to/file/file.jpeg"'
+curl -i -X POST -L https://api.box.net/2.0/users/userID/avatar 
+    -H 'Authorization: Bearer <ACCESS_TOKEN>' 
+    --form 'pic=@"path/to/file/file.jpeg"'
 ```
 
 レスポンスには、ファイルの場所へのURLを示す[user avatar][4]オブジェクトが含まれます。
 
-ユーザーアバターを削除するには、[`DELETE /user-avatar`][3]エンドポイントを呼び出します:
+ユーザーアバターを削除するには、[`DELETE /users-id-avatar`][3]エンドポイントを呼び出します:
 
 ```sh
-curl -i -X DELETE -L https://api.box.net/2.0/users/userID/avatar -H 'Authorization: Bearer <ACCESS_TOKEN>'
+curl -i -X DELETE -L https://api.box.net/2.0/users/userID/avatar 
+    -H 'Authorization: Bearer <ACCESS_TOKEN>'
 ```
 
 ## サポート情報

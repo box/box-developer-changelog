@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-05-24-new-app-center
 previous_page_id: 2022-05-18-oauth-20-redirect-url-release
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/05-24-box-java-sdk-v320-released.md
@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Revamped setting base URLs ([#1042][1]) ([`129baf7`][2])
-* support for Avatar V2 API ([#1044][3]) ([`18651d7`][4])
+* ベースURLの設定を刷新 ([#1042][1]) ([`129baf7`][2])
+* アバターV2 APIをサポート ([#1044][3]) ([`18651d7`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1042
 
