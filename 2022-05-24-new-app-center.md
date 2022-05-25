@@ -52,4 +52,4 @@ our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 [2]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
-[3]: https://app.box.com/services
+[3]: https://app.box.com/app-center
