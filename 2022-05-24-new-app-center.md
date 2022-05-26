@@ -51,4 +51,4 @@ Are you interested in creating applications for the Box App Center or becoming a
 
 [2]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
 
-[3]: https://app.box.com/services
+[3]: https://app.box.com/app-center
