@@ -129,11 +129,11 @@ fullyTranslated: true
 * `BoxAPIException`に追加情報が加えられました。
 * `collaboration()`メソッドが`Client`に追加されました。
 * クラス階層が変更されました。これまで、`BaseEndpoint`は、すべてのスマートオブジェクトの親である`BaseObject`の親でした。今後、`BaseObject`は`BaseEndpoint`と`BaseAPIJSONObject`両方の子になります。`BaseObject`は、REST APIに含まれるすべてのオブジェクトの親です。`BaseAPIJSONObject`の別のサブクラスである`APIJSONObject`は、APIエンドポイントから直接アクセスできない`Event`など、疑似スマートオブジェクトを表すために作成されました。
-* `network_response_constructor`が`Network`インターフェイスの省略可能なプロパティとして追加されました。実装では、このプロパティを一時的に無効にし、これを使用して`NetworkResponse`インスタンスを構築することをお勧めします。このように、サブクラスの実装では、このプロパティを再度一時的に無効にすることで、`NetworkResponse`の機能を拡張できます。このプロパティは、`DefaultNetwork`実装で定義および使用されます。
+* `network_response_constructor`が`Network`インターフェースの省略可能なプロパティとして追加されました。実装では、このプロパティを一時的に無効にし、これを使用して`NetworkResponse`インスタンスを構築することをお勧めします。このように、サブクラスの実装では、このプロパティを再度一時的に無効にすることで、`NetworkResponse`の機能を拡張できます。このプロパティは、`DefaultNetwork`実装で定義および使用されます。
 * レスポンスログは新しい`LoggingNetworkResponse`クラスに移動されます (これは前述の`network_response_constructor`プロパティによって可能になります)。レスポンス本文をログに記録するかどうかは、呼び出し元がコンテンツを読み取るかストリーミングするかに基づき、SDKで決定されます。
 * `LoggingNetwork`からのリクエスト/レスポンスログに情報が追加されました。
 * `LoggingNetwork`にリクエスト例外のログ記録が追加されました。
-* `JWTAuth.refresh()`の戻り値が認証インターフェイスの戻り値と正確に一致するようバグが修正されました (そのために、アクセストークンのみではなく、((アクセストークン), (更新トークンまたはなし)) のタプルを返します)。特に、`JWTAuth`オブジェクトを更新しようとしたときに常に発生していた`BoxSession`の例外が修正されます。
+* `JWTAuth.refresh()`の戻り値が認証インターフェースの戻り値と正確に一致するようバグが修正されました (そのために、アクセストークンのみではなく、((アクセストークン), (更新トークンまたはなし)) のタプルを返します)。特に、`JWTAuth`オブジェクトを更新しようとしたときに常に発生していた`BoxSession`の例外が修正されます。
 * `ExtendableEnumMeta.__dir__()`から発生していた例外が修正されました。
 * `CPython` 3.6のサポート。
 * 必要最低限のバージョンが6から1.9.0に引き上げられました。

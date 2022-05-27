@@ -27,7 +27,7 @@ fullyTranslated: true
 
 **重要な変更:**
 
-* BoxClientおよびマネージャのインターフェイスを抽出し、テスタビリティを改善 ([#603][1])
+* BoxClientおよびマネージャのインターフェースを抽出し、テスタビリティを改善 ([#603][1])
 * BoxConfigBuilderを追加し、BoxConfigを変更不可に設定 ([#737][2])
 * 非同期メソッドからタスクを公開 ([#742][3])
 * DateTimeの代わりにDateTimeOffsetを使用 ([#749][4])
