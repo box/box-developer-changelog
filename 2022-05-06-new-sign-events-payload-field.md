@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2022-05-06'
 fullyTranslated: true
 ---
-# Sign Eventsペイロードへの新しいフィールドの追加
+# Signイベントペイロードへの新しいフィールドの追加
 
-`additional_details` Sign Eventsペイロードに、複数の受信者に一度に送信される署名リクエストを識別するための`batch_send`が含まれるようになりました。そのような一括送信リクエストが存在する場合、ペイロードはその`id`も提供します。
+`additional_details` Signイベントペイロードに、複数の受信者に一度に送信される署名リクエストを識別するための`batch_send`が含まれるようになりました。そのような一括送信リクエストが存在する場合、ペイロードはその`id`も提供します。
 
 <!-- more -->
 
 ## 更新内容
 
-* 新しいフィールド`batch_send`を[Sign Events][2]の`additional_details`ペイロードに追加しました。
+* 新しいフィールド`batch_send`を[Signイベント][2]の`additional_details`ペイロードに追加しました。
 
 ## サポート情報
 
