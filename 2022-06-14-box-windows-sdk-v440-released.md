@@ -27,14 +27,14 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* add `can_edit` field to `SharedLink` ([#831][1]) ([`e0d4197`][2])
-* add `version_number` to `BoxFileVersion` ([#820][3]) ([`f174358`][4])
-* add upload and delete support for Avatar API ([#829][5]) ([`4dcb84a`][6])
+* `SharedLink`に`can_edit`フィードを追加 ([#831][1]) ([`e0d4197`][2])
+* `BoxFileVersion`に`version_number`を追加 ([#820][3]) ([`f174358`][4])
+* アバターAPIにアップロードと削除のサポートを追加 ([#829][5]) ([`4dcb84a`][6])
 
 **バグ修正:**
 
-* Fix initialization of `BoxAPIException` object ([#828][7]) ([`a298f01`][8])
-* properly dispose response on exception ([#819][9]) ([`8415bd3`][10])
+* `BoxAPIException`オブジェクトの初期化を修正 ([#828][7]) ([`a298f01`][8])
+* 例外のレスポンスを適切に破棄 ([#819][9]) ([`8415bd3`][10])
 
 <https://www.nuget.org/packages/Box.V2/4.4.0>
 
