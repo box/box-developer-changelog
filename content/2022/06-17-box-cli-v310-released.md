@@ -13,9 +13,9 @@ collapse: true
 ### New Features and Enhancements
 
 * Add --all flag for search to return all results ([#336][1]) ([`23ea0a5`][2])
-* add unique state parameter to OAuth2 login ([#292][3]) ([`5ce6a40`][4])
+* add unique state parameter to `OAuth2` login ([#292][3]) ([`5ce6a40`][4])
 * allow changing base URLs ([#303][5]) ([`e284059`][6])
-* obtain `oauth` authorization from commandline ([#299][7]) ([`18c88bb`][8])
+* obtain `oauth` authorization from command line ([#299][7]) ([`18c88bb`][8])
 * use native credential storage for MacOS and Windows ([#295][9]) ([`74c4922`][10])
 
 ### Bug Fixes
