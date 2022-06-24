@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-06-11-box-java-sdk-v321-released
 previous_page_id: 2022-05-31-reporting-and-events-streams
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/06-01-cli-scripts.md
