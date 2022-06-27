@@ -11,7 +11,7 @@ release_source_url: ''
 
 # Box Sign API supports setting redirect URLs
 
-The [Box Sign API](3) now offers new parameters to set up custom redirect URLs
+The [Box Sign API][3] now offers new parameters to set up custom redirect URLs
 for users who sign or decline a sign request. This way, when integrating your application 
 with Box Sign, you can redirect the signers
 back to your application or display a custom landing page.
@@ -20,7 +20,7 @@ back to your application or display a custom landing page.
 
 ## Updates
 
-Box Sign API provides optional parameters to pass in the request body of the [Create Sign Request][3] call:
+Box Sign API provides optional parameters to pass in the request body of the [Create Sign Request][4] call:
 
 * `redirect_url` that redirects the user to a specific page after signing a request
 * `declined_redirect_url` that redirects the user to a specific page after declining a request
