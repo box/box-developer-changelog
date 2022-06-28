@@ -26,16 +26,16 @@ published_at: '2022-06-23'
 
 The [Box CLI][3] now features a sample scripts library with templates you can use to automate your tasks.
 For starters, we wanted to provide you with a PowerShell script that allows you to:
-* set up a folder structure
-* create managed users
-* add the users to the folder structure as collaborators
+* set up a folder structure,
+* create managed users,
+* add the users to the folder structure as collaborators.
 
 <!-- more -->
 
 ## Updates
 
-* The Box CLI [quick start guide][4] now provides instructions on using a PowerShell script to create a folder structure and users.
-* The [scripts library][5] is a go to place where you can find all sample scripts. Currently, it includes the PowerShell script but more samples are on the way!
+* The Box CLI [quick start guide][4] now provides instructions on using a PowerShell script to create a folder structure and collaborators.
+* The [scripts library][5] is where you can find all sample scripts. Currently, it includes the PowerShell script but more samples are on the way!
 
 
 ## Developer Resources
