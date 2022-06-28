@@ -17,14 +17,14 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2022-06-17-box-cli-v310-released
+previous_page_id: 2022-06-23-new-cli-script
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/06-24-new-redirect-url-parameters.md
 published_at: '2022-06-24'
 ---
 # Box Sign API supports setting redirect URLs
 
-The [Box Sign API](3) now offers new parameters to set up custom redirect URLs
+The [Box Sign API][3] now offers new parameters to set up custom redirect URLs
 for users who sign or decline a sign request. This way, when integrating your application
 with Box Sign, you can redirect the signers
 back to your application or display a custom landing page.
