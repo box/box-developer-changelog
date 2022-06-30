@@ -11,7 +11,7 @@ release_source_url: ''
 
 # Improvements in web app integrations documentation
 
-The [Create Web App Integration](1) with a Custom App document is updated to reflect all the information from the dev console.
+The [Create Web App Integration](1) with a Custom App document is updated to reflect all the information from the developer console.
 
 <!-- more -->
 
