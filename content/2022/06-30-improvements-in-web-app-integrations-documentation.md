@@ -1,7 +1,7 @@
 ---
 applied_at: "2021-06-30"
 applies_to: 
-- guides
+- other
 is_impactful: true
 is_new_feature: false
 collapse: true
@@ -25,5 +25,5 @@ The [Create Web App Integration](1) with a Custom App document is updated to ref
 Should you have any issues or need further guidance, please post a request to
 our [developer forum][2].
 
-[1]: g://guides/applications/web-app-integrations/configure
+[1]: g://applications/web-app-integrations/configure
 [2]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
