@@ -23,20 +23,20 @@ source_url: >-
 published_at: '2022-06-23'
 fullyTranslated: true
 ---
-# Automate tasks with Box CLI and scripts library
+# Box CLIとスクリプトライブラリによるタスクの自動化
 
-The [Box CLI][3] now features a sample scripts library with templates you can use to automate your tasks. For starters, we wanted to provide you with a PowerShell script that allows you to:
+[Box CLI][3]は、タスクの自動化に使用できるテンプレートを含むサンプルスクリプトライブラリに対応するようになりました。まずは、以下を実行できるPowerShellスクリプトを提供します:
 
-* set up a folder structure,
-* create managed users,
-* add the users to the folder structure as collaborators.
+* フォルダ構造を設定する
+* 管理対象ユーザーを作成する
+* ユーザーをフォルダ構造にコラボレータとして追加する
 
 <!-- more -->
 
 ## 更新内容
 
-* The Box CLI [quick start guide][4] now provides instructions on using a PowerShell script to create a folder structure and collaborators.
-* The [scripts library][5] is where you can find all sample scripts. Currently, it includes the PowerShell script but more samples are on the way!
+* Box CLIの[クイックスタートガイド][4]に、PowerShellスクリプトを使用してフォルダ構造とコラボレータを作成する手順を記載しました。
+* サンプルスクリプトはすべて[スクリプトライブラリ][5]に含まれています。現在はPowerShellスクリプトが含まれていますが、今後さらにサンプルが追加される予定です。
 
 ## 開発者向けリソース
 
