@@ -22,9 +22,9 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/06-30-improvements-in-web-app-integrations-documentation.md
 published_at: '2022-06-30'
 ---
-# Improvements in web app integrations documentation
+# Improvements in Web App Integrations documentation
 
-The [Create Web App Integration](1) with a Custom App document is updated to reflect all the information from the developer console.
+We updated documentation on creating [Web App Integrations][1] with Custom Apps to reflect all the information from the developer console.
 
 <!-- more -->
 
