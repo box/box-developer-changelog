@@ -26,11 +26,11 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Added support for stream type `admin_logs_streaming` ([#337][1]) ([`7596157`][2])
+* ストリームタイプ`admin_logs_streaming`のサポートを追加 ([#337][1]) ([`7596157`][2])
 
 ### バグ修正
 
-* Fix native storage errors ([#345][3]) ([`b73b841`][4])
+* ネイティブストレージエラーを修正 ([#345][3]) ([`b73b841`][4])
 
 [1]: https://github.com/box/boxcli/issues/337
 
