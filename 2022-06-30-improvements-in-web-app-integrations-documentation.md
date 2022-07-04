@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2022-06-30'
 fullyTranslated: true
 ---
-# Improvements in Web App Integrations documentation
+# ウェブアプリ統合ドキュメントの改善
 
-We updated documentation on creating [Web App Integrations][1] with Custom Apps to reflect all the information from the developer console.
+開発者コンソールからの情報をすべて反映するよう、カスタムアプリを使用した[ウェブアプリ統合][1]の作成に関するドキュメントを更新しました。
 
 <!-- more -->
 
 ## 更新内容
 
-* Added description of all elements in the **App Info** section.
-* Expanded the **Callback Parameters** section with information about parameter syntax.
+* **アプリ情報**セクションのすべての要素に説明を追加しました。
+* パラメータの構文に関する情報で**コールバックパラメータ**セクションを拡張しました。
 
 ## サポート情報
 
