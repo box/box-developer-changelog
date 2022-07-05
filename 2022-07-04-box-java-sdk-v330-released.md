@@ -27,11 +27,11 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Added support of Editable Shared Links ([#1064][1]) ([`9b7d60c`][2])
+* 編集可能な共有リンクのサポートを追加 ([#1064][1]) ([`9b7d60c`][2])
 
 ### バグ修正
 
-* Fix closed stream exception in `canUpload` method ([#1067][3]) ([`543f91c`][4])
+* 閉じたストリームの例外を`canUpload`メソッドで修正 ([#1067][3]) ([`543f91c`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1064
 
