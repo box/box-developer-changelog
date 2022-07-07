@@ -1,7 +1,7 @@
 ---
 applied_at: "2022-07-06"
 applies_to: 
-- API
+- api
 is_impactful: true
 is_new_feature: false
 collapse: true
