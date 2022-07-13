@@ -35,6 +35,6 @@ fullyTranslated: true
 
 問題がある場合やさらにガイドが必要な場合は、Boxの[開発者向けフォーラム][2]に英語でリクエストを投稿してください。
 
-[1]: g://security/cors.md
+[1]: g://security/cors
 
 [2]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
