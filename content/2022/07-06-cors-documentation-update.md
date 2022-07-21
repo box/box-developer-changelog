@@ -19,7 +19,7 @@ Added information on what to do in case of the `Access-Control-Allow-Origin` hea
 
 ## Where to get support
 
-Should you have any issues or need further guidance, please post a request toour [developer forum][2].
+Should you have any issues or need further guidance, please post a request to our [developer forum][2].
 
-[1]: g://security/cors.md
+[1]: g://security/cors
 [2]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
