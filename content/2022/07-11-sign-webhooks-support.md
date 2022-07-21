@@ -34,6 +34,5 @@ our [developer forum][4] for any help needed.
 
 [1]: g://webhooks/triggers
 [2]: g://webhooks/v2/create-v2
-[3]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
-[4]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
-
+[3]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
+[4]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
