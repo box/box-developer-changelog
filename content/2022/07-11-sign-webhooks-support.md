@@ -11,7 +11,7 @@ release_source_url: ''
 
 # New Box Sign webhook triggers
 
-The [Webhook Event Triggers][1] now include the following Box Sign events you can use to trigger a v2 webhook:
+The [Webhook Event Triggers][1] now include the following Box Sign events you can use to trigger a version 2 webhook:
 
 * `SIGN_REQUEST.COMPLETED`
 * `SIGN_REQUEST.DECLINED`
