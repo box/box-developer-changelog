@@ -25,15 +25,14 @@ For details on creating webhooks read [this guide][2].
 ## Developer Resources
 
 Are you interested in creating applications for the Box App Center or becoming a Box Partner? Check out the
-[Box Partner Resources][2] guides for more information!
+[Box Partner Resources][3] guides for more information!
 
 ## Where to get support
 
 Should you have any issues or need further guidance, please post a request to
-our [developer forum][1] for any help needed.
+our [developer forum][4] for any help needed.
 
 [1]: g://webhooks/triggers
 [2]: g://webhooks/v2/create-v2
-[3]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
-[4]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
-
+[3]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
+[4]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
