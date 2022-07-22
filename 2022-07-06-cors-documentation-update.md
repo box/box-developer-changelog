@@ -10,16 +10,16 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2022-07-06-cors-issues
+id: 2022-07-06-cors-documentation-update
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-07-11-sign-webhooks-support
-previous_page_id: 2022-07-06-cors-documentation-update
+next_page_id: 2022-07-06-cors-issues
+previous_page_id: 2022-07-06-box-python-sdk-v340-released
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2022/07-06-cors-issues.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2022/07-06-cors-documentation-update.md
 published_at: '2022-07-06'
 fullyTranslated: true
 ---
