@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-07-06-cors-documentation-update
+next_page_id: 2022-07-06-cors-issues
 previous_page_id: 2022-07-04-box-java-sdk-v330-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/07-06-box-python-sdk-v340-released.md
