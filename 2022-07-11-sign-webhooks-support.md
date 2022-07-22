@@ -34,7 +34,6 @@ For details on creating webhooks read [this guide][2].
 
 <!-- more -->
 
-
 ## Developer Resources
 
 Are you interested in creating applications for the Box App Center or becoming a Box Partner? Check out the
