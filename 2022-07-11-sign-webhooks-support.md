@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2022-07-11'
 fullyTranslated: true
 ---
-# New Box Sign webhook triggers
+# Box Signの新しいWebhookトリガー
 
-The [Webhook Event Triggers][1] now include the following Box Sign events you can use to trigger a version 2 webhook:
+[Webhookイベントトリガー][1]に、V2 Webhookのトリガーに使用できる次のBox Signイベントが含まれるようになりました。
 
 * `SIGN_REQUEST.COMPLETED`
 * `SIGN_REQUEST.DECLINED`
 * `SIGN_REQUEST.EXPIRED`
 
-For details on creating webhooks read [this guide][2].
+Webhookの作成の詳細については、[このガイド][2]を参照してください。
 
 <!-- more -->
 
