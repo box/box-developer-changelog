@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix OAuth login ([#364][1]) ([`579b44b`][2])
+* OAuthログインを修正 ([#364][1]) ([`579b44b`][2])
 
 [1]: https://github.com/box/boxcli/issues/364
 
