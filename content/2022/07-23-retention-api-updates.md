@@ -11,7 +11,7 @@ release_source_url: ''
 
 # Retention policy API improvements
 
-Recent changes API for retention policies and retention policy assignments allow you to remove retention policy assignments and specify the retention length and type for your policies.
+Recent changes to the API for retention policies and retention policy assignments allow you to remove retention policy assignments and specify the retention length and type for your policies.
 
 <!-- more -->
 
