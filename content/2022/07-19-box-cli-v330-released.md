@@ -13,9 +13,9 @@ collapse: true
 ### New Features and Enhancements
 
 * add editable shared link support ([#350][1]) ([`ab639e7`][2])
-* add file requests api support ([#355][3]) ([`73f0490`][4])
+* add file requests API support ([#355][3]) ([`73f0490`][4])
 * add possibility to set custom analytics header ([#348][5]) ([`5a3387f`][6])
-* Support --copy-instance-on-item-copy flag for update metadata template ([#357][7]) ([`5d8272a`][8])
+* support --copy-instance-on-item-copy flag for update metadata template ([#357][7]) ([`5d8272a`][8])
 * support Client Credentials Grant as authentication method ([#335][9]) ([`4649d8a`][10])
 
 [1]: https://github.com/box/boxcli/issues/350
