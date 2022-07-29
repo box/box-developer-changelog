@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-07-25-box-cli-v331-released
+next_page_id: 2022-07-23-retention-api-updates
 previous_page_id: 2022-07-13-box-node-sdk-v240-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/07-19-box-cli-v330-released.md
