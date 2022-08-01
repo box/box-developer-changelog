@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix request command when calling without body ([#369][1]) ([`9317888`][2])
+* 本文なしで呼び出す場合についてリクエストコマンドを修正 ([#369][1]) ([`9317888`][2])
 
 [1]: https://github.com/box/boxcli/issues/369
 

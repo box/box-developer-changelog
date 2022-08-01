@@ -23,25 +23,25 @@ source_url: >-
 published_at: '2022-07-23'
 fullyTranslated: true
 ---
-# Retention policy API improvements
+# リテンションポリシーAPIの改善
 
-Recent changes to the API for retention policies and retention policy assignments allow you to remove retention policy assignments and specify the retention length and type for your policies.
+最近のリテンションポリシーのAPIとリテンションポリシーの割り当てに関する変更により、リテンションポリシーの割り当てを削除し、ポリシーのリテンション期間と種類を指定することができるようになりました。
 
 <!-- more -->
 
 ## 更新内容
 
-* Use the new [`DELETE`][1] endpoint to remove an existing retention policy assignment:
+* 新しい[`DELETE`][1]エンドポイントを使用して既存のリテンションポリシーの割り当てを削除します:
 
 ```bash
 curl -i -X DELETE -L https://api.box.net/2.0/retention_policy_assignments/123456/
     -H 'Authorization: Bearer <ACCESS_TOKEN>' 
 ```
 
-* Specify the following parameters when [creating][2] or [updating][3] retention policies:
+* リテンションポリシーを[作成][2]または[更新][3]する場合は、次のパラメータを指定します:
 
-  * `retention_length`: Specifies the duration in days that the retention policy will be active for after being assigned to content.
-  * `retention_type`: Specifies if the policy is `modifiable` or `non-modifiable`. This means you can either modify the retention policy in full or in a limited way depending on the need to comply with specific regulatory requirements. 
+  * `retention_length`: リテンションポリシーをコンテンツに割り当てた後にアクティブにする期間を日数で指定します。
+  * `retention_type`: ポリシーが`modifiable`または`non-modifiable`であるかを指定します。これは、特定の規制要件に準拠する必要があるかどうかに応じて、リテンションポリシーを全面的に変更可能にするか、限定的に変更可能にするかのいずれかを選択できることを意味します。 
 
 ## 開発者向けリソース
 
