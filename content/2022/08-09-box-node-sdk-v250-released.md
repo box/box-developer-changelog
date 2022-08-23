@@ -17,7 +17,7 @@ collapse: true
 
 ### Bug Fixes
 
-* Fix error while generate token using oauth ([#750][3]) ([`f826291`][4]), closes [#286][5]
+* Fix error while generate token using OAuth ([#750][3]) ([`f826291`][4]), closes [#286][5]
 * Fix lint error in test file ([#747][6]) ([`3b1e10d`][7])
 
 [1]: https://github.com/box/box-node-sdk/issues/744
