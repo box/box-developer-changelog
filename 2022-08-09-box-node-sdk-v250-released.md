@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-08-11-box-java-sdk-v340-released
 previous_page_id: 2022-07-29-box-cli-v332-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/08-09-box-node-sdk-v250-released.md
