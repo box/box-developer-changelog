@@ -9,7 +9,7 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Updates to Box CLI scripts and guides
+# Updates to Box CLI
 
 The recent additions to [Box CLI script library][1] and [CLI guides][2]
 improve automation even further and simplify handling repetitive tasks.
