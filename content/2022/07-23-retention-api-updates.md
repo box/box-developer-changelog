@@ -11,7 +11,7 @@ release_source_url: ''
 
 # Retention policy API improvements
 
-Recent changes API for retention policies and retention policy assignments allow you to remove retention policy assignments and specify the retention length and type for your policies.
+Recent changes to the API for retention policies and retention policy assignments allow you to remove retention policy assignments and specify the retention length and type for your policies.
 
 <!-- more -->
 
@@ -39,8 +39,8 @@ Are you interested in creating applications for the Box App Center or becoming a
 Should you have any issues or need further guidance, please post a request to
 our [developer forum][5] for any help needed.
 
-[1]: e://delete-retention-policy-assignments-id/
-[2]: r://post-retention-policies/
-[3]: r://put-retention-policies-id/
+[1]: e://delete-retention-policy-assignments-id
+[2]: e://post-retention-policies
+[3]: e://put-retention-policies-id
 [4]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
 [5]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
