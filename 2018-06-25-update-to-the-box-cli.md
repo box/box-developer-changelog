@@ -22,7 +22,7 @@ fullyTranslated: true
 ---
 # Box CLIの更新
 
-[Box CLI](guide://tooling/cli/quick-start)への更新がリリースされました。このバージョンには以下の更新が含まれます。
+[Box CLI](guide://cli/quick-start)への更新がリリースされました。このバージョンには以下の更新が含まれます。
 
 * **[新しいマルチゾーンコマンド][cli_update_multizones]**: データ保管場所用の[Box Multizones][cli_update_multizones_announce]のサポートが追加されました。
 

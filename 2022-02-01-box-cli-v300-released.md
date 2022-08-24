@@ -103,6 +103,6 @@ CLIの機能強化やドキュメントの変更に加え、新しく[YouTube動
 
 [18]: https://www.youtube.com/watch?v=whxT3Bdx3E0&list=PL0F3BD5B64D6A39F1
 
-[19]: g://tooling/cli/quick-start
+[19]: g://cli/quick-start
 
-[20]: g://tooling/cli/jwt-cli
+[20]: g://cli/cli-docs/jwt-cli
