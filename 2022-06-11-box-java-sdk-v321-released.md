@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2022-06-14-box-windows-sdk-v440-released
-previous_page_id: 2022-06-01-cli-scripts
+previous_page_id: 2022-05-31-reporting-and-events-streams
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/06-11-box-java-sdk-v321-released.md
 published_at: '2022-06-11'

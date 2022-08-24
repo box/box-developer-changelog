@@ -294,7 +294,6 @@
   "2022-05-24-box-java-sdk-v320-released",
   "2022-05-24-new-app-center",
   "2022-05-31-reporting-and-events-streams",
-  "2022-06-01-cli-scripts",
   "2022-06-11-box-java-sdk-v321-released",
   "2022-06-14-box-windows-sdk-v440-released",
   "2022-06-17-box-cli-v310-released",
@@ -310,5 +309,9 @@
   "2022-07-19-box-cli-v330-released",
   "2022-07-23-retention-api-updates",
   "2022-07-25-box-cli-v331-released",
-  "2022-07-29-box-cli-v332-released"
+  "2022-07-29-box-cli-v332-released",
+  "2022-08-09-box-node-sdk-v250-released",
+  "2022-08-11-box-java-sdk-v340-released",
+  "2022-08-19-box-ios-sdk-v530-released",
+  "2022-08-24-new-cli-scripts-added"
 ]
