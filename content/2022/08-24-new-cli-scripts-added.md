@@ -26,11 +26,11 @@ onboarding folder structure and adds users.
 * [Report inactive users][5] generates a CSV file with a list of users who have been inactive for a specific number of days.
 * [Update user zones][6] provisions users to a specific 
 data residency zone within a Multizone Box tenant.
-* [Deprovision users][7] deprovisions users and deletes them.
+* [Deprovision users][7] removes users.
 
 ## Bulk commands guide
 
-The [bulk commands guide][8] shows you how you can perform actions for multiple items at once.
+The [bulk commands guide][8] explains how you can use a single command to perform actions involving multiple items.
 
 ## Developer Resources
 
