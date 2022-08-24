@@ -8,7 +8,9 @@ is_new_feature: true
 
 # Box CLI V2 release
 
+
 A major version release (V2) has been made to the [Box CLI][guide].
+
 See the following links for updated information:
 
 * [Release notes][cli_v2_release_notes]: Major revision details, breaking
