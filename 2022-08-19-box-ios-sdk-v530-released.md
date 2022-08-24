@@ -28,16 +28,16 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* add `version_number` to `FileVersion` ([#853][1]) ([`ac81667`][2])
-* Add support for async API in `FoldersModule` ([#851][3]) ([`58b9dde`][4])
-* Add support for file request API ([#867][5]) ([`ec7813e`][6])
-* Add support for upload and delete Avatar API ([#863][7]) ([`1e967f5`][8])
-* Add support of Editable Shared Link ([#861][9]) ([`bc6ea18`][10])
-* Expose `send()` method public in `BoxClient` ([#843][11]) ([`23caaca`][12])
+* `version_number`を`FileVersion`に追加 ([#853][1]) ([`ac81667`][2])
+* `FoldersModule`に非同期APIのサポートを追加 ([#851][3]) ([`58b9dde`][4])
+* ファイルリクエストAPIのサポートを追加 ([#867][5]) ([`ec7813e`][6])
+* アバターAPIにアップロードと削除のサポートを追加 ([#863][7]) ([`1e967f5`][8])
+* 編集可能な共有リンクのサポートを追加 ([#861][9]) ([`bc6ea18`][10])
+* `send()`メソッドを`BoxClient`でパブリックに公開 ([#843][11]) ([`23caaca`][12])
 
 ### バグ修正
 
-* Respect Content-Type coming from custom headers ([#841][13]) ([`a7c69a7`][14])
+* カスタムヘッダーからのContent-Typeを考慮 ([#841][13]) ([`a7c69a7`][14])
 
 [1]: https://github.com/box/box-ios-sdk/issues/853
 

@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Added support update and remove user avatar ([#744][1]) ([`aaf6175`][2])
+* ユーザーアバターの更新と削除のサポートを追加 ([#744][1]) ([`aaf6175`][2])
 
 ### バグ修正
 
-* Fix error while generate token using OAuth ([#750][3]) ([`f826291`][4]), closes [#286][5]
-* Fix lint error in test file ([#747][6]) ([`3b1e10d`][7])
+* OAuthを使用してトークンを生成する際のエラーを修正 ([#750][3]) ([`f826291`][4])、[#286][5]をクローズ
+* テストファイルのlintエラーを修正 ([#747][6]) ([`3b1e10d`][7])
 
 [1]: https://github.com/box/box-node-sdk/issues/744
 
