@@ -50,8 +50,8 @@ Box App Centerでのアプリケーションの作成、またはBoxパートナ
 
 [2]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
 
-[3]: https://developer.box.com/guides/tooling/cli
+[3]: g://cli
 
-[4]: https://developer.box.com/guides/tooling/cli/quick-start/powershell-script-templates
+[4]: g://cli/quick-start/powershell-script-templates
 
 [5]: https://github.com/box/boxcli/tree/main/examples
