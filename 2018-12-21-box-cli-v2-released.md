@@ -22,9 +22,9 @@ fullyTranslated: true
 ---
 # Box CLI V2のリリース
 
-A major version release (V2) has been made to the [Box CLI][guide].
+[Box CLI][guide]のメジャーバージョン (V2) がリリースされました。
 
-See the following links for updated information:
+更新情報については次のリンクを参照してください。
 
 * [リリースノート][cli_v2_release_notes]: 大きな修正の詳細、重大な変更、バグの修正。
 * [コマンドの一覧][cli_v2_release_commands]: 新しいCLIで利用可能なすべてのコマンド。
@@ -34,4 +34,4 @@ See the following links for updated information:
 
 [cli_v2_release_commands]: https://github.com/box/boxcli#command-topics
 
-[guide][guide]: [g://cli/quick-start/install-and-configure][g://cli/quick-start/install-and-configure]
+[ガイド][guide]: [g://cli/quick-start/install-and-configure][g://cli/quick-start/install-and-configure]
