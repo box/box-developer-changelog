@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-08-29-box-sign-available-for-starter
 previous_page_id: 2022-08-24-new-cli-scripts-added
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/08-26-box-java-sdk-v350-released.md
