@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2022-08-29'
 fullyTranslated: true
 ---
-# Box Sign available for Starter plans
+# StarterプランでBox Signを使用できるようになりました
 
-[Box Sign][1] is now available for Free, Personal Pro, and Starter plans.
+Free、Personal Pro、Starterプランで[Box Sign][1]を使用できるようになりました。
 
 <!-- more -->
 
