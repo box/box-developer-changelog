@@ -63,5 +63,5 @@ our [developer forum][10] for any help needed.
 [6]: g://cli/scripts/user-zones-mass-update
 [7]: g://cli/scripts/deprovision-users
 [8]: g://cli/cli-docs/bulk-commands
-[9]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
-[10]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
+[9]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
+[10]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
