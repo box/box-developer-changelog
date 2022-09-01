@@ -67,6 +67,6 @@ Box App Centerでのアプリケーションの作成、またはBoxパートナ
 
 [8]: g://cli/cli-docs/bulk-commands
 
-[9]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
+[9]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
 
-[10]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
+[10]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
