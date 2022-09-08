@@ -27,11 +27,11 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add support for modifiable retention policies & enable deleting retention policy assignment ([#1093][1]) ([`30e2fcb`][2])
+* 変更可能リテンションポリシーのサポートと、リテンションポリシーの割り当ての削除機能を追加 ([#1093][1]) ([`30e2fcb`][2])
 
 ### バグ修正
 
-* Stop sending not specified optional fields when creating a user ([#1095][3]) ([`b7d894d`][4])
+* ユーザーの作成時に指定されていないオプションフィールドを送信しないように修正 ([#1095][3]) ([`b7d894d`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1093
 
