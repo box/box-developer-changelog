@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2022-09-21-box-java-sdk-v370-released
+previous_page_id: 2022-09-23-box-node-sdk-v260-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/09-23-box-python-sdk-v350-released.md
 published_at: '2022-09-23'
