@@ -26,8 +26,9 @@ collapse: true
 
 ### Note
 
-* To migrate storing Box CLI environments to the system credential storage, execute the following command in the terminal (<https://github.com/box/boxcli/issues/295>):
-        box configure:environments:update
+* To migrate storing Box CLI environments to the system credential storage, execute the following command in the terminal ([#295](https://github.com/box/boxcli/issues/295))
+
+    `box configure:environments:update`
 
 [1]: https://github.com/box/boxcli/issues/392
 
