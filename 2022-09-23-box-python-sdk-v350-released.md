@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add `redirect_url` and `declined_redirect_url` fields to Sign Request ([#752][1]) ([`5d1f609`][2])
-* Add support for modifiable retention policies & enable deleting retention policy assignment ([#759][3]) ([`847301b`][4])
-* Support file request APIs ([#747][5]) ([`71895e3`][6])
+* 署名リクエストに`redirect_url`および`declined_redirect_url`フィールドを追加 ([#752][1]) ([`5d1f609`][2])
+* 変更可能リテンションポリシーサポートを追加し、リテンションポリシーの割り当ての削除を有効化 ([#759][3]) ([`847301b`][4])
+* ファイルリクエストAPIのサポート ([#747][5]) ([`71895e3`][6])
 
 ### バグ修正
 
-* Do not log the content of downloaded file ([#760][7]) ([`5d26431`][8])
-* Fix closing file after chunked upload ([#761][9]) ([`b433692`][10])
+* ダウンロードしたファイルのコンテンツをログに記録しないよう修正 ([#760][7]) ([`5d26431`][8])
+* 分割アップロード後のファイルのクローズ処理を修正 ([#761][9]) ([`b433692`][10])
 
 [1]: https://github.com/box/box-python-sdk/issues/752
 
