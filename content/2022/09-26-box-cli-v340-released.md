@@ -20,7 +20,7 @@ collapse: true
 
 ### Bug Fixes
 
-* correctly resolve home dir in folders download ([#398][11]) ([`86d3230`][12])
+* correctly resolve home `dir` in folders download ([#398][11]) ([`86d3230`][12])
 * Fix logs in `Users Deprovisioning` script ([#381][13]) ([`c85f77b`][14])
 * Fix problem with `keytar` library ([#394][15]) ([`1979f01`][16])
 
