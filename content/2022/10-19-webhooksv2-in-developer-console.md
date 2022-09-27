@@ -9,9 +9,10 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Manage webhooks v2 in Developer Console
+# Manage webhooks v2 in the developer console
 
-You can now [create][1], [update][2] and [delete][3] webhooks v2 in the [Developer Console][console]. 
+You can now [create][1], [update][2] and [delete][3] webhooks v2 in the
+[Developer Console][console]. 
 
 ## Where to get support
 
