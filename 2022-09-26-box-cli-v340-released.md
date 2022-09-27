@@ -26,21 +26,21 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add `DryRun` mode in `User Deprovision` example script ([#392][1]) ([`584a30e`][2])
-* Add `redirect_url` and `declined_redirect_url` to Sign Request ([#395][3]) ([`261b7d2`][4])
-* Add progress bar for file download and bulk command ([#376][5]) ([`68359c7`][6])
-* create destination path during download ([#393][7]) ([`40881dd`][8])
-* native credentials storage for Windows with a new library ([#385][9]) ([`a6918aa`][10])
+* `User Deprovision`サンプルスクリプトに`DryRun`モードを追加 ([#392][1]) ([`584a30e`][2])
+* 署名リクエストに`redirect_url`と`declined_redirect_url`を追加 ([#395][3]) ([`261b7d2`][4])
+* ファイルのダウンロードと一括コマンド用に進捗バーを追加 ([#376][5]) ([`68359c7`][6])
+* ダウンロード中に宛先パスを作成 ([#393][7]) ([`40881dd`][8])
+* 新しいライブラリを使用したWindowsにネイティブの資格情報ストレージ ([#385][9]) ([`a6918aa`][10])
 
 ### バグ修正
 
-* correctly resolve home `dir` in folders download ([#398][11]) ([`86d3230`][12])
-* Fix logs in `Users Deprovisioning` script ([#381][13]) ([`c85f77b`][14])
-* Fix problem with `keytar` library ([#394][15]) ([`1979f01`][16])
+* フォルダのダウンロードでのホーム`dir`を正しく解決 ([#398][11]) ([`86d3230`][12])
+* `Users Deprovisioning`スクリプトのログを修正 ([#381][13]) ([`c85f77b`][14])
+* `keytar`ライブラリの問題を修正 ([#394][15]) ([`1979f01`][16])
 
-### Note
+### 注
 
-* To migrate storing Box CLI environments to the system credential storage, execute the following command in the terminal ([#295](https://github.com/box/boxcli/issues/295))
+* 格納用Box CLI環境をシステム資格情報ストレージに移行するには、次のコマンドをターミナルで実行します。([#295](https://github.com/box/boxcli/issues/295))
 
     `box configure:environments:update`
 
