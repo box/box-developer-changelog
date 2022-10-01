@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Better logging when JSON cannot be parsed ([#1106][1]) ([`5e66ef8`][2])
+* JSONを解析できなかった場合のログを改善 ([#1106][1]) ([`5e66ef8`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1106
 
