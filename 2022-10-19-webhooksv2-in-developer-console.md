@@ -17,15 +17,18 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2022-09-26-box-cli-v340-released
+previous_page_id: 2022-09-30-box-java-sdk-v371-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/10-19-webhooksv2-in-developer-console.md
 published_at: '2022-10-19'
 ---
 # Manage webhooks V2 in the developer console
 
-You can now [create][1], [update][2] and [delete][3] webhooks V2 in the
-[Developer Console][console].
+Managing webhooks in your applications is now easier and more streamlined.
+In one single-stop UI - the **Webhooks** tab in the
+[Developer Console][console] -you can review all webhooks in an
+application. You can now [create][1], [update][2], or [delete][3] V2 webhooks
+using the user interface in the [Developer Console][console].
 
 ## Where to get support
 
