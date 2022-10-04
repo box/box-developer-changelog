@@ -26,7 +26,7 @@ published_at: '2022-10-19'
 
 Managing webhooks in your applications is now easier and more streamlined.
 In one single-stop UI - the **Webhooks** tab in the
-[Developer Console][console] -you can review all webhooks in an
+[Developer Console][console] - you can review all webhooks in an
 application. You can now [create][1], [update][2], or [delete][3] V2 webhooks
 using the user interface in the [Developer Console][console].
 
