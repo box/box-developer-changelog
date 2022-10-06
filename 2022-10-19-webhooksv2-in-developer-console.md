@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2022-09-30-box-java-sdk-v371-released
+previous_page_id: 2022-10-05-metadata-extraction-script
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/10-19-webhooksv2-in-developer-console.md
 published_at: '2022-10-19'
