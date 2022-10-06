@@ -9,9 +9,9 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Extract metadata with Box CLI script
+# Extract metadata with the new Box CLI script
 
-[Box CLI][1] now features a new sample script that allows you to [extract metadata][2] details for all Box files and folders and save it in a CSV file. 
+[Box CLI][1] now features a new script that allows you to [extract metadata][2] details for all Box files and folders and save it in a CSV file. 
 
 <!-- more -->
 
