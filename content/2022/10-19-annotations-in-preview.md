@@ -13,7 +13,6 @@ release_source_url: ''
 
 To improve the content previewing experience, we have added support
 for new annotation types in the Preview UI Element.
-
 End users previewing content in custom applications can now utilize
 additional annotation types, such as text highlight, drawing, and more.
 All the annotations sync in real time.
