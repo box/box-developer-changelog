@@ -9,13 +9,15 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Annotations V4 in content preview
+# New annotations in the Content Preview UI Element
 
-To improve your experience when using the content preview, we added the V4 annotations.
-You can now use the same annotations in content preview as in the main application.
-Your annotations will sync in real time.
-
+To improve the content previewing experience, we have added support for new
+annotations types in the Preview UI Element.
 <!-- more -->
+
+End users previewing content in custom applications can now utilize additional
+annotation types, such as text highlight, drawing, and more. All the annotations
+sync in real time.
 
 ## Where to get support
 
