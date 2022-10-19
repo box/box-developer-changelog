@@ -27,8 +27,8 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Add `redirect_url` and `declined_redirect_url` to Sign Request ([#853][1]) ([`5ef2f18`][2])
-* Add support for modifiable retention policies & enable deleting retention policy assignment ([#856][3]) ([`564904f`][4])
+* 署名リクエストに`redirect_url`と`declined_redirect_url`を追加 ([#853][1]) ([`5ef2f18`][2])
+* 変更可能リテンションポリシーのサポートを追加し、リテンションポリシーの割り当ての削除を有効化 ([#856][3]) ([`564904f`][4])
 
 <https://www.nuget.org/packages/Box.V2/4.6.0>
 
