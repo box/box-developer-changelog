@@ -1,7 +1,6 @@
 ---
 applied_at: '2022-10-20'
 applies_to:
-  - frontend
   - ui-elements
 is_impactful: true
 is_new_feature: true
