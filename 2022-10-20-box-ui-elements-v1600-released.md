@@ -16,7 +16,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2022-10-18-box-windows-sdk-v460-released
+previous_page_id: 2022-10-19-webhooksv2-in-developer-console
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/10-20-box-ui-elements-v1600-released.md
 published_at: '2022-10-20'
