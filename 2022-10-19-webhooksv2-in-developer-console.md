@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2022-10-19'
 fullyTranslated: true
 ---
-# Manage webhooks V2 in the developer console
+# 開発者コンソールでのWebhook V2の管理
 
-Managing webhooks in your applications is now easier and more streamlined. In one single-stop UI - the **Webhooks** tab in the [Developer Console][console] - you can review all webhooks in an application. You can now [create][1], [update][2], or [delete][3] V2 webhooks using the user interface in the [Developer Console][console].
+アプリケーションのWebhookの管理が簡単で効率的になりました。[開発者コンソール][console]の \[**Webhook**] タブだけで、アプリケーションのすべてのWebhookを確認できます。[開発者コンソール][console]のユーザーインターフェースを使用して、V2 Webhookを[作成][1]、[更新][2]、または[削除][3]できるようになりました。
 
 ## サポート情報
 
