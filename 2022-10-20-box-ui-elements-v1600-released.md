@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-10-27-box-node-sdk-v270-released
 previous_page_id: 2022-10-19-webhooksv2-in-developer-console
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/10-20-box-ui-elements-v1600-released.md
