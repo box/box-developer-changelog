@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Export missing `RetentionType` ([#774][1]) ([`7e6b244`][2])
+* 欠落していた`RetentionType`をエクスポート ([#774][1]) ([`7e6b244`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/774
 
