@@ -26,8 +26,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add option to change name of downloaded file in `save-as`parameter ([#415][1]) ([`81fe64e`][2])
-* Add support for modifiable retention policies & enable deleting retention policy assignment ([#420][3]) ([`26ab5b4`][4])
+* ダウンロードしたファイルの名前を`save-as`パラメータで変更するオプションを追加 ([#415][1]) ([`81fe64e`][2])
+* 変更可能リテンションポリシーのサポートを追加し、リテンションポリシーの割り当ての削除を有効化 ([#420][3]) ([`26ab5b4`][4])
 
 [1]: https://github.com/box/boxcli/issues/415
 
