@@ -36,4 +36,4 @@ for the foreseeable future.
 
 [postman-quick-start-guide]: g://tooling/postman/quick-start
 [postman-collection]: g://tooling/postman/install
-[legacy-postman-collection]: g://tooling/postman/legacy
+[legacy-postman-collection]: g://tooling/postman
