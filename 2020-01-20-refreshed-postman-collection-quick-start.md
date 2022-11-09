@@ -33,4 +33,4 @@ Box Postmanコレクションは、新機能と、統合されたクイックス
 
 [postman-collection]: g://tooling/postman/install
 
-[legacy-postman-collection]: g://tooling/postman/legacy
+[legacy-postman-collection]: g://tooling/postman
