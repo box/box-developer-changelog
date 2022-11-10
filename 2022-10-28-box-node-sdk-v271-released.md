@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-11-02-box-cli-v350-released
+next_page_id: 2022-10-28-information-barrier
 previous_page_id: 2022-10-27-box-node-sdk-v270-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/10-28-box-node-sdk-v271-released.md
