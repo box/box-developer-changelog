@@ -17,7 +17,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2022-11-10-box-node-sdk-v272-released
 previous_page_id: 2022-11-02-box-cli-v350-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/11-08-box-ios-sdk-v540-released.md
