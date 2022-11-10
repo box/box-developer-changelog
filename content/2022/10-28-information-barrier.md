@@ -15,9 +15,11 @@ Shield information barrier prevents communication that could lead to conflicts o
 For example, admins can use information barrier to separate teams working on
 different projects to prevent collaboration on content restricted to specific groups.
 
+<!-- more -->
+
 ## Shield Information Barrier API
 
-Shield informatio barrier comes along with the new API that you can use to:
+Shield information barrier comes along with the new API that you can use to:
 
 * Create, manage, and list [Shield information barriers][2]
 * Create, update, delete, and list [Shield information barrier segments][3]
@@ -30,7 +32,7 @@ Shield informatio barrier comes along with the new API that you can use to:
 Setting up the information barrier produces the following events:
 
 * Events triggered when the user configures the information barrier, for example activates or deactivates the barrier. 
-* Events triggered when the user performs restricted actions, for example when attempting to move an item to a folder the user does not have access to or to add a user to a restricted group.
+* Events triggered when the user performs restricted actions, for example attempts to move an item to a restricted folder or add a user to a restricted group.
 
 For a list of all events, see the [Shield information barrier event triggers][7] reference.
 
@@ -45,4 +47,4 @@ our [developer forum][1] for any help needed.
 [4]: r://shield-information-barrier-segment-restriction
 [5]: r://shield-information-barrier-segment-member
 [6]: r://shield-information-barrier-report
-[7]: g://event-triggers/shield-information-barrier-events
+[7]: g://events/event-triggers/shield-information-barrier-events
