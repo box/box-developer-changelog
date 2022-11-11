@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add `fields` query parameter to file and folder update ([#776][1]) ([`a327deb`][2])
+* ファイルとフォルダの更新に`fields`クエリパラメータを追加 ([#776][1]) ([`a327deb`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/776
 
