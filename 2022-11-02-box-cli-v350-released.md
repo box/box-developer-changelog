@@ -16,7 +16,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2022-11-08-box-ios-sdk-v540-released
-previous_page_id: 2022-10-28-box-node-sdk-v271-released
+previous_page_id: 2022-10-28-information-barrier
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/11-02-box-cli-v350-released.md
 published_at: '2022-11-02'
