@@ -13,7 +13,7 @@ collapse: true
 ### New Features and Enhancements
 
 * Add `id` and `type` field  to shared-links:create response ([#427][1]) ([`5ea4cb8`][2])
-* Add fields disposition_at field for files under retention ([#429][3]) ([`db824ef`][4])
+* Add fields `disposition_at` field for files under retention ([#429][3]) ([`db824ef`][4])
 
 ### Bug Fixes
 
