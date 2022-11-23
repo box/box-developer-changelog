@@ -22,7 +22,7 @@ collapse: true
 
 ### Dependency Upgrades
 
-* Bumped org.bitbucket.b_c:jose4j:0.9.0 ([#1111][8]) ([`349694d`][9])
+* Bumped `org.bitbucket.b_c:jose4j:0.9.0` ([#1111][8]) ([`349694d`][9])
 
 [1]: https://github.com/box/box-java-sdk/issues/1109
 
