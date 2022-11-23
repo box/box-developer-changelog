@@ -16,7 +16,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2022-11-10-box-node-sdk-v272-released
+previous_page_id: 2022-11-16-box-java-sdk-v380-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/11-22-box-cli-v360-released.md
 published_at: '2022-11-22'
