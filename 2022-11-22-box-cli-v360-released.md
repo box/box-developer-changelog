@@ -16,7 +16,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2022-11-10-box-node-sdk-v272-released
+previous_page_id: 2022-11-16-box-java-sdk-v380-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/11-22-box-cli-v360-released.md
 published_at: '2022-11-22'
@@ -26,12 +26,12 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add `id` and `type` field to shared-links:create response ([#427][1]) ([`5ea4cb8`][2])
-* Add fields `disposition_at` field for files under retention ([#429][3]) ([`db824ef`][4])
+* `id`および`type`フィールドをshared-links:createレスポンスに追加 ([#427][1]) ([`5ea4cb8`][2])
+* リテンションの対象となるファイル用に`disposition_at`フィールドを追加 ([#429][3]) ([`db824ef`][4])
 
 ### バグ修正
 
-* Fix `event:poll` polling-interval ([#430][5]) ([`9ada74b`][6])
+* `event:poll` polling-intervalを修正 ([#430][5]) ([`9ada74b`][6])
 
 [1]: https://github.com/box/boxcli/issues/427
 
