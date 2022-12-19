@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2022-12-01-server-server-service-action-eol
+next_page_id: 2022-11-30-box-python-sdk-v351-released
 previous_page_id: 2022-11-16-box-java-sdk-v380-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/11-22-box-cli-v360-released.md
