@@ -25,18 +25,18 @@ source_url: >-
 published_at: '2022-12-19'
 fullyTranslated: true
 ---
-# Announcing major releases of Box SDKs
+# Box SDKのメジャーリリースに関するお知らせ
 
-In January 2023, we plan two major releases of Box Windows V2 SDK and Box Java SDK.
+2023年1月に、Box Windows V2 SDKとBox Java SDKの2つのメジャーリリースを予定しています。
 
 <!-- more -->
 
-For Box Windows V2 SDK, we are changing the minimum supported version of .NET Framework from 4.5 to 4.6.2+. For Box Java SDK, we are replacing networking library and introducing [OkHttp][2] which will give SDK support of HTTP2 protocol and allow users to use proxies beyond basic authentication.
+Box Windows V2 SDKでは、.NET Frameworkの最小サポートバージョンを4.5から4.6.2以上に変更します。Box Java SDKでは、ネットワークライブラリの置き換えと、[OkHttp][2]の導入を行います。これにより、SDKでHTTP2プロトコルをサポートし、ユーザーはBasic認証以外でもプロキシを使用できるようになります。
 
-For both SDKs, we are removing deprecated APIs.
+両方のSDKで、サポートが終了したAPIを削除します。
 
-* Read more about changes to [Box Windows V2 SDK][3].
-* Read more about changes to [Box Java SDK][4].
+* Box Windows V2 SDKの変更の詳細については、[こちら][3]を参照してください。
+* Box Java SDKの変更の詳細については、[こちら][4]を参照してください。
 
 ## サポート情報
 
