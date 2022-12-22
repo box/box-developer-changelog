@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Session termination ([#782][1]) ([`7fb56c6`][2])
+* セッション終了 ([#782][1]) ([`7fb56c6`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/782
 
