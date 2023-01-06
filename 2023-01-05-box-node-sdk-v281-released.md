@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix `getReadStream` delay reading ([#790][1]) ([`6bfc1ee`][2])
+* `getReadStream`の読み取りの遅延を修正 ([#790][1]) ([`6bfc1ee`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/790
 
