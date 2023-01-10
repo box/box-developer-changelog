@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Retry CCG and JWT auth requests on connection reset error ([#790][1]) ([`205997d`][2]), closes [#789][3]
+* 接続リセットエラーが発生した場合に、CCGおよびJWT認証リクエストを再試行 ([#790][1]) ([`205997d`][2])、[#789][3]をクローズ
 
 [1]: https://github.com/box/box-python-sdk/issues/790
 
