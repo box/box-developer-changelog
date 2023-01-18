@@ -20,11 +20,11 @@ The most important change this release includes is the replacement of the HTTP l
 
 ### Breaking Changes
 
-* `BatchAPIRequest` – is no longer supported by the SDK
+* `BatchAPIRequest` is no longer supported by the SDK
 * `BoxAPIConnection#DEFAULT_MAX_ATTEMPTS` is replaced with `BoxAPIConnection#DEFAULT_MAX_RETRIES`
-* `BoxRedirectResponse` – was removed and will not be replaced
+* `BoxRedirectResponse` was removed and will not be replaced
 * `BoxEvent.Type` is replaced with `EventType`
-* Removing deprecated methods from `BoxFile`, `BoxFileVersionRetention`, `BoxFolder`, `BoxGroup`, `BoxGroupMembership`,`BoxItem`, `BoxRetentionPolicy`, `BoxTask`, `BoxUser`, `BoxWebLink`, `EventLog`, `Metadata` and `MetadataTemplate`.
+*  Removed deprecated methods from `BoxFile`, `BoxFileVersionRetention`, `BoxFolder`, `BoxGroup`, `BoxGroupMembership`,`BoxItem`, `BoxRetentionPolicy`, `BoxTask`, `BoxUser`, `BoxWebLink`, `EventLog`, `Metadata` and `MetadataTemplate`.
 
 Migration details can be found [here][3].
 
