@@ -34,9 +34,9 @@ Migration details can be found [here][3].
 
 [1]: https://square.github.io/okhttp/
 
-[2]: https://github.com/box/box-java-sdk/blob/kb/ok-http/doc/configuration.md#custom-proxy-authenticator
+[2]: https://github.com/box/box-java-sdk/blob/main/doc/configuration.md#example-ntlm-authenticator
 
-[3]: doc/upgrades/3.x.x%20to%204.x.x.md
+[3]: https://github.com/box/box-java-sdk/blob/main/doc/upgrades/3.x.x%20to%204.x.x.md
 
 [4]: https://github.com/box/box-java-sdk/issues/1083
 
