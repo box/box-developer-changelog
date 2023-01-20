@@ -26,14 +26,14 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add more flags for folder update collaborators ([#438][1]) ([`83ac6d7`][2])
-* Add support session termination ([#446][3]) ([`aef15a8`][4])
+* フォルダの更新のコラボレータ用にフラグを追加 ([#438][1]) ([`83ac6d7`][2])
+* セッション終了のサポートを追加 ([#446][3]) ([`aef15a8`][4])
 
 ### バグ修正
 
-* Fix delete token cache from disk ([#445][5]) ([`aafb68a`][6])
-* Fix metadata template update when adding multiple options to enum ([#442][7]) ([`8779eec`][8])
-* single file upload on Node 16 ([#441][9]) ([`d94ab35`][10])
+* ディスクからのトークンのキャッシュの削除を修正 ([#445][5]) ([`aafb68a`][6])
+* 列挙型に複数のオプションを追加する際のメタデータテンプレートの更新を修正 ([#442][7]) ([`8779eec`][8])
+* Node 16での単一ファイルのアップロード ([#441][9]) ([`d94ab35`][10])
 
 [1]: https://github.com/box/boxcli/issues/438
 
