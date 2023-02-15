@@ -20,6 +20,6 @@ release_source_url: ''
 
 # The Sample Code Catalog released
 
-We are happy to announce that [the Sample Code Catalog](/sample-code) `v1.0.0` 
+We are happy to announce that [the Sample Code Catalog](https://developer.box.com/sample-code/) `v1.0.0` 
 is now available on our Box Developer site. From now on you can browse 
 code samples in various programming languages and filter them by category.
