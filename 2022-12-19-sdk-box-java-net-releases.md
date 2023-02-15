@@ -18,8 +18,8 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
-previous_page_id: 2022-12-01-server-server-service-action-eol
+next_page_id: 2022-12-21-box-node-sdk-v280-released
+previous_page_id: 2022-12-19-box-java-sdk-v381-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2022/12-19-sdk-box-java-net-releases.md
 published_at: '2022-12-19'
