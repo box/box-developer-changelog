@@ -32,7 +32,7 @@ APIによる検索の注目すべき変更点は以下のとおりです。
 * 「the」、「is」、「at」、「which」、「on」などの「[ストップワード][wiki-stop-words]」が使用可能になりました
 * 日本語テキストのトークン化が改善され、検索結果が向上しました
 
-BoxのAPIを使用した検索方法の詳細については、[全文検索][search_guide]に関するドキュメントを参照してください。
+BoxのAPIを使用した検索方法の詳細については、[ファイルコンテンツ検索][search_guide]に関するドキュメントを参照してください。
 
 [wiki-stop-words]: https://en.wikipedia.org/wiki/Stop_words
 
