@@ -32,6 +32,6 @@ source_url: >-
 published_at: '2023-02-08'
 fullyTranslated: true
 ---
-# The Sample Code Catalog released
+# サンプルコードカタログのリリース
 
-We are happy to announce that [the Sample Code Catalog](https://developer.box.com/sample-code/) `v1.0.0` is now available on our Box Developer site. From now on you can browse code samples in various programming languages and filter them by category.
+Box開発者向けサイトで[サンプルコードカタログ](https://developer.box.com/sample-code/)`v1.0.0`が利用可能になりました。さまざまなプログラミング言語のコードサンプルを閲覧し、カテゴリ別にフィルタできます。
