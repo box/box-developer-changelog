@@ -28,7 +28,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix `listAssignments` and `assign` methods in `RetentionPolicyModule` ([#886][1]) ([`b668888`][2])
+* `RetentionPolicyModule`の`listAssignments`および`assign`メソッドを修正 ([#886][1]) ([`b668888`][2])
 
 [1]: https://github.com/box/box-ios-sdk/issues/886
 
