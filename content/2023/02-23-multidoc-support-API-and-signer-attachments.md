@@ -9,7 +9,7 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Multi doc support in API, signer attachments
+# Box Sign updates
 
 ## Multiple documents in one request
 
@@ -23,4 +23,4 @@ additional files from signers in a file attachment field.
 
 [1]: https://support.box.com/hc/en-us/sections/10302887198227-Multiple-documents-in-a-signature-request
 [2]: e://post-sign-requests
-[3]: r://sign-request/#param-signers-inputs-content_type
+[3]: r://sign-request#param-signers-inputs-content_type
