@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2023-02-23'
 fullyTranslated: true
 ---
-# Box Sign updates
+# Box Signの更新
 
-## Multiple documents in one request
+## 署名リクエストでの複数ドキュメントの送信
 
-The Box Sign [multiple documents][1] in one request is now supported in our [public API][2].
+Box Signの署名リクエストでの[複数ドキュメントの送信][1]が[パブリックAPI][2]でサポートされるようになりました。
 
-## Signer attachments
+## 署名者向けの添付機能
 
-The [signer attachments][3] feature allows users to request additional files from signers in a file attachment field.
+[署名者向けの添付][3]機能により、ユーザーはファイル添付フィールドで署名者に追加ファイルをリクエストできます。
 
 [1]: https://support.box.com/hc/en-us/sections/10302887198227-Multiple-documents-in-a-signature-request
 
