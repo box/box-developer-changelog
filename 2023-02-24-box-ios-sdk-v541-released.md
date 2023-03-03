@@ -17,7 +17,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-03-03-box-cli-v380-released
 previous_page_id: 2023-02-24-android-end-of-support
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/02-24-box-ios-sdk-v541-released.md
