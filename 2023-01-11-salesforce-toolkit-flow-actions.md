@@ -2,6 +2,7 @@
 applied_at: '2023-01-11'
 applies_to:
   - api
+  - salesforce
 is_impactful: false
 is_new_feature: true
 collapse: true
