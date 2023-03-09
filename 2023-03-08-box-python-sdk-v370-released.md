@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-03-08-downloading-zip-archives
 previous_page_id: 2023-03-06-box-java-sdk-v401-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/03-08-box-python-sdk-v370-released.md
