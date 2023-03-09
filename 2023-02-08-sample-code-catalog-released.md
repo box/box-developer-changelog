@@ -35,3 +35,9 @@ fullyTranslated: true
 # サンプルコードカタログのリリース
 
 Box開発者向けサイトで[サンプルコードカタログ](https://developer.box.com/sample-code/)`v1.0.0`が利用可能になりました。さまざまなプログラミング言語のコードサンプルを閲覧し、カテゴリ別にフィルタできます。
+
+## サポート情報
+
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][1]に英語でリクエストを投稿してください。
+
+[1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

@@ -33,8 +33,14 @@ Box Signの署名リクエストでの[複数ドキュメントの送信][1]が[
 
 [署名者向けの添付][3]機能により、ユーザーはファイル添付フィールドで署名者に追加ファイルをリクエストできます。
 
+## サポート情報
+
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][4]に英語でリクエストを投稿してください。
+
 [1]: https://support.box.com/hc/en-us/sections/10302887198227-Multiple-documents-in-a-signature-request
 
 [2]: e://post-sign-requests
 
 [3]: r://sign-request#param-signers-inputs-content_type
+
+[4]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

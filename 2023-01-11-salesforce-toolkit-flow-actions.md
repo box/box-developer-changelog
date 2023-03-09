@@ -28,6 +28,12 @@ fullyTranslated: true
 
 Salesforceツールキットには、管理者が[メソッド][1]を呼び出す際に使用できるラッパーが用意されています。このツールキットを使用すると、Box for Salesforceユーザーは[Salesforceフロー][2]を使用して、自動化ソリューション (フォルダ構造など) を構築できます。
 
+## サポート情報
+
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][3]に英語でリクエストを投稿してください。
+
 [1]: g://tooling/salesforce-toolkit/flow-actions
 
 [2]: https://help.salesforce.com/s/articleView?id=sf.flow.htm&type=5
+
+[3]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
