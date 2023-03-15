@@ -27,14 +27,14 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* add `Id` to `MetadataTemplateField` ([#890][1]) ([`b7fe214`][2])
-* add `start_date_field` and `description` to retention policies ([#888][3]) ([`100b722`][4])
-* add configurable `JWTAudience` claim ([#897][5]) ([`50219fd`][6])
-* add shared link support to `GetFolderItemsAsync` ([#892][7]) ([`0eba85c`][8])
+* `Id`を`MetadataTemplateField`に追加 ([#890][1]) ([`b7fe214`][2])
+* `start_date_field`と`description`をリテンションポリシーに追加 ([#888][3]) ([`100b722`][4])
+* 設定可能な`JWTAudience`クレームを追加 ([#897][5]) ([`50219fd`][6])
+* `GetFolderItemsAsync`に共有リンクのサポートを追加 ([#892][7]) ([`0eba85c`][8])
 
 **バグ修正:**
 
-* Use fixed value of `aud` field in `JWT` claim ([#896][9]) ([`8c9982d`][10])
+* `JWT`クレームで`aud`フィールドの固定値を使用 ([#896][9]) ([`8c9982d`][10])
 
 <https://www.nuget.org/packages/Box.V2/5.2.0>
 

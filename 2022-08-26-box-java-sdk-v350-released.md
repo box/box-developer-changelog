@@ -28,7 +28,7 @@ fullyTranslated: true
 ### 新機能と機能強化
 
 * 署名リクエストとレスポンスに`content-type`を追加 ([#1087][1]) ([`49411aa`][2])
-* `BoxUser`に`notification_email`を追加 ([#1088][3]) ([`5477223`][4])
+* `notification_email`を`BoxUser`に追加 ([#1088][3]) ([`5477223`][4])
 * 署名リクエストとレスポンスに`redirect_url`と`declined_redirect_url`を追加 ([#1089][5]) ([`3921fe1`][6])
 
 ### バグ修正

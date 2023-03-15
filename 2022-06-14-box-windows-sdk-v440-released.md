@@ -28,7 +28,7 @@ fullyTranslated: true
 **新機能と機能強化:**
 
 * `SharedLink`に`can_edit`フィードを追加 ([#831][1]) ([`e0d4197`][2])
-* `BoxFileVersion`に`version_number`を追加 ([#820][3]) ([`f174358`][4])
+* `version_number`を`BoxFileVersion`に追加 ([#820][3]) ([`f174358`][4])
 * アバターAPIにアップロードと削除のサポートを追加 ([#829][5]) ([`4dcb84a`][6])
 
 **バグ修正:**
