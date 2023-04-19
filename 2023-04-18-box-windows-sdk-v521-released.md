@@ -27,7 +27,7 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* Catch all exceptions when getting User Agent header ([#901][1]) ([`75d8874`][2])
+* ユーザーエージェントヘッダーを取得する際にすべての例外をキャッチ ([#901][1]) ([`75d8874`][2])
 
 <https://www.nuget.org/packages/Box.V2/5.2.1>
 

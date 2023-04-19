@@ -32,7 +32,7 @@ fullyTranslated: true
 * **[フォルダの更新時に`can_non_owners_invite`を設定する機能][cli_update_folder_update_flag]**: 所有者以外のユーザーが他のユーザーをフォルダでのコラボレーションに招待できるかどうかを設定できるようになりました。
   <!-- markdownlint-enable line-length -->
 
-* **[新しいCLI構成のダンプコマンド][cli_update_config_dump]**: 値をコピーして一般的な用途に使えるよう、Box構成ファイルを単一の文字列としてダンプする機能が追加されました。オプションで、エスケープ引用符を追加できます。Open Withは、環境変数または構成プロパティを(AWSの個別のボタンやAzureなどで)提供します。
+* **[新しいCLI構成のダンプコマンド][cli_update_config_dump]**: 値をコピーして一般的な用途に使えるよう、Box構成ファイルを単一の文字列としてダンプする機能が追加されました。オプションで、エスケープ引用符を追加できます。Open Withは、環境変数または構成プロパティを (AWSの個別のボタンやAzureなどで) 提供します。
 
 [cli_update_multizones]: https://github.com/box/boxcli/pull/91
 
