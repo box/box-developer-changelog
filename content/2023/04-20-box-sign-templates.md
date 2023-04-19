@@ -11,9 +11,9 @@ release_source_url: ''
 
 # Box Sign template APIs
 
-The new Box Sign template APIs allow you to [get a list of Box Sign templates][1] or a
-[specific Box Sign template][2] to start a sign request based on these templates.
-
+The new Box Sign template APIs allow you to [get a list of Box Sign templates][1] or details of a
+[specific Box Sign template][2]. 
+You can then use this information to initiate template-based sign requests.
 ## Where to get support
 
 Should you have any issues or need further guidance, please post a request to
