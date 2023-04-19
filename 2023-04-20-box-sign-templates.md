@@ -29,7 +29,7 @@ The new Box Sign template APIs allow you to [get a list of Box Sign templates][1
 You can then use this information to initiate template-based sign requests.
 ## Where to get support
 
-Should you have any issues or need further guidance, please post a request to
+Should you have any issues or need further guidance, post a request to
 our [developer forum][3] for any help needed.
 
 [1]: e://get-templates
