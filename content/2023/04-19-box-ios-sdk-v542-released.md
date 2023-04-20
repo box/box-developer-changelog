@@ -14,7 +14,7 @@ collapse: true
 
 ### Bug Fixes
 
-* An emoty string `nextMarker` should be treated as end-of-paging. ([#893][1]) ([`49c17de`][2])
+* An empty string `nextMarker` should be treated as end-of-paging. ([#893][1]) ([`49c17de`][2])
 
 [1]: https://github.com/box/box-ios-sdk/issues/893
 
