@@ -19,6 +19,6 @@ You can then use this information to initiate template-based sign requests.
 Should you have any issues or need further guidance, post a request to
 our [developer forum][3] for any help needed. 
 
-[1]: e://get-templates
-[2]: e://get-templates-id
+[1]: e://get-sign-templates
+[2]: e://get-sign-templates-id
 [3]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
