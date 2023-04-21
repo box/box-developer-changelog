@@ -259,3 +259,5 @@ enablement
 PowerShell
 OkHttp
 authenticators
+webapp
+clickjacking
