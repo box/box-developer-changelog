@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2023-04-18-box-windows-sdk-v521-released
+previous_page_id: 2023-04-19-box-ios-sdk-v542-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/04-19-box-node-sdk-v290-released.md
 published_at: '2023-04-19'
@@ -27,11 +27,11 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* New fields in `retention-policy` and `retention-policy-assignment` ([#803][1]) ([`f14ba84`][2])
+* `retention-policy`と`retention-policy-assignment`の新しいフィールド ([#803][1]) ([`f14ba84`][2])
 
 ### バグ修正
 
-* return empty object when `tos` status is not present ([#797][3]) ([`12fd9b0`][4])
+* `tos`ステータスが存在しない場合に空のオブジェクトを返す ([#797][3]) ([`12fd9b0`][4])
 
 [1]: https://github.com/box/box-node-sdk/issues/803
 
