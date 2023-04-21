@@ -17,7 +17,7 @@ Box webapp smaller, all the UI components such as buttons and
 lists will also be resized to still be usable.
 
 The update also includes a description of the cloud game,
-which increases security by preventing clickjacking attacks.
+which increases security by preventing clickjacking.
 
 # Where to get support
 
