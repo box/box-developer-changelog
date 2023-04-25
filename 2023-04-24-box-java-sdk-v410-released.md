@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add missing `fields` parameter to create and update `BoxUser` methods ([#1155][1]) ([`be3820d`][2]), closes [#1154][3]
+* `BoxUser`メソッドの作成、更新で不足していた`fields`パラメータを追加 ([#1155][1]) ([`be3820d`][2])、[#1154][3]をクローズ
 
 ### バグ修正
 
-* Allow registering custom logger handlers ([#1156][4]) ([`7373d5c`][5])
-* Fallback to default value of `maxRetryAttempts` when restoring `BoxAPIConnection` ([#1161][6]) ([`2a10e5d`][7]), closes [#1160][8]
+* カスタムロガーハンドラの登録を許可 ([#1156][4]) ([`7373d5c`][5])
+* `BoxAPIConnection`の復元時に`maxRetryAttempts`のデフォルト値にフォールバック ([#1161][6]) ([`2a10e5d`][7])、[#1160][8]をクローズ
 
 [1]: https://github.com/box/box-java-sdk/issues/1155
 
