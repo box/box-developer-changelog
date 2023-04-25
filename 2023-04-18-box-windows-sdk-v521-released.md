@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2023-04-20-box-sign-templates
+next_page_id: 2023-04-19-box-ios-sdk-v542-released
 previous_page_id: 2023-04-18-box-python-sdk-v371-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/04-18-box-windows-sdk-v521-released.md
