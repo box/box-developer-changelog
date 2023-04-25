@@ -24,7 +24,7 @@ published_at: '2023-04-25'
 # Updates to File Upload API
 
 In response to a potential security vulnerability while uploading a file using [Upload File API][1] and downscoped token downscoped token,
-we’re updating the Upload File API to return a 404 error in scenarios where a File ID is found, but the requester doesn’t have permissions to access it.
+we’re updating the Upload File API to return a 404 error in scenarios where the parent Folder ID is found, but the requester does not have permissions to access it.
 
 # Where to get support
 
