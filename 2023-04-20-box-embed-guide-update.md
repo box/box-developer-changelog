@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2023-04-24-box-java-sdk-v410-released
+next_page_id: 2023-04-20-box-ui-elements-v1700-released
 previous_page_id: 2023-04-19-box-node-sdk-v290-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/04-20-box-embed-guide-update.md
