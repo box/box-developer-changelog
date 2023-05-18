@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Allow users to disable adding authentication header. ([#1167][1]) ([`3433e5a`][2])
-* Logging headers when retrying request ([#1164][3]) ([`e0c3d8e`][4])
+* 認証ヘッダーの追加の無効化をユーザーに許可 ([#1167][1]) ([`3433e5a`][2])
+* リクエストの再試行時にヘッダーをログに記録 ([#1164][3]) ([`e0c3d8e`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1167
 
