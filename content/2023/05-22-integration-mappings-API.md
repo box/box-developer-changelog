@@ -13,8 +13,6 @@ collapse: true
 With [integration mappings][1], you can map a partner integration
 to a Box item. This feature currently only supports [Slack][2].
 
-<!-- more -->
-
 ## Where to get support
 
 Should you have any issues or need further guidance, please post a request to
