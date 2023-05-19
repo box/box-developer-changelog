@@ -1,5 +1,5 @@
 ---
-applied_at: '2023-04-20'
+applied_at: '2023-05-10'
 applies_to:
   - api
 is_impactful: false
@@ -10,17 +10,17 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2023-04-20-box-sign-templates
+id: 2023-05-10-box-sign-templates
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2023-04-20-box-ui-elements-v1700-released
-previous_page_id: 2023-04-20-box-embed-guide-update
+next_page_id: 2023-05-11-box-node-sdk-v2100-released
+previous_page_id: 2023-04-25-upload-api-update
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2023/04-20-box-sign-templates.md
-published_at: '2023-04-20'
+  https://github.com/box/box-developer-changelog/blob/main/content/2023/05-10-box-sign-templates.md
+published_at: '2023-05-10'
 ---
 # Box Sign template APIs
 
@@ -32,6 +32,6 @@ You can then use this information to initiate template-based sign requests.
 Should you have any issues or need further guidance, post a request to
 our [developer forum][3] for any help needed.
 
-[1]: e://get-templates
-[2]: e://get-templates-id
+[1]: e://get-sign-templates
+[2]: e://get-sign-templates-id
 [3]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
