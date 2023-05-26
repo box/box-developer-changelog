@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2023-05-24-integration-mappings-API
+previous_page_id: 2023-05-26-box-python-sdk-v372-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/05-26-salesforce-ui-elements.md
 published_at: '2023-05-26'
