@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Use the older version of `urllib3` ([#815][1]) ([`ee29aa3`][2])
+* `urllib3`の古いバージョンを使用 ([#815][1]) ([`ee29aa3`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/815
 
