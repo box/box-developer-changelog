@@ -10,7 +10,7 @@ collapse: true
 
 # Updates to File Upload API
 
-In response to a potential security vulnerability while uploading a file using [Upload File API][1] and downscoped token downscoped token,
+In response to a potential security vulnerability while uploading a file using [Upload File API][1] and downscoped token,
 we’re updating the Upload File API to return a 404 error in scenarios where the parent Folder ID is found, but the requester does not have permissions to access it.
 
 # Where to get support
