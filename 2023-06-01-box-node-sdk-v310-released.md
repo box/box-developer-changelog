@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-06-02-box-cli-v390-released
 previous_page_id: 2023-05-26-salesforce-ui-elements
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/06-01-box-node-sdk-v310-released.md
