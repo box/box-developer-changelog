@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-06-02-box-cli-v390-released
 previous_page_id: 2023-05-26-salesforce-ui-elements
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/06-01-box-node-sdk-v310-released.md
@@ -27,11 +27,11 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Added support for integration mappings API ([#831][1]) ([`a525327`][2])
+* 統合マッピングAPIのサポートを追加 ([#831][1]) ([`a525327`][2])
 
 ### バグ修正
 
-* Correct types of `userId` and `groupId` for creating collaboration ([#833][3]) ([`f803ff8`][4]), closes [#832][5]
+* コラボレーションの作成用に`userId`と`groupId`のタイプを修正 ([#833][3]) ([`f803ff8`][4])、[#832][5]をクローズ
 
 [1]: https://github.com/box/box-node-sdk/issues/831
 

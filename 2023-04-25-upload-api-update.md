@@ -22,9 +22,9 @@ source_url: >-
 published_at: '2023-04-25'
 fullyTranslated: true
 ---
-# Updates to File Upload API
+# ファイルのアップロードAPIの更新
 
-In response to a potential security vulnerability while uploading a file using [Upload File API][1] and downscoped token, we’re updating the Upload File API to return a 404 error in scenarios where the parent Folder ID is found, but the requester does not have permissions to access it.
+[ファイルのアップロードAPI][1]とダウンスコープされたトークンを使用してファイルをアップロードする際にセキュリティの脆弱性が生じる可能性があることを受け、親フォルダIDが見つかっても、リクエスト送信者にアクセス権限がない場合に、404エラーを返すようにファイルのアップロードAPIを更新します。
 
 # サポート情報
 
