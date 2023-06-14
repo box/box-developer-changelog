@@ -22,7 +22,7 @@ release_source_url: ''
 
 # Join Box Developer Community 
 
-👋 Exciting news for developers and admins! Box has launched the Box Developer Community site, where you can connect with peers and experts to build innovative applications on top of the Box cloud content management and collaboration platform. Join us today at https://forum.box.com!
+Exciting news for developers and admins! Box has launched the Box Developer Community site, where you can connect with peers and experts to build innovative applications on top of the Box cloud content management and collaboration platform. Join us today at https://forum.box.com!
 
 <!-- more -->
 
