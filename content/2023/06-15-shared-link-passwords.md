@@ -12,7 +12,11 @@ release_source_url: ''
 # Enhanced passwords for Shared Links
 
 We have enhanced our password policy for creating shared links with Box API, for example when [adding a shared link to a file][1].
-Passwords must now be at least eight characters in length and include one number, uppercase letter, or special character. 
+Passwords must now be at least eight characters long and include:
+
+* a number,
+* upper case letter, or
+* non-alphabetic or non-numeric character
 
 <!-- more -->
 
