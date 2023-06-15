@@ -1,5 +1,5 @@
 ---
-applied_at: '2023-05-24'
+applied_at: '2023-05-26'
 applies_to:
   - api
   - salesforce
@@ -10,16 +10,15 @@ collapse: true
 ---
 # UI Elements in Box for Salesforce managed package
 
-With the [Box for Salesforce managed package][1] you can use the following [UI Elements][2] as Lightning Components: [content picker][3], [explorer][4], [preview][5], and [uploader][6]. You can use them on Lightning Pages, or in Flows.
+With the [Box for Salesforce][1] managed package you can use the following [UI Elements][2] as Lightning Components: [content picker][3], [explorer][4], [preview][5], and [uploader][6]. You can use them on Lightning Pages, or in Flows.
 
 ## Where to get support
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][7] for any help needed.
+Should you have any issues or need further guidance, please post a request to our [developer forum][7] for any help needed.
 
-[1]: g://tooling/salesforce-toolkit
-[2]: g://tooling/salesforce-toolkit/ui-elements
-[3]: g://embed/ui-elements/picker
+[1]: g://tooling/salesforce-toolkit/
+[2]: g://embed/ui-elements/
+[3]: g://embed/ui-elements/picker/
 [4]: g://embed/ui-elements/explorer
 [5]: g://embed/ui-elements/preview
 [6]: g://embed/ui-elements/uploader
