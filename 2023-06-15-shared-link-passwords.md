@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2023-06-15'
 fullyTranslated: true
 ---
-# Enhanced passwords for Shared Links
+# 共有リンクのパスワードの強化
 
-We have enhanced our password policy for creating shared links with Box API, for example when [adding a shared link to a file][1]. Passwords must now be at least eight characters long and include:
+Box APIで共有リンクを作成する場合 ([ファイルに共有リンクを追加][1]する場合など) のパスワードポリシーを強化しました。今後、パスワードは8文字以上で、以下を含める必要があります:
 
-* a number,
-* upper case letter, or
-* non-alphabetic or non-numeric character
+* 数字
+* 大文字
+* 英数字以外の文字
 
 <!-- more -->
 
