@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Getting collaborators allows to specify fields ([#1178][1]) ([`1694d75`][2])
+* フィールドの指定をコラボレータに許可 ([#1178][1]) ([`1694d75`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1178
 
