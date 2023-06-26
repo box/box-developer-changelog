@@ -35,10 +35,10 @@ Check the [Troubleshooting][6] section to find out solutions to most common issu
 From now on you can ask questions and seek for guidance in our new [Box Developer Community forum][8]. Use this new space to directly speak to the Box Developer Relations team, as well as your peers and other subject matter experts from Box.
 
 [1]: g://integration-mappings/slack-mappings
-[2]: e://integration_mappings__post_integration_mappings_slack
-[3]: e://integration_mappings__get_integration_mappings_slack
-[4]: e://integration_mappings__update_integration_mappings_slack
-[5]: e://integration_mappings__delete_integration_mappings_slack
+[2]: e://post_integration_mappings_slack
+[3]: e://get_integration_mappings_slack
+[4]: e://update_integration_mappings_slack
+[5]: e://delete_integration_mappings_slack
 [6]: g://integration-mappings/slack-mappings/troubleshooting
 [7]: r://integration-mapping/
 [8]: https://forum.box.com/
