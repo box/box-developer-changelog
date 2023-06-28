@@ -27,7 +27,11 @@ fullyTranslated: true
 
 Learn how the Box Enterprise Admin (EA) can customize the upload folder of the Slack channel to any folder within the enterprise instead of relying on the default one with the [Integration Mappings for Slack][1] guide.
 
-Use Box API to [create][2], [list][3], [update][4], and [delete][5] the Slack Integration Mappings. Check the [Troubleshooting][6] section to find out solutions to most common issues you can encounter.
+Use Box API to [create][2], [list][3], [update][4], and [delete][5] the Slack Integration Mappings.
+
+Using the [automation script][9], an admin can create or update multiple mappings at once!
+
+Check the [Troubleshooting][6] section to find out solutions to most common issues you can encounter.
 
 ## サポートを受けるための新しい場所
 
@@ -48,3 +52,5 @@ Use Box API to [create][2], [list][3], [update][4], and [delete][5] the Slack In
 [7]: r://integration-mapping/
 
 [8]: https://forum.box.com/
+
+[9]: https://github.com/box/boxcli/tree/main/examples/Integration%20Mappings
