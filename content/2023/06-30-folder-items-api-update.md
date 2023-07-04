@@ -11,10 +11,10 @@ release_source_url: ''
 # Updated sorting of folder items for shared folders
 
 Box Folder API allows you to [retrieve the items in the folder][1] and [sort][2] this list based on the sort parameter. 
-We have improved way items are sorted for shared folders with the path to the associated folder visible to the collaborators.
+We have improved the way items are sorted for shared folders that have the path to the associated folder visible to the collaborators.
 
 Earlier, the items for such folders were sorted by `id` regardless of the sort parameter value.
-Currently, they are sorted based on the sort parameter.
+Currently, they are sorted based on the `sort` parameter.
 
 ## New place to get support
 
