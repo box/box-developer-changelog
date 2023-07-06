@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-06-30'
 fullyTranslated: true
 ---
-# Updated sorting of folder items for shared folders
+# 共有フォルダのフォルダ項目の並べ替えに対する更新
 
-Box Folder API allows you to [retrieve the items in the folder][1] and [sort][2] this list based on the sort parameter. We have improved the way items are sorted for shared folders that have the path to the associated folder visible to the collaborators.
+BoxのフォルダAPIを使用すると、[フォルダ内の項目を取得][1]し、並べ替えパラメータに基づいてそのリストを[並べ替え][2]ることができます。コラボレータが表示できる、関連付けられたフォルダへのパスを持つ共有フォルダの項目の並べ替えを改善しました。
 
-Earlier, the items for such folders were sorted by `id` regardless of the sort parameter value. Currently, they are sorted based on the `sort` parameter.
+以前は、このようなフォルダの項目は、並べ替えパラメータの値に関わらず、`id`に基づいて並べ替えられていました。現在は`sort`パラメータに基づいて並べ替えられます。
 
 ## サポートを受けるための新しい場所
 
