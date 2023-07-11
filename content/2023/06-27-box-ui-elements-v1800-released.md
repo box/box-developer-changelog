@@ -1,7 +1,6 @@
 ---
 applied_at: '2023-06-27'
 applies_to:
-  - frontend
   - ui-elements
 is_impactful: true
 is_new_feature: true
@@ -15,7 +14,7 @@ collapse: true
 
 ### Bug Fixes
 
-* **ci:** remove whitespace from release script var  ([#3355][2]) ([`2553ec1`][3])
+* **ci:** remove blank space from release script var  ([#3355][2]) ([`2553ec1`][3])
 * **content-explorer:** increase grid button style specificity ([#3328][4]) ([`b2c878a`][5])
 * **content-explorer:** map called on undefined object ([#3341][6]) ([`da6ada0`][7])
 * **content-picker:** trim name input when creating folder ([#3364][8]) ([`4629726`][9])
@@ -30,13 +29,13 @@ collapse: true
 * **sharing:** remove message for shared links for Canvas files ([#3337][26]) ([`9558474`][27])
 * align viewer permissions for shared links ([#3335][28]) ([`5d78c11`][29])
 * update dist path and react version for elements test pages ([#3350][30]) ([`38ff124`][31])
-* **pill-selector-dropdown:** pass showAvatars prop to RoundPill ([#3329][32]) ([`5632743`][33])
+* **pill-selector-dropdown:** pass `showAvatars` prop to `RoundPill` ([#3329][32]) ([`5632743`][33])
 * **share-form:** map called on undefined object ([#3340][34]) ([`a24abb2`][35])
 * **usm:** fix message for upgrade notice in share modal ([#3334][36]) ([`4a945ce`][37])
 
 ### chore
 
-* **deps:** Bump react-beautiful-dnd to version 11.0.5 ([#3345][38]) ([`610c9d2`][39])
+* **deps:** Bump `react-beautiful-dnd` to version 11.0.5 ([#3345][38]) ([`610c9d2`][39])
 * **node:** Upgrade to node 18 ([#3347][40]) ([`cbb3840`][41])
 
 ### Features
@@ -46,13 +45,11 @@ collapse: true
 * **preview:** update default Preview SDK version ([#3366][46]) ([`aa7a875`][47])
 * **security-controls:** Remove watermark learn more link ([#3353][48]) ([`379d055`][49])
 * **threaded-replies:** reply to annotations ([#3331][50]) ([`4f65525`][51])
-* **uaa-integration:** Integrate UAA into ActivitySidebar ([#3316][52]) ([`b81e976`][53])
+* **uaa-integration:** Integrate UAA into `ActivitySidebar` ([#3316][52]) ([`b81e976`][53])
 
 ### BREAKING CHANGES
 
-* **deps:** You need to upgrade react-beautiful-dnd in the consuming project to version 11.0.5
-
-Co-authored-by: mergify\[bot] <37929162+mergify\[bot][`@users`][54].noreply.github.com>
+* **deps:** You need to upgrade `react-beautiful-dnd` in the consuming project to version 11.0.5
 
 * **node:** Upgrade to node 18
 
