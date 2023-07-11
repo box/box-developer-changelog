@@ -13,7 +13,7 @@ collapse: true
 
 ### Bug Fixes
 
-* Stop processing data for logging when logging is disabled and cache response `json` ([#824][1]) ([`3079171`][2])
+* Stop processing data for logging when logging is deactivated and cache response `json` ([#824][1]) ([`3079171`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/824
 
