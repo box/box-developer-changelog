@@ -1,7 +1,6 @@
 ---
 applied_at: '2023-05-10'
 applies_to:
-  - frontend
   - ui-elements
 is_impactful: false
 is_new_feature: true
@@ -16,10 +15,10 @@ collapse: true
 ### Bug Fixes
 
 * **content-explorer:** select all checkbox in empty folder ([#3324][2]) ([`a193adb`][3])
-* **content-explorer:** select all checkbox state matches selectedItems ([#3319][4]) ([`7473dfd`][5])
+* **content-explorer:** select all checkbox state matches `selectedItems` ([#3319][4]) ([`7473dfd`][5])
 * **i18n:** update translations ([#3313][6]) ([`dd9a1fd`][7])
 * **i18n:** update translations ([#3317][8]) ([`95618cf`][9])
-* **pill-selector-dropdown:** remove default value for isPositionDynamic ([#3320][10]) ([`e74f824`][11])
+* **pill-selector-dropdown:** remove default value for `isPositionDynamic` ([#3320][10]) ([`e74f824`][11])
 * **preview:** videos not loading on edge ([#3326][12]) ([`e5aa7e5`][13])
 * **usm:** make item prop optional ([#3322][14]) ([`fe7c4bb`][15])
 
