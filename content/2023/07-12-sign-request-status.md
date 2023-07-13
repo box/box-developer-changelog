@@ -13,8 +13,8 @@ release_source_url: ''
 
 [Sign Request status][1] parameter now has two additional values:
 
-* `finalizing` to reflect the state when all signers have signed the request, but the signing log has not been generated yet.
-* `error_finalizing` to reflect the state when the `finalizing` state did not complete successfully.
+* `finalizing` to reflect the state when all signers have signed the request, but the final document with signatures and the signing log has not been generated yet.
+* `error_finalizing` to reflect the state when the `finalizing` phase did not complete successfully.
 
 <!-- more -->
 
