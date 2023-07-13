@@ -374,6 +374,7 @@
   "2023-04-24-box-java-sdk-v410-released",
   "2023-04-25-upload-api-update",
   "2023-05-10-box-sign-templates",
+  "2023-05-10-box-ui-elements-v1710-released",
   "2023-05-11-box-node-sdk-v2100-released",
   "2023-05-16-box-java-sdk-v411-released",
   "2023-05-23-box-node-sdk-v300-released",
@@ -384,8 +385,12 @@
   "2023-06-01-box-node-sdk-v310-released",
   "2023-06-02-box-cli-v390-released",
   "2023-06-13-join-box-developer-community",
+  "2023-06-14-box-java-sdk-v412-released",
   "2023-06-15-shared-link-passwords",
   "2023-06-21-box-java-sdk-v420-released",
   "2023-06-26-integration-mappings-guide",
-  "2023-06-30-folder-items-api-update"
+  "2023-06-27-box-ui-elements-v1800-released",
+  "2023-06-30-folder-items-api-update",
+  "2023-07-07-box-python-sdk-v373-released",
+  "2023-07-12-sign-request-status"
 ]

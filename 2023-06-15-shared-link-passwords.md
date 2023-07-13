@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2023-06-21-box-java-sdk-v420-released
-previous_page_id: 2023-06-13-join-box-developer-community
+previous_page_id: 2023-06-14-box-java-sdk-v412-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/06-15-shared-link-passwords.md
 published_at: '2023-06-15'

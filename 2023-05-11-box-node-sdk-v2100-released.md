@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2023-05-16-box-java-sdk-v411-released
-previous_page_id: 2023-05-10-box-sign-templates
+previous_page_id: 2023-05-10-box-ui-elements-v1710-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/05-11-box-node-sdk-v2100-released.md
 published_at: '2023-05-11'
