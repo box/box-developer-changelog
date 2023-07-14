@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2023-07-12'
 fullyTranslated: true
 ---
-# Sign Request API improvements
+# 署名リクエストAPIの改善
 
-[Sign Request status][1] parameter now has two additional values:
+[署名リクエストステータス][1]パラメータに次の2つの値が追加されました。
 
-* `finalizing` to reflect the state when all signers have signed the request, but the final document with signatures and the signing log has not been generated yet.
-* `error_finalizing` to reflect the state when the `finalizing` phase did not complete successfully.
+* `finalizing`: すべての署名者がリクエストに署名済みで、署名された最終的なドキュメントと署名ログがまだ生成されていない状態を示します。
+* `error_finalizing`: `finalizing`フェーズが正常に完了しなかった状態を示します。
 
 <!-- more -->
 
