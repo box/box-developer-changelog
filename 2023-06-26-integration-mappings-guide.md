@@ -35,7 +35,7 @@ Box APIを使用することで、Slack統合マッピングの[作成][2]、[�
 
 ## サポートを受けるための新しい場所
 
-今後は新しい[Box開発者コミュニティフォーラム][8]で質問したり、ガイダンスを受けたりすることができます。この新しいフォーラムを利用すると、Box Developer Relationsチーム、同僚、Boxに関するエキスパートと直接会話できます。
+今後は新しい[Box Developer Communityフォーラム][8]で質問したり、ガイダンスを受けたりすることができます。この新しいフォーラムを利用すると、Box Developer Relationsチーム、同僚、Boxに関するエキスパートと直接会話できます。
 
 [1]: g://integration-mappings/slack-mappings
 

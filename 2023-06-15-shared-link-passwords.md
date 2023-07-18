@@ -35,7 +35,7 @@ Box APIで共有リンクを作成する場合 ([ファイルに共有リンク�
 
 ## サポートを受けるための新しい場所
 
-今後は新しい[Box開発者コミュニティフォーラム][2]で質問したり、ガイダンスを受けたりすることができます。この新しいフォーラムを利用すると、Box Developer Relationsチーム、同僚、Boxに関するエキスパートと直接会話できます。
+今後は新しい[Box Developer Communityフォーラム][2]で質問したり、ガイダンスを受けたりすることができます。この新しいフォーラムを利用すると、Box Developer Relationsチーム、同僚、Boxに関するエキスパートと直接会話できます。
 
 [1]: e://put-files-id--add-shared-link#param-shared_link-password
 
