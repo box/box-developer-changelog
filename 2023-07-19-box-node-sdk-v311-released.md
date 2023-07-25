@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-07-25-box-python-sdk-v380-released
 previous_page_id: 2023-07-19-box-cli-v391-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/07-19-box-node-sdk-v311-released.md
