@@ -1,7 +1,7 @@
 ---
 applied_at: "2023-07-26"
 applies_to: 
-- api
+- guides
 is_impactful: false
 is_new_feature: true
 collapse: true
