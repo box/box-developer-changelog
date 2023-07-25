@@ -46,6 +46,7 @@ files.forEach(source => {
       'postman',
       'salesforce',
       'reports',
+      'guides',
       'other'
     ])
   })
