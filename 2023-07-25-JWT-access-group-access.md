@@ -24,7 +24,7 @@ published_at: '2023-07-25'
 ---
 # Improvements in App Access Level for JWT authentication
 
-To ensure to not only existing enterprise Managed Users but **also groups** that were not created by the [apps authenticated with JWT][1], you must set **App Access Level** to **App + Enterprise Access** in the **Configuration** tab of the Developer console.
+You can now ensure access to enterprise Managed Users **and groups** that were not created by [apps authenticated with JWT][1]. To do so, set **App Access Level** to **App + Enterprise Access** in the **Configuration** tab of the Developer console.
 
 <!-- more -->
 
