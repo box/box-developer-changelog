@@ -25,7 +25,7 @@ fullyTranslated: true
 ---
 # JWT認証のアプリアクセスレベルの改善
 
-You can now ensure access to enterprise Managed Users **and groups** that were not created by [apps authenticated with JWT][1]. To do so, set **App Access Level** to **App + Enterprise Access** in the **Configuration** tab of the Developer console.
+企業の管理対象ユーザーと、[JWTで認証されたアプリ][1]で作成されていない**グループ**にアクセスできるようになりました。そのためには、開発者コンソールの \[**構成**] タブで \[**アプリアクセスレベル**] を \[**アプリ + Enterpriseアクセス**] に設定します。
 
 <!-- more -->
 
