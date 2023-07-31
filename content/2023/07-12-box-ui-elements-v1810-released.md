@@ -17,7 +17,7 @@ collapse: true
 
 * **content-picker:** check share permission for default shared links ([#3371][2]) ([`2bb1ddb`][3])
 * **i18n:** update translations ([#3372][4]) ([`f01fd6d`][5])
-* **readme:** fix 'langauge' typo ([#3373][6]) ([`50e7fe0`][7])
+* **readme:** fix `langauge` typo ([#3373][6]) ([`50e7fe0`][7])
 
 ### Features
 
