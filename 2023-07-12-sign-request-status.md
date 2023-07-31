@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2023-07-19-box-cli-v391-released
-previous_page_id: 2023-07-07-box-python-sdk-v373-released
+previous_page_id: 2023-07-12-box-ui-elements-v1810-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/07-12-sign-request-status.md
 published_at: '2023-07-12'
