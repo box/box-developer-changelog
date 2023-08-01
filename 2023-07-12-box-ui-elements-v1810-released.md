@@ -29,13 +29,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **content-picker:** check share permission for default shared links ([#3371][2]) ([`2bb1ddb`][3])
-* **i18n:** update translations ([#3372][4]) ([`f01fd6d`][5])
-* **readme:** fix `langauge` typo ([#3373][6]) ([`50e7fe0`][7])
+* **content-picker:** デフォルトの共有リンクの共有権限を確認 ([#3371][2]) ([`2bb1ddb`][3])
+* **i18n:** 翻訳を更新 ([#3372][4]) ([`f01fd6d`][5])
+* **readme:** `langauge`の誤字を修正 ([#3373][6]) ([`50e7fe0`][7])
 
 ### 機能
 
-* **uaa-integration:** Filter activity types for UAA ([#3369][8]) ([`b9d196f`][9])
+* **uaa-integration:** UAAのアクティビティタイプをフィルタ ([#3369][8]) ([`b9d196f`][9])
 
 [1]: https://github.com/box/box-ui-elements/compare/v18.0.0...v18.1.0
 
