@@ -56,6 +56,8 @@ const run = async () => {
         `android`,
         `sdks`,
         `guides`
+        `frontend`
+        `ui-elements`
       ],
       validate: (list) => list.length > 0
     },
