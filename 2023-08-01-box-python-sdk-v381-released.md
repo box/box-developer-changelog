@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix JSON response validation retry strategy ([#831][1]) ([`69834eb`][2])
+* JSONレスポンス検証の再試行戦略を修正 ([#831][1]) ([`69834eb`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/831
 

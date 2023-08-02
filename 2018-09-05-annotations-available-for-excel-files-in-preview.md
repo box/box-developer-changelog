@@ -23,6 +23,6 @@ fullyTranslated: true
 ---
 # Excelファイルのプレビューで注釈が利用可能に
 
-現在、注釈が有効になっていても、[Box UI Content Preview Element](guide://embed/ui-elements)または有効期限付き埋め込みリンクによる注釈機能がプレビューのExcelファイル内に表示されません(`showAnnotations=true`)。
+現在、注釈が有効 (`showAnnotations=true`) になっていても、[Box UI Content Preview Element](guide://embed/ui-elements)または有効期限付き埋め込みリンクによる注釈機能がプレビューのExcelファイル内に表示されません。
 
 **2018年9月13日**以降、ユーザーは他のファイルタイプ(PDF、doc、PPT)と同様に、Excelファイルに注釈を付けることができます。3つの注釈タイプ(ハイライト、ポイント、描画)のすべてがサポートされます。`showAnnotations`が`true`に設定されている場合、Excelファイルの注釈が表示されます。

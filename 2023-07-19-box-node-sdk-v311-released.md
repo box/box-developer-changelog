@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Bump proxy-agent to version 6.3.0 ([845][1]) ([`3f89f83`][2])
+* proxy-agentをバージョン6.3.0に昇格 ([845][1]) ([`3f89f83`][2])
 
 [1]: (https://github.com/box/box-node-sdk/pull/845)
 
