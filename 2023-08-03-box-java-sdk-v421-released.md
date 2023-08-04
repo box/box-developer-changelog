@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fixed upload when data are coming from a dynamic source ([#1189][1]) ([`77b39f2`][2]), closes [#1183][3] [#1190][4]
+* 動的ソースからのデータである場合のアップロードを修正 ([#1189][1]) ([`77b39f2`][2])、[#1183][3] [#1190][4]をクローズ
 
 [1]: https://github.com/box/box-java-sdk/issues/1189
 
