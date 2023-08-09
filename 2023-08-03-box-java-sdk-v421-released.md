@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-08-08-box-cli-v392-released
 previous_page_id: 2023-08-01-box-python-sdk-v381-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/08-03-box-java-sdk-v421-released.md
