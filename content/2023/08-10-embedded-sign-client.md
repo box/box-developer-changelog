@@ -10,7 +10,7 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Introducing Embedded Sign Client
+# Introducing Embedded Box Sign Client
 
 You can now use [Box Embed][1] to [embed Box Sign
 features][2] in your own website. This way, users
