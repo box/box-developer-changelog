@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix escaped slashes when passing an input to command ([#486][1]) ([`7670210`][2])
+* コマンドに入力を渡す場合のエスケープされたスラッシュを修正 ([#486][1]) ([`7670210`][2])
 
 [1]: https://github.com/box/boxcli/issues/486
 
