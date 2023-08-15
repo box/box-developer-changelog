@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support access only collaboration ([#1193][1]) ([`664c01f`][2])
+* アクセスのみのコラボレーションをサポート ([#1193][1]) ([`664c01f`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1193
 
