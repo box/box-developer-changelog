@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-08-16-embedded-sign-client
 previous_page_id: 2023-08-11-box-java-sdk-v430-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/08-16-box-cli-v3100-released.md
@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support update user tracking codes ([#489][1]) ([`159e6d0`][2])
+* ユーザー追跡コードのサポートを更新 ([#489][1]) ([`159e6d0`][2])
 
 [1]: https://github.com/box/boxcli/issues/489
 
