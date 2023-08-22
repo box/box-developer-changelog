@@ -39,7 +39,7 @@ Boxでは、`all`ストリームと`changes`ストリーム間にパリティを
 
 ## サポート情報
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][forum]に英語でリクエストを投稿してください。
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
 [event-apis]: https://developer.box.com/reference/get-events/
 

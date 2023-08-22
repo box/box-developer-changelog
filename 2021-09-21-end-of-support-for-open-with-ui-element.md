@@ -33,7 +33,7 @@ fullyTranslated: true
 
 * Adobe Signは、新規のお客様も既存のお客様も、Open With UI Elementまたはウェブアプリから使用できなくなる予定です。
 
-ご質問がある場合は、[サポート][support]チケットを作成するか[開発者向けフォーラム][forum]に英語で投稿してお問い合わせください。
+ご質問がある場合は、[サポート][support]チケットを作成するか[Developer Forum][forum]に英語で投稿してお問い合わせください。
 
 [owuie]: g://embed/ui-elements/open-with
 

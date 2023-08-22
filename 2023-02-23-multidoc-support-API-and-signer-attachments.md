@@ -35,7 +35,7 @@ Box Signの署名リクエストでの[複数ドキュメントの送信][1]が[
 
 ## サポート情報
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[開発者向けフォーラム][4]に英語でリクエストを投稿してください。
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][4]に英語でリクエストを投稿してください。
 
 [1]: https://support.box.com/hc/en-us/sections/10302887198227-Multiple-documents-in-a-signature-request
 

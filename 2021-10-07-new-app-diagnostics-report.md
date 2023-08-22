@@ -31,7 +31,7 @@ fullyTranslated: true
 
 開発者は、開発者コンソールからApp Diagnosticsレポートを生成することにより、自分のアプリケーションに対するAPIアクティビティを確認できるようになりました。レポートの実行に必要な手順については、[ガイド][report]をご確認ください。
 
-これまでと同様、問題が発生した場合は、[サポートチケット][support]を申請するか、[開発者向けフォーラム][forum]に英語で投稿してください。
+これまでと同様、問題が発生した場合は、[サポートチケット][support]を申請するか、[Developer Forum][forum]に英語で投稿してください。
 
 [report]: g://api-calls/permissions-and-errors/app-diagnostics-report
 

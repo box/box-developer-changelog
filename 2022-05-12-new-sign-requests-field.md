@@ -35,7 +35,7 @@ Box Signのリクエストのレスポンスオブジェクトに、新しいフ
 
 ## サポート情報
 
-問題がある場合やさらにガイドが必要な場合は、Boxの[開発者向けフォーラム][1]に英語でリクエストを投稿してください。
+問題がある場合やさらにガイドが必要な場合は、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

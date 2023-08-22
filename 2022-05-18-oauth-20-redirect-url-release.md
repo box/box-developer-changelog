@@ -55,7 +55,7 @@ fullyTranslated: true
 
 ## サポート情報
 
-本件に関するご質問は、[開発者向けフォーラム][forum]に英語でリクエストを投稿していただくか、販売店から指定されたサポート窓口にお問い合わせください。[][support]
+本件に関するご質問は、[Developer Forum][forum]に英語でリクエストを投稿していただくか、販売店から指定されたサポート窓口にお問い合わせください。[][support]
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 
