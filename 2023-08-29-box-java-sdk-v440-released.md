@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support sign template and new sign status ([#1197][1]) ([`e37c0dc`][2])
+* Signのテンプレートと新しいステータスをサポート ([#1197][1]) ([`e37c0dc`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1197
 
