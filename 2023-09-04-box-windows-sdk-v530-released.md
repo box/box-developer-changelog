@@ -27,11 +27,11 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* add `attachment` content type to `SignRequestSigner` ([#913][1]) ([`ad612ff`][2])
+* `attachment`コンテンツタイプを`SignRequestSigner`に追加 ([#913][1]) ([`ad612ff`][2])
 
 **バグ修正:**
 
-* replace deprecated `BouncyCastle` library ([#909][3]) ([`f00f2af`][4])
+* 非推奨の`BouncyCastle`ライブラリを置き換え ([#909][3]) ([`f00f2af`][4])
 
 <https://www.nuget.org/packages/Box.V2/5.3.0>
 
