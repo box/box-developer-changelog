@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support sign template ([#848][1]) ([`18d3413`][2])
+* Signテンプレートをサポート ([#848][1]) ([`18d3413`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/848
 

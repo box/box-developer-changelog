@@ -27,7 +27,7 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Support Sign Templates and new Sign Request statuses ([#920][1]) ([`78580fb`][2])
+* Signテンプレートと新しい署名リクエストのステータスをサポート ([#920][1]) ([`78580fb`][2])
 
 <https://www.nuget.org/packages/Box.V2/5.4.0>
 
