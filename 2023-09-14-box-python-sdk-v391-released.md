@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* do not retry creating a ZIP when response code is 202 ([#845][1]) ([`3f6ed4e`][2]), closes [#844][3]
+* レスポンスコードが202の場合に、ZIPの作成を再試行しない ([#845][1]) ([`3f6ed4e`][2])、[#844][3]をクローズ
 
 [1]: https://github.com/box/box-python-sdk/issues/845
 
