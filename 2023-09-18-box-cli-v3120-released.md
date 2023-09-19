@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support sign templates ([#496][1]) ([`955106f`][2])
+* Signテンプレートをサポート ([#496][1]) ([`955106f`][2])
 
 [1]: https://github.com/box/boxcli/issues/496
 
