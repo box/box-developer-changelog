@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-09-25-box-windows-sdk-v560-released
 previous_page_id: 2023-09-14-box-python-sdk-v391-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/09-18-box-cli-v3120-released.md
