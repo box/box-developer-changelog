@@ -31,7 +31,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* `BoxCollaboration.getItem()`が`BoxFolder.Info`ではなく`BoxItem.Info`を返すように修正 ([#1102][3]) ([`135850d`][4])、[#1101][5] [#1100][6]をクローズ。以前、`BoxCollaboration.getItem()`は`BoxFolder.Info`を返していました。ただし、ファイルにコラボレーションが追加された場合は引き続き`BoxFolder.Info`が返され、その結果、任意のAPI呼び出しを実行する際に`BoxAPIException`がスローされます。コラボレーション項目を取得する場合は`BoxItem.Info`として格納するか、その種類を確認して`BoxFile.Info`または`BoxFolder.Info`として格納することをお勧めします。
+* `BoxCollaboration.getItem()`が`BoxFolder.Info`ではなく`BoxItem.Info`を返すように修正 ([#1102][3]) ([`135850d`][4])、[#1101][5] [#1100][6]をクローズ。以前、`BoxCollaboration.getItem()`は`BoxFolder.Info`を返していました。ただし、ファイルにコラボレーションが追加された場合は引き続き`BoxFolder.Info`が返され、その結果、任意のAPIコールを実行する際に`BoxAPIException`がスローされます。コラボレーション項目を取得する場合は`BoxItem.Info`として格納するか、その種類を確認して`BoxFile.Info`または`BoxFolder.Info`として格納することをお勧めします。
 * 不足していたコンストラクタを`BoxNotificationEmail`クラスに追加 ([#1098][7]) ([`2534f34`][8])
 
 [1]: https://github.com/box/box-java-sdk/issues/1103

@@ -94,6 +94,6 @@ curl -i -X GET https://api.box.com/2.0/search?query=Contract&include_recent_shar
 
 </Tabs>
 
-このレスポンス形式の変更は、新しいクエリパラメータを使用して行われるAPI呼び出しのみに適用されるため、既存のアプリケーションに影響することはありません。
+このレスポンス形式の変更は、新しいクエリパラメータを使用して行われるAPIコールのみに適用されるため、既存のアプリケーションに影響することはありません。
 
 [endpoint]: e://get_search

@@ -27,4 +27,4 @@ fullyTranslated: true
 
 1. 指数バックオフにランダム化を追加 ([#565](https://github.com/box/box-java-sdk/pull/565))
 2. サポート対象時にTLSバージョン1.1以降を強制 ([#548](https://github.com/box/box-java-sdk/pull/548))
-3. 連続するAPI呼び出しを`EventStream`によって遅延 ([#564](https://github.com/box/box-java-sdk/pull/564))
+3. 連続するAPIコールを`EventStream`によって遅延 ([#564](https://github.com/box/box-java-sdk/pull/564))

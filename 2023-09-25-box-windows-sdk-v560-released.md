@@ -27,7 +27,7 @@ fullyTranslated: true
 
 **新機能と機能強化:**
 
-* Support `iframeable_embed_url` for sign request ([#925][1]) ([`e9de994`][2])
+* 署名リクエストで`iframeable_embed_url`をサポート ([#925][1]) ([`e9de994`][2])
 
 <https://www.nuget.org/packages/Box.V2/5.6.0>
 

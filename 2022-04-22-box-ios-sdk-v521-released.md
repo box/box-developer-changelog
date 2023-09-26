@@ -28,7 +28,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* カスタムAPI呼び出し用に`BoxResponse`からフィールドを公開 ([#833][1]) ([`bae1536`][2])
+* カスタムAPIコール用に`BoxResponse`からフィールドを公開 ([#833][1]) ([`bae1536`][2])
 
 [1]: https://github.com/box/box-ios-sdk/issues/833
 

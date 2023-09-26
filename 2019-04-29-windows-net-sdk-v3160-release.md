@@ -29,7 +29,7 @@ fullyTranslated: true
 * 返されるサムネイル形式を制御するために`extension`パラメータを`client.FilesManager.GetThumbnailAsync()`に追加 (`@guilmori`に感謝します)。
 * クエリ文字列パラメータが正しくエンコードされなかったバグを修正
 * メタデータのキーと値を設定し、指定されたキーの既存の値を上書きする`SetFileMetadataAsync()`および`SetFolderMetadataAsync()`メソッドが`client.MetadataManager`に追加されました。
-* APIが一時的なエラーステータスコードで応答した場合にほとんどのAPI呼び出しを自動的に再試行
+* APIが一時的なエラーステータスコードで応答した場合にほとんどのAPIコールを自動的に再試行
 
 [`nuget.org/packages/Box.V2/3.16.0`](https://www.nuget.org/packages/Box.V2/3.16.0)
 [`nuget.org/packages/Box.V2.Core/3.16.0`](https://www.nuget.org/packages/Box.V2.Core/3.16.0)

@@ -28,7 +28,7 @@ fullyTranslated: true
 **新機能と機能強化:**
 
 * `submaster` `GroupMembershipRole`を`coadmin`に置き換え、`MASTER_INVITE_ACCEPT`および`MASTER_INVITE_REJECT`を`ADMIN_INVITE_ACCEPT`および`ADMIN_INVITE_REJECT`に置き換え ([#907][1])
-* ユーザーの作成API呼び出しに`tracking_codes`を追加 ([#910][2])
+* ユーザーの作成APIコールに`tracking_codes`を追加 ([#910][2])
 
 **バグ修正:**
 
