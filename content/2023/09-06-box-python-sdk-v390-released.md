@@ -18,7 +18,7 @@ collapse: true
 
 ### Bug Fixes
 
-* ChunkedUploader Resume Not Closing ThreadPoolExecutor Instances ([#840][5]) ([`f210f00`][6])
+* `ChunkedUploader` Resume Not Closing `ThreadPoolExecutor` Instances ([#840][5]) ([`f210f00`][6])
 
 [1]: https://github.com/box/box-python-sdk/issues/835
 
