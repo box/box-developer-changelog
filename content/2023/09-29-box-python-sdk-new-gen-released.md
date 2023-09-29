@@ -9,7 +9,7 @@ release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/new-gen'
 collapse: true
 ---
 
-# Box Python SDK `new-gen` released
+# Introducing Beta Release: New Generation Python SDK
 
 We are excited to introduce [the latest generation (currently in Beta) of Box Python SDK][1], designed to elevate the developer experience and streamline your integration with the Box Content Cloud.
 
