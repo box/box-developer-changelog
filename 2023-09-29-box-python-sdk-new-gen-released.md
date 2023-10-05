@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-10-03-platform-insights
 previous_page_id: 2023-09-29-box-node-sdk-new-generation-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/09-29-box-python-sdk-new-gen-released.md
