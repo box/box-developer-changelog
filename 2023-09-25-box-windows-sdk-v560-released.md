@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2023-10-03-platform-insights
+next_page_id: 2023-09-29-box-node-sdk-new-generation-released
 previous_page_id: 2023-09-18-box-cli-v3120-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/09-25-box-windows-sdk-v560-released.md
