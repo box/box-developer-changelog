@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Overrides tough-cookie dependency ([#852][1]) ([`99df873`][2])
+* tough-cookieの依存関係を上書き ([#852][1]) ([`99df873`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/852
 
