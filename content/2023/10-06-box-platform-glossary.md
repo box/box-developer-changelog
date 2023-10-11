@@ -16,7 +16,7 @@ You can find there terms and concepts that are most important to start working w
 
 <!-- more -->
 
-As we want this list of terms to be comprehensive and detailed, it will be regularly updated.
+As we want this list of terms to be comprehensive and detailed, it will be regularly updated. Let us know if you have any suggestions!
 
 ## Where to get support
 
