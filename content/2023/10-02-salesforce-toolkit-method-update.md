@@ -19,7 +19,7 @@ With [integration mappings][4] you can map a Slack channel to any folder within 
 
 ## Where to get support
 
-Should you have any issues or need further guidance, please post a request to our [developer forum][4] for any help needed.
+Should you have any issues or need further guidance, please post a request to our [developer forum][5] for any help needed.
 
 [1]: g://integration-mappings/slack-mappings
 [2]: g://tooling/salesforce-toolkit/methods/#salesforce_and_slack
