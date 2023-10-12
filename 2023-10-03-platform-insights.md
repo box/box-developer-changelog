@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2023-10-06-box-node-sdk-v321-released
-previous_page_id: 2023-09-29-box-python-sdk-new-gen-released
+previous_page_id: 2023-10-02-salesforce-toolkit-method-update
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/10-03-platform-insights.md
 published_at: '2023-10-03'
