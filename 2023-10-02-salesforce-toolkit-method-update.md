@@ -24,9 +24,9 @@ source_url: >-
 published_at: '2023-10-02'
 fullyTranslated: true
 ---
-# Salesforce Toolkit - Integration Mappings
+# Salesforceツールキット - 統合マッピング
 
-You can now use [integration mappings][1] in Salesforce Toolkit with new [methods][2] and [flow actions][3]. With [integration mappings][4] you can map a Slack channel to any folder within your enterprise instead of the default one.
+Salesforceツールキットの新しい[メソッド][2]と[フローアクション][3]で[統合マッピング][1]を使用できるようになりました。[統合マッピング][4]により、デフォルトのフォルダではなく、企業の任意のフォルダにSlackチャンネルをマッピングできます。
 
 <!-- more -->
 
