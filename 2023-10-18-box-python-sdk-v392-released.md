@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Remove restriction to version \<2 of `urllib3` library ([#851][1]) ([`1dcd82e`][2])
+* `urllib3`ライブラリに対するバージョン2未満の制限を削除 ([#851][1]) ([`1dcd82e`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/851
 
