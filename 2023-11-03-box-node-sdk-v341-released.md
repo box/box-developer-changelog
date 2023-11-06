@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Update `proxy-agent` usage, drop support Node 12 ([#865][1]) ([`e229d3f`][2])
+* `proxy-agent`の使用を更新、Node 12のサポートを終了 ([#865][1]) ([`e229d3f`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/865
 

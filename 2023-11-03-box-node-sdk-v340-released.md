@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add request option to skip `PassThrough` ([#863][1]) ([`726db45`][2])
+* `PassThrough`をスキップするためのリクエストオプションを追加 ([#863][1]) ([`726db45`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/863
 

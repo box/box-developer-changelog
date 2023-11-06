@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 依存関係のアップグレード
 
-* Bumped `org.bitbucket.b_c:jose4j:0.9.3` ([#1212][1]) ([`f522a56`][2])
+* `org.bitbucket.b_c:jose4j:0.9.3`を昇格 ([#1212][1]) ([`f522a56`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1212
 
