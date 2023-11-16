@@ -17,7 +17,7 @@ collapse: true
 
 ### Bug Fixes
 
-* mark auth funs callbacks as optional ([#858][3]) ([`55f22fe`][4])
+* mark auth functions callbacks as optional ([#858][3]) ([`55f22fe`][4])
 
 [1]: https://github.com/box/box-node-sdk/issues/860
 
