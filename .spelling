@@ -280,3 +280,6 @@ css
 deps
 uaa-integration
 readme
+accessors
+verifier
+hostname
