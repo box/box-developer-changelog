@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2023-11-03-box-node-sdk-v340-released
-previous_page_id: 2023-10-18-box-python-sdk-v392-released
+previous_page_id: 2023-10-26-box-node-sdk-v330-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/11-02-box-java-sdk-v461-released.md
 published_at: '2023-11-02'
