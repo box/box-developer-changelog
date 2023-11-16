@@ -54,7 +54,10 @@ const run = async () => {
         `salesforce`,
         `ios`,
         `android`,
-        `sdks`
+        `sdks`,
+        `guides`
+        `frontend`
+        `ui-elements`
       ],
       validate: (list) => list.length > 0
     },
