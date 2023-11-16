@@ -46,7 +46,10 @@ files.forEach(source => {
       'postman',
       'salesforce',
       'reports',
-      'other'
+      'guides',
+      'other',
+      'frontend',
+      'ui-elements'
     ])
   })
 })
