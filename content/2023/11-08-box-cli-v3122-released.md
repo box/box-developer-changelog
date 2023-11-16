@@ -12,7 +12,7 @@ collapse: true
 
 ### Bug Fixes
 
-* Bump box-node-sdk ([#510][1]) ([`2621f41`][2])
+* Bump `box-node-sdk` ([#510][1]) ([`2621f41`][2])
 
 [1]: https://github.com/box/boxcli/issues/510
 
