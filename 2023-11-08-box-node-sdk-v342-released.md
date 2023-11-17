@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix `proxy-agent` ([#867][1]) ([`3de7586`][2])
+* `proxy-agent`を修正 ([#867][1]) ([`3de7586`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/867
 

@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Bump `box-node-sdk` ([#510][1]) ([`2621f41`][2])
+* `box-node-sdk`を昇格 ([#510][1]) ([`2621f41`][2])
 
 [1]: https://github.com/box/boxcli/issues/510
 

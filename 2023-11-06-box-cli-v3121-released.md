@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* force offset based pagination in get users ([#504][1]) ([`9bed083`][2])
+* ユーザーの取得でオフセットベースのページ割りを強制 ([#504][1]) ([`9bed083`][2])
 
 [1]: https://github.com/box/boxcli/issues/504
 
