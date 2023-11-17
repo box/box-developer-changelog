@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2023-09-07-box-windows-sdk-v540-released
-previous_page_id: 2023-09-04-box-windows-sdk-v530-released
+previous_page_id: 2023-09-06-box-python-sdk-v390-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/09-07-box-node-sdk-v320-released.md
 published_at: '2023-09-07'

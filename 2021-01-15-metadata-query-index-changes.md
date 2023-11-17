@@ -25,7 +25,7 @@ fullyTranslated: true
 ---
 # メタデータクエリのインデックスの変更
 
-ファイル/フォルダの[メタデータクエリ][mdq]リクエストを実行する際、検索対象となるファイル/フォルダが10,000を超えるクエリには[検索インデックス][mdq-index]の作成が必要になります。
+When making file / folder [metadata query][mdq] requests, a search index needs to be created for queries where more than 10,000 files / folders are being searched.
 
 このプロセスの効率を改善し、より簡潔にするために、メタデータクエリAPIリクエストで`use_index`キーを使用してインデックスを指定するという明示的な要件をなくすことで、インデックスの使用方法を変更しました。
 
@@ -37,15 +37,15 @@ fullyTranslated: true
 
 検索対象のファイル/フォルダが10,000を超えるメタデータクエリリクエストに対してインデックスを作成して使用する場合の以前のプロセスは以下のとおりです。これは、変更前のプロセスです。
 
-* メタデータクエリチームに[問い合わせて][mdq-contact]インデックスをリクエストします。
+* Contact the metadata query team to request an index.
 * メタデータクエリチームによってインデックスが作成され、新しく作成されたインデックスの名前が提供されます。
-* [メタデータクエリリクエスト][mdq-request]の実行時に、このインデックス名をAPIリクエストの`use_index`キーの値として指定しました。
+* When making metadata query requests this index name was supplied as the value for the `use_index` key in the API request.
 
 ## 新しいインデックス作成プロセス
 
 インデックスを作成して使用する新しいプロセスは以下のとおりです。
 
-* メタデータクエリチームに[問い合わせて][mdq-contact]インデックスをリクエストします。
+* Contact the metadata query team to request an index.
 
 メタデータクエリAPIリクエスト内の`use_index`キーは削除されました。その代わり、検索処理中に最も効率的なクエリが自動的に適用されます。
 
@@ -54,9 +54,3 @@ fullyTranslated: true
 アプリケーションの所有者は、自己の判断でメタデータクエリリクエストから`use_index`キーと値を安全に削除できます。
 
 [mdq]: g://metadata/queries/
-
-[mdq-index]: g://metadata/queries/indexes/
-
-[mdq-contact]: g://metadata/queries/indexes/#request-an-index
-
-[mdq-request]: g://metadata/queries/indexes/#query-with-an-index

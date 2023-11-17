@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2023-11-06-box-cli-v3121-released
 previous_page_id: 2023-11-03-box-node-sdk-v340-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/11-03-box-node-sdk-v341-released.md

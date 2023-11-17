@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2023-09-29-box-python-sdk-new-gen-released
-previous_page_id: 2023-09-25-box-windows-sdk-v560-released
+previous_page_id: 2023-09-29-box-java-sdk-v460-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/09-29-box-node-sdk-new-generation-released.md
 published_at: '2023-09-29'
