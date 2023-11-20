@@ -31,7 +31,7 @@ fullyTranslated: true
 
 メタデータクエリを使用すると、ファイルやフォルダに追加されているメタデータを検索して、そのファイルやフォルダを見つけることができます。
 
-When performing metadata queries on 10,000 or more files or folders, non-performant queries may produce an `HTTP 403` error. Creating a search index delivers the ability to run these queries at scale to bypass this error state, and are automatically applied during the querying process.
+10,000を超えるファイルやフォルダに対してメタデータクエリを実行する際に、クエリのパフォーマンスが悪いと`HTTP 403`エラーが発生する場合があります。検索インデックスを作成すれば、これらのクエリを大規模に実行して、このエラー状態を回避できます。また、検索インデックスは、クエリの処理中に自動的に適用されます。
 
 この新しいエンドポイントにより、作成されたこれらの検索インデックスの参照が可能になります。
 
@@ -39,7 +39,7 @@ When performing metadata queries on 10,000 or more files or folders, non-perform
 
 このリリースでは、以下の新しいコンテンツと機能が導入されました。
 
-* New API endpoint to get a list of metadata query indices by scope and template.
+* スコープやメタデータを指定してメタデータクエリインデックスのリストを取得するための新しいAPIエンドポイント。
 * 新しいメタデータクエリインデックスの[レスポンスオブジェクト][mdq-index-response]。
 * 新しいメタデータクエリインデックス (複数) の[レスポンスオブジェクト][mdq-indices-response]。
 
@@ -47,7 +47,7 @@ When performing metadata queries on 10,000 or more files or folders, non-perform
 
 このリリースでは、次のように、コンテンツが更新されました。
 
-* Updated metadata query indices guide to include details on how to get a list of metadata query indices. 
+* メタデータクエリインデックスのリストを取得する方法の詳細が記載されているメタデータクエリインデックスガイドを更新。 
 
 [mdq-indices-response]: https://developer.box.com/reference/resources/metadata-query-index/
 

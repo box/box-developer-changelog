@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support Sign Templates APIs ([#835][1]) ([`fbc783d`][2])
-* Support create sign request with template ID ([#834][3]) ([`4f11d75`][4])
+* SignテンプレートAPIをサポート ([#835][1]) ([`fbc783d`][2])
+* テンプレートIDを使用した署名リクエストの作成をサポート ([#834][3]) ([`4f11d75`][4])
 
 ### バグ修正
 
-* `ChunkedUploader` Resume Not Closing `ThreadPoolExecutor` Instances ([#840][5]) ([`f210f00`][6])
+* `ChunkedUploader`がクローズされていない`ThreadPoolExecutor`インスタンスを再開 ([#840][5]) ([`f210f00`][6])
 
 [1]: https://github.com/box/box-python-sdk/issues/835
 
