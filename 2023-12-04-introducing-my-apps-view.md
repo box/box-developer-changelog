@@ -30,8 +30,9 @@ This view includes key information about your applications, giving you the possi
 
 * view and copy the application client ID,
 * view the application description,
-* check the and authorization and enablement status of the application,
-* access the configuration, and generate developer tokens.
+* sort custom applications,
+* check the authorization and enablement status of the application,
+* access the configuration and generate developer tokens.
 
 <!-- more -->
 
