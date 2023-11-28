@@ -25,7 +25,7 @@ published_at: '2021-01-15'
 # Metadata Query index changes
 
 When making file / folder [metadata query][mdq] requests, a
-[search index][mdq-index] needs to be created for queries where more than
+search index needs to be created for queries where more than
 10,000 files / folders are being searched.
 
 To improve the efficiency and simplicity of this process, we have changed the
@@ -44,17 +44,17 @@ The following was the previous process for creating and using an index for a
 metadata query request involving 10,000+ files / folders in the search. This is
 the process being replaced.
 
-* [Contact][mdq-contact] the metadata query team to request an index.
+* Contact the metadata query team to request an index.
 * The metadata query team would create the index and supply back the name of
  the newly created index.
-* When making [metadata query requests][mdq-request] this index name was
+* When making metadata query requests this index name was
  supplied as the value for the `use_index` key in the API request.
 
 ## New Indexing Process
 
 The following is the new process for creating and using an index.
 
-* [Contact][mdq-contact] the metadata query team to request an index.
+* Contact the metadata query team to request an index.
 
 The `use_index` key within the metadata query API request has been removed.
 Instead, the most efficient query will be automatically applied during the
@@ -67,6 +67,3 @@ Application owners may safely remove the `use_index` key and value from their
 metadata query requests at their discretion.
 
 [mdq]: g://metadata/queries/
-[mdq-index]: g://metadata/queries/indexes/
-[mdq-contact]: g://metadata/queries/indexes/#request-an-index
-[mdq-request]: g://metadata/queries/indexes/#query-with-an-index
