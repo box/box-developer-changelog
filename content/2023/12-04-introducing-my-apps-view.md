@@ -12,8 +12,8 @@ release_source_url: ''
 # Introducing enhanced My Apps view in Developer Console
 
 To improve application management experience even further, we introduce
-a list view that includes key information about your applications. 
-With the enhanced [My Apps][1] view in the Developer Console, you will be able to:
+the [My Apps][1] list view in the Developer Console.
+This view includes key information about your applications, giving you the possibility to:
 
 * view and copy the application client ID,
 * view the application description,
