@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2023-11-08-box-node-sdk-v342-released
+previous_page_id: 2023-11-30-learn-page-updates
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/12-04-introducing-my-apps-view.md
 published_at: '2023-12-04'
