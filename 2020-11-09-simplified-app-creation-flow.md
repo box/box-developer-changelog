@@ -39,5 +39,5 @@ you'd like to leverage [Box View](g://embed/box-view/) or Box's preview services
 within another application. This app type only provides access to
 [app token authentication](g://authentication/app-token/), which has
 [restricted API capabilities](g://authentication/app-token/endpoints/).
-For full details, please visit our [guide](g://applications/select/) on
+For full details, please visit our [guide](g://applications/app-types/select/) on
 selecting an app type.
