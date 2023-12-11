@@ -1,5 +1,5 @@
 ---
-applied_at: "2023-12-06"
+applied_at: "2023-12-11"
 applies_to: 
 - guides
 is_impactful: true
