@@ -35,6 +35,6 @@ Box PlatformとBoxドキュメントにおけるエクスペリエンスの改�
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
 
-[1]: g://getting-started/box-glossary
+[1]: page/platform/box-glossary/
 
 [2]: https://forum.box.com/

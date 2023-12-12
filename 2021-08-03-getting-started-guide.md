@@ -41,13 +41,13 @@ Box APIの利用を開始するには、Boxの[ステップバイステップガ
 
 [guide]: g://getting-started
 
-[usecase]: g://getting-started/use-cases
+[usecase]: page/platform/use-cases/
 
-[usemodel]: g://getting-started/user-models
+[usemodel]: page/platform/user-types/
 
-[arch]: g://getting-started/architecture-patterns
+[arch]: page/platform/appendix/architecture-patterns/
 
-[value]: g://getting-started/locating-values
+[value]: page/platform/appendix/locating-values/
 
 [auth]: g://authorization
 
