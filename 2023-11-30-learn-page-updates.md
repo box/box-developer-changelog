@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2023-11-30'
 fullyTranslated: true
 ---
-# Introducing the NEW Learn Box Platform section
+# 新しい「Box Platformについて」セクションの導入
 
-To improve the getting started experience, we have reorganized and added resource materials for you to use when coming on to the platform. Checkout the learn section [here][1].
+利用開始時のエクスペリエンスを改善するために、Boxでは、このPlatformの使用を開始する際に利用できるリソースを再編および追加しました。詳細セクションについては、[こちら][1]をご確認ください。
 
 <!-- more -->
 
