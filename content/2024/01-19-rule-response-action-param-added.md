@@ -9,10 +9,12 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# New event parameter for Shield Suspicious Location: Automated Response
+# New event parameter for Shield Suspicious Location alert
 
 Along with the release of Shield Suspicious Location: Automated Response we added `rule_response_action` parameter in the [Shield Alert Event][1] response.
 This parameter is returned in the payload of each Shield Alert Event, but applicable only to **Suspicious Locations** alert event.
+
+<!-- more -->
 
 The value of the parameter depends on the **Restrict Target User Access** rule settings in the Admin Console.
 
@@ -22,8 +24,6 @@ The value of the parameter depends on the **Restrict Target User Access** rule s
 For all other Shield Alerts (**Anomalous Download**, **Malicious Content**, **Suspicious Session**), the `rule_response_action` parameter is always `null`.
 
 For additional information, see [Suspicious Location rule settings][2]
-
-<!-- more -->
 
 ## Where to get support
 
