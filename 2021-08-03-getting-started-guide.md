@@ -40,10 +40,10 @@ Discover best use cases, user models, architecture patterns, and more.
 * Detailed authorization steps: [Guide][auth]
 
 [guide]: g://getting-started
-[usecase]: g://getting-started/use-cases
-[usemodel]: g://getting-started/user-models
-[arch]: g://getting-started/architecture-patterns
-[value]: g://getting-started/locating-values
+[usecase]: page/platform/use-cases/
+[usemodel]: page/platform/user-types/
+[arch]: page/platform/appendix/architecture-patterns/
+[value]: page/platform/appendix/locating-values/
 [auth]: g://authorization
 [security]: g://security
 [bestprac]: g://authentication/best-practices

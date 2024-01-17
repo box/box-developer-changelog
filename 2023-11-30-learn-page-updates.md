@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2023-12-04-introducing-my-apps-view
-previous_page_id: 2023-11-08-box-node-sdk-v342-released
+previous_page_id: 2023-11-29-box-windows-sdk-v561-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2023/11-30-learn-page-updates.md
 published_at: '2023-11-30'

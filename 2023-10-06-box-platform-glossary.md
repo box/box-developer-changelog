@@ -35,5 +35,5 @@ As we want this list of terms to be comprehensive and detailed, it will be regul
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][2] for any help needed.
 
-[1]: g://getting-started/box-glossary
+[1]: page/platform/box-glossary/
 [2]: https://forum.box.com/

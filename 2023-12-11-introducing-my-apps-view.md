@@ -1,5 +1,5 @@
 ---
-applied_at: '2023-12-04'
+applied_at: '2023-12-11'
 applies_to:
   - guides
 is_impactful: true
@@ -10,17 +10,17 @@ release_source_url: ''
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2023-12-04-introducing-my-apps-view
+id: 2023-12-11-introducing-my-apps-view
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2023-12-11-introducing-my-apps-view
-previous_page_id: 2023-11-30-learn-page-updates
+next_page_id: ''
+previous_page_id: 2023-12-04-introducing-my-apps-view
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2023/12-04-introducing-my-apps-view.md
-published_at: '2023-12-04'
+  https://github.com/box/box-developer-changelog/blob/main/content/2023/12-11-introducing-my-apps-view.md
+published_at: '2023-12-11'
 ---
 # Introducing enhanced My Apps view in Developer Console
 
