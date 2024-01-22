@@ -19,7 +19,7 @@ This parameter is returned in the payload of each Shield Alert Event, but applic
 The value of the parameter depends on the **Restrict Target User Access** rule settings in the Admin Console.
 
 * If active, the value of the parameter will be `true` when the alert is triggered.
-* If inactive, the value of the parameter will be `false.` when the alert is triggered.
+* If inactive, the value of the parameter will be `false` when the alert is triggered.
 
 For all other Shield Alerts (**Anomalous Download**, **Malicious Content**, **Suspicious Session**), the `rule_response_action` parameter is always `null`.
 
