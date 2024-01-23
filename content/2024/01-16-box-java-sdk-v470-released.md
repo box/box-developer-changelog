@@ -14,6 +14,8 @@ collapse: true
 ### New Features and Enhancements
 
 * Add `signer_group_id` for signer in sign request ([#1220][1]) ([`f560db8`][2])
+* Upgrade `BouncyCastle` to v.`1.70`. 
+  > **NOTE**: A new `BouncyCastle` version is not compliant with FIPS.
 * Introduce `IPrivateKeyDecryptor` to allow using custom cryptography provider ([#1226][3]) ([`727e6d7`][4])
 
 ### Bug Fixes
