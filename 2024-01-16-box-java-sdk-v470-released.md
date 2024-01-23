@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2024-01-19-rule-response-action-param-added
 previous_page_id: ''
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/01-16-box-java-sdk-v470-released.md
@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add `signer_group_id` for signer in sign request ([#1220][1]) ([`f560db8`][2])
-* Introduce `IPrivateKeyDecryptor` to allow using custom cryptography provider ([#1226][3]) ([`727e6d7`][4])
+* 署名者用に`signer_group_id`を署名リクエストに追加 ([#1220][1]) ([`f560db8`][2])
+* `IPrivateKeyDecryptor`を導入し、カスタム暗号化プロバイダの使用を許可 ([#1226][3]) ([`727e6d7`][4])
 
 ### バグ修正
 
-* Remove delete classification ([#1222][5]) ([`9814038`][6])
+* 分類の削除に関する記述を削除 ([#1222][5]) ([`9814038`][6])
 
 [1]: https://github.com/box/box-java-sdk/issues/1220
 
