@@ -28,6 +28,8 @@ fullyTranslated: true
 ### 新機能と機能強化
 
 * 署名者用に`signer_group_id`を署名リクエストに追加 ([#1220][1]) ([`f560db8`][2])
+* Upgrade `BouncyCastle` to v.`1.70`.
+  > **NOTE**: A new `BouncyCastle` version is not compliant with FIPS.
 * `IPrivateKeyDecryptor`を導入し、カスタム暗号化プロバイダの使用を許可 ([#1226][3]) ([`727e6d7`][4])
 
 ### バグ修正
