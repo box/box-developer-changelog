@@ -23,20 +23,20 @@ source_url: >-
 published_at: '2024-01-19'
 fullyTranslated: true
 ---
-# New event parameter for Shield Suspicious Location alert
+# Shieldの不審な場所に関するアラートの新しいイベントパラメータ
 
-Along with the release of Shield Suspicious Location: Automated Response we added `rule_response_action` parameter in the [Shield Alert Event][1] response. This parameter is returned in the payload of each Shield Alert Event, but applicable only to **Suspicious Locations** alert event.
+Shieldの不審な場所に関する自動応答のリリースに伴い、[Shieldアラートイベント][1]のレスポンスに`rule_response_action`パラメータを追加しました。このパラメータは、各Shieldアラートイベントのペイロードで返されますが、**不審な場所**に関するアラートイベントにしか適用できません。
 
 <!-- more -->
 
-The value of the parameter depends on the **Restrict Target User Access** rule settings in the Admin Console.
+パラメータの値は、管理コンソールの \[**ターゲットユーザーのアクセス制限**] のルール設定によって異なります。
 
-* If active, the value of the parameter will be `true` when the alert is triggered.
-* If inactive, the value of the parameter will be `false` when the alert is triggered.
+* アクティブな場合、アラートがトリガーされると、パラメータの値は`true`になります。
+* 非アクティブな場合、アラートがトリガーされると、パラメータの値は`false`になります。
 
-For all other Shield Alerts (**Anomalous Download**, **Malicious Content**, **Suspicious Session**), the `rule_response_action` parameter is always `null`.
+その他すべてのShieldアラート (**異常なダウンロード**、**悪意のあるコンテンツ**、**不審なセッション**) では、`rule_response_action`パラメータは常に`null`になります。
 
-For additional information, see [Suspicious Location rule settings][2]
+詳細については、[不審な場所のルールの設定][2]を参照してください。
 
 ## サポート情報
 
