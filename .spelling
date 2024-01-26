@@ -284,3 +284,7 @@ accessors
 verifier
 hostname
 FIPS
+activityitems
+aci
+codeowners
+unresolve
