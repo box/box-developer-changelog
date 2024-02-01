@@ -35,7 +35,7 @@ fullyTranslated: true
 * **content-explorer:** 404の発生時に`onDelete`コールバックの成功を許可 ([#3468][8]) ([`13ed6da`][9])
 * **content-explorer:** デバイスがダウンロードをサポートするかどうかを検出 ([#3480][10]) ([`fa68f9b`][11])
 * **content-explorer:** 階層リンクにおけるテキストの省略を修正 ([#3481][12]) ([`6099b1d`][13])
-* **content-explorer:** 残っている`contentPreviewProps`を削除 ([#3489][14]) ([`4181e0c`][15])
+* **content-explorer:** 残っていた`contentPreviewProps`を削除 ([#3489][14]) ([`4181e0c`][15])
 * **content-explorer:** デバイスが小さい場合にページ数を表示 ([#3498][16]) ([`98537b9`][17])
 * **content-picker:** ページ割りコンポーネントを使用して適切なスタイルをインポート ([#3472][18]) ([`6aef87b`][19])
 * **content-sidebar:** 注釈の上に積み重なるようにZインデックスを大きくする ([#3478][20]) ([`762b82d`][21])
