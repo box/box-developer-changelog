@@ -15,11 +15,11 @@ Content Explorer comes with a metadata view that uses metadata query to find fil
 
 <!-- more -->
 
-For details, read the [Content Explorer guide][2] and our [blog post][2].
+For details, read the [Content Explorer guide][1] and our [blog post][2].
 
 ## Where to get support
 
-Should you have any issues or need further guidance, please post a request to our [developer forum][2] for any help needed.
+Should you have any issues or need further guidance, please post a request to our [developer forum][3] for any help needed.
 
 
 [1]: g://embed/ui-elements/explorer
