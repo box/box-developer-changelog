@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-01-19-rule-response-action-param-added
+next_page_id: 2024-01-19-rule-response-action-param-added copy
 previous_page_id: ''
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/01-16-box-java-sdk-v470-released.md
@@ -27,6 +27,8 @@ published_at: '2024-01-16'
 ### New Features and Enhancements
 
 * Add `signer_group_id` for signer in sign request ([#1220][1]) ([`f560db8`][2])
+* Upgrade `BouncyCastle` to v.`1.70`.
+> **NOTE**: A new `BouncyCastle` version is not compliant with FIPS.
 * Introduce `IPrivateKeyDecryptor` to allow using custom cryptography provider ([#1226][3]) ([`727e6d7`][4])
 
 ### Bug Fixes
