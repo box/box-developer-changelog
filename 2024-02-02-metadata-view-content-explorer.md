@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2024-02-06-working-with-box-sign
 previous_page_id: 2024-01-25-box-ui-elements-v1900-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/02-02-metadata-view-content-explorer.md
