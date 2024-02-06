@@ -30,7 +30,7 @@ fullyTranslated: true
 [新世代のPython SDK][1]では、以下を利用できるようになります。
 
 * **APIの全面的なサポート**: 新世代のBox SDKにより、開発者はBox APIエコシステム全体をカバーできるようになります。Boxが提供する最新機能をすべて利用できるようになったため、より高性能で機能豊富なアプリケーションを作成できます。
-* **迅速なAPIの更新**
+* **Rapid API Updates** Say goodbye to waiting for new Box APIs to be incorporated into the SDK. With our new auto-generation development approach, we can now add new Box APIs to the SDK at a much faster pace (in a matter of days). This means you can leverage the most up-to-date features in your applications without delay.
 * **ドキュメントへの埋め込み**: Boxでは、開発者にとって情報へのアクセスが重要であることを理解しています。新しいアプローチを使用して、すべてのオブジェクトおよびパラメータに関する包括的なドキュメントをSDKのソースコードに直接含めました。つまり、この情報を開発者向けポータルで探す必要がなくなるため、時間の節約と開発プロセスの効率化につながります。
 * **便利なメソッドの強化**: 開発エクスペリエンスを強化するBoxの取り組みにより、便利なメソッドの導入が推進されます。このようなメソッドは、認証、分割アップロード、指数バックオフ、自動再試行、型チェック (変数を正しく使用しているかどうかの確認に役立ちます) など、さまざまな側面をカバーします。
 
