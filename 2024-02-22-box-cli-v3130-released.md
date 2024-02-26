@@ -26,14 +26,14 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add additional `UseDisplayName` flag to metadata extraction script ([#515][1]) ([`b900fdb`][2])
-* Add additional context info when throw exception ([#519][3]) ([`b99a58d`][4])
-* Support overwrite/skip folder download ([#516][5]) ([`300f914`][6])
+* `UseDisplayName`フラグをメタデータ抽出スクリプトに追加 ([#515][1]) ([`b900fdb`][2])
+* 例外をスローする際のコンテキスト情報を追加 ([#519][3]) ([`b99a58d`][4])
+* フォルダダウンロード時の上書き/スキップをサポート ([#516][5]) ([`300f914`][6])
 
 ### バグ修正
 
-* Fix metadata extraction script ([#514][7]) ([`2fad540`][8])
-* Fix the functionality of the overwrite flag ([#513][9]) ([`f4bf7af`][10])
+* メタデータ抽出スクリプトを修正 ([#514][7]) ([`2fad540`][8])
+* 上書きフラグの機能を修正 ([#513][9]) ([`f4bf7af`][10])
 
 [1]: https://github.com/box/boxcli/issues/515
 
