@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2024-02-22-box-cli-v3130-released
+previous_page_id: 2024-02-27-box-java-sdk-v480-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/02-27-box-windows-sdk-v570-released.md
 published_at: '2024-02-27'
