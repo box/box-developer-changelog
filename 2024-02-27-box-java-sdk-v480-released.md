@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* allow modifying `BoxAPIRequest` URL ([#1236][1]) ([`eaea019`][2])
-* Bumped `org.bouncycastle:bcprov-jdk18on:1.77` and `org.bouncycastle:bcpkix-jdk18on:1.77` ([#1237][3]) ([`6c7fe7b`][4]), closes [#1235][5]
+* `BoxAPIRequest` URLの変更を許可 ([#1236][1]) ([`eaea019`][2])
+* `org.bouncycastle:bcprov-jdk18on:1.77`と`org.bouncycastle:bcpkix-jdk18on:1.77`を昇格 ([#1237][3]) ([`6c7fe7b`][4])、[#1235][5]をクローズ
 
 ### バグ修正
 
-* fix download for empty files ([#1231][6]) ([`0e2230b`][7])
-* stop using `SharedLinkAPIConnection` in `getSharedItem()` ([#1234][8]) ([`9f9af8e`][9])
+* 空のファイルのダウンロードについて修正 ([#1231][6]) ([`0e2230b`][7])
+* `getSharedItem()`での`SharedLinkAPIConnection`の使用を停止 ([#1234][8]) ([`9f9af8e`][9])
 
 [1]: https://github.com/box/box-java-sdk/issues/1236
 
