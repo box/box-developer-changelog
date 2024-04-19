@@ -26,8 +26,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add support for `vanity_name` when creating `shared-links` ([#524][1]) ([`38164bc`][2])
-* Support sign request signer group ID ([#521][3]) ([`f7b1b44`][4])
+* `shared-links`作成時の`vanity_name`のサポートを追加 ([#524][1]) ([`38164bc`][2])
+* 署名リクエストの署名者グループIDをサポート ([#521][3]) ([`f7b1b44`][4])
 
 [1]: https://github.com/box/boxcli/issues/524
 
