@@ -31,7 +31,7 @@ fullyTranslated: true
 * Privacy Manifestファイルを追加 ([#924][1]) ([`cbef168`][2])
 * `visionOS`のサポートを追加 ([#916][3]) ([`a05b243`][4])
 * `SignRequest`で追加のフィールドのサポートを追加 ([#919][5]) ([`36f464c`][6])
-* Make fields from `TokenInfo` publicly available ([#920][7]) ([`eb26f47`][8])
+* `TokenInfo`のフィールドをpublicに変更 ([#920][7]) ([`eb26f47`][8])
 
 [1]: https://github.com/box/box-ios-sdk/issues/924
 
