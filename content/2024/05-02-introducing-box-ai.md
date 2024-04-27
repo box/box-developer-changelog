@@ -37,7 +37,7 @@ As a result, Box AI provides help to users working with documents stored in Box.
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][4] for any help needed.
 
-[1]: g://box-ai
+[1]: https://staging.developer.box.com/guides/box-ai/
 [2]: https://developer.box.com/ai-dev-zone/
 [3]: g://embed/ui-elements/preview/#box-ai-ui-element
 [4]: https://forum.box.com/
