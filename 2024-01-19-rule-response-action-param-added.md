@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-01-25-box-ui-elements-v1900-released
-previous_page_id: 2024-01-19-rule-response-action-param-added copy
+previous_page_id: 2024-01-16-box-java-sdk-v470-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/01-19-rule-response-action-param-added.md
 published_at: '2024-01-19'
@@ -32,7 +32,7 @@ This parameter is returned in the payload of each Shield Alert Event, but applic
 The value of the parameter depends on the **Restrict Target User Access** rule settings in the Admin Console.
 
 * If active, the value of the parameter will be `true` when the alert is triggered.
-* If inactive, the value of the parameter will be `false.` when the alert is triggered.
+* If inactive, the value of the parameter will be `false` when the alert is triggered.
 
 For all other Shield Alerts (**Anomalous Download**, **Malicious Content**, **Suspicious Session**), the `rule_response_action` parameter is always `null`.
 
