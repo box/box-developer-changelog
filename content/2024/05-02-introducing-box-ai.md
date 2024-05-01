@@ -27,7 +27,7 @@ Alongside with the Box AI API, we have launched a new developer documentation de
 
 ## Box AI for UI Elements
 
-The [Box AI for UI Elements][3] enhances the [Content Preview][4] header with AI Q&A functionality. 
+[Box AI for UI Elements][3] enhances the [Content Preview][4] header with AI Q&A functionality. 
 The new Box AI for UI Elements allows the users to embed AI functionality in their custom applications to facilitate answering questions and taking actions like summarizing a document.
 
 ## Where to get support
