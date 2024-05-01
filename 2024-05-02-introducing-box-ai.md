@@ -25,11 +25,10 @@ published_at: '2024-05-02'
 ---
 # Introducing Box AI API and Box AI Dev Zone
 
-***Note:** Box AI API and Box AI UI Element are beta features, which means the available capabilities may change.
-Box AI features are available to all **Enterprise Plus** customers.*
-
-
 Box AI API allows you to use Box AI functionality in your custom applications. For example, you can implement Box AI question and answer functionality in your third party applications or generate content right in your product’s content editor.
+
+*Box AI API and Box AI UI Element are beta features, which means the available capabilities may change.
+Box AI features are available to all **Enterprise Plus** customers.*
 
 <!-- more -->
 
