@@ -14,7 +14,7 @@ release_source_url: ""
 
 Box AI API allows you to use Box AI functionality in your custom applications. For example, you can implement Box AI question and answer functionality in your third party applications or generate content right in your product’s content editor.
 
-_Box AI API and Box AI UI Element are beta features, which means the available capabilities may change. Box AI features are available to all **Enterprise Plus** customers._
+_Box AI API and Box AI for UI Elements are beta features, which means the available capabilities may change. Box AI features are available to all **Enterprise Plus** customers._
 
 <!-- more -->
 
@@ -25,10 +25,10 @@ Check the [Box AI API developer guides][1] to learn more about Box AI and check 
 
 Alongside with the Box AI API, we have launched a new developer documentation demo page. [Box AI Dev Zone][2] allows you to explore the Box AI API through rich, interactive experiences. You can view use cases, example prompts and responses, and sample code.
 
-## Box UI Element
+## Box AI for UI Elements
 
-The [Box AI UI Element][3] enhances the [Content Preview][4] header with AI Q&A functionality. 
-The new Box AI UI Element allows the users to embed AI functionality in their custom applications to facilitate answering questions and taking actions like summarizing a document.
+[Box AI for UI Elements][3] enhances the [Content Preview][4] header with AI Q&A functionality. 
+The new Box AI for UI Elements allows the users to embed AI functionality in their custom applications to facilitate answering questions and taking actions like summarizing a document.
 
 ## Where to get support
 
