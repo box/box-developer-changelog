@@ -23,19 +23,17 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/05-02-introducing-box-ai.md
 published_at: '2024-05-02'
 ---
-# Introducing Box AI API and Box Dev Zone
+# Introducing Box AI API and Box AI Dev Zone
 
-<Message type="notice">
+***Note:** Box AI API and Box AI UI Element are beta features, which means the available capabilities may change.
+Box AI features are available to all **Enterprise Plus** customers.*
 
-Box AI API and Box AI UI Element are beta features, which means the available capabilities may change. Box AI features are available to all Enterprise Plus customers.
 
-</Message>
-
-Box AI API allows you to use Box AI functionality in your custom applications. For example, you can implement Box AI question and answer functionality in your third party integration or generate content right in your product’s content editor.
+Box AI API allows you to use Box AI functionality in your custom applications. For example, you can implement Box AI question and answer functionality in your third party applications or generate content right in your product’s content editor.
 
 <!-- more -->
 
-Currently, you can ask Box AI to answer your questions, summarize the document content or generate text you can use in your documents.
+Currently, you can ask Box AI to answer your questions, summarize the document content, or generate text you can use in your documents.
 Check the [Box AI API developer guides][1] to learn more about Box AI and check the API Reference for details.
 
 ## Box AI Developer Zone
@@ -44,15 +42,15 @@ Alongside with the Box AI API, we have launched a new developer documentation de
 
 ## Box UI Element
 
-The [Box AI UI Element][3] enhances the Content Preview header with AI Q&A functionality.
-The new UI Element allows the users to embed AI-enabled, chatbot-like functionality in their custom applications.
-As a result, Box AI provides help to users working with documents stored in Box.
+The [Box AI UI Element][3] enhances the [Content Preview][4] header with AI Q&A functionality.
+The new Box AI UI Element allows the users to embed AI functionality in their custom applications to facilitate answering questions and taking actions like summarizing a document.
 
 ## Where to get support
 
-Should you have any issues or need further guidance, please post a request to our [developer forum][4] for any help needed.
+Should you have any issues or need further guidance, please post a request to our [developer forum][5] for any help needed.
 
-[1]: https://staging.developer.box.com/guides/box-ai/
-[2]: https://developer.box.com/ai-dev-zone/
-[3]: g://embed/ui-elements/preview/#box-ai-ui-element
-[4]: https://forum.box.com/
+[1]: https://staging.developer.box.com/guides/box-ai
+[2]: https://developer.box.com/ai-dev-zone
+[3]: g://embed/ui-elements/preview#box-ai-ui-element
+[4]: g://embed/ui-elements/preview
+[5]: https://forum.box.com/
