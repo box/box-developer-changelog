@@ -17,7 +17,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2024-05-08-notification-suppression-for-sign
 previous_page_id: 2024-04-05-box-ios-sdk-v560-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/05-02-introducing-box-ai.md
@@ -47,7 +47,7 @@ The new Box AI for UI Elements allows the users to embed AI functionality in the
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][5] for any help needed.
 
-[1]: https://staging.developer.box.com/guides/box-ai
+[1]: https://developer.box.com/guides/box-ai
 [2]: https://developer.box.com/ai-dev-zone
 [3]: g://embed/ui-elements/preview#box-ai-ui-element
 [4]: g://embed/ui-elements/preview
