@@ -13,7 +13,7 @@ release_source_url: ""
 # Notification suppression for Box Sign
 
 [Box Sign API][1] allows you to suppress the **default** Box email
-notifications sent during the Sign workflow.​​ 
+notifications sent during the Box Sign workflow.​​ 
 
 <!-- more -->
 
