@@ -35,6 +35,8 @@ Thanks to this feature, you can turn the default notifications
 off to use your own, customized messages and decide on channels
 they will be sent through.
 
+_**Note**: When you choose to suppress email notifications for Box Sign, your organization assumes responsibility for ensuring the delivery to Signers of all notifications at the appropriate time in the signing process and with the appropriate content, in compliance with all applicable laws and regulations, including with respect to obtaining Signer consent to the delivery methods used, if applicable._
+
 ## New Box Sign webhooks
 
 Along with the notification suppression feature, we introduce three new [webhooks][2] to enhance the customization options for e-signature workflows:
