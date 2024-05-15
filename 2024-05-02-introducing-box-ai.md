@@ -17,7 +17,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2024-05-07-box-java-sdk-v490-released
 previous_page_id: 2024-04-05-box-ios-sdk-v560-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/05-02-introducing-box-ai.md
