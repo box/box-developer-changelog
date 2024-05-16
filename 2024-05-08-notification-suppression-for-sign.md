@@ -1,0 +1,55 @@
+---
+applied_at: '2024-05-15'
+applies_to:
+  - guides
+  - api
+is_impactful: true
+is_new_feature: true
+collapse: true
+show_excerpt: true
+release_source_url: ''
+is_index: false
+category_id: changelog
+subcategory_id: ''
+id: 2024-05-08-notification-suppression-for-sign
+rank: null
+total_steps: null
+type: changelog
+sibling_id: ''
+parent_id: changelog
+next_page_id: ''
+previous_page_id: 2024-05-07-box-java-sdk-v490-released
+source_url: >-
+  https://github.com/box/box-developer-changelog/blob/main/content/2024/05-08-notification-suppression-for-sign.md
+published_at: '2024-05-08'
+fullyTranslated: true
+---
+# Notification suppression for Box Sign
+
+[Box Sign API][1] allows you to suppress the **default** Box email notifications sent during the Box Sign workflow.​​
+
+<!-- more -->
+
+Thanks to this feature, you can turn the default notifications off to use your own, customized messages and decide on channels they will be sent through.
+
+_**Note**: When you choose to suppress email notifications for Box Sign, your organization assumes responsibility for ensuring the delivery to Signers of all notifications at the appropriate time in the signing process and with the appropriate content, in compliance with all applicable laws and regulations, including with respect to obtaining Signer consent to the delivery methods used, if applicable._
+
+## New Box Sign webhooks
+
+Along with the notification suppression feature, we introduce three new [webhooks][2] to enhance the customization options for e-signature workflows:
+
+* `SIGN.REQUEST.SIGNATURE_REQUESTED`
+* `SIGN.REQUEST.SIGNER_SIGNED`
+* `SIGN.REQUEST.ERROR_FINALIZING`
+
+You can use these webhooks to trigger actions in your own applications or notify your users about events happening in Box Sign.​​
+
+## サポート情報
+
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
+
+[1]: e://post-sign-requests
+
+[2]: https://developer.box.com/sign/webhooks/
+
+[3]: https://forum.box.com/
