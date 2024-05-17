@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support AI API ([#1243][1]) ([`4e64f27`][2])
-* Support pagination of file versions ([#1240][3]) ([`7e7af3f`][4])
+* AI APIをサポート ([#1243][1]) ([`4e64f27`][2])
+* ファイルバージョンのページ割りをサポート ([#1240][3]) ([`7e7af3f`][4])
 
 ### バグ修正
 
-* Support create empty shared link ([#1241][5]) ([`0c86487`][6])
-* Update exception message for get representation content ([#1239][7]) ([`a608f9a`][8])
+* 空の共有リンクの作成をサポート ([#1241][5]) ([`0c86487`][6])
+* レプリゼンテーションコンテンツ取得に関する例外メッセージを更新 ([#1239][7]) ([`a608f9a`][8])
 
 [1]: https://github.com/box/box-java-sdk/issues/1243
 
