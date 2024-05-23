@@ -10,21 +10,24 @@ collapse: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2024-05-20-box-python-sdk-new-gen-released
+id: 2024-05-20-box-python-sdk-new-gen-released copy
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2024-05-23-pdf-js-vulnerability
 previous_page_id: 2024-05-20-box-node-sdk-new-gen-released
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2024/05-20-box-python-sdk-new-gen-released.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2024/05-20-box-python-sdk-new-gen-released
+  copy.md
 published_at: '2024-05-20'
 ---
 # Introducing New Generation Python SDK
 
 We are excited to introduce [Box Python SDK][1], designed to elevate the developer experience and streamline your integration with the Box Content Cloud.
+
+<!-- more -->
 
 With the [new generation of Python SDK][1], you'll have access to:
 
