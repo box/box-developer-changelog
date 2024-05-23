@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2024-05-20'
 fullyTranslated: true
 ---
-# Introducing New Generation Python SDK
+# 新世代のPython SDKのリリース
 
-We are excited to introduce [Box Python SDK][1], designed to elevate the developer experience and streamline your integration with the Box Content Cloud.
+[Box Python SDK][1]をリリースしました。これは、開発者エクスペリエンスを向上させ、Boxコンテンツクラウドとの統合を効率化することを目的としています。
 
 [新世代のPython SDK][1]では、以下を利用できるようになります。
 
