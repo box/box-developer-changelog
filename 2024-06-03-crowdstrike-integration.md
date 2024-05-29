@@ -23,9 +23,10 @@ source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/06-03-crowdstrike-integration.md
 published_at: '2024-06-03'
 ---
-# CrowdStrike integration
+# CrowdStrike integration with Box
 
 CrowdStrike is an endpoint detection tool integrated with Box to monitor endpoint activity. This means, CrowdStrike monitors devices that connect to Box and your Box organization, analyzing data about the connection and the device to identify potential threat activity.
+
 The integration with CrowdStrike comes with additional [events in the event stream][1] that can be triggered for an enterprise.
 
 <!-- more -->
