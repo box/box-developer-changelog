@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-05-23-pdf-js-vulnerability
-previous_page_id: 2024-05-20-box-node-sdk-new-gen-released
+previous_page_id: 2024-05-20-box-node-sdk-v360-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/05-20-box-python-sdk-new-gen-released
   copy.md
