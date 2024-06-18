@@ -18,7 +18,7 @@ collapse: true
 ### Bug Fixes
 
 * Change exception type for missing location header ([#871][3]) ([`8c5e0ec`][4])
-* fix annnotation of oauths access_token ([#855][5]) ([`804780e`][6])
+* fix annotation of oauths `access_token` ([#855][5]) ([`804780e`][6])
 * Fix retention policy integration test ([#867][7]) ([`8e0d640`][8])
 * Remove delete classification ([#861][9]) ([`393cfef`][10])
 * Update exception file get download URL ([#866][11]) ([`94dcbcd`][12])
