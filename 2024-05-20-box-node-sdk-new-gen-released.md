@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-05-20-box-python-sdk-new-gen-released
+next_page_id: 2024-05-20-box-python-sdk-new-gen-released copy
 previous_page_id: 2024-05-08-notification-suppression-for-sign
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/05-20-box-node-sdk-new-gen-released.md
@@ -25,6 +25,8 @@ published_at: '2024-05-20'
 # Introducing New Generation TypeScript SDK
 
 We are excited to introduce [Box TypeScript SDK][1], designed to elevate the developer experience and streamline your integration with the Box Content Cloud.
+
+<!-- more -->
 
 With the [new generation of Typescript SDK][1], you’ll have access to:
 
