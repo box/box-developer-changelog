@@ -27,62 +27,62 @@ collapse: true
 * **i18n:** update translations ([#3538][20]) ([`cde1b88`][21])
 * **i18n:** update translations ([#3540][22]) ([`a7043e6`][23])
 * **i18n:** update translations ([#3541][24]) ([`3ced4a5`][25])
-* **multiput-upload:** improve upload performance ([#3512][26]) ([`2583e94`][27])
-* **npm:** add chromatic config to npmignore ([#3546][28]) ([`e2e6731`][29])
-* **preview:** Update default preview version to 2.106.0 ([#3555][30]) ([`f07d616`][31])
-* **react-intl:** mock date in relative time unit tests ([#3518][32]) ([`3ce175b`][33])
+* **`multiput-upload`:** improve upload performance ([#3512][26]) ([`2583e94`][27])
+* **`npm`:** add chromatic config to `npmignore` ([#3546][28]) ([`e2e6731`][29])
+* **preview:** Update default preview version to `2.106.0` ([#3555][30]) ([`f07d616`][31])
+* **`react-intl`:** mock date in relative time unit tests ([#3518][32]) ([`3ce175b`][33])
 * **shared-link-settings-modal:** correct expiration date formatting ([#3545][34]) ([`e47892f`][35])
-* **upload:** improve multiput upload performance 2 ([#3517][36]) ([`2440746`][37])
+* **upload:** improve `multiput` upload performance 2 ([#3517][36]) ([`2440746`][37])
 * **usm:** fix item type hubs ([#3532][38]) ([`0d1e9cf`][39])
 * **usm:** hide link description when upsell shows ([#3553][40]) ([`838a2e8`][41])
 
 ### Features
 
 * **content-explorer:** allow not using Portal when rendering modal ([#3501][42]) ([`b096d38`][43])
-* **content-uploader:** Added allowPrepopulateFiles prop to content uploader ([#3519][44]) ([`12427b1`][45])
+* **content-uploader:** Added `allowPrepopulateFiles` prop to content uploader ([#3519][44]) ([`12427b1`][45])
 * **content-uploader:** Implemented partial upload for successful file transfers ([#3529][46]) ([`e70825c`][47])
 * **docgen:** docgen sidebar base ([#3484][48]) ([`4b18b21`][49])
-* **react-intl:** Bump react-intl package \[BREAKING CHANGE] ([#3466][50]) ([`307c6a4`][51])
+* **`react-intl`:** Bump `react-intl` package \[BREAKING CHANGE] ([#3466][50]) ([`307c6a4`][51])
 * **usm:** Add access level label for hubs ([#3526][52]) ([`6504480`][53])
 * **usm:** add inline notice as component ([#3549][54]) ([`d646c65`][55])
 
 ### BREAKING CHANGES
 
-* **react-intl:** upgrade the major version of the react-intl dependency
+* **`react-intl`:** upgrade the major version of the `react-intl` dependency
 
-* fix: fix intl type
+* fix: fix `intl` type
 
 * fix: fix message syntax
 
 * fix: fix comments and i18n readme file
 
-* fix: fix react-intl version comments
+* fix: fix `react-intl` version comments
 
-* fix: use IntlShape as a type in js files
+* fix: use `IntlShape` as a type in js files
 
-* Fix: correct type import for IntlShape
+* Fix: correct type import for `IntlShape`
 
 * fix: add resolution
 
-* fix: use exact version to match other repos
+* fix: use exact version to match other repositories
 
-* Fix: correct type import for IntlShape
+* Fix: correct type import for `IntlShape`
 
 * fix: remove all support for legacy versions
 
-* fix: add relativeTime helper function
+* fix: add `relativeTime` helper function
 
-* fix: fix relative time in PresenceAvatarTooltipContent component
+* fix: fix `relativeTime` in `PresenceAvatarTooltipContent` component
 
-* fix: fix relativeTime in PresenceCollaborator component
+* fix: fix `relativeTime` in `PresenceCollaborator` component
 
-* fix: use inclusive inequalities in relativeTime helper
+* fix: use inclusive inequalities in `relativeTime` helper
 
 * fix: remove unnecessary modulo operations
 
-* fix: fix relative time in ReadableTime + fix snapshots
+* fix: fix `relativeTime` in `ReadableTime` + fix snapshots
 
-* fix: fix relative time in lastModifiedByCellRenderer
+* fix: fix `relativeTime` in `lastModifiedByCellRenderer`
 
 * fix: fix tests
 
