@@ -13,7 +13,7 @@ collapse: true
 
 ### Bug Fixes
 
-* Fix CI for auto update pull requests (box/box-codegen[#506][1]) ([#187][2]) ([`5e59f69`][3])
+* Fix CI for auto update pull requests (`box/box-codegen`[#506][1]) ([#187][2]) ([`5e59f69`][3])
 
 ### New Features and Enhancements
 
