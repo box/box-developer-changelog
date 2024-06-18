@@ -2,7 +2,6 @@
 applied_at: '2024-06-12'
 applies_to:
   - sdks
-  - typescript
 is_impactful: false
 is_new_feature: true
 release_source_url: 'https://github.com/box/box-typescript-sdk-gen/releases/tag/v1.1.0'
@@ -13,8 +12,8 @@ collapse: true
 
 ### Bug Fixes
 
-* Fix CI for auto update pull requests (box/box-codegen[#506][1]) ([#221][2]) ([`bbc14f6`][3])
-* remove quotation mark when date or `datetime` is used in `queryParams` (box/box-codegen[#509][4]) ([#225][5]) ([`28d2220`][6])
+* Fix CI for auto update pull requests (`box/box-codegen`[#506][1]) ([#221][2]) ([`bbc14f6`][3])
+* remove quotation mark when date or `datetime` is used in `queryParams` (box/`box-codegen`[#509][4]) ([#225][5]) ([`28d2220`][6])
 
 ### New Features and Enhancements
 
