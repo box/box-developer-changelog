@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-05-23-pdf-js-vulnerability
+next_page_id: 2024-05-22-box-ui-elements-v2000-released
 previous_page_id: 2024-05-20-box-python-sdk-new-gen-released copy
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/05-22-box-python-sdk-v3100-released.md
