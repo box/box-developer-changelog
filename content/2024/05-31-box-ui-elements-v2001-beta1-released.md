@@ -11,7 +11,7 @@ collapse: true
 
 # Box UI Elements `v20.0.1-beta.1` released
 
-## [20.0.1-beta.1][1] (2024-05-31)
+## [`20.0.1-beta.1`][1] (2024-05-31)
 
 ### Bug Fixes
 
