@@ -2,34 +2,35 @@
 applied_at: '2024-05-20'
 applies_to:
   - sdks
-  - node
+  - python
 is_impactful: true
 is_new_feature: true
-release_source_url: 'https://github.com/box/box-typescript-sdk-gen/releases/tag/v1.0.0'
+release_source_url: 'https://github.com/box/box-python-sdk-gen/releases/tag/v1.0.0'
 collapse: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2024-05-20-box-node-sdk-new-gen-released
+id: 2024-05-20-box-python-sdk-new-gen-released copy
 rank: null
 total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-05-20-box-node-sdk-v360-released
-previous_page_id: 2024-05-08-notification-suppression-for-sign
+next_page_id: 2024-05-22-box-python-sdk-v3100-released
+previous_page_id: 2024-05-20-box-node-sdk-v360-released
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2024/05-20-box-node-sdk-new-gen-released.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2024/05-20-box-python-sdk-new-gen-released
+  copy.md
 published_at: '2024-05-20'
 fullyTranslated: true
 ---
-# 新世代のTypeScript SDKのリリース
+# 新世代のPython SDKのリリース
 
-[Box TypeScript SDK][1]をリリースしました。これは、開発者エクスペリエンスを向上させ、Boxコンテンツクラウドとの統合を効率化することを目的としています。
+[Box Python SDK][1]をリリースしました。これは、開発者エクスペリエンスを向上させ、Boxコンテンツクラウドとの統合を効率化することを目的としています。
 
 <!-- more -->
 
-[新世代のTypescript SDK][1]では、以下を利用できるようになります。
+[新世代のPython SDK][1]では、以下を利用できるようになります。
 
 * **APIの全面的なサポート**: 新世代のBox SDKにより、開発者はBox APIエコシステム全体をカバーできるようになります。Boxが提供する最新機能をすべて利用できるようになったため、より高性能で機能豊富なアプリケーションを作成できます。
 * **迅速なAPIの更新**: 新しいBox APIがSDKに組み込まれるのを待つ必要はなくなります。Boxでは、自動生成による新しい開発アプローチにより、はるかに速いペースで (数日中に) 新しいBox APIをSDKに追加できるようになりました。これは、最新の機能をすぐにアプリケーションで利用できるようになることを意味します。
@@ -38,4 +39,4 @@ fullyTranslated: true
 
 新世代のBox SDKを利用して、Boxコンテンツクラウドの可能性を最大限に引き出してください。より迅速かつ効率的に革新的なソリューションを作成しましょう。
 
-[1]: https://github.com/box/box-typescript-sdk-gen
+[1]: https://github.com/box/box-python-sdk-gen
