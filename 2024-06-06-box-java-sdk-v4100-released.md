@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Overload the `getRepresentationContent` method with a `maxRetries` parameter ([#1251][1]) ([`d26bd4f`][2])
-* Support `login_required`, `password`, `suppress_nofitications`, `verification_phone_number` and `additional_info` fields in sign request ([#1250][3]) ([`3ee55b3`][4])
+* `maxRetries`パラメータを使用して`getRepresentationContent`メソッドをオーバーロード ([#1251][1]) ([`d26bd4f`][2])
+* 署名リクエストで`login_required`、`password`、`suppress_nofitications`、`verification_phone_number`、`additional_info`フィールドをサポート ([#1250][3]) ([`3ee55b3`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1251
 

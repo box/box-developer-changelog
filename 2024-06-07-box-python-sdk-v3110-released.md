@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Use upload session `urls` for chunk upload ([#875][1]) ([`c67b03c`][2])
+* 分割アップロードにアップロードセッション`urls`を使用 ([#875][1]) ([`c67b03c`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/875
 

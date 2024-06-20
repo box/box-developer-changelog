@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Bumped `org.bouncycastle:bcprov-jdk18on:1.78.1` and `org.bouncycastle:bcpkix-jdk18on:1.78.1` ([#1246][1]) ([`0557bed`][2])
+* `org.bouncycastle:bcprov-jdk18on:1.78.1`および`org.bouncycastle:bcpkix-jdk18on:1.78.1`を昇格 ([#1246][1]) ([`0557bed`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1246
 

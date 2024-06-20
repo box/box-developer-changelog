@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2024-06-12'
 fullyTranslated: true
 ---
-# Box Python SDK Generated `v1.1.0` released
+# Box Python SDK Generated `v1.1.0`のリリース
 
 ### バグ修正
 
-* Fix CI for auto update pull requests (`box/box-codegen`[#506][1]) ([#187][2]) ([`5e59f69`][3])
+* 自動更新のプルリクエストのCIを修正 (`box/box-codegen`[#506][1]) ([#187][2]) ([`5e59f69`][3])
 
 ### 新機能と機能強化
 
-* add missing marker pagination fields and introduce new event type `AppItemEventSource` `(box/box-openapi[#431](https://github.com/box/box-codegen/issues/431))` ([#189][4]) ([`8d22ce2`][5])
+* 欠落しているマーカーページ割りフィールドを追加し、新しいイベントタイプ`AppItemEventSource` `(box/box-openapi[#431](https://github.com/box/box-codegen/issues/431))`を導入 ([#189][4]) ([`8d22ce2`][5])
 
 [1]: https://github.com/box/box-codegen/issues/506
 

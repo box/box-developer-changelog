@@ -22,16 +22,16 @@ source_url: >-
 published_at: '2024-06-12'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.1.0` released
+# Box TypeScript SDK Generated `v1.1.0`のリリース
 
 ### バグ修正
 
-* Fix CI for auto update pull requests (`box/box-codegen`[#506][1]) ([#221][2]) ([`bbc14f6`][3])
-* remove quotation mark when date or `datetime` is used in `queryParams` (box/`box-codegen`[#509][4]) ([#225][5]) ([`28d2220`][6])
+* 自動更新のプルリクエストのCIを修正 (`box/box-codegen`[#506][1]) ([#221][2]) ([`bbc14f6`][3])
+* `queryParams`で日付または`datetime`が使用されている場合に引用符を削除 (box/`box-codegen`[#509][4]) ([#225][5]) ([`28d2220`][6])
 
 ### 新機能と機能強化
 
-* add missing marker pagination fields and introduce new event type `AppItemEventSource` `(box/box-openapi[#431](https://github.com/box/box-typescript-sdk-gen/issues/431))` ([#224][7]) ([`6c18ca3`][8])
+* 欠落しているマーカーページ割りフィールドを追加し、新しいイベントタイプ`AppItemEventSource` `(box/box-openapi[#431](https://github.com/box/box-typescript-sdk-gen/issues/431))`を導入 ([#224][7]) ([`6c18ca3`][8])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/506
 

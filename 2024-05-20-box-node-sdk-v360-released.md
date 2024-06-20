@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Transition to stable status ([#880][1]) ([`ae996ea`][2])
+* 安定したステータスに移行 ([#880][1]) ([`ae996ea`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/880
 
