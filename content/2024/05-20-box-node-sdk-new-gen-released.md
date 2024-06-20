@@ -14,6 +14,8 @@ show_excerpt: true
 
 We are excited to introduce [Box TypeScript SDK][1], designed to elevate the developer experience and streamline your integration with the Box Content Cloud.
 
+<!-- more -->
+
 With the [new generation of Typescript SDK][1], you’ll have access to:
 
 * **Full API Support**: The new generation of Box SDKs empowers developers with complete coverage of the Box API ecosystem. You can now access all the latest features and functionalities offered by Box, allowing you to build even more sophisticated and feature-rich applications.
