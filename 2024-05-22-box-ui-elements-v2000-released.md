@@ -90,7 +90,7 @@ fullyTranslated: true
 
 * 修正: `PresenceCollaborator`コンポーネントの`relativeTime`を修正
 
-* 修正: `relativeTime`ヘルパーで包含不等式を使用
+* 修正: `relativeTime`ヘルパーで等号付き不等式を使用
 
 * 修正: 不要な剰余演算を削除
 
