@@ -38,6 +38,7 @@ files.forEach(source => {
       'windows',
       'java',
       'cli',
+      'dotnet',
       'mobile',
       'ios',
       'android',
