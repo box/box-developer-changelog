@@ -34,6 +34,7 @@ files.forEach(source => {
       'sdks',
       'node',
       'python',
+      'swift',
       'typescript',
       'windows',
       'java',

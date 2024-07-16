@@ -300,3 +300,5 @@ webpack
 droppable
 box-openapi
 dotnet
+deserialisation
+schemas

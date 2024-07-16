@@ -13,7 +13,7 @@ collapse: true
 
 ### Bug Fixes
 
-* Change base urls (box/box-codegen[#491][1]) ([#115][2]) ([`d0a7adb`][3])
+* Change base URLs (box/box-codegen[#491][1]) ([#115][2]) ([`d0a7adb`][3])
 * Fix Box AI endpoints (box/box-openapi[#418][4]) ([#88][5]) ([`022f83a`][6])
 * Fix CI for auto update pull requests (box/box-codegen[#506][7]) ([#135][8]) ([`a62e238`][9])
 * fix deserialisation of Union with array in Swift (box/box-codegen[#486][10]) ([#94][11]) ([`4f187be`][12])
