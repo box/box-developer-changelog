@@ -13,9 +13,9 @@ collapse: true
 
 ### Bug Fixes
 
-* Change base urls (box/box-codegen[#491][1]) ([#126][2]) ([`b4c6025`][3])
+* Change base URLs (box/box-codegen[#491][1]) ([#126][2]) ([`b4c6025`][3])
 * Fix CI for auto update pull requests (box/box-codegen[#506][4]) ([#152][5]) ([`766f03c`][6])
-* Fix schemas for updating classification on a file and folder (box/box-openapi[#423][7]) ([#117][8]) ([`40f5a97`][9])
+* Fix schema for updating classification on a file and folder (box/box-openapi[#423][7]) ([#117][8]) ([`40f5a97`][9])
 * Improve wording for box sign (box/box-openapi[#424][10]) ([#122][11]) ([`64b3bcd`][12])
 
 ### New Features and Enhancements
@@ -24,7 +24,7 @@ collapse: true
 * Add docs improvements and marker pagination (box/box-openapi[#431][16]) ([#153][17]) ([`780a58b`][18])
 * Add support for `ExtraData` of generic type (box/box-codegen[#521][19]) ([#170][20]) ([`2a2208d`][21])
 * Add support for unions of primitives (box/box-codegen[#501][22]) ([#150][23]) ([`e75ce82`][24])
-* Make models immutable, hide fields for auths (box/box-codegen[#494][25]) ([#127][26]) ([`8adcc85`][27])
+* Make models immutable, hide fields for authentication (box/box-codegen[#494][25]) ([#127][26]) ([`8adcc85`][27])
 * Add `SuppressNotifications` and `ExternalSystemName` fields for Box Sign (box/box-openapi[#425][28]) ([#124][29]) ([`c841881`][30])
 * Support `StringEnum` (box/box-codegen[#514][31]) ([#162][32]) ([`6ac2fe9`][33])
 
