@@ -23,5 +23,5 @@ All customers and application owners who are potentially affected have been noti
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][2] for any help needed.
 
-[1]: g://embed/ui-elements/
+[1]: g://embed/ui-elements
 [2]: https://forum.box.com/
