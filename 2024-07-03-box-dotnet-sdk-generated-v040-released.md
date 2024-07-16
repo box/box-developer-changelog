@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-07-08-box-typescript-sdk-generated-v120-released
-previous_page_id: 2024-06-28-box-swift-sdk-generated-030-released
+previous_page_id: 2024-06-28-box-windows-sdk-v571-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/07-03-box-dotnet-sdk-generated-v040-released.md
 published_at: '2024-07-03'
