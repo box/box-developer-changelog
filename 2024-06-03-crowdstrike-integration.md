@@ -17,8 +17,8 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
-previous_page_id: 2024-05-23-pdf-js-vulnerability
+next_page_id: 2024-06-06-box-cli-v3141-released
+previous_page_id: 2024-05-31-box-ui-elements-v2001-beta1-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/06-03-crowdstrike-integration.md
 published_at: '2024-06-03'
