@@ -294,4 +294,6 @@ docgen
 js
 upsell
 oauths
-
+hapi
+webpack
+droppable

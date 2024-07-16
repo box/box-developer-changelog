@@ -29,7 +29,7 @@ collapse: true
 
 * **docgen:** add docgen icon ([#3573][20]) ([`f5d4955`][21])
 * **react:** BREAKING CHANGE Upgrade to React 18 ([#3556][22]) ([`91e0978`][23])
-* **webpack:** BREAKING CHANGE Upgrade to webpack 5 and react-styleguidist 12.0.1 ([#3568][24]) ([`a812294`][25])
+* **webpack:** BREAKING CHANGE Upgrade to webpack 5 and `react-styleguidist` 12.0.1 ([#3568][24]) ([`a812294`][25])
 
 ### BREAKING CHANGES
 
