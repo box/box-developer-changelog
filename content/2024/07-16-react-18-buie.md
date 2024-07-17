@@ -3,7 +3,7 @@ applied_at: '2024-07-17'
 applies_to:
   - guides
 is_impactful: true
-is_new_feature: false
+is_new_feature: true
 release_source_url: ''
 collapse: true
 ---
