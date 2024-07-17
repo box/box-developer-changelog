@@ -1,5 +1,5 @@
 ---
-applied_at: '2024-07-16'
+applied_at: '2024-07-17'
 applies_to:
   - guides
 is_impactful: true
@@ -15,7 +15,7 @@ With this update, you can leverage the power of React 18’s cutting-edge featur
 
 <!-- more -->
 
-For details, read our blog post.
+For details, read our [blog post][2].
 
 All customers and application owners who are potentially affected have been notified directly via email.
 
@@ -24,4 +24,5 @@ All customers and application owners who are potentially affected have been noti
 Should you have any issues or need further guidance, please post a request to our [developer forum][2] for any help needed.
 
 [1]: g://embed/ui-elements
-[2]: https://forum.box.com/
+[2]: https://medium.com/box-developer-blog/seamless-integration-box-ui-elements-and-react-18-compatibility-4db97a09ff01
+[3]: https://forum.box.com/
