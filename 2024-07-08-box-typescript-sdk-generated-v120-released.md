@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix upload in browser (box/box-codegen[#524][1]) ([#248][2]) ([`88d747e`][3])
-* Update chunked upload (box/box-codegen[#523][4]) ([#247][5]) ([`27ceb35`][6])
+* ブラウザでのアップロードを修正 (box/box-codegen[#524][1]) ([#248][2]) ([`88d747e`][3])
+* 分割アップロードを更新 (box/box-codegen[#523][4]) ([#247][5]) ([`27ceb35`][6])
 
 ### 新機能と機能強化
 
-* Retry request with status code `202` (box/box-codegen[#511][7]) ([#235][8]) ([`03b8f43`][9])
-* Support extensible enum types in Typescript (box/box-codegen[#520][10]) ([#243][11]) ([`5237972`][12])
+* ステータスコード`202`のリクエストを再試行 (box/box-codegen[#511][7]) ([#235][8]) ([`03b8f43`][9])
+* Typescriptで拡張可能な列挙型をサポート (box/box-codegen[#520][10]) ([#243][11]) ([`5237972`][12])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/524
 

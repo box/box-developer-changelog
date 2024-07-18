@@ -23,24 +23,24 @@ source_url: >-
 published_at: '2024-07-03'
 fullyTranslated: true
 ---
-# Box Dotnet SDK Generated `v0.4.0` released
+# Box Dotnet SDK Generated `v0.4.0`のリリース
 
 ### バグ修正
 
-* Change base URLs (box/box-codegen[#491][1]) ([#126][2]) ([`b4c6025`][3])
-* Fix CI for auto update pull requests (box/box-codegen[#506][4]) ([#152][5]) ([`766f03c`][6])
-* Fix schema for updating classification on a file and folder (box/box-openapi[#423][7]) ([#117][8]) ([`40f5a97`][9])
-* Improve wording for box sign (box/box-openapi[#424][10]) ([#122][11]) ([`64b3bcd`][12])
+* ベースURLを変更 (box/box-codegen[#491][1]) ([#126][2]) ([`b4c6025`][3])
+* 自動更新のプルリクエストのCIを修正 (box/box-codegen[#506][4]) ([#152][5]) ([`766f03c`][6])
+* ファイルやフォルダの分類を更新するためのスキーマを修正 (box/box-openapi[#423][7]) ([#117][8]) ([`40f5a97`][9])
+* Box Signの表現を改善 (box/box-openapi[#424][10]) ([#122][11]) ([`64b3bcd`][12])
 
 ### 新機能と機能強化
 
-* Add default implementation for interface methods (box/box-codegen[#502][13]) ([#148][14]) ([`0f39071`][15])
-* Add docs improvements and marker pagination (box/box-openapi[#431][16]) ([#153][17]) ([`780a58b`][18])
-* Add support for `ExtraData` of generic type (box/box-codegen[#521][19]) ([#170][20]) ([`2a2208d`][21])
-* Add support for unions of primitives (box/box-codegen[#501][22]) ([#150][23]) ([`e75ce82`][24])
-* Make models immutable, hide fields for authentication (box/box-codegen[#494][25]) ([#127][26]) ([`8adcc85`][27])
-* Add `SuppressNotifications` and `ExternalSystemName` fields for Box Sign (box/box-openapi[#425][28]) ([#124][29]) ([`c841881`][30])
-* Support `StringEnum` (box/box-codegen[#514][31]) ([#162][32]) ([`6ac2fe9`][33])
+* インターフェースメソッドのデフォルトの実装を追加 (box/box-codegen[#502][13]) ([#148][14]) ([`0f39071`][15])
+* ドキュメントの改善とマーカーページ割りを追加 (box/box-openapi[#431][16]) ([#153][17]) ([`780a58b`][18])
+* 汎用型の`ExtraData`のサポートを追加 (box/box-codegen[#521][19]) ([#170][20]) ([`2a2208d`][21])
+* プリミティブの和集合のサポートを追加 (box/box-codegen[#501][22]) ([#150][23]) ([`e75ce82`][24])
+* モデルを変更不可に設定し、認証に関するフィールドを非表示にする (box/box-codegen[#494][25]) ([#127][26]) ([`8adcc85`][27])
+* Box Signの`SuppressNotifications`および`ExternalSystemName`フィールドを追加 (box/box-openapi[#425][28]) ([#124][29]) ([`c841881`][30])
+* `StringEnum`をサポート (box/box-codegen[#514][31]) ([#162][32]) ([`6ac2fe9`][33])
 
 [1]: https://github.com/box/box-codegen/issues/491
 

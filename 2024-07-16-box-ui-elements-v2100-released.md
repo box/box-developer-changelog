@@ -25,30 +25,30 @@ fullyTranslated: true
 ---
 # Box UI Elements `v21.0.0`のリリース
 
-# [21.0.0][1] (2024-07-16)
+# [21.0.0][1] (2024/07/16)
 
 ### バグ修正
 
-* upgrade hapi address package dependency ([#3579][2]) ([`b089619`][3])
-* upgrade react-virtualized peer dependency ([#3578][4]) ([`3ebae37`][5])
+* hapi/addressのパッケージ依存関係をアップグレード ([#3579][2]) ([`b089619`][3])
+* react-virtualizedのピア依存関係をアップグレード ([#3578][4]) ([`3ebae37`][5])
 * **avatars:** アバターを取得するためのタイプを追加 ([#3560][6]) ([`14a194f`][7])
-* **content-sidebar:** update to sidebar icon styles ([#3561][8]) ([`381a3b6`][9])
-* **content-uploader:** fix multiple items droppable issue ([#3565][10]) ([`87815de`][11])
-* **i18n:** update translations ([#3563][12]) ([`6d9c65f`][13])
-* **i18n:** update translations ([#3564][14]) ([`7988af8`][15])
-* **i18n:** update translations ([#3566][16]) ([`3103983`][17])
-* **preview:** Update preview error messages ([#3562][18]) ([`aff6217`][19])
+* **content-sidebar:** サイドバーアイコンのスタイルに更新 ([#3561][8]) ([`381a3b6`][9])
+* **content-uploader:** 複数の項目が削除可能な問題を修正 ([#3565][10]) ([`87815de`][11])
+* **i18n:** 翻訳を更新 ([#3563][12]) ([`6d9c65f`][13])
+* **i18n:** 翻訳を更新 ([#3564][14]) ([`7988af8`][15])
+* **i18n:** 翻訳を更新 ([#3566][16]) ([`3103983`][17])
+* **preview:** プレビューのエラーメッセージを更新 ([#3562][18]) ([`aff6217`][19])
 
 ### 機能
 
-* **docgen:** add docgen icon ([#3573][20]) ([`f5d4955`][21])
-* **react:** BREAKING CHANGE Upgrade to React 18 ([#3556][22]) ([`91e0978`][23])
-* **webpack:** BREAKING CHANGE Upgrade to webpack 5 and `react-styleguidist` 12.0.1 ([#3568][24]) ([`a812294`][25])
+* **docgen:** docgenのアイコンを追加 ([#3573][20]) ([`f5d4955`][21])
+* **react:** 重大な変更: React 18にアップグレード ([#3556][22]) ([`91e0978`][23])
+* **webpack:** 重大な変更: webpack 5および`react-styleguidist` 12.0.1にアップグレード ([#3568][24]) ([`a812294`][25])
 
 ### 重大な変更
 
-* upgrade hapi/address to resolve undefined buffer reference
-* upgrade peer dependency for react-virtualized to support react 18
+* 未定義のバッファー参照を解決するためにhapi/addressをアップグレード
+* React 18をサポートするためにreact-virtualizedのピア依存関係をアップグレード
 
 [1]: https://github.com/box/box-ui-elements/compare/v20.0.0...v21.0.0
 
