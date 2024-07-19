@@ -47,7 +47,7 @@ fullyTranslated: true
 
 ### 重大な変更
 
-* 未定義のバッファー参照を解決するためにhapi/addressをアップグレード
+* 未定義のバッファ参照を解決するためにhapi/addressをアップグレード
 * React 18をサポートするためにreact-virtualizedのピア依存関係をアップグレード
 
 [1]: https://github.com/box/box-ui-elements/compare/v20.0.0...v21.0.0

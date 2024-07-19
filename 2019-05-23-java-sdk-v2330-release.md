@@ -25,5 +25,5 @@ fullyTranslated: true
 ---
 # Java SDK `v2.33.0`のリリース
 
-1. パーツバッファーのサイズが正しいことを確認するためのテストを追加 ([#703](https://github.com/box/box-java-sdk/pull/703))
+1. パーツバッファのサイズが正しいことを確認するためのテストを追加 ([#703](https://github.com/box/box-java-sdk/pull/703))
 2. フォルダオブジェクトでの`can_non_owners_invite`フィールドの設定を許可 ([#700](https://github.com/box/box-java-sdk/pull/700))
