@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-07-16-box-ui-elements-v2100-released
+next_page_id: 2024-07-16-box-node-sdk-v370-released
 previous_page_id: 2024-07-15-box-java-sdk-v4110-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/07-16-box-java-sdk-v4111-released.md
