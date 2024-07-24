@@ -17,8 +17,6 @@ With this update, you can leverage the power of React 18’s cutting-edge featur
 
 For details, read our [blog post][2].
 
-All customers and application owners who are potentially affected have been notified directly via email.
-
 ## Where to get support
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][2] for any help needed.
