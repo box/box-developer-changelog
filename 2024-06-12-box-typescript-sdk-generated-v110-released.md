@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-07-16-react-18-buie
+next_page_id: 2024-06-28-box-swift-sdk-generated-030-released
 previous_page_id: 2024-06-12-box-python-sdk-generated-v110-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/06-12-box-typescript-sdk-generated-v110-released.md
