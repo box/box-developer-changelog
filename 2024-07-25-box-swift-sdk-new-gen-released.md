@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2024-07-25'
 fullyTranslated: true
 ---
-# Introducing New Generation Swift SDK
+# 新世代のSwift SDKのリリース
 
-We are excited to introduce [Box Swift SDK][1], designed to elevate the developer experience and streamline your integration with the Box Content Cloud.
+[Box Swift SDK][1]をリリースしました。これは、開発者エクスペリエンスを向上させ、Boxコンテンツクラウドとの統合を効率化することを目的としています。
 
 <!-- more -->
 
-With the [new generation of Swift SDK][1], you’ll have access to:
+[新世代のSwift SDK][1]では、以下を利用できるようになります。
 
 * **APIの全面的なサポート**: 新世代のBox SDKにより、開発者はBox APIエコシステム全体をカバーできるようになります。Boxが提供する最新機能をすべて利用できるようになったため、より高性能で機能豊富なアプリケーションを作成できます。
 * **迅速なAPIの更新**: 新しいBox APIがSDKに組み込まれるのを待つ必要はなくなります。Boxでは、自動生成による新しい開発アプローチにより、はるかに速いペースで (数日中に) 新しいBox APIをSDKに追加できるようになりました。これは、最新の機能をすぐにアプリケーションで利用できるようになることを意味します。

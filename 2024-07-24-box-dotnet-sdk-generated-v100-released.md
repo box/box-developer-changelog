@@ -27,18 +27,18 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Extract `IntegrationMappingPartnerItemSlack` to `IntegrationMappingPartnerItemSlackUnion` (box/box-codegen[#530][1]) ([#183][2]) ([`3b1b634`][3])
-* Improve chunked upload reliability (box/box-codegen[#529][4]) ([#182][5]) ([`e2a045f`][6])
-* remove `init` from some of the required fields, `nullability` fixes (box/box-codegen[#532][7]) ([#190][8]) ([`c58f8af`][9])
-* retry requests with status code of 202 and `retry-after` header (box/box-codegen[#533][10]) ([#191][11]) ([`abaafd7`][12])
-* Update chunked upload (box/box-codegen[#523][13]) ([#177][14]) ([`9bcaf51`][15])
+* `IntegrationMappingPartnerItemSlack`を`IntegrationMappingPartnerItemSlackUnion`に抽出 (box/box-codegen[#530][1]) ([#183][2]) ([`3b1b634`][3])
+* 分割アップロードの信頼性を改善 (box/box-codegen[#529][4]) ([#182][5]) ([`e2a045f`][6])
+* 必須フィールドの一部から`init`を削除、`nullability`の修正 (box/box-codegen[#532][7]) ([#190][8]) ([`c58f8af`][9])
+* `retry-after`ヘッダーが設定されているステータスコード202のリクエストを再試行 (box/box-codegen[#533][10]) ([#191][11]) ([`abaafd7`][12])
+* 分割アップロードを更新 (box/box-codegen[#523][13]) ([#177][14]) ([`9bcaf51`][15])
 
 ### 新機能と機能強化
 
-* Add `is_active` parameter to user collaboration (box/box-openapi[#437][16]) ([#181][17]) ([`ec5f2d1`][18])
-* simplify `namespaces` (box/box-codegen[#518][19]) ([#175][20]) ([`7831b09`][21])
-* Support AI Agent API (box/box-codegen[#531][22]) ([#188][23]) ([`0c29645`][24])
-* Support default interface properties, bump dependencies (box/box-codegen[#527][25]) ([#184][26]) ([`6b52792`][27])
+* ユーザーコラボレーションに`is_active`パラメータを追加 (box/box-openapi[#437][16]) ([#181][17]) ([`ec5f2d1`][18])
+* `namespaces`を簡略化 (box/box-codegen[#518][19]) ([#175][20]) ([`7831b09`][21])
+* AIエージェントAPIをサポート (box/box-codegen[#531][22]) ([#188][23]) ([`0c29645`][24])
+* デフォルトのインターフェースプロパティをサポートし、依存関係を昇格 (box/box-codegen[#527][25]) ([#184][26]) ([`6b52792`][27])
 
 [1]: https://github.com/box/box-codegen/issues/530
 
