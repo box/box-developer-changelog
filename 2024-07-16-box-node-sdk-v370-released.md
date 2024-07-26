@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support AI APIs ([#883][1]) ([`bb81e07`][2])
+* AI APIをサポート ([#883][1]) ([`bb81e07`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/883
 

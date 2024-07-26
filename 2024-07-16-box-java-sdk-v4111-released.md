@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix order of file upload multipart request ([#1261][1]) ([`7200ac7`][2])
+* ファイルアップロードのマルチパートリクエストの順序を修正 ([#1261][1]) ([`7200ac7`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1261
 
