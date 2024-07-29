@@ -11,7 +11,7 @@ show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2024-05-20-box-python-sdk-new-gen-released copy
+id: 2024-05-20-box-python-sdk-new-gen-released
 rank: null
 total_steps: null
 type: changelog
@@ -20,8 +20,7 @@ parent_id: changelog
 next_page_id: 2024-05-22-box-python-sdk-v3100-released
 previous_page_id: 2024-05-20-box-node-sdk-v360-released
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2024/05-20-box-python-sdk-new-gen-released
-  copy.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2024/05-20-box-python-sdk-new-gen-released.md
 published_at: '2024-05-20'
 ---
 # Introducing New Generation Python SDK
