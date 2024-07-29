@@ -7,6 +7,7 @@ is_impactful: true
 is_new_feature: true
 release_source_url: 'https://github.com/box/box-python-sdk-gen/releases/tag/v1.0.0'
 collapse: true
+show_excerpt: true
 ---
 
 # Introducing New Generation Python SDK
