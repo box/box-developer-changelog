@@ -22,13 +22,13 @@ source_url: >-
 published_at: '2024-07-25'
 fullyTranslated: true
 ---
-# Fetch and override default AI configuration
+# デフォルトのAIの構成の取得と上書き
 
-Thanks to the [`GET /2.0/ai_agent_default`][1] endpoint you can now fetch the default configuration for AI services.
+[`GET /2.0/ai_agent_default`][1]エンドポイントにより、AIサービスのデフォルトの構成を取得できるようになりました。
 
 <!-- more -->
 
-Once you get the configuration details, you can override them using the `ai_agent` parameter available in the [`POST /2.0/ai/ask`][2] and [`POST /2.0/ai/text_gen`][3] requests.
+構成の詳細を取得したら、[`POST /2.0/ai/ask`][2]および[`POST /2.0/ai/text_gen`][3]リクエストで利用可能な`ai_agent`パラメータを使用して構成を上書きできます。
 
 ## サポート情報
 
