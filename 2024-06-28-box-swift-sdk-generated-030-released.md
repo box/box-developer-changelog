@@ -7,6 +7,7 @@ is_impactful: false
 is_new_feature: true
 release_source_url: 'https://github.com/box/box-swift-sdk-gen/releases/tag/0.3.0'
 collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
