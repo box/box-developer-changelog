@@ -6,6 +6,7 @@ is_impactful: true
 is_new_feature: true
 release_source_url: ''
 collapse: true
+show_excerpt: true
 ---
 
 # React 18 support for Box UI Elements
@@ -16,8 +17,6 @@ With this update, you can leverage the power of React 18’s cutting-edge featur
 <!-- more -->
 
 For details, read our [blog post][2].
-
-All customers and application owners who are potentially affected have been notified directly via email.
 
 ## Where to get support
 
