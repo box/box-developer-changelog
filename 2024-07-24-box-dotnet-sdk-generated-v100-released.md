@@ -17,7 +17,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-07-25-box-ai-overrides
+next_page_id: 2024-07-24-box-typescript-sdk-generated-v130-released
 previous_page_id: 2024-07-22-box-windows-sdk-v580-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/07-24-box-dotnet-sdk-generated-v100-released.md
