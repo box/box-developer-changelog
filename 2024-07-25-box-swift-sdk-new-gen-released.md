@@ -17,7 +17,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-08-06-box-cli-v3150-released
+next_page_id: 2024-07-26-box-python-sdk-generated-v120-released
 previous_page_id: 2024-07-25-box-ai-overrides
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/07-25-box-swift-sdk-new-gen-released.md
