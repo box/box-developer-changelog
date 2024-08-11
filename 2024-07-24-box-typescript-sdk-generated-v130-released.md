@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Extract `IntegrationMappingPartnerItemSlack` to union type (box/box-codegen[#530][1]) ([#255][2]) ([`fa8952a`][3])
-* Improve chunked upload reliability (box/box-codegen[#529][4]) ([#254][5]) ([`12d9288`][6])
+* `IntegrationMappingPartnerItemSlack`をunionタイプに抽出 (box/box-codegen[#530][1]) ([#255][2]) ([`fa8952a`][3])
+* 分割アップロードの信頼性を改善 (box/box-codegen[#529][4]) ([#254][5]) ([`12d9288`][6])
 
 ### 新機能と機能強化
 
-* Add `is_active` parameter to user collaboration (box/box-openapi[#437][7]) ([#253][8]) ([`4d8d436`][9])
-* Support AI Agent API (box/box-codegen[#531][10]) ([#260][11]) ([`0ec40d4`][12])
+* ユーザーコラボレーションに`is_active`パラメータを追加 (box/box-openapi[#437][7]) ([#253][8]) ([`4d8d436`][9])
+* AIエージェントAPIをサポート (box/box-codegen[#531][10]) ([#260][11]) ([`0ec40d4`][12])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/530
 

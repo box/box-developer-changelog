@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* add create sign request function with different required parameters ([#878][1]) ([`d972f54`][2])
-* Support Box AI features ([#877][3]) ([`3026d2a`][4])
+* 必須パラメータが異なるcreate_sign_request関数を追加 ([#878][1]) ([`d972f54`][2])
+* Box AI機能をサポート ([#877][3]) ([`3026d2a`][4])
 
 [1]: https://github.com/box/box-python-sdk/issues/878
 

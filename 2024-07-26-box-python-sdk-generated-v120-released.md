@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Improve chunked upload reliability ([#224][1]) ([`05f0353`][2])
+* 分割アップロードの信頼性を改善 ([#224][1]) ([`05f0353`][2])
 
 ### 新機能と機能強化
 
-* Add `is_active` parameter to user collaboration (box/box-openapi[#437][3]) ([#222][4]) ([`2b7bbe4`][5])
-* Retry request with status code `202` (box/box-codegen[#511][6]) ([#204][7]) ([`f50ad6e`][8])
-* Support AI Agent API (box/box-codegen[#531][9]) ([#229][10]) ([`c565383`][11])
-* Support sending fields with `null` value (box/box-codegen[#528][12]) ([#230][13]) ([`f91076e`][14]), closes [#202][15]
+* ユーザーコラボレーションに`is_active`パラメータを追加 (box/box-openapi[#437][3]) ([#222][4]) ([`2b7bbe4`][5])
+* ステータスコード`202`のリクエストを再試行 (box/box-codegen[#511][6]) ([#204][7]) ([`f50ad6e`][8])
+* AIエージェントAPIをサポート (box/box-codegen[#531][9]) ([#229][10]) ([`c565383`][11])
+* `null`値のフィールドの送信をサポート (box/box-codegen[#528][12]) ([#230][13]) ([`f91076e`][14])、[#202][15]をクローズ
 
 [1]: https://github.com/box/box-codegen/issues/224
 

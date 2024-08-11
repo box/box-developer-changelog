@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support AI APIs using Box Node SDK ([#539][1]) ([`59551d2`][2])
+* Box Node SDKの使用でAI APIをサポート ([#539][1]) ([`59551d2`][2])
 
 [1]: https://github.com/box/boxcli/issues/539
 
