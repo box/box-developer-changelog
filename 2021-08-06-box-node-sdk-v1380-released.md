@@ -37,7 +37,7 @@ fullyTranslated: true
 * BuffersおよびReadableストリームを除くConfigを強く固定 ([#651][5])
 * `src/managers/search.ts`のドキュメントの誤字を修正 ([#649][6])
 * ドキュメントのリンク切れを更新 ([#647][7])
-* `exchangeToken`関数の注釈の種類を修正 ([#645][8])
+* `exchangeToken`関数の型注釈を修正 ([#645][8])
 * ファイルの`getThumbnail` APIのサポートを終了して`getRepresentationContent`を推奨 ([#627][9])
 
 [1]: https://github.com/box/box-node-sdk/pull/648
