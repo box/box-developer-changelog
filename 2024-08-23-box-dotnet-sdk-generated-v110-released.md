@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-08-23-box-python-sdk-generated-v140-released
-previous_page_id: 2024-08-06-box-python-sdk-v3120-released
+previous_page_id: 2024-08-22-box-python-sdk-v3130-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/08-23-box-dotnet-sdk-generated-v110-released.md
 published_at: '2024-08-23'
