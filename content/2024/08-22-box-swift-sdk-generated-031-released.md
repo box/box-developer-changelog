@@ -22,7 +22,7 @@ collapse: true
 * Add `is_active` parameter to user collaboration (box/box-openapi[#437][10]) ([#163][11]) ([`5f726bb`][12])
 * Add new parameters to Box AI methods and introduce `AiResponseFull` variant (box/box-openapi[#446][13]) ([#201][14]) ([`7c09090`][15])
 * Add support for Swift 5.6 (box/box-codegen[#541][16]) ([#180][17]) ([`04b7020`][18])
-* parametrise chunked uploads endpoint urls (box/box-openapi[#444][19]) ([#192][20]) ([`ea18f9e`][21])
+* parametrize chunked uploads endpoint URLs (box/box-openapi[#444][19]) ([#192][20]) ([`ea18f9e`][21])
 * Support AI Agent API (box/box-codegen[#531][22]) ([#170][23]) ([`fc9a00b`][24])
 
 [1]: https://github.com/box/box-codegen/issues/530
