@@ -18,7 +18,7 @@ collapse: true
 
 ### New Features and Enhancements
 
-* Parametrise chunked uploads endpoint urls (box/box-openapi[#444][7]) ([#302][8]) ([`293a6e9`][9])
+* Parametrize chunked uploads endpoint URLs (box/box-openapi[#444][7]) ([#302][8]) ([`293a6e9`][9])
 * **ts:** Add comments to properties and methods (box/box-codegen[#537][10]) ([#284][11]) ([`db3a2b5`][12])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/442
