@@ -28,7 +28,7 @@ fullyTranslated: true
 
 * `stderr`へのエラー以外の出力を抑制する`--quiet`フラグを追加 ([#167](https://github.com/box/boxcli/pull/167)) [`27045c6`](https://github.com/box/boxcli/commit/27045c6)
 * `box folders:update`の`--restrict-collaboration`フラグのバグを修正。これまで、このフラグは、trueとして渡された場合にコラボレーションが制限されず、falseとして渡された場合にコラボレーションが制限されていました ([#175](https://github.com/box/boxcli/pull/175)) [`e6e1120`](https://github.com/box/boxcli/commit/e6e1120)
-* ごみ箱の項目を復元する`box trash:restore`とごみ箱の項目の情報を取得する`box trash:get`を追加 ([#179](https://github.com/box/boxcli/pull/179)) [`74db947`](https://github.com/box/boxcli/commit/74db947)
+* ごみ箱内の項目を復元する`box trash:restore`とごみ箱内の項目の情報を取得する`box trash:get`を追加 ([#179](https://github.com/box/boxcli/pull/179)) [`74db947`](https://github.com/box/boxcli/commit/74db947)
 * 単一のコマンドで複数回指定できるフラグが一括コマンドのコマンドラインで渡されないバグを修正 ([#183](https://github.com/box/boxcli/pull/183)) [`63db0ac`](https://github.com/box/boxcli/commit/63db0ac)
 * **注**: 新しいリリースプロセスの開発のため、バージョン2.5.0はスキップされました
 
