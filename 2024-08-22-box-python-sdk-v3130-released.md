@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-08-22-box-swift-sdk-generated-031-released
-previous_page_id: 2024-08-12-box-python-sdk-generated-v130-released
+previous_page_id: 2024-08-12-box-typescript-sdk-generated-v140-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/08-22-box-python-sdk-v3130-released.md
 published_at: '2024-08-22'

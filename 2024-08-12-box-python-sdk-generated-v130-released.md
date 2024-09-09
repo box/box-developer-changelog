@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-08-22-box-python-sdk-v3130-released
+next_page_id: 2024-08-12-box-typescript-sdk-generated-v140-released
 previous_page_id: 2024-08-06-box-python-sdk-v3120-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/08-12-box-python-sdk-generated-v130-released.md
