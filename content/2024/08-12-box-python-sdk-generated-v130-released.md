@@ -17,7 +17,7 @@ collapse: true
 
 ### New Features and Enhancements
 
-* Parametrise chunked uploads endpoint urls (box/box-openapi[#444][4]) ([#264][5]) ([`b5bce24`][6])
+* Parametrize chunked uploads endpoint URLs (box/box-openapi[#444][4]) ([#264][5]) ([`b5bce24`][6])
 
 [1]: https://github.com/box/box-codegen/issues/545
 
