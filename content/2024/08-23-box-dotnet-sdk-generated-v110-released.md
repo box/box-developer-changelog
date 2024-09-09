@@ -22,7 +22,7 @@ collapse: true
 
 * Add new parameters to Box AI methods and introduce `AiResponseFull` variant (box/box-openapi[#446][12]) ([#224][13]) ([`6d205c4`][14])
 * Include URL into `FetchOptions` (box/box-codegen[#549][15]) ([#231][16]) ([`41c45dc`][17])
-* Parametrise chunked uploads endpoint urls (box/box-openapi[#444][9]) ([#208][18]) ([`feac37c`][19])
+* Parametrize chunked uploads endpoint URLs (box/box-openapi[#444][9]) ([#208][18]) ([`feac37c`][19])
 * Support `nullable` fields (box/box-codegen[#550][20]) ([#230][21]) ([`b9da32b`][22])
 
 [1]: https://github.com/box/box-codegen/issues/201
