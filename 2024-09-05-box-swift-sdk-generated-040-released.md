@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2024-08-06-box-python-sdk-v3120-released
+previous_page_id: 2024-08-30-box-typescript-sdk-generated-v151-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/09-05-box-swift-sdk-generated-040-released.md
 published_at: '2024-09-05'
@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add missing fields to Sign Template Signer and fix AI schema (box/box-openapi[#451][1]) ([#206][2]) ([`31920e6`][3])
-* Fix `IntegrationMapping` schemas (box/box-codegen[#551][4]) ([#203][5]) ([`0074ee3`][6])
+* Signテンプレートの署名者に不足していたフィールドを追加し、AIスキーマを修正 (box/box-openapi[#451][1]) ([#206][2]) ([`31920e6`][3])
+* `IntegrationMapping`スキーマを修正 (box/box-codegen[#551][4]) ([#203][5]) ([`0074ee3`][6])
 
 ### 新機能と機能強化
 
-* Fix chunk upload in Swift (box/box-codegen[#555][7]) ([#215][8]) ([`93ff568`][9])
-* Include URL into `FetchOptions` (box/box-codegen[#549][10]) ([#208][11]) ([`b65822d`][12])
+* Swiftでの分割アップロードを修正 (box/box-codegen[#555][7]) ([#215][8]) ([`93ff568`][9])
+* `FetchOptions`にURLを追加 (box/box-codegen[#549][10]) ([#208][11]) ([`b65822d`][12])
 
 [1]: https://github.com/box/box-codegen/issues/451
 
