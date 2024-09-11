@@ -27,17 +27,17 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add missing `item_upload` scope ([#201][1]) ([`483b055`][2])
-* Add missing fields to Sign Template Signer and fix AI schema (box/box-openapi[#451][3]) ([#229][4]) ([`121f733`][5])
-* Fix `IntegrationMapping` schemas (box/box-codegen[#551][6]) ([#226][7]) ([`3eca154`][8])
-* Improve handling of network exceptions, handle big file upload (box/box-openapi[#444][9]) ([#222][10]) ([`75ccd07`][11])
+* 欠落していた`item_upload`スコープを追加 ([#201][1]) ([`483b055`][2])
+* Signテンプレートの署名者に不足していたフィールドを追加し、AIスキーマを修正 (box/box-openapi[#451][3]) ([#229][4]) ([`121f733`][5])
+* `IntegrationMapping`スキーマを修正 (box/box-codegen[#551][6]) ([#226][7]) ([`3eca154`][8])
+* ネットワークの例外の処理を改善し、大きなファイルのアップロードを処理 (box/box-openapi[#444][9]) ([#222][10]) ([`75ccd07`][11])
 
 ### 新機能と機能強化
 
-* Add new parameters to Box AI methods and introduce `AiResponseFull` variant (box/box-openapi[#446][12]) ([#224][13]) ([`6d205c4`][14])
-* Include URL into `FetchOptions` (box/box-codegen[#549][15]) ([#231][16]) ([`41c45dc`][17])
-* Parametrize chunked uploads endpoint URLs (box/box-openapi[#444][9]) ([#208][18]) ([`feac37c`][19])
-* Support `nullable` fields (box/box-codegen[#550][20]) ([#230][21]) ([`b9da32b`][22])
+* Box AIのメソッドに新しいパラメータを追加し、`AiResponseFull`バリアントを導入 (box/box-openapi[#446][12]) ([#224][13]) ([`6d205c4`][14])
+* `FetchOptions`にURLを追加 (box/box-codegen[#549][15]) ([#231][16]) ([`41c45dc`][17])
+* 分割アップロードのエンドポイントURLをパラメータ化 (box/box-openapi[#444][9]) ([#208][18]) ([`feac37c`][19])
+* `nullable`フィールドをサポート (box/box-codegen[#550][20]) ([#230][21]) ([`b9da32b`][22])
 
 [1]: https://github.com/box/box-codegen/issues/201
 

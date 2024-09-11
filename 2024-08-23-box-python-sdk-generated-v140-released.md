@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add missing fields to Sign Template Signer and fix AI schema (box/box-openapi[#451][1]) ([#281][2]) ([`0708351`][3])
-* Fix `IntegrationMapping` schemas (box/box-codegen[#551][4]) ([#279][5]) ([`0337e06`][6])
+* Signテンプレートの署名者に不足していたフィールドを追加し、AIスキーマを修正 (box/box-openapi[#451][1]) ([#281][2]) ([`0708351`][3])
+* `IntegrationMapping`スキーマを修正 (box/box-codegen[#551][4]) ([#279][5]) ([`0337e06`][6])
 
 ### 新機能と機能強化
 
-* Add new parameters to Box AI methods and introduce `AiResponseFull` variant (box/box-openapi[#446][7]) ([#277][8]) ([`1267a21`][9])
-* Include URL into `FetchOptions` (box/box-codegen[#549][10]) ([#283][11]) ([`dd05b1c`][12])
+* Box AIのメソッドに新しいパラメータを追加し、`AiResponseFull`バリアントを導入 (box/box-openapi[#446][7]) ([#277][8]) ([`1267a21`][9])
+* `FetchOptions`にURLを追加 (box/box-codegen[#549][10]) ([#283][11]) ([`dd05b1c`][12])
 
 [1]: https://github.com/box/box-codegen/issues/451
 

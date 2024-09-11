@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add missing fields to Sign Template Signer and fix AI schema (box/box-openapi[#451][1]) ([#317][2]) ([`340fbd8`][3])
-* Fix `IntegrationMapping` schemas (box/box-codegen[#551][4]) ([#315][5]) ([`a863b1e`][6])
+* Signテンプレートの署名者に不足していたフィールドを追加し、AIスキーマを修正 (box/box-openapi[#451][1]) ([#317][2]) ([`340fbd8`][3])
+* `IntegrationMapping`スキーマを修正 (box/box-codegen[#551][4]) ([#315][5]) ([`a863b1e`][6])
 
 ### 新機能と機能強化
 
-* Add new parameters to Box AI methods and introduce `AiResponseFull` variant (box/box-openapi[#446][7]) ([#313][8]) ([`d9664fd`][9])
-* Include URL into `FetchOptions` (box/box-codegen[#549][10]) ([#319][11]) ([`30eaa6b`][12])
+* Box AIのメソッドに新しいパラメータを追加し、`AiResponseFull`バリアントを導入 (box/box-openapi[#446][7]) ([#313][8]) ([`d9664fd`][9])
+* `FetchOptions`にURLを追加 (box/box-codegen[#549][10]) ([#319][11]) ([`30eaa6b`][12])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/451
 

@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add support for get AI agent default ([#883][1]) ([`c1010e0`][2])
+* AIエージェントのデフォルトのサポートを追加 ([#883][1]) ([`c1010e0`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/883
 
