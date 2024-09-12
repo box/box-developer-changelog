@@ -38,7 +38,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* 欠落しているマーカーページ割りフィールドを追加し、新しいイベントタイプを導入 `(box/box-openapi[#431](https://github.com/box/box-codegen/issues/431))` ([#136][22]) ([`b186b11`][23])
+* 不足していたマーカーページ割りフィールドを追加し、新しいイベントタイプを導入 `(box/box-openapi[#431](https://github.com/box/box-codegen/issues/431))` ([#136][22]) ([`b186b11`][23])
 * `visionOS`のサポートを追加し、Swift用のPrivacy Manifestファイルを追加 `(box/box-codegen[#510](https://github.com/box/box-codegen/issues/510))` ([#139][24]) ([`7fc76fc`][25])
 * Swiftで日付のサポートを追加 (box/box-codegen[#488][26]) ([#103][27]) ([`7e1ea1a`][28])
 * Swiftでの分割アップロードを改善 `(box/box-codegen[#515](https://github.com/box/box-codegen/issues/515))` ([#143][29]) ([`b8099ab`][30])

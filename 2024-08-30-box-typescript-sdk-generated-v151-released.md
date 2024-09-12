@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* インセプタを使用してfetchのオプションを修正 (box/box-codegen[#556][1]) ([#326][2]) ([`3751eea`][3])
+* インターセプタのfetchオプションを修正 (box/box-codegen[#556][1]) ([#326][2]) ([`3751eea`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/556
 

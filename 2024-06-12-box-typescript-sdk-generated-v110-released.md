@@ -31,7 +31,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* 欠落しているマーカーページ割りフィールドを追加し、新しいイベントタイプ`AppItemEventSource` `(box/box-openapi[#431](https://github.com/box/box-typescript-sdk-gen/issues/431))`を導入 ([#224][7]) ([`6c18ca3`][8])
+* 不足していたマーカーページ割りフィールドを追加し、新しいイベントタイプ`AppItemEventSource` `(box/box-openapi[#431](https://github.com/box/box-typescript-sdk-gen/issues/431))`を導入 ([#224][7]) ([`6c18ca3`][8])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/506
 
