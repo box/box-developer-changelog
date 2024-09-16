@@ -6,6 +6,7 @@ is_impactful: false
 is_new_feature: false
 release_source_url: 'https://github.com/box/boxcli/releases/tag/v3.14.1'
 collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
