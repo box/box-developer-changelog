@@ -12,7 +12,7 @@ show_excerpt: true
 
 # Metadata extraction with Box AI Platform API now available in Beta
 
-With its recent addition, AI Platform API allows you to extract metadata from the provided input. 
+With its recent addition, Box AI Platform API allows you to extract metadata from the provided input. 
 For example you can extract the financial information from an invoice, or patient data from a medical certificate.
 
 > Note: Box AI API is currently a beta feature which means the available capabilities may change. Box AI API is available to all Enterprise Plus customers.
