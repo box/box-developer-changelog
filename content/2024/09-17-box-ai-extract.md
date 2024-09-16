@@ -23,7 +23,7 @@ You have the following options:
 
  [`POST /2.0/ai_extract`][1] endpoint allows you to extract metadata from the provided file in a freeform way. 
  This means you have more freedom in creating the prompt, and the metadata template is not required to run the request.
- [`POST /2.0/ai_extract_structured`][2] endpoint allows you to extract metadata from the provided file using a [metadata template][3].
+ [`POST /2.0/ai_extract_structured`][2] endpoint allows you to extract metadata from the provided file using a [metadata template][3] or `fields` structure.
 
 
 ## Where to get support
