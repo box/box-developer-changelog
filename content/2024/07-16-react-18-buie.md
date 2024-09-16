@@ -6,6 +6,7 @@ is_impactful: true
 is_new_feature: true
 release_source_url: ''
 collapse: true
+show_excerpt: true
 ---
 
 # React 18 support for Box UI Elements
