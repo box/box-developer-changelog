@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2024-09-17-box-ai-extract
 previous_page_id: 2024-09-05-box-swift-sdk-generated-040-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/09-11-box-typescript-sdk-generated-v160-released.md
@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add the missing license to `package.json` (box/box-codegen[#562][1]) ([#343][2]) ([`cc9a8b8`][3])
-* Fix variants in metadata query results (box/box-openapi[#456][4]) ([#349][5]) ([`2131e98`][6])
+* 不足していたライセンスを`package.json`に追加 (box/box-codegen[#562][1]) ([#343][2]) ([`cc9a8b8`][3])
+* メタデータクエリの結果のバリアントを修正 (box/box-openapi[#456][4]) ([#349][5]) ([`2131e98`][6])
 
 ### 新機能と機能強化
 
-* add Hubs Beta (box/box-openapi[#453][7]) ([#333][8]) ([`40359c7`][9])
-* Add support for proxy (box/box-codegen[#559][10]) ([#337][11]) ([`0ffd9c8`][12])
+* Hubsベータ版を追加 (box/box-openapi[#453][7]) ([#333][8]) ([`40359c7`][9])
+* プロキシのサポートを追加 (box/box-codegen[#559][10]) ([#337][11]) ([`0ffd9c8`][12])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/562
 
