@@ -24,17 +24,17 @@ source_url: >-
 published_at: '2024-09-17'
 fullyTranslated: true
 ---
-# Metadata extraction with Box AI Platform API now available in Beta
+# Box AI Platform API (ベータ版) によるメタデータ抽出の提供開始
 
-With its recent addition, Box AI Platform API allows you to extract metadata from the provided input. For example you can extract the financial information from an invoice, or patient data from a medical certificate.
+最近この機能が追加されたBox AI Platform APIを使用すると、指定した入力データからメタデータを抽出できます。たとえば、請求書から金融情報を抽出したり、診断書から患者のデータを抽出したりすることができます。
 
-> **Note**: Box AI Platform API is currently a beta feature offered subject to Box’s Main Beta Agreement, and the available capabilities may change. Box AI Platform API is available to all Enterprise Plus customers.
+> **注**: Box AI Platform APIは、現在、BoxのMain Beta Agreementに従い提供されるベータ機能のため、利用可能な機能は変更される可能性があります。Box AI Platform APIは、Enterprise Plusをご利用のすべてのお客様が利用できます。
 
 <!-- more -->
 
-You have the following options:
+以下のオプションがあります。
 
-[`POST /2.0/ai_extract`][1] endpoint allows you to extract metadata from the provided file in a freeform way. This means you have more freedom in creating the prompt, and the metadata template is not required to run the request. [`POST /2.0/ai_extract_structured`][2] endpoint allows you to extract metadata from the provided file using a [metadata template][3] or `fields` structure.
+[`POST /2.0/ai_extract`][1]エンドポイントを使用すると、指定したファイルから自由な形式でメタデータを抽出できます。つまり、プロンプトの作成の自由度が増すため、リクエストを実行するのにメタデータテンプレートは必要ありません。[`POST /2.0/ai_extract_structured`][2]エンドポイントを使用すると、[メタデータテンプレート][3]または`fields`構造を使用して、指定したファイルからメタデータを抽出できます。
 
 ## サポート情報
 
