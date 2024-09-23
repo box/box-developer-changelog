@@ -26,4 +26,4 @@ Should you have any issues or need further guidance, please post a request to ou
 
 [1]: https://developer.box.com/guides/box-ai/get-agent-default-config/
 [2]: https://developer.box.com/guides/box-ai/supported-models/
-[3]: https://forum.box.com/
+[3]: https://community.box.com/
