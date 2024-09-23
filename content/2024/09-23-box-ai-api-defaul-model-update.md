@@ -3,7 +3,7 @@ applied_at: "2024-09-19"
 applies_to: 
 - api
 - sdks
-is_impactful: false
+is_impactful: true
 is_new_feature: true
 collapse: true
 show_excerpt: true
