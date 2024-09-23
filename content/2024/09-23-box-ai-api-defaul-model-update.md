@@ -12,14 +12,13 @@ release_source_url: ''
 
 # Box AI API default model update
 
-Box AI Platform API has been updated with a new default model for /ai/ask endpoint. Both single and multiple documents modes are now based on Azure's gpt-4o-mini.
+Box AI Platform API has been updated with a new default model for `POST /2.0/ai/ask` endpoint. Both single and multiple documents modes are now based on Azure's `gpt-4o-mini`.
 
 > **Note**: Box AI Platform API is currently a beta feature offered subject to Box’s Main Beta Agreement, and the available capabilities may change. Box AI Platform API is available to all Enterprise Plus customers.
 
 <!-- more -->
 
 For more information on [`default agent configuration`][1] and [`supported AI models`][2] visit developer guides.
-
 
 ## Where to get support
 
