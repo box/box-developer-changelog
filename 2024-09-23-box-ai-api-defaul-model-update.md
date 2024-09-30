@@ -37,6 +37,6 @@ For more information on [default agent configuration][1] and [supported AI model
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][3] for any help needed.
 
-[1]: https://developer.box.com/guides/box-ai/get-agent-default-config/
+[1]: https://developer.box.com/guides/box-ai/ai-agents/get-agent-default-config/
 [2]: https://developer.box.com/guides/box-ai/supported-models/
 [3]: https://community.box.com/
