@@ -29,10 +29,10 @@ fullyTranslated: true
 
 * Signテンプレートの署名者に不足していたフィールドを追加し、AIスキーマを修正 (box/box-openapi[#451][1]) ([#206][2]) ([`31920e6`][3])
 * `IntegrationMapping`スキーマを修正 (box/box-codegen[#551][4]) ([#203][5]) ([`0074ee3`][6])
+* Swiftでの分割アップロードを修正 (box/box-codegen[#555][7]) ([#215][8]) ([`93ff568`][9])
 
 ### 新機能と機能強化
 
-* Swiftでの分割アップロードを修正 (box/box-codegen[#555][7]) ([#215][8]) ([`93ff568`][9])
 * `FetchOptions`にURLを追加 (box/box-codegen[#549][10]) ([#208][11]) ([`b65822d`][12])
 
 [1]: https://github.com/box/box-codegen/issues/451
