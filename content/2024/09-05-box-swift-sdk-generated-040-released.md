@@ -15,10 +15,10 @@ collapse: true
 
 * Add missing fields to Sign Template Signer and fix AI schema (box/box-openapi[#451][1]) ([#206][2]) ([`31920e6`][3])
 * Fix `IntegrationMapping` schemas (box/box-codegen[#551][4]) ([#203][5]) ([`0074ee3`][6])
+* Fix chunk upload in Swift (box/box-codegen[#555][7]) ([#215][8]) ([`93ff568`][9])
 
 ### New Features and Enhancements
 
-* Fix chunk upload in Swift (box/box-codegen[#555][7]) ([#215][8]) ([`93ff568`][9])
 * Include URL into `FetchOptions` (box/box-codegen[#549][10]) ([#208][11]) ([`b65822d`][12])
 
 [1]: https://github.com/box/box-codegen/issues/451
