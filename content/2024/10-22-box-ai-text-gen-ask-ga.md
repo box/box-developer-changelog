@@ -10,7 +10,7 @@ show_excerpt: true
 release_source_url: ""
 ---
 
-# Box AI API Q&A and Text Gen available publicly
+# Box AI API Q&A and Text Gen generally available
 
 [Box AI API][1] allows you to use Box AI functionality in your custom applications. For example, you can implement Box AI question and answer functionality in your third party applications,or generate content right in your product’s content editor. You can also extract metadata from the provided documents.
 
