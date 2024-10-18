@@ -10,11 +10,11 @@ show_excerpt: true
 release_source_url: ""
 ---
 
-# Box AI API Q&A and Text Gen generally available
+# Box AI API — Document Q&A and Box AI API — Text Generation generally available
+
+We are excited to announce that [Box AI API — Document Q&A][2] and [Box AI API — Text Generation][3] features are now available to all **Enterprise Plus** customers.
 
 [Box AI API][1] allows you to use Box AI functionality in your custom applications. For example, you can implement Box AI question and answer functionality in your third party applications,or generate content right in your product’s content editor. You can also extract metadata from the provided documents.
-
-We are excited to announce that [Box AI Q&A][2] and [Text Gen][3] features are now available to all **Enterprise Plus** customers.
 
 _Endpoints related to metadata extraction are currently a beta feature offered subject to Box’s Main Beta Agreement, and the available capabilities may change._
 
@@ -25,7 +25,7 @@ Currently, Box AI functionality allows you to:
 * Get responses to your questions.
 * Get a summary of a document.
 * Generate text you can use in your documents.
-* Extract metadata from the provided file in a freeform way, meaning you have more freedom when using the prompt.
+* Extract metadata from the provided file in a flexible way, meaning you have more freedom when using the prompt.
 * Extract metadata from the provided file using a [metadata template][4] or the `fields` structure.
 * Fetch and override the default API model configuration.
 
@@ -34,8 +34,8 @@ Check the [Box AI API developer guides][1] to learn more about Box AI and check 
 
 ## Box AI for UI Elements
 
-[Box AI for UI Elements][6] enhances the [Content Preview][7] header with Box AI Q&A functionality. 
-The new Box AI for UI Elements allows the users to embed AI functionality in their custom applications to facilitate answering questions, summarizing a document, adding citations and using dialogue history, and Markdown support.
+[Box AI for UI Elements][6] enhances [Content Preview][7] with Box AI - Document Q&A and Text Generation functionality. 
+The enhanced Box AI for UI Elements allows the users to embed AI functionality in their custom applications to facilitate answering questions, summarizing a document, adding citations and using dialogue history, and formatting support.
 
 ## Where to get support
 
