@@ -18,7 +18,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2024-09-23-box-ai-api-defaul-model-update
+previous_page_id: 2024-10-21-box-ui-elements-v2200-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/10-22-box-ai-text-gen-ask-ga.md
 published_at: '2024-10-22'
