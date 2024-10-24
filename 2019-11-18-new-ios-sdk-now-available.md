@@ -23,7 +23,7 @@ fullyTranslated: true
 ---
 # 新しいiOS SDKが使用可能になりました
 
-iOS SDKの新しいメジャーリリースがリリースされ、一般公開されました。新しいSDKには、大幅な修正が数多く含まれています。
+iOS SDKの新しいメジャーリリースが正式リリースされました。新しいSDKには、大幅な修正が数多く含まれています。
 
 * Swiftを使用して完全に再構築されました。
 * Cocoapods、Carthage、Swift Package Managerのサポート。

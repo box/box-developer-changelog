@@ -24,30 +24,30 @@ source_url: >-
 published_at: '2024-10-22'
 fullyTranslated: true
 ---
-# Box AI API — Document Q&A and Box AI API — Text Generation generally available
+# Box AI API — ドキュメントのQ&Aおよびテキスト生成機能の正式リリース
 
-We are excited to announce that [Box AI API — Document Q&A][2] and [Box AI API — Text Generation][3] features are now available to all **Enterprise Plus** customers.
+Box AI APIの[Box AIに質問する][2]機能および[Box AIを使用してテキストを生成する][3]機能が、**Enterprise Plus**をご利用のすべてのお客様に提供されるようになりました。
 
-[Box AI API][1] allows you to use Box AI functionality in your custom applications. For example, you can implement Box AI question and answer functionality in your third party applications,or generate content right in your product’s content editor. You can also extract metadata from the provided documents.
+[Box AI API][1]を使用すると、カスタムアプリケーション内でBox AI機能を利用できます。たとえば、Box AIの質疑応答機能をサードパーティ製アプリケーションに実装したり、自社製品のコンテンツエディタ内で直接コンテンツを生成したりできます。また、指定したドキュメントからメタデータを抽出することもできます。
 
-_Endpoints related to metadata extraction are currently a beta feature offered subject to Box’s Main Beta Agreement, and the available capabilities may change._
+_メタデータ抽出に関連したエンドポイントは、現在、BoxのMain Beta Agreementに従い提供されるベータ機能のため、利用可能な機能は変更される可能性があります。_
 
 <!-- more -->
 
-Currently, Box AI functionality allows you to:
+現時点では、Box AI機能を使用すると、以下のことが可能です。
 
-* Get responses to your questions.
-* Get a summary of a document.
-* Generate text you can use in your documents.
-* Extract metadata from the provided file in a flexible way, meaning you have more freedom when using the prompt.
-* Extract metadata from the provided file using a [metadata template][4] or the `fields` structure.
-* Fetch and override the default API model configuration.
+* 質問に対する応答を取得する。
+* ドキュメントの要約を取得する。
+* ドキュメント内で使用できるテキストを生成する。
+* さらに高い自由度でプロンプトを使用し、指定したファイルから柔軟な方法でメタデータを抽出する。
+* 指定したファイルから、[メタデータテンプレート][4]または`fields`構造を使用してメタデータを抽出する。
+* デフォルトのAPIモデルの構成を取得して上書きする。
 
-Check the [Box AI API developer guides][1] to learn more about Box AI and check the [API Reference][5] for Box AI API details.
+Box AIの詳細については、[Box AI APIの開発者向けガイド][1]を参照してください。また、Box AI APIの詳細については、[APIリファレンス][5]を参照してください。
 
 ## Box AI for UI Elements
 
-[Box AI for UI Elements][6] enhances [Content Preview][7] with Box AI - Document Q&A and Text Generation functionality. The enhanced Box AI for UI Elements allows the users to embed AI functionality in their custom applications to facilitate answering questions, summarizing a document, adding citations and using dialogue history, and formatting support.
+[Box AI for UI Elements][6]では、Box AIのドキュメントのQ&A機能とテキスト生成機能で[コンテンツプレビュー][7]を強化します。Box AI for UI Elementsの強化により、ユーザーは、カスタムアプリケーションにAI機能を埋め込み、質問への回答、ドキュメントの要約、引用情報の追加、会話履歴の使用、書式設定のサポートのような操作を円滑に進めることができます。
 
 ## サポート情報
 
