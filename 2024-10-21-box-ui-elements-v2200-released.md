@@ -25,102 +25,102 @@ fullyTranslated: true
 ---
 # Box UI Elements `v22.0.0`のリリース
 
-# [22.0.0][1] (2024-10-21)
+# [22.0.0][1] (2024/10/21)
 
 ### バグ修正
 
-* resolve missing exports for `esbuild` ([#3719][2]) ([`495f19e`][3])
-* **content-answers:** Bump content-answers ([#3713][4]) ([`21c2de1`][5])
-* **content-uploader:** resolve `ItemAction` issues ([#3631][6]) ([`ba299b1`][7])
-* **docgen-sidebar:** add collapsible component to hide nested tags ([#3626][8]) ([`3480efb`][9])
-* **draft-js:** Upgraded to 0.11.7 ([#3580][10]) ([`179ff9f`][11])
-* **hubs:** fix shared link text ([#3657][12]) ([`a938524`][13])
-* **i18n:** update translations ([#3603][14]) ([`a467823`][15])
-* **i18n:** update translations ([#3607][16]) ([`8ad18b8`][17])
-* **i18n:** update translations ([#3612][18]) ([`4bfceaa`][19])
-* **i18n:** update translations ([#3615][20]) ([`945fa23`][21])
-* **i18n:** update translations ([#3619][22]) ([`bc011eb`][23])
-* **i18n:** update translations ([#3620][24]) ([`62a9ef7`][25])
-* **i18n:** update translations ([#3627][26]) ([`ae5cc3d`][27])
-* **i18n:** update translations ([#3633][28]) ([`13894ca`][29])
-* **i18n:** update translations ([#3636][30]) ([`0bee28b`][31])
-* **i18n:** update translations ([#3639][32]) ([`83b403c`][33])
-* **i18n:** update translations ([#3643][34]) ([`4cf5b3d`][35])
-* **i18n:** update translations ([#3648][36]) ([`297fabf`][37])
-* **i18n:** update translations ([#3653][38]) ([`7b0e0fb`][39])
-* **i18n:** update translations ([#3659][40]) ([`41a17fe`][41])
-* **i18n:** update translations ([#3667][42]) ([`1f77bce`][43])
-* **i18n:** update translations ([#3673][44]) ([`7e5f7c1`][45])
-* **i18n:** update translations ([#3674][46]) ([`ebe8348`][47])
-* **i18n:** update translations ([#3679][48]) ([`4bf65f8`][49])
-* **i18n:** update translations ([#3683][50]) ([`549188a`][51])
-* **i18n:** update translations ([#3686][52]) ([`9927e53`][53])
-* **i18n:** update translations ([#3689][54]) ([`47e7a6b`][55])
-* **i18n:** update translations ([#3692][56]) ([`d2e59c8`][57])
-* **i18n:** update translations ([#3694][58]) ([`1850977`][59])
-* **i18n:** update translations ([#3697][60]) ([`665aedf`][61])
-* **i18n:** update translations ([#3701][62]) ([`fe9f7cc`][63])
-* **i18n:** update translations ([#3705][64]) ([`fa89f87`][65])
-* **i18n:** update translations ([#3711][66]) ([`b6b61bf`][67])
-* **metadata-instance-editor:** Fix support link ([#3671][68]) ([`b82687e`][69])
-* **metadata-sidebar:** fix loading states ([#3684][70]) ([`5c54eb5`][71])
-* **metadata-sidebar:** Fix metadata sidebar AI capabilities ([#3681][72]) ([`fd164ec`][73])
-* **metadata-sidebar:** Fix storybook tests ([#3695][74]) ([`8326472`][75])
-* **metadata-sidebar:** handle `onCancel` action for editing templates ([#3669][76]) ([`6ad083b`][77])
-* **metadata-sidebar:** `UnsavedChangesModal` changes ([#3691][78]) ([`305d3af`][79])
-* **notification:** unblock UI beneath Notification ([#3661][80]) ([`33b34d9`][81])
-* **quick-search:** Quick Search buttons and footer navigation ([#3623][82]) ([`0427112`][83])
-* **quick-search:** Quick Search Navigation ([#3622][84]) ([`b814223`][85])
-* clean up eslint and configs ([#3584][86]) ([`c0ff8d7`][87]), closes [#3583][88]
-* resolve changes from `box/frontend` ([#3590][89]) ([`1d91171`][90])
-* **quick-search:** Quick filter navigation ([#3582][91]) ([`6880f67`][92])
-* upgrade react-popper ([#3583][88]) ([`13396e4`][93])
+* `esbuild`の不足していたexportを解決 ([#3719][2]) ([`495f19e`][3])
+* **content-answers:** content-answersを昇格 ([#3713][4]) ([`21c2de1`][5])
+* **content-uploader:** `ItemAction`の問題を解決 ([#3631][6]) ([`ba299b1`][7])
+* **docgen-sidebar:** ネストされたタグを非表示にするための折りたたみ可能なコンポーネントを追加 ([#3626][8]) ([`3480efb`][9])
+* **draft-js:** 0.11.7にアップグレード ([#3580][10]) ([`179ff9f`][11])
+* **hubs:** 共有リンクのテキストを修正 ([#3657][12]) ([`a938524`][13])
+* **i18n:** 翻訳を更新 ([#3603][14]) ([`a467823`][15])
+* **i18n:** 翻訳を更新 ([#3607][16]) ([`8ad18b8`][17])
+* **i18n:** 翻訳を更新 ([#3612][18]) ([`4bfceaa`][19])
+* **i18n:** 翻訳を更新 ([#3615][20]) ([`945fa23`][21])
+* **i18n:** 翻訳を更新 ([#3619][22]) ([`bc011eb`][23])
+* **i18n:** 翻訳を更新 ([#3620][24]) ([`62a9ef7`][25])
+* **i18n:** 翻訳を更新 ([#3627][26]) ([`ae5cc3d`][27])
+* **i18n:** 翻訳を更新 ([#3633][28]) ([`13894ca`][29])
+* **i18n:** 翻訳を更新 ([#3636][30]) ([`0bee28b`][31])
+* **i18n:** 翻訳を更新 ([#3639][32]) ([`83b403c`][33])
+* **i18n:** 翻訳を更新 ([#3643][34]) ([`4cf5b3d`][35])
+* **i18n:** 翻訳を更新 ([#3648][36]) ([`297fabf`][37])
+* **i18n:** 翻訳を更新 ([#3653][38]) ([`7b0e0fb`][39])
+* **i18n:** 翻訳を更新 ([#3659][40]) ([`41a17fe`][41])
+* **i18n:** 翻訳を更新 ([#3667][42]) ([`1f77bce`][43])
+* **i18n:** 翻訳を更新 ([#3673][44]) ([`7e5f7c1`][45])
+* **i18n:** 翻訳を更新 ([#3674][46]) ([`ebe8348`][47])
+* **i18n:** 翻訳を更新 ([#3679][48]) ([`4bf65f8`][49])
+* **i18n:** 翻訳を更新 ([#3683][50]) ([`549188a`][51])
+* **i18n:** 翻訳を更新 ([#3686][52]) ([`9927e53`][53])
+* **i18n:** 翻訳を更新 ([#3689][54]) ([`47e7a6b`][55])
+* **i18n:** 翻訳を更新 ([#3692][56]) ([`d2e59c8`][57])
+* **i18n:** 翻訳を更新 ([#3694][58]) ([`1850977`][59])
+* **i18n:** 翻訳を更新 ([#3697][60]) ([`665aedf`][61])
+* **i18n:** 翻訳を更新 ([#3701][62]) ([`fe9f7cc`][63])
+* **i18n:** 翻訳を更新 ([#3705][64]) ([`fa89f87`][65])
+* **i18n:** 翻訳を更新 ([#3711][66]) ([`b6b61bf`][67])
+* **metadata-instance-editor:** サポートリンクを修正 ([#3671][68]) ([`b82687e`][69])
+* **metadata-sidebar:** 読み込み状態を修正 ([#3684][70]) ([`5c54eb5`][71])
+* **metadata-sidebar:** メタデータサイドバーのAI機能を修正 ([#3681][72]) ([`fd164ec`][73])
+* **metadata-sidebar:** storybookテストを修正 ([#3695][74]) ([`8326472`][75])
+* **metadata-sidebar:** テンプレートを編集するための`onCancel`アクションを処理 ([#3669][76]) ([`6ad083b`][77])
+* **metadata-sidebar:** `UnsavedChangesModal`の変更 ([#3691][78]) ([`305d3af`][79])
+* **notification:** 通知の下のUIのブロックを解除 ([#3661][80]) ([`33b34d9`][81])
+* **quick-search:** クイック検索ボタンとフッターのナビゲーション ([#3623][82]) ([`0427112`][83])
+* **quick-search:** クイック検索のナビゲーション ([#3622][84]) ([`b814223`][85])
+* eslintとconfigをクリーンアップ ([#3584][86]) ([`c0ff8d7`][87])、[#3583][88]をクローズ
+* `box/frontend`からの変更を解決 ([#3590][89]) ([`1d91171`][90])
+* **quick-search:** クイックフィルタのナビゲーション ([#3582][91]) ([`6880f67`][92])
+* react-popperをアップグレード ([#3583][88]) ([`13396e4`][93])
 
 ### 機能
 
-* **taxonomy:** added view/create/updated taxonomy field support ([#3716][94]) ([`cccb0b0`][95])
-* `noop` for BREAKING CHANGE blueprint peer dependency ([#3721][96]) ([`5a117ae`][97])
-* **api:** add handling empty metadata suggestions ([#3608][98]) ([`ecd4c80`][99])
-* **api:** Extend `getMetadata` in Metadata API ([#3611][100]) ([`765f592`][101])
-* **blueprint:** Added blueprint ([#3585][102]) ([`0f2d876`][103])
-* **boxai-sidebar:** `BoxAISidebar` header added ([#3698][104]) ([`130b6b6`][105])
-* **boxai-sidebar:** Empty Sidebar for Box AI ([#3668][106]) ([`611377c`][107])
-* **content-answers:** Upgrade Content Answers ([#3658][108]) ([`002d496`][109]), closes [#3626][8]
-* **content-explorer-modal-container:** add optional info notice ([#3634][110]) ([`20d4c3f`][111])
-* **content-sidebar:** add archived date to content preview sidebar ([#3625][112]) ([`10e68f3`][113])
-* **content-sidebar:** Add data-target-id to menu items ([#3610][114]) ([`cf05167`][115])
-* **content-sidebar:** Add placeholder `metadatasidebar` redesigned ([#3570][116]) ([`6a0d7ee`][117])
-* **content-sidebar:** disable version modifications for archive file ([#3637][118]) ([`e735c4c`][119])
-* **content-sidebar:** pass `metadata.aiSuggestions` flag into redesigned sidebar ([#3665][120]) ([`b672f70`][121])
-* **metadata-sidebar:** Add handler for `Autofill` button ([#3700][122]) ([`95735e0`][123])
-* **metadata-sidebar:** Add metadata instance list ([#3664][124]) ([`b4e4b01`][125]), closes [#3605][126]
-* **metadata-sidebar:** disable delete button ([#3677][127]) ([`2941a97`][128])
-* **metadata-sidebar:** Handle create metadata instance ([#3663][129]) ([`321ba7e`][130])
-* **metadata-sidebar:** handle delete metadata instance ([#3662][131]) ([`f6abd4e`][132])
-* **metadata-sidebar:** handle update metadata instance ([#3672][133]) ([`ef79e44`][134])
-* **metadata-sidebar:** Metadata sidebar redesign ([#3654][135]) ([`fe4fede`][136]), closes [#3606][137]
-* **metadata-sidebar:** pass `areAiSuggestionsAvailable` based on file ext ([#3675][138]) ([`dc074cf`][139])
-* **metadata-sidebar:** tab content styles change ([#3708][140]) ([`f7c06a4`][141])
-* **taxonomy:** added metadata options endpoint ([#3678][142]) ([`47ba331`][143])
-* **taxonomy:** added metadata taxonomy field support ([#3710][144]) ([`3a0c27e`][145])
-* **uaa-logging:** Log UAA Parity data ([#3629][146]) ([`6cb5d8f`][147])
-* **unified-share-modal:** add custom avatars click handler ([#3688][148]) ([`c034de4`][149])
-* **update_app_activity_item:** Add permissions field ([#3680][150]) ([`c521c11`][151])
-* support `/2.0/ai/extract_structured` endpoint ([#3596][152]) ([`dee4eee`][153])
-* **unified-share-modal:** added targeting attribute ([#3592][154]) ([`e26f1f1`][155])
-* support metadata suggestions API ([#3571][156]) ([`c985402`][157]), closes [#3565][158]
+* **taxonomy:** 分類フィールドの表示/作成/更新のサポートを追加 ([#3716][94]) ([`cccb0b0`][95])
+* 「重大な変更」のblueprintピア依存関係の`noop` ([#3721][96]) ([`5a117ae`][97])
+* **api:** 空のメタデータの候補の処理を追加 ([#3608][98]) ([`ecd4c80`][99])
+* **api:** メタデータAPIの`getMetadata`を拡張 ([#3611][100]) ([`765f592`][101])
+* **blueprint:** blueprintを追加 ([#3585][102]) ([`0f2d876`][103])
+* **boxai-sidebar:** `BoxAISidebar`ヘッダーを追加 ([#3698][104]) ([`130b6b6`][105])
+* **boxai-sidebar:** Box AI用の空のサイドバー ([#3668][106]) ([`611377c`][107])
+* **content-answers:** Content Answersをアップグレード ([#3658][108]) ([`002d496`][109])、[#3626][8]をクローズ
+* **content-explorer-modal-container:** 省略可能な情報通知を追加 ([#3634][110]) ([`20d4c3f`][111])
+* **content-sidebar:** コンテンツプレビューのサイドバーにアーカイブの日付を追加 ([#3625][112]) ([`10e68f3`][113])
+* **content-sidebar:** メニュー項目にdata-target-idを追加 ([#3610][114]) ([`cf05167`][115])
+* **content-sidebar:** プレースホルダ`metadatasidebar`のデザイン変更を追加 ([#3570][116]) ([`6a0d7ee`][117])
+* **content-sidebar:** アーカイブファイルのバージョン変更を無効化 ([#3637][118]) ([`e735c4c`][119])
+* **content-sidebar:** デザインが変更されたサイドバーに`metadata.aiSuggestions`フラグを渡す ([#3665][120]) ([`b672f70`][121])
+* **metadata-sidebar:** `Autofill`ボタンのハンドラを追加 ([#3700][122]) ([`95735e0`][123])
+* **metadata-sidebar:** メタデータインスタンスリストを追加 ([#3664][124]) ([`b4e4b01`][125])、[#3605][126]をクローズ
+* **metadata-sidebar:** 削除ボタンを無効化 ([#3677][127]) ([`2941a97`][128])
+* **metadata-sidebar:** メタデータインスタンスの作成を処理 ([#3663][129]) ([`321ba7e`][130])
+* **metadata-sidebar:** メタデータインスタンスの削除を処理 ([#3662][131]) ([`f6abd4e`][132])
+* **metadata-sidebar:** メタデータインスタンスの更新を処理 ([#3672][133]) ([`ef79e44`][134])
+* **metadata-sidebar:** メタデータサイドバーのデザイン変更 ([#3654][135]) ([`fe4fede`][136])、[#3606][137]をクローズ
+* **metadata-sidebar:** ファイル拡張子に基づいて`areAiSuggestionsAvailable`を渡す ([#3675][138]) ([`dc074cf`][139])
+* **metadata-sidebar:** タブコンテンツのスタイルの変更 ([#3708][140]) ([`f7c06a4`][141])
+* **taxonomy:** メタデータオプションのエンドポイントを追加 ([#3678][142]) ([`47ba331`][143])
+* **taxonomy:** メタデータの分類フィールドのサポートを追加 ([#3710][144]) ([`3a0c27e`][145])
+* **uaa-logging:** UAAパリティデータをログに記録 ([#3629][146]) ([`6cb5d8f`][147])
+* **unified-share-modal:** カスタムアバターのクリックハンドラーを追加 ([#3688][148]) ([`c034de4`][149])
+* **update_app_activity_item:** 権限フィールドを追加 ([#3680][150]) ([`c521c11`][151])
+* `/2.0/ai/extract_structured`エンドポイントをサポート ([#3596][152]) ([`dee4eee`][153])
+* **unified-share-modal:** ターゲットとなる属性を追加 ([#3592][154]) ([`e26f1f1`][155])
+* Metadata Suggestions APIをサポート ([#3571][156]) ([`c985402`][157])、[#3565][158]をクローズ
 
 ### パフォーマンスの向上
 
-* **content-answers:** lazy load content answers in preview ([#3720][159]) ([`ec115f7`][160])
+* **content-answers:** プレビューでContent Answersを遅延読み込み ([#3720][159]) ([`ec115f7`][160])
 
 ### 取り消し
 
-* **content-explorer:** Revert rename dialog ([#3704][161]) ([`13b8c99`][162]), closes [#3666][163]
+* **content-explorer:** 名前変更ダイアログを元に戻す ([#3704][161]) ([`13b8c99`][162])、[#3666][163]をクローズ
 
 ### 重大な変更
 
-* blueprint-web and blueprint-web-assets peer dependencies
+* blueprint-webおよびblueprint-web-assetsピア依存関係
 
 [1]: https://github.com/box/box-ui-elements/compare/v21.0.0...v22.0.0
 

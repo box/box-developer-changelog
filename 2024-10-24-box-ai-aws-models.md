@@ -24,18 +24,18 @@ source_url: >-
 published_at: '2024-10-24'
 fullyTranslated: true
 ---
-# Box AI API - AWS AI models now available
+# Box AI API - AWS AIモデルの提供開始
 
-The list of [available AI models][1] has been recently updated with the following AWS models:
+[利用可能なAIモデル][1]のリストが更新され、以下のAWSモデルが追加されました。
 
 * AWS Claude 3 Sonnet
 * AWS Claude 3.5 Sonnet
 * AWS Claude 3 Haiku
 * AWS Titan Text Lite
 
-Models offered in **Preview** mode have not been fully performance-tested at scale and are made available on an as-is basis. You may experience variability in model/output quality, availability, and accuracy.
+**プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままの利用となるため、モデル/出力の品質、可用性、精度には変動がある可能性があります。
 
-You can use the provided models to [override the default model][1] used in the AI agent configuration. For further details on Box AI API, see the [guides][2] and [API reference][3].
+提供されているモデルを使用して、AIエージェントの構成で使用されている[デフォルトモデルを上書き][1]できます。Box AI APIの詳細については、[ガイド][2]と[APIリファレンス][3]を参照してください。
 
 <!-- more -->
 
