@@ -109,7 +109,7 @@ fullyTranslated: true
 * **item-action:** `aria-label`を`PlainButton`に追加 ([#3180][159]) ([`2553713`][160])
 * **item-remove:** `aria-label`を追加 ([#3181][161]) ([`0fce635`][162])
 * **menu:** メニューヘッダーの長いタイトルを修正 ([#3125][163]) ([`79420f2`][164])
-* **modal:** 長いファイル名のモーダルヘッダーが正しく表示されていない ([#3108][165]) ([`d8321aa`][166])
+* **modal:** 長いファイル名のウィンドウヘッダーが正しく表示されていない ([#3108][165]) ([`d8321aa`][166])
 * **react-virtualized:** `react-virtualized`を昇格 ([#3160][167]) ([`b256b07`][168])
 * **react-virtualized:** 重複する`a11y`ラベルを削除 ([#3204][169]) ([`c67a4dd`][170])
 * **react-virtualized:** `Table_Grid_innerScrollContainer`のロールを削除 ([#3218][171]) ([`cabb4a8`][172])
