@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2024-10-24-box-ai-aws-models
+previous_page_id: 2024-10-30-box-python-sdk-generated-v160-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/10-31-box-dotnet-sdk-generated-v140-released.md
 published_at: '2024-10-31'
