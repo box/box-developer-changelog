@@ -18,7 +18,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-10-18-box-java-sdk-v4120-released
-previous_page_id: 2024-09-18-box-python-sdk-generated-v150-released
+previous_page_id: 2024-09-19-box-python-sdk-generated-v151-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/09-23-box-ai-api-defaul-model-update.md
 published_at: '2024-09-23'
