@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-10-21-box-ui-elements-v2200-released
-previous_page_id: 2024-10-17-box-dotnet-sdk-generated-v130-released
+previous_page_id: 2024-10-17-box-typescript-sdk-generated-v170-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/10-18-box-java-sdk-v4120-released.md
 published_at: '2024-10-18'
