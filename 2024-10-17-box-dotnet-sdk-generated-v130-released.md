@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-10-17-box-typescript-sdk-generated-v170-released
-previous_page_id: 2024-09-23-box-ai-api-defaul-model-update
+previous_page_id: 2024-09-26-box-dotnet-sdk-generated-v120-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/10-17-box-dotnet-sdk-generated-v130-released.md
 published_at: '2024-10-17'
