@@ -1,17 +1,20 @@
 ---
-applied_at: '2023-09-29'
+applied_at: '2024-05-20'
 applies_to:
   - sdks
   - python
 is_impactful: true
 is_new_feature: true
-release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/new-gen'
+release_source_url: 'https://github.com/box/box-python-sdk-gen/releases/tag/v1.0.0'
 collapse: true
+show_excerpt: true
 ---
 
-# Introducing Beta Release: New Generation Python SDK
+# Introducing New Generation Python SDK
 
-We are excited to introduce [the latest generation (currently in Beta) of Box Python SDK][1], designed to elevate the developer experience and streamline your integration with the Box Content Cloud.
+We are excited to introduce [Box Python SDK][1], designed to elevate the developer experience and streamline your integration with the Box Content Cloud.
+
+<!-- more -->
 
 With the [new generation of Python SDK][1], you'll have access to:
 

@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Auto-merge pull requests that pass CI tests
-        uses: "pascalgn/automerge-action@v0.8.4"
+        uses: "pascalgn/automerge-action@v0.16.4"
         env:
           # Use the DISPATCH_ACCESS_TOKEN again, as we will want to doo this as
           # the box-devrel user. Without this token, a merg won't trigger an
