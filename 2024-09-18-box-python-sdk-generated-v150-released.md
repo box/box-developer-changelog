@@ -27,15 +27,15 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add the missing license to `setup.py` (box/box-codegen[#562][1]) ([#307][2]) ([`679d789`][3])
-* Fix variants in metadata query results (box/box-openapi[#456][4]) ([#313][5]) ([`8830303`][6])
+* 不足していたライセンスを`setup.py`に追加 (box/box-codegen[#562][1]) ([#307][2]) ([`679d789`][3])
+* メタデータクエリの結果のバリアントを修正 (box/box-openapi[#456][4]) ([#313][5]) ([`8830303`][6])
 
 ### 新機能と機能強化
 
-* Add support for proxy (box/box-codegen[#559][7]) ([#302][8]) ([`3d881ac`][9])
-* Introduce `raw_data` field for storing raw `json` response (box/box-codegen[#566][10]) ([#319][11]) ([`3776dc3`][12])
-* Support `ai/extract` and `ai/extract_structured` endpoints (box/box-codegen[#564][13]) ([#317][14]) ([`b3d8da4`][15])
-* Support App item associations (box/box-codegen[#561][16]) ([#299][17]) ([`8b6ea0b`][18])
+* プロキシのサポートを追加 (box/box-codegen[#559][7]) ([#302][8]) ([`3d881ac`][9])
+* 未加工の`json`レスポンスを格納するための`raw_data`フィールドを導入 (box/box-codegen[#566][10]) ([#319][11]) ([`3776dc3`][12])
+* `ai/extract`および`ai/extract_structured`エンドポイントをサポート (box/box-codegen[#564][13]) ([#317][14]) ([`b3d8da4`][15])
+* アプリ項目の関連付けをサポート (box/box-codegen[#561][16]) ([#299][17]) ([`8b6ea0b`][18])
 
 [1]: https://github.com/box/box-codegen/issues/562
 

@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support get collection by ID endpoint (box/box-codegen[#595][1]) ([#366][2]) ([`1db5722`][3]), closes [#355][4]
+* IDを指定してコレクションを取得エンドポイントをサポート (box/box-codegen[#595][1]) ([#366][2]) ([`1db5722`][3])、[#355][4]をクローズ
 
 [1]: https://github.com/box/box-codegen/issues/595
 
