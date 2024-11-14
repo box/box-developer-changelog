@@ -31,7 +31,7 @@ fullyTranslated: true
 * SignRequestSignerに`content_type`フィールドを追加 ([#871][1]) ([`1ec5b01`][2])
 * 署名リクエストに`redirect_url`と`declined_redirect_url`を追加 ([#870][3]) ([`f94d988`][4])
 * `sign` Webhookトリガーのサポートを追加 ([#875][5]) ([`994bfaf`][6])
-* リテンションポリシーの割り当てを削除するメソッドを追加 ([#873][7]) ([`c5f146c`][8])
+* リテンションポリシー割り当てを削除するメソッドを追加 ([#873][7]) ([`c5f146c`][8])
 * 変更可能リテンションポリシーのサポートを追加 ([#872][9]) ([`e2b7a17`][10])
 
 [1]: https://github.com/box/box-ios-sdk/issues/871

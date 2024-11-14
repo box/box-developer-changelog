@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* correctly send `datetime` when in `queryParams` (box/box-codegen[#560][1]) ([#243][2]) ([`9657526`][3])
-* Fix variants in metadata query results (box/box-openapi[#456][4]) ([#249][5]) ([`37625ea`][6])
+* `queryParams`で`datetime`を正しく送信 (box/box-codegen[#560][1]) ([#243][2]) ([`9657526`][3])
+* メタデータクエリの結果のバリアントを修正 (box/box-openapi[#456][4]) ([#249][5]) ([`37625ea`][6])
 
 ### 新機能と機能強化
 
-* add Hubs Beta (box/box-openapi[#453][7]) ([#241][8]) ([`c28f660`][9])
-* include raw `json` in types (box/box-codegen[#567][10]) ([#258][11]) ([`a1e7bc5`][12])
-* Support `ai/extract` and `ai/extract_structured` endpoints (box/box-codegen[#564][13]) ([#253][14]) ([`a17d8f8`][15])
+* Hubsベータ版を追加 (box/box-openapi[#453][7]) ([#241][8]) ([`c28f660`][9])
+* タイプに未加工の`json`を追加 (box/box-codegen[#567][10]) ([#258][11]) ([`a1e7bc5`][12])
+* `ai/extract`および`ai/extract_structured`エンドポイントをサポート (box/box-codegen[#564][13]) ([#253][14]) ([`a17d8f8`][15])
 
 [1]: https://github.com/box/box-codegen/issues/560
 
