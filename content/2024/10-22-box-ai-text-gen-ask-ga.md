@@ -49,4 +49,3 @@ Should you have any issues or need further guidance, please post a request to ou
 [6]: g://embed/ui-elements/preview#box-ai-ui-element
 [7]: g://embed/ui-elements/preview
 [8]: https://forum.box.com/
-
