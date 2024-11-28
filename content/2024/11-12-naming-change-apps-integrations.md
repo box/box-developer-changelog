@@ -42,7 +42,7 @@ We are changing the naming convention for apps & integrations to improve the cla
 
  Current name | Target name | Location |
 | --- | --- | --- |
-| `Apps` | `Integrations` | A tab in the Box web-app.
+| `Apps` | `Integrations` | A tab in the Box web-app. |
 
 ## Where to get support
 
