@@ -10,9 +10,7 @@ release_source_url: ""
 ---
 # Apps & Integrations naming convention changes
 
-We will be changing the naming convention for apps & integrations to improve the clarity and consistency of our platform.
-
-You can expect to see the following updates:
+We are changing the naming convention for apps & integrations to improve the clarity and consistency of our platform.
 
 ## Developers
 
