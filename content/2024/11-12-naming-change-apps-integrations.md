@@ -16,9 +16,9 @@ We are changing the naming convention for apps & integrations to improve the cla
 
 | Current name | Target name | Location |
 | --- | --- | --- |
-| `App Center` | `Publishing` | A tab for submitting platform apps for publication in Box Integrations catalog |
-| `Integrations` | `Box Web Integrations` | A tab where you define the third-party application buttons within the Box Web app |
-| `Custom apps` | `Platform apps` | Developer Console | 
+| App Center | Publishing | A tab for submitting platform apps for publication in Box Integrations catalog |
+| Integrations | Box Web Integrations | A tab where you define the third-party application buttons within the Box Web app |
+| Custom apps | Platform apps | Developer Console | 
 
 <!-- more -->
 
@@ -26,23 +26,23 @@ We are changing the naming convention for apps & integrations to improve the cla
 
 | Current name | Target name | Location |
 | --- | --- | --- |
-| `Apps` | `Integrations` | Admin Console |
-| `Custom Apps Manager` | `Platform Apps Manager` | Admin Console |
-| `Custom apps` | `Platform Apps` | Admin Console |
+| Apps | Integrations | Admin Console |
+| Custom Apps Manager | Platform Apps Manager | Admin Console |
+| Custom apps | Platform Apps | Admin Console |
 
 ## Box Shield
 
  Current name | Target name | Location |
 | --- | --- | --- |
-| `Application restriction policy` | `Integration restriction` | Restriction policies | 
-| `Shield Application` | `Shield Integration` | Shield integration lists |
-| `Applications` | `Integrations` | Detection Rules | 
+| Application restriction policy | Integration restriction | Restriction policies | 
+| Shield Application | Shield Integration | Shield integration lists |
+| Applications | Integrations | Detection Rules | 
 
 ## Users
 
  Current name | Target name | Location |
 | --- | --- | --- |
-| `Apps` | `Integrations` | A tab in the Box web-app. |
+| Apps | Integrations | A tab in the Box web-app. |
 
 ## Where to get support
 
