@@ -55,9 +55,9 @@ Box AIの詳細については、[Box AI APIの開発者向けガイド][1]を�
 
 [1]: https://developer.box.com/guides/box-ai
 
-[2]: g://box-ai/ask-questions/
+[2]: g://box-ai/ai-tutorials/ask-questions/
 
-[3]: g://box-ai/generate-text/
+[3]: g://box-ai/ai-tutorials/generate-text/
 
 [4]: https://support.box.com/hc/en-us/articles/360044194033-Customizing-Metadata-Templates
 
