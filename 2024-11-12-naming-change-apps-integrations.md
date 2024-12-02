@@ -47,11 +47,11 @@ Box Platformの明確さと一貫性の改善のため、アプリと統合の�
 
 ## Box Shield
 
-| 旧名称                            | 新名称                     | 場所          |
-| ------------------------------ | ----------------------- | ----------- |
-| Application restriction policy | Integration restriction | 制限ポリシー      |
-| Shield Application             | Shield Integration      | Shieldの統合一覧 |
-| アプリケーション                       | 統合                      | 検出ルール       |
+| 旧名称             | 新名称       | 場所          |
+| --------------- | --------- | ----------- |
+| アプリケーションの制限ポリシー | 統合の制限     | 制限ポリシー      |
+| Shieldのアプリケーション | Shieldの統合 | Shieldの統合一覧 |
+| アプリケーション        | 統合        | 検出ルール       |
 
 ## ユーザー
 
