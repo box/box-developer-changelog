@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix enums usage (box/box-codegen[#615][1]) ([#387][2]) ([`a9abccb`][3]), closes [#385][4]
-* Support status codes with no content (box/box-codegen[#604][5]) ([#378][6]) ([`051716c`][7])
-* Update collaboration, metadata and collection resources (box/box-openapi[#483][8]) ([#380][9]) ([`0d45fed`][10])
+* 列挙型の使用を修正 (box/box-codegen[#615][1]) ([#387][2]) ([`a9abccb`][3])、[#385][4]をクローズ
+* コンテンツのないステータスコードをサポート (box/box-codegen[#604][5]) ([#378][6]) ([`051716c`][7])
+* コラボレーション、メタデータ、コレクションのリソースを更新 (box/box-openapi[#483][8]) ([#380][9]) ([`0d45fed`][10])
 
 ### 新機能と機能強化
 
-* Expose method for making custom HTTP requests (box/box-codegen[#610][11]) ([#393][12]) ([`55a23d9`][13])
-* Support getting file download URL and file thumbnail URL (box/box-codegen[#617][14]) ([#397][15]) ([`fd609ab`][16])
+* カスタムHTTPリクエストを行うためのメソッドを公開 (box/box-codegen[#610][11]) ([#393][12]) ([`55a23d9`][13])
+* ファイルのダウンロードURLとファイルのサムネイルURLの取得をサポート (box/box-codegen[#617][14]) ([#397][15]) ([`fd609ab`][16])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/615
 
