@@ -1,5 +1,5 @@
 ---
-applied_at: "2024-06-20"
+applied_at: "2024-12-05"
 applies_to:
   - guides
   - api
