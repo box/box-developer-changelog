@@ -24,15 +24,15 @@ source_url: >-
 published_at: '2024-06-03'
 fullyTranslated: true
 ---
-# CrowdStrike integration with Box
+# BoxとCrowdStrikeの統合
 
-CrowdStrike is an endpoint detection tool integrated with Box to monitor endpoint activity. This means, CrowdStrike monitors devices that connect to Box and your Box organization, analyzing data about the connection and the device to identify potential threat activity.
+CrowdStrikeは、Boxと統合され、エンドポイントのアクティビティを監視するエンドポイント検出ツールです。BoxおよびBoxを利用している組織に接続しているデバイスを監視し、デバイスや接続に関するデータを分析して潜在的な脅威のアクティビティを特定します。
 
-The integration with CrowdStrike comes with additional [events in the event stream][1] that can be triggered for an enterprise.
+CrowdStrikeとの統合により、企業でトリガーできる[イベントストリームのイベント][1]が追加されます。
 
 <!-- more -->
 
-For example, the `EDR_CROWDSTRIKE_DEVICE_DETECTED` event is triggered when a new device is detected by the the CrowdStrike Falcon platform. The full list includes the following events:
+例えば、CrowdStrike Falconプラットフォームで新しいデバイスが検出されると、`EDR_CROWDSTRIKE_DEVICE_DETECTED`イベントがトリガーされます。すべてのイベントを含むリストは以下のとおりです。
 
 * `EDR_CROWDSTRIKE_DEVICE_DETECTED`
 * `EDR_CROWDSTRIKE_NO_BOX_TOOLS`
