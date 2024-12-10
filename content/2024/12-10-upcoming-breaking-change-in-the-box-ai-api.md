@@ -1,5 +1,5 @@
 ---
-applied_at: "mid-January"
+applied_at: '2024-12-10'
 applies_to:
 - api
 is_impactful: true
@@ -11,7 +11,7 @@ release_source_url: ''
 
 # Upcoming breaking change: Box AI API - Extract Structured
 
-We would like to announce a planned breaking change in the Box AI API - Extract Structured endpoint. This change will bring improvements to the response by introducing additional fields and nesting the metadata key-value pairs within the answer object. This change is planned to be released mid-January. Be sure to follow our [changelog][1] and announcements on our [Box Developer Blog][2]. Expand to see code snippets examples:
+We would like to announce a planned breaking change in the Box AI API - Extract Structured endpoint. This change will bring improvements to the response by introducing additional fields and nesting the metadata key-value pairs within the answer object. **This change is planned to be released mid-January**. Be sure to follow our [changelog][1] and announcements on our [Box Developer Blog][2]. Expand to see code snippets examples:
 
 <!-- more -->
 Current response example:
