@@ -22,6 +22,6 @@ fullyTranslated: true
 ---
 # 検索APIの新しいパラメータ
 
-[Search API](e://get-search)で、新しいオプションクエリパラメータである`sort`と`direction`を使用できるようになりました。
+[Search API](e://get-search)で、新しいクエリパラメータである`sort`と`direction` (省略可) を使用できるようになりました。
 
 このパラメータの目的は、アプリケーションが項目を`modified_at`日付で昇順または降順にソートできるようにすることです。

@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix signature of `beforeRequest` method in `Interceptor` interface (box/box-codegen[#625][1]) ([#446][2]) ([`ef2e765`][3])
+* `Interceptor`インターフェースの`beforeRequest`メソッドの署名を修正 (box/box-codegen[#625][1]) ([#446][2]) ([`ef2e765`][3])
 
 ### 新機能と機能強化
 
-* Add `aiAgent` info to `AiResponse` (box/box-codegen[#624][4]) ([#440][5]) ([`24c2013`][6])
-* Support optional `userId` parameter for updating files, folders and web links (box/box-openapi[#488][7]) ([#445][8]) ([`874f259`][9])
+* `AiResponse`に`aiAgent`の情報を追加 (box/box-codegen[#624][4]) ([#440][5]) ([`24c2013`][6])
+* ファイル、フォルダ、ウェブリンクの更新で`userId`パラメータ (省略可) をサポート (box/box-openapi[#488][7]) ([#445][8]) ([`874f259`][9])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/625
 

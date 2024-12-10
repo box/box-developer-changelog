@@ -35,7 +35,7 @@ fullyTranslated: true
 ### 新機能と機能強化
 
 * `BoxEvent.EventType`にマップされていない場合でも、イベントの名前を含む`typeName`を`BoxEvent`に追加 ([#979][5]) ([`b30f61f`][6])、[#968][7]をクローズ
-* オプションの`description`パラメータを`retention_policies`エンドポイント、`start_date_field`パラメータを`retention_policy_assignments endpoint`エンドポイントに新しく追加 ([#967][8]) ([`0aa4ff4`][9])
+* 省略可能な`description`パラメータを`retention_policies`エンドポイント、`start_date_field`パラメータを`retention_policy_assignments endpoint`エンドポイントに新しく追加 ([#967][8]) ([`0aa4ff4`][9])
 * ユーザーが抽出したい情報を指定できるように`BoxFile#getVersions(String... fields)`を追加。[#946][10]を修正。([#947][11]) ([`a2eb638`][12])
 * `BoxAPI`ドキュメントから`eventTypes`を削除。[#974][13]を修正 ([#975][14]) [`2c69360`][15]
 * 非推奨となったAPI `BoxCollaborationWhitelist`を削除して`BoxCollaborationAllowlist`に置き換え、`BoxCollaborationWhitelistExemptTarget`を削除して`BoxCollaborationAllowlistExemptTarget`に置き換え ([#969][2]) ([`2fd4d6f`][16])

@@ -25,6 +25,6 @@ fullyTranslated: true
 ---
 # Java SDK `v2.10.0`のリリース
 
-* ユーザーのメールエイリアスを追加するためのオプションの`is_confirmed`パラメータを追加 ([#499](https://github.com/box/box-java-sdk/pull/499))
+* ユーザーのメールエイリアスを追加するための`is_confirmed`パラメータ (省略可) を追加 ([#499](https://github.com/box/box-java-sdk/pull/499))
 * トークン無効化のサポートを追加 ([#510](https://github.com/box/box-java-sdk/pull/510))
 * メタデータテンプレートの削除 ([#512](https://github.com/box/box-java-sdk/pull/512))

@@ -178,7 +178,7 @@ fullyTranslated: true
 * **threaded-replies:** アクティビティフィルタを更新して追加のオプションをサポート ([#3280][284]) ([`76e4010`][285])
 * `ContentExplorerModalContainer`に`additionalColumns`プロパティを追加 ([#3143][286]) ([`d4eea59`][287])
 * `ContentExplorerModalContainer`にヘッダーを表示するためのオプションを追加 ([#3144][288]) ([`5685142`][289])
-* `DropdownMenu`にオプションのtetherプロパティを追加 ([#3245][290]) ([`9db75e7`][291])
+* `DropdownMenu`に省略可能なtetherプロパティを追加 ([#3245][290]) ([`9db75e7`][291])
 * **threaded-replies:** 解決のスタイルを修正 ([#3129][292]) ([`b291c50`][293])
 * **threaded-replies:** さらに返信を読み込んだときに返信を表示したままにする ([#3133][294]) ([`295533c`][295])
 * **tooltip:** エラーのツールチップの位置をサポート ([#3187][296]) ([`941e990`][297])
