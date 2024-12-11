@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2024-12-04-box-dotnet-sdk-generated-v150-released
+previous_page_id: 2024-12-05-crowdstrike-integration
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/12-09-box-typescript-sdk-generated-v190-released.md
 published_at: '2024-12-09'
