@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2024-12-10'
 fullyTranslated: true
 ---
-# Upcoming breaking change: Box AI API - Extract Structured
+# 今後予定されている重大な変更: Box AI API - 抽出 (構造化)
 
-We would like to announce a planned breaking change in the Box AI API - Extract Structured endpoint. This change will bring improvements to the response by introducing additional fields and nesting the metadata key-value pairs within the answer object. **This change is planned to be released mid-January**. Be sure to follow our [changelog][1] and announcements on our [Box Developer Blog][2]. Expand to see code snippets examples:
+Box AI APIの抽出 (構造化) エンドポイントに重大な変更を予定しています。この変更は、追加のフィールドを導入し、メタデータのキー/値ペアを回答オブジェクト内にネストすることで、レスポンスを改善するものです。**変更は1月中旬のリリースを予定しています**。弊社の[変更ログ][1]および[Box開発者向けブログ][2]のフォローをお願いいたします。以下でコードスニペットの例をご確認いただけます。
 
 <!-- more -->
 
-Current response example:
+現在のレスポンスの例:
 
 ```js
 {
@@ -38,7 +38,7 @@ Current response example:
 }
 ```
 
-New response format example:
+新しいレスポンス形式の例:
 
 ```js
 {
