@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-12-30-box-typescript-sdk-generated-v1100-released
+next_page_id: 2024-12-30-box-python-sdk-generated-v190-released
 previous_page_id: 2024-12-09-box-typescript-sdk-generated-v190-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/12-10-upcoming-breaking-change-in-the-box-ai-api.md
