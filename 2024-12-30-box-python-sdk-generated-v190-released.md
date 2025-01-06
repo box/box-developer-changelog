@@ -27,15 +27,15 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Remove unused parameter from `SignRequest` (box/box-openapi[#489][1]) ([#411][2]) ([`578d9b4`][3])
+* `SignRequest`から未使用のパラメータを削除 (box/box-openapi[#489][1]) ([#411][2]) ([`578d9b4`][3])
 
 ### 新機能と機能強化
 
-* Add `ai_agent` info to `AiResponse` (box/box-openapi[#485][4]) ([#402][5]) ([`351a5b8`][6])
-* Add support for replacing the network client implementation (box/box-codegen[#629][7]) ([#415][8]) ([`fb118dd`][9])
-* Allow for customizing retry strategy (box/box-codegen[#635][10]) ([#418][11]) ([`8dfb3ed`][12])
-* Support optional `userId` parameter for updating files, folders and web links (box/box-openapi[#488][13]) ([#406][14]) ([`d9cff4c`][15])
-* Support webhook message validation (box/box-codegen[#631][16]) ([#416][17]) ([`0fec20b`][18])
+* `ai_agent`の情報を`AiResponse`に追加 (box/box-openapi[#485][4]) ([#402][5]) ([`351a5b8`][6])
+* ネットワーククライアントの実装を置き換えるサポートを追加 (box/box-codegen[#629][7]) ([#415][8]) ([`fb118dd`][9])
+* 再試行戦略のカスタマイズを許可 (box/box-codegen[#635][10]) ([#418][11]) ([`8dfb3ed`][12])
+* ファイル、フォルダ、ウェブリンクの更新で`userId`パラメータ (省略可) をサポート (box/box-openapi[#488][13]) ([#406][14]) ([`d9cff4c`][15])
+* Webhookメッセージの検証をサポート (box/box-codegen[#631][16]) ([#416][17]) ([`0fec20b`][18])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/489
 
