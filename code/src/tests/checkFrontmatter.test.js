@@ -52,7 +52,8 @@ files.forEach(source => {
       'guides',
       'other',
       'frontend',
-      'ui-elements'
+      'ui-elements',
+      'ai'
     ])
   })
 })
