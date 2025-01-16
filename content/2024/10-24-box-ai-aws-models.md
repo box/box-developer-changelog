@@ -19,7 +19,7 @@ The list of [available AI models][1] has been recently updated with the followin
 * AWS Claude 3 Haiku
 * AWS Titan Text Lite
 
-The AWS models are currently in **Preview** mode, which means you can use the model, but you may encounter quality, availability, and latency issues.
+Models offered in **Preview** mode have not been fully performance-tested at scale and are made available on an as-is basis. You may experience variability in model/output quality, availability, and accuracy.
 
 You can use the provided models to [override the default model][1] used in the AI agent configuration. 
 For further details on Box AI API, see the [guides][2] and [API reference][3].
@@ -31,7 +31,7 @@ For further details on Box AI API, see the [guides][2] and [API reference][3].
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][4] for any help needed.
 
-[1]: https://developer.box.com/guides/box-ai/ai-models/
+[1]: https://developer.box.com/guides/box-ai/supported-models/
 [2]: https://developer.box.com/guides/box-ai
 [3]: https://developer.box.com/reference/post-ai-ask/
 [4]: https://forum.box.com/

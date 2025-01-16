@@ -57,7 +57,8 @@ const run = async () => {
         `sdks`,
         `guides`,
         `frontend`,
-        `ui-elements`
+        `ui-elements`,
+        `ai`
       ],
       validate: (list) => list.length > 0
     },
