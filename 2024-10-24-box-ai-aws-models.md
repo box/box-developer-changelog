@@ -17,7 +17,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2024-10-24-box-dotnet-sdk-generated-v131-released
 previous_page_id: 2024-10-22-box-ai-text-gen-ask-ga
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/10-24-box-ai-aws-models.md
@@ -32,7 +32,7 @@ The list of [available AI models][1] has been recently updated with the followin
 * AWS Claude 3 Haiku
 * AWS Titan Text Lite
 
-The AWS models are currently in **Preview** mode, which means you can use the model, but you may encounter quality, availability, and latency issues.
+Models offered in **Preview** mode have not been fully performance-tested at scale and are made available on an as-is basis. You may experience variability in model/output quality, availability, and accuracy.
 
 You can use the provided models to [override the default model][1] used in the AI agent configuration.
 For further details on Box AI API, see the [guides][2] and [API reference][3].
@@ -44,7 +44,7 @@ For further details on Box AI API, see the [guides][2] and [API reference][3].
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][4] for any help needed.
 
-[1]: https://developer.box.com/guides/box-ai/ai-models/
+[1]: https://developer.box.com/guides/box-ai/supported-models/
 [2]: https://developer.box.com/guides/box-ai
 [3]: https://developer.box.com/reference/post-ai-ask/
 [4]: https://forum.box.com/
