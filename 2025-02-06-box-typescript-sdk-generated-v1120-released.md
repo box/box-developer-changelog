@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2025-02-06-box-dotnet-sdk-generated-v170-released
+previous_page_id: 2025-02-06-box-python-sdk-generated-v1110-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/02-06-box-typescript-sdk-generated-v1120-released.md
 published_at: '2025-02-06'
