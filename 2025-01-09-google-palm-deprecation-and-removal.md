@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2025-01-22-box-java-sdk-v4140-released
+next_page_id: 2025-01-13-box-doc-gen
 previous_page_id: ''
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/01-09-google-palm-deprecation-and-removal.md
