@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix proxy usage (box/box-codegen[#662][1]) ([#476][2]) ([`e1d62ac`][3])
+* プロキシの使用を修正 (box/box-codegen[#662][1]) ([#476][2]) ([`e1d62ac`][3])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/662
 
