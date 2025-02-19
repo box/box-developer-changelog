@@ -34,7 +34,7 @@ fullyTranslated: true
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][5]に英語でリクエストを投稿してください。
 
-[1]: g://applications/app-types/custom-apps
+[1]: g://applications/app-types/platform-apps
 
 [2]: g://authentication/oauth2/oauth2-setup
 
