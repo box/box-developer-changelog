@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add `canNonOwnersViewCollaborators` flag to `BoxFolder` ([#1288][1]) ([`9119adc`][2])
-* Support `zstd` encoding for downloads ([#1287][3]) ([`0e3c4c0`][4])
+* `BoxFolder`に`canNonOwnersViewCollaborators`フラグを追加 ([#1288][1]) ([`9119adc`][2])
+* ダウンロードで`zstd`エンコードをサポート ([#1287][3]) ([`0e3c4c0`][4])
 
 ### バグ修正
 
-* Fix AI dialogue history ([#1289][5]) ([`29b6519`][6])
+* AIの会話履歴を修正 ([#1289][5]) ([`29b6519`][6])
 
 [1]: https://github.com/box/box-java-sdk/issues/1288
 
