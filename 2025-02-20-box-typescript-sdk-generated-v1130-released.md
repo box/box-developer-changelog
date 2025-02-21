@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support AI Studio API (box/box-codegen[#626][1]) ([#520][2]) ([`949b856`][3])
+* AI Studio APIをサポート (box/box-codegen[#626][1]) ([#520][2]) ([`949b856`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/626
 

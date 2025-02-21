@@ -27,11 +27,11 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Do not retry HTTP request when `TaskCanceledException` is thrown (box/box-codegen[#665][1]) ([#406][2]) ([`1af0a6a`][3])
+* `TaskCanceledException`がスローされた場合にHTTPリクエストを再試行しない (box/box-codegen[#665][1]) ([#406][2]) ([`1af0a6a`][3])
 
 ### 新機能と機能強化
 
-* Support AI Studio API (box/box-codegen[#626][4]) ([#409][5]) ([`9661450`][6])
+* AI Studio APIをサポート (box/box-codegen[#626][4]) ([#409][5]) ([`9661450`][6])
 
 [1]: https://github.com/box/box-dotnet-sdk-gen/issues/665
 
