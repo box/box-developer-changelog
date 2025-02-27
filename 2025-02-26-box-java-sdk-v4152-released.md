@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Improve logging for API Request and API Response ([#1295][1]) ([`6eb1f57`][2])
+* APIリクエストとAPIレスポンスのログ記録を改善 ([#1295][1]) ([`6eb1f57`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1295
 

@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix parsing content length header ([#1292][1]) ([`3bcf788`][2])
+* content-lengthヘッダーの解析を修正 ([#1292][1]) ([`3bcf788`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1292
 
