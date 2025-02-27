@@ -10,7 +10,7 @@ show_excerpt: true
 release_source_url: ""
 ---
 
-# Box AI API - AWS AI models now available
+# Box AI API - AWS Claude 3.7 Sonnet now available
 
 The list of [available AI models][1] has been recently updated with AWS Claude 3.7 Sonnet.
 
