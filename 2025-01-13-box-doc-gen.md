@@ -32,7 +32,7 @@ fullyTranslated: true
 
 <!-- more -->
 
-Box Doc Genの機能では以下を実行できます。
+Box Doc Genの機能を使用すると、以下を実行できます。
 
 * [ファイルをBox Doc Genテンプレートとして設定][3]
 * [ドキュメントを生成][4]

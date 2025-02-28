@@ -24,19 +24,19 @@ fullyTranslated: true
 ---
 # Box AI Studio API
 
-We are excited to announce that Box AI Studio API is now available to all Enterprise Advanced customers. [Box AI Studio][ai-studio] allows you to build and manage custom AI agents to best suit your business needs. For example, you can create an AI agent that acts as a compliance consultant, answering questions regarding customer documentation with specific compliance rules in mind.
+Enterprise Advancedをご利用のすべてのお客様に、Box AI Studio APIの提供を開始しました。[Box AI Studio][ai-studio]を使用すると、ビジネスニーズに最適なカスタムAIエージェントを作成して管理できます。たとえば、コンプライアンスコンサルタントとして機能し、特定のコンプライアンスルールを念頭に置いて顧客のドキュメントに関する質問に回答するAIエージェントを作成できます。
 
 <!-- more -->
 
-Box AI Studio API allows you to:
+Box AI Studio APIを使用すると、以下を実行できます。
 
-* List all AI agents
-* Get AI agent details
-* Create a new AI agent
-* Update existing AI agent
-* Delete an AI agent
+* すべてのAIエージェントのリストを取得する
+* AIエージェントの詳細を取得する
+* AIエージェントを新規作成する
+* 既存のAIエージェントを更新する
+* AIエージェントを削除する
 
-Check the Box AI Studio API developer [guide][guide] to learn more about this feature and check the [API Reference][reference] for details.
+この機能の詳細については、Box AI Studio APIの開発者向け[ガイド][guide]と[APIリファレンス][reference]を参照してください。
 
 ## サポート情報
 
