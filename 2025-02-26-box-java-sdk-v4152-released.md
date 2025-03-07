@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-03-07-box-cli-v401-released
 previous_page_id: 2025-02-26-aws-claude-3-7
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/02-26-box-java-sdk-v4152-released.md
