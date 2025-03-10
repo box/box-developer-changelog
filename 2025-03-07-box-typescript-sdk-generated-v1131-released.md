@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Split browser configuration in `package.json` for TypeScript (box/box-codegen[#672][1]) ([#538][2]) ([`ca7e291`][3])
+* TypeScriptの`package.json`でブラウザ構成を分割 (box/box-codegen[#672][1]) ([#538][2]) ([`ca7e291`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/672
 

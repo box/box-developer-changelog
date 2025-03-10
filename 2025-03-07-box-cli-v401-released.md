@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix `configure:environments:set-current` command ([#568][1]) ([`dc0905f`][2])
+* `configure:environments:set-current`コマンドを修正 ([#568][1]) ([`dc0905f`][2])
 
 [1]: https://github.com/box/boxcli/issues/568
 
