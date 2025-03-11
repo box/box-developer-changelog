@@ -30,7 +30,7 @@ fullyTranslated: true
 * 異種コレクションのすべての列をCSVに出力 ([#164](https://github.com/box/boxcli/pull/164)) [`a8dda02`](https://github.com/box/boxcli/commit/a8dda02)
 * plugin-helpを更新して`lodash.template`に関する警告を解決 ([#160](https://github.com/box/boxcli/pull/160)) [`3730bc5`](https://github.com/box/boxcli/commit/3730bc5)
 * `lodash`を4.17.11から4.17.13に昇格 ([#156](https://github.com/box/boxcli/pull/156)) [`d035e74`](https://github.com/box/boxcli/commit/d035e74)
-* 外部アプリユーザーIDの設定のサポートを追加 ([#153](https://github.com/box/boxcli/pull/153)) [`d68b61b`](https://github.com/box/boxcli/commit/d68b61b)
+* 外部App User IDの設定のサポートを追加 ([#153](https://github.com/box/boxcli/pull/153)) [`d68b61b`](https://github.com/box/boxcli/commit/d68b61b)
 * `js-yaml`を3.13.1に更新 ([#151](https://github.com/box/boxcli/pull/151)) [`13745df`](https://github.com/box/boxcli/commit/13745df)
 
 [`v2.3.0...v2.4.0`](https://github.com/box/boxcli/compare/`v2.3.0...v2.4.0`)
