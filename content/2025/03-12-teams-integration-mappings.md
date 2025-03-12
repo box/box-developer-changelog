@@ -32,4 +32,5 @@ our [developer forum][8] for any help needed.
 [4]: r://post-integration-mappings-teams
 [5]: r://put-integration-mappings-teams-id
 [6]: r://delete-integration-mappings-teams-id
+[7]: g://integration-mappings/teams-mappings/index
 [8]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
