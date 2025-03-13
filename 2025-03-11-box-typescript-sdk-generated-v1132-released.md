@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-03-12-box-java-sdk-v4153-released
 previous_page_id: 2025-03-07-box-typescript-sdk-generated-v1131-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/03-11-box-typescript-sdk-generated-v1132-released.md
@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix `rollup` plugin output directory in Typescript (box/box-codegen[#678][1]) ([#543][2]) ([`f828d5e`][3])
+* Typescriptの`rollup`プラグインの出力ディレクトリを修正 (box/box-codegen[#678][1]) ([#543][2]) ([`f828d5e`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/678
 
