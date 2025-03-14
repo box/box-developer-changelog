@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* trim `content-length` header value ([#1297][1]) ([`fa11d14`][2])
+* `content-length`ヘッダーの値をトリミング ([#1297][1]) ([`fa11d14`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1297
 
