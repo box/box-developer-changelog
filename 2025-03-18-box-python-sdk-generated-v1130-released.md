@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-03-18-box-swift-sdk-generated-061-released
-previous_page_id: 2025-03-12-teams-integration-mappings
+previous_page_id: 2025-03-18-box-dotnet-sdk-generated-v190-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/03-18-box-python-sdk-generated-v1130-released.md
 published_at: '2025-03-18'
