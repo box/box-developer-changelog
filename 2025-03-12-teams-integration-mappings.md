@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-03-18-box-python-sdk-generated-v1130-released
 previous_page_id: 2025-03-12-box-java-sdk-v4153-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/03-12-teams-integration-mappings.md
