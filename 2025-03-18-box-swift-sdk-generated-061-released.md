@@ -27,18 +27,18 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add `verification_phone_number` property to create sign request (box/box-openapi[#515][1]) ([#391][2]) ([`717b3a8`][3])
+* `verification_phone_number`プロパティを追加して署名リクエストを作成 (box/box-openapi[#515][1]) ([#391][2]) ([`717b3a8`][3])
 
 ### 新機能と機能強化
 
-* Add find app item for shared link endpoint (box/box-openapi[#514][4]) ([#390][5]) ([`07b9be5`][6])
-* Add hubs support to `/ai/ask` (box/box-codegen[#656][7]) ([#364][8]) ([`9a49864`][9])
-* Add Integration Mappings Teams API (box/box-openapi[#517][10]) ([#393][11]) ([`b9ed4e3`][12])
-* Expose token storage for authentication classes (box/box-codegen[#682][13]) ([#400][14]) ([`08221e5`][15])
-* Support AI Studio API (box/box-codegen[#626][16]) ([#375][17]) ([`802571d`][18])
-* Support unknown enum values (box/box-codegen[#670][19]) ([#382][20]) ([`8fe7ff4`][21])
-* Support upload with preflight check (box/box-codegen[#676][22]) ([#399][23]) ([`1befb4c`][24])
-* Update `/ai/extract_structured` response schema (box/box-codegen[#641][25]) ([#358][26]) ([`430611a`][27])
+* 共有リンクのアプリ項目を検索するエンドポイントを追加 (box/box-openapi[#514][4]) ([#390][5]) ([`07b9be5`][6])
+* Hubsのサポートを`/ai/ask`に追加 (box/box-codegen[#656][7]) ([#364][8]) ([`9a49864`][9])
+* Teams統合マッピング (リスト) APIを追加 (box/box-openapi[#517][10]) ([#393][11]) ([`b9ed4e3`][12])
+* 認証クラス用のトークンストレージを公開 (box/box-codegen[#682][13]) ([#400][14]) ([`08221e5`][15])
+* AI Studio APIをサポート (box/box-codegen[#626][16]) ([#375][17]) ([`802571d`][18])
+* 不明な列挙値をサポート (box/box-codegen[#670][19]) ([#382][20]) ([`8fe7ff4`][21])
+* 事前チェックを伴うアップロードをサポート (box/box-codegen[#676][22]) ([#399][23]) ([`1befb4c`][24])
+* `/ai/extract_structured`レスポンスのスキーマを更新 (box/box-codegen[#641][25]) ([#358][26]) ([`430611a`][27])
 
 [1]: https://github.com/box/box-swift-sdk-gen/issues/515
 

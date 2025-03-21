@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add `verification_phone_number` property to create sign request (box/box-openapi[#515][1]) ([#503][2]) ([`6d19d19`][3])
+* `verification_phone_number`プロパティを追加して署名リクエストを作成 (box/box-openapi[#515][1]) ([#503][2]) ([`6d19d19`][3])
 
 ### 新機能と機能強化
 
-* Add find app item for shared link endpoint (box/box-openapi[#514][4]) ([#502][5]) ([`fd6c693`][6])
-* Add Integration Mappings Teams API (box/box-openapi[#517][7]) ([#505][8]) ([`d1aa250`][9])
-* Support upload with preflight check (box/box-codegen[#676][10]) ([#515][1]) ([`bb4597e`][11])
+* 共有リンクのアプリ項目を検索するエンドポイントを追加 (box/box-openapi[#514][4]) ([#502][5]) ([`fd6c693`][6])
+* Teams統合マッピング (リスト) APIを追加 (box/box-openapi[#517][7]) ([#505][8]) ([`d1aa250`][9])
+* 事前チェックを伴うアップロードをサポート (box/box-codegen[#676][10]) ([#515][1]) ([`bb4597e`][11])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/515
 
