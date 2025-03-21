@@ -18,7 +18,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-09-18-box-python-sdk-generated-v150-released
-previous_page_id: 2024-09-11-box-typescript-sdk-generated-v160-released
+previous_page_id: 2024-09-16-app-item-associations
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/09-17-box-ai-extract.md
 published_at: '2024-09-17'
