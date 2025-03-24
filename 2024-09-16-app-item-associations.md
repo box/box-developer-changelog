@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2024-09-16'
 fullyTranslated: true
 ---
-# App item associations
+# アプリ項目の関連付け
 
-The [app item associations API][1] allows you to check which app items are connected with a specific file or folder, including the app items associated with ancestors of the file or folder.
+[アプリ項目の関連付けAPI][1]を使用すると、特定のファイルまたはフォルダと関連があるアプリ項目を確認できます。これには、当該ファイルまたはフォルダの先祖に関連付けられているアプリ項目も含まれます。
 
 <!-- more -->
 
-An [app item][2] is a content object owned by an application. It can group files and folders together from different paths. That set can be shared through a collaboration.
+[アプリ項目][2]とは、アプリケーションが所有するコンテンツオブジェクトです。さまざまなパスからファイルやフォルダをまとめてグループ化でき、そのセットは、コラボレーションを利用して共有できます。
 
-An [app item association][3] is a connection between a file or folder and an app item. Associations between a folder and an app item cascade down to all descendants of the folder.
+[アプリ項目の関連付け][3]とは、ファイルやフォルダとアプリ項目のつながりです。フォルダとアプリ項目の関連付けは、そのフォルダのすべての子孫にカスケードされます。
 
 ## サポート情報
 
