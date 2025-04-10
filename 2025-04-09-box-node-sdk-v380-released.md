@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support AI agent ([#887][1]) ([`5b109ad`][2])
+* AIエージェントをサポート ([#887][1]) ([`5b109ad`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/887
 

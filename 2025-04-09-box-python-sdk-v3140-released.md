@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add `stream_file_content` parameter to upload methods ([#890][1]) ([`0e63c00`][2])
+* uploadメソッドに`stream_file_content`パラメータを追加 ([#890][1]) ([`0e63c00`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/890
 
