@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support sensitive data sanitization in errors (box/box-codegen[#695][1]) ([#573][2]) ([`488e76a`][3])
+* エラーの機密データのサニタイズをサポート (box/box-codegen[#695][1]) ([#573][2]) ([`488e76a`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/695
 
