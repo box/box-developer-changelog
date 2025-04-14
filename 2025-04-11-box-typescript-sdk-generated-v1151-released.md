@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix data sanitizer for TypeScript (box/box-codegen[#702][1]) ([#582][2]) ([`eb79c0f`][3])
+* TypeScriptのデータのサニタイズを修正 (box/box-codegen[#702][1]) ([#582][2]) ([`eb79c0f`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/702
 
