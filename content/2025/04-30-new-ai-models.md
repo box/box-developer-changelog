@@ -3,6 +3,7 @@ applied_at: "2025-04-30"
 applies_to:
   - guides
   - api
+  - ai
 is_impactful: true
 is_new_feature: true
 collapse: true
