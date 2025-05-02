@@ -25,14 +25,14 @@ source_url: >-
 published_at: '2025-04-29'
 fullyTranslated: true
 ---
-# Box AI API - new AI models now available
+# Box AI API - 新しく利用可能になったAIモデル
 
-The list of [available AI models][1] has been recently updated with the following models:
+[利用可能なAIモデル][1]のリストが更新され、以下のモデルが追加されました。
 
 * Azure OpenAI GPT-4.1
 * Azure OpenAI GPT-4.1 Mini
-* Gemini 2.5 Pro Preview
-* Gemini 2.5 Flash Preview
+* Gemini 2.5 Proプレビュー
+* Gemini 2.5 Flashプレビュー
 * IBM Llama 4 Scout
 * IBM Llama 3.2 Instruct
 

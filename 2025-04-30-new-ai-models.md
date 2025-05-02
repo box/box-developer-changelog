@@ -25,14 +25,14 @@ source_url: >-
 published_at: '2025-04-30'
 fullyTranslated: true
 ---
-# Box AI API - new AI models now available
+# Box AI API - 新しく利用可能になったAIモデル
 
-The list of [available AI models][1] has been recently updated with the following models:
+[利用可能なAIモデル][1]のリストが更新され、以下のモデルが追加されました。
 
-* Azure OpenAI o3 (beta)
-* Azure OpenAI o4 mini (beta)
-* xAI Grok 3 (beta)
-* xAI Grok 3 mini (beta)
+* Azure OpenAI o3 (ベータ)
+* Azure OpenAI o4 mini (ベータ)
+* xAI Grok 3 (ベータ)
+* xAI Grok 3 mini (ベータ)
 
 **プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままの利用となるため、モデル/出力の品質、可用性、精度にはばらつきがある可能性があります。
 
