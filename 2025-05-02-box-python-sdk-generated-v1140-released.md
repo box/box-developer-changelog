@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### バグ修正
 
-* set default timeouts for requests (box/box-codegen[#707][1]) ([#552][2]) ([`66b87c8`][3])
+* リクエストのデフォルトのタイムアウトを設定 (box/box-codegen[#707][1]) ([#552][2]) ([`66b87c8`][3])
 
 ### 新機能と機能強化
 
-* Add security settings properties on sign template schema (box/box-openapi[#518][4]) ([#543][5]) ([`0a45d21`][6])
-* Support sensitive data sanitization in errors (box/box-codegen[#695][7]) ([#533][8]) ([`abb7b1d`][9])
+* Signテンプレートスキーマにセキュリティ設定のプロパティを追加 (box/box-openapi[#518][4]) ([#543][5]) ([`0a45d21`][6])
+* エラーの機密データのサニタイズをサポート (box/box-codegen[#695][7]) ([#533][8]) ([`abb7b1d`][9])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/707
 
