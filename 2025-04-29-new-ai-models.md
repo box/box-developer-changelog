@@ -31,8 +31,8 @@ fullyTranslated: true
 
 * Azure OpenAI GPT-4.1
 * Azure OpenAI GPT-4.1 Mini
-* Gemini 2.5 Proプレビュー
-* Gemini 2.5 Flashプレビュー
+* Gemini 2.5 Pro Preview
+* Gemini 2.5 Flash Preview
 * IBM Llama 4 Scout
 * IBM Llama 3.2 Instruct
 
