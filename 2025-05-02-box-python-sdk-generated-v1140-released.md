@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-05-13-box-dotnet-sdk-generated-v1100-released
 previous_page_id: 2025-04-30-new-ai-models
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/05-02-box-python-sdk-generated-v1140-released.md
