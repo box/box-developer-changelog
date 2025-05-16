@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* 便利な`UploadWithPreflightCheck`メソッドを追加 (box/box-codegen[#705][1]) ([#469][2]) ([`8dff7bb`][3])
+* `UploadWithPreflightCheck`コンビニエンスメソッドを追加 (box/box-codegen[#705][1]) ([#469][2]) ([`8dff7bb`][3])
 * AIエージェントの警告を追加し、より多くの種類のメタデータ値を許可 (box/box-openapi[#520][4]) ([#474][5]) ([`a53cff5`][6])
 * Signテンプレートスキーマにセキュリティ設定のプロパティを追加 (box/box-openapi[#518][7]) ([#462][8]) ([`7fddaea`][9])
 * AI APIにIBMモデルのサポートを追加 (box/box-openapi[#522][10]) ([#475][11]) ([`a187301`][12])
