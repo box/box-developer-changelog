@@ -22,11 +22,11 @@ source_url: >-
 published_at: '2024-08-06'
 fullyTranslated: true
 ---
-# Box CLI `v3.15.0`のリリース
+# Box CLI `v3.15.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* Box Node SDKの使用でAI APIをサポート ([#539][1]) ([`59551d2`][2])
+* Support AI APIs using Box Node SDK ([#539][1]) ([`59551d2`][2])
 
 [1]: https://github.com/box/boxcli/issues/539
 

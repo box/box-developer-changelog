@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-11-04'
 fullyTranslated: true
 ---
-# Box Python SDK Generated `v1.7.0`のリリース
+# Box Python SDK Generated `v1.7.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* IDを指定してコレクションを取得エンドポイントをサポート (box/box-codegen[#595][1]) ([#366][2]) ([`1db5722`][3])、[#355][4]をクローズ
+* Support get collection by ID endpoint (box/box-codegen[#595][1]) ([#366][2]) ([`1db5722`][3]), closes [#355][4]
 
 [1]: https://github.com/box/box-codegen/issues/595
 

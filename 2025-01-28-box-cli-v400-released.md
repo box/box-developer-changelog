@@ -22,21 +22,21 @@ source_url: >-
 published_at: '2025-01-28'
 fullyTranslated: true
 ---
-# Box CLI `v4.0.0`のリリース
+# Box CLI `v4.0.0` released
 
-### ⚠ 重大な変更
+### ⚠ BREAKING CHANGES
 
-* 古いNodeバージョンのサポートを終了し、TypeScript SDKを統合 ([#548][1])
+* Drop support old Node version and integrate typescript SDK ([#548][1])
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 古いNodeバージョンのサポートを終了し、TypeScript SDKを統合 ([#548][1]) ([`22179ec`][2])
-* Boxログイン用のブラウザのIncognitoオプション ([#561][3]) ([`a666766`][4])
-* `@oclif/command`を`@oclif/core`ライブラリに置き換え ([#553][5]) ([`aed470b`][6])
+* Drop support old Node version and integrate typescript SDK ([#548][1]) ([`22179ec`][2])
+* Incognito browser option for box login ([#561][3]) ([`a666766`][4])
+* Replace `@oclif/command` to `@oclif/core` library ([#553][5]) ([`aed470b`][6])
 
-### バグ修正
+### Bug Fixes
 
-* CCG認証およびOAuthに対する環境の`defaultAsUserId`の使用を考慮 ([#554][7]) ([`b3a691e`][8])
+* Respect using environment `defaultAsUserId` for CCG Auth and OAuth ([#554][7]) ([`b3a691e`][8])
 
 [1]: https://github.com/box/boxcli/issues/548
 

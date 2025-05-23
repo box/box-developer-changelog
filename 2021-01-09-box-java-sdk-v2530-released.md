@@ -23,10 +23,10 @@ source_url: >-
 published_at: '2021-01-09'
 fullyTranslated: true
 ---
-# Box Java SDK `v2.53.0`のリリース
+# Box Java SDK `v2.53.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* `BoxFolder.getChildren`へのオフセットおよび制限パラメータの追加 ([#861][1])
+* Add offset and limit parameters to `BoxFolder.getChildren` ([#861][1])
 
 [1]: https://github.com/box/box-java-sdk/pull/861

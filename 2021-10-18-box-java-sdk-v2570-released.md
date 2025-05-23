@@ -23,19 +23,20 @@ source_url: >-
 published_at: '2021-10-18'
 fullyTranslated: true
 ---
-# Box Java SDK `v2.57.0`のリリース
+# Box Java SDK `v2.57.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* `BoxFolder.getChildren`でのマーカーベースのページ割りのサポートを追加 ([#927][1])
-* `minimal-json`をバージョン0.9.5にアップグレード
-* `jose4j`をバージョン0.7.9にアップグレード
-* バージョン4.0.1にGradleラッパーを追加 ([#928][2])
+* Add support for marker-based paging in `BoxFolder.getChildren` ([#927][1])
+* Upgraded `minimal-json` to version 0.9.5
+* Upgraded `jose4j` to version 0.7.9
+* Adding Gradle wrapper in version 4.0.1 ([#928][2])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* 無限再帰の修正 ([#924][3])
-* `BoxFile`および`BoxFolder`の`BoxSharedLink`にバニティURLを設定できないバグの修正 ([#925][4])
+* Fix for infinite recursion ([#924][3])
+* Fix unable to set Vanity URL on `BoxSharedLink` for `BoxFile` and `BoxFolder`
+  ([#925][4])
 
 [1]: https://github.com/box/box-java-sdk/pull/927
 

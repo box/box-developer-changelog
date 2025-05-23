@@ -23,16 +23,17 @@ source_url: >-
 published_at: '2020-11-24'
 fullyTranslated: true
 ---
-# Box Java SDK `v2.52.0`のリリース
+# Box Java SDK `v2.52.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* フォルダロック機能を追加 ([#856][1])
-* 共有リンク項目を取得するための検索パラメータのサポートを追加 ([#855][2])
+* Add folder lock functionality ([#856][1])
+* Add support for search parameter to get shared link
+  items ([#855][2])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* 追跡コードを更新する際のバグを修正 ([#857][3])
+* Fix bug with updating tracking codes ([#857][3])
 
 [1]: https://github.com/box/box-java-sdk/pull/856
 

@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-08-03'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.2.1`のリリース
+# Box Java SDK `v4.2.1` released
 
-### バグ修正
+### Bug Fixes
 
-* 動的ソースからのデータである場合のアップロードを修正 ([#1189][1]) ([`77b39f2`][2])、[#1183][3] [#1190][4]をクローズ
+* Fixed upload when data are coming from a dynamic source ([#1189][1]) ([`77b39f2`][2]), closes [#1183][3] [#1190][4]
 
 [1]: https://github.com/box/box-java-sdk/issues/1189
 

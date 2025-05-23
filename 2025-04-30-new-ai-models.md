@@ -25,24 +25,26 @@ source_url: >-
 published_at: '2025-04-30'
 fullyTranslated: true
 ---
-# Box AI API - 新しく利用可能になったAIモデル
+# Box AI API - new AI models now available
 
-[利用可能なAIモデル][1]のリストが更新され、以下のモデルが追加されました。
+The list of [available AI models][1] has been recently updated with the following models:
 
-* Azure OpenAI o3 (ベータ)
-* Azure OpenAI o4 mini (ベータ)
-* xAI Grok 3 (ベータ)
-* xAI Grok 3 mini (ベータ)
+* Azure OpenAI o3 (beta)
+* Azure OpenAI o4 mini (beta)
+* xAI Grok 3 (beta)
+* xAI Grok 3 mini (beta)
 
-**プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままでの利用となるため、モデル/出力の品質、可用性、精度にはばらつきがある可能性があります。
+Models offered in **Preview** mode have not been fully performance-tested at scale and are made available on an as-is basis. You may experience variability in model/output quality, availability, and accuracy.
 
-提供されているモデルを使用して、AIエージェントの構成で使用されている[デフォルトモデルを上書き][2]できます。Box AI APIの詳細については、[ガイド][3]と[APIリファレンス][4]を参照してください。
+You can use the provided models to [override the default model][2] used in the AI agent configuration.
+For further details on Box AI API, see the [guides][3] and [API reference][4].
 
 <!-- more -->
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][5]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][5] for any help needed.
 
 [1]: https://developer.box.com/guides/box-ai/supported-models/
 

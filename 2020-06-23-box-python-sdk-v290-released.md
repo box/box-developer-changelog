@@ -23,7 +23,7 @@ source_url: >-
 published_at: '2020-06-23'
 fullyTranslated: true
 ---
-# Box Python SDK `v2.9.0`のリリース
+# Box Python SDK `v2.9.0` released
 
-* OAuthの例外処理を修正
-* パスパラメータのサニタイズを修正
+* Fix exception handling for OAuth
+* Fix path parameter sanitization

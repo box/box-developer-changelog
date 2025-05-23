@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-09-25'
 fullyTranslated: true
 ---
-# Box Windows SDK `v5.6.0`のリリース
+# Box Windows SDK `v5.6.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* 署名リクエストで`iframeable_embed_url`をサポート ([#925][1]) ([`e9de994`][2])
+* Support `iframeable_embed_url` for sign request ([#925][1]) ([`e9de994`][2])
 
 <https://www.nuget.org/packages/Box.V2/5.6.0>
 

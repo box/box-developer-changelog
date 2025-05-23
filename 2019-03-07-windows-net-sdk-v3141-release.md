@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2019-03-07'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.14.1`のリリース
+# Windows .NET SDK `v3.14.1` released
 
-* サンプルファイルから不要な`package.config`が削除されました。
+* Removed unnecessary `package.config` from sample files.
 
 [`nuget.org/packages/Box.V2/3.14.1`](https://www.nuget.org/packages/Box.V2/3.14.1)
 [`nuget.org/packages/Box.V2.Core/3.14.1`](https://www.nuget.org/packages/Box.V2.Core/3.14.1)

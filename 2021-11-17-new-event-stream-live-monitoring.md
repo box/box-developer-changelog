@@ -23,25 +23,35 @@ source_url: >-
 published_at: '2021-11-17'
 fullyTranslated: true
 ---
-# `stream_type`をライブで監視する新しいイベントストリーム
+# New Event Stream Live Monitoring `stream_type`
 
-`admin_logs_streaming`という[`GET /events`][event-api] API用に新しい`stream_type`をリリースしました。これにより、Boxで発生したイベントをほぼリアルタイムで監視できるようになります。
+Today, we released a new `stream_type` for the [`GET /events`][event-api]
+API called `admin_logs_streaming`. This allows for near real time monitoring of
+events after they happen in Box.
 
 <!-- more -->
 
-`admin_logs`を使用してライブイベントを登録しているアプリケーションは、最も低く一貫性のあるレイテンシを実現するために、`admin_logs_streaming`に移行することをお勧めします。この`stream_type`を使用するには、ユーザーは、**新規レポートの実行および既存レポートへのアクセスを行う**ための権限を持つEnterprise管理者または共同管理者である必要があります。
+We recommend that applications subscribing to live events through `admin_logs`
+migrate to `admin_logs_streaming` for the lowest and most consistent latency.
+This `stream_type` requires the user to be an enterprise admin or co-admin with
+the permission to **Run new reports and access existing reports**.
 
-## 更新内容
+## Updates
 
-この新しいオプションについて説明するために、ドキュメントを更新しました。
+We have made several documentation updates to help you learn about the new option
 
-* わかりやすくするために[イベント][event-guide]ガイドを全面的に再編しました (各種セクションのすべてのページへの情報の追加を含む)
-* [`GET /events`][event-api]エンドポイントに関するOpenAPIの仕様を更新して、`admin_logs_streaming`の新しい`stream_type`オプションを含めました
-* 切り替え時の手順を含め、[`stream_type`ページ][migration]の新しい移行方法を追加しました
+* Completely reorganized the [events][event-guide] guide section for
+  easier understanding, including adding additional information to all pages
+  in the various sections
+* Updated the OpenAPI specification for the [`GET /events`][event-api] endpoint
+  to include the new `stream_type` option of `admin_logs_streaming`
+* Added a new how to migrate [`stream_type` page][migration] with steps
+  on switching
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][forum] for any help needed.
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

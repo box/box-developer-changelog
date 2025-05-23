@@ -23,19 +23,20 @@ source_url: >-
 published_at: '2022-05-12'
 fullyTranslated: true
 ---
-# 署名リクエストへの新しいフィールドの追加
+# New Field Added to Sign Requests
 
-Box Signのリクエストのレスポンスオブジェクトに、新しいフィールド`content_type`が含まれるようになりました。このフィールドは、署名者の入力用に選択された`input`の`type`に想定されるコンテンツタイプを識別します。
+Box Sign request response objects now include a new field - `content_type`. This field identifies the type of content expected for the `type` of `input` selected for the signer to complete.
 
 <!-- more -->
 
-## 更新内容
+## Updates
 
-* [署名リクエストのレスポンスオブジェクト][2]に新しいフィールド`content_type`を追加
+* Added new field `content_type` to the [sign request response object][2]
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1].
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

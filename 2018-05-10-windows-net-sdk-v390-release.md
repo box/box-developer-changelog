@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2018-05-10'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.9.0`のリリース
+# Windows .NET SDK `v3.9.0` released
 
-* ストレージポリシーのサポートを追加
+* Added support for Storage Policies
 
 [`nuget.org/packages/Box.V2/3.9.0`](https://www.nuget.org/packages/Box.V2/3.9.0)
 [`nuget.org/packages/Box.V2.Core/3.9.0`](https://www.nuget.org/packages/Box.V2.Core/3.9.0)

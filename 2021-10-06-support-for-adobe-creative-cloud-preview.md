@@ -24,18 +24,19 @@ source_url: >-
 published_at: '2021-10-06'
 fullyTranslated: true
 ---
-# Adobe Creative Cloudプレビューのサポート
+# Support for Adobe Creative Cloud Previews
 
-ウェブアプリプレビューとの連携で、Adobe Photoshop、Illustrator、およびInDesignのファイルがAPIでサポートされるようになりました。
+In conjunction with WebApp preview, Adobe Photoshop, Illustrator,
+and InDesign files are now supported via API.
 
-## 更新内容
+## Updates
 
-拡張子が`indt`、`idml`、`indd`、`inx`のファイルは、以下の機能でサポートされます。
+Files with extensions `indt`, `idml`, `indd`, and `inx` are supported by:
 
-* [サムネイル][thumb]
-* [画像ビューアーUI Element][ui-el]
-* [注釈][ann]
-* [サムネイルレプリゼンテーション][thumb-rep]
+* [Thumbnails][thumb]
+* [Image Viewer UI Element][ui-el]
+* [Annotations][ann]
+* [Thumbnail Representation][thumb-rep]
 
 [thumb]: g://representations/thumbnail
 

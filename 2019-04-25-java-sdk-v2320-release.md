@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-04-25'
 fullyTranslated: true
 ---
-# Java SDK `v2.32.0`のリリース
+# Java SDK `v2.32.0` released
 
-1. メタデータ設定をサポート ([#697](https://github.com/box/box-java-sdk/pull/697))
+1. Support for Set Metadata ([#697](https://github.com/box/box-java-sdk/pull/697))

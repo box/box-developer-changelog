@@ -23,19 +23,19 @@ source_url: >-
 published_at: '2024-05-22'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.10.0`のリリース
+# Box Python SDK `v3.10.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 安定したステータスに移行 ([#872][1]) ([`6203606`][2])
+* Transition to stable status ([#872][1]) ([`6203606`][2])
 
-### バグ修正
+### Bug Fixes
 
-* 位置ヘッダーが存在しない場合の例外タイプを変更 ([#871][3]) ([`8c5e0ec`][4])
-* OAuthの`access_token`の注釈を修正 ([#855][5]) ([`804780e`][6])
-* リテンションポリシー統合テストを修正 ([#867][7]) ([`8e0d640`][8])
-* 分類の削除に関する記述を削除 ([#861][9]) ([`393cfef`][10])
-* 例外ファイル取得のダウンロードURLを更新 ([#866][11]) ([`94dcbcd`][12])
+* Change exception type for missing location header ([#871][3]) ([`8c5e0ec`][4])
+* fix annotation of oauths `access_token` ([#855][5]) ([`804780e`][6])
+* Fix retention policy integration test ([#867][7]) ([`8e0d640`][8])
+* Remove delete classification ([#861][9]) ([`393cfef`][10])
+* Update exception file get download URL ([#866][11]) ([`94dcbcd`][12])
 
 [1]: https://github.com/box/box-python-sdk/issues/872
 

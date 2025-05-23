@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2018-09-27'
 fullyTranslated: true
 ---
-# Java SDK `v2.23.2`のリリース
+# Java SDK `v2.23.2` released
 
-1. バッチヘッダーのパッチ ([#649](https://github.com/box/box-java-sdk/pull/649))
+1. Batch headers patch ([#649](https://github.com/box/box-java-sdk/pull/649))

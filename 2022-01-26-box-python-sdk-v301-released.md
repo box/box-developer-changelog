@@ -23,10 +23,10 @@ source_url: >-
 published_at: '2022-01-26'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.0.1`のリリース
+# Box Python SDK `v3.0.1` released
 
-**バグ修正:**
+**Bug Fixes:**
 
-* sphinxをテスト要件に移動 ([#662][1])
+* Move sphinx to test requirements ([#662][1])
 
 [1]: https://github.com/box/box-python-sdk/pull/662

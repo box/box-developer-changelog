@@ -23,18 +23,18 @@ source_url: >-
 published_at: '2024-01-16'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.7.0`のリリース
+# Box Java SDK `v4.7.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 署名者用に`signer_group_id`を署名リクエストに追加 ([#1220][1]) ([`f560db8`][2])
-* `BouncyCastle`をv.`1.70`にアップグレード
-  > **注**: `BouncyCastle`の新しいバージョンはFIPSとの互換性がありません。
-* `IPrivateKeyDecryptor`を導入し、カスタム暗号化プロバイダの使用を許可 ([#1226][3]) ([`727e6d7`][4])
+* Add `signer_group_id` for signer in sign request ([#1220][1]) ([`f560db8`][2])
+* Upgrade `BouncyCastle` to v.`1.70`.
+  > **NOTE**: A new `BouncyCastle` version is not compliant with FIPS.
+* Introduce `IPrivateKeyDecryptor` to allow using custom cryptography provider ([#1226][3]) ([`727e6d7`][4])
 
-### バグ修正
+### Bug Fixes
 
-* 分類の削除に関する記述を削除 ([#1222][5]) ([`9814038`][6])
+* Remove delete classification ([#1222][5]) ([`9814038`][6])
 
 [1]: https://github.com/box/box-java-sdk/issues/1220
 

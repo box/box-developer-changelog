@@ -22,13 +22,15 @@ source_url: >-
 published_at: '2023-04-25'
 fullyTranslated: true
 ---
-# ファイルのアップロードAPIの更新
+# Updates to File Upload API
 
-[ファイルのアップロードAPI][1]とダウンスコープされたトークンを使用してファイルをアップロードする際にセキュリティの脆弱性が生じる可能性があることを受け、親フォルダIDが見つかっても、リクエスト送信者にアクセス権限がない場合に、404エラーを返すようにファイルのアップロードAPIを更新します。
+In response to a potential security vulnerability while uploading a file using [Upload File API][1] and downscoped token,
+we’re updating the Upload File API to return a 404 error in scenarios where the parent Folder ID is found, but the requester does not have permissions to access it.
 
-# サポート情報
+# Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][2] for any help needed.
 
 [1]: g://uploads/direct
 

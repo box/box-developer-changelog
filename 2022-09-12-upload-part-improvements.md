@@ -23,17 +23,21 @@ source_url: >-
 published_at: '2022-09-12'
 fullyTranslated: true
 ---
-# 分割アップロードに関するガイドの改善
+# Improved Guides on Chunked Uploads
 
-複数の大きいファイルの分割アップロードのエクスペリエンスを改善するため、プロセスの詳細と、各手順の例をガイドに追加しました。
+To improve your experience with uploading large files in chunks,
+our guides now provide additional details on the process
+and support each step with examples.
 
 <!-- more -->
 
-[Box API][3]を使用して効果的にファイルを分割し、複数のパーツでアップロードする方法の詳細については、[パーツのアップロードガイド][2]を確認してください。
+Check out the [Upload Part guide][2] a to get the details on how to
+effectively split files and upload them in several parts using [Box API][3].
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

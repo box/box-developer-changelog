@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-01-03'
 fullyTranslated: true
 ---
-# Java SDK `v2.25.1`のリリース
+# Java SDK `v2.25.1` released
 
-1. `bouncycastle`と`jose4j`の依存関係のアップグレード ([#669](https://github.com/box/box-java-sdk/pull/669))
+1. dependency upgrade for `bouncycastle` and `jose4j` ([#669](https://github.com/box/box-java-sdk/pull/669))

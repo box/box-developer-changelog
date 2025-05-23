@@ -24,6 +24,6 @@ source_url: >-
 published_at: '2018-06-18'
 fullyTranslated: true
 ---
-# Box Android SDK `v4.2.0`のリリース
+# Box Android SDK `v4.2.0` released
 
-このバージョンは、TLS 1.0のサポート終了後に16台以上のデバイスをサポートすることを目的としています。
+This version is to provide support for 16+ devices once TLS 1.0 is deprecated.

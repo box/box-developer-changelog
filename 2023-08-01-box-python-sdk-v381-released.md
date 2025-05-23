@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-08-01'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.8.1`のリリース
+# Box Python SDK `v3.8.1` released
 
-### バグ修正
+### Bug Fixes
 
-* JSONレスポンス検証の再試行戦略を修正 ([#831][1]) ([`69834eb`][2])
+* Fix JSON response validation retry strategy ([#831][1]) ([`69834eb`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/831
 

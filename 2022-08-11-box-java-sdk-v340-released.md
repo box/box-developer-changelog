@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2022-08-11'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.4.0`のリリース
+# Box Java SDK `v3.4.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 新しい`BoxTrash#items` APIでごみ箱内の項目を取得する際のページ割り機能を追加 ([#1072][1]) ([`9cd411d`][2])
+* Added pagination for getting items in trash with new `BoxTrash#items` API ([#1072][1]) ([`9cd411d`][2])
 
-### バグ修正
+### Bug Fixes
 
-* 本文の書き込みをバッファリングし、SDKログを修正 ([#1079][3]) ([`bc35ef3`][4])
+* buffered body write and fixed SDK logging ([#1079][3]) ([`bc35ef3`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1072
 

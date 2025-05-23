@@ -23,11 +23,16 @@ source_url: >-
 published_at: '2020-11-17'
 fullyTranslated: true
 ---
-# クライアント資格情報許可による認証のお知らせ
+# Announcing Client Credentials Grant authentication
 
 <!-- more -->
 
-JWTアプリケーションの新しい認証方法がリリースされました。この新しい方法であるクライアント資格情報許可は、既存のアプリケーションに影響を及ぼすことはありませんが、新しいアプリに対してより簡単な認証方法を提供します。これまで、アプリケーションのIDを確認してアクセストークンを取得するために公開/秘密キーペアとアサーションが必要でしたが、クライアントIDとクライアントシークレットだけでトークンをリクエストできるようになりました。
+A new method for authenticating your JWT applications is now released.
+This new method, Client Credentials Grant, does not impact existing applications
+but offers an easier way to authenticate for new apps. Prior to today, we
+required a public/private key pair and assertion to verify an application’s
+identity and retrieve an Access Token. Now, you can request a token using only
+your client ID and client secret.
 
 ```cURL
 curl --location --request POST ‘https://api.box.com/oauth2/token’ \
@@ -39,13 +44,13 @@ curl --location --request POST ‘https://api.box.com/oauth2/token’ \
 --data-urlencode ‘box_subject_id=<enterprise_id>’
 ```
 
-詳細については、Boxの[ガイド][guide]を参照してください。
+For further information, please visit our [guide][guide].
 
-## 更新内容
+## Updates
 
-* 新しいアプリケーション用の認証オプションとしてクライアント資格情報許可を追加しました
-* クライアントシークレットのコピー/表示に2要素認証の要件を追加しました
-* Enterpriseの承認リクエストに選択した認証方法を追加しました
-* 認証タイプを変更する機能を削除しました
+* Added client credentials grant as an auth option for new applications
+* Added 2FA requirement to copy/view client secret
+* Added selected authentication method in the Enterprise Authorization request
+* Removed the ability to change authentication type
 
 [guide]: g://authentication/jwt/without-sdk/#client-credentials-grant

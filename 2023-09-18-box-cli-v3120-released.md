@@ -22,11 +22,11 @@ source_url: >-
 published_at: '2023-09-18'
 fullyTranslated: true
 ---
-# Box CLI `v3.12.0`のリリース
+# Box CLI `v3.12.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* Signテンプレートをサポート ([#496][1]) ([`955106f`][2])
+* Support sign templates ([#496][1]) ([`955106f`][2])
 
 [1]: https://github.com/box/boxcli/issues/496
 

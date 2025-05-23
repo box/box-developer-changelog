@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2024-10-17'
 fullyTranslated: true
 ---
-# Box Dotnet SDK Generated `v1.3.0`のリリース
+# Box Dotnet SDK Generated `v1.3.0` released
 
-### バグ修正
+### Bug Fixes
 
-* `system.text.json`を8.0.5に昇格 (box/box-codegen[#578][1]) ([#271][2]) ([`dad2f52`][3])
+* bump `system.text.json` to 8.0.5 (box/box-codegen[#578][1]) ([#271][2]) ([`dad2f52`][3])
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* プロキシをサポート (box/box-codegen[#564][4]) ([#253][5]) ([`dea1937`][6])
+* support proxy (box/box-codegen[#577][4]) ([#274][5]) ([`dea1937`][6])
 
 [1]: https://github.com/box/box-codegen/issues/578
 

@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2021-07-30'
 fullyTranslated: true
 ---
-# Box Java SDK `v2.55.1`のリリース
+# Box Java SDK `v2.55.1` released
 
-**バグ修正:**
+**Bug Fixes:**
 
-* [#890][1]で削除されたメタデータクエリ実行の方式を復元し、非推奨としてマーク ([#905][2])
+* Restore methods for Execute Metadata Query, which were removed in [#890][1], and mark them as deprecated ([#905][2])
 
 [1]: https://github.com/box/box-java-sdk/pull/890
 

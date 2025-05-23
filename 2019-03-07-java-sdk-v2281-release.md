@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-03-07'
 fullyTranslated: true
 ---
-# Java SDK `v2.28.1`のリリース
+# Java SDK `v2.28.1` released
 
-1. `BoxMetadataCascadePolicy.forceApply()`の`BoxAPIResponse`でのレスポンスの間違ったキャスト ([#685](https://github.com/box/box-java-sdk/pull/685))
+1. Wrong casting for response in `BoxAPIResponse` for `BoxMetadataCascadePolicy.forceApply()` ([#685](https://github.com/box/box-java-sdk/pull/685))

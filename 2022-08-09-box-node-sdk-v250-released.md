@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2022-08-09'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.5.0`のリリース
+# Box Node SDK `v2.5.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* ユーザーアバターの更新と削除のサポートを追加 ([#744][1]) ([`aaf6175`][2])
+* Added support update and remove user avatar ([#744][1]) ([`aaf6175`][2])
 
-### バグ修正
+### Bug Fixes
 
-* OAuthを使用してトークンを生成する際のエラーを修正 ([#750][3]) ([`f826291`][4])、[#286][5]をクローズ
-* テストファイルのlintエラーを修正 ([#747][6]) ([`3b1e10d`][7])
+* Fix error while generate token using OAuth ([#750][3]) ([`f826291`][4]), closes [#286][5]
+* Fix lint error in test file ([#747][6]) ([`3b1e10d`][7])
 
 [1]: https://github.com/box/box-node-sdk/issues/744
 

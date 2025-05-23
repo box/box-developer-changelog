@@ -20,11 +20,17 @@ source_url: >-
 published_at: '2019-09-18'
 fullyTranslated: true
 ---
-# トークン無効化のための新しいセキュリティ強化
+# New security enhancements for token revocation
 
-[トークン無効化](endpoint://post-oauth2-revoke/)エンドポイントの機能が強化され、[ダウンスコープされたトークン][downscope]を有効期限が切れる前に無効化できるようになりました。この更新の前は、/revokeエンドポイントを使用して、完全スコープのアクセストークンのみ無効化することができました。この新しい拡張機能により、完全スコープのアクセストークンに加えて、ダウンスコープされたトークンも無効化できるようになりました。
+We have enhanced the capabilities of the [token
+revocation](endpoint://post-oauth2-revoke/) endpoint to permit
+[downscoped tokens][downscope] to be
+revoked prior to their expiration time. Previous to this update only fully
+scoped access tokens could be revoked through the /revoke endpoint. With this
+new enhancement downscoped tokens may now be revoked in addition to the fully
+scoped access tokens.
 
-詳細については[こちら][blog_token_revocation]を参照してください。
+More information is available [here][blog_token_revocation].
 
 [blog_token_revocation]: https://medium.com/box-developer-blog/new-security-enhancements-for-revoking-access-tokens-79b9960a7ce2
 

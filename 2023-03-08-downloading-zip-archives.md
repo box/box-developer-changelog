@@ -23,13 +23,15 @@ source_url: >-
 published_at: '2023-03-08'
 fullyTranslated: true
 ---
-# Box APIを使用したZIPアーカイブのダウンロード
+# Downloading ZIP Archives with Box API
 
-最近リリースされた[ガイド][1]で、大量のデータのダウンロードについて説明しています。Box APIを使用して、ファイル、フォルダ、またはその両方を含むZIPアーカイブを[作成][2]および[ダウンロード][3]できます。
+A recently released [guide][1] helps you to download large amount of data.
+Use Box API to [create][2] and [download][3] ZIP archives containing files, folders, or both.
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][4]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][4] for any help needed.
 
 [1]: g://downloads/zip-archive
 

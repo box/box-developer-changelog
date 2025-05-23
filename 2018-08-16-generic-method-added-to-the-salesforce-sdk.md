@@ -21,9 +21,18 @@ source_url: >-
 published_at: '2018-08-16'
 fullyTranslated: true
 ---
-# Salesforce SDKに汎用メソッドを追加
+# Generic method added to the Salesforce SDK
 
-Box for Salesforce Developer Toolkitは、パラメータとして[`HttpRequest`][salesforce_sdk_httprequest]オブジェクトを受け取り、[`HttpResponse`][salesforce_sdk_httpresponse]オブジェクトを返すグローバルメソッド`sendRequest`を提供するようになりました。このメソッドは、サービスアカウントの認証の詳細を使用してBoxのAPIを呼び出すため、統合のビジネスロジックの組み込みに集中することができます。追加されたメソッドの詳細については、Salesforce Developer ToolkitドキュメントのBoxメタデータサイドバーの[メソッドの詳細](guide://tooling/sdks/salesforce)および[サンプルコード](guide://tooling/sdks/salesforce)を参照してください。
+The Box for Salesforce Developer Toolkit now provides a global method,
+`sendRequest` that accepts an [`HttpRequest`][salesforce_sdk_httprequest]
+object as a parameter and returns an
+[`HttpResponse`][salesforce_sdk_httpresponse]
+object. This method will use the authentication details of the Service
+Account to make calls to Box's APIs, allowing you to focus on incorporating
+the business logic of your integration. For more details about the added
+method, please see the [method details](guide://tooling/sdks/salesforce)
+and [sample code](guide://tooling/sdks/salesforce)
+in the Box metadata sidebar for Salesforce Developer Toolkit documentation.
 
 [salesforce_sdk_httprequest]: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_httprequest.htm
 

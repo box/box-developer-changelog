@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-08-30'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.5.1`のリリース
+# Box TypeScript SDK Generated `v1.5.1` released
 
-### バグ修正
+### Bug Fixes
 
-* インターセプタのfetchオプションを修正 (box/box-codegen[#556][1]) ([#326][2]) ([`3751eea`][3])
+* Fix fetch options with interceptor (box/box-codegen[#556][1]) ([#326][2]) ([`3751eea`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/556
 

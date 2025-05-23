@@ -23,30 +23,30 @@ source_url: >-
 published_at: '2021-11-02'
 fullyTranslated: true
 ---
-# Box Windows SDK `v4.0.0`のリリース
+# Box Windows SDK `v4.0.0` released
 
-**重要な変更:**
+**Breaking changes:**
 
-* BoxClientおよびマネージャのインターフェースを抽出し、テスタビリティを改善 ([#603][1])
-* BoxConfigBuilderを追加し、BoxConfigを変更不可に設定 ([#737][2])
-* 非同期メソッドからタスクを公開 ([#742][3])
-* DateTimeの代わりにDateTimeOffsetを使用 ([#749][4])
-* 返された例外を修正 ([#753][5])
-* .NET Standardを2.0にアップグレード ([#755][6])
+* Extract interfaces for BoxClient and Managers to improve testability ([#603][1])
+* Add BoxConfigBuilder and make BoxConfig immutable ([#737][2])
+* Expose tasks from async methods ([#742][3])
+* Use DateTimeOffset instead of DateTime ([#749][4])
+* Rework returned exceptions ([#753][5])
+* Upgrade .NET Standard to 2.0 ([#755][6])
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* 割り当てのリテンションの対象となるファイルおよびファイルバージョンを取得する機能を追加 ([#734][7])
-* `Folder`の更新のために`is_collaboration_restricted_to_enterprise`フラグのサポートを追加 ([#732][8])
-* 不適切な用語の変更 ([#738][9])
-* サービス利用規約のユーザーステータスの作成用に使いやすくなった新しいメソッドを追加 ([#740][10])
-* ごみ箱内の項目を取得する際に並べ替えと方向のパラメータを渡すことを許可 ([#754][11])
-* タスクのcompletion_ruleフィールドのサポートを追加 ([#758][12])
-* BoxSign APIのサポートを追加 ([#765][13])
+* Add ability to get files under retention for assignment and file versions under retention for assignment ([#734][7])
+* Add `is_collaboration_restricted_to_enterprise` flag support for `Folder` update ([#732][8])
+* Replace insensitive language ([#738][9])
+* Add new, easier to use method for create terms of service user status ([#740][10])
+* Allow sort and direction parameter to be passed in when getting trashed items ([#754][11])
+* Add support for Task completion_rule field ([#758][12])
+* Add BoxSign API support ([#765][13])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* アップロード時の`Cannot access a closed Stream.Request`例外を修正 ([#739][14]) ([#757][15])
+* Fix `Cannot access a closed Stream.Request` exception during upload ([#739][14]) ([#757][15])
 
 <https://www.nuget.org/packages/Box.V2/4.0.0>
 

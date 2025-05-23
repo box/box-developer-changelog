@@ -23,19 +23,19 @@ source_url: >-
 published_at: '2024-02-06'
 fullyTranslated: true
 ---
-# Box Signの使用
+# Working with Box Sign
 
-Boxでは、専用リソースページとして[Box Signの使用][1]を新しくリリースしました。この総合的なガイドは、開発者が自分のアプリケーションにBox Signをシームレスに統合できるようにすることを目的としており、この強力な電子サインソリューションを最大限に活用するためのツールや知識を提供します。
+We are thrilled to announce the release of our new dedicated resource page [Working with the Box Sign API][1]. This comprehensive guide is designed to help you seamlessly integrate Box Sign into your applications, providing you with the tools and knowledge to make the most out of this powerful e-signature solution.
 
 <!-- more -->
 
-## 目次
+## Table of content
 
-* [クイックスタート][2]
-* [技術的なユースケース][3]
-* [署名リクエストのオプション][4]
-* [Webhook][5]
-* [ワークショップ][6]
+* [Quick start][2]
+* [Technical use cases][3]
+* [Signature request options][4]
+* [Webhooks][5]
+* [Workshops][6]
 
 [1]: https://developer.box.com/sign/
 

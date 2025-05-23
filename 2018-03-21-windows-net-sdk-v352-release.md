@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2018-03-21'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.5.2`のリリース
+# Windows .NET SDK `v3.5.2` released
 
-.NET Coreパッケージを修正
+Fix .NET Core package
 
 [`nuget.org/packages/Box.V2/3.5.2`](https://www.nuget.org/packages/Box.V2/3.5.2)
 [`nuget.org/packages/Box.V2.Core/3.5.2`](https://www.nuget.org/packages/Box.V2.Core/3.5.2)

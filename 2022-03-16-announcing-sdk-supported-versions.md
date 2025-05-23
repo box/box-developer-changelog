@@ -30,19 +30,26 @@ source_url: >-
 published_at: '2022-03-16'
 fullyTranslated: true
 ---
-# SDKのサポート対象バージョンのお知らせ
+# Announcing SDK Supported Versions
 
-日本時間2022年7月31日以降、サポートされるSDKは最新の**メジャー**バージョンのみになります。新機能、バグ修正、セキュリティ更新は、最新の**メジャー**バージョンのみに追加されます。
+Starting July 30 2022, only the current **major** version of a SDK will be supported. New features,
+functionality, bug fixes, and security updates will only be added to the
+current **major** version.
 
 <!-- more -->
 
-最新のリリースは、SDK開発の最先端を進んでいるため、積極的に開発に取り組み、最新の優れた機能を求めているお客様向けです。Boxでは、新機能のリリース日を指定するのではなく、修正したマイナーリリースやパッチリリースの周期を最大2～3か月に設定しました (ただし、リリースの頻度は高くなる可能性もあります)。それに加えて、メジャーリリースまたは重大なリリースのスケジュールはありません。代わりに、お客様がアップグレードを計画できるように、今後予定されている重大な変更について1四半期前にお知らせする予定です。使用しているメジャーバージョンが何であっても、すべてのユーザーが入手可能な最新のマイナーリリースを実行することを常にお勧めしています。また、正式サポートが終了する前の都合がよいタイミングで最新のSDKメジャーバージョンにアップグレードすることを強くお勧めします。
+A current release is on the leading edge of our SDK development, and is intended for customers who are in active development and want the latest and greatest features.
+Instead of stating a release date for a new feature, we set a fixed minor or patch release cadence of maximum 2-3 months (while we may release more often). At the same
+time, there is no schedule for major or breaking release. Instead, we will communicate one quarter in advance the upcoming breaking change to allow customers to plan for
+the upgrade. We always recommend that all users run the latest available minor release for whatever major version is in use. We highly recommend upgrading to the latest
+SDK major release at the earliest convenient time and before the EOL date.
 
-すべての変更には[セマンティックバージョニング][2]の修正版を使用しています。詳細については、[バージョン戦略][3]を参照してください。
+We use a modified version of [Semantic Versioning][2] for all changes. See
+[version strategy][3] for details.
 
-## 各SDKのサポート対象バージョン
+## Supported version for each SDK
 
-すべてのSDKのサポート対象バージョンの表へのリンクを以下に示します。
+Below find links to the charts of supported versions for all SDKs.
 
 * [Python][4]
 * [.NET][5]
@@ -51,9 +58,10 @@ fullyTranslated: true
 * [CLI][8]
 * [iOS][9]
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

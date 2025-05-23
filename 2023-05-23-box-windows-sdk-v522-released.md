@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-05-23'
 fullyTranslated: true
 ---
-# Box Windows SDK `v5.2.2`のリリース
+# Box Windows SDK `v5.2.2` released
 
-**バグ修正:**
+**Bug Fixes:**
 
-* .NET Coreバージョンを確認できない場合の例外をキャッチ ([#906][1]) ([`e3be209`][2])
+* catch exception when .net core version cannot be determined ([#906][1]) ([`e3be209`][2])
 
 <https://www.nuget.org/packages/Box.V2/5.2.2>
 

@@ -22,12 +22,13 @@ source_url: >-
 published_at: '2022-10-20'
 fullyTranslated: true
 ---
-# Box UI Elements `v16.0.0`のリリース
+# Box UI Elements `v16.0.0` released
 
 ## [16.0.0][1] (2022-10-20)
 
-## バグ修正と機能
+## Bug Fixes & Features
 
-このリリースではいくつかのバグを修正し、新機能を追加しました。すべての変更点のリストについては、[リリースノートを参照してください][1]。
+This release fixes several bugs and adds new features.
+For a full list of changes, [see the release notes][1].
 
 [1]: https://github.com/box/box-ui-elements/releases/tag/v16.0.0

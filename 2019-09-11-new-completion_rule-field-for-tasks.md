@@ -20,8 +20,17 @@ source_url: >-
 published_at: '2019-09-11'
 fullyTranslated: true
 ---
-# タスクの新しい`completion_rule`フィールド
+# New `completion_rule` field for Tasks
 
-タスクオブジェクト`completion_rule`内で省略可能な新しいフィールドを使用できるようになりました。このフィールドは、[タスクを作成](endpoint://post-tasks)エンドポイントと[タスクを更新](endpoint://put-tasks-id)エンドポイントの使用時に設定でき、標準の[タスクオブジェクト](endpoint://resources/task/)の一部として返されます。
+A new optional field has been made available within the Task object,
+`completion_rule`. This field may be set through the use of the the
+[Create Task](endpoint://post-tasks) and [Update Task](endpoint://put-tasks-id)
+endpoints, and will be returned as part of the standard
+[Task object](endpoint://resources/task/).
 
-このフィールドの目的は、ユーザーの関与状況に基づいて、タスクが完了となる条件を設定することです。完了ルール`all_assignees`(デフォルト)を使用して作成されたタスクは、すべての担当者が作業を完了したときにのみ完了と見なされます。完了ルール`any_assignee`を使用して作成されたタスクは、1人の担当者が作業を完了すると完了と見なされます。
+The purpose of this field is to set the conditions under which a task is
+completed, based on user involvement. When a task is created with a completion
+rule of `all_assignees` (default), the task will only be considered completed
+when all assignees have completed the task. When a task is created with a
+completion rule of `any_assignee`, the task will be considered completed when
+one assignee has completed the task.

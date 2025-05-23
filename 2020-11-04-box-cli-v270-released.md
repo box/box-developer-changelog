@@ -22,16 +22,16 @@ source_url: >-
 published_at: '2020-11-04'
 fullyTranslated: true
 ---
-# Box CLI `v2.7.0`のリリース
+# Box CLI `v2.7.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* 以前非表示になっていたコマンド`collaborations:add`、`shared-links:update`、`shared-links:delete`、`users:search`が使用可能になりました ([#211][1])
-* `filter_term`パラメータを`groups:list`に追加 ([#210][2])
+* Make commands `collaborations:add`, `shared-links:update`, `shared-links:delete`, `users:search` that were previously hidden, now available ([#211][1])
+* Add `filter_term` parameter to `groups:list` ([#210][2])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* プロキシ設定に関するバグを修正 ([#213][3])
+* Fix bug with setting proxy settings ([#213][3])
 
 [1]: https://github.com/box/boxcli/issues/211
 

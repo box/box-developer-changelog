@@ -23,10 +23,10 @@ source_url: >-
 published_at: '2021-05-19'
 fullyTranslated: true
 ---
-# Box Node SDK `v1.37.1`のリリース
+# Box Node SDK `v1.37.1` released
 
-**バグ修正:**
+**Bug Fixes:**
 
-* 不適切な用語: `whitelist`から`allowlist`への変更 ([#625][1])
+* Insensitive language: replace `whitelist` with `allowlist` ([#625][1])
 
 [1]: https://github.com/box/box-node-sdk/pull/625

@@ -21,13 +21,20 @@ source_url: >-
 published_at: '2019-01-18'
 fullyTranslated: true
 ---
-# 新しいサイドバーUI ElementとOpen With UI Element正式リリース
+# New Sidebar UI Element & Open With Element GA
 
-Box UI Elementsに2つのメジャーリリースが追加されました。
+Two major releases have been made to the Box UI Elements:
 
-1. 新しいサイドバーElement: この新しい要素によって、ファイルのメタデータサイドバーを独自のアプリケーションまたはウェブサイトに直接組み込むことができます。ドキュメントは[こちら](guides://embed/ui-elements)で参照できます。
-2. Open With Element正式リリース: Open With Elementはベータから正式リリースに移行しました。Open Withによって、Adobe Sign、G Suite、またはBox Editでファイルコンテンツを起動するための個別のボタンを作成できます。また、それを既存のコンテンツエクスプローラElementに統合することもできます。ドキュメントは[こちら](guides://embed/ui-elements)で参照できます。
+1. New Sidebar Element: This new element provides capabilities for
+   incorporating the metadata sidebar for a file directly into your own
+   application or website. Documentation is available
+   [here](guides://embed/ui-elements).
+2. GA of Open With Element: The Open With element has been moved from beta to
+   general availability. Open With delivers an individual button or an integration
+   into the existing Content Explorer element to launch file content with Adobe
+   Sign, G Suite, or Box Edit. Documentation is available
+   [here](guides://embed/ui-elements).
 
-リリース発表は[こちら][blog_new_element]で参照できます。
+Full release announcement is available [here][blog_new_element].
 
 [blog_new_element]: https://medium.com/box-developer-blog/new-sidebar-element-the-ga-of-open-with-935936a0628f

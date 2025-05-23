@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-08-29'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.4.0`のリリース
+# Box Java SDK `v4.4.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* Signのテンプレートと新しいステータスをサポート ([#1197][1]) ([`e37c0dc`][2])
+* Support sign template and new sign status ([#1197][1]) ([`e37c0dc`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1197
 

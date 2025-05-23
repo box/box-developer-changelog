@@ -21,4 +21,4 @@ source_url: 'https://github.com/box/box-developer-changelog/blob/main/content/in
 published_at: null
 fullyTranslated: true
 ---
-# 変更ログ
+# Changelog

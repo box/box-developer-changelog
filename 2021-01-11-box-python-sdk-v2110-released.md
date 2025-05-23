@@ -23,10 +23,10 @@ source_url: >-
 published_at: '2021-01-11'
 fullyTranslated: true
 ---
-# Box Python SDK `v2.11.0`のリリース
+# Box Python SDK `v2.11.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* サムネイルを取得するためのメソッドの廃止および追加 ([#572][1])
+* Deprecate and add method for getting a thumbnail ([#572][1])
 
 [1]: https://github.com/box/box-python-sdk/pull/572

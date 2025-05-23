@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2022-07-04'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.3.0`のリリース
+# Box Java SDK `v3.3.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 編集可能な共有リンクのサポートを追加 ([#1064][1]) ([`9b7d60c`][2])
+* Added support of Editable Shared Links ([#1064][1]) ([`9b7d60c`][2])
 
-### バグ修正
+### Bug Fixes
 
-* 閉じたストリームの例外を`canUpload`メソッドで修正 ([#1067][3]) ([`543f91c`][4])
+* Fix closed stream exception in `canUpload` method ([#1067][3]) ([`543f91c`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1064
 

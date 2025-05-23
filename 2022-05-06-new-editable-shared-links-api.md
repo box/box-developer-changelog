@@ -23,29 +23,29 @@ source_url: >-
 published_at: '2022-05-06'
 fullyTranslated: true
 ---
-# 新しい編集可能な共有リンクAPI
+# New Editable Shared Links API
 
-開発者は、APIを使用して共有リンクでファイルを編集可能にできるようになりました。
+Now, developers can make files editable via shared links using the API.
 
 <!-- more -->
 
-## ドキュメントの更新
+## Documentation Updates
 
-* [ファイル][3]、[フォルダ][2]、[ウェブリンク][5]リソースの`permissions`オブジェクトに新しい`can_edit`値を追加
-* [`file--full`][4]リソースに新しい`shared_link_permission_options`フィールドを追加
-* リファレンスドキュメントに[ウェブリンクの共有リンクセクション][6]を追加
-* 共有リンクのガイドドキュメントに[権限に関するページ][7]を追加
-* 同じPUTエンドポイントを使用しているため、[共有リンクの更新と追加][8]のガイドページを統合
-* 複数の共有リンクページでコードスニペットを更新
+* Added a new `can_edit` value to the `permissions` object for the [file][3], [folder][2], and [web link][5] resources
+* Added a new `shared_link_permission_options` field to the [`file--full`][4] resource
+* Added a [shared link section for web links][6] in the reference documentation
+* Added a [permissions page][7] to the shared links guide documentation
+* Combined the [update and add shared link][8] guide page since they utilize the same PUT endpoint
+* Updated code snippets across several shared link pages
 
-## 機能強化の詳細
+## Enhancement Details
 
-* ファイルにコラボレータとしてユーザーを設定するのではなく、`shared_link.permissions.can_edit`フィールドを`true`に設定することで編集権限を付与できます。
-* ファイル、フォルダ、ウェブリンクのすべての共有リンクオブジェクトで`can_edit`フィールドが返されます。ただし、ファイルの場合はtrueにしか設定できません。
-* この機能は今後の数四半期で弊社のSDKライブラリに追加されます。
-* 管理者が編集可能な共有リンクを管理コンソールでオフにした場合、この機能は使用できません。
+* Instead of having to collaborate a user into a file to give edit access, you can set the `shared_link.permissions.can_edit` field to `true`.
+* The `can_edit` field will be returned for all shared link objects on files, folders, and web links; however, you can only set it to true for a file.
+* Our SDK libraries will gain this feature in the coming quarters.
+* If an admin has turned off editable shared links in the admin console, you will not be able to use this feature.
 
-### cURLの例
+### cURL Example
 
 ```curl
 curl -i -X PUT 'https://api.box.com/2.0/files/123456789?fields=shared_link' \
@@ -62,9 +62,10 @@ curl -i -X PUT 'https://api.box.com/2.0/files/123456789?fields=shared_link' \
         }'
 ```
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

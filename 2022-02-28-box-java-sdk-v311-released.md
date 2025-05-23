@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-02-28'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.1.1`のリリース
+# Box Java SDK `v3.1.1` released
 
-### バグ修正
+### Bug Fixes
 
-* エラーフィールドにエラーコードが含まれている場合に`jwt`認証を再試行 ([#1020][1]) ([`8c9d11d`][2])、[#1019][3]をクローズ
+* retry `jwt` auth when error code is in error field ([#1020][1]) ([`8c9d11d`][2]), closes [#1019][3]
 
 [1]: https://github.com/box/box-java-sdk/issues/1020
 

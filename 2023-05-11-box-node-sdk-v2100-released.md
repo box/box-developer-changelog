@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2023-05-11'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.10.0`のリリース
+# Box Node SDK `v2.10.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 情報バリアAPIのサポートを追加 ([#822][1]) ([`4814af3`][2])
-* `SignRequest`タイプと`SignRequestCreateRequest`タイプに`name`フィールドと`signature_color`フィールド、`SignRequestCreateSigner`タイプに`login_required`フィールドを追加 ([#822][1]) ([`4814af3`][2])
+* Added support for ethical wall API ([#822][1]) ([`4814af3`][2])
+* Added `name` and `signature_color` fields to `SignRequest` and `SignRequestCreateRequest` types and `login_required` field to `SignRequestCreateSigner` type ([#822][1]) ([`4814af3`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/822
 

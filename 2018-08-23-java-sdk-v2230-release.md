@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2018-08-23'
 fullyTranslated: true
 ---
-# Java SDK `v2.23.0`のリリース
+# Java SDK `v2.23.0` released
 
-1. メタデータカスケードポリシー ([#603](https://github.com/box/box-java-sdk/pull/603))
+1. Metadata cascade policy ([#603](https://github.com/box/box-java-sdk/pull/603))

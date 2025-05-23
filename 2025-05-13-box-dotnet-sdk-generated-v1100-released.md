@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2025-05-13'
 fullyTranslated: true
 ---
-# Box Dotnet SDK Generated `v1.10.0`のリリース
+# Box Dotnet SDK Generated `v1.10.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* `UploadWithPreflightCheck`コンビニエンスメソッドを追加 (box/box-codegen[#705][1]) ([#469][2]) ([`8dff7bb`][3])
-* AIエージェントの警告を追加し、より多くの種類のメタデータ値を許可 (box/box-openapi[#520][4]) ([#474][5]) ([`a53cff5`][6])
-* Signテンプレートスキーマにセキュリティ設定のプロパティを追加 (box/box-openapi[#518][7]) ([#462][8]) ([`7fddaea`][9])
-* AI APIにIBMモデルのサポートを追加 (box/box-openapi[#522][10]) ([#475][11]) ([`a187301`][12])
-* エラーの機密データのサニタイズをサポート (box/box-codegen[#695][13]) ([#453][14]) ([`5ee0c93`][15])
+* Add `UploadWithPreflightCheck` convenient method (box/box-codegen[#705][1]) ([#469][2]) ([`8dff7bb`][3])
+* Add AI agents warnings; allow for more types of metadata value (box/box-openapi[#520][4]) ([#474][5]) ([`a53cff5`][6])
+* Add security settings properties on sign template schema (box/box-openapi[#518][7]) ([#462][8]) ([`7fddaea`][9])
+* Add support of IBM models to AI API (box/box-openapi[#522][10]) ([#475][11]) ([`a187301`][12])
+* Support sensitive data sanitization in errors (box/box-codegen[#695][13]) ([#453][14]) ([`5ee0c93`][15])
 
 [1]: https://github.com/box/box-dotnet-sdk-gen/issues/705
 

@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-12-19'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.8.1`のリリース
+# Box Java SDK `v3.8.1` released
 
-### バグ修正
+### Bug Fixes
 
-* 以前の`SDK`バージョンの作業から状態をリストア ([#1134][1]) ([`b6d97dd`][2])
+* Restoring state from previous `SDK` version works. ([#1134][1]) ([`b6d97dd`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1134
 

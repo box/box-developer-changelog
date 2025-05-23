@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-10-24'
 fullyTranslated: true
 ---
-# Python SDK `v2.6.1`のリリース
+# Python SDK `v2.6.1` released
 
-* コピーメソッドに`api_`呼び出しデコレータが追加されました。
+* Added `api_` call decorator for copy method.

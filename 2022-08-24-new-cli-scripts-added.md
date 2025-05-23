@@ -23,33 +23,38 @@ source_url: >-
 published_at: '2022-08-24'
 fullyTranslated: true
 ---
-# Box CLIの更新
+# Updates to Box CLI
 
-[Box CLIスクリプトライブラリ][1]と[CLIガイド][2]への最近の追加により、自動化がさらに改善され、反復タスクの処理が簡素化されました。
+The recent additions to [Box CLI script library][1] and [CLI guides][2]
+improve automation even further and simplify handling repetitive tasks.
 
 <!-- more -->
 
-## 新しいCLIスクリプト
+## New CLI scripts
 
-サンプルスクリプトライブラリに次のスクリプトが含まれ、使用できるようになりました。
+The sample scripts library now includes the following scripts for you to use:
 
-* [ユーザーとフォルダのプロビジョニング][3]: 実装するフォルダ構造を構築してユーザーを追加します。
-* [グループとコラボレーションの管理][4]: グループを作成または更新し、グループにユーザーを追加して、最後にコラボレータとしてグループをフォルダに追加します。
-* [非アクティブなユーザーのレポート][5]: 一定の日数の間非アクティブであったユーザーのリストをCSVファイルで生成します。
-* [ユーザーのゾーンの更新][6]: マルチゾーンのBoxテナント内の特定のデータ保管場所のゾーンにユーザーをプロビジョニングします。
-* [ユーザーのプロビジョニング解除][7]: ユーザーを削除します。
+* [Provision users and folders][3] builds an
+  onboarding folder structure and adds users.
+* [Manage groups and collaborations][4] creates or updates groups, add users to them, and finally add groups to folders as collaborators.
+* [Report inactive users][5] generates a CSV file with a list of users who have been inactive for a specific number of days.
+* [Update user zones][6] provisions users to a specific
+  data residency zone within a Multizone Box tenant.
+* [Deprovision users][7] removes users.
 
-## 一括コマンドガイド
+## Bulk commands guide
 
-[一括コマンドガイド][8]では、単一のコマンドを使用して、複数の項目が関与する操作を実行する方法について説明します。
+The [bulk commands guide][8] explains how you can use a single command to perform actions involving multiple items.
 
-## 開発者向けリソース
+## Developer Resources
 
-Box App Centerでのアプリケーションの作成、またはBoxパートナーへの参加をご希望の場合、詳細については[Box Partner Resources][9]のガイド (英語) を参照してください。
+Are you interested in creating applications for the Box App Center or becoming a Box Partner? Check out the
+[Box Partner Resources][9] guides for more information!
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][10]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][10] for any help needed.
 
 [1]: g://cli/scripts
 

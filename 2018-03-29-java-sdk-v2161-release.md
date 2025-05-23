@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2018-03-29'
 fullyTranslated: true
 ---
-# Java SDK `v2.16.1`のリリース
+# Java SDK `v2.16.1` released
 
-1. `CONTENT_ACCESS`イベントタイプを追加 ([#581](https://github.com/box/box-java-sdk/pull/581))
+1. Add `CONTENT_ACCESS` event type.  ([#581](https://github.com/box/box-java-sdk/pull/581))

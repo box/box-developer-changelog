@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-07-07'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.7.3`のリリース
+# Box Python SDK `v3.7.3` released
 
-### バグ修正
+### Bug Fixes
 
-* ログ記録が非アクティブな場合にログ記録用のデータ処理を停止し、`json`形式のレスポンスをキャッシュ ([#824][1]) ([`3079171`][2])
+* Stop processing data for logging when logging is deactivated and cache response `json` ([#824][1]) ([`3079171`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/824
 

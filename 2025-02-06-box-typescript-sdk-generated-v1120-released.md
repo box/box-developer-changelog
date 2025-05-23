@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2025-02-06'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.12.0`のリリース
+# Box TypeScript SDK Generated `v1.12.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* Box Signの共有リクエストを追加 (box/box-openapi[#504][1]) ([#491][2]) ([`e90255c`][3])
-* 機能: `/ai/ask`にHubのサポートを追加。`AiAsk`インターフェースの`items`プロパティのタイプを`AiItemBase[]`から`AiItemAsk[]`に置き換え (box/box-codegen[#656][4]) ([#507][5]) ([`9f29d8c`][6])
-* `/ai/extract_structured`レスポンスのスキーマを更新 (box/box-codegen[#641][7]) ([#498][8]) ([`502ac11`][9])
+* Add Box Sign shared requests (box/box-openapi[#504][1]) ([#491][2]) ([`e90255c`][3])
+* feat: Add hubs support to `/ai/ask`. Replace type of `items` property from `AiItemBase[]` to `AiItemAsk[]` in the `AiAsk` interface (box/box-codegen[#656][4]) ([#507][5]) ([`9f29d8c`][6])
+* Update `/ai/extract_structured` response schema (box/box-codegen[#641][7]) ([#498][8]) ([`502ac11`][9])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/504
 

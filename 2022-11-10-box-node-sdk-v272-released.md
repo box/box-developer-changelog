@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-11-10'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.7.2`のリリース
+# Box Node SDK `v2.7.2` released
 
-### バグ修正
+### Bug Fixes
 
-* ファイルとフォルダの更新に`fields`クエリパラメータを追加 ([#776][1]) ([`a327deb`][2])
+* Add `fields` query parameter to file and folder update ([#776][1]) ([`a327deb`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/776
 

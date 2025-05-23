@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-06-06'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.9.1`のリリース
+# Box Java SDK `v4.9.1` released
 
-### バグ修正
+### Bug Fixes
 
-* `org.bouncycastle:bcprov-jdk18on:1.78.1`および`org.bouncycastle:bcpkix-jdk18on:1.78.1`を昇格 ([#1246][1]) ([`0557bed`][2])
+* Bumped `org.bouncycastle:bcprov-jdk18on:1.78.1` and `org.bouncycastle:bcpkix-jdk18on:1.78.1` ([#1246][1]) ([`0557bed`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1246
 

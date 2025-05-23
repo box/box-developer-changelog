@@ -23,18 +23,18 @@ source_url: >-
 published_at: '2020-10-02'
 fullyTranslated: true
 ---
-# Box Python SDK `v2.10.0`のリリース
+# Box Python SDK `v2.10.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* メタデータテンプレートの`copyInstanceOnItemCopy`フィールドのサポートを追加 ([#546][1])
-* `action`パラメータと`completion_rule`パラメータを使用したタスクの作成を許可 ([#544][2])
-* 圧縮機能を追加 ([#539][3])
+* Add support for `copyInstanceOnItemCopy` field for metadata templates ([#546][1])
+* Allow creating tasks with the `action` and `completion_rule` parameters ([#544][2])
+* Add Zip functionality ([#539][3])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* コラボレーションロールを所有者に更新する際のバグを修正 ([#536][4])
-* `ints`を項目IDとして渡すことを許可 ([#530][5])
+* Fix bug with updating a collaboration role to owner ([#536][4])
+* Allow `ints` to be passed in as item IDs ([#530][5])
 
 [1]: https://github.com/box/box-ios-sdk/pull/546
 

@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-03-12'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.15.3`のリリース
+# Box Java SDK `v4.15.3` released
 
-### バグ修正
+### Bug Fixes
 
-* `content-length`ヘッダーの値をトリミング ([#1297][1]) ([`fa11d14`][2])
+* trim `content-length` header value ([#1297][1]) ([`fa11d14`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1297
 

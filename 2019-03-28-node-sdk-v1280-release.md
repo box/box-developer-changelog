@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2019-03-28'
 fullyTranslated: true
 ---
-# Node SDK `v1.28.0`のリリース
+# Node SDK `v1.28.0` released
 
-* `v1.28.0`リリースの準備 ([#366](https://github.com/box/box-node-sdk/pull/366)) [`8fa21de`](https://github.com/box/box-node-sdk/commit/8fa21de)
-* ウェブリンクの一般的な項目メソッドを追加 ([#364](https://github.com/box/box-node-sdk/pull/364)) [`7549d4f`](https://github.com/box/box-node-sdk/commit/7549d4f)
+* Prepare for `v1.28.0` release ([#366](https://github.com/box/box-node-sdk/pull/366))  [`8fa21de`](https://github.com/box/box-node-sdk/commit/8fa21de)
+* Add common item methods for Web Links ([#364](https://github.com/box/box-node-sdk/pull/364))  [`7549d4f`](https://github.com/box/box-node-sdk/commit/7549d4f)
 
 [`v1.27.0...v1.28.0`](https://github.com/box/box-node-sdk/compare/`v1.27.0...v1.28.0`)

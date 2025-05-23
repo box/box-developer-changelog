@@ -23,22 +23,23 @@ source_url: >-
 published_at: '2022-05-11'
 fullyTranslated: true
 ---
-# Eventの仕様への新しいフィールドの追加
+# New Fields Added to Event Specification
 
-Eventリソースの仕様に、次の新しいフィールドが含まれるようになりました。
+The Event resource specification now includes two new fields:
 
-* `created_at`: イベントの作成日時を指定
-* `recorded_at`: データベースへのイベントの登録日時の指定
+* `created_at` specifying when an event was created
+* `recorded_at` specifying when an event was registered in the database
 
 <!-- more -->
 
-## 更新内容
+## Updates
 
-* [Event][Event]リソースの仕様[2][2]に新しいフィールド`created_at`と`recorded_at`を追加しました。
+* Added new fields `created_at` and `recorded_at` to the [Event][Event] resource specification [2][2].
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2020-08-20'
 fullyTranslated: true
 ---
-# Box Node SDK `v1.34.2`のリリース
+# Box Node SDK `v1.34.2` released
 
-* ファイルをアップロードする際の反復子のバグを修正 ([#534][1]) [`b0baa18`][2]
+* Make iterator bug fix for uploading files non breaking ([#534][1]) [`b0baa18`][2]
 
 [https://github.com/box/box-node-sdk/compare/v1.34.1...v1.34.2][3]
 

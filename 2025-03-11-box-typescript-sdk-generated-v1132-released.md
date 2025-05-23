@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-03-11'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.13.2`のリリース
+# Box TypeScript SDK Generated `v1.13.2` released
 
-### バグ修正
+### Bug Fixes
 
-* Typescriptの`rollup`プラグインの出力ディレクトリを修正 (box/box-codegen[#678][1]) ([#543][2]) ([`f828d5e`][3])
+* Fix `rollup` plugin output directory in Typescript (box/box-codegen[#678][1]) ([#543][2]) ([`f828d5e`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/678
 

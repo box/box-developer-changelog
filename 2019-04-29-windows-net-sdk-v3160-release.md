@@ -23,13 +23,14 @@ source_url: >-
 published_at: '2019-04-29'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.16.0`のリリース
+# Windows .NET SDK `v3.16.0` released
 
-* 並べ替え順を制御するために`sort`および`direction`パラメータを`client.SearchManager.SearchAsync()`に追加
-* 返されるサムネイル形式を制御するために`extension`パラメータを`client.FilesManager.GetThumbnailAsync()`に追加 (`@guilmori`に感謝します)。
-* クエリ文字列パラメータが正しくエンコードされなかったバグを修正
-* メタデータのキーと値を設定し、指定されたキーの既存の値を上書きする`SetFileMetadataAsync()`および`SetFolderMetadataAsync()`メソッドが`client.MetadataManager`に追加されました。
-* APIが一時的なエラーステータスコードで応答した場合にほとんどのAPIコールを自動的に再試行
+* Added `sort` and `direction` parameters to `client.SearchManager.SearchAsync()` to  control sort order
+* Added `extension` parameter to `client.FilesManager.GetThumbnailAsync()` to control which thumbnail format is returned (thanks `@guilmori`!)
+* Fixed a bug where query string parameters were not correctly encoded
+* Added `SetFileMetadataAsync()` and `SetFolderMetadataAsync()` methods to `client.MetadataManager` to set metadata
+  keys and values, overwriting existing values for the provided keys.
+* Automatically retry most API calls when the API responds with a transient error status code
 
 [`nuget.org/packages/Box.V2/3.16.0`](https://www.nuget.org/packages/Box.V2/3.16.0)
 [`nuget.org/packages/Box.V2.Core/3.16.0`](https://www.nuget.org/packages/Box.V2.Core/3.16.0)

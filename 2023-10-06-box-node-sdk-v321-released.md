@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-10-06'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.2.1`のリリース
+# Box Node SDK `v3.2.1` released
 
-### バグ修正
+### Bug Fixes
 
-* tough-cookieの依存関係を上書き ([#852][1]) ([`99df873`][2])
+* Overrides tough-cookie dependency ([#852][1]) ([`99df873`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/852
 

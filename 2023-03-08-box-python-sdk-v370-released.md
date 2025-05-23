@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2023-03-08'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.7.0`のリリース
+# Box Python SDK `v3.7.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* `retention_policies`と`retention_policy_assignments`に新しいオプションフィールドを追加 ([#803][1]) ([`8b72f7e`][2])
-* 分割アップロードにマルチスレッドを使用 ([#800][3]) ([`506ce0d`][4])
+* Add new optional fields for `retention_policies` and `retention_policy_assignments` ([#803][1]) ([`8b72f7e`][2])
+* Use multiple threading for chunked upload ([#800][3]) ([`506ce0d`][4])
 
 [1]: https://github.com/box/box-python-sdk/issues/803
 

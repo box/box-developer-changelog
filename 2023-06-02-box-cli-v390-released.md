@@ -22,13 +22,13 @@ source_url: >-
 published_at: '2023-06-02'
 fullyTranslated: true
 ---
-# Box CLI `v3.9.0`のリリース
+# Box CLI `v3.9.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* `max-items`を追加、エンドポイントのリストのパフォーマンスを改善 ([#470][1]) ([`8f386f3`][2])
-* 統合マッピングAPIのサポートを追加 ([#472][3]) ([`bbf2548`][4])
-* `retention-policy`と`retention-policy-assignment`の新しいフィールド ([#466][5]) ([`f960e59`][6])
+* add `max-items`, improve list endpoints performance ([#470][1]) ([`8f386f3`][2])
+* Add support for Integration Mappings API ([#472][3]) ([`bbf2548`][4])
+* New fields in `retention-policy` and `retention-policy-assignment` ([#466][5]) ([`f960e59`][6])
 
 [1]: https://github.com/box/boxcli/issues/470
 

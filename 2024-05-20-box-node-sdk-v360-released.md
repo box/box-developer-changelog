@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-05-20'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.6.0`のリリース
+# Box Node SDK `v3.6.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 安定したステータスに移行 ([#880][1]) ([`ae996ea`][2])
+* Transition to stable status ([#880][1]) ([`ae996ea`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/880
 

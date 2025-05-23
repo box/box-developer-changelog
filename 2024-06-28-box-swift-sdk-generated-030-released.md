@@ -24,30 +24,30 @@ source_url: >-
 published_at: '2024-06-28'
 fullyTranslated: true
 ---
-# Box Swift SDK Generated `0.3.0`のリリース
+# Box Swift SDK Generated `0.3.0` released
 
-### バグ修正
+### Bug Fixes
 
-* ベースURLを変更 (box/box-codegen[#491][1]) ([#115][2]) ([`d0a7adb`][3])
-* Box AIエンドポイントを修正 (box/box-openapi[#418][4]) ([#88][5]) ([`022f83a`][6])
-* 自動更新のプルリクエストのCIを修正 (box/box-codegen[#506][7]) ([#135][8]) ([`a62e238`][9])
-* Swiftで配列を使用したUnionの逆シリアル化を修正 (box/box-codegen[#486][10]) ([#94][11]) ([`4f187be`][12])
-* メタデータフィルタリソースを修正 (box/box-openapi[#419][13]) ([#90][14]) ([`b04f7ce`][15])
-* ファイルやフォルダの分類を更新するためのスキーマを修正 (box/box-openapi[#423][16]) ([#104][17]) ([`caa9d2b`][18])
-* Box Signの表現を改善 (box/box-openapi[#424][19]) ([#111][20]) ([`4fa69f0`][21])
+* Change base URLs (box/box-codegen[#491][1]) ([#115][2]) ([`d0a7adb`][3])
+* Fix Box AI endpoints (box/box-openapi[#418][4]) ([#88][5]) ([`022f83a`][6])
+* Fix CI for auto update pull requests (box/box-codegen[#506][7]) ([#135][8]) ([`a62e238`][9])
+* fix deserialisation of Union with array in Swift (box/box-codegen[#486][10]) ([#94][11]) ([`4f187be`][12])
+* Fix metadata filter resource (box/box-openapi[#419][13]) ([#90][14]) ([`b04f7ce`][15])
+* Fix schemas for updating classification on a file and folder (box/box-openapi[#423][16]) ([#104][17]) ([`caa9d2b`][18])
+* improve wording for box sign (box/box-openapi[#424][19]) ([#111][20]) ([`4fa69f0`][21])
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 不足していたマーカーページ割りフィールドを追加し、新しいイベントタイプを導入 `(box/box-openapi[#431](https://github.com/box/box-codegen/issues/431))` ([#136][22]) ([`b186b11`][23])
-* `visionOS`のサポートを追加し、Swift用のPrivacy Manifestファイルを追加 `(box/box-codegen[#510](https://github.com/box/box-codegen/issues/510))` ([#139][24]) ([`7fc76fc`][25])
-* Swiftで日付のサポートを追加 (box/box-codegen[#488][26]) ([#103][27]) ([`7e1ea1a`][28])
-* Swiftでの分割アップロードを改善 `(box/box-codegen[#515](https://github.com/box/box-codegen/issues/515))` ([#143][29]) ([`b8099ab`][30])
-* 通知の抑制をパブリックスキーマに移動 (box/box-openapi[#425][31]) ([#113][32]) ([`069be60`][33])
-* スキーマを個別のモジュールに移動 (box/box-codegen[#483][34]) ([#99][35]) ([`c7a8506`][36])
-* 一般的なエラーのスローを開始 `(box/box-codegen[#516](https://github.com/box/box-codegen/issues/516))` ([#147][37]) ([`d12bbb7`][38])
-* Box AIエンドポイントをサポート (box/box-openapi[#416][39]) ([#86][40]) ([`175ab82`][41])
-* Swiftでの分割アップロードをサポート `(box/box-codegen[#513](https://github.com/box/box-codegen/issues/513))` ([#142][42]) ([`9e0b4e2`][43])
-* パーサーのエンドポイントおよびスキーマの除外をサポート (box/box-codegen[#487][44]) ([#100][45]) ([`af9e171`][46])
+* add missing marker pagination fields and introduce new event type `(box/box-openapi[#431](https://github.com/box/box-codegen/issues/431))` ([#136][22]) ([`b186b11`][23])
+* Add support for `visionOS` and add privacy manifest file for swift `(box/box-codegen[#510](https://github.com/box/box-codegen/issues/510))` ([#139][24]) ([`7fc76fc`][25])
+* Add support for Date in Swift (box/box-codegen[#488][26]) ([#103][27]) ([`7e1ea1a`][28])
+* Improve chunk upload in Swift `(box/box-codegen[#515](https://github.com/box/box-codegen/issues/515))` ([#143][29]) ([`b8099ab`][30])
+* move notification suppression to public schema (box/box-openapi[#425][31]) ([#113][32]) ([`069be60`][33])
+* Move schemas to separate modules (box/box-codegen[#483][34]) ([#99][35]) ([`c7a8506`][36])
+* Start throwing common errors `(box/box-codegen[#516](https://github.com/box/box-codegen/issues/516))` ([#147][37]) ([`d12bbb7`][38])
+* Support Box AI endpoints (box/box-openapi[#416][39]) ([#86][40]) ([`175ab82`][41])
+* Support chunk upload in Swift `(box/box-codegen[#513](https://github.com/box/box-codegen/issues/513))` ([#142][42]) ([`9e0b4e2`][43])
+* support excluding endpoints and schemas in parser (box/box-codegen[#487][44]) ([#100][45]) ([`af9e171`][46])
 
 [1]: https://github.com/box/box-codegen/issues/491
 

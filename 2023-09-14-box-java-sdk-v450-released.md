@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2023-09-14'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.5.0`のリリース
+# Box Java SDK `v4.5.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* `iframeable_embed_url`フィールドを`BoxSignRequestSigner`クラスに追加 ([#1202][1]) ([`2e931d8`][2])
+* Add `iframeable_embed_url` field to `BoxSignRequestSigner` class ([#1202][1]) ([`2e931d8`][2])
 
-### バグ修正
+### Bug Fixes
 
-* `SharedLinkAPIConnection`でリクエストインターセプタを使用 ([#1203][3]) ([`b2b6a1d`][4])、[#1200][5]をクローズ
-* 列挙型の不足についてSignテンプレートを更新 ([#1201][6]) ([`fcb6657`][7])
+* `SharedLinkAPIConnection` uses request interceptor ([#1203][3]) ([`b2b6a1d`][4]), closes [#1200][5]
+* Update sign template missing enum ([#1201][6]) ([`fcb6657`][7])
 
 [1]: https://github.com/box/box-java-sdk/issues/1202
 

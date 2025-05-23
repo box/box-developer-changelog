@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2019-11-26'
 fullyTranslated: true
 ---
-# Box UI Elements `v11.0.2`のリリース
+# Box UI elements `v11.0.2` released
 
-## [11.0.2][1] (2019/11/26)
+## [11.0.2][1] (2019-11-26)
 
-### バグ修正
+### Bug Fixes
 
-* **ビルド:** 古いリリースパッケージ ([`991ee17`][2])
+* **build:** outdated release package ([`991ee17`][2])
 
 [1]: https://github.com/box/box-ui-elements/compare/v11.0.1...v11.0.2
 

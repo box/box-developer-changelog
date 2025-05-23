@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-07-16'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.11.1`のリリース
+# Box Java SDK `v4.11.1` released
 
-### バグ修正
+### Bug Fixes
 
-* ファイルアップロードのマルチパートリクエストの順序を修正 ([#1261][1]) ([`7200ac7`][2])
+* Fix order of file upload multipart request ([#1261][1]) ([`7200ac7`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1261
 

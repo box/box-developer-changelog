@@ -22,50 +22,50 @@ source_url: >-
 published_at: '2023-06-27'
 fullyTranslated: true
 ---
-# Box UI Elements `v18.0.0`のリリース
+# Box UI Elements `v18.0.0` released
 
 # [18.0.0][1] (2023-06-27)
 
-### バグ修正
+### Bug Fixes
 
-* **ci:** releaseスクリプトの変数から空白を削除 ([#3355][2]) ([`2553ec1`][3])
-* **content-explorer:** グリッドボタンのスタイルの詳細度を向上 ([#3328][4]) ([`b2c878a`][5])
-* **content-explorer:** 未定義のオブジェクトで呼び出されるマッピング ([#3341][6]) ([`da6ada0`][7])
-* **content-picker:** フォルダ作成時の名前入力のトリミング ([#3364][8]) ([`4629726`][9])
-* **css:** IE7 CSSハックを削除してParcelのサポートを修正 ([#3368][10]) ([`cbff7f1`][11])
-* **i18n:** 翻訳を更新 ([#3323][12]) ([`c810383`][13])
-* **i18n:** 翻訳を更新 ([#3344][14]) ([`755d64b`][15])
-* **i18n:** 翻訳を更新 ([#3349][16]) ([`6ba9f27`][17])
-* **i18n:** 翻訳を更新 ([#3351][18]) ([`4ff75e8`][19])
-* **i18n:** 翻訳を更新 ([#3352][20]) ([`80c795a`][21])
-* **i18n:** 翻訳を更新 ([#3359][22]) ([`c94305c`][23])
-* **preview:** サムネイルのサイドバーの幅を更新 ([#3363][24]) ([`33c8236`][25])
-* **sharing:** Canvasファイルの共有リンクのメッセージを削除 ([#3337][26]) ([`9558474`][27])
-* 共有リンクのビューアー権限の調整 ([#3335][28]) ([`5d78c11`][29])
-* 要素のテストページでdistパスとReactバージョンを更新 ([#3350][30]) ([`38ff124`][31])
-* **pill-selector-dropdown:** `showAvatars`プロパティを`RoundPill`にパス ([#3329][32]) ([`5632743`][33])
-* **share-form:** 未定義のオブジェクトで呼び出されるマッピング ([#3340][34]) ([`a24abb2`][35])
-* **usm:** 共有ウィンドウのアップグレード通知のメッセージを修正 ([#3334][36]) ([`4a945ce`][37])
+* **ci:** remove blank space from release script var  ([#3355][2]) ([`2553ec1`][3])
+* **content-explorer:** increase grid button style specificity ([#3328][4]) ([`b2c878a`][5])
+* **content-explorer:** map called on undefined object ([#3341][6]) ([`da6ada0`][7])
+* **content-picker:** trim name input when creating folder ([#3364][8]) ([`4629726`][9])
+* **css:** remove IE7 CSS hack to fix Parcel support ([#3368][10]) ([`cbff7f1`][11])
+* **i18n:** update translations ([#3323][12]) ([`c810383`][13])
+* **i18n:** update translations ([#3344][14]) ([`755d64b`][15])
+* **i18n:** update translations ([#3349][16]) ([`6ba9f27`][17])
+* **i18n:** update translations ([#3351][18]) ([`4ff75e8`][19])
+* **i18n:** update translations ([#3352][20]) ([`80c795a`][21])
+* **i18n:** update translations ([#3359][22]) ([`c94305c`][23])
+* **preview:** update thumbnail sidebar width ([#3363][24]) ([`33c8236`][25])
+* **sharing:** remove message for shared links for Canvas files ([#3337][26]) ([`9558474`][27])
+* align viewer permissions for shared links ([#3335][28]) ([`5d78c11`][29])
+* update dist path and react version for elements test pages ([#3350][30]) ([`38ff124`][31])
+* **pill-selector-dropdown:** pass `showAvatars` prop to `RoundPill` ([#3329][32]) ([`5632743`][33])
+* **share-form:** map called on undefined object ([#3340][34]) ([`a24abb2`][35])
+* **usm:** fix message for upgrade notice in share modal ([#3334][36]) ([`4a945ce`][37])
 
-### 作業
+### chore
 
-* **deps:** `react-beautiful-dnd`をバージョン11.0.5に昇格 ([#3345][38]) ([`610c9d2`][39])
-* **node:** Node 18にアップグレード ([#3347][40]) ([`cbb3840`][41])
+* **deps:** Bump `react-beautiful-dnd` to version 11.0.5 ([#3345][38]) ([`610c9d2`][39])
+* **node:** Upgrade to node 18 ([#3347][40]) ([`cbb3840`][41])
 
-### 機能
+### Features
 
-* **cloud-game:** クラウドゲームの外観を調整 ([#3361][42]) ([`fe7fb51`][43])
-* **pill-selector-dropdown:** エラーのツールチップの位置設定を許可 ([#3330][44]) ([`8df1551`][45])
-* **preview:** デフォルトのPreview SDKのバージョンを更新 ([#3366][46]) ([`aa7a875`][47])
-* **security-controls:** 電子すかしの \[詳細を表示] リンクを削除 ([#3353][48]) ([`379d055`][49])
-* **threaded-replies:** 注釈に対する返信 ([#3331][50]) ([`4f65525`][51])
-* **uaa-integration:** UAAを`ActivitySidebar`に統合 ([#3316][52]) ([`b81e976`][53])
+* **cloud-game:** Adjust cloud game visual ([#3361][42]) ([`fe7fb51`][43])
+* **pill-selector-dropdown:** allow setting error tooltip position ([#3330][44]) ([`8df1551`][45])
+* **preview:** update default Preview SDK version ([#3366][46]) ([`aa7a875`][47])
+* **security-controls:** Remove watermark learn more link ([#3353][48]) ([`379d055`][49])
+* **threaded-replies:** reply to annotations ([#3331][50]) ([`4f65525`][51])
+* **uaa-integration:** Integrate UAA into `ActivitySidebar` ([#3316][52]) ([`b81e976`][53])
 
-### 重大な変更
+### BREAKING CHANGES
 
-* **deps:** 使用中のプロジェクトにおける`react-beautiful-dnd`のバージョン11.0.5へのアップグレードが必要
+* **deps:** You need to upgrade `react-beautiful-dnd` in the consuming project to version 11.0.5
 
-* **node:** Node 18にアップグレード
+* **node:** Upgrade to node 18
 
 [1]: https://github.com/box/box-ui-elements/compare/v17.1.0...v18.0.0
 

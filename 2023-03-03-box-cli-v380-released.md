@@ -22,17 +22,17 @@ source_url: >-
 published_at: '2023-03-03'
 fullyTranslated: true
 ---
-# Box CLI `v3.8.0`のリリース
+# Box CLI `v3.8.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* メタデータカスケードポリシーの作成用のエイリアスを追加 ([#460][1]) ([`8d2f683`][2])
-* ログインコマンドに`--reauthorize`フラグのサポートを追加 ([#457][3]) ([`f653a0d`][4])
+* add alias for metadata cascade policy create ([#460][1]) ([`8d2f683`][2])
+* Add support for `--reauthorize` flag in login command ([#457][3]) ([`f653a0d`][4])
 
-### バグ修正
+### Bug Fixes
 
-* `keychain`ライブラリを`1.4.0`に昇格することで`keychain`アクセスを修正 ([#459][5]) ([`56919ce`][6])
-* 単体テストを修正 ([#456][7]) ([`f89d9ef`][8])
+* Fix `keychain` access by bumping `keychain` library to `1.4.0` ([#459][5]) ([`56919ce`][6])
+* Fix unit tests ([#456][7]) ([`f89d9ef`][8])
 
 [1]: https://github.com/box/boxcli/issues/460
 

@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2022-08-26'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.5.0`のリリース
+# Box Java SDK `v3.5.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 署名リクエストとレスポンスに`content-type`を追加 ([#1087][1]) ([`49411aa`][2])
-* `notification_email`を`BoxUser`に追加 ([#1088][3]) ([`5477223`][4])
-* 署名リクエストとレスポンスに`redirect_url`と`declined_redirect_url`を追加 ([#1089][5]) ([`3921fe1`][6])
+* Add `content-type` sign request and response ([#1087][1]) ([`49411aa`][2])
+* Add `notification_email` to `BoxUser` ([#1088][3]) ([`5477223`][4])
+* Add `redirect_url` and `declined_redirect_url` to sign request response ([#1089][5]) ([`3921fe1`][6])
 
-### バグ修正
+### Bug Fixes
 
-* 空の本文が原因の署名リクエストのキャンセルの失敗を修正 ([#1085][7]) ([`32b8e79`][8])
+* Fixed canceling sign request fails because of empty body ([#1085][7]) ([`32b8e79`][8])
 
 [1]: https://github.com/box/box-java-sdk/issues/1087
 

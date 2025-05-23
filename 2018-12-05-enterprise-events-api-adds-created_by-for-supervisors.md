@@ -22,15 +22,21 @@ source_url: >-
 published_at: '2018-12-05'
 fullyTranslated: true
 ---
-# Enterprise Event APIにスーパーバイザ向けの`created_by`を追加
+# Enterprise events API adds `created_by` for supervisors
 
-Box管理者などのスーパーバイザまたは内部管理者ユーザーがアクションを実行する場合の[Enterprise Event](endpoint://get-events/#request) APIエンドポイントのレスポンスオブジェクトに小さな変更が加えられました。
+A minor change has been made to the response object of the
+[enterprise events](endpoint://get-events/#request) API endpoint in the
+event that an action is taken by a supervisor or internal admin user, such as a
+Box admin.
 
 <!-- more -->
 
-この更新の前は、スーパーバイザまたは内部管理者ユーザーのユーザー情報がレスポンスオブジェクトの`created_by`フィールドに表示されていました。今回の更新により、そのユーザーがスーパーバイザまたは内部管理者である場合、レスポンスに一般的なユーザー情報が表示されるようになりました。
+Prior to this update the user information of the supervisor or internal admin
+user would be displayed in the `created_by` field of the response object. With
+this update the response will now show generic user information when that user
+is a supervisor or internal admin.
 
-これまで、レスポンスの`created_by`フィールドは以下のように表示されていました。
+Previously the `created_by` field in the response looked like this:
 
 ```js
 "created_by": {
@@ -41,7 +47,7 @@ Box管理者などのスーパーバイザまたは内部管理者ユーザー�
 }
 ```
 
-今回の更新により、同じレスポンスが以下のように表示されます。
+With this update that same response would look similar to the following:
 
 ```js
 "created_by": {

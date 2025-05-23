@@ -23,18 +23,18 @@ source_url: >-
 published_at: '2025-02-06'
 fullyTranslated: true
 ---
-# Box Dotnet SDK Generated `v1.7.0`のリリース
+# Box Dotnet SDK Generated `v1.7.0` released
 
-### バグ修正
+### Bug Fixes
 
-* ファイルレプリゼンテーションの`paged`および`thumb`プロパティのタイプを修正 (box/box-openapi[#503][1]) ([#383][2]) ([`d6995ad`][3])
-* クロスオリジンのリダイレクト時に`Authentication`ヘッダーが渡されるのを防止 (box/box-codegen[#648][4]) ([#382][5]) ([`a64d373`][6])
+* Correct types of `paged` and `thumb` properties in File representation (box/box-openapi[#503][1]) ([#383][2]) ([`d6995ad`][3])
+* Prevent `Authentication` header from being passed during cross-origin redirects (box/box-codegen[#648][4]) ([#382][5]) ([`a64d373`][6])
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* Box Signの共有リクエストを追加 (box/box-openapi[#504][7]) ([#384][8]) ([`d563886`][9])
-* 機能: /ai/askにHubのサポートを追加。`AiAsk`クラスの`Items`プロパティのタイプを`IReadOnlyList<AiItemBase>`から`IReadOnlyList<AiItemAsk>`に置き換え (box/box-codegen[#656][10]) ([#397][11]) ([`32b6d03`][12])
-* `/ai/extract_structured`レスポンスのスキーマを更新 (box/box-codegen[#641][13]) ([#391][14]) ([`5f79a03`][15])
+* Add Box Sign shared requests (box/box-openapi[#504][7]) ([#384][8]) ([`d563886`][9])
+* feat: Add hubs support to /ai/ask. Replace type of `Items` property from `IReadOnlyList<AiItemBase>` to `IReadOnlyList<AiItemAsk>` in the `AiAsk` class (box/box-codegen[#656][10]) ([#397][11]) ([`32b6d03`][12])
+* Update `/ai/extract_structured` response schema (box/box-codegen[#641][13]) ([#391][14]) ([`5f79a03`][15])
 
 [1]: https://github.com/box/box-dotnet-sdk-gen/issues/503
 

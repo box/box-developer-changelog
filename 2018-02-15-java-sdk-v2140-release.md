@@ -23,8 +23,8 @@ source_url: >-
 published_at: '2018-02-15'
 fullyTranslated: true
 ---
-# Java SDK `v2.14.0`のリリース
+# Java SDK `v2.14.0` released
 
-1. コラボレーションオブジェクトに足りない`can_view_path`プロパティを修正 ([#560](https://github.com/box/box-java-sdk/pull/560))
-2. 不足しているメソッドとドキュメントを追加 ([#559](https://github.com/box/box-java-sdk/pull/559))
-3. 項目のタグを設定するためのサポートを追加 ([#554](https://github.com/box/box-java-sdk/pull/554))
+1. fixes missing `can_view_path` property on collaboration object ([#560](https://github.com/box/box-java-sdk/pull/560))
+2. Add missing methods and documentation ([#559](https://github.com/box/box-java-sdk/pull/559))
+3. Add support for setting tags on items ([#554](https://github.com/box/box-java-sdk/pull/554))

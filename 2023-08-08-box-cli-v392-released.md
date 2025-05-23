@@ -22,11 +22,11 @@ source_url: >-
 published_at: '2023-08-08'
 fullyTranslated: true
 ---
-# Box CLI `v3.9.2`のリリース
+# Box CLI `v3.9.2` released
 
-### バグ修正
+### Bug Fixes
 
-* コマンドに入力を渡す場合のエスケープされたスラッシュを修正 ([#486][1]) ([`7670210`][2])
+* Fix escaped slashes when passing an input to command ([#486][1]) ([`7670210`][2])
 
 [1]: https://github.com/box/boxcli/issues/486
 

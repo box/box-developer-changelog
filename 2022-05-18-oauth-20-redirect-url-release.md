@@ -23,39 +23,46 @@ source_url: >-
 published_at: '2022-05-18'
 fullyTranslated: true
 ---
-# OAuth 2.0のリダイレクトURLの厳密なチェックの有効化
+# OAuth 2.0 Redirect URL Strict Checking Enabled
 
-すべてのOAuth 2.0アプリケーションに対する厳密なチェックが有効になりました。
+Today, we turned on strict checking for all OAuth 2.0 applications.
 
 <!-- more -->
 
-2021年11月29日に、OAuth 2.0を使用する新しいアプリケーションでは、開発者コンソールの \[構成] タブで設定されたURIが、リダイレクトに使用されるURIと厳密に一致することが必要になると[発表][oauth-cl]しました。
+On November 29, 2021, we [announced][oauth-cl] new applications using OAuth 2.0 will require the
+URIs set in the configuration tab of the Developer Console to strictly match the
+one used during redirect.
 
-この変更は現在完了済みです。この標準に準拠していないアプリケーションを使用していた企業には、アプリケーションの更新方法を説明したメールが過去数か月の間に4件送信されています。
+This change has now been completed. If your enterprise had applications that were not following this standard,
+you should have received four emails over the past few months describing how to update your applications.
 
-## リダイレクトエラーの解決方法
+## How to solve redirect errors
 
-メールを受信していないか、見逃していた場合は、問題を軽減する以下の手順を確認してください。
+If you did not receive the email or missed the communication, below you will find the steps to mitigate any issues.
 
-1. Box開発者コンソールの \[構成] タブで、対象のアプリケーションのリダイレクトURLを変更します。静的URLの場合は、開発者コンソールを更新して複数のURLを追加します。動的URLの場合は、静的URLを使用するか、stateパラメータを使用するようにアプリケーションを更新します。
-2. アプリケーションコードで使用されているリダイレクトURLを変更して、開発者コンソールのURLと厳密に一致させます。
+1. You can change the redirect URL in the Box Developer Console configuration tab for your application. If the URLs are
+   static, then you can update the Developer console to add multiple URLs. If the URLs are dynamic, then update your
+   application to use a static URL or use the state parameter.
+2. You can change the redirect URL used in your application code to strictly match the URL in the developer console.
 
-1の場合は、以下の手順に従ってください。
+For option #1, please use these steps:
 
-* アプリケーション所有者としてBoxにログインし、Box開発者コンソールに移動します。
-* アプリケーションをクリックし、\[構成] タブに移動します。
-* \[OAuth 2.0リダイレクトURI] セクションまで下にスクロールします。
-* 現在表示されているURLを更新します。
+* Login to Box as the application owner and navigate to the Box Developer Console
+* Click on the application and navigate to the configuration tab
+* Scroll down to the "OAuth 2.0 Redirect URI" section
+* Update the current URL listed
 
-2の場合は、アプリケーションコードを変更し、影響を受ける使用されているURLを、開発者コンソールのURLと厳密に一致するよう置き換えてください。
+For option #2, please modify your application code to replace the impacted used URLs to strictly match the URL in the Developer Console.
 
-## 更新内容
+## Updates
 
-* リダイレクトURIは、渡されたURIと、OAuth 2.0アプリケーションの構成で設定されたURIを一致させるように厳密なチェックを強制するようになりました
+* Redirect URIs now force strict checking to match the URI passed in and URIs configured in the OAuth 2.0 application configuration
 
-## サポート情報
+## Where to get support
 
-本件に関するご質問は、[Developer Forum][forum]に英語でリクエストを投稿していただくか、販売店から指定されたサポート窓口にお問い合わせください。[][support]
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][forum] or file a ticket
+with [Box Support][support].
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2024-07-15'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.11.0`のリリース
+# Box Java SDK `v4.11.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* OkHttp呼び出しの作成のオーバーライドを許可 ([#1257][1]) ([`bd6fde6`][2])
+* Allow overriding creation of OkHttp Call ([#1257][1]) ([`bd6fde6`][2])
 
-### バグ修正
+### Bug Fixes
 
-* 分類テンプレートの更新時に不足していたフィールドを追加 ([#1255][3]) ([`f17f817`][4])
-* `BoxFile`および`BoxFolder`の権限の逆シリアル化を修正 ([#1256][5]) ([`f088448`][6])
+* Add missing fields when update classification template ([#1255][3]) ([`f17f817`][4])
+* Fix deserializing permissions for `BoxFile` and `BoxFolder` ([#1256][5]) ([`f088448`][6])
 
 [1]: https://github.com/box/box-java-sdk/issues/1257
 

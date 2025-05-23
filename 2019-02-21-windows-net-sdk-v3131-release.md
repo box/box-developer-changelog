@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2019-02-21'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.13.1`のリリース
+# Windows .NET SDK `v3.13.1` released
 
-* イベントに関連した一部のオブジェクトで`.Id`プロパティがJSONから正しく逆シリアル化されていない問題を修正
+* Fixed an issue where some objects related to Events did not have their `.Id` property correctly deserialized from JSON
 
 [`nuget.org/packages/Box.V2/3.13.1`](https://www.nuget.org/packages/Box.V2/3.13.1)
 [`nuget.org/packages/Box.V2.Core/3.13.1`](https://www.nuget.org/packages/Box.V2.Core/3.13.1)

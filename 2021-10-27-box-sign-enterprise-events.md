@@ -23,19 +23,22 @@ source_url: >-
 published_at: '2021-10-27'
 fullyTranslated: true
 ---
-# Box SignのEnterprise Event
+# Box Sign Enterprise Events
 
-[Box Sign][sign]イベントが、Enterprise Event Streamを使用して利用できるようになりました。詳細については、[Box Signイベントガイド][seg]をご参照ください。
+[Box Sign][sign] events are now available via the enterprise events stream.
+For full details, please see our [Box Sign events guide][seg].
 
-## 更新内容
+## Updates
 
 <!--alex ignore cancelled and expired-->
 
-* 署名リクエストの[ドキュメントイベント][d]を追加: 作成、変換、完了、キャンセル、期限切れ
+* Add sign request [document events][d]: created, converted, completed,
+  cancelled and expired
 
-* 署名リクエストの[署名者イベント][s]を追加: 割り当て、署名者による表示、ダウンロード、転送、署名、拒否
+* Add sign request [signer events][s]: assigned, viewed by signer, downloaded,
+  forwarded, signed and declined
 
-* 2つの新しい[ステータス][stat]を追加: `downloaded`、`downloaded and signed`
+* Add two new [statuses][stat]: `downloaded` and `downloaded and signed`
 
 [stat]: e://resources/sign-requests/#param-status
 

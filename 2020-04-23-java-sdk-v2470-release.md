@@ -23,7 +23,7 @@ source_url: >-
 published_at: '2020-04-23'
 fullyTranslated: true
 ---
-# Java SDK `v2.47.0`のリリース
+# Java SDK `v2.47.0` released
 
-1. パスパラメータのサニタイズを修正 ([#797](https://github.com/box/box-java-sdk/pull/797))
-2. ファイルとファイルバージョンのアップローダー表示名フィールドのサポートを追加 ([#791](https://github.com/box/box-java-sdk/pull/791))
+1. Fix path parameter sanitization ([#797](https://github.com/box/box-java-sdk/pull/797))
+2. Add support for the uploader display name field for Files and File version ([#791](https://github.com/box/box-java-sdk/pull/791))

@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2024-09-11'
 fullyTranslated: true
 ---
-# Box Swift SDK Generated `0.5.0`のリリース
+# Box Swift SDK Generated `0.5.0` released
 
-### バグ修正
+### Bug Fixes
 
-* メタデータクエリの結果のバリアントを修正 (box/box-openapi[#456][1]) ([#232][2]) ([`be2fa52`][3])
+* Fix variants in metadata query results (box/box-openapi[#456][1]) ([#232][2]) ([`be2fa52`][3])
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* Hubsベータ版を追加 (box/box-openapi[#453][4]) ([#220][5]) ([`546f487`][6])
+* add Hubs Beta (box/box-openapi[#453][4]) ([#220][5]) ([`546f487`][6])
 
 [1]: https://github.com/box/box-codegen/issues/456
 

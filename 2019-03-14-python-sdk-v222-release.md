@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-03-14'
 fullyTranslated: true
 ---
-# Python SDK `v2.2.2`のリリース
+# Python SDK `v2.2.2` released
 
-* `requests-toolbelt`依存関係の制限を更新
+* Updated `requests-toolbelt` dependency restriction

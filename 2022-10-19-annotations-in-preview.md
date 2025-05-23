@@ -23,12 +23,17 @@ source_url: >-
 published_at: '2022-10-19'
 fullyTranslated: true
 ---
-# コンテンツプレビューUI Elementの新しい注釈
+# New annotations in the Content Preview UI Element
 
-コンテンツのプレビューエクスペリエンス向上のため、プレビューUI Elementに新しい注釈の種類のサポートを追加しました。カスタムアプリケーションでコンテンツをプレビューするエンドユーザーは、テキストのハイライトや描画など、追加の注釈の種類を利用できるようになりました。すべての注釈はリアルタイムで同期されます。
+To improve the content previewing experience, we have added support for new
+annotations types in the Preview UI Element.
+End users previewing content in custom applications can now utilize additional
+annotation types, such as text highlight, drawing, and more. All the annotations
+sync in real time.
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

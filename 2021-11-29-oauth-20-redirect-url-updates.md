@@ -23,26 +23,31 @@ source_url: >-
 published_at: '2021-11-29'
 fullyTranslated: true
 ---
-# 要件の変更に伴うOAuth 2.0リダイレクトURIの更新
+# OAuth 2.0 Redirect URL Updates
 
-Box開発者コンソールの新機能をリリースしました。開発者は、この新機能を使用して、OAuth 2.0アプリケーション用に複数のリダイレクトURIを追加できるようになります。
+Today, we released a new feature to the Box Developer Console, allowing developers to add multiple redirect URIs for an OAuth 2.0 application.
 
 <!-- more -->
 
-日本時間2021年11月30日以降、OAuth 2.0を使用する新規のアプリケーションでは、開発者コンソールの \[構成] タブで設定されたURIとリダイレクト時に使用されるURIが厳密に一致する必要があります。また、そのため新規のアプリケーションと既存のアプリケーションの両方で、複数のリダイレクトURIを追加できるようになります。
+Starting November 29, 2021, new applications using OAuth 2.0 will require the
+URIs set in the configuration tab of the Developer Console to strictly match the
+one used during redirect. In addition, both new and existing applications, will
+gain the ability to add multiple redirect URIs.
 
-既存のアプリケーションでは、サービスの中断を回避するために、日本時間2022年5月14日までにこのURLを変更する必要があります。
+For existing applications, the deadline to make changes to this URL and avoid service
+disruption is May 13, 2022.
 
-## 更新内容
+## Updates
 
-* Box開発者コンソールのOAuth 2.0アプリケーションの \[構成] セクションに、複数のリダイレクトURIを追加するための新しいボタンが用意されました
-* リダイレクトURIは、渡されたURIと、OAuth 2.0アプリケーションの構成で設定されたURIを一致させるように厳密なチェックを強制するようになりました
-* [`GET /authorize`][url-redirect]エンドポイントのページで`redirect_uri`クエリパラメータの表現を更新しました
-* OAuth 2.0の[設定][oauth-setup]、[SDKを使用したOAuth 2.0][oauth-sdk]、[SDKを使用しないOAuth 2.0][oauth-nosdk]に関するガイドページを更新しました
+* The Box Developer Console OAuth 2.0 application configuration section has a new button to add multiple redirect URIs
+* Redirect URIs now force strict checking to match the URI passed in and URIs configured in the OAuth 2.0 application configuration
+* Updated the `redirect_uri` query parameter wording on the [`GET /authorize`][url-redirect] endpoint page
+* Updated the OAuth 2.0 [setup][oauth-setup], [with SDK][oauth-sdk], and [without SDK][oauth-nosdk] guide pages
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][forum] for any help needed.
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

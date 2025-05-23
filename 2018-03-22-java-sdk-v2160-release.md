@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2018-03-22'
 fullyTranslated: true
 ---
-# Java SDK `v2.16.0`のリリース
+# Java SDK `v2.16.0` released
 
-1. JWT有効期限の間隔を調整 ([#572](https://github.com/box/box-java-sdk/pull/572))
-2. API接続でのカスタムヘッダーの設定を許可 ([#562](https://github.com/box/box-java-sdk/pull/562))
-3. JWT再試行タイムスタンプ解析を修正 ([#575](https://github.com/box/box-java-sdk/pull/575))
-4. ユーザー追跡コードのサポートを追加 ([#487](https://github.com/box/box-java-sdk/pull/487))
+1. Adjust JWT expiration interval ([#572](https://github.com/box/box-java-sdk/pull/572))
+2. Allow setting custom headers on API connection ([#562](https://github.com/box/box-java-sdk/pull/562))
+3. Fix JWT retry timestamp parsing ([#575](https://github.com/box/box-java-sdk/pull/575))
+4. Add support for User Tracking Codes ([#487](https://github.com/box/box-java-sdk/pull/487))

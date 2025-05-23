@@ -20,14 +20,18 @@ source_url: >-
 published_at: '2019-10-18'
 fullyTranslated: true
 ---
-# 2019年12月31日にRelay APIエンドポイントを廃止
+# Relay API Endpoints will EOL on December 31st, 2019
 
-2019年12月31日、すべてのRelay Classic APIエンドポイントが廃止されます。これには以下の機能が含まれます。
+On December 31st, 2019, Box will end of life all Relay Classic API endpoints,
+which includes the following functions:
 
-* 公開されているRelay Classicテンプレートのリストの取得
-* Relay Classicワークフローのリストの取得
-* Relay Classicワークフローの開始
+* Get list of published Relay Classic templates.
+* Get list of Relay Classic workflows.
+* Launch a Relay Classic workflow.
 
-12月31日以降もアプリケーションを引き続き機能させるために、上記のRelay Classic APIへの呼び出しをすべて削除してください。
+To ensure that your application continues to function after December 31st
+please remove all calls to the Relay Classic APIs listed above.
 
-詳細については、この件に関する[コミュニティスレッド](https://community.box.com/t5/Platform-and-Development-Forum/Relay-Classic-APIs-to-EOL-on-December-31st-2019/m-p/77729#M7276)を参照してください。
+For more information please see our
+[community thread](https://community.box.com/t5/Platform-and-Development-Forum/Relay-Classic-APIs-to-EOL-on-December-31st-2019/m-p/77729#M7276)
+on the topic.

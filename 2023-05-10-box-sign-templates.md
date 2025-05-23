@@ -23,13 +23,16 @@ source_url: >-
 published_at: '2023-05-10'
 fullyTranslated: true
 ---
-# Box SignテンプレートAPI
+# Box Sign template APIs
 
-新しいBox SignテンプレートAPIを使用すると、[Box Signテンプレートのリスト][1]または[特定のBox Signテンプレートの詳細][2]を取得できます。この情報を使用して、テンプレートベースの署名リクエストを開始できます。
+The new Box Sign template APIs allow you to [get a list of Box Sign templates][1] or details of a
+[specific Box Sign template][2].
+You can then use this information to initiate template-based sign requests.
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, post a request to
+our [developer forum][3] for any help needed.
 
 [1]: e://get-sign-templates
 

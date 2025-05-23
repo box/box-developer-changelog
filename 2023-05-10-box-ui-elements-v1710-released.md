@@ -22,24 +22,24 @@ source_url: >-
 published_at: '2023-05-10'
 fullyTranslated: true
 ---
-# Box UI Elements `v17.1.0`のリリース
+# Box UI Elements `v17.1.0` released
 
 # [17.1.0][1] (2023-05-10)
 
-### バグ修正
+### Bug Fixes
 
-* **content-explorer:** 空のフォルダの \[すべて選択] チェックボックス ([#3324][2]) ([`a193adb`][3])
-* **content-explorer:** \[すべて選択] チェックボックスの状態が`selectedItems`に一致 ([#3319][4]) ([`7473dfd`][5])
-* **i18n:** 翻訳を更新 ([#3313][6]) ([`dd9a1fd`][7])
-* **i18n:** 翻訳を更新 ([#3317][8]) ([`95618cf`][9])
-* **pill-selector-dropdown:** `isPositionDynamic`のデフォルト値を削除 ([#3320][10]) ([`e74f824`][11])
-* **preview:** Edgeで動画が読み込まれない ([#3326][12]) ([`e5aa7e5`][13])
-* **usm:** itemプロパティを任意化 ([#3322][14]) ([`fe7c4bb`][15])
+* **content-explorer:** select all checkbox in empty folder ([#3324][2]) ([`a193adb`][3])
+* **content-explorer:** select all checkbox state matches `selectedItems` ([#3319][4]) ([`7473dfd`][5])
+* **i18n:** update translations ([#3313][6]) ([`dd9a1fd`][7])
+* **i18n:** update translations ([#3317][8]) ([`95618cf`][9])
+* **pill-selector-dropdown:** remove default value for `isPositionDynamic` ([#3320][10]) ([`e74f824`][11])
+* **preview:** videos not loading on edge ([#3326][12]) ([`e5aa7e5`][13])
+* **usm:** make item prop optional ([#3322][14]) ([`fe7c4bb`][15])
 
-### 機能
+### Features
 
-* **sharing:** Canvasファイルの共有リンクのメッセージを変更 ([#3315][16]) ([`fa17afd`][17])
-* **sharing:** Canvasファイルの共有リンクのメッセージを変更 ([#3318][18]) ([`60a3a6e`][19])
+* **sharing:** Change message for shared links for Canvas files ([#3315][16]) ([`fa17afd`][17])
+* **sharing:** Change message for shared links for Canvas files ([#3318][18]) ([`60a3a6e`][19])
 
 [1]: https://github.com/box/box-ui-elements/compare/v17.0.0...v17.1.0
 

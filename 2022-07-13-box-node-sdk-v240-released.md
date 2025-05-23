@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2022-07-13'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.4.0`のリリース
+# Box Node SDK `v2.4.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* ファイルリクエストのサポートを追加 ([#742][1]) ([`30b2e76`][2])
-* `admin_logs_streaming`ストリームタイプのサポートを追加 ([#740][3]) ([`406950a`][4])
+* Added support for file requests ([#742][1]) ([`30b2e76`][2])
+* Added support of `admin_logs_streaming` stream type ([#740][3]) ([`406950a`][4])
 
-### バグ修正
+### Bug Fixes
 
-* ストリームのクライアントエラーを適切に処理 ([#736][5]) ([`12378d6`][6])
+* properly handle client errors in streams ([#736][5]) ([`12378d6`][6])
 
 [1]: https://github.com/box/box-node-sdk/issues/742
 

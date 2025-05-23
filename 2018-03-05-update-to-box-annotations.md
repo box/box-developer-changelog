@@ -21,9 +21,19 @@ source_url: >-
 published_at: '2018-03-05'
 fullyTranslated: true
 ---
-# Boxの注釈を更新
+# Update to Box Annotations
 
-顧客がカスタムアプリケーションで使用するBox APIを介して使用できる注釈機能に、2つの拡張機能が加えられました。更新内容は以下のとおりです。
+We will be introducing two enhancements to the annotations features available
+via the Box API that your customer uses in their custom application. The
+updates are as follows:
 
-* **ポイント注釈モード**: ポイント注釈モードの導入により、ポイント注釈が強化されました。これにより、それぞれの注釈の後にポイント注釈アイコンを再選択しなくても、ドキュメントに注釈を追加できます。[こちら](guide://embed/ui-elements)を参照してください。
-* **有効期限付き埋め込みリンクによる描画注釈**: 2017年11月に描画注釈機能が追加されました。これにより、エンドユーザーがタッチ対応デバイスでタッチまたはスタイラスを使用して自由形式で描画できるようになりました。正式リリース版の注釈描画機能は、期限付き埋め込みリンクによって提供されます。Get Embed Link APIを経由して注釈を使用するユーザーは、Boxプレビューでまったく新しい表現方法を使用できるようになりました。
+* **Point Annotations mode**: We are enhancing point annotations by introducing
+  Point Annotations mode. This allows users to expediently add annotations on a
+  document without having to re-select the point annotation icon after each
+  annotation. [here](guide://embed/ui-elements).
+* **Drawing Annotations via Expiring Embed**: We launched Drawing Annotations
+  in November of 2017. This provided end users the ability to free-form draw on
+  their touch-enabled devices using touch or a stylus. We are excited to share
+  that we're making Drawing Annotations Full release announcement is available
+  via the Expiring Embed. Users using annotations via the Get Embed Link API will
+  now have a whole new way to express themselves via Box Preview.

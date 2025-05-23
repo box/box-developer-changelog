@@ -22,11 +22,11 @@ source_url: >-
 published_at: '2023-11-08'
 fullyTranslated: true
 ---
-# Box CLI `v3.12.2`のリリース
+# Box CLI `v3.12.2` released
 
-### バグ修正
+### Bug Fixes
 
-* `box-node-sdk`を昇格 ([#510][1]) ([`2621f41`][2])
+* Bump `box-node-sdk` ([#510][1]) ([`2621f41`][2])
 
 [1]: https://github.com/box/boxcli/issues/510
 

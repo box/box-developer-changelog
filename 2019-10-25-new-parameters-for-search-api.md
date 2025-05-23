@@ -20,8 +20,10 @@ source_url: >-
 published_at: '2019-10-25'
 fullyTranslated: true
 ---
-# 検索APIの新しいパラメータ
+# New parameters for Search API
 
-[Search API](e://get-search)で、新しいクエリパラメータである`sort`と`direction` (省略可) を使用できるようになりました。
+New optional query parameters have been made available for the
+[Search API](e://get-search), namely `sort` and `direction`.
 
-このパラメータの目的は、アプリケーションが項目を`modified_at`日付で昇順または降順にソートできるようにすることです。
+The purpose of these parameters is to allow applications to sort items by their
+`modified_at` date in ascending or descending order.

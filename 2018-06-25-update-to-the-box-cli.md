@@ -20,19 +20,29 @@ source_url: >-
 published_at: '2018-06-25'
 fullyTranslated: true
 ---
-# Box CLIの更新
+# Update to the Box CLI
 
-[Box CLI](guide://cli/quick-start)への更新がリリースされました。このバージョンには以下の更新が含まれます。
+We have released updates to the [Box CLI](guide://cli/quick-start). This
+version includes the following updates:
 
-* **[新しいマルチゾーンコマンド][cli_update_multizones]**: データ保管場所用の[Box Multizones][cli_update_multizones_announce]のサポートが追加されました。
+* **[New Multizones commands][cli_update_multizones]**: Adds support for
+  [Box Multizones][cli_update_multizones_announce] for data residency.
 
-* **[ユーザーによるCSV操作の修正][cli_update_csv_operations]**: ユーザーがOpen With Elementを使用できなかったバグが修正されました。Open With Elementが、ユーザーデータのベータをCSVファイルに保存しなくなりました。
+* **[Fix for user CSV operations][cli_update_csv_operations]**: Fixes a bug that
+    prevented users using Open With Element: The Open With element has been moved
+    from saving users data beta to CSV files.
   <!-- markdownlint-disable line-length -->
 
-* **[フォルダの更新時に`can_non_owners_invite`を設定する機能][cli_update_folder_update_flag]**: 所有者以外のユーザーが他のユーザーをフォルダでのコラボレーションに招待できるかどうかを設定できるようになりました。
+* **[Ability to set `can_non_owners_invite` flag on folder updates][cli_update_folder_update_flag]**:
+    Allows setting whether non-owners can invite other users to collaborate on the
+    folder.
   <!-- markdownlint-enable line-length -->
 
-* **[新しいCLI構成のダンプコマンド][cli_update_config_dump]**: 値をコピーして一般的な用途に使えるよう、Box構成ファイルを単一の文字列としてダンプする機能が追加されました。オプションで、エスケープ引用符を追加できます。Open Withは、環境変数または構成プロパティを (AWSの個別のボタンやAzureなどで) 提供します。
+* **[New CLI configuration dump command][cli_update_config_dump]**: Adds the
+  ability to dump the Box configuration file as a single string, optionally with
+  escaped quotes, in order to copy the value to general availability. Open With
+  delivers an environment variable or configuration property (for example, in AWS
+  individual button or Azure).
 
 [cli_update_multizones]: https://github.com/box/boxcli/pull/91
 

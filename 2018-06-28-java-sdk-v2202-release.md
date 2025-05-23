@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2018-06-28'
 fullyTranslated: true
 ---
-# Java SDK `v2.20.2`のリリース
+# Java SDK `v2.20.2` released
 
-1. レスポンスヘッダーで大文字と小文字の区別なし ([#620](https://github.com/box/box-java-sdk/pull/620))
+1. Case Insensitivity for Response Headers ([#620](https://github.com/box/box-java-sdk/pull/620))

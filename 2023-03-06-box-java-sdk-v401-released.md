@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2023-03-06'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.0.1`のリリース
+# Box Java SDK `v4.0.1` released
 
-### バグ修正
+### Bug Fixes
 
-* `OAUTH_SUFFIX`が`baseAuthorizationURL`に2回付加される ([#1148][1]) ([`3164770`][2])、[#1147][3]をクローズ
-* `AbstractBoxMultipartRequest`によって誤った進捗が`ProgressListener`に報告される ([#1151][4]) ([`947ded3`][5])、[#1149][6]をクローズ
+* `OAUTH_SUFFIX` gets appended twice to `baseAuthorizationURL` ([#1148][1]) ([`3164770`][2]), closes [#1147][3]
+* Wrong progress reported to `ProgressListener` by `AbstractBoxMultipartRequest` ([#1151][4]) ([`947ded3`][5]), closes [#1149][6]
 
 [1]: https://github.com/box/box-java-sdk/issues/1148
 

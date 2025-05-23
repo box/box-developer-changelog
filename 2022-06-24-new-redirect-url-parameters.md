@@ -23,28 +23,34 @@ source_url: >-
 published_at: '2022-06-24'
 fullyTranslated: true
 ---
-# Box Sign APIでのリダイレクトURLの設定のサポート
+# Box Sign API supports setting redirect URLs
 
-[Box Sign API][3]で、署名リクエストに署名した、または署名リクエストを拒否したユーザーに対して、カスタムリダイレクトURLを設定するための新しいパラメータが提供されるようになりました。これにより、Box Signとアプリケーションを統合する際、署名者をアプリケーションにリダイレクトしたり、カスタムのランディングページを表示したりすることができます。
+The [Box Sign API][3] now offers new parameters to set up custom redirect URLs
+for users who sign or decline a sign request. This way, when integrating your application
+with Box Sign, you can redirect the signers
+back to your application or display a custom landing page.
 
 <!-- more -->
 
-## 更新内容
+## Updates
 
-Box Sign APIは、[署名リクエストを作成][4]の呼び出しのリクエスト本文で渡すオプションのパラメータを提供します:
+Box Sign API provides optional parameters to pass in the request body of the [Create Sign Request][4] call:
 
-* リクエストに署名した後に、ユーザーを特定のページにリダイレクトする`redirect_url`
-* リクエストを拒否した後に、ユーザーを特定のページにリダイレクトする`declined_redirect_url`
+* `redirect_url` that redirects the user to a specific page after signing a request
+* `declined_redirect_url` that redirects the user to a specific page after declining a request
 
-リダイレクトURLは、すべての署名者に対してグローバルに定義することも、特定の署名者に対してのみ定義することもできます。詳細については、[署名リクエストを作成][4]のガイドを参照してください。
+You can define redirect URLs globally for all signers and for specific signers only.
+For details, see the [Create Sign Request][4] guide.
 
-## 開発者向けリソース
+## Developer Resources
 
-Box App Centerでのアプリケーションの作成、またはBoxパートナーへの参加をご希望の場合、詳細については[Box Partner Resources][2]のガイド (英語) を参照してください。
+Are you interested in creating applications for the Box App Center or becoming a Box Partner? Check out the
+[Box Partner Resources][2] guides for more information!
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

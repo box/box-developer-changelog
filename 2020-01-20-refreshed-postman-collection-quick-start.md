@@ -20,14 +20,20 @@ source_url: >-
 published_at: '2020-01-20'
 fullyTranslated: true
 ---
-# Postmanコレクションとクイックスタートを更新
+# Refreshed Postman Collection & Quick Start
 
-Box Postmanコレクションは、新機能と、統合されたクイックスタートガイドによって更新されました。主な機能は以下のとおりです。
+The Box Postman collection has been updated with new features and an integrated
+quick-start guide. Key features include:
 
-* エンドツーエンドの[Postmanクイックスタートガイド][postman-quick-start-guide]。これは、ユーザーがPostmanのインストール、Boxアプリの設定、PostmanへのAPI資格情報の読み込みを行う際に役立ちます。
-* Box API用に[再編成されたPostmanコレクション][postman-collection]。これにより、API資格情報の期限切れが自動的に検出され、必要に応じてこれらの資格情報を更新するための統合ソリューションが提供されます。
+* An end-to-end [Postman quick-start guide][postman-quick-start-guide] that
+  helps users to install Postman, set up a Box App, and load their API
+  credentials into Postman.
+* A [restructured Postman collection][postman-collection] for the Box APIs that
+  automatically detects when API credentials have expired and offers integrated
+  solutions for refreshing these credentials when needed.
 
-しばらくの間は[従来のPostmanコレクション][legacy-postman-collection]も引き続きご利用いただけます。
+The [legacy Postman collection][legacy-postman-collection] will stay available
+for the foreseeable future.
 
 [postman-quick-start-guide]: g://tooling/postman/quick-start
 

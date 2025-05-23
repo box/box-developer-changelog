@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-04-19'
 fullyTranslated: true
 ---
-# Box Windows SDK `v4.3.1`のリリース
+# Box Windows SDK `v4.3.1` released
 
-**バグ修正:**
+**Bug Fixes:**
 
-* ベース`urls`の使用を簡素化 ([#815][1]) ([`f8e7344`][2])
+* simplify base `urls` usage ([#815][1]) ([`f8e7344`][2])
 
 <https://www.nuget.org/packages/Box.V2/4.3.1>
 

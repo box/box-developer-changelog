@@ -23,7 +23,7 @@ source_url: >-
 published_at: '2019-05-23'
 fullyTranslated: true
 ---
-# Java SDK `v2.33.0`のリリース
+# Java SDK `v2.33.0` released
 
-1. パーツバッファのサイズが正しいことを確認するためのテストを追加 ([#703](https://github.com/box/box-java-sdk/pull/703))
-2. フォルダオブジェクトでの`can_non_owners_invite`フィールドの設定を許可 ([#700](https://github.com/box/box-java-sdk/pull/700))
+1. Added test for making sure part buffer is correct size ([#703](https://github.com/box/box-java-sdk/pull/703))
+2. Allow setting `can_non_owners_invite` field on Folder objects ([#700](https://github.com/box/box-java-sdk/pull/700))

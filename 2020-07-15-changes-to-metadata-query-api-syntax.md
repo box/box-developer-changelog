@@ -22,9 +22,10 @@ source_url: >-
 published_at: '2020-07-15'
 fullyTranslated: true
 ---
-# メタデータクエリAPIの構文の変更
+# Changes to Metadata Query API syntax
 
-[メタデータクエリAPI][g_mdq_api]は、**明示的に定義されたレスポンスフィールドを要求する**よう更新されました。
+The [Metadata Query API][g_mdq_api] has been updated to **require explicitly
+defined response fields**.
 
 [g_mdq_api]: g://metadata/queries
 
@@ -48,7 +49,10 @@ curl -X POST https://api.box.com/2.0/metadata_queries/execute_read \
       }'
 ```
 
-さらに、**このレスポンス形式では項目のリストが返されるようになり**、クエリ結果のリストは返されなくなりました。メタデータは、項目と並んで表示されるのではなく、項目内にネストされるようになりました。レスポンスで返されるのは、`field`配列で指定されたフィールドとすべての基本フィールドだけです。
+Additionally, **the response format now returns a list of items** rather
+than a list of query results. Any metadata is now nested within the item,
+rather than listed side-by-side with the item. Only fields specified in the
+`field` array - as well as any base fields - are returned in the response.
 
 ```json
 {
@@ -72,9 +76,10 @@ curl -X POST https://api.box.com/2.0/metadata_queries/execute_read \
 }
 ```
 
-## 従来の構文
+## Legacy syntax
 
-参考までに、このAPIでは、これまで、項目のすべての標準フィールドのほか、一致したメタデータが返されていました。
+For reference, the API would previously return all standard fields for an item
+as well as the matched metadata.
 
 ```curl
 curl -X POST https://api.box.com/2.0/metadata_queries/execute_read \
@@ -90,7 +95,8 @@ curl -X POST https://api.box.com/2.0/metadata_queries/execute_read \
       }'
 ```
 
-レスポンスの本文では、項目がエントリのリストとして返され、それぞれに`item`と`metadata`インスタンスが含まれていました。
+The response body previously returned the items as a list of entries, each
+containing an `item` and a `metadata` instance.
 
 ```json
 {
@@ -130,4 +136,6 @@ curl -X POST https://api.box.com/2.0/metadata_queries/execute_read \
 }
 ```
 
-この従来の構文は、**既存のメタデータクエリAPIユーザーだけが引き続き利用できます**。既存のユーザー全員が新しい構文に移行すると、従来の構文は無効になります。
+This legacy syntax **will still be available for any existing Metadata Query API
+users only**. The legacy syntax will be turned off When all existing customers
+have been migrated over to the new syntax.

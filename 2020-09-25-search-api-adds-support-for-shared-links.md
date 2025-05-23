@@ -23,27 +23,37 @@ source_url: >-
 published_at: '2020-09-25'
 fullyTranslated: true
 ---
-# 検索APIで共有リンクのサポートを追加
+# Search API adds support for Shared Links
 
-[検索API][endpoint]では、ユーザーが最近共有リンクを介してアクセスしたファイル、フォルダ、およびウェブリンクが返されるようになりました。
+The [Search API][endpoint] now supports returning files,
+folders and web links that the user has recently accessed
+through a shared link.
 
-共有項目をリクエストするには、新しい`include_recent_shared_links`クエリパラメータを`true`に設定して[`GET /search`][endpoint] APIを呼び出します。
+Shared items can be requested by calling the
+[`GET /search`][endpoint] API with the new
+`include_recent_shared_links` query parameter set to `true`.
 
 ```sh
 curl -i -X GET https://api.box.com/2.0/search?query=Contract&include_recent_shared_link=true
 ```
 
-このクエリパラメータが指定されていない場合またはtrueに設定されていない場合、デフォルトでは、このAPIによって共有項目が返されることはありません。
+By default, the API won't return any shared items if this
+query parameter is not provided or not set to true.
 
-## レスポンス形式の変更
+## Change in response format
 
-`include_recent_shared_links`を`true`に設定した場合、追加情報を返すことができるようにレスポンスが若干変更されました。APIでは、ファイル、フォルダ、およびウェブリンクの直接的なリストではなく、`item`と`accessible_via_shared_link`プロパティを含むオブジェクトのリストが返されるようになりました。
+When `include_recent_shared_links` is set to `true`, the
+response has slightly changed to allow for the additional
+information to be returned. Rather than returning a direct list
+of files, folders, and web links the API now returns a list of
+objects containing an `item` and an `accessible_via_shared_link`
+property.
 
 <!-- more -->
 
 <Tabs>
 
-<Tab title="共有リンクが含まれる結果">
+<Tab title="With shared link results">
 
 ```json
 {
@@ -69,7 +79,7 @@ curl -i -X GET https://api.box.com/2.0/search?query=Contract&include_recent_shar
 
 </Tab>
 
-<Tab title="共有リンクが含まれない結果">
+<Tab title="Without">
 
 ```json
 {
@@ -94,6 +104,7 @@ curl -i -X GET https://api.box.com/2.0/search?query=Contract&include_recent_shar
 
 </Tabs>
 
-このレスポンス形式の変更は、新しいクエリパラメータを使用して行われるAPIコールのみに適用されるため、既存のアプリケーションに影響することはありません。
+This change in response format should not impact any existing applications
+as it only applies to any API call made with the new query parameter.
 
 [endpoint]: e://get_search

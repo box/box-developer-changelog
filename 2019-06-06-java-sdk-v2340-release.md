@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-06-06'
 fullyTranslated: true
 ---
-# Java SDK `v2.34.0`のリリース
+# Java SDK `v2.34.0` released
 
-1. タスクのfields:アクションを追加 ([#707](https://github.com/box/box-java-sdk/pull/707))
+1. Added fields: action for task ([#707](https://github.com/box/box-java-sdk/pull/707))

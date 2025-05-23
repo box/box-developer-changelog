@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2022-05-24'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.2.0`のリリース
+# Box Java SDK `v3.2.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* ベースURLの設定を刷新 ([#1042][1]) ([`129baf7`][2])
-* アバターV2 APIをサポート ([#1044][3]) ([`18651d7`][4])
+* Revamped setting base URLs ([#1042][1]) ([`129baf7`][2])
+* support for Avatar V2 API ([#1044][3]) ([`18651d7`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1042
 

@@ -24,15 +24,15 @@ source_url: >-
 published_at: '2022-11-08'
 fullyTranslated: true
 ---
-# Box iOS SDK `v5.4.0`のリリース
+# Box iOS SDK `v5.4.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* SignRequestSignerに`content_type`フィールドを追加 ([#871][1]) ([`1ec5b01`][2])
-* 署名リクエストに`redirect_url`と`declined_redirect_url`を追加 ([#870][3]) ([`f94d988`][4])
-* `sign` Webhookトリガーのサポートを追加 ([#875][5]) ([`994bfaf`][6])
-* リテンションポリシー割り当てを削除するメソッドを追加 ([#873][7]) ([`c5f146c`][8])
-* 変更可能リテンションポリシーのサポートを追加 ([#872][9]) ([`e2b7a17`][10])
+* Add `content_type` field to Sign Requests signer ([#871][1]) ([`1ec5b01`][2])
+* Add `redirect_url` and `declined_redirect_url` to Sign Request ([#870][3]) ([`f94d988`][4])
+* Add support for `sign` webhook triggers ([#875][5]) ([`994bfaf`][6])
+* Added method to remove retention policy assignment ([#873][7]) ([`c5f146c`][8])
+* Added support for Modifiable Retention Policies ([#872][9]) ([`e2b7a17`][10])
 
 [1]: https://github.com/box/box-ios-sdk/issues/871
 

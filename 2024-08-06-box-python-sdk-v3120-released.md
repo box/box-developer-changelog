@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2024-08-06'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.12.0`のリリース
+# Box Python SDK `v3.12.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 必須パラメータが異なるcreate_sign_request関数を追加 ([#878][1]) ([`d972f54`][2])
-* Box AI機能をサポート ([#877][3]) ([`3026d2a`][4])
+* add create sign request function with different required parameters ([#878][1]) ([`d972f54`][2])
+* Support Box AI features ([#877][3]) ([`3026d2a`][4])
 
 [1]: https://github.com/box/box-python-sdk/issues/878
 

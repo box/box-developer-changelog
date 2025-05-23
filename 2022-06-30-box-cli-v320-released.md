@@ -22,15 +22,15 @@ source_url: >-
 published_at: '2022-06-30'
 fullyTranslated: true
 ---
-# Box CLI `v3.2.0`のリリース
+# Box CLI `v3.2.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* ストリームタイプ`admin_logs_streaming`のサポートを追加 ([#337][1]) ([`7596157`][2])
+* Added support for stream type `admin_logs_streaming` ([#337][1]) ([`7596157`][2])
 
-### バグ修正
+### Bug Fixes
 
-* ネイティブストレージエラーを修正 ([#345][3]) ([`b73b841`][4])
+* Fix native storage errors ([#345][3]) ([`b73b841`][4])
 
 [1]: https://github.com/box/boxcli/issues/337
 

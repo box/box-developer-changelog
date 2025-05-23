@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2022-02-18'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.1.0`のリリース
+# Box Java SDK `v3.1.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* クライアント資格情報許可による認証方法のサポートを追加 ([#1002][1]) ([`9cfcaff`][2])
-* ファイルの廃棄日を延長するAPI ([#1001][3]) ([`f3f6b60`][4])
-* メタデータクエリ実行時の`indexName`のサポート終了 ([#1000][5]) ([`c20dbbf`][6])
+* Added support for Client Credentials Grant authentication method ([#1002][1]) ([`9cfcaff`][2])
+* API to extend disposition date on a file ([#1001][3]) ([`f3f6b60`][4])
+* Deprecating `indexName` when executing metadata query ([#1000][5]) ([`c20dbbf`][6])
 
-### 依存関係のアップグレード
+### Dependency Upgrades
 
-* Gradleを7.3.3にアップグレード ([#985][7]) [`e4acbb1`][8]
+* Upgrade Gradle to 7.3.3 ([#985][7]) ([`e4acbb1`][8])
 
 [1]: https://github.com/box/box-java-sdk/issues/1002
 

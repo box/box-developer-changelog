@@ -24,22 +24,40 @@ source_url: >-
 published_at: '2020-09-29'
 fullyTranslated: true
 ---
-# OAuth 2アプリリダイレクトURIの要件の変更
+# Change to OAuth 2 app redirect URI requirements
 
-日本時間2020年10月30日から、Boxでは、アプリケーションに影響を及ぼす可能性のある新規および既存の[OAuth 2](g://authentication/oauth2/)ベースのBox統合で使用されるリダイレクトURIに対してより厳しい要件を使用します。
+On October 29th, 2020, Box will begin employing stricter requirements for
+redirect URIs used within new and existing
+[OAuth 2](g://authentication/oauth2/)-based Box integrations that may affect
+your application.
 
-現在アプリケーションの構成で空のリダイレクトURIを使用している既存のアプリケーション所有者は、[こちらの説明](g://authentication/oauth2/oauth2-setup/#redirect-uri)に従って、コードのリダイレクト手順 ([こちらを参照](g://authentication/oauth2/with-sdk/#2-redirect-user)) で使用されているリダイレクトと一致するようリダイレクトURIを更新する必要があります。
+Existing application owners that currently use a blank redirect URI in their
+application configuration, as
+[described here](g://authentication/oauth2/oauth2-setup/#redirect-uri), will
+need to update the redirect URI to match the redirect used within the code
+redirect step,
+[described here](g://authentication/oauth2/with-sdk/#2-redirect-user).
 
-2020年10月30日以降、まだ空のURIを使用して構成されているアプリケーションでは、URIの調整が行われない場合にユーザーがアプリケーションにリダイレクトされると、エラーが返されるようになります。
+On October 29th, 2020, applications that are still configured with a blank URI
+will begin returning an error when the user is redirected back to your
+application if URI adjustments aren't made.
 
-影響を受けるアプリケーション所有者とコラボレータの全員には、各自のDeveloperアカウントに関連付けられたメールアドレスを利用して通知しました。
+All impacted application owners and collaborators have been notified via
+the email address associated with their developer account.
 
-## 確認して変更を行う方法
+## How to validate and make the change
 
-アプリケーションンが影響を受けた場合にリダイレクトURIを確認し、アプリケーションを更新するには、以下の手順を実行します。
+To validate your redirect URI and update your application(s) if they are
+affected, take the following steps:
 
-* アプリケーションを所有するユーザーとして、[Box開発者コンソール](https://cloud.app.box.com/developers/console)に移動します。
-* **OAuth 2** (クライアント側認証) を使用する**カスタムアプリ**ごとに、そのアプリケーションをクリックして開きます。
-* 左のナビゲーションで \[**構成**] をクリックします。
-* \[**OAuth 2.0リダイレクトURI**] セクションまで下にスクロールします。
-* このURIが空のアプリケーションでは、\<c0>こちらのガイドで説明されているように\<c0>、Boxの認証手順からアプリケーションにユーザーをリダイレクトする際にアプリケーションコードで使用されるURIを追加します。
+* Go to the
+  [Box developer console](https://cloud.app.box.com/developers/console) as the
+  user who owns the application(s).
+* For each **Custom App** using **OAuth 2** (client-side authentication) click
+  on the application to open it.
+* From the left navigation, click on **Configuration**.
+* Scroll down to the **OAuth 2.0 Redirect URI** section.
+* For any application where this URI is blank, add the URI that is being used
+  in the application code when redirecting the user back to your application
+  from the Box auth step,
+  [as is described in this guide](g://authentication/oauth2/with-sdk/#2-redirect-user).

@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2021-04-01'
 fullyTranslated: true
 ---
-# Box Java SDK `v2.54.0`のリリース
+# Box Java SDK `v2.54.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* ファイルリクエストのサポートを追加 ([#869][1])
+* Add file request support ([#869][1])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* `BoxWeblink`の逆シリアル化を修正 ([#881][2])
+* Fix `BoxWeblink` deserialization ([#881][2])
 
 [1]: https://github.com/box/box-java-sdk/pull/869
 

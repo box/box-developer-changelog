@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2022-09-21'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.7.0`のリリース
+# Box Java SDK `v3.7.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* ファイルとフォルダに`is_accessible_via_shared_link`フィールドを追加 ([#1103][1]) ([`45e9906`][2])
+* Add `is_accessible_via_shared_link` field to File and Folder ([#1103][1]) ([`45e9906`][2])
 
-### バグ修正
+### Bug Fixes
 
-* `BoxCollaboration.getItem()`が`BoxFolder.Info`ではなく`BoxItem.Info`を返すように修正 ([#1102][3]) ([`135850d`][4])、[#1101][5] [#1100][6]をクローズ。以前、`BoxCollaboration.getItem()`は`BoxFolder.Info`を返していました。ただし、ファイルにコラボレーションが追加された場合は引き続き`BoxFolder.Info`が返され、その結果、任意のAPIコールを実行する際に`BoxAPIException`がスローされます。コラボレーション項目を取得する場合は`BoxItem.Info`として格納するか、その種類を確認して`BoxFile.Info`または`BoxFolder.Info`として格納することをお勧めします。
-* 不足していたコンストラクタを`BoxNotificationEmail`クラスに追加 ([#1098][7]) ([`2534f34`][8])
+* `BoxCollaboration.getItem()` returns `BoxItem.Info` not `BoxFolder.Info` ([#1102][3]) ([`135850d`][4]), closes [#1101][5] [#1100][6]. `BoxCollaboration.getItem()` used to return `BoxFolder.Info`. However, if collaboration was added on a file it would still return `BoxFolder.Info` which will end with throwing `BoxAPIException` when doing any API call. If you are getting collaboration item it is best to store it as `BoxItem.Info` or check its type and store it as `BoxFile.Info` or `BoxFolder.Info`.
+* Add missing constructor to `BoxNotificationEmail` class ([#1098][7]) ([`2534f34`][8])
 
 [1]: https://github.com/box/box-java-sdk/issues/1103
 

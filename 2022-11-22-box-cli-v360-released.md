@@ -22,16 +22,16 @@ source_url: >-
 published_at: '2022-11-22'
 fullyTranslated: true
 ---
-# Box CLI `v3.6.0`のリリース
+# Box CLI `v3.6.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* `id`および`type`フィールドをshared-links:createレスポンスに追加 ([#427][1]) ([`5ea4cb8`][2])
-* リテンションの対象となるファイル用に`disposition_at`フィールドを追加 ([#429][3]) ([`db824ef`][4])
+* Add `id` and `type` field  to shared-links:create response ([#427][1]) ([`5ea4cb8`][2])
+* Add fields `disposition_at` field for files under retention ([#429][3]) ([`db824ef`][4])
 
-### バグ修正
+### Bug Fixes
 
-* `event:poll` polling-intervalを修正 ([#430][5]) ([`9ada74b`][6])
+* Fix `event:poll` polling-interval ([#430][5]) ([`9ada74b`][6])
 
 [1]: https://github.com/box/boxcli/issues/427
 

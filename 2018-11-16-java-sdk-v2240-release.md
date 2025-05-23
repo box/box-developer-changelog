@@ -23,10 +23,10 @@ source_url: >-
 published_at: '2018-11-16'
 fullyTranslated: true
 ---
-# Java SDK `v2.24.0`のリリース
+# Java SDK `v2.24.0` released
 
-1. optionsオブジェクトのテストと実装を追加 ([#661](https://github.com/box/box-java-sdk/pull/661))
-2. `BoxItem`のオブジェクトタイプを公開 ([#662](https://github.com/box/box-java-sdk/pull/662))
-3. 接続ごとのタイムアウトを許可 ([#660](https://github.com/box/box-java-sdk/pull/660))
-4. 最大リクエスト数のグローバル設定を追加 ([#657](https://github.com/box/box-java-sdk/pull/657))
-5. `is_ongoing`フィールドにオーバーロードを追加し、`is_ongoing`にgetterを追加 ([#653](https://github.com/box/box-java-sdk/pull/653))
+1. added tests and implementation for options object ([#661](https://github.com/box/box-java-sdk/pull/661))
+2. Expose object type on `BoxItem` ([#662](https://github.com/box/box-java-sdk/pull/662))
+3. Allow per-connection timeouts ([#660](https://github.com/box/box-java-sdk/pull/660))
+4. Add global setting for max requests ([#657](https://github.com/box/box-java-sdk/pull/657))
+5. added overload for `is_ongoing` field and added getter for `is_ongoing` ([#653](https://github.com/box/box-java-sdk/pull/653))

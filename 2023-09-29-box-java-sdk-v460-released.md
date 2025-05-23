@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2023-09-29'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.6.0`のリリース
+# Box Java SDK `v4.6.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 削除済み項目の検索フィルタをサポート ([#1207][1]) ([`5e0e9ed`][2])
+* Support search deleted filters ([#1207][1]) ([`5e0e9ed`][2])
 
-### バグ修正
+### Bug Fixes
 
-* trustManagerとhostnameVerifier向けにprotectedアクセサを追加 ([#1206][3]) ([`0c79d17`][4])
-* クローズされていないレスポンス本文を修正 ([#1208][5]) ([`ab5e170`][6])
+* Added protected accessors for trust manager and hostname verifier. ([#1206][3]) ([`0c79d17`][4])
+* fix not closing response body ([#1208][5]) ([`ab5e170`][6])
 
 [1]: https://github.com/box/box-java-sdk/issues/1207
 

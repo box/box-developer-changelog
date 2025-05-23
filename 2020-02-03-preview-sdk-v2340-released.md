@@ -22,11 +22,15 @@ source_url: >-
 published_at: '2020-02-03'
 fullyTranslated: true
 ---
-# Preview SDK `v2.34.0`のリリース
+# Preview SDK `v2.34.0` released
 
-Preview SDKのバージョン`2.34.0`がリリースされ、新しいJavaScriptとCSSのPreviewファイルが使用可能になりました。新しい変更を導入するには、コンテンツプレビュー用のリンクを[UI Elementの手動によるインストール][ui-elements-manual-install]に関する記事で確認してください。
+Version `2.34.0` of the Preview SDK has been released. New JavaScript and CSS
+Preview files have been made available. To adopt new changes, please see the
+[UI Elements manual installation][ui-elements-manual-install] links for Content
+Preview.
 
-機能の変更点の全一覧については、`v2.34.0`の[リリースノート][preview-2.34-release-notes]を参照してください。
+Please see the `v2.34.0` [release notes][preview-2.34-release-notes] for a list
+of all feature changes.
 
 [ui-elements-manual-install]: g://embed/ui-elements/installation/#manual-installation
 

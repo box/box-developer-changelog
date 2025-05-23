@@ -21,12 +21,15 @@ source_url: >-
 published_at: '2018-10-19'
 fullyTranslated: true
 ---
-# Python SDK V2のリリース
+# Python SDK V2 Launched
 
-[Box Python SDK][python_sdk_v2]のメジャーアップデート(バージョン2.0)がリリースされ、重要な更新とAPI機能パリティが加えられました。完全なAPIリリースノートについては[こちらを参照してください][python_sdk_v2_release_notes]。今回のリリースとともに、以下のドキュメントの変更が行われました。
+A major update (version 2.0) of the [Box Python SDK][python_sdk_v2] has been
+released with significant updates and API feature parity completion.
+[See here][python_sdk_v2_release_notes] for full API release notes. Along with
+the release, the following documentation changes have been made:
 
-* Pythonの[クイックスタートガイド](guide://)の更新。
-* Pythonの[APIリファレンス](endpoint://)のコードサンプルの更新。
+* Updated Python [quick start guides](guide://).
+* Updated Python [API references](endpoint://) code samples.
 
 [python_sdk_v2]: https://github.com/box/box-python-sdk
 

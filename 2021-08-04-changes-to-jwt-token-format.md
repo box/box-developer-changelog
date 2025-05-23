@@ -23,27 +23,33 @@ source_url: >-
 published_at: '2021-08-04'
 fullyTranslated: true
 ---
-# JWT形式に対して予定されている変更
+# Upcoming change to JWT format
 
-日本時間2021年8月5日に、インフラストラクチャの継続的なアップグレードの一環として、JSON Web Token (JWT) を使用するサーバー認証を利用しているカスタムアプリケーションに影響を及ぼす可能性がある変更の展開を開始する予定です。
+On August 4th, 2021, as part of our continued infrastructure upgrades, we will
+begin deployment of a change that may affect custom applications leveraging
+Server Authentication with JSON Web Tokens (JWT).
 
-潜在的な影響により、公式の[Box SDK][box-sdks]を使用せず、トークンをデータベースに格納しているユーザーによる追加の確認が必要になります。
+Potential impact will require additional verification from customers who do not
+use an official [Box SDK][box-sdks] and are storing tokens in a database.
 
-影響を受ける可能性があるユーザーとアプリケーション所有者全員に、メールで直接通知済みです。
+All customers and application owners who are potentially impacted have been
+notified directly via email.
 
 <!-- more -->
 
-## 変更の概要
+## Change overview
 
-今回の変更は、JSON Web Token (JWT) を使用するサーバー認証を利用しているアプリケーションのみに影響を及ぼす可能性があります。トークンは、Boxの[ドキュメント][tokendoc]で説明されているとおり、今後も文字列として返されますが、その形式は長くなり、特殊文字が含まれるようになります。
+This change may only impact applications leveraging Server Authentication with
+JSON Web Tokens (JWT). Tokens will continue to return as a string as stated in
+our [documentation][tokendoc]. However, the format will be longer and contain
 
 <!--alex ignore special-->
 
 special characters.
 
-現在返されるトークンの例: `NXWd9KDPVofXQKZJlQjICCWFHEmuOihs`
+An example of a token returned today: `NXWd9KDPVofXQKZJlQjICCWFHEmuOihs`.
 
-今回の変更後、トークンは次の形式で返されます。
+After this change, tokens will return in the following format:
 
 `1!yxxhRreQCKcEbC_ZfYvPudyLe7Ed36gIQcqqZo2pfaVZyxNBkQjoHk0fgA1iTY3_uwXgif-hg-gne
 aUdLRmGCb2He6tyQ_rA8aV-CllTyBbd9Tx-wU6Fnt4Df9XjzBAk8Dj7RYc1Ew_fcY2vfycpCvjwHLgql
@@ -54,45 +60,59 @@ B99y-379IEYzCojL2V58dE_pBxpRMv4KcOLVsUfDkbx3uo34H4UzOycI_IWGWrhVJD4M7GeLeD_5Vkmj
 fbwYl2CmHdXAKbZKtXTHjzB0CZixZriT_wRUpsN8GTrrxGbx9ukgzJWRJwelGZ_1Yx7vP4Zkx3OfR5Be
 -Tso7xdHd9rW0FXsu024U7dMNuQ6kpP1_kJI2Y`. 
 
-この形式はBoxにとって新しい形式ではありません。これは、[トークンのダウンスコープ][downscope]に使用されている形式と同じになります。 
+Please note that this is not a new format to Box, as this format is currently
+returned when [downscoping tokens][downscope]. 
 
-## アプリケーションへの影響の確認
+## Verifying application impact
 
-1. \[**管理コンソール**] > \[**アプリ**] タブ > \[**カスタムアプリ**] に移動します。
-2. 表示されている各アプリの行で \[**表示**] をクリックします。
-3. アプリの詳細ページの一番下までスクロールし、選択されている認証方法を確認します。影響を受けるアプリには、\[**サーバー認証 (JWT使用)**] と表示されます。 
+1. Navigate to **Admin Console** > **Apps** Tab > **Custom Apps**.
+2. Click **View** for each app row listed
+3. Scroll to the bottom of the app details page and verify the selected
+   authentication method. Affected apps will say
+   **Server Authentication with JSON Web Tokens**. 
 
-上記で特定された各アプリケーションについて、以下の点を確認する必要があります。 
+For each application identified above, you will need to determine: 
 
-1. 公式の[Box SDK][box-sdks]が使用されているかどうか。使用されている場合は、何もする必要はありません。常に最新バージョンを使用することをお勧めしますが、互換性に必要となる最小バージョンはありません。
-
-<!--alex ignore special-->
-
-2. 公式のSDKが使用されていない場合は、トークンがデータベースに格納されているかどうか。データベースに格納されている場合は、そのデータベースが新しい長さと特殊文字の両方に対応できるかを確認する必要があります。
-
-## リリース前のテスト
-
-サーバー認証 (JWT使用) を利用してトークンをデータベースに格納するアプリケーションを特定したら、8月5日より前に以下のテストを実行する必要があります。
-
-前述のとおり、トークンの新しい形式は、現在、[トークンのダウンスコープ][downscope]時に使用されています。そのため、影響を確認するには、次の手順を実行してください。
-
-1. アプリケーション用にアクセストークンを生成します。
-   <!--alex ignore special-->
-
-2. 手順1で生成したトークンを[ダウンスコープ][downscope]します。
-   <!--alex ignore special-->
-
-3. ダウンスコープされたトークンをデータベースに格納します。
-
-このトークンをデータベースに問題なく格納できる場合は、何もする必要はありません。
+1. Is it using an official [Box SDK][box-sdks]? If so, no further action is
+   required to prepare for this change. While it is always best practice to be
+   on the latest version, no minimum versions are required for compatibility.
 
 <!--alex ignore special-->
 
-このトークンを格納できない場合は、追加の長さと特殊文字をサポートするようデータベースを更新する必要があります。
+2. If an official SDK is not used, are tokens stored in a database? If so, you
+   will need to preform additional verification that the database can handle both
+   the new length and special characters.
 
-## サポート情報
+## Testing before release
 
-ご質問がある場合やさらにガイドが必要な場合は、[jwt-set-rollout@box.com](mailto:jwt-set-rollout@box.com)に英語でお問い合わせください。
+If you have identified an application that leverages Server Authentication with
+JWT and stores tokens in a database, you will want to preform the test below
+before August 4th.
+
+As mentioned above, the new format for tokens is currently used when
+[downscoping tokens][downscope]. Therefore, preform the following steps to
+assess impact:
+
+1. Generate an Access Token for the application
+   <!--alex ignore special-->
+
+2. [Downscope][downscope] the token from step 1
+   <!--alex ignore special-->
+
+3. Attempt to store the downscoped token in your database
+
+If you are successfully able to store the token in the database no further
+action is necessary to prepare for this change.
+
+<!--alex ignore special-->
+
+If you are unable to store the token, your database must be updated to support
+the additional length and special characters.
+
+## Where to get support
+
+Should you have any questions or need further guidance, please email
+[jwt-set-rollout@box.com](mailto:jwt-set-rollout@box.com).
 
 [box-sdks]: https://developer.box.com/sdks-and-tools
 

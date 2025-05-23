@@ -23,22 +23,31 @@ source_url: >-
 published_at: '2021-01-14'
 fullyTranslated: true
 ---
-# 開発者コンソールのアップデート
+# Developer Console Updates
 
-開発者コンソールで新しく \[**承認**] タブが使用可能になりました。さらに、\[**構成**] タブ内の \[**アプリケーションアクセス**] と \[**Scope (スコープ)**] の設定でUIがわかりやすく変更されたことで、設定を決定しやすくなりました。このような変更は、設定の機能には影響しません。
+A new **Authorization** tab is now available in the Developer Console. In
+addition, clarifying UI changes were made to the **Application Access** and
+**Scope** settings within the **Configuration** tab to ease these decisions.
+These changes do not impact the functionality of the settings.
 
 <!-- more -->
 
-これで、開発者は \[**承認**] タブに移動して、承認を得るためにアプリケーションを直接Box管理者に送信するようになります。
+Now, developers will navigate to the  **Authorization** tab to submit the
+application directly to their Box Admin for authorization approval.
 
-\[**構成**] タブに関しては、JWTの \[**アプリケーションアクセス**] の設定に役立つヒントが追加されたため、\[**アプリアクセスのみ**] と \[**アプリアクセス + Enterpriseアクセス**] のどちらにするかを明確に決めやすくなりました。現在、\[**Scope (スコープ)**] セクションは、操作の種類 (コンテンツ操作、管理操作、管理者操作) でグループ化されています。
+As for the **Configuration** tab, helpful tips were added to the JWT
+**Application Access** settings to facilitate a clear decision
+between **App Only Access** or **App Access + Enterprise Access**.
+The **Scope** section is now grouped by action type: content, administrative,
+and developer.
 
-* **アプリの承認プロセス**: [ガイド](g://authorization/custom-app-approval)
-* **スコープ**: [ガイド](g://api-calls/permissions-and-errors/scopes)
-* **アプリケーションアクセス**: [ガイド](g://authentication/jwt/jwt-setup/#application-access)
+* **App Approval Process**: [Guide](g://authorization/custom-app-approval)
+* **Scopes**: [Guide](g://api-calls/permissions-and-errors/scopes)
+* **Application Access**:
+  [Guide](g://authentication/jwt/jwt-setup/#application-access)
 
-## 更新内容
+## Updates
 
-* 開発者コンソールに \[承認] タブを追加しました
-* \[構成] タブでJWTの \[アプリケーションアクセス] の設定用UIを更新しました
-* \[構成] タブで \[Scopes (スコープ)] のUIのグループ化を更新しました
+* Added Authorization tab to the Developer Console
+* Updated the UI for JWT Application Access settings under the Configuration tab
+* Updated the UI grouping of Scopes under the Configuration tab

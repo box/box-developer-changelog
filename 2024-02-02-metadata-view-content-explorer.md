@@ -23,17 +23,18 @@ source_url: >-
 published_at: '2024-02-02'
 fullyTranslated: true
 ---
-# コンテンツエクスプローラのメタデータビュー
+# Metadata view in Content Explorer
 
-コンテンツエクスプローラで、メタデータクエリを使用してファイルやフォルダを検索できるメタデータビューを使用できるようになりました。データは埋め込みのビューに表示されます。
+Content Explorer comes with a metadata view that uses metadata query to find files and folders. The data is then displayed in the embedded view.
 
 <!-- more -->
 
-詳細については、[コンテンツエクスプローラのガイド][1]とBoxの[ブログ記事][2]を参照してください。
+For details, read the [Content Explorer guide][1] and our [blog post][2].
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][3] for any help needed.
 
 [1]: g://embed/ui-elements/explorer
 

@@ -22,12 +22,12 @@ source_url: >-
 published_at: '2022-11-02'
 fullyTranslated: true
 ---
-# Box CLI `v3.5.0`のリリース
+# Box CLI `v3.5.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* ダウンロードしたファイルの名前を`save-as`パラメータで変更するオプションを追加 ([#415][1]) ([`81fe64e`][2])
-* 変更可能リテンションポリシーのサポートを追加し、リテンションポリシー割り当ての削除を有効化 ([#420][3]) ([`26ab5b4`][4])
+* Add option to change name of downloaded file in `save-as`parameter ([#415][1]) ([`81fe64e`][2])
+* Add support for modifiable retention policies & enable deleting retention policy assignment ([#420][3]) ([`26ab5b4`][4])
 
 [1]: https://github.com/box/boxcli/issues/415
 

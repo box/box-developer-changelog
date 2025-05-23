@@ -24,16 +24,16 @@ source_url: >-
 published_at: '2024-07-22'
 fullyTranslated: true
 ---
-# Box Windows SDK `v5.8.0`のリリース
+# Box Windows SDK `v5.8.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* AIのサポートを追加 ([#965][1]) ([`a9e130a`][2])
+* add support for AI ([#965][1]) ([`a9e130a`][2])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* `System.IdentityModel.Tokens.Jwt`依存関係のバージョンを`v6.35.0`に昇格 ([#962][3]) ([`6e47237`][4])、[#960][5] [#961][6]をクローズ
-* `Microsoft.AspNetCore.StaticFiles`および`System.Web`依存関係を削除 ([#964][7]) ([`2c8eedc`][8])
+* Bump `System.IdentityModel.Tokens.Jwt` dependency version to `v6.35.0` ([#962][3]) ([`6e47237`][4]), closes [#960][5] [#961][6]
+* remove `Microsoft.AspNetCore.StaticFiles` and `System.Web` dependencies ([#964][7]) ([`2c8eedc`][8])
 
 <https://www.nuget.org/packages/Box.V2/5.8.0>
 

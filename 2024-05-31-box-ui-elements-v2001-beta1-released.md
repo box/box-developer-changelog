@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2024-05-31'
 fullyTranslated: true
 ---
-# Box UI Elements `v20.0.1-beta.1`のリリース
+# Box UI Elements `v20.0.1-beta.1` released
 
-## [`20.0.1-beta.1`][1] (2024/05/31)
+## [`20.0.1-beta.1`][1] (2024-05-31)
 
-### バグ修正
+### Bug Fixes
 
-* **avatars:** アバターを取得するためのタイプを追加 ([#3560][2]) ([`14a194f`][3])
+* **avatars:** Add type to Fetch avatar ([#3560][2]) ([`14a194f`][3])
 
 [1]: https://github.com/box/box-ui-elements/compare/v20.0.0...v20.0.1-beta.1
 

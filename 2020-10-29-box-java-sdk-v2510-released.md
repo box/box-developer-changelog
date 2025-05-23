@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2020-10-29'
 fullyTranslated: true
 ---
-# Box Java SDK `v2.51.0`のリリース
+# Box Java SDK `v2.51.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* メタデータテンプレートの`copyInstanceOnItemCopy`フィールドのサポートを追加 ([#850][1])
-* `BoxCollaborator.Info`でのより多くのフィールドのサポートを追加 ([#843][2])
+* Add support for `copyInstanceOnItemCopy` field for metadata templates ([#850][1])
+* Add support for more fields in `BoxCollaborator.Info` ([#843][2])
 
-**バグ修正:**
+**Bug Fixes:**
 
-* ドキュメントされたパラメータを使用するための`getAllGroupsByName()`のアップデート ([#851][3])
+* Update `getAllGroupsByName()` to use documented parameter ([#851][3])
 
 [1]: https://github.com/box/box-java-sdk/pull/850
 

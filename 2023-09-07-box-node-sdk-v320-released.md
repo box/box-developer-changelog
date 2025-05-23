@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-09-07'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.2.0`のリリース
+# Box Node SDK `v3.2.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* Signテンプレートをサポート ([#848][1]) ([`18d3413`][2])
+* Support sign template ([#848][1]) ([`18d3413`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/848
 

@@ -22,22 +22,28 @@ source_url: >-
 published_at: '2020-06-11'
 fullyTranslated: true
 ---
-# タスクに関するEnterprise Eventの変更
+# Change to enterprise events for tasks
 
-本日以降、[Enterprise Event Stream](g://events/enterprise-events/for-enterprise/)は、新しいタスクとタスク割り当てイベントの生成を開始します。一部の既存のタスクイベントでは追加のフィールドが返されます。
+Starting today, the [enterprise event stream](g://events/enterprise-events/for-enterprise/) will
+begin producing new task and task assignment events, and some existing task
+events will return additional fields.
 
 <!-- more -->
 
-## 新しいイベント
+## New events
 
-* タスクが更新されると、新しい`TASK_UPDATE`イベントがトリガーされます
-* ユーザーからタスクの割り当てが解除されると、新しい`TASK_ASSIGNMENT_DELETE`イベントがトリガーされます
+* A new `TASK_UPDATE` event is triggered when a task is updated
+* A new `TASK_ASSIGNMENT_DELETE` event is triggered when a task is unassigned
+  from a user
 
-## 更新されたイベント
+## Updated events
 
-### `TASK_CREATE`の変更
+### Changes to `TASK_CREATE`
 
-タスクが作成されたときに、このイベントでは、タスクのID (`task.id`)、タスクを作成したユーザーのID (`task.created_by.id`)、タスクの説明 (`task.message`)、およびタスクの期日 (`task.due_date`、省略可) が`additional_details`オブジェクト内に含まれるようになりました。
+When a task is created, the event now includes the task's ID (`task.id`), the ID
+of the user who created the task (`task.created_by.id`), the task's description
+(`task.message`), and the optional due date of the task  (`task.due_date`)
+within the `additional_details` object.
 
 ```json
 "additional_details": {
@@ -54,9 +60,13 @@ fullyTranslated: true
 }
 ```
 
-### `TASK_ASSIGNMENT_CREATE`および`TASK_ASSIGNMENT_UPDATE`の変更
+### Changes to `TASK_ASSIGNMENT_CREATE` and `TASK_ASSIGNMENT_UPDATE`
 
-タスク割り当てが作成または更新されたときに、このイベントでは、タスクのID (`task.id`)、タスクを割り当てられたユーザーのID (`task_assignment.assigned_to.id`) とそのログイン (`task_assignment.assigned_to.login`)、タスクの説明 (`task.message`)、およびタスクの期日 (`task.due_date`、省略可) が`additional_details`オブジェクト内に含まれるようになりました。
+When a task assignment is created or updated, the event now includes the task's
+ID (`task.id`), the ID of the assigned user (`task_assignment.assigned_to.id`)
+and their login (`task_assignment.assigned_to.login`), the task's description
+(`task.message`), and the optional due date of the task (`task.due_date`) within
+the `additional_details` object.
 
 ```json
 "additional_details": {
@@ -79,4 +89,5 @@ fullyTranslated: true
 }
 ```
 
-その他のイベントタイプの詳細については、[Enterprise Event](g://events/enterprise-events/for-enterprise/)に関するドキュメントを参照してください。
+See the [enterprise events](g://events/enterprise-events/for-enterprise/) documentation
+for more information on other event types.

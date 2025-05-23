@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-06-21'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.2.0`のリリース
+# Box Java SDK `v4.2.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* フィールドの指定をコラボレータに許可 ([#1178][1]) ([`1694d75`][2])
+* Getting collaborators allows to specify fields ([#1178][1]) ([`1694d75`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1178
 

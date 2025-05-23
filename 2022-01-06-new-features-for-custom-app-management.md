@@ -23,26 +23,29 @@ source_url: >-
 published_at: '2022-01-06'
 fullyTranslated: true
 ---
-# カスタムアプリ管理の新機能
+# New Features For Custom App Management
 
 <!--alex ignore -->
 
-Box管理コンソールの \[カスタムアプリマネージャ] セクションへの変更をリリースしました。これにより、カスタムOAuth2.0アプリケーションの有効化をより簡単に表示および管理できるようになります。
+Today, we released changes to the Custom Apps Manager section of the Box Admin Console. Now, you can more easily view and manage enablement of custom OAuth 2.0
+Applications.
 
 <!--alex enable -->
 
 <!-- more -->
 
-新しい機能の追加のほか、\[カスタムアプリマネージャ] のUIも更新しました。Box APIを使用するアプリの変更および承認に関する詳細については、[ブログ][2]を参照してください。
+In addition to adding new functionality, we also made updates to the UI of the Custom Apps Manager. For more information on the changes and authorizing apps that
+use the Box API, check out the [blog post][2].
 
-## 更新内容
+## Updates
 
-* [承認][3]、[カスタムアプリの承認][4]、[アクセス制限付きアプリの承認][5]、[セキュリティ][6]ページのスクリーンショットを更新
-* [カスタムアプリの承認][4]ページにOAuth2.0カスタムアプリケーションの承認プロセスに関する情報を追加
+* Screenshots have been updated on the [authorization][3], [custom app approval][4], [limited access approval][5], and [security][6] guide pages
+* Information on the OAuth 2.0 custom application approval process has been added to the [custom app approval][4] guide page
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

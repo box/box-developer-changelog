@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-11-29'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.13.1`のリリース
+# Box Java SDK `v4.13.1` released
 
-### バグ修正
+### Bug Fixes
 
-* ストリームから読み取る際に`Content-Length`を正しく計算 ([#1277][1]) ([`b1d5371`][2])
+* Correctly calculate `Content-Length` when reading from a stream ([#1277][1]) ([`b1d5371`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1277
 

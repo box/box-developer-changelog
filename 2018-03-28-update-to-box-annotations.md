@@ -20,6 +20,6 @@ source_url: >-
 published_at: '2018-03-28'
 fullyTranslated: true
 ---
-# Boxの注釈を更新
+# Update to Box Annotations
 
-2018年3月5日に発表された注釈の更新が再び有効になりました。
+The annotations update announced on March 5, 2018 has been re-enabled.

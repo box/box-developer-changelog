@@ -23,34 +23,37 @@ source_url: >-
 published_at: '2022-10-28'
 fullyTranslated: true
 ---
-# Shield情報バリアの導入
+# Introducing Shield Information Barrier
 
-情報バリアは、利益相反や潜在的な法的問題につながる可能性のあるコミュニケーションを防止します。たとえば、管理者は情報バリアを使用して、異なるプロジェクトで作業するチームを分け、特定のグループに制限されたコンテンツでのコラボレーションを防ぐことができます。
+Shield information barrier prevents communication that could lead to conflicts of interest or potential legal issues.
+For example, admins can use information barrier to separate teams working on
+different projects to prevent collaboration on content restricted to specific groups.
 
 <!-- more -->
 
-## Shield情報バリアAPI
+## Shield Information Barrier API
 
-Shield情報バリアでは、以下の処理が可能な新しいAPIを利用できます:
+Shield information barrier comes along with the new API that you can use to:
 
-* [Shield情報バリア][2]の作成、管理、リストの取得
-* [Shield情報バリアのセグメント][3]の作成、更新、削除、リストの取得
-* [Shield情報バリアのセグメント制限][4]の作成、削除、リストの取得
-* [Shield情報バリアのセグメントメンバー][5]の作成、削除、リストの取得
-* [Shield情報バリアレポート][6]の作成とリストの取得
+* Create, manage, and list [Shield information barriers][2]
+* Create, update, delete, and list [Shield information barrier segments][3]
+* Create, delete, and list [Shield information barrier segment restrictions][4]
+* Create, delete, and list [Shield information barrier segment members][5]
+* Create and list [Shield information barrier reports][6]
 
-## Shield情報バリアイベント
+## Shield Information Barrier Events
 
-情報バリアを設定すると、以下のイベントが作成されます:
+Setting up the information barrier produces the following events:
 
-* バリアのアクティブ化または非アクティブ化など、ユーザーが情報バリアを構成したときにトリガーされるイベント。
-* 制限されたフォルダへの項目の移動や、制限されたグループへのユーザーの追加など、制限されたアクションをユーザーが実行したときにトリガーされるイベント。
+* Events triggered when the user configures the information barrier, for example activates or deactivates the barrier.
+* Events triggered when the user performs restricted actions, for example attempts to move an item to a restricted folder or add a user to a restricted group.
 
-すべてのイベントのリストについては、[Shield情報バリアイベントトリガー][7]リファレンスを参照してください。
+For a list of all events, see the [Shield information barrier event triggers][7] reference.
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

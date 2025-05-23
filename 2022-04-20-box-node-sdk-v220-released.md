@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-04-20'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.2.0`のリリース
+# Box Node SDK `v2.2.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 編集可能な共有リンク ([#722][1]) ([`f0c0135`][2])
+* editable shared links ([#722][1]) ([`f0c0135`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/722
 

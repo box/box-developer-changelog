@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-08-30'
 fullyTranslated: true
 ---
-# Box Python SDK Generated `v1.4.1`のリリース
+# Box Python SDK Generated `v1.4.1` released
 
-### バグ修正
+### Bug Fixes
 
-* Pythonでのダウンロード処理中にデータをメモリ内に保存しない (box/box-codegen[#557][1]) ([#294][2]) ([`7c645ae`][3])
+* Do not store data in-memory during download process in Python (box/box-codegen[#557][1]) ([#294][2]) ([`7c645ae`][3])
 
 [1]: https://github.com/box/box-codegen/issues/557
 

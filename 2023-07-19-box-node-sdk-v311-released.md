@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-07-19'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.1.1`のリリース
+# Box Node SDK `v3.1.1` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* proxy-agentをバージョン6.3.0に昇格 ([845][1]) ([`3f89f83`][2])
+* Bump proxy-agent to version 6.3.0 ([845][1]) ([`3f89f83`][2])
 
 [1]: (https://github.com/box/box-node-sdk/pull/845)
 

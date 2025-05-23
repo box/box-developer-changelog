@@ -23,18 +23,19 @@ source_url: >-
 published_at: '2023-07-12'
 fullyTranslated: true
 ---
-# 署名リクエストAPIの改善
+# Sign Request API improvements
 
-[署名リクエストステータス][1]パラメータに次の2つの値が追加されました。
+[Sign Request status][1] parameter now has two additional values:
 
-* `finalizing`: すべての署名者がリクエストに署名済みで、署名された最終的なドキュメントと署名ログがまだ生成されていない状態を示します。
-* `error_finalizing`: `finalizing`フェーズが正常に完了しなかった状態を示します。
+* `finalizing` to reflect the state when all signers have signed the request, but the final document with signatures and the signing log has not been generated yet.
+* `error_finalizing` to reflect the state when the `finalizing` phase did not complete successfully.
 
 <!-- more -->
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][2] for any help needed.
 
 [1]: r://sign-request#param-status
 

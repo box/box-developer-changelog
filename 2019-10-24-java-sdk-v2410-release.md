@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-10-24'
 fullyTranslated: true
 ---
-# Java SDK `v2.41.0`のリリース
+# Java SDK `v2.41.0` released
 
-1. `BoxTasks` Actions列挙型にcompleteフィールドの列挙型を追加 ([#745](https://github.com/box/box-java-sdk/pull/745))
+1. Added enum for complete field on `BoxTasks` Actions enum ([#745](https://github.com/box/box-java-sdk/pull/745))

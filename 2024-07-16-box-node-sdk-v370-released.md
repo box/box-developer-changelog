@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-07-16'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.7.0`のリリース
+# Box Node SDK `v3.7.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* AI APIをサポート ([#883][1]) ([`bb81e07`][2])
+* Support AI APIs ([#883][1]) ([`bb81e07`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/883
 

@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2018-12-14'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.10.0`のリリース
+# Windows .NET SDK `v3.10.0` released
 
-1. メタデータカスケードポリシーの機能を追加
+1. Added functionality for Metadata Cascade Policy
 
 [`nuget.org/packages/Box.V2`](https://www.nuget.org/packages/Box.V2)
 [`nuget.org/packages/Box.V2.Core`](https://www.nuget.org/packages/Box.V2.Core/)

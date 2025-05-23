@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2024-02-27'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.8.0`のリリース
+# Box Java SDK `v4.8.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* `BoxAPIRequest` URLの変更を許可 ([#1236][1]) ([`eaea019`][2])
-* `org.bouncycastle:bcprov-jdk18on:1.77`と`org.bouncycastle:bcpkix-jdk18on:1.77`を昇格 ([#1237][3]) ([`6c7fe7b`][4])、[#1235][5]をクローズ
+* allow modifying `BoxAPIRequest` URL ([#1236][1]) ([`eaea019`][2])
+* Bumped `org.bouncycastle:bcprov-jdk18on:1.77` and `org.bouncycastle:bcpkix-jdk18on:1.77` ([#1237][3]) ([`6c7fe7b`][4]), closes [#1235][5]
 
-### バグ修正
+### Bug Fixes
 
-* 空のファイルのダウンロードについて修正 ([#1231][6]) ([`0e2230b`][7])
-* `getSharedItem()`での`SharedLinkAPIConnection`の使用を停止 ([#1234][8]) ([`9f9af8e`][9])
+* fix download for empty files ([#1231][6]) ([`0e2230b`][7])
+* stop using `SharedLinkAPIConnection` in `getSharedItem()` ([#1234][8]) ([`9f9af8e`][9])
 
 [1]: https://github.com/box/box-java-sdk/issues/1236
 

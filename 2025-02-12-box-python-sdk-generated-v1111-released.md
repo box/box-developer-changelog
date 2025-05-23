@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-02-12'
 fullyTranslated: true
 ---
-# Box Python SDK Generated `v1.11.1`のリリース
+# Box Python SDK Generated `v1.11.1` released
 
-### バグ修正
+### Bug Fixes
 
-* プロキシの使用を修正 (box/box-codegen[#662][1]) ([#476][2]) ([`e1d62ac`][3])
+* Fix proxy usage (box/box-codegen[#662][1]) ([#476][2]) ([`e1d62ac`][3])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/662
 

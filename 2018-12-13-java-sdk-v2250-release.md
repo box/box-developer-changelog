@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2018-12-13'
 fullyTranslated: true
 ---
-# Java SDK `v2.25.0`のリリース
+# Java SDK `v2.25.0` released
 
-1. `outputstream`を介したBoxへのコンテンツストリーミングを許可。[#667](https://github.com/box/box-java-sdk/pull/667)
+1. Allow content streaming to box through `outputstream`. [#667](https://github.com/box/box-java-sdk/pull/667)

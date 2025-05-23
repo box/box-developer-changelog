@@ -24,15 +24,16 @@ source_url: >-
 published_at: '2024-12-05'
 fullyTranslated: true
 ---
-# BoxとCrowdStrikeの統合
+# CrowdStrike integration with Box
 
-CrowdStrikeは、Boxと統合され、エンドポイントのアクティビティを監視するエンドポイント検出ツールです。BoxおよびBoxを利用している組織に接続しているデバイスを監視し、デバイスや接続に関するデータを分析して潜在的な脅威のアクティビティを特定します。
+CrowdStrike is an endpoint detection tool integrated with Box to monitor endpoint activity. This means, CrowdStrike monitors devices that connect to Box and your Box organization, analyzing data about the connection and the device to identify potential threat activity.
 
-CrowdStrikeとの統合により、企業でトリガーできる[イベントストリームのイベント][1]が追加されます。
+The integration with CrowdStrike comes with additional [events in the event stream][1] that can be triggered for an enterprise.
 
 <!-- more -->
 
-例えば、CrowdStrike Falconプラットフォームで新しいデバイスが検出されると、`EDR_CROWDSTRIKE_DEVICE_DETECTED`イベントがトリガーされます。すべてのイベントを含むリストは以下のとおりです。
+For example, the `EDR_CROWDSTRIKE_DEVICE_DETECTED` event is triggered when a new device is detected by the the CrowdStrike Falcon platform.
+The full list includes the following events:
 
 * `EDR_CROWDSTRIKE_DEVICE_DETECTED`
 * `EDR_CROWDSTRIKE_NO_BOX_TOOLS`
@@ -41,9 +42,10 @@ CrowdStrikeとの統合により、企業でトリガーできる[イベント�
 * `EDR_CROWDSTRIKE_ACCESS_ALLOWED_NO_CROWDSTRIKE_DEVICE`
 * `EDR_CROWDSTRIKE_ACCESS_REVOKED`
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][2] for any help needed.
 
 [1]: g://events/enterprise-events/for-enterprise#event-types
 

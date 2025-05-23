@@ -22,15 +22,15 @@ source_url: >-
 published_at: '2022-07-19'
 fullyTranslated: true
 ---
-# Box CLI `v3.3.0`のリリース
+# Box CLI `v3.3.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 編集可能な共有リンクのサポートを追加 ([#350][1]) ([`ab639e7`][2])
-* ファイルリクエスト API のサポートを追加 ([#355][3]) ([`73f0490`][4])
-* カスタム分析ヘッダーを設定できる機能を追加 ([#348][5]) ([`5a3387f`][6])
-* メタデータテンプレートの更新用に--copy-instance-on-item-copyフラグをサポート ([#357][7]) ([`5d8272a`][8])
-* 認証方法としてクライアント資格情報許可をサポート ([#335][9]) ([`4649d8a`][10])
+* add editable shared link support ([#350][1]) ([`ab639e7`][2])
+* add file requests API support ([#355][3]) ([`73f0490`][4])
+* add possibility to set custom analytics header ([#348][5]) ([`5a3387f`][6])
+* support --copy-instance-on-item-copy flag for update metadata template ([#357][7]) ([`5d8272a`][8])
+* support Client Credentials Grant as authentication method ([#335][9]) ([`4649d8a`][10])
 
 [1]: https://github.com/box/boxcli/issues/350
 

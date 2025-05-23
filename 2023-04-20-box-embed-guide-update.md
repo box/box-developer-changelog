@@ -22,15 +22,16 @@ source_url: >-
 published_at: '2023-04-20'
 fullyTranslated: true
 ---
-# Box Embedガイドの更新
+# Updates to Box Embed guide
 
-[Box Embed][1]を使用すると、Boxウェブアプリをアプリケーションの任意の場所に埋め込むことができます。更新されたウェブアプリは、さまざまな変更に対応可能です。たとえば、統合で埋め込まれたBoxウェブアプリが縮小された場合、ボタンやリストなどすべてのUIコンポーネントも、引き続き使用できるようにサイズが変更されます。
+With [Box Embed][1] you can embed a Box webapp anywhere in your application. The updated webapp is responsive to any changes. For example, if an integration makes the embedded Box webapp smaller, all the UI components such as buttons and lists will also be resized to still be usable.
 
-また、この更新にはクラウドゲーム (クリックジャッキングを防止してセキュリティを強化するためのウィジェット) の説明も含まれます。
+The update also includes a description of the cloud game, a widget which increases security by preventing clickjacking.
 
-# サポート情報
+# Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][2] for any help needed.
 
 [1]: g://embed/box-embed/
 

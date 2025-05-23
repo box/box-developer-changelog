@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-01-04'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.8.2`のリリース
+# Box Java SDK `v3.8.2` released
 
-### バグ修正
+### Bug Fixes
 
-* 更新トークンがない場合の状態の復元を修正 ([#1139][1]) ([`3544709`][2])
+* Fixed restoring state without refresh token. ([#1139][1]) ([`3544709`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1139
 

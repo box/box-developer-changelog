@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-08-11'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.3.0`のリリース
+# Box Java SDK `v4.3.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* アクセスのみのコラボレーションをサポート ([#1193][1]) ([`664c01f`][2])
+* Support access only collaboration ([#1193][1]) ([`664c01f`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1193
 

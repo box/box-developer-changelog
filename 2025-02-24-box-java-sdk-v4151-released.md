@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-02-24'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.15.1`のリリース
+# Box Java SDK `v4.15.1` released
 
-### バグ修正
+### Bug Fixes
 
-* content-lengthヘッダーの解析を修正 ([#1292][1]) ([`3bcf788`][2])
+* Fix parsing content length header ([#1292][1]) ([`3bcf788`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1292
 

@@ -24,14 +24,14 @@ source_url: >-
 published_at: '2024-04-05'
 fullyTranslated: true
 ---
-# Box iOS SDK `v5.6.0`のリリース
+# Box iOS SDK `v5.6.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* Privacy Manifestファイルを追加 ([#924][1]) ([`cbef168`][2])
-* `visionOS`のサポートを追加 ([#916][3]) ([`a05b243`][4])
-* `SignRequest`で追加のフィールドのサポートを追加 ([#919][5]) ([`36f464c`][6])
-* `TokenInfo`のフィールドをpublicに変更 ([#920][7]) ([`eb26f47`][8])
+* Add privacy manifest files ([#924][1]) ([`cbef168`][2])
+* Add support for `visionOS` ([#916][3]) ([`a05b243`][4])
+* Add support for additional fields in `SignRequest` ([#919][5]) ([`36f464c`][6])
+* Make fields from `TokenInfo` publicly available ([#920][7]) ([`eb26f47`][8])
 
 [1]: https://github.com/box/box-ios-sdk/issues/924
 

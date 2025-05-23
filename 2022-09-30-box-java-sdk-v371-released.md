@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-09-30'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.7.1`のリリース
+# Box Java SDK `v3.7.1` released
 
-### バグ修正
+### Bug Fixes
 
-* JSONを解析できなかった場合のログを改善 ([#1106][1]) ([`5e66ef8`][2])
+* Better logging when JSON cannot be parsed ([#1106][1]) ([`5e66ef8`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1106
 

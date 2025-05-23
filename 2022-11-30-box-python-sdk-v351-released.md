@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2022-11-30'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.5.1`のリリース
+# Box Python SDK `v3.5.1` released
 
-### バグ修正
+### Bug Fixes
 
-* 接続のリセットエラーが発生した場合に接続を更新 ([#771][1]) ([`bcaab27`][2])、[#756][3] [#757][4] [#763][5] [#765][6] [#766][7] [#770][8]をクローズ
-* 一意の`jti`クレームが必要というエラーが発生した場合にJWT認証を再試行 ([#768][9]) ([`878e958`][10])
-* Python 3.10で動作するように`pyjtw`の依存関係を更新 ([#772][11]) ([`b13c5cd`][12])
+* Renew connection when Connection reset error occurs ([#771][1]) ([`bcaab27`][2]), closes [#756][3] [#757][4] [#763][5] [#765][6] [#766][7] [#770][8]
+* Retry JWT auth when got error: required unique `jti` claim. ([#768][9]) ([`878e958`][10])
+* Update `pyjtw` dependency to work with Python 3.10 ([#772][11]) ([`b13c5cd`][12])
 
 [1]: https://github.com/box/box-python-sdk/issues/771
 

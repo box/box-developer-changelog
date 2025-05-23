@@ -23,11 +23,15 @@ source_url: >-
 published_at: '2021-07-16'
 fullyTranslated: true
 ---
-# ファイルサイズの上限の更新
+# Updated file size limits
 
-本日、Boxの新しいBusinessプランとしてEnterprise Plusプランをリリースしました。このプランでは、最大150 GBのアップロードとダウンロードをサポートします。また、以下のとおり、一部の既存プランでもファイルサイズの上限をアップグレードしました。ご利用のアカウントのファイルサイズの上限を確認する方法については、[アップロードに関するガイド][uploadguide]を参照してください。
+Today we released our newest business plan, Enterprise Plus, which supports
+uploads and downloads up to 150GB. In addition, we upgraded file size limits for
+some of our existing plans, as detailed below. For details on how to confirm
+the file size limit for your account, please visit our
+[upload guide][uploadguide].
 
-## 更新内容
+## Updates
 
 * Enterprise: 50 GB
 * Digital Workplace Suite: 50 GB

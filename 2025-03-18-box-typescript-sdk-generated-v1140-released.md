@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2025-03-18'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.14.0`のリリース
+# Box TypeScript SDK Generated `v1.14.0` released
 
-### バグ修正
+### Bug Fixes
 
-* `verification_phone_number`プロパティを追加して署名リクエストを作成 (box/box-openapi[#515][1]) ([#546][2]) ([`916502c`][3])
+* Add `verification_phone_number` property to create sign request (box/box-openapi[#515][1]) ([#546][2]) ([`916502c`][3])
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* 共有リンクのアプリ項目を検索するエンドポイントを追加 (box/box-openapi[#514][4]) ([#545][5]) ([`7c32eaf`][6])
-* Teams統合マッピング (リスト) APIを追加 (box/box-openapi[#517][7]) ([#548][8]) ([`6ce1c7c`][9])
-* 事前チェックを伴うアップロードをサポート (box/box-codegen[#676][10]) ([#554][11]) ([`e3aa784`][12])
+* Add find app item for shared link endpoint (box/box-openapi[#514][4]) ([#545][5]) ([`7c32eaf`][6])
+* Add Integration Mappings Teams API (box/box-openapi[#517][7]) ([#548][8]) ([`6ce1c7c`][9])
+* Support upload with preflight check (box/box-codegen[#676][10]) ([#554][11]) ([`e3aa784`][12])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/515
 

@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-04-11'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.15.1`のリリース
+# Box TypeScript SDK Generated `v1.15.1` released
 
-### バグ修正
+### Bug Fixes
 
-* TypeScriptのデータのサニタイズを修正 (box/box-codegen[#702][1]) ([#582][2]) ([`eb79c0f`][3])
+* Fix data sanitizer for TypeScript (box/box-codegen[#702][1]) ([#582][2]) ([`eb79c0f`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/702
 

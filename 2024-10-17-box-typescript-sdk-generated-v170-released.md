@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2024-10-17'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.7.0`のリリース
+# Box TypeScript SDK Generated `v1.7.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* レスポンスオブジェクトに未加工のデータを追加 (box/box-codegen[#576][1]) ([#375][2]) ([`bdb9d0c`][3])
-* `ai/extract`および`ai/extract_structured`エンドポイントをサポート (box/box-codegen[#566][4]) ([#356][5]) ([`4a33562`][6])
+* Include raw data in response object (box/box-codegen[#576][1]) ([#375][2]) ([`bdb9d0c`][3])
+* Support `ai/extract` and `ai/extract_structured` endpoints (box/box-codegen[#566][4]) ([#356][5]) ([`4a33562`][6])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/576
 

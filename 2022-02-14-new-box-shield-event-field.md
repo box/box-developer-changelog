@@ -23,20 +23,21 @@ source_url: >-
 published_at: '2022-02-14'
 fullyTranslated: true
 ---
-# Box Shieldアクセスポリシーの新しい監視モード
+# New Box Shield Access Policy Monitoring Mode
 
-最近Box Shieldに追加された[新機能][3]により、管理者は、新しい監視モードでアクセスポリシーをテストできるようになりました。
+Recently, Box Shield added a [new feature][3] that allows admins to test out Access Policies with a new monitoring mode.
 
 <!-- more -->
 
-## 更新内容
+## Updates
 
-* [スマートアクセスイベントセクション][2]のすべてのイベントに新しい`controlMode`フィールドを追加
-* スマートアクセスイベントセクションでアプリケーションおよびFTPの制限に関する情報を追加
+* Added the new `controlMode` field to all events in the [Smart Access events section][2]
+* Added application and FTP restriction information in the Smart Access events section
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

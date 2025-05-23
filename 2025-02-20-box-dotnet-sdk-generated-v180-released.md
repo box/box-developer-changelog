@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2025-02-20'
 fullyTranslated: true
 ---
-# Box Dotnet SDK Generated `v1.8.0`のリリース
+# Box Dotnet SDK Generated `v1.8.0` released
 
-### バグ修正
+### Bug Fixes
 
-* `TaskCanceledException`がスローされた場合にHTTPリクエストを再試行しない (box/box-codegen[#665][1]) ([#406][2]) ([`1af0a6a`][3])
+* Do not retry HTTP request when `TaskCanceledException` is thrown (box/box-codegen[#665][1]) ([#406][2]) ([`1af0a6a`][3])
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* AI Studio APIをサポート (box/box-codegen[#626][4]) ([#409][5]) ([`9661450`][6])
+* Support AI Studio API (box/box-codegen[#626][4]) ([#409][5]) ([`9661450`][6])
 
 [1]: https://github.com/box/box-dotnet-sdk-gen/issues/665
 

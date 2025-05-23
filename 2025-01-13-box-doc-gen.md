@@ -26,23 +26,24 @@ fullyTranslated: true
 ---
 # Box Doc Gen
 
-**Enterprise Advanced**をご利用のすべてのお客様に、[Box Doc Gen][2]の提供を開始しました。
+We are excited to announce that [Box Doc Gen][2] is now available to all **Enterprise Advanced** customers.
 
-[Box Doc Gen][1]を使用すると、BoxにアップロードしたBox Doc Genテンプレートに基づいて、さまざまなビジネスドキュメントを生成できます。Box Doc Gen APIの使用により、データフィールドへの動的な入力も可能です。
+[Box Doc Gen][1] allows you to generate various business documents based on Box Doc Gen templates uploaded to Box, with data fields that can be dynamically filled using Box Doc Gen API.
 
 <!-- more -->
 
-Box Doc Genの機能を使用すると、以下を実行できます。
+Box Doc Gen functionality allows you to:
 
-* [ファイルをBox Doc Genテンプレートとして設定][3]
-* [ドキュメントを生成][4]
-* [Box Doc Genジョブ][5]のステータスを確認
+* [Mark files as Doc Gen templates][3].
+* [Generate documents][4].
+* Check status of the [Box Doc Gen jobs][5]
 
-Box Doc GenおよびBox Doc Gen APIの詳細については、[Box Doc Genの開発者向けガイド][1]および[APIリファレンス][6]をそれぞれご確認ください。
+Check the [Box Doc Gen developer guides][1] to learn more about Box Doc Gen and check the [API Reference][6] for Box Doc Gen API details.
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][7]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][7] for any help needed.
 
 [1]: https://developer.box.com/guides/docgen
 

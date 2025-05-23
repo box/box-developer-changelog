@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2018-06-07'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.9.1`のリリース
+# Windows .NET SDK `v3.9.1` released
 
-Xamarinアプリケーションの接続が切れるバグが修正されました。
+Fixed bug where Xamarin applications would run out of connections.
 
 [`nuget.org/packages/Box.V2/3.9.1`](https://www.nuget.org/packages/Box.V2/3.9.1)
 [`nuget.org/packages/Box.V2.Core/3.9.1`](https://www.nuget.org/packages/Box.V2.Core/3.9.1)

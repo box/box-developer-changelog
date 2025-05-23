@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2018-09-13'
 fullyTranslated: true
 ---
-# Java SDK `v2.23.1`のリリース
+# Java SDK `v2.23.1` released
 
-1. 多数のリクエストを発行する際に開かれるTCP接続が多すぎる問題を修正 ([#646](https://github.com/box/box-java-sdk/pull/646))
+1. Fix opening too many TCP connections when issuing a high number of requests ([#646](https://github.com/box/box-java-sdk/pull/646))

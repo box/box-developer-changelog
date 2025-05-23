@@ -23,17 +23,19 @@ source_url: >-
 published_at: '2023-10-06'
 fullyTranslated: true
 ---
-# Box Platformの用語集
+# Introducing Box Platform Glossary
 
-Box PlatformとBoxドキュメントにおけるエクスペリエンスの改善のため、[Box Platformの用語集][1]を作成しました。Boxのコンテンツベースおよびクラウドベースのソリューションでの作業を開始するために最も重要な用語や概念を確認できます。
+To improve your experience with Box Platform and Box documentation, we created the [Box Platform Glossary][1].
+You can find there terms and concepts that are most important to start working with Box content- and cloud-based solutions.
 
 <!-- more -->
 
-包括的で詳細な用語リストにするため、このリストは定期的に更新される予定です。
+As we want this list of terms to be comprehensive and detailed, it will be regularly updated. Let us know if you have any suggestions!
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][2] for any help needed.
 
 [1]: page/platform/box-glossary/
 

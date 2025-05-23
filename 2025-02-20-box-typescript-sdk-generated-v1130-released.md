@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-02-20'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.13.0`のリリース
+# Box TypeScript SDK Generated `v1.13.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* AI Studio APIをサポート (box/box-codegen[#626][1]) ([#520][2]) ([`949b856`][3])
+* Support AI Studio API (box/box-codegen[#626][1]) ([#520][2]) ([`949b856`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/626
 

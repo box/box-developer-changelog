@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-05-16'
 fullyTranslated: true
 ---
-# Python SDK `v2.4.1`のリリース
+# Python SDK `v2.4.1` released
 
-1. ユーザーが[ファイル](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#set-metadata)や[フォルダ](https://github.com/box/box-python-sdk/blob/master/docs/usage/folders.md#set-metadata)でのメタデータの設定を使用する機能を追加
+1. Added ability for users to use set metadata on [files](https://github.com/box/box-python-sdk/blob/master/docs/usage/files.md#set-metadata) and [folders](https://github.com/box/box-python-sdk/blob/master/docs/usage/folders.md#set-metadata)

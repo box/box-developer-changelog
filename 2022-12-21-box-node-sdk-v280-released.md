@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-12-21'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.8.0`のリリース
+# Box Node SDK `v2.8.0` released
 
-### 新機能と機能強化
+### New Features and Enhancements
 
-* セッション終了 ([#782][1]) ([`7fb56c6`][2])
+* Session termination ([#782][1]) ([`7fb56c6`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/782
 

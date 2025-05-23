@@ -23,8 +23,9 @@ source_url: >-
 published_at: '2020-11-13'
 fullyTranslated: true
 ---
-# Box Java SDK `v2.51.1`のリリース
+# Box Java SDK `v2.51.1` released
 
-**バグ修正:**
+**Bug Fixes:**
 
-* Enterprise間でのコラボレータによるファイルに対する`updateMetadata`の呼び出しの修正
+* Fix for cross-enterprise collaborator calls to `updateMetadata`
+  on files

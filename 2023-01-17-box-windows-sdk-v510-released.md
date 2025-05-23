@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-01-17'
 fullyTranslated: true
 ---
-# Box Windows SDK `v5.1.0`のリリース
+# Box Windows SDK `v5.1.0` released
 
-**新機能と機能強化:**
+**New Features and Enhancements:**
 
-* `BoxCCGAuth`にユーザークライアントと管理者クライアントのイニシャルトークンを使用しないFactory Methodを追加 ([#883][1]) ([`c1337fc`][2])
+* `BoxCCGAuth` add User and Admin clients factory methods without initial token ([#883][1]) ([`c1337fc`][2])
 
 <https://www.nuget.org/packages/Box.V2/5.1.0>
 

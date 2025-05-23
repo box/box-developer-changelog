@@ -23,9 +23,11 @@ source_url: >-
 published_at: '2021-10-20'
 fullyTranslated: true
 ---
-# App Diagnosticsレポートへのフィードバック
+# App Diagnostics Report Feedback
 
-新しい[App Diagnosticsレポート][guide]の[リリースを開始][changelog]しました。ぜひ皆様のご意見やご感想をお寄せください。フィードバックの提供については、[フォーラムの投稿][forum]を参照してください。
+We recently [started releasing][changelog] the new
+[App Diagnostics Report][guide] to customers, and we would love to hear your
+thoughts! Visit the [forum post][forum] to provide any feedback.
 
 [forum]: https://support.box.com/hc/en-us/community/posts/4408877038483-App-Diagnostics-Report-Feedback
 

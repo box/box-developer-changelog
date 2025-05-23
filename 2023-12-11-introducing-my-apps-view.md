@@ -23,21 +23,24 @@ source_url: >-
 published_at: '2023-12-11'
 fullyTranslated: true
 ---
-# 開発者コンソールの強化された \[マイアプリ] ビューの導入
+# Introducing enhanced My Apps view in Developer Console
 
-アプリケーション管理のエクスペリエンスをさらに改善するために、開発者コンソールに \[[マイアプリ][1]] リストビューを導入します。このビューには、アプリケーションに関する主な情報が表示されるため、以下の操作が可能になります。
+To improve application management experience even further, we introduce
+the [My Apps][1] list view in the Developer Console.
+This view includes key information about your applications, giving you the possibility to:
 
-* アプリケーションのクライアントIDを表示およびコピーする
-* アプリケーションの説明を表示する
-* カスタムアプリケーションを並べ替える
-* アプリケーションの承認ステータスと有効化ステータスを確認する
-* 構成にアクセスして、開発者トークンを生成する
+* view and copy the application client ID,
+* view the application description,
+* sort custom applications,
+* check the authorization and enablement status of the application,
+* access the configuration and generate developer tokens.
 
 <!-- more -->
 
-## サポート情報
+## Where to get support
 
-問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
+Should you have any issues or need further guidance, please post a request to
+our [developer forum][2] for any help needed.
 
 [1]: g://applications
 

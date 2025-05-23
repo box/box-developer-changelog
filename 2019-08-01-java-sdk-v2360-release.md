@@ -23,7 +23,7 @@ source_url: >-
 published_at: '2019-08-01'
 fullyTranslated: true
 ---
-# Java SDK `v2.36.0`のリリース
+# Java SDK `v2.36.0` released
 
-1. 共有リンクに便利な機能を追加して設定を修正… ([#720](https://github.com/box/box-java-sdk/pull/720))
-2. ファイル、フォルダ、およびウェブリンクに足りないフィールドを追加 ([#719](https://github.com/box/box-java-sdk/pull/719))
+1. Added convenience function for shared link and fixed setting… ([#720](https://github.com/box/box-java-sdk/pull/720))
+2. Add missing fields to files, folders, and web links ([#719](https://github.com/box/box-java-sdk/pull/719))

@@ -20,10 +20,13 @@ source_url: >-
 published_at: '2020-07-16'
 fullyTranslated: true
 ---
-# コンテンツアクセスに関するEnterprise Eventの変更
+# Change to enterprise events for content access
 
-本日以降、[Enterprise Event Stream](g://events/enterprise-events/for-enterprise/)は、新しいコンテンツアクセスイベントの生成を開始します。
+Starting today, the [enterprise event stream](g://events/enterprise-events/for-enterprise/) will
+begin producing new content access events.
 
-新しい`CONTENT_ACCESS`イベントは、ファイルに承認済みのユーザーがアクセスしたか、プログラムによってBoxアプリケーションがアクセスしたときにトリガーされます。
+A new `CONTENT_ACCESS` event is triggered when a file was accessed by an
+authorized user or programmatically by a Box application.
 
-その他のイベントタイプの詳細については、[Enterprise Event](g://events/enterprise-events/for-enterprise/)に関するドキュメントを参照してください。
+See the [enterprise events](g://events/enterprise-events/for-enterprise/) documentation
+for more information on other event types.
