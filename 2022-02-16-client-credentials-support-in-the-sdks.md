@@ -25,26 +25,21 @@ source_url: >-
 published_at: '2022-02-16'
 fullyTranslated: true
 ---
-# Client Credentials support in the SDKs
+# SDKにおけるクライアント資格情報のサポート
 
-Our [`.NET`][3] and [`Java`][5] SDKs now support Client Credentials Grant
-authentication. We plan to release the support for the other SDKs in the
-coming weeks.
+Boxの[`.NET`][3]および[`Java`][5] SDKでは、クライアント資格情報許可による認証がサポートされるようになりました。今後数週間のうちに他のSDKのサポートもリリースする予定です。
 
 <!-- more -->
 
-Back in November 2020, we released a new authentication type for custom
-applications called Client Credentials. Today, we have started releasing SDK
-support for the new type.
+2020年11月に、カスタムアプリケーション向けにクライアント資格情報という新しい認証タイプをリリースしました。今回は、その新しいタイプについてSDKのサポートのリリースを開始しました。
 
-## Updates
+## 更新内容
 
-* Added new sample tags and examples on our [Client Credentials guide page][4].
+* [クライアント資格情報のガイドページ][4]で新しいサンプルタグと例を追加。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][1] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

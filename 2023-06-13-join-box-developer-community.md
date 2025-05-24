@@ -34,22 +34,22 @@ source_url: >-
 published_at: '2023-06-13'
 fullyTranslated: true
 ---
-# Join Box Developer Community
+# Box Developer Communityサイト (英語のみ)
 
-Exciting news for developers and admins! Box has launched the Box Developer Community site, where you can connect with peers and experts to build innovative applications on top of the Box cloud content management and collaboration platform. Join us today at <https://forum.box.com>!
+開発者と管理者向けに、Box Developer Communityサイト (英語のみ) を公開しました。ここでは、仲間や専門家とつながって、Boxのクラウドコンテンツ管理とコラボレーションプラットフォーム上に革新的なアプリケーションを構築することができます。<https://forum.box.com>からご参加ください。
 
 <!-- more -->
 
-# Join, connect and learn
+# 参加してつながり、学習する
 
-* Get support and provide feedback
-* Share knowledge and become a community leader
-* Connect and chat with other Box developers and admins
-* Learn from other community members and Box subject matter experts
-* Stay up to date with the newest features, updates, developer-focused events, blog posts, and more!
+* サポートを受けてフィードバックを提供する
+* 知識を共有してコミュニティリーダーになる
+* 他のBox開発者や管理者とつながってチャットで会話する
+* 他のコミュニティのメンバーやBoxに関するエキスパートから学習する
+* 最新の機能、更新情報、開発者向けのイベント、ブログ投稿などにアクセスする
 
-## New place to get support
+## サポートを受けるための新しい場所
 
-From now on you can ask questions and seek for guidance in our new [Box Developer Community forum][1]. Use this new space to  directly speak to the Box Developer Relations team, as well as your peers and other subject matter experts from Box.
+今後は新しい[Box Developer Communityフォーラム][1]で質問したり、ガイダンスを受けたりすることができます。この新しいフォーラムを利用すると、Box Developer Relationsチーム、同僚、Boxに関するエキスパートと直接会話できます。
 
 [1]: https://forum.box.com/

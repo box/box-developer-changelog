@@ -23,10 +23,10 @@ source_url: >-
 published_at: '2020-11-02'
 fullyTranslated: true
 ---
-# Box Node SDK `v1.35.0` released
+# Box Node SDK `v1.35.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add support for search parameter to get shared link items ([#547][1])
+* 共有リンク項目を取得するための検索パラメータのサポートを追加 ([#547][1])
 
 [1]: https://github.com/box/box-node-sdk/issues/547

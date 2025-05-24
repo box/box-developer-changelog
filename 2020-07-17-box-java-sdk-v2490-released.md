@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2020-07-17'
 fullyTranslated: true
 ---
-# Box Java SDK `v2.49.0` released
+# Box Java SDK `v2.49.0`のリリース
 
-1. Add `fields` parameter for metadata query ([#826][1])
-2. Add zip functionality ([#825][2])
-3. Fix bug with setting the unshared at date for a shared link ([#819][3])
+1. メタデータクエリの`fields`パラメータを追加 ([#826][1])
+2. 圧縮機能を追加 ([#825][2])
+3. 共有リンクの共有解除日を設定してバグを修正 ([#819][3])
 
 [1]: https://github.com/box/box-java-sdk/issues/826
 

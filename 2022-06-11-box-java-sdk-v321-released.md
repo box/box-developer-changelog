@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-06-11'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.2.1` released
+# Box Java SDK `v3.2.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix getting proper URL to authenticate with OAuth ([#1059][1]) ([`42876b4`][2]), closes [#1057][3]
+* OAuthで認証するための適切なURLを取得するよう修正 ([#1059][1]) ([`42876b4`][2])、[#1057][3]をクローズ
 
 [1]: https://github.com/box/box-java-sdk/issues/1059
 

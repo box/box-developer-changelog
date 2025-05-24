@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2022-09-23'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.6.0` released
+# Box Node SDK `v2.6.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add `content_type`, `redirect_url` field to Sign Request ([#758][1]) ([`8abb9b6`][2])
-* Add sign request webhook ([#760][3]) ([`e92d1ab`][4])
-* Added support for Access Only Collaboration  ([#759][5]) ([`dd8261f`][6])
+* 署名リクエストに`content_type`および`redirect_url`フィールドを追加 ([#758][1]) ([`8abb9b6`][2])
+* 署名リクエストのWebhookを追加 ([#760][3]) ([`e92d1ab`][4])
+* アクセスのみのコラボレーションのサポートを追加 ([#759][5]) ([`dd8261f`][6])
 
 [1]: https://github.com/box/box-node-sdk/issues/758
 

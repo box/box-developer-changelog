@@ -24,22 +24,15 @@ source_url: >-
 published_at: '2021-07-26'
 fullyTranslated: true
 ---
-# Release of Box Sign API
+# Box Sign APIのリリース
 
-Today, July 26th, 2021, beings the roll out of Box Sign! Programmatically
-harness the full functionality of the [Box Sign web app experience][webapp] by
-leveraging our newest API endpoints to create, list, resend, and cancel Box Sign
-requests.
+日本時間2021年7月27日に、Box Signをリリースしました。Box Signのリクエストの作成、リスト取得、再送信、キャンセルを実行する最新のAPIエンドポイントを使用することで、[Box Signウェブアプリ][webapp]の全機能をプログラムによって利用できます。
 
-While Box Sign does not need to be enabled by an Admin to use its API endpoints,
-it does need to be rolled out to your enterprise. We will notify Admins as it
-becomes available for their Box instance.
+Box SignのAPIエンドポイントを使用するために管理者がBox Signを有効にする必要はありませんが、Box Signを企業に導入する必要があります。Box SignがBoxインスタンスで利用できるようになると、管理者に通知されます。
 
 <!-- more -->
 
-At a minimum, creating a Box Sign request requires selecting a file for
-signature, a destination folder for the signed document/[signing log][log], and
-designating signers. At this time, only one file can be signed per request.
+少なくとも、Box Signのリクエストを作成するには、署名用ファイルのほか、署名済みファイル/[署名ログ][log]の保存先フォルダを選択し、署名者を指定する必要があります。現時点では、1つのリクエストにつき署名できるファイルは1つだけです。
 
 ```curl
 curl -i -X PUT "https://api.box.com/2.0/sign_requests" \
@@ -65,19 +58,14 @@ curl -i -X PUT "https://api.box.com/2.0/sign_requests" \
      }'
 ```
 
-## Features
+## 機能
 
-* Add endpoint to **create** Box Sign requests: [Guide][c] \|
-  [API reference][c_ref]
-* Add endpoint to **list** Box Sign requests: [Guide][l] \|
-  [API reference][l_ref]
-* Add endpoint to **get** Box Sign requests by ID: [Guide][g] \|
-  [API reference][g_ref]
-* Add endpoint to **resend** Box Sign requests: [Guide][r] \|
-  [API reference][r_ref]
-* Add endpoint to **cancel** Box Sign requests: [Guide][ca] \|
-  [API reference][ca_ref]
-* Java SDK support: [GitHub][gh]
+* Box Signのリクエストを**作成する**エンドポイントを追加: [ガイド][c] \| [APIリファレンス][c_ref]
+* Box Signのリクエストの**リストを取得する**エンドポイントを追加: [ガイド][l] \| [APIリファレンス][l_ref]
+* IDを指定してBox Signのリクエストを**取得する**エンドポイントを追加: [ガイド][g] \| [APIリファレンス][g_ref]
+* Box Signのリクエストを**再送信する**エンドポイントを追加: [ガイド][r] \| [APIリファレンス][r_ref]
+* Box Signのリクエストを**キャンセルする**エンドポイントを追加: [ガイド][ca] \| [APIリファレンス][ca_ref]
+* Java SDKのサポート: [GitHub][gh]
 
 [webapp]: https://support.box.com/hc/en-us/articles/4404086827411-Introducing-Box-Sign
 

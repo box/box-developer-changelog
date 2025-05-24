@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2021-08-30'
 fullyTranslated: true
 ---
-# Box Node SDK `v1.39.0` released
+# Box Node SDK `v1.39.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add support for Box Sign API ([#658][1])
-* Enhance TS Imports ([#656][2])
+* Box Sign APIのサポートを追加 ([#658][1])
+* TS Importsを強化 ([#656][2])
 
 [1]: https://github.com/box/box-node-sdk/pull/658
 

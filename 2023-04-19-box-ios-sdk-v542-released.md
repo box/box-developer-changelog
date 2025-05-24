@@ -24,11 +24,11 @@ source_url: >-
 published_at: '2023-04-19'
 fullyTranslated: true
 ---
-# Box iOS SDK `v5.4.2` released
+# Box iOS SDK `v5.4.2`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* An empty string `nextMarker` should be treated as end-of-paging. ([#893][1]) ([`49c17de`][2])
+* 空の文字列`nextMarker`はページの末尾として扱うよう変更 ([#893][1]) ([`49c17de`][2])
 
 [1]: https://github.com/box/box-ios-sdk/issues/893
 

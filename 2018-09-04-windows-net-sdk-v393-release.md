@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2018-09-04'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.9.3` released
+# Windows .NET SDK `v3.9.3`のリリース
 
-* Strong named the assembly
+* アセンブリに厳密な名前付け
 
 [`nuget.org/packages/Box.V2/3.9.3`](https://www.nuget.org/packages/Box.V2/3.9.3)
 [`nuget.org/packages/Box.V2.Core/3.9.3`](https://www.nuget.org/packages/Box.V2.Core/3.9.3)

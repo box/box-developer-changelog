@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-04-18'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.7.1` released
+# Box Python SDK `v3.7.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Rename filter date parameters in legal hold creation according to the documentation ([#810][1]) ([`f52c66a`][2])
+* ドキュメントに従って、リーガルホールドの作成における日付のフィルタのパラメータ名を変更 ([#810][1]) ([`f52c66a`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/810
 

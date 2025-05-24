@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2022-08-24'
 fullyTranslated: true
 ---
-# Box Windows SDK `v4.5.0` released
+# Box Windows SDK `v4.5.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add `content-type` field to sign request ([#850][1]) ([`054d3e1`][2])
-* expose `effective_access` in `BoxSharedLink` [#843][3] ([`d84ddd4`][4])
+* 署名リクエストに`content-type`フィールドを追加 ([#850][1]) ([`054d3e1`][2])
+* `BoxSharedLink`で`effective_access`を開示 [#843][3] ([`d84ddd4`][4])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* fix null reference exception when it's not possible to get `runtime` version from the assembly ([#851][5]) ([`77046fb`][6])
-* replace infinite retries with exponential backoff strategy in file representations ([#835][7]) ([`f2a5713`][8])
+* アセンブリから`runtime`バージョンを取得できない場合のnull参照の例外を修正 ([#851][5]) ([`77046fb`][6])
+* ファイルレプリゼンテーションで無限再試行を指数バックオフ戦略に置換 ([#835][7]) ([`f2a5713`][8])
 
 <https://www.nuget.org/packages/Box.V2/4.5.0>
 

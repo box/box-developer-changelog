@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2024-08-12'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.4.0` released
+# Box TypeScript SDK Generated `v1.4.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Add missing token scope (box/box-openapi[#442][1]) ([#281][2]) ([`ca77f58`][3])
-* Fix fetch method for multipart request (box/box-codegen[#545][4]) ([#303][5]) ([`f8ceac0`][6])
+* 不足していたトークンのスコープを追加 (box/box-openapi[#442][1]) ([#281][2]) ([`ca77f58`][3])
+* マルチパートリクエストのfetchメソッドを修正 (box/box-codegen[#545][4]) ([#303][5]) ([`f8ceac0`][6])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Parametrize chunked uploads endpoint URLs (box/box-openapi[#444][7]) ([#302][8]) ([`293a6e9`][9])
-* **ts:** Add comments to properties and methods (box/box-codegen[#537][10]) ([#284][11]) ([`db3a2b5`][12])
+* 分割アップロードのエンドポイントURLをパラメータ化 (box/box-openapi[#444][7]) ([#302][8]) ([`293a6e9`][9])
+* **ts:** プロパティおよびメソッドにコメントを追加 (box/box-codegen[#537][10]) ([#284][11]) ([`db3a2b5`][12])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/442
 

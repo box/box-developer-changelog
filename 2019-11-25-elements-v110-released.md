@@ -23,25 +23,22 @@ source_url: >-
 published_at: '2019-11-25'
 fullyTranslated: true
 ---
-# Elements `v11.0` Released
+# Elements `v11.0`のリリース
 
-Box UI Elements version 11.0 has been released. This update includes three
-major new feature enhancements:
+Box UI Elementsバージョン11.0がリリースされました。この更新には、主要な新機能の強化が3つ含まれています。
 
-* Content Explorer Grid View.
-* New Tasks Experience within the Preview Sidebar.
-* Visual Versions for the Preview Sidebar.
+* コンテンツエクスプローラのグリッドビュー。
+* プレビューのサイドバー内の新しいタスク機能。
+* プレビューのサイドバーの複数のビジュアルバージョン。
 
 <!-- more -->
 
-Updated JavaScript and CSS files links for this release are available within
-the [UI Elements manual installation instructions][ui-elements-manual-install].
+このリリース向けに更新されたJavaScriptファイルとCSSファイルへのリンクは、[UI Elementの手動によるインストール手順][ui-elements-manual-install]内で入手できます。
 
-For full information on changes in this release please see the following
-resources:
+このリリースの変更点の詳細については、次のリソースを参照してください。
 
-* [Release notes][elements-11-release-notes]
-* [Announcement blog post][elements-11-blog]
+* [リリースノート][elements-11-release-notes]
+* [お知らせに関するブログ記事][elements-11-blog]
 
 [ui-elements-manual-install]: g://embed/ui-elements/installation/#manual-installation
 

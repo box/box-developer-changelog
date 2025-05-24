@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2024-02-19'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.5.0` released
+# Box Node SDK `v3.5.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Sign request group ([#870][1]) ([`11bf5d2`][2])
+* 署名リクエストグループ ([#870][1]) ([`11bf5d2`][2])
 
-### Bug Fixes
+### バグ修正
 
-* Bumped proxy-agent to 6.4.0 ([#874][3]) ([`55a8a0b`][4])
-* Remove delete classification ([#869][5]) ([`22384ab`][6])
+* proxy-agentを6.4.0に昇格 ([#874][3]) ([`55a8a0b`][4])
+* 分類の削除に関する記述を削除 ([#869][5]) ([`22384ab`][6])
 
 [1]: https://github.com/box/box-node-sdk/issues/870
 

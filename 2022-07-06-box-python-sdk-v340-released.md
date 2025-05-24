@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2022-07-06'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.4.0` released
+# Box Python SDK `v3.4.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add support for editable shared links for files ([#737][1]) ([`1396200`][2])
-* Support uploading and deleting user avatar ([#743][3]) ([`fe00a9e`][4])
+* ファイル用の編集可能な共有リンクのサポートを追加 ([#737][1]) ([`1396200`][2])
+* ユーザーアバターのアップロードと削除をサポート ([#743][3]) ([`fe00a9e`][4])
 
 [1]: https://github.com/box/box-python-sdk/issues/737
 

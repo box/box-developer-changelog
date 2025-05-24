@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-10-18'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.9.2` released
+# Box Python SDK `v3.9.2`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Remove restriction to version \<2 of `urllib3` library ([#851][1]) ([`1dcd82e`][2])
+* `urllib3`ライブラリに対するバージョン2未満の制限を削除 ([#851][1]) ([`1dcd82e`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/851
 

@@ -23,8 +23,8 @@ source_url: >-
 published_at: '2018-05-10'
 fullyTranslated: true
 ---
-# Java SDK `v2.19.0` released
+# Java SDK `v2.19.0`のリリース
 
-1. Multizones ([#598](https://github.com/box/box-java-sdk/pull/598))
-2. Add `getLogin()` method on `BoxCollaborator.Info` ([#602](https://github.com/box/box-java-sdk/pull/602))
-3. Add support for `multiSelect` fields in metadata ([#597](https://github.com/box/box-java-sdk/pull/597))
+1. マルチゾーン ([#598](https://github.com/box/box-java-sdk/pull/598))
+2. `BoxCollaborator.Info`に`getLogin()`メソッドを追加 ([#602](https://github.com/box/box-java-sdk/pull/602))
+3. メタデータでの`multiSelect`フィールドのサポートを追加 ([#597](https://github.com/box/box-java-sdk/pull/597))

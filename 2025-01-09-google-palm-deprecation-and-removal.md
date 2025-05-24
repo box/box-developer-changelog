@@ -23,18 +23,17 @@ source_url: >-
 published_at: '2025-01-09'
 fullyTranslated: true
 ---
-# `Google PaLM` deprecation and removal
+# `Google PaLM`の廃止と削除
 
 <!-- more -->
 
-`Google Pathways Language Models (PaLM)` are being deprecated by `Google`.
+`Google`は`Google Pathways Language Models (PaLM)`の廃止を予定しています。
 
-As a result, the following models will be removed from Box AI on 2025-01-17
+これに従い、日本時間2025年1月18日にBox AIから以下のモデルが削除される予定です。
 
 * `text_bison`
 * `text_bison_32k`
 * `text_unicorn`
 * `google_text_embedding_gecko*`
 
-If you are using one of these models via agent override, check our [list of
-supported models](https://developer.box.com/guides/box-ai/ai-agents/) here.
+エージェントの上書きでこれらのいずれかのモデルを使用している場合は、[サポートされているモデルのリスト](https://developer.box.com/guides/box-ai/ai-agents/)をご確認ください。

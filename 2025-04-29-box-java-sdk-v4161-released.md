@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-04-29'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.16.1` released
+# Box Java SDK `v4.16.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* use `Locale.ROOT` to prevent issues with non-US locales ([#1306][1]) ([`f083092`][2])
+* `Locale.ROOT`を使用して米国以外のロケールでの問題を防止 ([#1306][1]) ([`f083092`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1306
 

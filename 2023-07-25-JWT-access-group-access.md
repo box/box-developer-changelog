@@ -23,16 +23,15 @@ source_url: >-
 published_at: '2023-07-25'
 fullyTranslated: true
 ---
-# Improvements in App Access Level for JWT authentication
+# JWT認証のアプリアクセスレベルの改善
 
-You can now ensure access to enterprise Managed Users **and groups** that were not created by [apps authenticated with JWT][1]. To do so, set **App Access Level** to **App + Enterprise Access** in the **Configuration** tab of the Developer console.
+企業の管理対象ユーザーと、[JWTで認証されたアプリ][1]で作成されていない**グループ**にアクセスできるようになりました。そのためには、開発者コンソールの \[**構成**] タブで \[**アプリアクセスレベル**] を \[**アプリ + Enterpriseアクセス**] に設定します。
 
 <!-- more -->
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][2] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
 
 [1]: g://authentication/jwt/jwt-setup
 

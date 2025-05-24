@@ -23,7 +23,7 @@ source_url: >-
 published_at: '2018-05-24'
 fullyTranslated: true
 ---
-# Java SDK `v2.20.0` released
+# Java SDK `v2.20.0`のリリース
 
-1. multi select metadata field ([#610](https://github.com/box/box-java-sdk/pull/610))
-2. Fix check for duplicate As-User headers ([#612](https://github.com/box/box-java-sdk/pull/612))
+1. メタデータフィールドの複数選択 ([#610](https://github.com/box/box-java-sdk/pull/610))
+2. 重複するas-userヘッダーのチェックを修正 ([#612](https://github.com/box/box-java-sdk/pull/612))

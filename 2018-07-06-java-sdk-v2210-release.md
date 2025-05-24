@@ -23,7 +23,7 @@ source_url: >-
 published_at: '2018-07-06'
 fullyTranslated: true
 ---
-# Java SDK `v2.21.0` released
+# Java SDK `v2.21.0`のリリース
 
-1. `Sharedlink` password ([#623](https://github.com/box/box-java-sdk/pull/623))
-2. correct link ([#626](https://github.com/box/box-java-sdk/pull/626))
+1. `Sharedlink`パスワード ([#623](https://github.com/box/box-java-sdk/pull/623))
+2. リンクを修正 ([#626](https://github.com/box/box-java-sdk/pull/626))

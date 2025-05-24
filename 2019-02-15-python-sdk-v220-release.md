@@ -23,7 +23,7 @@ source_url: >-
 published_at: '2019-02-15'
 fullyTranslated: true
 ---
-# Python SDK `v2.2.0` released
+# Python SDK `v2.2.0`のリリース
 
-* Added ability for user to [retrieve an avatar](https://github.com/box/box-python-sdk/blob/master/docs/usage/user.md#get-the-avatar-for-a-user) for a user.
-* Changed retry strategy to use exponential back-off with randomized jitter.
+* ユーザーがユーザーの[アバターを取得](https://github.com/box/box-python-sdk/blob/master/docs/usage/user.md#get-the-avatar-for-a-user)する機能が追加されました。
+* ランダム化されたジッターを伴う指数バックオフを使用するよう再試行戦略が変更されました。

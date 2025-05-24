@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2024-09-11'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.6.0` released
+# Box TypeScript SDK Generated `v1.6.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Add the missing license to `package.json` (box/box-codegen[#562][1]) ([#343][2]) ([`cc9a8b8`][3])
-* Fix variants in metadata query results (box/box-openapi[#456][4]) ([#349][5]) ([`2131e98`][6])
+* 不足していたライセンスを`package.json`に追加 (box/box-codegen[#562][1]) ([#343][2]) ([`cc9a8b8`][3])
+* メタデータクエリの結果のバリアントを修正 (box/box-openapi[#456][4]) ([#349][5]) ([`2131e98`][6])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* add Hubs Beta (box/box-openapi[#453][7]) ([#333][8]) ([`40359c7`][9])
-* Add support for proxy (box/box-codegen[#559][10]) ([#337][11]) ([`0ffd9c8`][12])
+* Hubsベータ版を追加 (box/box-openapi[#453][7]) ([#333][8]) ([`40359c7`][9])
+* プロキシのサポートを追加 (box/box-codegen[#559][10]) ([#337][11]) ([`0ffd9c8`][12])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/562
 

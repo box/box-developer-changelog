@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2024-06-06'
 fullyTranslated: true
 ---
-# Box CLI `v3.14.1` released
+# Box CLI `v3.14.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix bulk action in `search` command ([#528][1]) ([`782b0e6`][2])
-* Fix bulk operation for `sign-requests:create` command ([#531][3]) ([`6d9cd6b`][4])
+* `search`コマンドの一括操作を修正 ([#528][1]) ([`782b0e6`][2])
+* `sign-requests:create`コマンドの一括操作を修正 ([#531][3]) ([`6d9cd6b`][4])
 
 [1]: https://github.com/box/boxcli/issues/528
 

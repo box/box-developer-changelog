@@ -23,21 +23,21 @@ source_url: >-
 published_at: '2022-02-16'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.1.0` released
+# Box Python SDK `v3.1.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add support for Python 3.10 ([#692][1]) ([`d4aed82`][2])
-* Add support for Python 3.8, Python 3.9, `pypy-3.7` and `pypy-3.8`. ([#689][3]) ([`0aa94cc`][4])
-* Deprecate `use_index` parameter from `MDQ` of files/folders ([#666][5]) ([`2595720`][6])
-* Replace external package `mock` with Python standard library `unittest.mock` ([#697][7]) ([`6fd6366`][8])
-* Upgrade cryptography library to the most recent version. ([#668][9]) ([`9c94d08`][10]), closes [#667][11]
+* Python 3.10のサポートを追加 ([#692][1]) ([`d4aed82`][2])
+* Python 3.8、Python 3.9、`pypy-3.7`、および`pypy-3.8`のサポートを追加 ([#689][3]) ([`0aa94cc`][4])
+* ファイル/フォルダの`MDQ`にある`use_index`パラメータを廃止 ([#666][5]) ([`2595720`][6])
+* 外部パッケージの`mock`をPython標準ライブラリの`unittest.mock`に置き換え ([#697][7]) ([`6fd6366`][8])
+* 暗号化技術ライブラリを最新バージョンにアップグレード ([#668][9]) ([`9c94d08`][10])、[#667][11]をクローズ
 
-### Bug Fixes
+### バグ修正
 
-* `UploadSession.commit` returns `None` when retry limit was reached ([#696][12]) ([`9456fe0`][13])
-* Add missing `api_call` decorator for `create_upload_session` ([#686][14]) ([`3510d3a`][15])
-* Fix chunked upload ([#673][16]) ([`2605fd7`][17]), closes [#671][18]
+* 再試行の上限に達したときに`UploadSession.commit`によって`None`が返される ([#696][12]) ([`9456fe0`][13])
+* `create_upload_session`に欠落している`api_call`デコレータを追加 ([#686][14]) ([`3510d3a`][15])
+* 分割アップロードを修正 ([#673][16]) ([`2605fd7`][17])、[#671][18]をクローズ
 
 [1]: https://github.com/box/box-python-sdk/issues/692
 

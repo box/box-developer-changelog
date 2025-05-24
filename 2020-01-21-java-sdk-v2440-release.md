@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2020-01-21'
 fullyTranslated: true
 ---
-# Java SDK `v2.44.0` released
+# Java SDK `v2.44.0`のリリース
 
-1. Fix Authentication Request Retries ([#764](https://github.com/box/box-java-sdk/pull/764))
+1. 認証リクエストの再試行を修正 ([#764](https://github.com/box/box-java-sdk/pull/764))

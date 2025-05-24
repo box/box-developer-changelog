@@ -23,23 +23,18 @@ source_url: >-
 published_at: '2021-09-01'
 fullyTranslated: true
 ---
-# Classification Name Field now in Events API
+# イベントAPIで分類の名前フィールドが追加
 
-If a classification exists on content, the [events][events] API now
-returns the classification `name` field in the response object.
+コンテンツに分類が存在する場合、[イベント][events]APIにより、レスポンスオブジェクトで分類の`name`フィールドが返されるようになりました。
 
 <!-- more -->
 
-* The updates to the event source response object can be
-  seen [here][event-source].
-* A new [guide page][event-triggers] has been added to show examples for an
-  event triggered by a user source and an event source.
+* イベントソースのレスポンスオブジェクトの更新については、[こちら][event-source]を参照してください。
+* ユーザーソースおよびイベントソースによってトリガーされるイベントの例を紹介するために新しい[ガイドページ][event-triggers]が追加されました。
 
-Below is an example of the response before and after the enhancement. Please
-note that if a classification doesn't exist, the before example will still
-be returned.
+機能強化前と機能強化後のレスポンスの例を以下に示します。分類が存在しない場合は機能強化前の例が返されることに注意してください。
 
-Before:
+機能強化前:
 
 ```js
 {
@@ -62,7 +57,7 @@ Before:
 }
 ```
 
-After:
+機能強化後:
 
 ```js
 {
@@ -88,10 +83,9 @@ After:
 }
 ```
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][forum] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

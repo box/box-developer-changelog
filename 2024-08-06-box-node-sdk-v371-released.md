@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-08-06'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.7.1` released
+# Box Node SDK `v3.7.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* add version to copy file options annotation ([#885][1]) ([`4f9312c`][2])
+* ファイルをコピーする際のオプションのバージョンに型注釈を追加 ([#885][1]) ([`4f9312c`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/885
 

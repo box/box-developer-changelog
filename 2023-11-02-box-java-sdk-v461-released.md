@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-11-02'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.6.1` released
+# Box Java SDK `v4.6.1`のリリース
 
-### Dependency Upgrades
+### 依存関係のアップグレード
 
-* Bumped `org.bitbucket.b_c:jose4j:0.9.3` ([#1212][1]) ([`f522a56`][2])
+* `org.bitbucket.b_c:jose4j:0.9.3`を昇格 ([#1212][1]) ([`f522a56`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1212
 

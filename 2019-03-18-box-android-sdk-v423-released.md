@@ -24,6 +24,6 @@ source_url: >-
 published_at: '2019-03-18'
 fullyTranslated: true
 ---
-# Box Android SDK `v4.2.3` released
+# Box Android SDK `v4.2.3`のリリース
 
-Contains various bug fixes and stability improvements
+さまざまなバグ修正と安定性の改善が含まれます。

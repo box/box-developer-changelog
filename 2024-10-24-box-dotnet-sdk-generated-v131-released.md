@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2024-10-24'
 fullyTranslated: true
 ---
-# Box Dotnet SDK Generated `v1.3.1` released
+# Box Dotnet SDK Generated `v1.3.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* properly serialize `StringEnum` list when inside query `params` ([#288][1]) ([`dac8392`][2])
-* update client error schema to support schema errors (box/box-openapi[#467][3]) ([#281][4]) ([`bef2632`][5])
-* update integration mapping response description (box/box-openapi[#463][6]) ([#279][7]) ([`05e07b0`][8])
+* クエリの`params`内で`StringEnum`リストを正しくシリアル化 ([#288][1]) ([`dac8392`][2])
+* スキーマエラーをサポートするようクライアントエラースキーマを更新 (box/box-openapi[#467][3]) ([#281][4]) ([`bef2632`][5])
+* 統合マッピングのレスポンスの説明を更新 (box/box-openapi[#463][6]) ([#279][7]) ([`05e07b0`][8])
 
 [1]: https://github.com/box/box-codegen/issues/288
 

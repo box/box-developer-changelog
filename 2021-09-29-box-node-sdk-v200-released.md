@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2021-09-29'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.0.0` released
+# Box Node SDK `v2.0.0`のリリース
 
-**Breaking changes:**
+**重要な変更:**
 
-* Drop support for Node 6,7 ([#670][1])
+* Node 6、7のサポートを終了 ([#670][1])
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add support for `is_external_collab_restricted` User property ([#668][2])
-* Bump proxy-agent from 4.0.0 to 5.0.0 ([#664][3])
+* `is_external_collab_restricted`ユーザープロパティのサポートを追加 ([#668][2])
+* プロキシエージェントを4.0.0から5.0.0に昇格 ([#664][3])
 
 [1]: https://github.com/box/box-node-sdk/pull/670
 

@@ -20,20 +20,14 @@ source_url: >-
 published_at: '2019-05-15'
 fullyTranslated: true
 ---
-# TLS 1.0 deprecated complete
+# TLS 1.0非推奨の完了
 
-On May 13th, 2019, Box began the process of disabling TLS 1.0 requests to Box
-APIs. As of today, all TLS 1.0 API requests will be returning a response
-stating that a secure connection could not be established when making API calls.
+2019年5月13日に、Box APIへのTLS 1.0リクエストを無効にするプロセスが開始されました。今後、すべてのTLS 1.0 APIリクエストが、APIコールの実行時に安全な接続を確立できなかったことを示すレスポンスを返します。
 
-Impacted developers will have been notified through multiple channels over the
-last 6-12 months, but should your application be impacted you will need to
-update your systems to again be able to make API requests to Box.
+影響を受ける開発者には、これまで6～12か月にわたって複数のチャネルを通じて通知してきましたが、アプリケーションに影響がある場合は、BoxにAPIリクエストを再度送信できるようにシステムを更新する必要があります。
 
-Please see our TLS 1.0 deprecation guide to
-upgrade your systems to TLS 1.2.
+システムをTLS 1.2にアップグレードするには、TLS 1.0の公式サポート終了ガイドを参照してください。
 
-For any questions or for addition support, please
-[file a support ticket][support_ticket].
+質問や追加のサポートについては、[サポートチケットをお送りください][support_ticket]。
 
 [support_ticket]: https://community.box.com/t5/custom/page/page-id/BoxSearchLithiumTKB

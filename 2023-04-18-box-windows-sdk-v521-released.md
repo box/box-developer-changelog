@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-04-18'
 fullyTranslated: true
 ---
-# Box Windows SDK `v5.2.1` released
+# Box Windows SDK `v5.2.1`のリリース
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Catch all exceptions when getting User Agent header ([#901][1]) ([`75d8874`][2])
+* ユーザーエージェントヘッダーを取得する際にすべての例外をキャッチ ([#901][1]) ([`75d8874`][2])
 
 <https://www.nuget.org/packages/Box.V2/5.2.1>
 

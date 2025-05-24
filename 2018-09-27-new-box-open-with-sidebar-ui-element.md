@@ -21,12 +21,8 @@ source_url: >-
 published_at: '2018-09-27'
 fullyTranslated: true
 ---
-# New Box Open With Sidebar UI Element
+# 新しいBox Open With Sidebar UI Element
 
-We have released an open beta version of a new Box UI Element, the 'Open With'
-element. 'Open With' will allow developers to embed a menu to open content
-stored in box with a partner application. The partners available with this beta
-release are Adobe Sign and G Suite.
+新しいBox UI Elementのオープンベータ版である「Open With」Elementがリリースされました。「Open With」を使用すると、開発者は、Boxに保存されたコンテンツを開くためのメニューをパートナーアプリケーションに埋め込むことができます。このベータリリースで利用可能なパートナーは、Adobe SignおよびG Suiteです。
 
-Documentation and setup instructions for this new element are
-[available here](guide://embed/ui-elements).
+この新しい要素のドキュメントと設定手順は、[こちら](guide://embed/ui-elements)から入手できます。

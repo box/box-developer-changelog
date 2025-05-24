@@ -22,11 +22,11 @@ source_url: >-
 published_at: '2023-11-06'
 fullyTranslated: true
 ---
-# Box CLI `v3.12.1` released
+# Box CLI `v3.12.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* force offset based pagination in get users ([#504][1]) ([`9bed083`][2])
+* ユーザーの取得でオフセットベースのページ割りを強制 ([#504][1]) ([`9bed083`][2])
 
 [1]: https://github.com/box/boxcli/issues/504
 

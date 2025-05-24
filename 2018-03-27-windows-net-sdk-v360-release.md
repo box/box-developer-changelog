@@ -23,9 +23,9 @@ source_url: >-
 published_at: '2018-03-27'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.6.0` released
+# Windows .NET SDK `v3.6.0`のリリース
 
-[Changelog](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#360)
+[変更ログ](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#360)
 
 [`nuget.org/packages/Box.V2/3.6.0`](https://www.nuget.org/packages/Box.V2/3.6.0)
 [`nuget.org/packages/Box.V2.Core`](https://www.nuget.org/packages/Box.V2.Core)

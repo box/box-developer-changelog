@@ -21,15 +21,14 @@ source_url: >-
 published_at: '2019-11-18'
 fullyTranslated: true
 ---
-# New iOS SDK now available
+# 新しいiOS SDKが使用可能になりました
 
-A new major release of the iOS SDK has been released and is now generally
-available. The new SDK includes a number of major revisions:
+iOS SDKの新しいメジャーリリースが正式リリースされました。新しいSDKには、大幅な修正が数多く含まれています。
 
-* Fully rebuilt using Swift.
-* Support for Cocoapods, Carthage, and the Swift Package Manager.
-* SDK now maintains full API feature parity.
+* Swiftを使用して完全に再構築されました。
+* Cocoapods、Carthage、Swift Package Managerのサポート。
+* SDKでは、完全なAPI機能パリティが維持されるようになりました。
 
-See the [release blog post][ios-sdk-release-blog] for more information.
+詳細については、[リリースに関するブログ記事][ios-sdk-release-blog]を参照してください。
 
 [ios-sdk-release-blog]: https://medium.com/box-developer-blog/the-new-box-ios-sdk-now-available-baf624b289b4

@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-11-08'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.4.2` released
+# Box Node SDK `v3.4.2`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix `proxy-agent` ([#867][1]) ([`3de7586`][2])
+* `proxy-agent`を修正 ([#867][1]) ([`3de7586`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/867
 

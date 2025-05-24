@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-11-29'
 fullyTranslated: true
 ---
-# Box Windows SDK `v5.6.1` released
+# Box Windows SDK `v5.6.1`のリリース
 
-**Bug Fixes:**
+**バグ修正:**
 
-* support object value in `BoxConflictErrorContextInfo` ([#930][1]) ([`496f758`][2])
+* `BoxConflictErrorContextInfo`のオブジェクトの値をサポート ([#930][1]) ([`496f758`][2])
 
 <https://www.nuget.org/packages/Box.V2/5.6.1>
 

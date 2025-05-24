@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2023-06-14'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.1.2` released
+# Box Java SDK `v4.1.2`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Class cast exception when uploading large file ([#1174][1]) ([`e7d28bd`][2]), closes [#1173][3]
-* Make `SharedLinkAPIConnection` constructors public ([#1172][4]) ([`4d1616d`][5])
-* Remove not valid Group membership role ([#1171][6]) ([`a5915f9`][7])
+* 大きいファイルをアップロードする際のClassCastException ([#1174][1]) ([`e7d28bd`][2])、[#1173][3]をクローズ
+* `SharedLinkAPIConnection`コンストラクタをpublicに変更 ([#1172][4]) ([`4d1616d`][5])
+* 無効なグループメンバーシップロールを削除 ([#1171][6]) ([`a5915f9`][7])
 
 [1]: https://github.com/box/box-java-sdk/issues/1174
 

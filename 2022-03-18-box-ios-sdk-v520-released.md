@@ -24,12 +24,12 @@ source_url: >-
 published_at: '2022-03-18'
 fullyTranslated: true
 ---
-# Box iOS SDK `v5.2.0` released
+# Box iOS SDK `v5.2.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add `disposition_at` field to the `File` object ([#814][1]) ([`3c90df0`][2])
-* Add support for Client Credentials Grant authentication method ([#821][3]) ([`f6d7542`][4])
+* `disposition_at`フィールドを`File`オブジェクトに追加 ([#814][1]) ([`3c90df0`][2])
+* クライアント資格情報許可による認証方法のサポートを追加 ([#821][3]) ([`f6d7542`][4])
 
 [1]: https://github.com/box/box-ios-sdk/issues/814
 

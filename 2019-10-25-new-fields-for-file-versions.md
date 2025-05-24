@@ -20,13 +20,10 @@ source_url: >-
 published_at: '2019-10-25'
 fullyTranslated: true
 ---
-# New fields for File Versions
+# ファイルバージョンに新しいフィールドを追加
 
-New optional fields have been made available within the File Version object,
-namely `trashed_by`, `restored_by` and `restored_at`.
+ファイルバージョンオブジェクト内で、新しいフィールドである`trashed_by`、`restored_by`、および`restored_at` (省略可) が使用可能になりました。
 
-The fields will be returned as part of the standard
-[File Version object](endpoint://resources/file-version/).
+このフィールドは、標準の[ファイルバージョンオブジェクト](endpoint://resources/file-version/)の一部として返されます。
 
-The purpose of these fields is to have a better understanding of when file
-versions have been moved in and out of the trash, and by whom.
+このフィールドの目的は、いつ、誰がファイルバージョンをごみ箱に移動したり、ごみ箱から出したりしたかを把握しやすくすることです。

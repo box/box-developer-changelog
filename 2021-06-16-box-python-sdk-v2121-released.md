@@ -23,10 +23,10 @@ source_url: >-
 published_at: '2021-06-16'
 fullyTranslated: true
 ---
-# Box Python SDK `v2.12.1` released
+# Box Python SDK `v2.12.1`のリリース
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Fix bug when thumbnail representations are not found ([#597][1])
+* サムネイルレプリゼンテーションが見つからない場合のバグの修正 ([#597][1])
 
 [1]: https://github.com/box/box-python-sdk/pull/597

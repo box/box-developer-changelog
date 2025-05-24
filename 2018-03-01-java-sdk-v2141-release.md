@@ -23,8 +23,8 @@ source_url: >-
 published_at: '2018-03-01'
 fullyTranslated: true
 ---
-# Java SDK `v2.14.1` released
+# Java SDK `v2.14.1`のリリース
 
-1. Add randomization to exponential backoff ([#565](https://github.com/box/box-java-sdk/pull/565))
-2. Force TLS version 1.1 or greater when supported ([#548](https://github.com/box/box-java-sdk/pull/548))
-3. Delay successive API calls by `EventStream` ([#564](https://github.com/box/box-java-sdk/pull/564))
+1. 指数バックオフにランダム化を追加 ([#565](https://github.com/box/box-java-sdk/pull/565))
+2. サポート対象時にTLSバージョン1.1以降を強制 ([#548](https://github.com/box/box-java-sdk/pull/548))
+3. 連続するAPIコールを`EventStream`によって遅延 ([#564](https://github.com/box/box-java-sdk/pull/564))

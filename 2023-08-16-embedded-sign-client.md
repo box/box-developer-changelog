@@ -24,27 +24,17 @@ source_url: >-
 published_at: '2023-08-16'
 fullyTranslated: true
 ---
-# Introducing Embedded Box Sign Client
+# Box Signクライアントの埋め込み機能の導入
 
-You can now use [Box Embed][1] to [embed Box Sign
-features][2] in your own website. This way, users
-don't have to leave the website, go to Box Sign
-to sign the document, and then come back to finish
-the process. Instead, Box Embed allows them
-to complete the signing process
-within the external website.
+[Box Embed][1]を使用して、ウェブサイトに[Box Signの機能を埋め込む][2]ことができるようになりました。これにより、ユーザーはウェブサイトを離れ、Box Signにアクセスしてドキュメントに署名し、プロセスを完了するために戻る必要がなくなります。代わりに、Box Embedを使用すると、外部のウェブサイト内で署名プロセスを完了できます。
 
-To integrate Box Sign experience within your
-own website, you need the [`iframeable_embed_url`][3]
-parameter that is specifically designed to allow
-signing documents within the HTML `iframe` tag.
+Box Signのエクスペリエンスをウェブサイトに統合するには、HTMLの`iframe`タグ内のドキュメントの署名を許可するために設計された[`iframeable_embed_url`][3]パラメータが必要です。
 
 <!-- more -->
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][4] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][4]に英語でリクエストを投稿してください。
 
 [1]: g://embed/box-embed
 

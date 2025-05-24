@@ -23,90 +23,90 @@ source_url: >-
 published_at: '2024-05-22'
 fullyTranslated: true
 ---
-# Box UI Elements `v20.0.0` released
+# Box UI Elements `v20.0.0`のリリース
 
-# [20.0.0][1] (2024-05-22)
+# [20.0.0][1] (2024/05/22)
 
-### Bug Fixes
+### バグ修正
 
-* **content-answers:** scope styles to content answers modal ([#3548][2]) ([`97d49ff`][3])
-* **fonts:** update common fonts version ([#3499][4]) ([`870de6d`][5])
-* **i18n:** update translations ([#3508][6]) ([`785be2a`][7])
-* **i18n:** update translations ([#3509][8]) ([`85ebf26`][9])
-* **i18n:** update translations ([#3516][10]) ([`cb470e9`][11])
-* **i18n:** update translations ([#3525][12]) ([`ffb447c`][13])
-* **i18n:** update translations ([#3528][14]) ([`1cf016f`][15])
-* **i18n:** update translations ([#3534][16]) ([`36e95a9`][17])
-* **i18n:** update translations ([#3535][18]) ([`c8d03c3`][19])
-* **i18n:** update translations ([#3538][20]) ([`cde1b88`][21])
-* **i18n:** update translations ([#3540][22]) ([`a7043e6`][23])
-* **i18n:** update translations ([#3541][24]) ([`3ced4a5`][25])
-* **`multiput-upload`:** improve upload performance ([#3512][26]) ([`2583e94`][27])
-* **`npm`:** add chromatic config to `npmignore` ([#3546][28]) ([`e2e6731`][29])
-* **preview:** Update default preview version to `2.106.0` ([#3555][30]) ([`f07d616`][31])
-* **`react-intl`:** mock date in relative time unit tests ([#3518][32]) ([`3ce175b`][33])
-* **shared-link-settings-modal:** correct expiration date formatting ([#3545][34]) ([`e47892f`][35])
-* **upload:** improve `multiput` upload performance 2 ([#3517][36]) ([`2440746`][37])
-* **usm:** fix item type hubs ([#3532][38]) ([`0d1e9cf`][39])
-* **usm:** hide link description when upsell shows ([#3553][40]) ([`838a2e8`][41])
+* **content-answers:** content answersウィンドウにスタイルをスコープ ([#3548][2]) ([`97d49ff`][3])
+* **fonts:** 共通するフォントのバージョンを更新 ([#3499][4]) ([`870de6d`][5])
+* **i18n:** 翻訳を更新 ([#3508][6]) ([`785be2a`][7])
+* **i18n:** 翻訳を更新 ([#3509][8]) ([`85ebf26`][9])
+* **i18n:** 翻訳を更新 ([#3516][10]) ([`cb470e9`][11])
+* **i18n:** 翻訳を更新 ([#3525][12]) ([`ffb447c`][13])
+* **i18n:** 翻訳を更新 ([#3528][14]) ([`1cf016f`][15])
+* **i18n:** 翻訳を更新 ([#3534][16]) ([`36e95a9`][17])
+* **i18n:** 翻訳を更新 ([#3535][18]) ([`c8d03c3`][19])
+* **i18n:** 翻訳を更新 ([#3538][20]) ([`cde1b88`][21])
+* **i18n:** 翻訳を更新 ([#3540][22]) ([`a7043e6`][23])
+* **i18n:** 翻訳を更新 ([#3541][24]) ([`3ced4a5`][25])
+* **`multiput-upload`:** アップロードのパフォーマンスを改善 ([#3512][26]) ([`2583e94`][27])
+* **`npm`:** `npmignore`にchromatic configを追加 ([#3546][28]) ([`e2e6731`][29])
+* **preview:** デフォルトのプレビューバージョンを`2.106.0`に更新 ([#3555][30]) ([`f07d616`][31])
+* **`react-intl`:** 相対時間の単体テストで日付をモック ([#3518][32]) ([`3ce175b`][33])
+* **shared-link-settings-modal:** 有効期限の形式を修正 ([#3545][34]) ([`e47892f`][35])
+* **upload:** `multiput`のアップロードパフォーマンス2を改善 ([#3517][36]) ([`2440746`][37])
+* **usm:** 項目タイプをhubsに修正 ([#3532][38]) ([`0d1e9cf`][39])
+* **usm:** アップセルの表示時にリンクの説明を非表示にする ([#3553][40]) ([`838a2e8`][41])
 
-### Features
+### 機能
 
-* **content-explorer:** allow not using Portal when rendering modal ([#3501][42]) ([`b096d38`][43])
-* **content-uploader:** Added `allowPrepopulateFiles` prop to content uploader ([#3519][44]) ([`12427b1`][45])
-* **content-uploader:** Implemented partial upload for successful file transfers ([#3529][46]) ([`e70825c`][47])
-* **docgen:** docgen sidebar base ([#3484][48]) ([`4b18b21`][49])
-* **`react-intl`:** Bump `react-intl` package \[BREAKING CHANGE] ([#3466][50]) ([`307c6a4`][51])
-* **usm:** Add access level label for hubs ([#3526][52]) ([`6504480`][53])
-* **usm:** add inline notice as component ([#3549][54]) ([`d646c65`][55])
+* **content-explorer:** ウィンドウのレンダリング時にPortalを使用しないことを許可 ([#3501][42]) ([`b096d38`][43])
+* **content-uploader:** コンテンツアップローダーに`allowPrepopulateFiles`プロパティを追加 ([#3519][44]) ([`12427b1`][45])
+* **content-uploader:** ファイルの転送を成功させるために部分的なアップロードを実装 ([#3529][46]) ([`e70825c`][47])
+* **docgen:** docgenのサイドバーベース ([#3484][48]) ([`4b18b21`][49])
+* **`react-intl`:** `react-intl`パッケージを昇格 \[重大な変更] ([#3466][50]) ([`307c6a4`][51])
+* **usm:** hubsのアクセスレベルのラベルを追加 ([#3526][52]) ([`6504480`][53])
+* **usm:** インライン通知をコンポーネントとして追加 ([#3549][54]) ([`d646c65`][55])
 
-### BREAKING CHANGES
+### 重大な変更
 
-* **`react-intl`:** upgrade the major version of the `react-intl` dependency
+* **`react-intl`:** `react-intl`依存関係のメジャーバージョンをアップグレード
 
-* fix: fix `intl` type
+* 修正: `intl`のタイプを修正
 
-* fix: fix message syntax
+* 修正: メッセージの構文を修正
 
-* fix: fix comments and i18n readme file
+* 修正: コメントおよびi18n readmeファイルを修正
 
-* fix: fix `react-intl` version comments
+* 修正: `react-intl`のバージョンのコメントを修正
 
-* fix: use `IntlShape` as a type in js files
+* 修正: jsファイルで`IntlShape`を型として使用
 
-* Fix: correct type import for `IntlShape`
+* 修正: `IntlShape`の型のインポートを修正
 
-* fix: add resolution
+* 修正: 解決策を追加
 
-* fix: use exact version to match other repositories
+* 修正: 他のリポジトリに一致するよう正確なバージョンを使用
 
-* Fix: correct type import for `IntlShape`
+* 修正: `IntlShape`の型のインポートを修正
 
-* fix: remove all support for legacy versions
+* 修正: 従来のバージョンのサポートをすべて削除
 
-* fix: add `relativeTime` helper function
+* 修正: `relativeTime`ヘルパー関数を追加
 
-* fix: fix `relativeTime` in `PresenceAvatarTooltipContent` component
+* 修正: `PresenceAvatarTooltipContent`コンポーネントの`relativeTime`を修正
 
-* fix: fix `relativeTime` in `PresenceCollaborator` component
+* 修正: `PresenceCollaborator`コンポーネントの`relativeTime`を修正
 
-* fix: use inclusive inequalities in `relativeTime` helper
+* 修正: `relativeTime`ヘルパーで等号付き不等式を使用
 
-* fix: remove unnecessary modulo operations
+* 修正: 不要な剰余演算を削除
 
-* fix: fix `relativeTime` in `ReadableTime` + fix snapshots
+* 修正: `ReadableTime`の`relativeTime`を修正し、スナップショットを修正
 
-* fix: fix `relativeTime` in `lastModifiedByCellRenderer`
+* 修正: `lastModifiedByCellRenderer`の`relativeTime`を修正
 
-* fix: fix tests
+* 修正: テストを修正
 
-* fix: use js
+* 修正: jsを使用
 
-* fix: fix import
+* 修正: インポートを修正
 
-* fix: fix else statement
+* 修正: elseステートメントを修正
 
-* fix: revert import reorder
+* 修正: インポートの並べ替えを元に戻す
 
 [1]: https://github.com/box/box-ui-elements/compare/v19.0.0...v20.0.0
 

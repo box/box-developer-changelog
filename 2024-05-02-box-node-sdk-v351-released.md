@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-05-02'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.5.1` released
+# Box Node SDK `v3.5.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix `options` parameter in metadata query method ([#878][1]) ([`7943420`][2])
+* メタデータクエリメソッドの`options`パラメータを修正 ([#878][1]) ([`7943420`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/878
 

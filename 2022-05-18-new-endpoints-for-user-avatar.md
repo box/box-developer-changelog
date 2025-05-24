@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-05-18'
 fullyTranslated: true
 ---
-# New Endpoints to Manage User Avatars
+# ユーザーのアバターを管理するための新しいエンドポイント
 
-Starting today, the User Avatar APIs supports adding, updating, and deleting user avatars.
+本日より、ユーザーアバターAPIでユーザーアバターの追加、更新、削除がサポートされるようになりました。
 
-To create or update a user avatar, call the [`POST /users-id-avatar`][2] endpoint. Remember to include the path to the file you want to upload. If an avatar already exists, it will be replaced with the new photo uploaded.
+ユーザーアバターを作成または更新するには、アップロードするファイルへのパスを含めて[`POST /users-id-avatar`][2]エンドポイントを呼び出します。すでにアバターが存在する場合は、新しくアップロードされた写真に置き換えられます。
 
 ```sh
 curl -i -X POST -L https://api.box.net/2.0/users/userID/avatar 
@@ -35,19 +35,18 @@ curl -i -X POST -L https://api.box.net/2.0/users/userID/avatar
     --form 'pic=@"path/to/file/file.jpeg"'
 ```
 
-The response includes the [user avatar][4] object with URLs to the file location.
+レスポンスには、ファイルの場所へのURLを示す[user avatar][4]オブジェクトが含まれます。
 
-To delete a user avatar, call the [`DELETE /users-id-avatar`][3] endpoint:
+ユーザーアバターを削除するには、[`DELETE /users-id-avatar`][3]エンドポイントを呼び出します:
 
 ```sh
 curl -i -X DELETE -L https://api.box.net/2.0/users/userID/avatar 
     -H 'Authorization: Bearer <ACCESS_TOKEN>'
 ```
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][1] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

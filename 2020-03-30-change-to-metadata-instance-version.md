@@ -22,23 +22,14 @@ source_url: >-
 published_at: '2020-03-30'
 fullyTranslated: true
 ---
-# Change to metadata instance version
+# メタデータインスタンスのバージョンに対する変更
 
-As part of ongoing improvements to our Metadata infrastructure we will be
-rolling out a small change to the [`version`](r:/metadata/#param-$version) value
-of a metadata Instance.
+メタデータインフラストラクチャに対する継続的な改善の一環として、メタデータインスタンスの[`version`](r:/metadata/#param-$version)値に対する小規模な変更をリリースします。
 
 <!-- more -->
 
-Previously, the version number associated with a metadata instance would be
-incremented if a field on the associated metadata template was deleted, or if an
-`enum` field's option was deleted on the associated metadata template.
+これまで、メタデータインスタンスに関連付けられたバージョン番号は、関連付けられたメタデータテンプレートのフィールドが削除された場合または関連付けられたメタデータテンプレートで`enum`フィールドのオプションが削除された場合に増加していました。
 
-Going forward, these changes will not increment the version number of a metadata
-instance.
+今後は、こうした変更により、メタデータインスタンスのバージョン番号が増加することはありません。
 
-This behavior has always been implicit and we recognize that very little value
-can be derived form to the metadata instance version. Therefore we do not expect
-this change to have any impact on any of our customers. Regardless, please reach
-out to your customer success manager or our support channels if you find
-yourself impacted.
+バージョン番号の増加は常に暗黙的に行われてきたため、Boxでは、メタデータインスタンスのバージョンから得られる価値はほとんどないと認識しています。そのため、この変更がお客様に影響を及ぼすとは考えておりません。それでも、ご自身が影響を受けていることに気付いた場合は、カスタマーサクセスマネージャまたは当社のサポートチャネルまでお問い合わせください。

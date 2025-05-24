@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2024-08-12'
 fullyTranslated: true
 ---
-# Box Python SDK Generated `v1.3.0` released
+# Box Python SDK Generated `v1.3.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix fetch method for multipart request (box/box-codegen[#545][1]) ([#266][2]) ([`08a0818`][3])
+* マルチパートリクエストのfetchメソッドを修正 (box/box-codegen[#545][1]) ([#266][2]) ([`08a0818`][3])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Parametrize chunked uploads endpoint URLs (box/box-openapi[#444][4]) ([#264][5]) ([`b5bce24`][6])
+* 分割アップロードのエンドポイントURLをパラメータ化 (box/box-openapi[#444][4]) ([#264][5]) ([`b5bce24`][6])
 
 [1]: https://github.com/box/box-codegen/issues/545
 

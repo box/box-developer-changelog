@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2018-02-08'
 fullyTranslated: true
 ---
-# Java SDK `v2.13.0` released
+# Java SDK `v2.13.0`のリリース
 
-1. Handle metadata values better ([#553](https://github.com/box/box-java-sdk/pull/553))
+1. メタデータ値の処理を改善 ([#553](https://github.com/box/box-java-sdk/pull/553))

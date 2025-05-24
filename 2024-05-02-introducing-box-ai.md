@@ -24,30 +24,27 @@ source_url: >-
 published_at: '2024-05-02'
 fullyTranslated: true
 ---
-# Introducing Box AI API and Box AI Dev Zone
+# Box AI APIとBox AI Dev Zoneの導入
 
-Box AI API allows you to use Box AI functionality in your custom applications. For example, you can implement Box AI question and answer functionality in your third party applications or generate content right in your product’s content editor.
+Box AI APIを使用すると、カスタムアプリケーション内でBox AI機能を利用できます。たとえば、Box AIの質疑応答機能をサードパーティ製アプリケーションに実装したり、自社製品のコンテンツエディタ内で直接コンテンツを生成したりできます。
 
-_Box AI API and Box AI for UI Elements are beta features, which means the available capabilities may change. Box AI features are available to all **Enterprise Plus** customers._
+_Box AI APIとBox AI for UI Elementsはベータ機能のため、利用可能な機能は変更される可能性があります。Box AIの機能は、**Enterprise Plus**をご利用のすべてのお客様が利用できます。_
 
 <!-- more -->
 
-Currently, you can ask Box AI to answer your questions, summarize the document content, or generate text you can use in your documents.
-Check the [Box AI API developer guides][1] to learn more about Box AI and check the API Reference for details.
+現在は、Box AIに対して、質問への回答、ドキュメンのコンテンツの要約、ドキュメントで使用できるテキストの生成を求めることができます。Box AIの詳細については、[Box AI APIの開発者向けガイド][1]をご確認ください。また、詳細については、APIリファレンスをご確認ください。
 
 ## Box AI Developer Zone
 
-Alongside with the Box AI API, we have launched a new developer documentation demo page. [Box AI Dev Zone][2] allows you to explore the Box AI API through rich, interactive experiences. You can view use cases, example prompts and responses, and sample code.
+Boxでは、Box AI APIと一緒に、Developerドキュメントのデモページを新しくリリースしました。[Box AI Dev Zone][2]では、対話型の優れたエクスペリエンスを通じてBox AI APIを確認できます。ユースケース、プロンプトと応答の例、サンプルコードが用意されています。
 
 ## Box AI for UI Elements
 
-[Box AI for UI Elements][3] enhances the [Content Preview][4] header with AI Q&A functionality.
-The new Box AI for UI Elements allows the users to embed AI functionality in their custom applications to facilitate answering questions and taking actions like summarizing a document.
+[Box AI for UI Elements][3]では、AIの質疑応答機能を使用して[コンテンツプレビュー][4]ヘッダーを強化します。この新しいBox AI for UI Elementsにより、ユーザーは、カスタムアプリケーションにAI機能を埋め込み、質問への回答やドキュメントの要約のような操作を円滑に進めることができます。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][5] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][5]に英語でリクエストを投稿してください。
 
 [1]: https://developer.box.com/guides/box-ai
 

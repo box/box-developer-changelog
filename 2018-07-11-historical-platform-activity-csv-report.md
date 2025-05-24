@@ -20,13 +20,8 @@ source_url: >-
 published_at: '2018-07-11'
 fullyTranslated: true
 ---
-# Historical Platform Activity CSV report
+# Platform Activityの履歴のCSVレポート
 
-A new report has been made available via the website. Documentation is available
-in the Box Admin Console that displays an enterprise's historical utilization of
-platform resources. This report displays an enterprise's Monthly Active Users,
-API calls, and bandwidth consumption by application by month for
-January 1, 2017 to March 31, 2018. More information can be found
-[here][platform_activity_csv].
+ウェブサイトで新しいレポートが使用可能になりました。Box管理コンソールで、Enterpriseのプラットフォームリソースの過去の使用状況を表示するドキュメントを利用できます。このレポートには、2017年1月1日から2018年3月31日までのアプリケーションごとの月別の会社の月間アクティブユーザー、APIコール、および帯域幅消費が示されています。詳細については、[こちら][platform_activity_csv]を参照してください。
 
 [platform_activity_csv]: https://community.box.com/t5/How-to-Guides-for-Admins/Running-the-Platform-Activity-Report/ta-p/58620

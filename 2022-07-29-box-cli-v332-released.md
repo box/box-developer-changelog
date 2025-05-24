@@ -22,11 +22,11 @@ source_url: >-
 published_at: '2022-07-29'
 fullyTranslated: true
 ---
-# Box CLI `v3.3.2` released
+# Box CLI `v3.3.2`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix request command when calling without body ([#369][1]) ([`9317888`][2])
+* 本文なしで呼び出す場合についてリクエストコマンドを修正 ([#369][1]) ([`9317888`][2])
 
 [1]: https://github.com/box/boxcli/issues/369
 

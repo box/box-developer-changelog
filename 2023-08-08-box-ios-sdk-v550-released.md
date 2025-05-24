@@ -24,17 +24,17 @@ source_url: >-
 published_at: '2023-08-08'
 fullyTranslated: true
 ---
-# Box iOS SDK `v5.5.0` released
+# Box iOS SDK `v5.5.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add missing values in `SignRequestSignerInputContentType` and `SignRequestStatus` along with the tests ([#907][1]) ([`56a8250`][2])
+* `SignRequestSignerInputContentType`および`SignRequestStatus`で欠落している値をテストとともに追加 ([#907][1]) ([`56a8250`][2])
 
-### Bug Fixes
+### バグ修正
 
-* Identify iPhone Simulator on Apple Silicon ([#902][3]) ([`7731a7f`][4])
-* Make code compatible with macOS. ([#900][5]) ([`3b0016e`][6])
-* Remove use of deprecated string scanner API. ([#901][7]) ([`af5f0e5`][8])
+* Appleシリコン上のiPhone Simulatorを識別 ([#902][3]) ([`7731a7f`][4])
+* [#900][5]コードをmacOSに対応させる ([#900][5]) ([`3b0016e`][6])
+* 非推奨となった文字列スキャナAPIの使用を削除 ([#901][7]) ([`af5f0e5`][8])
 
 [1]: https://github.com/box/box-ios-sdk/issues/907
 

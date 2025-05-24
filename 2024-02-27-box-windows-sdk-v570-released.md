@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2024-02-27'
 fullyTranslated: true
 ---
-# Box Windows SDK `v5.7.0` released
+# Box Windows SDK `v5.7.0`のリリース
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* add marker-based pagination version of `GetFolderItems` ([#936][1]) ([`f877a8f`][2])
-* Support sign request signer group ID ([#938][3]) ([`096a098`][4])
+* `GetFolderItems`のマーカーベースのページ割りのバージョンを追加 ([#936][1]) ([`f877a8f`][2])
+* 署名リクエストの署名者グループIDをサポート ([#938][3]) ([`096a098`][4])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Remove delete classification ([#932][5]) ([`fb59489`][6])
+* 分類の削除に関する記述を削除 ([#932][5]) ([`fb59489`][6])
 
 <https://www.nuget.org/packages/Box.V2/5.7.0>
 

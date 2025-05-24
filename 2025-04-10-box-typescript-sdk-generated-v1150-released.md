@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-04-10'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.15.0` released
+# Box TypeScript SDK Generated `v1.15.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Support sensitive data sanitization in errors (box/box-codegen[#695][1]) ([#573][2]) ([`488e76a`][3])
+* エラーの機密データのサニタイズをサポート (box/box-codegen[#695][1]) ([#573][2]) ([`488e76a`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/695
 

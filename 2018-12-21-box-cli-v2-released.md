@@ -20,21 +20,18 @@ source_url: >-
 published_at: '2018-12-21'
 fullyTranslated: true
 ---
-# Box CLI V2 release
+# Box CLI V2のリリース
 
-A major version release (V2) has been made to the [Box CLI][guide].
+[Box CLI][guide]のメジャーバージョン (V2) がリリースされました。
 
-See the following links for updated information:
+更新情報については次のリンクを参照してください。
 
-* [Release notes][cli_v2_release_notes]: Major revision details, breaking
-  changes, and bug fixes.
-* [Command list][cli_v2_release_commands]: All commands available in the new
-  CLI.
-* [Installation options][guide]: Standalone installers and
-  source code options.
+* [リリースノート][cli_v2_release_notes]: 大きな修正の詳細、重大な変更、バグの修正。
+* [コマンドの一覧][cli_v2_release_commands]: 新しいCLIで利用可能なすべてのコマンド。
+* [インストールオプション][guide]: スタンドアロンインストーラとソースコードオプション。
 
 [cli_v2_release_notes]: https://github.com/box/boxcli/blob/master/CHANGELOG.md#200
 
 [cli_v2_release_commands]: https://github.com/box/boxcli#command-topics
 
-[guide][guide]: [g://cli/quick-start/install-and-configure][g://cli/quick-start/install-and-configure]
+[ガイド][guide]: [g://cli/quick-start/install-and-configure][g://cli/quick-start/install-and-configure]

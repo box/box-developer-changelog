@@ -23,17 +23,16 @@ source_url: >-
 published_at: '2021-10-07'
 fullyTranslated: true
 ---
-# Update to Webhooks Response
+# Webhookのレスポンスの更新
 
-The [webhook response][webhooks] has been updated to show the correct
-Webhook (Mini) object in the entries array.
+[Webhookのレスポンス][webhooks]は、entriesの配列で適切なWebhook (Mini) オブジェクトを示すように更新されました。
 
 <!-- more -->
 
-## Bug Fixes
+## バグ修正
 
-* Added a `mini` resource for [Webhook][mini]
-* Corrected the [get-webhooks][webhooks] response object
+* [Webhook][mini]用に`mini`リソースを追加
+* [Webhookを取得][webhooks]のレスポンスオブジェクトを修正
 
 [support]: https://developer.box.com/support
 

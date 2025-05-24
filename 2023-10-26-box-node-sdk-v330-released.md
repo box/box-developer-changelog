@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2023-10-26'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.3.0` released
+# Box Node SDK `v3.3.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Replace `request` library with `@cypress/request` ([#860][1]) ([`d365ae8`][2])
+* `request`ライブラリを`@cypress/request`に置き換え ([#860][1]) ([`d365ae8`][2])
 
-### Bug Fixes
+### バグ修正
 
-* mark auth functions callbacks as optional ([#858][3]) ([`55f22fe`][4])
+* 承認関数のコールバックをオプションとしてマーク ([#858][3]) ([`55f22fe`][4])
 
 [1]: https://github.com/box/box-node-sdk/issues/860
 

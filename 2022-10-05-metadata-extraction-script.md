@@ -23,16 +23,15 @@ source_url: >-
 published_at: '2022-10-05'
 fullyTranslated: true
 ---
-# Extract metadata with the new Box CLI script
+# 新しいBox CLIスクリプトを使用したメタデータの抽出
 
-[Box CLI][1] now features a new script that allows you to [extract metadata][2] details for all Box files and folders and save it in a CSV file.
+[Box CLI][1]で新しいスクリプトを使用できるようになりました。このスクリプトにより、Boxのすべてのファイルとフォルダの詳細を示す[メタデータを抽出][2]し、CSVファイルに保存できます。
 
 <!-- more -->
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, post a request to
-our [developer forum][3] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
 
 [1]: g://cli
 

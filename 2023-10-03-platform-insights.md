@@ -23,21 +23,17 @@ source_url: >-
 published_at: '2023-10-03'
 fullyTranslated: true
 ---
-# Platform Insights for applications
+# アプリケーション向けのPlatformインサイト
 
-Admins and co-admins can now use the Platform Insights dashboard to get comprehensive view of the organization’s platform usage,
-including application-related information.
-With Platform Insights you can check the API call volume or the number of applications that are not enabled or approved yet.
-Additionally, you can see which apps are the most popular ones in you enterprise.
+管理者と共同管理者は、Platformインサイトのダッシュボードを使用して、組織におけるアプリケーション関連の情報を含むプラットフォームの利用状況を集約できるようになりました。Platformインサイトでは、APIコール数や、まだ有効になっていない、または承認されていないアプリケーションの数を確認できます。さらに、企業で最も使用されているアプリも確認できます。
 
-For details, see [applications][1] and [Platform Insights][2] documentation.
+詳細については、[アプリケーション][1]と[Platformインサイト][2]に関するドキュメントを参照してください。
 
 <!-- more -->
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][3] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
 
 [1]: g://applications
 

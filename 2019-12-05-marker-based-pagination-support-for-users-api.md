@@ -20,9 +20,6 @@ source_url: >-
 published_at: '2019-12-05'
 fullyTranslated: true
 ---
-# Marker-based Pagination Support for Users API
+# Users APIでマーカーベースのページ割りがサポート対象に
 
-The [Users API](e://get_users) now supports [marker-based
-pagination](g://api-calls/pagination/marker-based). Marker-based pagination is
-an alternative to regular offset-based pagination and provides an alternative
-way to get users for enterprises with a large volume of users.
+[Users API](e://get_users)で[マーカーベースのページ割り](g://api-calls/pagination/marker-based)がサポートされるようになりました。マーカーベースのページ割りとは、通常のオフセットベースのページ割りに代わるもので、多数のユーザーを有する会社のユーザーを取得する代替手段を提供します。

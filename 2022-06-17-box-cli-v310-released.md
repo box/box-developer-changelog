@@ -22,24 +22,24 @@ source_url: >-
 published_at: '2022-06-17'
 fullyTranslated: true
 ---
-# Box CLI `v3.1.0` released
+# Box CLI `v3.1.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add --all flag for search to return all results ([#336][1]) ([`23ea0a5`][2])
-* add unique state parameter to `OAuth2` login ([#292][3]) ([`5ce6a40`][4])
-* allow changing base URLs ([#303][5]) ([`e284059`][6])
-* obtain `oauth` authorization from command line ([#299][7]) ([`18c88bb`][8])
-* use native credential storage for MacOS and Windows ([#295][9]) ([`74c4922`][10])
+* 検索に、すべての結果を返す--allフラグを追加 ([#336][1]) ([`23ea0a5`][2])
+* `OAuth2`ログインに一意のstateパラメータを追加 ([#292][3]) ([`5ce6a40`][4])
+* ベースURLの変更を許可 ([#303][5]) ([`e284059`][6])
+* コマンドラインから`oauth`承認を取得 ([#299][7]) ([`18c88bb`][8])
+* macOSとWindowsにネイティブの資格情報ストレージを使用 ([#295][9]) ([`74c4922`][10])
 
-### Bug Fixes
+### バグ修正
 
-* `users:transfer-content` to respect quiet flag ([#288][11]) ([`1d0bbab`][12])
-* correctly pass `copy-instance-on-item-copy` flag ([#285][13]) ([`cd4fbf4`][14])
-* Fix updating webhook triggers ([#297][15]) ([`09e94c3`][16])
-* support large output when using `json` flag by replacing `json.stringify` ([#328][17]) ([`1204f2c`][18])
-* Support limit flag for Box Search ([#323][19]) ([`0009a77`][20]), closes [#322][21]
-* Support OAuth with multiple redirect URIs ([#302][22]) ([`9fe216e`][23])
+* `users:transfer-content`でquietフラグを考慮 ([#288][11]) ([`1d0bbab`][12])
+* `copy-instance-on-item-copy`フラグを正しく渡す ([#285][13]) ([`cd4fbf4`][14])
+* webhookトリガーの更新を修正 ([#297][15]) ([`09e94c3`][16])
+* `json.stringify`の置き換えにより、`json`フラグ使用時の大量の出力をサポート ([#328][17]) ([`1204f2c`][18])
+* Boxの検索でlimitフラグをサポート ([#323][19]) ([`0009a77`][20])、[#322][21]をクローズ
+* 複数のリダイレクトURIでのOAuthをサポート ([#302][22]) ([`9fe216e`][23])
 
 [1]: https://github.com/box/boxcli/issues/336
 

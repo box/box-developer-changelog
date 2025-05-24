@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2025-01-22'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.14.0` released
+# Box Java SDK `v4.14.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Support downloading file from shared link ([#1282][1]) ([`9b7f28b`][2])
+* 共有リンクからのファイルのダウンロードをサポート ([#1282][1]) ([`9b7f28b`][2])
 
-### Bug Fixes
+### バグ修正
 
-* Remove sensitive data when `BoxAPIException` logs request ([#1284][3]) ([`f1e226f`][4])
-* Support creating ongoing Legal Hold policy with start date ([#1281][5]) ([`d9564e2`][6])
+* `BoxAPIException`がリクエストをログに記録した際に機密データを削除 ([#1284][3]) ([`f1e226f`][4])
+* 開始日を指定した継続的なリーガルホールドポリシーの作成をサポート ([#1281][5]) ([`d9564e2`][6])
 
 [1]: https://github.com/box/box-java-sdk/issues/1282
 

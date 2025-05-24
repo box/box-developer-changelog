@@ -22,67 +22,40 @@ source_url: >-
 published_at: '2020-03-30'
 fullyTranslated: true
 ---
-# Potential impactful changes to format of Metadata `date` fields
+# メタデータの`date`フィールドの形式に影響する可能性のある変更
 
-As part of ongoing improvements to our Metadata infrastructure we will be
-rolling out three potential impactful changes to the format of `date` fields in
-metadata templates. These changes make the format our API returns more
-consistent between API calls.
+Boxのメタデータインフラストラクチャに対する継続的な改善の一環として、メタデータテンプレートの`date`フィールドの形式に大きく影響する可能性のある3つの変更をリリースする予定です。これらの変更により、Box APIで返される形式は、APIコール間でより一貫性のあるものになります。
 
 <!-- more -->
 
-The first change affects the usage of time zone offsets in dates. Previously,
-the API would inconsistently return dates with and without timezone offsets if a
-date was set to include one. From now on all dates are converted to UTC /
-Zulu-time, removing the timezone offset.
+最初の変更は、日付におけるタイムゾーンオフセットの使用に影響します。これまでは、タイムゾーンオフセットを含めるように日付を設定した場合でも、APIによって返される日付には一貫性がなく、タイムゾーンオフセットが含まれるものもあれば、含まれないものもありました。今後は、すべての日付がUTC (協定世界時)に変換され、タイムゾーンオフセットは削除されます。
 
-For example:
+例:
 
-* Assume a date was set to `2020-02-20T12:00:00.000-01:00`
-* Previously the API would return `2020-02-20T12:00:00.000-01:00` (the original
-  value) or `2020-02-20T13:00:00.000Z` (the UTC adjusted value)
-* From now on it will always return `2020-02-20T13:00:00.000Z` (the UTC adjusted
-  value)
+* 日付が`2020-02-20T12:00:00.000-01:00`に設定されたと想定します。
+* これまでは、APIでは`2020-02-20T12:00:00.000-01:00` (元の値)または`2020-02-20T13:00:00.000Z` (UTCに調整された値)が返されました。
+* 今後は、常に`2020-02-20T13:00:00.000Z` (UTCに調整された値)が返されます。
 
-The second change affects the sub-second precision of dates returned by the
-metadata API. Previously, the API would return values with 0 to 3 digits of
-sub-second precision. From now on Box will always return metadata date-time
-values with millisecond precision.
+2つ目の変更は、メタデータAPIによって返される日付の秒未満の精度に影響します。これまでは、メタデータAPIで返される値の秒未満の精度は0～3桁でした。今後、Boxから返されるメタデータの日時値は、常にミリ秒まで正確になります。
 
-For example:
+例:
 
-* Previously the API might return `2020-02-20T12:00:00Z`,
-  `2020-02-20T12:00:00.0Z`, `2020-02-20T12:00:00.00Z`or
-  `2020-02-20T12:00:00.000Z`
-* From now on it will always return `2020-02-20T12:00:00.000Z`
+* これまで、APIでは`2020-02-20T12:00:00Z`、`2020-02-20T12:00:00.0Z`、`2020-02-20T12:00:00.00Z`または`2020-02-20T12:00:00.000Z`が返される可能性がありました。
+* 今後は、常に`2020-02-20T12:00:00.000Z`が返されます。
 
-The final change affects the usage of the
-[`test`](g/metadata/instances/update/#Test-a-value) operation when updating a
-metadata instance. Previously the test would compare the date-time values using
-the literal string value. After this update they are compared using their UNIX
-timestamp in milliseconds.
+最後の変更は、メタデータインスタンスの更新時の[`test`](g/metadata/instances/update/#Test-a-value)操作の使用に影響します。これまでのテストでは、リテラル文字列値を使用して日時の値が比較されていました。今回の更新後は、UNIXのタイムスタンプ(ミリ秒単位)を使用して比較されます。
 
-For example:
+例:
 
-* Previously `2020-01-21T19:20:00.123-08:00` would not be equivalent to
-  `2020-01-22T03:20:00.123Z`
-* From now on `2020-01-21T19:20:00.123-08:00` is equivalent to
-  `2020-01-22T03:20:00.123Z`
+* これまでは、`2020-01-21T19:20:00.123-08:00`は`2020-01-22T03:20:00.123Z`と同じではありませんでした。
+* 今後、`2020-01-21T19:20:00.123-08:00`は`2020-01-22T03:20:00.123Z`と同じになります。
 
-## How this can affect an application
+## 今回の変更がアプリケーションに及ぼす影響
 
-Any application that implements `RFC3339`-compliant date-time parsing will not
-need to perform any action as these are all valid `RFC3339` values representing
-the same dates. Any application that does not implement `RFC3339` compliant
-date-time parsing should be updated to do so.
+`RFC3339`に準拠した日時の解析を実装するアプリケーションでは、これらはすべて同じ日付を表す有効な`RFC3339`値であるため、何も実行する必要はありません。`RFC3339`に準拠した日時の解析を実装していないアプリケーションは、解析を実行できるように更新する必要があります。
 
-All official Box SDKs support `RFC3339`-compliant date-time parsing, so any
-application using an up-to-date version of an official Box SDK would not require
-any update.
+すべてのBox公式SDKでは、`RFC3339`に準拠した日時の解析をサポートしているため、Box公式SDKの最新バージョンを使用しているアプリケーションの場合、更新は不要です。
 
-## What do if this affected your application
+## 今回の変更がアプリケーションに影響を及ぼした場合の対応
 
-Roll-out of this change will be performed gradually over the next few weeks.
-Although the metadata team will be monitoring potential impact, please reach out
-to your customer success manager or our support channels if you find yourself
-impacted.
+今回の変更は、今後数週間かけて段階的にリリースする予定です。メタデータチームは潜在的な影響を監視しますが、ご自身が影響を受けていることに気付いた場合は、カスタマーサクセスマネージャまたは当社のサポートチャネルまでお問い合わせください。

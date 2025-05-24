@@ -20,20 +20,17 @@ source_url: >-
 published_at: '2020-05-12'
 fullyTranslated: true
 ---
-# New shield alert events
+# 新しいShieldアラートイベント
 
-As of today, [Box Shield][box-shield] will begin producing new security events
-within the [enterprise event stream](g://events/enterprise-events/for-enterprise/) for Shield
-customers who are configured to listen for the new events.
+本日をもって、[Box Shield][box-shield]は、新しいイベントをリッスンするよう構成されている、Shieldをご利用のお客様向けに、[Enterprise Event Stream](g://events/enterprise-events/for-enterprise/)内で新しいセキュリティイベントの生成を開始します。
 
-The possible incident events produced by Shield are:
+Shieldによって生成される可能性があるインシデントイベントは以下のとおりです。
 
-* Suspicious locations
-* Suspicious sessions
-* Anomalous download
-* Malicious content
+* 不審な場所
+* 不審なセッション
+* 異常なダウンロード
+* 悪意のあるコンテンツ
 
-See the [shield alert events](g://events/event-triggers/shield-alert-events/) documentation
-for more information on the payloads produced within these events.
+これらのイベント内で生成されるペイロードの詳細については、[Shieldアラートイベント](g://events/event-triggers/shield-alert-events/)ドキュメントを参照してください。
 
 [box-shield]: https://www.box.com/shield

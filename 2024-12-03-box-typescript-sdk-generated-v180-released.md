@@ -23,23 +23,23 @@ source_url: >-
 published_at: '2024-12-03'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.8.0` released
+# Box TypeScript SDK Generated `v1.8.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix `additionalProperties` in `ClientError` (box/box-openapi[#477][1]) ([#385][2]) ([`4547148`][3])
-* Fix chunked uploads in browser (box/box-codegen[#619][4]) ([#436][5]) ([`0af2484`][6])
-* Support status codes with no content (box/box-codegen[#604][7]) ([#415][8]) ([`c3f14c6`][9])
-* Update client error schema to support schema errors (box/box-openapi[#467][10]) ([#381][11]) ([`b845f12`][12])
-* Update integration mapping response description (box/box-openapi[#463][13]) ([#379][14]) ([`e3d71e1`][15])
+* `ClientError`の`additionalProperties`を修正 (box/box-openapi[#477][1]) ([#385][2]) ([`4547148`][3])
+* ブラウザでの分割アップロードを修正 (box/box-codegen[#619][4]) ([#436][5]) ([`0af2484`][6])
+* コンテンツのないステータスコードをサポート (box/box-codegen[#604][7]) ([#415][8]) ([`c3f14c6`][9])
+* スキーマエラーをサポートするようクライアントエラースキーマを更新 (box/box-openapi[#467][10]) ([#381][11]) ([`b845f12`][12])
+* 統合マッピングのレスポンスの説明を更新 (box/box-openapi[#463][13]) ([#379][14]) ([`e3d71e1`][15])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add AI LLM endpoint AWS `params` (box/box-openapi[#478][16]) ([#388][17]) ([`d2fd1ec`][18])
-* Expose method for making custom HTTP requests, convert `FetchOptions` into a class (box/box-codegen[#610][19]) ([#431][20]) ([`9a9ea62`][21])
-* Support get collection by ID endpoint (box/box-codegen[#595][22]) ([#396][23]) ([`f1f47be`][24])
-* Support getting file download URL and file thumbnail URL (box/box-codegen[#617][25]) ([#435][26]) ([`1cb4d5d`][27])
-* Support `nullable` fields in TypeScript (box/box-codegen[#612][28]) ([#425][29]) ([`991dc29`][30])
+* AI LLMエンドポイントのAWS `params`を追加 (box/box-openapi[#478][16]) ([#388][17]) ([`d2fd1ec`][18])
+* カスタムHTTPリクエストを行うためのメソッドを公開し、`FetchOptions`をクラスに変換 (box/box-codegen[#610][19]) ([#431][20]) ([`9a9ea62`][21])
+* IDを指定してコレクションを取得エンドポイントをサポート (box/box-codegen[#595][22]) ([#396][23]) ([`f1f47be`][24])
+* ファイルのダウンロードURLとファイルのサムネイルURLの取得をサポート (box/box-codegen[#617][25]) ([#435][26]) ([`1cb4d5d`][27])
+* TypeScriptの`nullable`フィールドをサポート (box/box-codegen[#612][28]) ([#425][29]) ([`991dc29`][30])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/477
 

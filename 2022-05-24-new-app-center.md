@@ -23,33 +23,29 @@ source_url: >-
 published_at: '2022-05-24'
 fullyTranslated: true
 ---
-# New Box App Center (formally App Gallery)
+# 新しいBox App Center (旧アプリギャラリー)
 
-You can now visit the completely updated [Box App Center][3] to find the over 1500+ integrations you already know and love.
+全体的に更新された[Box App Center][3]が利用可能になりました。既存の1,500以上の統合をご利用いただけます。
 
 <!-- more -->
 
-## Updates
+## 更新内容
 
-[Box App Center][3] provides a modernized catalog of apps and integrations and will be accessible from the Box Web app.
+[Box App Center][3]は、アプリと統合の最新のリストを提供し、Boxウェブアプリからアクセスできます。
 
-For end-users, the Box App Center makes it smoother to work the way you want to, thanks to the comprehensive selection of ready-to-use integrations from partners such
-as Microsoft, Zoom, Salesforce, and Slack, to name a few.
+エンドユーザーの場合、Box App Centerを使用すると、Microsoft、Zoom、Salesforce、Slackなどのパートナーからすぐに使用できる統合が包括的に選択されているため、思いどおりの作業が簡単にできます。
 
-For IT leaders and admins, the Box App Center gives your users choice, without sacrificing security or user experience. And it eliminates shadow IT by providing a
-list of enterprise-approved options.
+ITリーダーや管理者は、Box App Centerでセキュリティやユーザーエクスペリエンスを低下させることなく、ユーザーに選択肢を提供できます。また、企業が承認したオプションのリストを提供することで、シャドーITを排除することができます。
 
-Box App Center will be part of the Core Box package; The Box App Center is available to **all** customers today!
+Box App Centerは主要なBoxパッケージの一部となり、**すべて**のお客様にご利用いただけるようになりました。
 
-## Developer Resources
+## 開発者向けリソース
 
-Are you interested in creating applications for the Box App Center or becoming a Box Partner? Check out the
-[Box Partner Resources][2] guides for more information!
+Box App Centerでのアプリケーションの作成、またはBoxパートナーへの参加をご希望の場合、詳細については[Box Partner Resources][2]のガイド (英語) を参照してください。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][1] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

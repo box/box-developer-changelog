@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-04-15'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.16.0` released
+# Box Java SDK `v4.16.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Bump version of `zstd-jni` ([#1302][1]) ([`9ebf8b5`][2])
+* `zstd-jni`のバージョンを昇格 ([#1302][1]) ([`9ebf8b5`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1302
 

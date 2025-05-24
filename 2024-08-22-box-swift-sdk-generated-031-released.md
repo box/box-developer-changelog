@@ -23,21 +23,21 @@ source_url: >-
 published_at: '2024-08-22'
 fullyTranslated: true
 ---
-# Box Swift SDK Generated `0.3.1` released
+# Box Swift SDK Generated `0.3.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Extract `IntegrationMappingPartnerItemSlack` to `IntegrationMappingPartnerItemSlackUnion` (box/box-codegen[#530][1]) ([#165][2]) ([`d51df9a`][3])
-* Improve chunked upload reliability (box/box-codegen[#529][4]) ([#164][5]) ([`5d87629`][6])
-* Retry requests with 202 status code and `Retry-After` header (box/box-codegen[#538][7]) ([#177][8]) ([`64f27b3`][9])
+* `IntegrationMappingPartnerItemSlack`を`IntegrationMappingPartnerItemSlackUnion`に抽出 (box/box-codegen[#530][1]) ([#165][2]) ([`d51df9a`][3])
+* 分割アップロードの信頼性を改善 (box/box-codegen[#529][4]) ([#164][5]) ([`5d87629`][6])
+* ステータスコード202と`Retry-After`ヘッダーが設定されているリクエストを再試行 (box/box-codegen[#538][7]) ([#177][8]) ([`64f27b3`][9])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add `is_active` parameter to user collaboration (box/box-openapi[#437][10]) ([#163][11]) ([`5f726bb`][12])
-* Add new parameters to Box AI methods and introduce `AiResponseFull` variant (box/box-openapi[#446][13]) ([#201][14]) ([`7c09090`][15])
-* Add support for Swift 5.6 (box/box-codegen[#541][16]) ([#180][17]) ([`04b7020`][18])
-* parametrize chunked uploads endpoint URLs (box/box-openapi[#444][19]) ([#192][20]) ([`ea18f9e`][21])
-* Support AI Agent API (box/box-codegen[#531][22]) ([#170][23]) ([`fc9a00b`][24])
+* ユーザーコラボレーションに`is_active`パラメータを追加 (box/box-openapi[#437][10]) ([#163][11]) ([`5f726bb`][12])
+* Box AIのメソッドに新しいパラメータを追加し、`AiResponseFull`バリアントを導入 (box/box-openapi[#446][13]) ([#201][14]) ([`7c09090`][15])
+* Swift 5.6のサポートを追加 (box/box-codegen[#541][16]) ([#180][17]) ([`04b7020`][18])
+* 分割アップロードのエンドポイントURLをパラメータ化 (box/box-openapi[#444][19]) ([#192][20]) ([`ea18f9e`][21])
+* AIエージェントAPIをサポート (box/box-codegen[#531][22]) ([#170][23]) ([`fc9a00b`][24])
 
 [1]: https://github.com/box/box-codegen/issues/530
 

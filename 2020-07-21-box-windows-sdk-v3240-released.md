@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2020-07-21'
 fullyTranslated: true
 ---
-# Box Windows SDK `v3.24.0` released
+# Box Windows SDK `v3.24.0`のリリース
 
-See [Changelog][1] for details.
+詳細については、[変更ログ][1]を参照してください。
 
-Commits: [https://github.com/box/box-windows-sdk-v2/compare/v3.23.0...v3.24.0][2]
+コミット: [https://github.com/box/box-windows-sdk-v2/compare/v3.23.0...v3.24.0][2]
 
 [`nuget.org/packages/Box.V2/3.24.0`][3]
 [`nuget.org/packages/Box.V2.Core/3.24.0`][4]

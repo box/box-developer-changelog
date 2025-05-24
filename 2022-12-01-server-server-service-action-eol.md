@@ -23,23 +23,21 @@ source_url: >-
 published_at: '2022-12-01'
 fullyTranslated: true
 ---
-# Server-side actions no longer supported in Web App Integrations
+# ウェブアプリ統合でのサーバー側の処理のサポート終了
 
-On December 1st, the options to create a preliminary callback URL or a server-side integration will no longer be available for OAuth 2.0 web app integration.
+日本時間12月2日に、OAuth 2.0ウェブアプリ統合で、事前コールバックのURLまたはサーバー側統合を作成するためのオプションを利用できなくなりました。
 
 <!-- more -->
 
-## Next steps
+## 今後の手順
 
-If you have the server-side integration already configured for your applications, it will still be working.
-If you wish to stop using the feature or perform adjustments in your settings, see [this document][2] for workaround options and support.
+アプリケーションでサーバー側統合を構成済みの場合は、引き続き動作します。この機能の使用を停止するか、設定を調整する場合は、[こちらのドキュメント][2]で回避策とサポートについてご確認ください。
 
-For more information about web app integrations, see the [documentation][3].
+ウェブアプリ統合の詳細については、[ガイド][3]を参照してください。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][1] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

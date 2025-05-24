@@ -23,16 +23,16 @@ source_url: >-
 published_at: '2024-10-31'
 fullyTranslated: true
 ---
-# Box Dotnet SDK Generated `v1.4.0` released
+# Box Dotnet SDK Generated `v1.4.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Change `QueryParams` type in `MetadataQuery` from `Dictionary<string, string>` to `Dictionary<string, object>` (box/box-openapi[#479][1]) ([#298][2]) ([`656b495`][3])
-* Fix conversion to `RSAKey` (box/box-codegen[#591][4]) ([#297][5]) ([`068b1f7`][6])
+* `MetadataQuery`の`QueryParams`のタイプを`Dictionary<string, string>`から`Dictionary<string, object>`に変更 (box/box-openapi[#479][1]) ([#298][2]) ([`656b495`][3])
+* `RSAKey`への変換を修正 (box/box-codegen[#591][4]) ([#297][5]) ([`068b1f7`][6])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* add AI LLM endpoint AWS `params`. Change the type from `AiLlmEndpointParamsGoogleOrAiLlmEndpointParamsOpenAi` to `AiLlmEndpointParamsAwsOrAiLlmEndpointParamsGoogleOrAiLlmEndpointParamsOpenAi` (box/box-openapi[#478][7]) ([#291][8]) ([`dcb8a20`][9])
+* AI LLMエンドポイントのAWS `params`を追加。タイプを`AiLlmEndpointParamsGoogleOrAiLlmEndpointParamsOpenAi`から`AiLlmEndpointParamsAwsOrAiLlmEndpointParamsGoogleOrAiLlmEndpointParamsOpenAi`に変更 (box/box-openapi[#478][7]) ([#291][8]) ([`dcb8a20`][9])
 
 [1]: https://github.com/box/box-codegen/issues/479
 

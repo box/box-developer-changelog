@@ -23,38 +23,22 @@ source_url: >-
 published_at: '2021-09-07'
 fullyTranslated: true
 ---
-# New enhancements to retention APIs
+# リテンションAPIに対する新しい機能強化
 
-Two new API endpoints have been introduced to get files and file versions that
-are under retention for a given retention policy assignment. These APIs are
-part of the [retention policy][retention-policies] suite of APIs. They are
-intended to replace the separate [file][file] and [file version][file-version]
-retention endpoints, which will soon be deprecated from the Box API. The date
-of the deprecation will be announced at a later date.
+指定されたリテンションポリシー割り当てのリテンションの対象となっているファイルおよびファイルバージョンを取得するために、新しく2つのAPIエンドポイントが導入されました。これらのAPIは、APIの[リテンションポリシー][retention-policies]スイートに含まれており、個々の[ファイル][file]および[ファイルバージョン][file-version]リテンションエンドポイント (まもなくBox APIでの公式サポート終了予定) に代わるものとして作成されました。公式サポート終了日については、後日お知らせいたします。
 
 <!-- more -->
 
-When a retention policy is applied via a retention policy assignment, folders
-are selected for which the retention policy should be applied. The files and
-file versions within those folders will be the content that is returned from
-calling these new endpoints.
+リテンションポリシー割り当てによってリテンションポリシーが適用されると、その適用先となるフォルダが選択されます。そのフォルダ内のファイルおよびファイルバージョンは、新しいエンドポイントを呼び出したときに返されるコンテンツになります。
 
-## Features
+## 機能
 
-This release has introduced the following new content and features.
+このリリースでは、以下の新しいコンテンツと機能が導入されました。
 
-* [Get files under retention][files-retention]: Returns a list of files under
-  retention that are associated with the specified retention policy assignment.
-* [Get file versions under retention][file-versions-retention]: Returns a list
-  of file versions under retention that are associated with the specified
-  retention policy assignment.
-* Added an editable `description` field to the
-  [retention policy][retention-policy] resource.
-* Added a non-writable `start_field_date` to the
-  [retention policy assignment][retention-policy-assignment]
-  resource. This field is the metadata field's key id. The value can also be
-  `upload_date` if the `assigned_to` type is not `metadata_template` or a date
-  field has not been selected.
+* [リテンションの対象となるファイルを取得][files-retention]: 指定したリテンションポリシー割り当てに関連付けられている、リテンションの対象となるファイルのリストを返します。
+* [リテンションの対象となるファイルバージョンを取得][file-versions-retention]: 指定したリテンションポリシー割り当てに関連付けられている、リテンションの対象となるファイルバージョンのリストを返します。
+* 編集可能な`description`フィールドを[リテンションポリシー][retention-policy]リソースに追加。
+* 書き込み不可の`start_field_date`を[リテンションポリシー割り当て][retention-policy-assignment]リソースに追加。このフィールドは、メタデータフィールドのキーIDです。また、その値は、`assigned_to`のタイプが`metadata_template`でない場合または日付フィールドが選択されていない場合に`upload_date`にすることもできます。
 
 [retention-policies]: g://retention-policies
 

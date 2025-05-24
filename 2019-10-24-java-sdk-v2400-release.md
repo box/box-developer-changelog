@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2019-10-24'
 fullyTranslated: true
 ---
-# Java SDK `v2.40.0` released
+# Java SDK `v2.40.0`のリリース
 
-1. Update `comments.md` ([#749](https://github.com/box/box-java-sdk/pull/749))
-2. Update `events.md` ([#750](https://github.com/box/box-java-sdk/pull/750))
-3. Update `collections.md` ([#748](https://github.com/box/box-java-sdk/pull/748))
-4. Update `files.md` ([#747](https://github.com/box/box-java-sdk/pull/747))
-5. Update `files.md` ([#746](https://github.com/box/box-java-sdk/pull/746))
-6. Update `files.md` to tag thumbnail code sample ([#733](https://github.com/box/box-java-sdk/pull/733))
-7. Update `authentication.md` ([#739](https://github.com/box/box-java-sdk/pull/739))
+1. `comments.md`を更新 ([#749](https://github.com/box/box-java-sdk/pull/749))
+2. `events.md`を更新 ([#750](https://github.com/box/box-java-sdk/pull/750))
+3. `collections.md`を更新 ([#748](https://github.com/box/box-java-sdk/pull/748))
+4. `files.md`を更新 ([#747](https://github.com/box/box-java-sdk/pull/747))
+5. `files.md`を更新 ([#746](https://github.com/box/box-java-sdk/pull/746))
+6. `files.md`をタグのサムネイルコードサンプルに更新 ([#733](https://github.com/box/box-java-sdk/pull/733))
+7. `authentication.md`を更新 ([#739](https://github.com/box/box-java-sdk/pull/739))

@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2023-09-29'
 fullyTranslated: true
 ---
-# Introducing Beta Release: New Generation TypeScript SDK
+# ベータリリースの導入: 新世代のTypeScript SDK
 
-We are excited to introduce [the latest generation (currently in Beta) of Box TypeScript SDK][1], designed to elevate the developer experience and streamline your integration with the Box Content Cloud.
+[最新世代 (現在はベータ版) のBox Typescript SDK][1]をリリースしました。これは、開発者エクスペリエンスを向上させ、Boxコンテンツクラウドとの統合を効率化することを目的としています。
 
-With the [new generation of Typescript SDK][1], you’ll have access to:
+[新世代のTypescript SDK][1]では、以下を利用できるようになります。
 
-* **Full API Support**: The new generation of Box SDKs empowers developers with complete coverage of the Box API ecosystem. You can now access all the latest features and functionalities offered by Box, allowing you to build even more sophisticated and feature-rich applications.
-* **Rapid API Updates**: Say goodbye to waiting for new Box APIs to be incorporated into the SDK. With our new auto-generation development approach, we can now add new Box APIs to the SDK at a much faster pace (in a matter of days). This means you can leverage the most up-to-date features in your applications without delay.
-* **Embedded Documentation**: We understand that access to information is crucial for developers. With our new approach, we have included comprehensive documentation for all objects and parameters directly in the source code of the SDK. This means you no longer need to look up this information on the developer portal, saving you time and streamlining your development process.
-* **Enhanced Convenience Methods**: Our commitment to enhancing your development experience continues with the introduction of convenience methods. These methods cover various aspects such as authentication, chunk uploads, exponential back-offs, automatic retries, type checkers which help to ensure that you’re using variables correctly, and much more.
+* **APIの全面的なサポート**: 新世代のBox SDKにより、開発者はBox APIエコシステム全体をカバーできるようになります。Boxが提供する最新機能をすべて利用できるようになったため、より高性能で機能豊富なアプリケーションを作成できます。
+* **迅速なAPIの更新**: 新しいBox APIがSDKに組み込まれるのを待つ必要はなくなります。Boxでは、自動生成による新しい開発アプローチにより、はるかに速いペースで (数日中に) 新しいBox APIをSDKに追加できるようになりました。これは、最新の機能をすぐにアプリケーションで利用できるようになることを意味します。
+* **ドキュメントへの埋め込み**: Boxでは、開発者にとって情報へのアクセスが重要であることを理解しています。新しいアプローチを使用して、すべてのオブジェクトおよびパラメータに関する包括的なドキュメントをSDKのソースコードに直接含めました。つまり、この情報を開発者向けポータルで探す必要がなくなるため、時間の節約と開発プロセスの効率化につながります。
+* **便利なメソッドの強化**: 開発エクスペリエンスを強化するBoxの取り組みにより、便利なメソッドの導入が推進されます。このようなメソッドは、認証、分割アップロード、指数バックオフ、自動再試行、型チェック (変数を正しく使用しているかどうかの確認に役立ちます) など、さまざまな側面をカバーします。
 
-Embrace the new generation of Box SDKs and unlock the full potential of the Box Content Cloud. Start building innovative solutions faster and more efficiently. Happy coding!
+新世代のBox SDKを利用して、Boxコンテンツクラウドの可能性を最大限に引き出してください。より迅速かつ効率的に革新的なソリューションを作成しましょう。
 
 [1]: https://github.com/box/box-typescript-sdk-gen

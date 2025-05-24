@@ -20,15 +20,8 @@ source_url: >-
 published_at: '2018-08-17'
 fullyTranslated: true
 ---
-# Box `user_id` field size changed
+# Box `user_id`フィールドのサイズを変更
 
-The `user_id` field, used to track all platform users (that is, managed,
-externally managed, and app users), will soon be updated to begin producing
-64-bit integer numeric values, rather than the 32-bit integers it creates
-currently.
+すべてのPlatformユーザー (管理対象ユーザー、外部管理ユーザー、App User) の追跡に使用される`user_id`フィールドは、まもなく現在の32ビット整数ではなく、64ビット整数の生成を開始するよう更新されます。
 
-For customers who are translating the produced `user_id` strings from our APIs
-into 32-bit integer fields, your internal systems are affected by this update,
-and you must update them to support the new 64-bit `user_id` integer size. We
-recommend that all `user_id` fields be stored as strings, as per our
-[API documentation](endpoint://resources/user/).
+この更新は内部システムに影響するため、APIから生成された`user_id`文字列を32ビット整数フィールドに変換している場合には、新しい64ビット`user_id`の整数サイズをサポートするよう更新する必要があります。[APIドキュメント](endpoint://resources/user/)に従って、すべての`user_id`フィールドを文字列として保存することをお勧めします。

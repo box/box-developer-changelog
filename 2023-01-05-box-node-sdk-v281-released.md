@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-01-05'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.8.1` released
+# Box Node SDK `v2.8.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix `getReadStream` delay reading ([#790][1]) ([`6bfc1ee`][2])
+* `getReadStream`の読み取りの遅延を修正 ([#790][1]) ([`6bfc1ee`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/790
 

@@ -22,11 +22,11 @@ source_url: >-
 published_at: '2023-08-16'
 fullyTranslated: true
 ---
-# Box CLI `v3.10.0` released
+# Box CLI `v3.10.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Support update user tracking codes ([#489][1]) ([`159e6d0`][2])
+* ユーザー追跡コードのサポートを更新 ([#489][1]) ([`159e6d0`][2])
 
 [1]: https://github.com/box/boxcli/issues/489
 

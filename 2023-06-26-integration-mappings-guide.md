@@ -23,20 +23,19 @@ source_url: >-
 published_at: '2023-06-26'
 fullyTranslated: true
 ---
-# Integration mappings for Slack
+# Slack統合マッピング
 
-Learn how the Box Enterprise Admin (EA) can customize the upload folder of the Slack channel to any folder
-within the enterprise instead of relying on the default one with the [Integration Mappings for Slack][1] guide.
+[統合マッピング][1]ガイドで、Box Enterprise管理者が、Slackチャンネルのアップロードフォルダをカスタマイズして、デフォルトのフォルダを使用する代わりに企業内の任意のフォルダに変更する方法を確認できます。
 
-Use Box API to [create][2], [list][3], [update][4], and [delete][5] the Slack Integration Mappings.
+Box APIを使用することで、Slack統合マッピングの[作成][2]、[リストの取得][3]、[更新][4]、[削除][5]が可能です。
 
-Using the [automation script][9], an admin can create or update multiple mappings at once!
+[自動化スクリプト][9]を使用して、管理者は一度に複数のマッピングを作成または更新できます。
 
-Check the [Troubleshooting][6] section to find out solutions to most common issues you can encounter.
+発生する可能性が高い一般的な問題に対する解決策については、[トラブルシューティング][6]セクションをご確認ください。
 
-## New place to get support
+## サポートを受けるための新しい場所
 
-From now on you can ask questions and seek for guidance in our new [Box Developer Community forum][8]. Use this new space to  directly speak to the Box Developer Relations team, as well as your peers and other subject matter experts from Box.
+今後は新しい[Box Developer Communityフォーラム][8]で質問したり、ガイダンスを受けたりすることができます。この新しいフォーラムを利用すると、Box Developer Relationsチーム、同僚、Boxに関するエキスパートと直接会話できます。
 
 [1]: g://integration-mappings/slack-mappings
 

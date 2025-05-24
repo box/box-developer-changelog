@@ -23,22 +23,20 @@ source_url: >-
 published_at: '2025-03-12'
 fullyTranslated: true
 ---
-# Integration mappings for Teams
+# Teamsの統合マッピング
 
-Use the [integration mappings][1] feature for MS Teams to manage [where the content
-from Teams][2] channels and chats is stored in Box.
+MS Teamsの[統合マッピング][1]機能を使用して、[Teamsのチャネルやチャットのコンテンツが保存されるBox内の場所][2]を管理します。
 
-* [List][3] all Teams integration mappings
-* [Create][4] a new Teams integration mapping
-* [Update][5] existing Teams integration mapping
-* [Delete][6] Teams integration mapping
+* すべてのTeams統合マッピングの[リストを取得][3]
+* 新しいTeams統合マッピングを[作成][4]
+* 既存のTeams統合マッピングを[更新][5]
+* Teams統合マッピングを[削除][6]
 
-Check the integration mappings for Teams API developer [guide][7] to learn more about this feature.
+この機能の詳細については、Teams統合マッピングAPIの開発者向け[ガイド][7]を参照してください。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][8] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][8]に英語でリクエストを投稿してください。
 
 [1]: r://integration-mapping-teams
 

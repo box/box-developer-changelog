@@ -24,20 +24,19 @@ source_url: >-
 published_at: '2024-09-23'
 fullyTranslated: true
 ---
-# Box AI API default model update
+# Box AI APIのデフォルトモデルの更新
 
-Box AI Platform API has been updated with a new default model for the `POST /2.0/ai/ask` endpoint. Both single and multiple document modes are now based on Azure's `gpt-4o-mini`.
+Box AI Platform APIの`POST /2.0/ai/ask`エンドポイントが新しいデフォルトモデルに更新され、単一ドキュメントと複数ドキュメントの両方のモードがAzureの`gpt-4o-mini`に基づくようになりました。
 
-> **Note**: Box AI Platform API is currently a beta feature offered subject to Box’s Main Beta Agreement, and the available capabilities may change. Box AI Platform API is available to all Enterprise Plus customers.
+> **注**: Box AI Platform APIは、現在、BoxのMain Beta Agreementに従い提供されるベータ機能のため、利用可能な機能は変更される可能性があります。Box AI Platform APIは、Enterprise Plusをご利用のすべてのお客様が利用できます。
 
 <!-- more -->
 
-For more information on [default agent configuration][1] and [supported AI models][2] visit developer guides.
+[デフォルトのエージェント構成][1]と[サポートされているAIモデル][2]の詳細については、開発者向けガイドを参照してください。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][3] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
 
 [1]: https://developer.box.com/guides/box-ai/ai-agents/get-agent-default-config/
 

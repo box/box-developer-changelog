@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-04-09'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.14.0` released
+# Box Python SDK `v3.14.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add `stream_file_content` parameter to upload methods ([#890][1]) ([`0e63c00`][2])
+* uploadメソッドに`stream_file_content`パラメータを追加 ([#890][1]) ([`0e63c00`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/890
 

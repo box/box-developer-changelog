@@ -23,8 +23,8 @@ source_url: >-
 published_at: '2020-08-20'
 fullyTranslated: true
 ---
-# Box Java SDK `v2.50.1` released
+# Box Java SDK `v2.50.1`のリリース
 
-Fix bug that occurred when downscoping a token for a Box folder ([#832][1])
+Box内のフォルダのトークンをダウンスコープする際に発生するバグを修正
 
 [1]: https://github.com/box/box-java-sdk/issues/832

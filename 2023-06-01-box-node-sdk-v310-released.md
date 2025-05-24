@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2023-06-01'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.1.0` released
+# Box Node SDK `v3.1.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Added support for integration mappings API ([#831][1]) ([`a525327`][2])
+* 統合マッピングAPIのサポートを追加 ([#831][1]) ([`a525327`][2])
 
-### Bug Fixes
+### バグ修正
 
-* Correct types of `userId` and `groupId` for creating collaboration ([#833][3]) ([`f803ff8`][4]), closes [#832][5]
+* コラボレーションの作成用に`userId`と`groupId`のタイプを修正 ([#833][3]) ([`f803ff8`][4])、[#832][5]をクローズ
 
 [1]: https://github.com/box/box-node-sdk/issues/831
 

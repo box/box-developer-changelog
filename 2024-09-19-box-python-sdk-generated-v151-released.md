@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2024-09-19'
 fullyTranslated: true
 ---
-# Box Python SDK Generated `v1.5.1` released
+# Box Python SDK Generated `v1.5.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix proxy `url` without proxy credentials (box/box-codegen[#568][1]) ([#322][2]) ([`fb19160`][3]), closes [#318][4]
-* Stop sending last empty chunk for chunk upload (box/box-codegen[#569][5]) ([#324][6]) ([`1605f04`][7]), closes [#321][8]
+* プロキシ資格情報のないプロキシ`url`を修正 (box/box-codegen[#568][1]) ([#322][2]) ([`fb19160`][3])、[#318][4]をクローズ
+* 分割アップロードで最後の空のチャンクを送信しないように修正 (box/box-codegen[#569][5]) ([#324][6]) ([`1605f04`][7])、[#321][8]をクローズ
 
 [1]: https://github.com/box/box-codegen/issues/568
 

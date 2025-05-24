@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2025-02-06'
 fullyTranslated: true
 ---
-# Box Python SDK Generated `v1.11.0` released
+# Box Python SDK Generated `v1.11.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Correct types of `paged` and `thumb` properties in File representation (box/box-openapi[#503][1]) ([#451][2]) ([`e818fa6`][3])
+* ファイルレプリゼンテーションの`paged`および`thumb`プロパティのタイプを修正 (box/box-openapi[#503][1]) ([#451][2]) ([`e818fa6`][3])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add Box Sign shared requests (box/box-openapi[#504][4]) ([#453][5]) ([`3590918`][6])
-* feat: Add hubs support to `/ai/ask`. Replace type of `items` parameter from `List[AiItemBase]` to `List[AiItemAsk]` in `create_ai_ask` method (box/box-openapi[#506][7]) ([#466][8]) ([`29f0364`][9])
-* Update `/ai/extract_structured` response schema (box/box-codegen[#641][10]) ([#459][11]) ([`7c73cea`][12])
+* Box Signの共有リクエストを追加 (box/box-openapi[#504][4]) ([#453][5]) ([`3590918`][6])
+* 機能: `/ai/ask`にHubのサポートを追加。`create_ai_ask`メソッドの`items`パラメータのタイプを`List[AiItemBase]`から`List[AiItemAsk]`に置き換え (box/box-openapi[#506][7]) ([#466][8]) ([`29f0364`][9])
+* `/ai/extract_structured`レスポンスのスキーマを更新 (box/box-codegen[#641][10]) ([#459][11]) ([`7c73cea`][12])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/503
 

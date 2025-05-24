@@ -23,16 +23,15 @@ source_url: >-
 published_at: '2022-08-29'
 fullyTranslated: true
 ---
-# Box Sign available for Starter plans
+# StarterプランでBox Signを使用できるようになりました
 
-[Box Sign][1] is now available for Free, Personal Pro, and Starter plans.
+Free、Personal Pro、Starterプランで[Box Sign][1]を使用できるようになりました。
 
 <!-- more -->
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][2] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
 
 [1]: g://box-sign
 

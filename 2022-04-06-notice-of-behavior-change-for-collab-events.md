@@ -23,41 +23,23 @@ source_url: >-
 published_at: '2022-04-06'
 fullyTranslated: true
 ---
-# Notice of behavior change for collaboration events on the changes stream
+# changesストリームのコラボレーションイベントの動作変更のお知らせ
 
-Starting today, we will begin rolling out changes to the behavior of
-collaboration events when an application consumes those events from our
-[event API endpoints][event-apis].
+本日以降、アプリケーションがBoxの[イベントAPIエンドポイント][event-apis]からコラボレーションイベントを使用した場合のこのイベントの動作に対する変更のリリースを開始します。
 
-This change will only affect `COLLAB_INVITE_COLLABORATOR`,
-`COLLAB_ADD_COLLABORATOR`, `COLLAB_ROLE_CHANGE`, and
-`COLLAB_REMOVE_COLLABORATOR` [user events][user-events]
-with the query parameter `stream_type` set to `changes`.
-This will not affect existing [enterprise events][enterprise-events].
-The new behavior will not cause downtime within existing applications
-or require any application changes to prevent uptime disruptions.
+この変更は`COLLAB_INVITE_COLLABORATOR`、`COLLAB_ADD_COLLABORATOR`、`COLLAB_ROLE_CHANGE`、`COLLAB_REMOVE_COLLABORATOR` [User Event][user-events]のみに影響し、クエリパラメータ`stream_type`が`changes`に設定されます。既存の[Enterprise Event][enterprise-events]には影響しません。この新しい動作により、既存のアプリケーション内でダウンタイムが発生することはありません。また、稼働時間の中断を防ぐためのアプリケーションの変更も必要ありません。
 
 <!-- more -->
 
-## Change overview
+## 変更の概要
 
-Previously, events of type `COLLAB_INVITE_COLLABORATOR`,
-`COLLAB_ADD_COLLABORATOR`, `COLLAB_ROLE_CHANGE`, and
-`COLLAB_REMOVE_COLLABORATOR` created notifications
-for the acted upon users that were listening to the `changes` stream.
-Owners of the collaborated item would not receive these events unless
-they were listening to the `all` stream as well.
+これまで、`COLLAB_INVITE_COLLABORATOR`、`COLLAB_ADD_COLLABORATOR`、`COLLAB_ROLE_CHANGE`、`COLLAB_REMOVE_COLLABORATOR`タイプのイベントでは、その影響を受ける、`changes`ストリームをリッスンしているユーザーに対して通知が作成されていました。コラボレーション項目の所有者は、`all`ストリームもリッスンしていない限り、これらのイベントを受け取ることはありませんでした。
 
-We are cleaning up this discrepancy by establishing parity
-between the `all` and `changes` stream. With this new behavior,
-notifications of a collaboration will be created for the content owner
-on the `changes` stream as well. Collaboration owners will now see an
-additional event that matches what they see on the `all` stream.
+Boxでは、`all`ストリームと`changes`ストリーム間にパリティを確立することで、この相違を解消します。この新しい動作により、コラボレーションの通知は`changes`ストリームでコンテンツの所有者にも作成されるようになります。また、コラボレーションの所有者には、`all`ストリームでの表示内容に合わせて追加のイベントが表示されるようになります。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][forum] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
 [event-apis]: https://developer.box.com/reference/get-events/
 

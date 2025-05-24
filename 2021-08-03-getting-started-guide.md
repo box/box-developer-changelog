@@ -23,22 +23,21 @@ source_url: >-
 published_at: '2021-08-03'
 fullyTranslated: true
 ---
-# New Getting Started Guide
+# 新しい入門ガイド
 
-Check out our [step by step guide][guide] to getting started with the Box API.
-Discover best use cases, user models, architecture patterns, and more.
+Box APIの利用を開始するには、Boxの[ステップバイステップガイド][guide]をご確認ください。最適なユースケース、ユーザーモデル、アーキテクチャパターンなどを紹介しています。
 
 <!-- more -->
 
-## Features
+## 機能
 
-* Use case evaluation: [Guide][usecase]
-* Common user models: [Guide][usemodel]
-* Common architecture patterns: [Guide][arch]
-* Locating common values: [Guide][value]
-* Security overview: [Guide][security]
-* Authentication best practices: [Guide][bestprac]
-* Detailed authorization steps: [Guide][auth]
+* ユースケースの評価: [ガイド][usecase]
+* 一般的なユーザーモデル: [ガイド][usemodel]
+* 一般的なアーキテクチャパターン: [ガイド][arch]
+* 一般的な値の確認: [ガイド][value]
+* セキュリティの概要: [ガイド][security]
+* 認証のベストプラクティス: [ガイド][bestprac]
+* 詳細な承認手順: [ガイド][auth]
 
 [guide]: g://getting-started
 

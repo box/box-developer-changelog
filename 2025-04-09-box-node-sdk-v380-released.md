@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2025-04-09'
 fullyTranslated: true
 ---
-# Box Node SDK `v3.8.0` released
+# Box Node SDK `v3.8.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Support AI agent ([#887][1]) ([`5b109ad`][2])
+* AIエージェントをサポート ([#887][1]) ([`5b109ad`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/887
 

@@ -23,28 +23,26 @@ source_url: >-
 published_at: '2023-01-18'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.0.0` released
+# Box Java SDK `v4.0.0`のリリース
 
-The most important change this release includes is the replacement of the HTTP library from a native one to
-[OkHttp][1] which allows SDK to
+このリリースに含まれる最も重要な変更は、ネイティブのHTTPライブラリから[OkHttp][1]のライブラリへの置き換えです。これにより、SDKで以下が可能になります。
 
-* Support the HTTP2 version of the HTTP protocol.
-* Support proxies that do not use only basic authentication method. For details on creating custom proxy authenticators and an example of
-    [NTLM proxy authentication][2].
+* HTTPプロトコルのHTTP2バージョンのサポート
+* Basic認証方法以外も使用するプロキシのサポート。カスタムプロキシ認証の作成の詳細とNTLMプロキシ認証の例については、[こちら][2]を参照してください。
 
-### Breaking Changes
+### 重大な変更
 
-* `BatchAPIRequest` is no longer supported by the SDK
-* `BoxAPIConnection#DEFAULT_MAX_ATTEMPTS` is replaced with `BoxAPIConnection#DEFAULT_MAX_RETRIES`
-* `BoxRedirectResponse` was removed and will not be replaced
-* `BoxEvent.Type` is replaced with `EventType`
-* Removed deprecated methods from `BoxFile`, `BoxFileVersionRetention`, `BoxFolder`, `BoxGroup`, `BoxGroupMembership`,`BoxItem`, `BoxRetentionPolicy`, `BoxTask`, `BoxUser`, `BoxWebLink`, `EventLog`, `Metadata` and `MetadataTemplate`.
+* `BatchAPIRequest`はSDKのサポート対象外になりました
+* `BoxAPIConnection#DEFAULT_MAX_ATTEMPTS`は`BoxAPIConnection#DEFAULT_MAX_RETRIES`に置き換えられました
+* `BoxRedirectResponse`は削除され、置き換えはありません
+* `BoxEvent.Type`は`EventType`に置き換えられました
+* 非推奨となったメソッドが`BoxFile`、`BoxFileVersionRetention`、`BoxFolder`、`BoxGroup`、`BoxGroupMembership`、`BoxItem`、`BoxRetentionPolicy`、`BoxTask`、`BoxUser`、`BoxWebLink`、`EventLog`、`Metadata`、`MetadataTemplate`から削除されました
 
-Migration details can be found [here][3].
+移行の詳細については[こちら][3]を参照してください。
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Using `OkHttp` in Java SDK ([#1083][4]) ([`2656698`][5])
+* Java SDKでの`OkHttp`の使用 ([#1083][4]) ([`2656698`][5])
 
 [1]: https://square.github.io/okhttp/
 

@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-06-20'
 fullyTranslated: true
 ---
-# Python SDK `v2.5.0` released
+# Python SDK `v2.5.0`のリリース
 
-Allowed passing `None` to clear `configurable_permission` field in the `add_member()` method.
+`None`を渡して`add_member()`メソッドの`configurable_permission`フィールドをクリアできるようになりました。

@@ -23,21 +23,16 @@ source_url: >-
 published_at: '2020-09-10'
 fullyTranslated: true
 ---
-# Group API adds new filter and permissions
+# グループAPIで新しいフィルタと権限を追加
 
-The [`GET /groups`](e://get_groups) API now supports
-filtering groups by name using a new `filter_term` field.
+[`GET /groups`](e://get_groups) APIでは、新しい`filter_term`フィールドを使用して、名前でグループにフィルタをかけられるようになりました。
 
 ```curl
 curl -i -X GET "https://api.box.com/2.0/groups?filter_term=Engineering" \
      -H "Authorization: Bearer <ACCESS_TOKEN>"
 ```
 
-Additionally, all the Group endpoints now allow a developer to request
-a new
-[`permissions`](r://group--full/#param-permissions)
-field, which currently has one attribute defining
-if the authenticated user can invite the group to any item.
+さらに、グループのすべてのエンドポイントにより、開発者は、新しい[`permissions`](r://group--full/#param-permissions)フィールドをリクエストできるようになりました。このフィールドには、現在、認証済みユーザーが任意の項目にグループを招待できるかどうかを定義する属性が1つあります。
 
 ```curl
 curl -i -X GET "https://api.box.com/2.0/groups?field=permissions" \
@@ -61,5 +56,4 @@ curl -i -X GET "https://api.box.com/2.0/groups?field=permissions" \
 }
 ```
 
-For more details about how to work with groups, please visit the
-[`Group API documentation`](e://get_groups).
+グループの操作方法の詳細については、[`Group API documentation`](e://get_groups)を参照してください。

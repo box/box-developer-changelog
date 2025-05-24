@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2023-04-19'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.9.0` released
+# Box Node SDK `v2.9.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* New fields in `retention-policy` and `retention-policy-assignment` ([#803][1]) ([`f14ba84`][2])
+* `retention-policy`と`retention-policy-assignment`の新しいフィールド ([#803][1]) ([`f14ba84`][2])
 
-### Bug Fixes
+### バグ修正
 
-* return empty object when `tos` status is not present ([#797][3]) ([`12fd9b0`][4])
+* `tos`ステータスが存在しない場合に空のオブジェクトを返す ([#797][3]) ([`12fd9b0`][4])
 
 [1]: https://github.com/box/box-node-sdk/issues/803
 

@@ -23,10 +23,9 @@ source_url: >-
 published_at: '2019-08-29'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.19.0` released
+# Windows .NET SDK `v3.19.0`のリリース
 
-See [Changelog](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#3190) for details
-Commits: [`v3.18.0...v3.19.0`](https://github.com/box/box-windows-sdk-v2/compare/`v3.18.0...v3.19.0`)
+詳細については、[変更ログ](https://github.com/box/box-windows-sdk-v2/blob/master/CHANGELOG.md#3190)を参照してください。コミット: [`v3.18.0...v3.19.0`](https://github.com/box/box-windows-sdk-v2/compare/`v3.18.0...v3.19.0`)
 
 [`nuget.org/packages/Box.V2/3.19.0`](https://www.nuget.org/packages/Box.V2/3.19.0)
 [`nuget.org/packages/Box.V2.Core/3.19.0`](https://www.nuget.org/packages/Box.V2.Core/3.19.0)

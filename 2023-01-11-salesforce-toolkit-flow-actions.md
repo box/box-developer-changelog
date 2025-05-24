@@ -24,17 +24,13 @@ source_url: >-
 published_at: '2023-01-11'
 fullyTranslated: true
 ---
-# Salesforce Toolkit - Flow Actions
+# Salesforceツールキット - フローアクション
 
-Salesforce toolkit includes wrappers that allow admins to invoke
-the [following methods][1]. It allows Box for Salesforce users to
-build automated solutions, such as folder structure, using
-[Salesforce Flows][2].
+Salesforceツールキットには、管理者が[メソッド][1]を呼び出す際に使用できるラッパーが用意されています。このツールキットを使用すると、Box for Salesforceユーザーは[Salesforceフロー][2]を使用して、自動化ソリューション (フォルダ構造など) を構築できます。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][3] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
 
 [1]: g://tooling/salesforce-toolkit/flow-actions
 

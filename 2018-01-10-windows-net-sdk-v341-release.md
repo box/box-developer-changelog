@@ -23,11 +23,9 @@ source_url: >-
 published_at: '2018-01-10'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.4.1` released
+# Windows .NET SDK `v3.4.1`のリリース
 
-Added support for [Allowed Collaboration Domains](https://developer.box.com/reference/resources/collaboration-allowlist-entry/)
-Added Event Type enum
-Fixed deserialization issue with `BoxRepresentationStatus`
+[許可されたコラボレーションドメイン](https://developer.box.com/reference/resources/collaboration-allowlist-entry/)のサポートを追加。イベントタイプ列挙型を追加。`BoxRepresentationStatus`での逆シリアル化の問題を修正
 
 [`nuget.org/packages/Box.V2/3.4.1`](https://www.nuget.org/packages/Box.V2/3.4.1)
 [`nuget.org/packages/Box.V2.Core/3.4.1`](https://www.nuget.org/packages/Box.V2.Core/3.4.1)

@@ -23,20 +23,19 @@ source_url: >-
 published_at: '2022-05-06'
 fullyTranslated: true
 ---
-# New Field Added to Sign Events Payload
+# Signイベントペイロードへの新しいフィールドの追加
 
-The `additional_details` Sign Events payload now includes the `batch_send` field identifying a sign request sent to multiple recipients at once. If such a batch send request exists, the payload also provides its `id`.
+`additional_details` Signイベントペイロードに、複数の受信者に一度に送信される署名リクエストを識別するための`batch_send`が含まれるようになりました。そのような一括送信リクエストが存在する場合、ペイロードはその`id`も提供します。
 
 <!-- more -->
 
-## Updates
+## 更新内容
 
-* Added new field `batch_send` to `additional_details` payload for [Sign Events][2].
+* 新しいフィールド`batch_send`を[Signイベント][2]の`additional_details`ペイロードに追加しました。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][1] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

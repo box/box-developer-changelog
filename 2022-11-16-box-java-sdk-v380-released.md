@@ -23,20 +23,20 @@ source_url: >-
 published_at: '2022-11-16'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.8.0` released
+# Box Java SDK `v3.8.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Added Box Sign webhooks ([#1109][1]) ([`99051a5`][2])
+* Box Sign Webhookを追加 ([#1109][1]) ([`99051a5`][2])
 
-### Bug Fixes
+### バグ修正
 
-* `NullPointerException` when using `BoxSignRequestPrefillTag` ([#1121][3]) ([`73fd5b6`][4]), closes [#1120][5]
-* Regenerate JWT ID and retry auth request when JTI claim is rejected ([#1110][6]) ([`420da0f`][7])
+* `BoxSignRequestPrefillTag`を使用する際の`NullPointerException`  ([#1121][3]) ([`73fd5b6`][4])、[#1120][5]をクローズ
+* JTIクレームが拒否された場合にJWT IDを再生成し、認証リクエストを再試行 ([#1110][6]) ([`420da0f`][7])
 
-### Dependency Upgrades
+### 依存関係のアップグレード
 
-* Bumped `org.bitbucket.b_c:jose4j:0.9.0` ([#1111][8]) ([`349694d`][9])
+* `org.bitbucket.b_c:jose4j:0.9.0`を昇格 ([#1111][8]) ([`349694d`][9])
 
 [1]: https://github.com/box/box-java-sdk/issues/1109
 

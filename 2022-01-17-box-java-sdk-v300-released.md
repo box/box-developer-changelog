@@ -23,36 +23,36 @@ source_url: >-
 published_at: '2022-01-17'
 fullyTranslated: true
 ---
-# Box Java SDK `v3.0.0` released
+# Box Java SDK `v3.0.0`のリリース
 
-### ⚠ BREAKING CHANGES
+### ⚠ 重大な変更
 
-* Changed `BoxFileVersion` class and removed `fileVersion` field ([#978][1])
-* Removed deprecated API `BoxCollaborationWhitelist` replaced with `BoxCollaborationAllowlist`, `BoxCollaborationWhitelistExemptTarget` replaced with `BoxCollaborationAllowlistExemptTarget` ([#969][2])
-* Dropping Java 7 support ([#962][3])
-* Downgrading `bouncycastle` libraries to 1.57 ([#942][4])
+* `BoxFileVersion`クラスを変更して`fileVersion`フィールドを削除 ([#978][1])
+* 非推奨となったAPI `BoxCollaborationWhitelist`を削除して`BoxCollaborationAllowlist`に置き換え、`BoxCollaborationWhitelistExemptTarget`を削除して`BoxCollaborationAllowlistExemptTarget`に置き換え ([#969][2])
+* Java 7のサポートを終了 ([#962][3])
+* `bouncycastle`ライブラリを1.57にダウングレード ([#942][4])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add `typeName` to `BoxEvent` that contains name of the event, even if it is not mapped to `BoxEvent.EventType` ([#979][5]) ([`b30f61f`][6]), closes [#968][7]
-* Add new optional `description` parameter to the `retention_policies` endpoint and `start_date_field` to the `retention_policy_assignments endpoint`. ([#967][8]) ([`0aa4ff4`][9])
-* Adding `BoxFile#getVersions(String... fields)` to allow users to specify what information they want to extract. Fixes [#946][10]. ([#947][11]) ([`a2eb638`][12])
-* Missing `eventTypes` from `BoxAPI` Documents. Fixes [#974][13] ([#975][14]) ([`2c69360`][15])
-* Removed deprecated API `BoxCollaborationWhitelist` replaced with `BoxCollaborationAllowlist`, `BoxCollaborationWhitelistExemptTarget` replaced with `BoxCollaborationAllowlistExemptTarget` ([#969][2]) ([`2fd4d6f`][16])
+* `BoxEvent.EventType`にマップされていない場合でも、イベントの名前を含む`typeName`を`BoxEvent`に追加 ([#979][5]) ([`b30f61f`][6])、[#968][7]をクローズ
+* 省略可能な`description`パラメータを`retention_policies`エンドポイント、`start_date_field`パラメータを`retention_policy_assignments endpoint`エンドポイントに新しく追加 ([#967][8]) ([`0aa4ff4`][9])
+* ユーザーが抽出したい情報を指定できるように`BoxFile#getVersions(String... fields)`を追加。[#946][10]を修正。([#947][11]) ([`a2eb638`][12])
+* `BoxAPI`ドキュメントから`eventTypes`を削除。[#974][13]を修正 ([#975][14]) [`2c69360`][15]
+* 非推奨となったAPI `BoxCollaborationWhitelist`を削除して`BoxCollaborationAllowlist`に置き換え、`BoxCollaborationWhitelistExemptTarget`を削除して`BoxCollaborationAllowlistExemptTarget`に置き換え ([#969][2]) ([`2fd4d6f`][16])
 
-### Bug Fixes
+### バグ修正
 
-* Changed `BoxFileVersion` class and removed `fileVersion` field ([#978][1]) ([`8c39451`][17])
-* Changed SDK loggers name to `"com.box.sdk"`, fixes [#638][18] ([#950][19]) ([`443c230`][20])
-* Date parsing error when `BoxSignRequestPrefillTag` created with date value. ([#970][21]) ([`cc2c8da`][22])
-* Fix sending limit parameter in `EventLog` ([#977][23]) ([`96bdccc`][24])
-* Fixed `NullPointerException` when empty metadata used on `BoxFile` or `BoxFolder` ([#918][25]) ([#945][26]) ([`68bc3c5`][27])
-* Cannot deseralize sign request, fixes issue ([#951][28]). ([#952][29]) ([`070bdc5`][30])
+* `BoxFileVersion`クラスを変更して`fileVersion`フィールドを削除 ([#978][1]) ([`8c39451`][17])
+* SDKロガーの名前を`"com.box.sdk"`に変更し、[#638][18]を修正 ([#950][19]) ([`443c230`][20])
+* 日付値を使用して`BoxSignRequestPrefillTag`を作成したときの日付解析エラー。([#970][21]) ([`cc2c8da`][22])
+* `EventLog`の制限パラメータの送信を修正 ([#977][23]) ([`96bdccc`][24])
+* `BoxFile`または`BoxFolder`で空のメタデータが使用されたときの`NullPointerException`を修正 ([#918][25]) ([#945][26]) ([`68bc3c5`][27])
+* 署名リクエストを逆シリアル化できない問題を修正 ([#951][28])。([#952][29]) ([`070bdc5`][30])
 
-### Dependency Upgrades
+### 依存関係のアップグレード
 
-* Dropping Java 7 support ([#962][3]) ([`953ad78`][31])
-* Downgrading `bouncycastle` libraries to 1.57 ([#942][4]) ([`26aaed5`][32])
+* Java 7のサポートを終了 ([#962][3]) ([`953ad78`][31])
+* `bouncycastle`ライブラリを1.57にダウングレード ([#942][4]) ([`26aaed5`][32])
 
 [1]: https://github.com/box/box-java-sdk/issues/978
 

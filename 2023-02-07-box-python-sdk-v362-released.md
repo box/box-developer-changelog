@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-02-07'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.6.2` released
+# Box Python SDK `v3.6.2`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Retry `Connection broken` and `Connection reset` requests errors ([#794][1]) ([`f1a0aa4`][2])
+* `Connection broken`および`Connection reset`リクエストエラーの再試行 ([#794][1]) ([`f1a0aa4`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/794
 

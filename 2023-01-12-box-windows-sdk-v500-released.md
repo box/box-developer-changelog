@@ -23,25 +23,25 @@ source_url: >-
 published_at: '2023-01-12'
 fullyTranslated: true
 ---
-# Box Windows SDK `v5.0.0` released
+# Box Windows SDK `v5.0.0`のリリース
 
-⚠ BREAKING CHANGES
+⚠ 重大な変更
 
-* upgrade .net framework to 4.6.2 ([#881][1])
-* remove deprecated methods ([#881][1])
-* remove `use_index` references ([#881][1])
-* return proper object from `GetFileVersionsUnderRetentionForAssignmentAsync`([#881][1])
+* .NET Frameworkを4.6.2にアップグレード ([#881][1])
+* 非推奨となったメソッドを削除 ([#881][1])
+* `use_index`リファレンスを削除 ([#881][1])
+* `GetFileVersionsUnderRetentionForAssignmentAsync`から適切なオブジェクトが戻されるよう修正 ([#881][1])
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* upgrade .net framework to 4.6.2 ([#881][1]) ([`f1989aa`][2]), closes [#863][3]
-* remove deprecated methods ([#881][1]) ([`f1989aa`][2]), closes [#874][4]
-* remove `use_index` references ([#881][1]) ([`f1989aa`][2]), closes [#870][5]
+* .NET Frameworkを4.6.2にアップグレード ([#881][1]) ([`f1989aa`][2])、[#863][3]をクローズ
+* 非推奨となったメソッドを削除 ([#881][1]) ([`f1989aa`][2])、[#874][4]をクローズ
+* `use_index`リファレンスを削除 ([#881][1]) ([`f1989aa`][2])、[#870][5]をクローズ
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Added pagination option to `IBoxFilesManager#ViewVersionsAsync` ([#869][6]) ([`2324495`][7]), closes [#866][8]
-* return proper object from `GetFileVersionsUnderRetentionForAssignmentAsync` ([#881][1]) ([`f1989aa`][2]), closes [#875][9]
+* `IBoxFilesManager#ViewVersionsAsync`にページ割りオプションを追加 ([#869][6]) ([`2324495`][7])、[#866][8]をクローズ
+* `GetFileVersionsUnderRetentionForAssignmentAsync`から適切なオブジェクトが戻されるよう修正 ([#881][1]) ([`f1989aa`][2])、[#875][9]をクローズ
 
 <https://www.nuget.org/packages/Box.V2/5.0.0>
 

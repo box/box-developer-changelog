@@ -22,17 +22,13 @@ source_url: >-
 published_at: '2020-04-23'
 fullyTranslated: true
 ---
-# New `classification` field for Files
+# ファイルの新しい`classification`フィールド
 
-A new optional field has been made available within the `Field` object,
-`classification`. This field represents the classification that is currently
-applied to a file.
+`Field`オブジェクト内で、新しいフィールドである`classification` (省略可) が使用可能になりました。このフィールドは、現在ファイルに適用されている分類を表します。
 
 <!-- more -->
 
-The classification can be requested via any endpoint that returns a file, like
-the [Get file information](endpoint://get-files-id) and supports [requesting
-additional `fields`](g://api-calls/request-extra-fields).
+分類は、[ファイル情報の取得](endpoint://get-files-id)など、ファイルを返す任意のエンドポイントを介してリクエストでき、[追加`fields`のリクエスト](g://api-calls/request-extra-fields)をサポートします。
 
 ```js
 {
@@ -48,5 +44,4 @@ additional `fields`](g://api-calls/request-extra-fields).
 }
 ```
 
-The classification can be set through the API, Box Shield, or by a user using
-the web application.
+分類は、APIまたはBox Shieldを介して設定することも、ユーザーがウェブアプリケーションを使用して設定することもできます。

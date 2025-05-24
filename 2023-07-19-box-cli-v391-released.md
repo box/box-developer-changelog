@@ -22,11 +22,11 @@ source_url: >-
 published_at: '2023-07-19'
 fullyTranslated: true
 ---
-# Box CLI `v3.9.1` released
+# Box CLI `v3.9.1`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Bump version of `box-node-sdk` and `csv` libraries ([483][1]) ([`fecb04b`][2])
+* `box-node-sdk`および`csv`ライブラリのバージョンを昇格 ([483][1]) ([`fecb04b`][2])
 
 [1]: (https://github.com/box/boxcli/pull/483)
 

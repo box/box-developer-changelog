@@ -23,31 +23,22 @@ source_url: >-
 published_at: '2021-11-22'
 fullyTranslated: true
 ---
-# New Shield Download Event
+# 新しいShieldダウンロードイベント
 
-Today, we released a new `event_type` to the [Enterprise Event][events] stream
-for downloads that are restricted based on a Shield access policy.
+Shieldアクセスポリシーに基づいて制限されるダウンロードに対する新しい`event_type`を、[Enterprise Event][events] Streamにリリースしました。
 
 <!-- more -->
 
-If an admin creates a shield access policy that restricts downloads and an
-end user is blocked from downloading a file, an event is produced
-within the [enterprise event][events] stream. Events will also be generated
-when a user is viewing a folder with a file restricted from download, viewing a
-file in preview that is restricted from download, and when a user requests to
-download a file through the API that is restricted from download. These events
-follow the standard event object schema and the `event_type` value set
-to `SHIELD_DOWNLOAD_BLOCKED`.
+ダウンロードを制限するShieldアクセスポリシーを管理者が作成し、エンドユーザーがファイルをダウンロードできないようブロックされると、[Enterprise Event][events] Stream内でイベントが生成されます。また、ユーザーがダウンロードが制限されたファイルを含むフォルダを表示したとき、ダウンロードが制限されたファイルをプレビューで表示したとき、ダウンロードが制限されたファイルをAPIを介してダウンロードすることをリクエストしたときにもイベントが生成されます。これらのイベントは、標準のイベントオブジェクトスキーマと、`SHIELD_DOWNLOAD_BLOCKED`に設定された`event_type`値に従います。
 
-## Updates
+## 更新内容
 
-* Added a [new section][new-event] to the Smart Access event trigger documentation
-* Added `SHIELD_DOWNLOAD_BLOCKED` to the [enterprise event list][event-list]
+* スマートアクセスのイベントトリガーのドキュメントに[新しいセクション][new-event]を追加
+* [Enterprise Eventのリスト][event-list]に`SHIELD_DOWNLOAD_BLOCKED`を追加
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][forum] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

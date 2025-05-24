@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-08-29'
 fullyTranslated: true
 ---
-# Python SDK `v2.6.0` released
+# Python SDK `v2.6.0`のリリース
 
-Adding a new get admin events function with `created_before`, `created_after`, and `event_type` parameters. Thank you `@capk1rk`!
+`created_before`、`created_after`、`event_type`パラメータを持つ、新しい管理者イベント取得関数が追加されました (`@capk1rk`に感謝します)。

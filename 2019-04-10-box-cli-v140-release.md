@@ -22,6 +22,6 @@ source_url: >-
 published_at: '2019-04-10'
 fullyTranslated: true
 ---
-# Box CLI `v1.4.0` released
+# Box CLI `v1.4.0`のリリース
 
-* Added the option to update collaboration expiration date
+* コラボレーションの有効期限を更新するオプションを追加

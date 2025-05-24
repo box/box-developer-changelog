@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-10-28'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.7.1` released
+# Box Node SDK `v2.7.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Export missing `RetentionType` ([#774][1]) ([`7e6b244`][2])
+* 欠落していた`RetentionType`をエクスポート ([#774][1]) ([`7e6b244`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/774
 

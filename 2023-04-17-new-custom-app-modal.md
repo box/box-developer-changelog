@@ -22,19 +22,17 @@ source_url: >-
 published_at: '2023-04-17'
 fullyTranslated: true
 ---
-# Add more details to Custom Apps
+# カスタムアプリの詳細の追加
 
-To clarify [Custom Apps][1]' purpose and add the value for the enterprise, we now offer a possibility of describing the Custom App in a more granular way.
+[カスタムアプリ][1]の目的を明確にし、企業に価値をもたらすため、カスタムアプリをより詳細に説明できる機能を追加しました。
 
-When setting up a Custom App with [OAuth][2], [JWT][3] or [Client Credentials][4], you can now specify the purpose of the app and the app's creator.
-Additionally, if you intend to integrate your app with an external system, you can define the integration category and provide details of the external system.
+[OAuth][2]、[JWT][3]、または[クライアント資格情報][4]を使用してカスタムアプリを設定する際、アプリの目的と作成者を指定できます。また、アプリを外部システムと統合する場合は、統合のカテゴリを定義して外部システムの詳細を入力できます。
 
 <!-- more -->
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][5] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][5]に英語でリクエストを投稿してください。
 
 [1]: g://applications/app-types/platform-apps
 

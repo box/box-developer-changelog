@@ -23,20 +23,20 @@ source_url: >-
 published_at: '2020-10-19'
 fullyTranslated: true
 ---
-# Box Windows SDK `v3.25.0` released
+# Box Windows SDK `v3.25.0`のリリース
 
-## 3.25.0 [2020-10-19][2020-10-19]
+## 3.25.0 [2020年10月19日][2020-10-19]
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Add support for filtering when getting Groups ([#703][1])
-* Add zip functionality ([#700][2])
-* Deprecate one of the overloaded `ExecuteMetadataQueryAsync()` methods ([#699][3])
-* Add support for `copyInstanceOnItemCopy` field for metadata templates  ([#698][4])
+* グループ取得時のフィルタのサポートを追加 ([#703][1])
+* 圧縮機能を追加 ([#700][2])
+* オーバーロードされた`ExecuteMetadataQueryAsync()`メソッドの1つを廃止 ([#699][3])
+* メタデータテンプレートの`copyInstanceOnItemCopy`フィールドのサポートを追加 ([#698][4])
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Fix bug with JWT Authentication automatic retry ([#697][5])
+* JWT認証の自動再試行に関するバグを修正 ([#697][5])
 
 [`www.nuget.org/packages/Box.V2/3.25.0`][6]
 [`www.nuget.org/packages/Box.V2.Core/3.25.0`][7]

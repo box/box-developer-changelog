@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2024-10-18'
 fullyTranslated: true
 ---
-# Box Java SDK `v4.12.0` released
+# Box Java SDK `v4.12.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Support AI Agent ([#1265][1]) ([`3cb2c7c`][2])
-* Support AI extract and AI extract structured ([#1266][3]) ([`7ba90b9`][4])
+* AIエージェントをサポート ([#1265][1]) ([`3cb2c7c`][2])
+* AIによる抽出 (自由形式および構造化) をサポート ([#1266][3]) ([`7ba90b9`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1265
 

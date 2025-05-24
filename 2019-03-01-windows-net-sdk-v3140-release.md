@@ -23,10 +23,10 @@ source_url: >-
 published_at: '2019-03-01'
 fullyTranslated: true
 ---
-# Windows .NET SDK `v3.14.0` released
+# Windows .NET SDK `v3.14.0`のリリース
 
-* Added trace ID to API response exception message.
-* Fix deserialization of translated task assignment status.
+* APIレスポンスの例外メッセージにトレースIDが追加されました。
+* 変換されたタスク割り当てステータスの逆シリアル化を修正
 
 [`nuget.org/packages/Box.V2/3.14.0`](https://www.nuget.org/packages/Box.V2/3.14.0)
 [`nuget.org/packages/Box.V2.Core/3.14.0`](https://www.nuget.org/packages/Box.V2.Core/3.14.0)

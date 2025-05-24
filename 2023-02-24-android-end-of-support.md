@@ -23,17 +23,15 @@ source_url: >-
 published_at: '2023-02-24'
 fullyTranslated: true
 ---
-# Announcing End of Support for Android SDK on May 31st
+# Android SDKのサポート終了 (日本時間2023年6月1日)
 
-As of May 31, 2023 [Android SDK][1] will no longer be supported. You can still use your existing Android SDK applications with no impact, but you won't receive new features, updates, or bug fixes.
-If you would like to continue getting the latest and greatest Android features, we recommend using Java SDK to build apps on Android. Refer to [this][2] documentation for more details.
+日本時間2023年6月1日をもって、[Android SDK][1]のサポートを終了いたします。既存のAndroid SDKアプリケーションは影響なく引き続きご利用いただけますが、新機能、更新、バグ修正は提供されなくなります。最新のAndroid機能を引き続きご利用いただくために、Java SDKを使用してAndroid版アプリを作成することをお勧めします。詳細については、[こちら][2]のドキュメントを参照してください。
 
 <!-- more -->
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][3] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
 
 [1]: https://github.com/box/box-android-sdk
 

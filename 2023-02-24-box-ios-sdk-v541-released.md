@@ -24,11 +24,11 @@ source_url: >-
 published_at: '2023-02-24'
 fullyTranslated: true
 ---
-# Box iOS SDK `v5.4.1` released
+# Box iOS SDK `v5.4.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Fix `listAssignments` and `assign` methods in `RetentionPolicyModule` ([#886][1]) ([`b668888`][2])
+* `RetentionPolicyModule`の`listAssignments`および`assign`メソッドを修正 ([#886][1]) ([`b668888`][2])
 
 [1]: https://github.com/box/box-ios-sdk/issues/886
 

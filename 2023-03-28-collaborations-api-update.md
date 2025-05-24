@@ -22,21 +22,20 @@ source_url: >-
 published_at: '2023-03-28'
 fullyTranslated: true
 ---
-# Collaborations API - `pending` status
+# Collaboration API - `pending`ステータス
 
-We added more information about the `pending` status in our [collaborations API][1].
+[Collaboration API][1]に、`pending`ステータスに関する情報を追加しました。
 
-If the collaboration is in [`pending` status][2]:
+コラボレーションが[`pending`ステータス][2]の場合:
 
-* login and name return an empty string,
-* the following fields are redacted:
-  * `login` and `name` are hidden if a collaboration was created using `user_id`,
-  * `name` is hidden if a collaboration was created using `login`.
+* loginとnameは空の文字列を返します。
+* 以下のフィールドが編集されます:
+  * `user_id`を使用してコラボレーションが作成された場合、`login`と`name`は非表示になります。
+  * `login`を使用してコラボレーションが作成された場合、`name`は非表示になります。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][3] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
 
 [1]: r://collaboration
 

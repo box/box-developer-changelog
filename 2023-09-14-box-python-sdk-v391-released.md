@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-09-14'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.9.1` released
+# Box Python SDK `v3.9.1`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* do not retry creating a ZIP when response code is 202 ([#845][1]) ([`3f6ed4e`][2]), closes [#844][3]
+* レスポンスコードが202の場合に、ZIPの作成を再試行しない ([#845][1]) ([`3f6ed4e`][2])、[#844][3]をクローズ
 
 [1]: https://github.com/box/box-python-sdk/issues/845
 

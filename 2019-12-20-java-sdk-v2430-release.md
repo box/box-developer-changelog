@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-12-20'
 fullyTranslated: true
 ---
-# Java SDK `v2.43.0` released
+# Java SDK `v2.43.0`のリリース
 
-1. Throw exceptions for `setMetadata` on Files and Folders for non 409 errors ([#762](https://github.com/box/box-java-sdk/pull/762))
+1. ファイルとフォルダの409以外のエラーで`setMetadata`の例外をスロー ([#762](https://github.com/box/box-java-sdk/pull/762))

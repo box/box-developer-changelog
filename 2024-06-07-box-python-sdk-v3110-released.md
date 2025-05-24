@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2024-06-07'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.11.0` released
+# Box Python SDK `v3.11.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Use upload session `urls` for chunk upload ([#875][1]) ([`c67b03c`][2])
+* 分割アップロードにアップロードセッション`urls`を使用 ([#875][1]) ([`c67b03c`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/875
 

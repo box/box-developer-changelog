@@ -23,15 +23,15 @@ source_url: >-
 published_at: '2022-04-28'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.3.0` released
+# Box Node SDK `v2.3.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add `description` parameter to `uploadFile` methods ([#730][1]) ([`2596584`][2])
+* `description`パラメータを`uploadFile`メソッドに追加 ([#730][1]) ([`2596584`][2])
 
-### Bug Fixes
+### バグ修正
 
-* added missing `js-docs` on shared links ([#731][3]) ([`3554d41`][4])
+* 不足していた`js-docs`を共有リンクに追加 ([#731][3]) ([`3554d41`][4])
 
 [1]: https://github.com/box/box-node-sdk/issues/730
 

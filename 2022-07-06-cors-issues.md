@@ -23,19 +23,17 @@ source_url: >-
 published_at: '2022-07-06'
 fullyTranslated: true
 ---
-# Updated Cross-Origin Resource Sharing (CORS) documentation
+# クロスオリジンリソース共有 (CORS) ドキュメントの更新
 
-We updated the documentation on [Cross-Origin Resource Sharing
-(CORS)][1].
+[クロスオリジンリソース共有 (CORS)][1] に関するドキュメントを更新しました。
 
-## Updates
+## 更新内容
 
-Added information on what to do in case of the `Access-Control-Allow-Origin` header issues.
+`Access-Control-Allow-Origin`ヘッダーの問題が発生した場合の対処方法の情報を追加しました。
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][2].
+問題がある場合やさらにガイドが必要な場合は、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
 
 [1]: g://security/cors
 

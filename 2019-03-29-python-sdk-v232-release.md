@@ -23,6 +23,6 @@ source_url: >-
 published_at: '2019-03-29'
 fullyTranslated: true
 ---
-# Python SDK `v2.3.2` released
+# Python SDK `v2.3.2`のリリース
 
-* Fixing an issue in `v2.3.1` where package could not be installed.
+* パッケージをインストールできなかった`v2.3.1`の問題を修正しています。

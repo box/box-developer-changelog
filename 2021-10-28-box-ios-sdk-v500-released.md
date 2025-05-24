@@ -24,17 +24,17 @@ source_url: >-
 published_at: '2021-10-28'
 fullyTranslated: true
 ---
-# Box iOS SDK `v5.0.0` released
+# Box iOS SDK `v5.0.0`のリリース
 
-**Breaking Changes:**
+**重大な変更:**
 
-* Update PagingIterator to return pages and simplify logic ([#737][1])
-* Remove insensitive language field `collaborationWhiteList` in BoxClient. Use `collaborationAllowList` instead. ([#790][2])
+* ページを返してロジックを簡素化するようPagingIteratorを更新 ([#737][1])
+* BoxClientの不適切な用語フィールド`collaborationWhiteList`を削除し、代わりに`collaborationAllowList`を使用 ([#790][2])
 
-**New Features and Enhancements:**
+**新機能と機能強化:**
 
-* Replace insensitive event types ([#785][3])
-* Add SignAPI support ([#792][4])
+* 不適切なイベントタイプを置き換え ([#785][3])
+* SignAPIのサポートを追加 ([#792][4])
 
 [1]: https://github.com/box/box-ios-sdk/pull/737
 

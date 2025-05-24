@@ -23,12 +23,12 @@ source_url: >-
 published_at: '2021-04-22'
 fullyTranslated: true
 ---
-# Box UI Elements `v13.0.0` released
+# Box UI Elements `v13.0.0`のリリース
 
-## [13.0.0][1] (2021-04-22)
+## [13.0.0][1] (2021/04/22)
 
-## Bug Fixes & Features
+## バグ修正と機能
 
-This release fixes several bugs. For a full list, [please see the release notes][1]
+このリリースでは、複数のバグが修正されます。全一覧については、[リリースノートを参照してください][1]。
 
 [1]: https://github.com/box/box-ui-elements/releases/tag/v13.0.0

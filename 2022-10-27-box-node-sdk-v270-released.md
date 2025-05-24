@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2022-10-27'
 fullyTranslated: true
 ---
-# Box Node SDK `v2.7.0` released
+# Box Node SDK `v2.7.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add support for modifiable retention policies & enable deleting retention policy assignment ([#769][1]) ([`5e8c776`][2])
+* 変更可能リテンションポリシーのサポートを追加し、リテンションポリシー割り当ての削除を有効化 ([#769][1]) ([`5e8c776`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/769
 

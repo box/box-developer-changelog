@@ -23,13 +23,13 @@ source_url: >-
 published_at: '2024-06-28'
 fullyTranslated: true
 ---
-# Box Windows SDK `v5.7.1` released
+# Box Windows SDK `v5.7.1`のリリース
 
-**Bug Fixes:**
+**バグ修正:**
 
-* Add missing enum values to `BoxSortBy` ([#953][1]) ([`1f89bb0`][2]), closes [#952][3]
-* Add missing fields of `EventSource` ([#956][4]) ([`138eda5`][5])
-* do not recreate Random each time ([#945][6]) ([`d03b1ce`][7]), closes [#944][8] [#944][8] [#944][8] [#944][8]
+* 不足していた列挙値を`BoxSortBy`に追加 ([#953][1]) ([`1f89bb0`][2])、[#952][3]をクローズ
+* `EventSource`の不足していたフィールドを追加 ([#956][4]) ([`138eda5`][5])
+* 毎回Randomを再作成しない ([#945][6]) ([`d03b1ce`][7])、[#944][8] [#944][8] [#944][8] [#944][8]をクローズ
 
 <https://www.nuget.org/packages/Box.V2/5.7.1>
 

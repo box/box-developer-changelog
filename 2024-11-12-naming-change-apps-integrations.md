@@ -23,45 +23,44 @@ source_url: >-
 published_at: '2024-11-12'
 fullyTranslated: true
 ---
-# Apps & Integrations naming convention changes
+# アプリと統合の命名規則の変更
 
-We are changing the naming convention for apps & integrations to improve the clarity and consistency of our platform.
+Box Platformの明確さと一貫性の改善のため、アプリと統合の命名規則を変更しました。
 
-## Developers
+## 開発者
 
-| Current name | Target name          | Location                                                                          |
-| ------------ | -------------------- | --------------------------------------------------------------------------------- |
-| App Center   | Publishing           | A tab for submitting platform apps for publication in Box Integrations catalog    |
-| Integrations | Box Web Integrations | A tab where you define the third-party application buttons within the Box Web app |
-| Custom apps  | Platform apps        | Developer Console                                                                 |
+| 旧名称        | 新名称         | 場所                                     |
+| ---------- | ----------- | -------------------------------------- |
+| App Center | 公開          | Box統合のカタログに公開するためにPlatformアプリを送信するタブ   |
+| 統合         | Boxウェブ統合    | Boxウェブアプリ内にサードパーティ製アプリケーションのボタンを定義するタブ |
+| カスタムアプリ    | Platformアプリ | 開発者コンソール                               |
 
 <!-- more -->
 
-## Admins
+## 管理者
 
-| Current name        | Target name           | Location      |
-| ------------------- | --------------------- | ------------- |
-| Apps                | Integrations          | Admin Console |
-| Custom Apps Manager | Platform Apps Manager | Admin Console |
-| Custom apps         | Platform Apps         | Admin Console |
+| 旧名称          | 新名称              | 場所      |
+| ------------ | ---------------- | ------- |
+| アプリ          | 統合               | 管理コンソール |
+| カスタムアプリマネージャ | Platformアプリマネージャ | 管理コンソール |
+| カスタムアプリ      | Platformアプリ      | 管理コンソール |
 
 ## Box Shield
 
-| Current name                   | Target name             | Location                 |
-| ------------------------------ | ----------------------- | ------------------------ |
-| Application restriction policy | Integration restriction | Restriction policies     |
-| Shield Application             | Shield Integration      | Shield integration lists |
-| Applications                   | Integrations            | Detection Rules          |
+| 旧名称             | 新名称       | 場所          |
+| --------------- | --------- | ----------- |
+| アプリケーションの制限ポリシー | 統合の制限     | 制限ポリシー      |
+| Shieldのアプリケーション | Shieldの統合 | Shieldの統合一覧 |
+| アプリケーション        | 統合        | 検出ルール       |
 
-## Users
+## ユーザー
 
-| Current name | Target name  | Location                  |
-| ------------ | ------------ | ------------------------- |
-| Apps         | Integrations | A tab in the Box web-app. |
+| 旧名称 | 新名称 | 場所           |
+| --- | --- | ------------ |
+| アプリ | 統合  | Boxウェブアプリのタブ |
 
-## Where to get support
+## サポート情報
 
-Should you have any issues or need further guidance, please post a request to
-our [developer forum][1] for any help needed.
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][1]に英語でリクエストを投稿してください。
 
 [1]: https://forum.box.com/

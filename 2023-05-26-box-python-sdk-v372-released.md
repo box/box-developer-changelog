@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-05-26'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.7.2` released
+# Box Python SDK `v3.7.2`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Use the older version of `urllib3` ([#815][1]) ([`ee29aa3`][2])
+* `urllib3`の古いバージョンを使用 ([#815][1]) ([`ee29aa3`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/815
 

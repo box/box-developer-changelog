@@ -23,11 +23,11 @@ source_url: >-
 published_at: '2023-07-25'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.8.0` released
+# Box Python SDK `v3.8.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Support updating all fields of `collaboration` ([#829][1]) ([`6dc7ecc`][2])
+* `collaboration`のすべてのフィールドの更新をサポート ([#829][1]) ([`6dc7ecc`][2])
 
 [1]: https://github.com/box/box-python-sdk/issues/829
 

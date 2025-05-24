@@ -23,8 +23,8 @@ source_url: >-
 published_at: '2018-01-25'
 fullyTranslated: true
 ---
-# Java SDK `v2.11.0` released
+# Java SDK `v2.11.0`のリリース
 
-1. Fix chunked upload for files > 2GB ([#531](https://github.com/box/box-java-sdk/pull/531))
-2. Add updated file version upload endpoint and deprecate old method ([#524](https://github.com/box/box-java-sdk/pull/524))
-3. Perform modified retry on JWT auth to avoid common JWT errors
+1. 2GBを超えるファイルの分割アップロードを修正 ([#531](https://github.com/box/box-java-sdk/pull/531))
+2. 更新されたファイルバージョンのアップロードエンドポイントを追加し、古いメソッドを廃止 ([#524](https://github.com/box/box-java-sdk/pull/524))
+3. 一般的なJWTエラーを回避するためにJWT認証で変更された再試行を実行

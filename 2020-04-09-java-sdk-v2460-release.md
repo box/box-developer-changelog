@@ -23,8 +23,8 @@ source_url: >-
 published_at: '2020-04-09'
 fullyTranslated: true
 ---
-# Java SDK `v2.46.0` released
+# Java SDK `v2.46.0`のリリース
 
-1. Fix retry logic ([#787](https://github.com/box/box-java-sdk/pull/787))
-2. Add path parameter sanitization ([#790](https://github.com/box/box-java-sdk/pull/790))
-3. Add ability to set expiration date for a collaboration ([#788](https://github.com/box/box-java-sdk/pull/788))
+1. 再試行ロジックを修正 ([#787](https://github.com/box/box-java-sdk/pull/787))
+2. パスパラメータのサニタイズを追加 ([#790](https://github.com/box/box-java-sdk/pull/790))
+3. コラボレーションの有効期限を設定する機能を追加 ([#788](https://github.com/box/box-java-sdk/pull/788))

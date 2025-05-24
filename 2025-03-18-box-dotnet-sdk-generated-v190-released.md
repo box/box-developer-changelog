@@ -23,18 +23,18 @@ source_url: >-
 published_at: '2025-03-18'
 fullyTranslated: true
 ---
-# Box Dotnet SDK Generated `v1.9.0` released
+# Box Dotnet SDK Generated `v1.9.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Add `verification_phone_number` property to create sign request (box/box-openapi[#515][1]) ([#427][2]) ([`d90faea`][3])
-* Use `targetFramework` when single .Net version is supported (box/box-codegen[#684][4]) ([#438][5]) ([`4e64174`][6])
+* `verification_phone_number`プロパティを追加して署名リクエストを作成 (box/box-openapi[#515][1]) ([#427][2]) ([`d90faea`][3])
+* 単一の.NETバージョンがサポートされている場合に`targetFramework`を使用 (box/box-codegen[#684][4]) ([#438][5]) ([`4e64174`][6])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add find app item for shared link endpoint (box/box-openapi[#514][7]) ([#426][8]) ([`4dc5dc1`][9])
-* Add Integration Mappings Teams API (box/box-openapi[#517][10]) ([#429][11]) ([`92063c4`][12])
-* Expose token storage for authentication classes (box/box-codegen[#682][13]) ([#435][14]) ([`413058e`][15])
+* 共有リンクのアプリ項目を検索するエンドポイントを追加 (box/box-openapi[#514][7]) ([#426][8]) ([`4dc5dc1`][9])
+* Teams統合マッピング (リスト) APIを追加 (box/box-openapi[#517][10]) ([#429][11]) ([`92063c4`][12])
+* 認証クラス用のトークンストレージを公開 (box/box-codegen[#682][13]) ([#435][14]) ([`413058e`][15])
 
 [1]: https://github.com/box/box-dotnet-sdk-gen/issues/515
 

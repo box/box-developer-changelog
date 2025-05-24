@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2023-01-03'
 fullyTranslated: true
 ---
-# Box Python SDK `v3.6.0` released
+# Box Python SDK `v3.6.0`のリリース
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add support marker in trash get items ([#781][1]) ([`e2d1846`][2])
-* Sanitize proxy credentials ([#782][3]) ([`97fb5aa`][4])
+* ごみ箱の項目の取得にマーカーのサポートを追加 ([#781][1]) ([`e2d1846`][2])
+* プロキシ資格情報をサニタイズ ([#782][3]) ([`97fb5aa`][4])
 
-### Bug Fixes
+### バグ修正
 
-* Fix index error when getting an empty list of user term of service statuses ([#780][5]) ([`23d763a`][6])
-* Specify which exceptions should be retried ([#784][7]) ([`833cd46`][8])
+* ユーザーサービス利用規約のステータスの空のリストを取得する際のインデックスエラーを修正 ([#780][5]) ([`23d763a`][6])
+* 再試行が必要な例外を指定 ([#784][7]) ([`833cd46`][8])
 
 [1]: https://github.com/box/box-python-sdk/issues/781
 

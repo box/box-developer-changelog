@@ -23,19 +23,19 @@ source_url: >-
 published_at: '2024-10-30'
 fullyTranslated: true
 ---
-# Box Python SDK Generated `v1.6.0` released
+# Box Python SDK Generated `v1.6.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Set stream position to 0 for multipart requests (box/box-codegen[#581][1]) ([#348][2]) ([`fa6942c`][3])
-* Update client error schema (box/box-openapi[#467][4]) ([#347][5]) ([`a42a253`][6])
-* Use original stream position when retrying requests (box/box-codegen[#583][7]) ([#358][8]) ([`060b4dc`][9])
-* use raw `docstrings` when comments contain backslash (box/box-codegen[#571][10]) ([#330][11]) ([`8dd8cb7`][12])
+* マルチパートリクエストのストリーム位置を0に設定 (box/box-codegen[#581][1]) ([#348][2]) ([`fa6942c`][3])
+* クライアントエラースキーマを更新 (box/box-openapi[#467][4]) ([#347][5]) ([`a42a253`][6])
+* リクエストの再試行時に元のストリーム位置を使用 (box/box-codegen[#583][7]) ([#358][8]) ([`060b4dc`][9])
+* コメントにバックスラッシュが含まれる場合に未加工の`docstrings`を使用 (box/box-codegen[#571][10]) ([#330][11]) ([`8dd8cb7`][12])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add `download_file_to_output_stream` method to `DownloadsManager` (box/box-codegen[#575][13]) ([#334][14]) ([`6820d08`][15])
-* add AI LLM endpoint AWS `params` (box/box-openapi[#478][16]) ([#354][17]) ([`c8fa2c1`][18])
+* `download_file_to_output_stream`メソッドを`DownloadsManager`に追加 (box/box-codegen[#575][13]) ([#334][14]) ([`6820d08`][15])
+* AI LLMエンドポイントのAWS `params`を追加 (box/box-openapi[#478][16]) ([#354][17]) ([`c8fa2c1`][18])
 
 [1]: https://github.com/box/box-codegen/issues/581
 

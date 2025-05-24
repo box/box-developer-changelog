@@ -23,27 +23,20 @@ source_url: >-
 published_at: '2020-12-03'
 fullyTranslated: true
 ---
-# New `type` field in search API responses
+# 検索APIのレスポンスの新しい`type`フィールド
 
-A new field, `type`, has been introduced in the
-[search result response object][search_result_shared_link] for returned shared
-link items.
+返された共有リンク項目の[検索結果レスポンスオブジェクト][search_result_shared_link]に、新しいフィールド`type`が導入されました。
 
-This response object format is only returned when making calls to the
-[content search][search_content] endpoint with the
-`include_recent_shared_links` query parameter set to `true`.
+このレスポンスオブジェクト形式が返されるのは、`include_recent_shared_links`クエリパラメータを`true`に設定した状態で[コンテンツの検索][search_content]エンドポイントを呼び出した場合のみです。
 
-There is no impact to existing applications that are currently consuming this
-response object.
+現在このレスポンスオブジェクトを使用している既存のアプリケーションに影響はありません。
 
-## Updates
+## 更新内容
 
-Prior to this release, the return object for shared link search results
-included two objects:
+このリリースより前は、共有リンクの検索結果の戻りオブジェクトに次の2つのオブジェクトが含まれていました。
 
-* `accessible_via_shared_link`: The shared link which the item is accessible
-  from.
-* `item`: The file, folder, or web link that matched the search query.
+* `accessible_via_shared_link`: 項目にアクセスできる共有リンク。
+* `item`: 検索クエリに一致したファイル、フォルダ、またはウェブリンク。
 
 ```js
 {
@@ -54,8 +47,7 @@ included two objects:
 }
 ```
 
-This update introduces the new `type` field, which is a string that will always
-be set to `search_result`.
+この更新により、新しい`type`フィールドが導入されました。これは、常に`search_result`に設定される文字列です。
 
 ```js
 {
@@ -67,8 +59,7 @@ be set to `search_result`.
 }
 ```
 
-For complete format information see the
-[shared link search result][search_result_shared_link] response object.
+形式の詳細については、[共有リンクの検索結果][search_result_shared_link]レスポンスオブジェクトを参照してください。
 
 [search_content]: https://developer.box.com/reference/get-search/
 

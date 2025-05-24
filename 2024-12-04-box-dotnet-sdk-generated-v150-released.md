@@ -23,19 +23,19 @@ source_url: >-
 published_at: '2024-12-04'
 fullyTranslated: true
 ---
-# Box Dotnet SDK Generated `v1.5.0` released
+# Box Dotnet SDK Generated `v1.5.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Support status codes with no content (box/box-codegen[#604][1]) ([#314][2]) ([`57747d5`][3])
-* Update collaboration, metadata and collection resources (box/box-openapi[#483][4]) ([#316][5]) ([`d331f8a`][6])
+* コンテンツのないステータスコードをサポート (box/box-codegen[#604][1]) ([#314][2]) ([`57747d5`][3])
+* コラボレーション、メタデータ、コレクションのリソースを更新 (box/box-openapi[#483][4]) ([#316][5]) ([`d331f8a`][6])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add optional URL parameter to `FetchResponse` (box/box-codegen[#617][7]) ([#331][8]) ([`61484ec`][9])
-* Allow using default credentials for proxy (box/box-codegen[#623][10]) ([#334][11]) ([`bc4636e`][12]), closes [#333][13]
-* Expose method for making custom HTTP requests (box/box-codegen[#622][14]) ([#329][15]) ([`e689140`][16])
-* Support get collection by ID endpoint (box/box-codegen[#595][17]) ([#304][18]) ([`9ebf59a`][19])
+* 省略可能なURLパラメータを`FetchResponse`に追加 (box/box-codegen[#617][7]) ([#331][8]) ([`61484ec`][9])
+* プロキシに対するデフォルトの資格情報の使用を許可 (box/box-codegen[#623][10]) ([#334][11]) ([`bc4636e`][12])、[#333][13]をクローズ
+* カスタムHTTPリクエストを行うためのメソッドを公開 (box/box-codegen[#622][14]) ([#329][15]) ([`e689140`][16])
+* IDを指定してコレクションを取得エンドポイントをサポート (box/box-codegen[#595][17]) ([#304][18]) ([`9ebf59a`][19])
 
 [1]: https://github.com/box/box-dotnet-sdk-gen/issues/604
 

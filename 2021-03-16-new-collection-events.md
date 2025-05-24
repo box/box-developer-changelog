@@ -23,24 +23,20 @@ source_url: >-
 published_at: '2021-03-16'
 fullyTranslated: true
 ---
-# New Collection Events
+# 新しいコレクションイベント
 
-External collection events are now available via the
-[enterprise events][enterprise-events] stream.
+外部のコレクションイベントが[Enterprise Event][enterprise-events] Streamから使用可能になりました。
 
-[Collections][collections] in Box are a way to group files, folders, and web
-links without putting them all into a folder together. These new events provide
-a method for monitoring when collection actions are taken within an enterprise.
+Boxの[コレクション][collections]を使用すると、ファイル、フォルダ、ウェブリンクを1つのフォルダにまとめるのではなく、グループ化できます。これらの新しいイベントにより、社内で行われるコレクションの操作を監視することができます。
 
-The events follow the standard event object schema, and include the
-following:
+イベントは標準的なイベントオブジェクトスキーマに従っており、以下のようなものがあります。
 
-* `COLLECTION_CREATE`: A collection was created
-* `COLLECTION_DELETE`: A collection was deleted
-* `COLLECTION_UPDATE`: A collection was updated
-* `COLLECTION_ITEM_CREATE`: An item was added to a collection
-* `COLLECTION_ITEM_DELETE`: An item was removed from a collection
-* `COLLECTION_ITEM_UPDATE`: An item in a collection was updated
+* `COLLECTION_CREATE`: コレクションが作成されました
+* `COLLECTION_DELETE`: コレクションが削除されました
+* `COLLECTION_UPDATE`: コレクションが更新されました
+* `COLLECTION_ITEM_CREATE`: 項目がコレクションに追加されました
+* `COLLECTION_ITEM_DELETE`: 項目がコレクションから削除されました
+* `COLLECTION_ITEM_UPDATE`: コレクション内の項目が更新されました
 
 [enterprise-events]: g://events/enterprise-events/for-enterprise/
 

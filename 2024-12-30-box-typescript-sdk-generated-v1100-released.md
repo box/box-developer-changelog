@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2024-12-30'
 fullyTranslated: true
 ---
-# Box TypeScript SDK Generated `v1.10.0` released
+# Box TypeScript SDK Generated `v1.10.0`のリリース
 
-### Bug Fixes
+### バグ修正
 
-* Remove unused parameter from `SignRequest` (box/box-openapi[#489][1]) ([#450][2]) ([`f5683b7`][3])
+* `SignRequest`から未使用のパラメータを削除 (box/box-openapi[#489][1]) ([#450][2]) ([`f5683b7`][3])
 
-### New Features and Enhancements
+### 新機能と機能強化
 
-* Add support for replacing the network client implementation (box/box-codegen[#629][4]) ([#454][5]) ([`1cb7ddb`][6])
-* Allow for customizing retry strategy (box/box-codegen[#635][7]) ([#457][8]) ([`530ca33`][9])
-* Support webhook message validation (box/box-codegen[#631][10]) ([#455][11]) ([`09765a4`][12])
+* ネットワーククライアントの実装を置き換えるサポートを追加 (box/box-codegen[#629][4]) ([#454][5]) ([`1cb7ddb`][6])
+* 再試行戦略のカスタマイズを許可 (box/box-codegen[#635][7]) ([#457][8]) ([`530ca33`][9])
+* Webhookメッセージの検証をサポート (box/box-codegen[#631][10]) ([#455][11]) ([`09765a4`][12])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/489
 
