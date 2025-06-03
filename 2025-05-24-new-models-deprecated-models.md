@@ -18,7 +18,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-06-02-box-java-sdk-v4162-released
 previous_page_id: 2025-05-13-box-dotnet-sdk-generated-v1100-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/05-24-new-models-deprecated-models.md
