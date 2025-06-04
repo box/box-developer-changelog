@@ -27,6 +27,6 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix parsing `downloadFileCount` property for `BoxZipDownloadStatus` ([`50c2249`][1])
+* `BoxZipDownloadStatus`の`downloadFileCount`プロパティの解析を修正 ([`50c2249`][1])
 
 [1]: https://github.com/box/box-java-sdk/commit/50c2249ff5e0f0d1fdc99c9ff8786e9c134e58eb

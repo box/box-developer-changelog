@@ -25,21 +25,21 @@ source_url: >-
 published_at: '2025-05-24'
 fullyTranslated: true
 ---
-# Box AI API - new AI models now available, Gemini 1.5 models deprecated
+# Box AI API - 新しく利用可能になったAIモデルとGemini 1.5モデルの廃止
 
 [利用可能なAIモデル][1]のリストが更新され、以下のモデルが追加されました。
 
 * AWS Claude 4 Sonnet
 * AWS Claude 4 Opus
 
-The following models have been deprecated:
+以下のモデルは廃止されました。
 
 * Google Gemini 1.5 Flash 001
 * Google Gemini 1.5 Pro 001
 
-For more information, see [retired models][deprecated].
+詳細については、[廃止されたモデル][deprecated]を参照してください。
 
-Azure OpenAI GPT o4 Mini model was removed.
+Azure OpenAI GPT o4 Miniモデルは削除されました。
 
 **プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままでの利用となるため、モデル/出力の品質、可用性、精度にはばらつきがある可能性があります。
 
