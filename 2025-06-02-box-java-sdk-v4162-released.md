@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-06-11-box-node-sdk-v381-released
 previous_page_id: 2025-05-24-new-models-deprecated-models
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/06-02-box-java-sdk-v4162-released.md
