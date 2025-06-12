@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2025-06-12-box-typescript-sdk-generated-v1160-released
+next_page_id: 2025-06-12-box-python-sdk-generated-v1150-released
 previous_page_id: 2025-06-02-box-java-sdk-v4162-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/06-11-box-node-sdk-v381-released.md
