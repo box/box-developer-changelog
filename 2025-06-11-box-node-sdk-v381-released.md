@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Use constant-time comparison for HMAC signatures ([#893][1]) ([`d819efe`][2])
+* HMAC署名に定数時間比較を使用 ([#893][1]) ([`d819efe`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/893
 
