@@ -27,23 +27,23 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Compute webhook signature with and without escaping the body (box/box-codegen[#737][1]) ([#627][2]) ([`6a21b8e`][3])
-* Fix circular dependency in `boxNetworkClient` (box/box-codegen[#708][4]) ([#591][5]) ([`b383889`][6])
-* Fix downscope token to use `retrieveToken` method for token retrieval (box/box-codegen[#731][7]) ([#618][8]) ([`90edb0c`][9])
-* Fix slash escaping when calculating webhook signature (box/box-codegen[#736][10]) ([#624][11]) ([`a0307d0`][12])
-* Handle list of strings in metadata filter (box/box-codegen[#716][13]) ([#597][14]) ([`979ff2c`][15])
-* Improve file download to avoid storing content in memory (box/box-codegen[#701][16]) ([#589][17]) ([`513a15e`][18])
-* Modify utility functions for browser (box/box-codegen[#686][19]) ([#585][20]) ([`7232170`][21])
-* Use constant-time comparison for HMAC signatures (box/box-codegen[#739][22]) ([#630][23]) ([`efdcaaf`][24])
+* 本文をエスケープする場合としない場合のWebhook署名を計算 (box/box-codegen[#737][1]) ([#627][2]) ([`6a21b8e`][3])
+* `boxNetworkClient`の循環依存関係を修正 (box/box-codegen[#708][4]) ([#591][5]) ([`b383889`][6])
+* トークンの取得に`retrieveToken`メソッドを使用するようダウンスコープトークンを修正 (box/box-codegen[#731][7]) ([#618][8]) ([`90edb0c`][9])
+* Webhook署名を計算する際のスラッシュのエスケープを修正 (box/box-codegen[#736][10]) ([#624][11]) ([`a0307d0`][12])
+* メタデータフィルタで文字列のリストを処理 (box/box-codegen[#716][13]) ([#597][14]) ([`979ff2c`][15])
+* メモリにコンテンツを格納しないようにファイルのダウンロードを改善 (box/box-codegen[#701][16]) ([#589][17]) ([`513a15e`][18])
+* ブラウザのユーティリティ関数を変更 (box/box-codegen[#686][19]) ([#585][20]) ([`7232170`][21])
+* HMAC署名に定数時間比較を使用 (box/box-codegen[#739][22]) ([#630][23]) ([`efdcaaf`][24])
 
 ### 新機能と機能強化
 
-* Add AI agents warnings; allow for more types of metadata value (box/box-openapi[#520][25]) ([#600][26]) ([`a5a555f`][27])
-* Add security settings properties on sign template schema (box/box-openapi[#518][28]) ([#588][29]) ([`dfd3e5f`][30])
-* Add Shield Lists APIs (box/box-openapi[#528][31]) ([#622][32]) ([`be3af44`][33])
-* Add support of IBM models to AI API (box/box-openapi[#522][34]) ([#601][35]) ([`b060b8c`][36])
-* Increase max items for ai extract endpoints (box/box-openapi[#525][37]) ([#602][38]) ([`86c5d14`][39])
-* Update legal holds and AI models (box/box-openapi[#526][40]) ([#620][41]) ([`de3df57`][42])
+* AIエージェントの警告を追加し、より多くの種類のメタデータ値を許可 (box/box-openapi[#520][25]) ([#600][26]) ([`a5a555f`][27])
+* Signテンプレートスキーマにセキュリティ設定のプロパティを追加 (box/box-openapi[#518][28]) ([#588][29]) ([`dfd3e5f`][30])
+* ShieldリストのAPIを追加 (box/box-openapi[#528][31]) ([#622][32]) ([`be3af44`][33])
+* AI APIにIBMモデルのサポートを追加 (box/box-openapi[#522][34]) ([#601][35]) ([`b060b8c`][36])
+* AI抽出エンドポイントの項目数の上限を引き上げ (box/box-openapi[#525][37]) ([#602][38]) ([`86c5d14`][39])
+* リーガルホールドとAIモデルを更新 (box/box-openapi[#526][40]) ([#620][41]) ([`de3df57`][42])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/737
 

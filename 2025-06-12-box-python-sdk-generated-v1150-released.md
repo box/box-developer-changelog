@@ -27,17 +27,17 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Compute webhook signature with and without escaping the body (box/box-codegen[#737][1]) ([#607][2]) ([`e5118b8`][3])
-* Fix downscope token to use `retrieveToken` method for token retrieval (box/box-codegen[#731][4]) ([#598][5]) ([`e492685`][6])
-* Fix slash escaping when calculating webhook signature (box/box-codegen[#736][7]) ([#603][8]) ([`430b175`][9])
-* Use constant-time comparison for HMAC signatures (box/box-codegen[#739][10]) ([#610][11]) ([`6f6660c`][12])
+* 本文をエスケープする場合としない場合のWebhook署名を計算 (box/box-codegen[#737][1]) ([#607][2]) ([`e5118b8`][3])
+* トークンの取得に`retrieveToken`メソッドを使用するようダウンスコープトークンを修正 (box/box-codegen[#731][4]) ([#598][5]) ([`e492685`][6])
+* Webhook署名を計算する際のスラッシュのエスケープを修正 (box/box-codegen[#736][7]) ([#603][8]) ([`430b175`][9])
+* HMAC署名に定数時間比較を使用 (box/box-codegen[#739][10]) ([#610][11]) ([`6f6660c`][12])
 
 ### 新機能と機能強化
 
-* Add AI agents warnings; allow for more types of metadata value (box/box-openapi[#520][13]) ([#567][14]) ([`86aa1cc`][15])
-* Add Shield Lists APIs (box/box-openapi[#528][16]) ([#601][17]) ([`f980f65`][18])
-* Add support of IBM models to AI API (box/box-openapi[#522][19]) ([#568][20]) ([`767547a`][21])
-* Update legal holds and AI models (box/box-openapi[#526][22]) ([#599][23]) ([`d56228d`][24])
+* AIエージェントの警告を追加し、より多くの種類のメタデータ値を許可 (box/box-openapi[#520][13]) ([#567][14]) ([`86aa1cc`][15])
+* ShieldリストのAPIを追加 (box/box-openapi[#528][16]) ([#601][17]) ([`f980f65`][18])
+* AI APIにIBMモデルのサポートを追加 (box/box-openapi[#522][19]) ([#568][20]) ([`767547a`][21])
+* リーガルホールドとAIモデルを更新 (box/box-openapi[#526][22]) ([#599][23]) ([`d56228d`][24])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/737
 
