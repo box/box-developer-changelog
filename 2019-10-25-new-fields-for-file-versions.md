@@ -22,7 +22,7 @@ fullyTranslated: true
 ---
 # ファイルバージョンに新しいフィールドを追加
 
-ファイルバージョンオブジェクト内で、新しいフィールドである`trashed_by`、`restored_by`、および`restored_at` (省略可) が使用可能になりました。
+ファイルバージョンオブジェクト内で、省略可能な新しいフィールド`trashed_by`、`restored_by`、および`restored_at` が使用できるようになりました。
 
 このフィールドは、標準の[ファイルバージョンオブジェクト](endpoint://resources/file-version/)の一部として返されます。
 

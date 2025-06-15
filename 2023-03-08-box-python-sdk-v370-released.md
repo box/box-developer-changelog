@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* `retention_policies`と`retention_policy_assignments`に新しいオプションフィールドを追加 ([#803][1]) ([`8b72f7e`][2])
+* `retention_policies`と`retention_policy_assignments`に省略可能な新しいフィールドを追加 ([#803][1]) ([`8b72f7e`][2])
 * 分割アップロードにマルチスレッドを使用 ([#800][3]) ([`506ce0d`][4])
 
 [1]: https://github.com/box/box-python-sdk/issues/803
