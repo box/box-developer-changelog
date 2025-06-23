@@ -23,7 +23,7 @@ source_url: >-
 published_at: '2025-03-12'
 fullyTranslated: true
 ---
-# Teamsの統合マッピング
+# Teams統合マッピング
 
 MS Teamsの[統合マッピング][1]機能を使用して、[Teamsのチャネルやチャットのコンテンツが保存されるBox内の場所][2]を管理します。
 

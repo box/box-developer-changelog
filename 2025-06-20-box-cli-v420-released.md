@@ -26,10 +26,10 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Setup proxy for Box CLI with TS SDK ([#577][1]) ([`ec42077`][2])
-* Support `owned-by` flag when moving folder ([#580][3]) ([`2ec8e7f`][4])
-* Support integration mappings for Teams ([#579][5]) ([`163a367`][6])
-* Support metadata query with array ([#581][7]) ([`6750708`][8])
+* TS SDKのBox CLIにプロキシを設定 ([#577][1]) ([`ec42077`][2])
+* フォルダの移動で`owned-by`フラグをサポート ([#580][3]) ([`2ec8e7f`][4])
+* Teams統合マッピングをサポート ([#579][5]) ([`163a367`][6])
+* 配列を使用したメタデータクエリをサポート ([#581][7]) ([`6750708`][8])
 
 [1]: https://github.com/box/boxcli/issues/577
 
