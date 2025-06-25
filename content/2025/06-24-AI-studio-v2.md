@@ -9,6 +9,7 @@ is_new_feature: true
 release_source_url: ''
 collapse: true
 ---
+
 # AI Studio v2
 
 With the release of the newest version of the AI Studio functionality, we introduced the [enhancements][1] listed below.
@@ -20,9 +21,10 @@ With the release of the newest version of the AI Studio functionality, we introd
 ## Admins
 
 An Admin can: 
+
 * Control the suggested questions displayed when the user starts interacting with a custom AI agent.
 * See the details of a request and response of a LLM, for example the system prompt, model, custom instructions.
-* Control the params of a Box AI image processor in a custom agent. The params are neecssary to ask a LLM about a specific image.
+* Control the parameters of a Box AI image processor in a custom agent. The parameters are necessary to ask a LLM about a specific image.
 
 <!-- more -->
 
