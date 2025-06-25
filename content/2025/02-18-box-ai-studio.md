@@ -1,8 +1,8 @@
 ---
 applied_at: '2025-02-18'
 applies_to:
-  - api
-is_impactful: false
+  - ai
+is_impactful: true
 is_new_feature: true
 collapse: true
 show_excerpt: true
