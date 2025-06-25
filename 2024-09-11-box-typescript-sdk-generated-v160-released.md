@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-09-17-box-ai-extract
+next_page_id: 2024-09-16-app-item-associations
 previous_page_id: 2024-09-11-box-swift-sdk-generated-050-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/09-11-box-typescript-sdk-generated-v160-released.md

@@ -1,8 +1,8 @@
 ---
 applied_at: '2025-02-18'
 applies_to:
-  - api
-is_impactful: false
+  - ai
+is_impactful: true
 is_new_feature: true
 collapse: true
 show_excerpt: true
@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-02-19-box-java-sdk-v4150-released
 previous_page_id: 2025-02-12-box-python-sdk-generated-v1111-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/02-18-box-ai-studio.md
