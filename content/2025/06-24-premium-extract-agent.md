@@ -14,7 +14,7 @@ collapse: true
 Today we introduced the new enhanced extract agent powered by Gemini 2.5 Pro. It employs chain-of-thought
 processing to provide the best answer, but also to tell the developer the reason it believes this answer is the correct one.
 
-Premium extract agent:
+The enhanced extract agent:
 
 * Offers an improved key-value pair extraction from complex documents with higher accuracy.
 * Effortless access with Box UI: activate the feature with a single click.
