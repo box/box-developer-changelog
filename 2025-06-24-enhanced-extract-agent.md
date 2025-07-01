@@ -4,13 +4,14 @@ applies_to:
   - api
   - ai
 is_impactful: false
+collapse: true
 is_new_feature: true
 release_source_url: ''
-collapse: true
+show_excerpt: true
 is_index: false
 category_id: changelog
 subcategory_id: ''
-id: 2025-06-24-premium-extract-agent
+id: 2025-06-24-enhanced-extract-agent
 rank: null
 total_steps: null
 type: changelog
@@ -19,7 +20,7 @@ parent_id: changelog
 next_page_id: ''
 previous_page_id: 2025-06-20-box-cli-v420-released
 source_url: >-
-  https://github.com/box/box-developer-changelog/blob/main/content/2025/06-24-premium-extract-agent.md
+  https://github.com/box/box-developer-changelog/blob/main/content/2025/06-24-enhanced-extract-agent.md
 published_at: '2025-06-24'
 ---
 # Enhanced extract agent
