@@ -14,7 +14,8 @@ collapse: true
 
 With the release of the newest version of the AI Studio functionality, we introduced the [enhancements][1] listed below. 
 
-**Users** receive a notification in case of any issues with an agent directly in the AI Studio UI. An agent validation happens in real time.
+* **Users** receive a notification in case of any issues with an agent directly in the AI Studio UI.
+* Agents are validated in real time. The ones that don't pass validation are not visible for the users.
 
 **Admins** can:
 
