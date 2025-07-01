@@ -8,6 +8,7 @@ is_impactful: false
 is_new_feature: true
 release_source_url: ''
 collapse: true
+show_excerpt: true
 ---
 
 # AI Studio v2
