@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-06-24-AI-studio-v2
 previous_page_id: 2025-06-12-box-typescript-sdk-generated-v1160-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/06-20-box-cli-v420-released.md
