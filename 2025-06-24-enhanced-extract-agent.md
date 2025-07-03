@@ -24,18 +24,18 @@ source_url: >-
 published_at: '2025-06-24'
 fullyTranslated: true
 ---
-# Enhanced extract agent
+# 抽出エージェント (強化)
 
-Today we introduced the new enhanced extract agent powered by Gemini 2.5 Pro. It employs chain-of-thought processing to provide the best answer, but also to tell the developer the reason it believes this answer is the correct one.
+Boxでは、Gemini 2.5 Proを搭載した抽出エージェント (強化) を導入しました。このエージェントは、思考連鎖処理を使用して最良の回答を提供するだけでなく、これが正しい回答であるとエージェントが考える理由も開発者に示します。
 
-The enhanced extract agent:
+抽出エージェント (強化) の特長を以下に示します。
 
-* Offers an improved key-value pair extraction from complex documents with higher accuracy.
-* Effortless access with Box UI: activate the feature with a single click.
-* Transforms unstructured data into meaningful metadata attached to files.
-* Enables faster insights and discovery using the Box Metadata search tool.
+* より高い精度で複雑なドキュメントからキーと値のペアを抽出できるように改善
+* Box UIで簡単にアクセス: 1回のクリックで機能を有効化
+* 非構造化データを、ファイルに付属する意味のあるメタデータに変換
+* Boxのメタデータ検索ツールを使用して迅速なインサイトの取得や検出が可能
 
-Go to the Autofilling Metadata in Templates section in our [product documentation][1] to learn more about its capabilities.
+機能の詳細については、[製品ドキュメント][1]の「テンプレートへのメタデータの自動入力」セクションを参照してください。
 
 <!-- more -->
 
