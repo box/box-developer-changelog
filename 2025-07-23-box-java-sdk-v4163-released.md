@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix compare message webhook message signature ([#1315][1]) ([`e2d407d`][2])
-* Fix File Request Copy method to return valid data ([#1320][3]) ([`8392a43`][4])
+* Webhookメッセージの署名の比較を修正 ([#1315][1]) ([`e2d407d`][2])
+* 有効なデータを返すよう、ファイルリクエストのコピーメソッドを修正 ([#1320][3]) ([`8392a43`][4])
 
 [1]: https://github.com/box/box-java-sdk/issues/1315
 
