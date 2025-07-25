@@ -1,3 +1,4 @@
+---
 applied_at: "2025-07-27"
 applies_to:
   - guides
