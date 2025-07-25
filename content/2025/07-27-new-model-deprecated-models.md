@@ -11,7 +11,7 @@ show_excerpt: true
 release_source_url: ""
 ---
 
-# Box AI API - Google Gemini 2.5 Pro now available; Gemini 2.5 Flash Preview and Gemini 2.5 Pro Preview deprecated
+# Box AI API - Google Gemini 2.5 Pro now available, Gemini 2.5 Flash Preview and Pro Preview deprecated
 
 The list of [available AI models][1] has been recently updated with Google Gemini 2.5 Pro.
 
