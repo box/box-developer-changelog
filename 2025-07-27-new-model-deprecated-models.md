@@ -25,9 +25,9 @@ source_url: >-
 published_at: '2025-07-27'
 fullyTranslated: true
 ---
-# Box AI API - Google Gemini 2.5 Pro now available, Gemini 2.5 Flash Preview and Pro Preview deprecated
+# Box AI API - Google Gemini 2.5 Proの提供開始 (Gemini 2.5 Flash PreviewおよびPro Previewの廃止)
 
-The list of [available AI models][1] has been recently updated with Google Gemini 2.5 Pro.
+[利用可能なAIモデル][1]のリストが更新され、Google Gemini 2.5 Proが追加されました。
 
 以下のモデルは廃止されました。
 
