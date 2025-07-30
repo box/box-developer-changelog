@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Bump `cypress/request` to resolve `CVE-2025-7783` in `form-data` ([#904][1]) ([`8e8d2da`][2])
+* `form-data`に関する`CVE-2025-7783`を解決するために`cypress/request`を昇格 ([#904][1]) ([`8e8d2da`][2])
 
 [1]: https://github.com/box/box-node-sdk/issues/904
 
