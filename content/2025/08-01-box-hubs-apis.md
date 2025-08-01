@@ -39,7 +39,7 @@ The Hubs APIs consist of three main resource types that allow you to build compr
     *   Get hub items
     *   Manage hub items
 
-To learn more about using Box Hubs, visit the [Box Hubs support documentation][3].
+To learn more about using Box Hubs, visit the [Box Hubs support documentation][4].
 
 ## Where to get support
 
