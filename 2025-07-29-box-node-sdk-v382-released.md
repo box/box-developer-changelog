@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-08-01-box-hubs-apis
 previous_page_id: 2025-07-27-new-model-deprecated-models
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/07-29-box-node-sdk-v382-released.md
