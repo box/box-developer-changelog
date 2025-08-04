@@ -23,37 +23,37 @@ source_url: >-
 published_at: '2025-08-01'
 fullyTranslated: true
 ---
-# Box Hubs APIs
+# Box Hubs API
 
-Box Hubs APIs enable you to programmatically create, manage, and collaborate on content hubs within your applications. Hubs provide a centralized space for organizing and sharing content across teams and projects.
+Box Hubs APIを使用すると、アプリケーション内でプログラムによってコンテンツのHubの作成、管理、コラボレーションを行うことができます。Hubにより、チームやプロジェクト間のコンテンツの整理や共有を1か所で行うことができます。
 
-## What you can do with the Hubs APIs
+## Hubs APIを使用してできること
 
-The Hubs APIs consist of three main resource types that allow you to build comprehensive hub management functionality:
+Hubs APIは、主に以下の3種類のリソースで構成されており、これらのリソースにより包括的なHub管理機能を構築できます。
 
 <!-- more -->
 
-1. [Hubs][1]
-   * Create hub
-   * Copy hub
-   * Update hub information by ID
-   * Delete hub
-   * List all hubs
-   * List all hubs for requesting enterprise
-   * Get hub information by ID
+1. [Hub][1]
+   * Hubを作成
+   * Hubをコピー
+   * IDを指定してHubの情報を更新
+   * Hubを削除
+   * すべてのHubのリストを取得
+   * リクエストしている企業のすべてのHubのリストを取得
+   * IDを指定してHubの情報を取得
 
-2. [Hub Collaborations][2]
-   * Create hub collaboration
-   * Update hub collaboration
-   * Remove hub collaboration
-   * Get hub collaborations
-   * Get hub collaboration by collaboration ID
+2. [Hubコラボレーション][2]
+   * Hubコラボレーションを作成
+   * Hubコラボレーションを更新
+   * Hubコラボレーションを削除
+   * Hubコラボレーションを取得
+   * コラボレーションIDを指定してHubコラボレーションを取得
 
-3. [Hub Items][3]
-   * Get hub items
-   * Manage hub items
+3. [Hubの項目][3]
+   * Hubの項目を取得
+   * Hubの項目を管理
 
-To learn more about using Box Hubs, visit the [Box Hubs support documentation][4].
+Box Hubsの使用の詳細については、[Box Hubsのサポートドキュメント][4]を参照してください。
 
 ## サポート情報
 
