@@ -27,22 +27,22 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix downscope token to use `retrieveToken` method for token retrieval (box/box-codegen[#731][1]) ([#492][2]) ([`292360e`][3])
-* Specify events `next_stream_position` property type as `long` (box/box-openapi[#535][4]) ([#536][5]) ([`da265bd`][6])
+* トークンの取得に`retrieveToken`メソッドを使用するようダウンスコープトークンを修正 (box/box-codegen[#731][1]) ([#492][2]) ([`292360e`][3])
+* イベントの`next_stream_position`プロパティタイプを`long`に指定 (box/box-openapi[#535][4]) ([#536][5]) ([`da265bd`][6])
 
 ### 新機能と機能強化
 
-* Add `ReadOnlyCollection` implicit operator for Unions (box/box-codegen[#633][7]) ([#483][8]) ([`a1fc2c5`][9])
-* Add AI spreadsheet processor (box/box-openapi[#533][10]) ([#519][11]) ([`c344023`][12])
-* Add Archive Public API (box/box-openapi[#540][13]) ([#543][14]) ([`be0bb9d`][15])
-* Add new Hubs APIs and Hubs items API (box/box-openapi[#538][16]) ([#537][17]) ([`f2584cd`][18])
-* Add new schema for `Metadata Error` (box/box-openapi[#539][19]) ([#538][16]) ([`425b4ad`][20])
-* add Shield Lists APIs (box/box-openapi[#528][21]) ([#496][22]) ([`8b81c87`][23])
-* Allow injecting private key decryption mechanism for JWT (box/box-codegen[#754][24]) ([#528][21]) ([`865c729`][25])
-* Make `OneOf` classes public (box/box-codegen[#773][26]) ([#551][27]) ([`f7dcc32`][28])
-* Support Hubs beta endpoints (box/box-openapi[#531][29]) ([#511][30]) ([`59c43b8`][31])
-* Support new tools in AI Studio (box/box-openapi[#534][32]) ([#520][33]) ([`0b47597`][34])
-* Update legal holds and AI models (box/box-openapi[#526][35]) ([#494][36]) ([`6310e56`][37])
+* Unionに`ReadOnlyCollection`型へのimplicit演算子を追加 (box/box-codegen[#633][7]) ([#483][8]) ([`a1fc2c5`][9])
+* AIスプレッドシートプロセッサを追加 (box/box-openapi[#533][10]) ([#519][11]) ([`c344023`][12])
+* アーカイブの公開APIを追加 (box/box-openapi[#540][13]) ([#543][14]) ([`be0bb9d`][15])
+* 新しいHubs APIとHubの項目APIを追加 (box/box-openapi[#538][16]) ([#537][17]) ([`f2584cd`][18])
+* `Metadata Error`の新しいスキーマを追加 (box/box-openapi[#539][19]) ([#538][16]) ([`425b4ad`][20])
+* ShieldリストAPIを追加 (box/box-openapi[#528][21]) ([#496][22]) ([`8b81c87`][23])
+* JWTの秘密キー復号メカニズムの挿入を許可 (box/box-codegen[#754][24]) ([#528][21]) ([`865c729`][25])
+* `OneOf`クラスをpublicに変更 (box/box-codegen[#773][26]) ([#551][27]) ([`f7dcc32`][28])
+* Hubsのベータ版エンドポイントをサポート (box/box-openapi[#531][29]) ([#511][30]) ([`59c43b8`][31])
+* AI Studioの新しいツールをサポート (box/box-openapi[#534][32]) ([#520][33]) ([`0b47597`][34])
+* リーガルホールドとAIモデルを更新 (box/box-openapi[#526][35]) ([#494][36]) ([`6310e56`][37])
 
 [1]: https://github.com/box/box-dotnet-sdk-gen/issues/731
 

@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-08-07-box-cli-v430-released
 previous_page_id: 2025-08-05-box-python-sdk-generated-v1160-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/08-05-box-typescript-sdk-generated-v1170-released.md
@@ -27,20 +27,20 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Bump `cypress` to resolve `CVE-2025-7783` in `form-data` (box/box-codegen[#769][1]) ([#677][2]) ([`077413e`][3])
+* `form-data`に関する`CVE-2025-7783`を解決するために`cypress`を昇格 (box/box-codegen[#769][1]) ([#677][2]) ([`077413e`][3])
 
 ### 新機能と機能強化
 
-* Add AI spreadsheet processor (box/box-openapi[#533][4]) ([#649][5]) ([`254fb54`][6])
-* Add Archive Public API (box/box-openapi[#540][7]) ([#674][8]) ([`1cbb124`][9])
-* Add new Hubs APIs and Hubs items API (box/box-openapi[#538][10]) ([#666][11]) ([`25c9596`][12])
-* Add new schema for `Metadata Error` (box/box-openapi[#539][13]) ([#667][14]) ([`9af46ab`][15])
-* Allow injecting private key decryption mechanism for JWT (box/box-codegen[#754][16]) ([#656][17]) ([`cb0c35d`][18])
-* Improve webhook validation checks (box/box-codegen[#745][19]) ([#647][20]) ([`98b3b92`][21])
-* Retry request on network exception (box/box-codegen[#776][22]) ([#684][23]) ([`c0c4dba`][24])
-* Support ESM build and tree-shaking (box/box-codegen[#762][25]) ([#663][26]) ([`8ca3302`][27])
-* Support Hubs beta endpoints (box/box-openapi[#531][28]) ([#641][29]) ([`d8c7bb6`][30])
-* Support new tools in AI Studio (box/box-openapi[#534][31]) ([#652][32]) ([`db2501b`][33])
+* AIスプレッドシートプロセッサを追加 (box/box-openapi[#533][4]) ([#649][5]) ([`254fb54`][6])
+* アーカイブの公開APIを追加 (box/box-openapi[#540][7]) ([#674][8]) ([`1cbb124`][9])
+* 新しいHubs APIとHubの項目APIを追加 (box/box-openapi[#538][10]) ([#666][11]) ([`25c9596`][12])
+* `Metadata Error`の新しいスキーマを追加 (box/box-openapi[#539][13]) ([#667][14]) ([`9af46ab`][15])
+* JWTの秘密キー復号メカニズムの挿入を許可 (box/box-codegen[#754][16]) ([#656][17]) ([`cb0c35d`][18])
+* Webhookの検証チェックを改善 (box/box-codegen[#745][19]) ([#647][20]) ([`98b3b92`][21])
+* ネットワークの例外でリクエストを再試行 (box/box-codegen[#776][22]) ([#684][23]) ([`c0c4dba`][24])
+* ESMビルドとツリーシェイキングをサポート (box/box-codegen[#762][25]) ([#663][26]) ([`8ca3302`][27])
+* Hubsのベータ版エンドポイントをサポート (box/box-openapi[#531][28]) ([#641][29]) ([`d8c7bb6`][30])
+* AI Studioの新しいツールをサポート (box/box-openapi[#534][31]) ([#652][32]) ([`db2501b`][33])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/769
 

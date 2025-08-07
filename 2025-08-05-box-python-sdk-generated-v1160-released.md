@@ -27,19 +27,19 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Specify events `next_stream_position` property type as `int` (box/box-openapi[#535][1]) ([#644][2]) ([`64069db`][3])
+* イベントの`next_stream_position`プロパティタイプを`int`に指定 (box/box-openapi[#535][1]) ([#644][2]) ([`64069db`][3])
 
 ### 新機能と機能強化
 
-* Add AI spreadsheet processor (box/box-openapi[#533][4]) ([#630][5]) ([`6635757`][6])
-* Add Archive Public API (box/box-openapi[#540][7]) ([#651][8]) ([`c36d1db`][9])
-* Add new Hubs APIs and Hubs items API (box/box-openapi[#538][10]) ([#645][11]) ([`1daa3e8`][12])
-* Add new property for network exception retry strategy (box/box-codegen[#763][13]) ([#650][14]) ([`13f9593`][15])
-* Add new schema for `Metadata Error` (box/box-openapi[#539][16]) ([#646][17]) ([`49d7f34`][18])
-* Allow injecting private key decryption mechanism for JWT (box/box-codegen[#754][19]) ([#636][20]) ([`4ea0af5`][21])
-* Improve webhook validation checks (box/box-codegen[#745][22]) ([#628][23]) ([`f0ece63`][24])
-* Support Hubs beta endpoints (box/box-openapi[#531][25]) ([#622][26]) ([`b5e95fe`][27])
-* Support new tools in AI Studio (box/box-openapi[#534][28]) ([#633][29]) ([`ac76eb2`][30])
+* AIスプレッドシートプロセッサを追加 (box/box-openapi[#533][4]) ([#630][5]) ([`6635757`][6])
+* アーカイブの公開APIを追加 (box/box-openapi[#540][7]) ([#651][8]) ([`c36d1db`][9])
+* 新しいHubs APIとHubの項目APIを追加 (box/box-openapi[#538][10]) ([#645][11]) ([`1daa3e8`][12])
+* ネットワークの例外の再試行戦略に新しいプロパティを追加 (box/box-codegen[#763][13]) ([#650][14]) ([`13f9593`][15])
+* `Metadata Error`の新しいスキーマを追加 (box/box-openapi[#539][16]) ([#646][17]) ([`49d7f34`][18])
+* JWTの秘密キー復号メカニズムの挿入を許可 (box/box-codegen[#754][19]) ([#636][20]) ([`4ea0af5`][21])
+* Webhookの検証チェックを改善 (box/box-codegen[#745][22]) ([#628][23]) ([`f0ece63`][24])
+* Hubsのベータ版エンドポイントをサポート (box/box-openapi[#531][25]) ([#622][26]) ([`b5e95fe`][27])
+* AI Studioの新しいツールをサポート (box/box-openapi[#534][28]) ([#633][29]) ([`ac76eb2`][30])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/535
 
