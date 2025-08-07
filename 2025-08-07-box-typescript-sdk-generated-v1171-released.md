@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2025-08-05-box-typescript-sdk-generated-v1170-released
+previous_page_id: 2025-08-07-box-cli-v430-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/08-07-box-typescript-sdk-generated-v1171-released.md
 published_at: '2025-08-07'
