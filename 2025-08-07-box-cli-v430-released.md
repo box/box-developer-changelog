@@ -26,12 +26,12 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* add agent support to `ai:ask` command ([#589][1]) ([`095f411`][2])
+* `ai:ask`コマンドにエージェントのサポートを追加 ([#589][1]) ([`095f411`][2])
 
 ### バグ修正
 
-* Fix support metadata query array ([#583][3]) ([`112db16`][4])
-* Remove `description` flag from folders:create command ([#587][5]) ([`adca76b`][6])
+* メタデータクエリ配列のサポートを修正 ([#583][3]) ([`112db16`][4])
+* folders:createコマンドから`description`フラグを削除 ([#587][5]) ([`adca76b`][6])
 
 [1]: https://github.com/box/boxcli/issues/589
 

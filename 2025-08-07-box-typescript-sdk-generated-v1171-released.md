@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix exports syntax when importing from `lib` ([#700][1]) ([`782a287`][2])
+* `lib`からインポートする際のエクスポートの構文を修正 ([#700][1]) ([`782a287`][2])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/700
 
