@@ -23,7 +23,7 @@ fullyTranslated: true
 ---
 # Python SDK V2のリリース
 
-[Box Python SDK][python_sdk_v2]のメジャーアップデート(バージョン2.0)がリリースされ、重要な更新とAPI機能パリティが加えられました。完全なAPIリリースノートについては[こちらを参照してください][python_sdk_v2_release_notes]。今回のリリースとともに、以下のドキュメントの変更が行われました。
+[Box Python SDK][python_sdk_v2]のメジャーアップデート (バージョン2.0) がリリースされ、重要な更新とAPI機能パリティが加えられました。完全なAPIリリースノートについては[こちらを参照してください][python_sdk_v2_release_notes]。今回のリリースとともに、以下のドキュメントの変更が行われました。
 
 * Pythonの[クイックスタートガイド](guide://)の更新。
 * Pythonの[APIリファレンス](endpoint://)のコードサンプルの更新。
