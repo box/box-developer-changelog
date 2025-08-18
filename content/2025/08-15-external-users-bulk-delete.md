@@ -22,7 +22,7 @@ The report contains details identifying which user deletions succeeded and which
 
 ## Where to get support
 
-Should you have any issues or need further guidance, please post a request to our [developer forum][2] for any help needed.
+Should you have any issues or need further guidance, please post a request to our [developer forum][2] for any help needed. 
 
 [1]: g://users/bulk-delete-external-users
 [2]: https://community.box.com/
