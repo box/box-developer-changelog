@@ -34,9 +34,12 @@ files.forEach(source => {
       'sdks',
       'node',
       'python',
+      'swift',
+      'typescript',
       'windows',
       'java',
       'cli',
+      'dotnet',
       'mobile',
       'ios',
       'android',
@@ -49,7 +52,8 @@ files.forEach(source => {
       'guides',
       'other',
       'frontend',
-      'ui-elements'
+      'ui-elements',
+      'ai'
     ])
   })
 })

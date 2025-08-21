@@ -22,7 +22,7 @@ Additionally, if you intend to integrate your app with an external system, you c
 Should you have any issues or need further guidance, please post a request to
 our [developer forum][5] for any help needed.
 
-[1]: g://applications/custom-apps
+[1]: g://applications/app-types/platform-apps
 [2]: g://authentication/oauth2/oauth2-setup
 [3]: g://authentication/jwt/jwt-setup
 [4]: g://authentication/client-credentials/client-credentials-setup
