@@ -42,8 +42,8 @@ The enhanced Box AI for UI Elements allows the users to embed AI functionality i
 Should you have any issues or need further guidance, please post a request to our [developer forum][8] for any help needed.
 
 [1]: https://developer.box.com/guides/box-ai
-[2]: g://box-ai/ask-questions/
-[3]: g://box-ai/generate-text/
+[2]: g://box-ai/ai-tutorials/ask-questions
+[3]: g://box-ai/ai-tutorials/generate-text/
 [4]: https://support.box.com/hc/en-us/articles/360044194033-Customizing-Metadata-Templates
 [5]: e://ai-agent-ask/
 [6]: g://embed/ui-elements/preview#box-ai-ui-element
