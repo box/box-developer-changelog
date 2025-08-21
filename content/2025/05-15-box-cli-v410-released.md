@@ -16,7 +16,7 @@ collapse: true
 
 ### Bug Fixes
 
-* Remove invalid `process.stderr.setEncoding` call ([`486779e`][3]), closes [#571][4]
+* Remove incorrect `process.stderr.setEncoding` call ([`486779e`][3]), closes [#571][4]
 
 [1]: https://github.com/box/boxcli/issues/574
 
