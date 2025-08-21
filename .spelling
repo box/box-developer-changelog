@@ -290,6 +290,7 @@ codeowners
 unresolve
 dev
 chatbot-like
+CrowdStrike
 docgen
 js
 upsell
@@ -311,3 +312,10 @@ update_app_activity_item
 uaa-logging
 eslint
 configs
+OpenAI
+GPT-4
+o3
+o4
+xAI
+v2
+Autofilling
