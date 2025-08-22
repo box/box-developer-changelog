@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-08-15-external-users-bulk-delete
-previous_page_id: 2025-08-07-box-typescript-sdk-generated-v1171-released
+previous_page_id: 2025-08-12-box-ui-elements-v2340-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/08-13-box-swift-sdk-generated-062-released.md
 published_at: '2025-08-13'
