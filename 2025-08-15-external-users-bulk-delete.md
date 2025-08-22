@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2025-08-15'
 fullyTranslated: true
 ---
-# Bulk delete external users
+# 外部ユーザーの一括削除
 
-You can now [bulk delete][1] up to 100 external user accounts through the public API.
+公開APIを使用して最大100件の外部ユーザーアカウントを[一括削除][1]できるようになりました。
 
-This job runs in the background, and sends a completion report when it's finished.
+このジョブはバックグラウンドで実行され、終了時に完了レポートを送信します。
 
 <!-- more -->
 
 <!--alex ignore -->
 
-The report contains details identifying which user deletions succeeded and which failed.
+このレポートには、成功したユーザー削除と失敗したユーザー削除を示す詳細が含まれています。
 
 <!--alex enable -->
 
