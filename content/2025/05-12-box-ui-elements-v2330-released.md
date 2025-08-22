@@ -15,28 +15,28 @@ collapse: true
 
 ### Bug Fixes
 
-* **commitlint:** Bump to 19.8.0 ([#4083][2]) ([`7e9e6e5`][3])
+* **`commitlint`:** Bump to 19.8.0 ([#4083][2]) ([`7e9e6e5`][3])
 * **flow-typed:** Bumped to 4.1.0 ([#4081][4]) ([`15b8108`][5])
-* **flyout:** change logic for onKeyPress in Flyout.js ([#4096][6]) ([`f48c2a9`][7])
+* **flyout:** change logic for `onKeyPress` in `Flyout.js` ([#4096][6]) ([`f48c2a9`][7])
 * **i18n:** update translations ([#4077][8]) ([`fe7752d`][9])
 * **i18n:** update translations ([#4079][10]) ([`0f587f5`][11])
 * **i18n:** update translations ([#4089][12]) ([`f48076d`][13])
 * **i18n:** update translations ([#4091][14]) ([`9869175`][15])
 * **i18n:** update translations ([#4097][16]) ([`e265cfe`][17])
 * **metadata-sidebar:** Show all metadata fields fix ([#4090][18]) ([`e4dcdcb`][19])
-* **opensource:** copy storybook files to root ([#4099][20]) ([`37c9cf0`][21])
+* **`opensource`:** copy storybook files to root ([#4099][20]) ([`37c9cf0`][21])
 * **sass-lint:** Remove sass-lint ([#4082][22]) ([`05d1e8b`][23])
 
 ### Features
 
-* **bp-assets:** Bump BP assets to 4.39.0 ([#4095][24]) ([`15c403c`][25])
+* **`bp-assets`:** Bump BP assets to 4.39.0 ([#4095][24]) ([`15c403c`][25])
 * **content-sidebar:** additional prop for feedback tooltip in Box AI ([#4075][26]) ([`bcd2b86`][27])
 * **content-sidebar:** update content-answers for box ai sidebar ([#4094][28]) ([`8d4c456`][29])
 * **metadata-sidebar:** Is delete confirmation modal checkbox enabled ([#4076][30]) ([`7e8c8ac`][31])
-* **metadataeditor:** add agent selector ([#4098][32]) ([`f3af868`][33])
-* **metadataeditor:** add ai extraction for folders ([#4080][34]) ([`82d6b29`][35])
+* **`metadataeditor`:** add agent selector ([#4098][32]) ([`f3af868`][33])
+* **`metadataeditor`:** add ai extraction for folders ([#4080][34]) ([`82d6b29`][35])
 * **notification-redesign:** Add Notification classname prop ([#4092][36]) ([`2dc371f`][37])
-* **opensource:** update default route to use storybook ([#4087][38]) ([`174f335`][39])
+* **`opensource`:** update default route to use storybook ([#4087][38]) ([`174f335`][39])
 * **unified-share-modal:** add custom permission descriptions ([#4071][40]) ([`19a7978`][41])
 * upgrade blueprint packages ([#4101][42]) ([`f8606cf`][43])
 
