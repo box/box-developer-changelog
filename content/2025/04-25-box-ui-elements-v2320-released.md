@@ -20,7 +20,7 @@ collapse: true
 
 ### Features
 
-* **message-center:** Pass badgeCount to ButtonComponent ([#4068][6]) ([`e316267`][7])
+* **message-center:** Pass `badgeCount` to `ButtonComponent` ([#4068][6]) ([`e316267`][7])
 * **unified-share-modal:** add remove collaborators ([#4070][8]) ([`4645733`][9])
 
 [1]: https://github.com/box/box-ui-elements/compare/v23.1.0...v23.2.0
