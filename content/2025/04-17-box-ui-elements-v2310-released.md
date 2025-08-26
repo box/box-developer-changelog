@@ -16,7 +16,7 @@ collapse: true
 ### Bug Fixes
 
 * **axios:** Bump Axios to 0.30.0 ([#4039][2]) ([`e212834`][3])
-* **content-explorer:** Add default dimension to ItemListIcon ([#4052][4]) ([`900757c`][5])
+* **content-explorer:** Add default dimension to `ItemListIcon` ([#4052][4]) ([`900757c`][5])
 * **content-explorer:** improve theming feature ([#4045][6]) ([`5ad4a94`][7])
 * **content-explorer:** remove base styles ([#4063][8]) ([`071f5b9`][9])
 * **i18n:** update translations ([#4038][10]) ([`2977e50`][11])
@@ -29,13 +29,13 @@ collapse: true
 * **metadata-editor:** Handle new taxonomy API ([#4049][24]) ([`ed622af`][25])
 * **stylelint:** Bump to v16 ([#4058][26]) ([`db6c93e`][27])
 * **uaa-parity:** Display error message for UAA errors ([#4035][28]) ([`f9e9f35`][29])
-* **uaa-parity:** Not showing fallback promoted_by user for empty promoted_by user ([#4043][30]) ([`a586a0a`][31])
+* **uaa-parity:** Not showing fallback `promoted_by user` for empty `promoted_by user` ([#4043][30]) ([`a586a0a`][31])
 
 ### Features
 
-* **content-explorer:** Add feature flag for MetadataViewList redesign ([#4061][32]) ([`5d0c716`][33])
+* **content-explorer:** Add feature flag for `MetadataViewList` redesign ([#4061][32]) ([`5d0c716`][33])
 * **content-explorer:** enable independent theming ([#4062][34]) ([`a67be72`][35])
-* **content-picker:** Add MoreOptions button to rows ([#4036][36]) ([`f3667dc`][37])
+* **content-picker:** Add `MoreOptions` button to rows ([#4036][36]) ([`f3667dc`][37])
 * **content-sidebar:** added support for feedback tooltip in Box AI ([#4059][38]) ([`b09cbf3`][39])
 * **doc-first-pages:** Add webp xrep header ([#4054][40]) ([`ca41b1a`][41])
 * **metadata-sidebar:** Control Multilevel Taxonomy ([#4037][42]) ([`f705927`][43])
