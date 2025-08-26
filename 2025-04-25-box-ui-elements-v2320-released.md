@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-04-29-box-java-sdk-v4161-released
-previous_page_id: 2025-04-15-box-java-sdk-v4160-released
+previous_page_id: 2025-04-17-box-ui-elements-v2310-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/04-25-box-ui-elements-v2320-released.md
 published_at: '2025-04-25'
