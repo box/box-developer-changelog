@@ -26,11 +26,11 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support AI Extract endpoints ([#574][1]) ([`0b4ff6b`][2])
+* AI抽出エンドポイントをサポート ([#574][1]) ([`0b4ff6b`][2])
 
 ### バグ修正
 
-* Remove incorrect `process.stderr.setEncoding` call ([`486779e`][3]), closes [#571][4]
+* 正しくない`process.stderr.setEncoding`コールを削除 ([`486779e`][3])、[#571][4]をクローズ
 
 [1]: https://github.com/box/boxcli/issues/574
 

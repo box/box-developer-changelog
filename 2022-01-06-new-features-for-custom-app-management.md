@@ -23,22 +23,22 @@ source_url: >-
 published_at: '2022-01-06'
 fullyTranslated: true
 ---
-# New Features For Platform App Management
+# Platformアプリ管理の新機能
 
 <!--alex ignore -->
 
-Today, we released changes to the Platform Apps Manager section of the Box Admin Console. Now, you can more easily view and manage enablement of platform OAuth 2.0 Applications.
+Box管理コンソールの \[Platformアプリマネージャ] セクションへの変更をリリースしました。これにより、OAuth 2.0 Platformアプリケーションの有効化をより簡単に表示および管理できるようになります。
 
 <!--alex enable -->
 
 <!-- more -->
 
-In addition to adding new functionality, we also made updates to the UI of the Platform Apps Manager. For more information on the changes and authorizing apps that use the Box API, check out the [blog post][2].
+新しい機能の追加のほか、\[Platformアプリマネージャ] のUIも更新しました。Box APIを使用するアプリの変更および承認に関する詳細については、[ブログ][2]を参照してください。
 
 ## 更新内容
 
-* Screenshots have been updated on the [authorization][3], [platform app approval][4], [limited access approval][5], and [security][6] guide pages
-* Information on the OAuth 2.0 platform application approval process has been added to the [platform app approval][4] guide page
+* [承認][3]、[Platformアプリの承認][4]、[アクセス制限付きアプリの承認][5]、[セキュリティ][6]ページのスクリーンショットを更新
+* [Platformアプリの承認][4]ページにOAuth 2.0 Platformアプリケーションの承認プロセスに関する情報を追加
 
 ## サポート情報
 

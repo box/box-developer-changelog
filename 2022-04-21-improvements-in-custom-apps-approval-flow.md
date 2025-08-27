@@ -23,17 +23,17 @@ source_url: >-
 published_at: '2022-04-21'
 fullyTranslated: true
 ---
-# Improvements In Platform Apps Approval Flow
+# Platformアプリの承認フローの改善
 
-Today we added further improvements to the platform apps approval flow. As a result, you can now use a new **Enablement** tab in Developer Console to directly request a Box Admin to enable OAuth 2.0 platform apps.
+Platformアプリの承認フローをさらに改善しました。開発者コンソールの新しい \[**有効化**] タブを使用して、Box管理者に対してOAuth 2.0 Platformアプリを有効化するよう直接リクエストできます。
 
-Additionally, Box Admins can use Platform Apps Manager to view and enable platform apps in Admin Console.
+さらに、Box管理者は、管理コンソールでPlatformアプリマネージャを使用して、Platformアプリを表示および有効化できます。
 
 ## 更新内容
 
-* **Enablement** tab was added for OAuth 2.0 platform apps.
-* Information on enabling OAuth 2.0 platform applications has been added to the [platform app approval][2] guide page.
-* Screenshots have been updated on the [platform app approval][2] and [setup with OAuth 2.0][3] guide pages.
+* OAuth 2.0 Platformアプリ用の \[**有効化**] タブを追加
+* [Platformアプリの承認][2]ページにOAuth 2.0 Platformアプリケーションの有効化に関する情報を追加
+* [Platformアプリの承認][2]および[OAuth 2.0を使用した設定][3]ページのスクリーンショットを更新
 
 ## サポート情報
 

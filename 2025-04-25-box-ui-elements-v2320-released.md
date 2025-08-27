@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-04-29-box-java-sdk-v4161-released
-previous_page_id: 2025-04-15-box-java-sdk-v4160-released
+previous_page_id: 2025-04-17-box-ui-elements-v2310-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/04-25-box-ui-elements-v2320-released.md
 published_at: '2025-04-25'
@@ -29,13 +29,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **content-answers:** fix CSS variable ([#4074][2]) ([`393d83b`][3])
-* **i18n:** update translations ([#4072][4]) ([`dc1cf01`][5])
+* **content-answers:** CSS変数を修正 ([#4074][2]) ([`393d83b`][3])
+* **i18n:** 翻訳を更新 ([#4072][4]) ([`dc1cf01`][5])
 
 ### 機能
 
-* **message-center:** Pass `badgeCount` to `ButtonComponent` ([#4068][6]) ([`e316267`][7])
-* **unified-share-modal:** add remove collaborators ([#4070][8]) ([`4645733`][9])
+* **message-center:** `badgeCount`を`ButtonComponent`に渡す ([#4068][6]) ([`e316267`][7])
+* **unified-share-modal:** コラボレータの削除を追加 ([#4070][8]) ([`4645733`][9])
 
 [1]: https://github.com/box/box-ui-elements/compare/v23.1.0...v23.2.0
 
