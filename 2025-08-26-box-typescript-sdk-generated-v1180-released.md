@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### バグ修正
 
-* bump form-data to 4.0.4 and types/node-fetch to 2.6.13 (box/box-codegen[#808][1]) ([#735][2]) ([`7330b95`][3])
-* Fix serialization for `MetadataFilterValue` (box/box-codegen[#800][4]) ([#727][5]) ([`d046405`][6])
+* form-dataを4.0.4、types/node-fetchを2.6.13に昇格 (box/box-codegen[#808][1]) ([#735][2]) ([`7330b95`][3])
+* `MetadataFilterValue`のシリアル化を修正 (box/box-codegen[#800][4]) ([#727][5]) ([`d046405`][6])
 
 ### 新機能と機能強化
 
-* Support event with long polling in Python and TS (box/box-codegen[#757][7]) ([#712][8]) ([`6f25fda`][9])
+* PythonおよびTSでLong pollingを行うイベントをサポート (box/box-codegen[#757][7]) ([#712][8]) ([`6f25fda`][9])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/808
 

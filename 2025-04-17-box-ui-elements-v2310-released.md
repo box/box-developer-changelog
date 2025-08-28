@@ -25,35 +25,35 @@ fullyTranslated: true
 ---
 # Box UI Elements `v23.1.0`のリリース
 
-# [23.1.0][1] (2025-04-17)
+# [23.1.0][1] (2025/04/17)
 
 ### バグ修正
 
-* **axios:** Bump Axios to 0.30.0 ([#4039][2]) ([`e212834`][3])
-* **content-explorer:** Add default dimension to `ItemListIcon` ([#4052][4]) ([`900757c`][5])
-* **content-explorer:** improve theming feature ([#4045][6]) ([`5ad4a94`][7])
-* **content-explorer:** remove base styles ([#4063][8]) ([`071f5b9`][9])
-* **i18n:** update translations ([#4038][10]) ([`2977e50`][11])
-* **i18n:** update translations ([#4040][12]) ([`6c89353`][13])
-* **i18n:** update translations ([#4050][14]) ([`a6b5074`][15])
-* **i18n:** update translations ([#4051][16]) ([`4f74362`][17])
-* **i18n:** update translations ([#4056][18]) ([`5d2e63b`][19])
-* **ip:** remove resolution ([#4057][20]) ([`8ad6f71`][21])
-* **item-options:** render correctly when item actions are filtered ([#4042][22]) ([`ab56916`][23])
-* **metadata-editor:** Handle new taxonomy API ([#4049][24]) ([`ed622af`][25])
-* **stylelint:** Bump to v16 ([#4058][26]) ([`db6c93e`][27])
-* **uaa-parity:** Display error message for UAA errors ([#4035][28]) ([`f9e9f35`][29])
-* **uaa-parity:** Not showing fallback `promoted_by user` for empty `promoted_by user` ([#4043][30]) ([`a586a0a`][31])
+* **axios:** Axiosを0.30.0に昇格 ([#4039][2]) ([`e212834`][3])
+* **content-explorer:** `ItemListIcon`にデフォルトのサイズを追加 ([#4052][4]) ([`900757c`][5])
+* **content-explorer:** テーマ設定機能を改善 ([#4045][6]) ([`5ad4a94`][7])
+* **content-explorer:** ベースとなるスタイルを削除 ([#4063][8]) ([`071f5b9`][9])
+* **i18n:** 翻訳を更新 ([#4038][10]) ([`2977e50`][11])
+* **i18n:** 翻訳を更新 ([#4040][12]) ([`6c89353`][13])
+* **i18n:** 翻訳を更新 ([#4050][14]) ([`a6b5074`][15])
+* **i18n:** 翻訳を更新 ([#4051][16]) ([`4f74362`][17])
+* **i18n:** 翻訳を更新 ([#4056][18]) ([`5d2e63b`][19])
+* **ip:** resolutionsを削除 ([#4057][20]) ([`8ad6f71`][21])
+* **item-options:** 項目の操作にフィルタがかけられたときに正しくレンダリング ([#4042][22]) ([`ab56916`][23])
+* **metadata-editor:** 新しいメタデータ階層APIを処理 ([#4049][24]) ([`ed622af`][25])
+* **stylelint:** v16に昇格 ([#4058][26]) ([`db6c93e`][27])
+* **uaa-parity:** UAAエラーのエラーメッセージを表示 ([#4035][28]) ([`f9e9f35`][29])
+* **uaa-parity:** 空の`promoted_by user`に対するフォールバックの`promoted_by user`を表示しない ([#4043][30]) ([`a586a0a`][31])
 
 ### 機能
 
-* **content-explorer:** Add feature flag for `MetadataViewList` redesign ([#4061][32]) ([`5d0c716`][33])
-* **content-explorer:** enable independent theming ([#4062][34]) ([`a67be72`][35])
-* **content-picker:** Add `MoreOptions` button to rows ([#4036][36]) ([`f3667dc`][37])
-* **content-sidebar:** added support for feedback tooltip in Box AI ([#4059][38]) ([`b09cbf3`][39])
-* **doc-first-pages:** Add webp xrep header ([#4054][40]) ([`ca41b1a`][41])
-* **metadata-sidebar:** Control Multilevel Taxonomy ([#4037][42]) ([`f705927`][43])
-* **metadata-sidebar:** Multilevel taxonomy integration ([#4044][44]) ([`8a794ad`][45])
+* **content-explorer:** `MetadataViewList`のデザイン変更に関する機能フラグを追加 ([#4061][32]) ([`5d0c716`][33])
+* **content-explorer:** 独立したテーマ設定を有効化 ([#4062][34]) ([`a67be72`][35])
+* **content-picker:** `MoreOptions`ボタンを行に追加 ([#4036][36]) ([`f3667dc`][37])
+* **content-sidebar:** Box AIのフィードバックのツールチップに対するサポートを追加 ([#4059][38]) ([`b09cbf3`][39])
+* **doc-first-pages:** webp xrepヘッダーを追加 ([#4054][40]) ([`ca41b1a`][41])
+* **metadata-sidebar:** 複数レベルのメタデータ階層を制御 ([#4037][42]) ([`f705927`][43])
+* **metadata-sidebar:** 複数レベルのメタデータ階層の統合 ([#4044][44]) ([`8a794ad`][45])
 
 [1]: https://github.com/box/box-ui-elements/compare/v23.0.0...v23.1.0
 

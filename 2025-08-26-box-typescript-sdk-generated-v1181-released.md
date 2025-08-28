@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* correct import and export handling (box/box-codegen[#801][1]) ([#738][2]) ([`cea513f`][3])
+* インポートおよびエクスポートの処理を修正 (box/box-codegen[#801][1]) ([#738][2]) ([`cea513f`][3])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/801
 
