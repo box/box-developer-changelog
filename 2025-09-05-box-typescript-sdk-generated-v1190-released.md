@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2025-09-05-box-python-sdk-generated-v1170-released
+previous_page_id: 2025-09-05-box-swift-sdk-generated-063-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/09-05-box-typescript-sdk-generated-v1190-released.md
 published_at: '2025-09-05'
