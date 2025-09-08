@@ -27,11 +27,11 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Remove private access modifiers (box/box-codegen[#815][1]) ([#747][2]) ([`1693ddc`][3])
+* privateアクセス修飾子を削除 (box/box-codegen[#815][1]) ([#747][2]) ([`1693ddc`][3])
 
 ### 新機能と機能強化
 
-* Add missing webhook events (box/box-openapi[#554][4]) ([#753][5]) ([`2b77c98`][6])
+* 不足していたWebhookイベントを追加 (box/box-openapi[#554][4]) ([#753][5]) ([`2b77c98`][6])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/815
 

@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add missing webhook events (box/box-openapi[#554][1]) ([#708][2]) ([`3d25542`][3])
-* Support event with long polling (box/box-codegen[#757][4]) ([#673][5]) ([`481fbeb`][6])
+* 不足していたWebhookイベントを追加 (box/box-openapi[#554][1]) ([#708][2]) ([`3d25542`][3])
+* Long pollingを行うイベントをサポート (box/box-codegen[#757][4]) ([#673][5]) ([`481fbeb`][6])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/554
 

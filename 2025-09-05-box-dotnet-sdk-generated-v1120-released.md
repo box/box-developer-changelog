@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add missing webhook events (box/box-openapi[#554][1]) ([#600][2]) ([`46c6d33`][3])
+* 不足していたWebhookイベントを追加 (box/box-openapi[#554][1]) ([#600][2]) ([`46c6d33`][3])
 
 [1]: https://github.com/box/box-dotnet-sdk-gen/issues/554
 

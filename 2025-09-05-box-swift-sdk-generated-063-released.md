@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add missing webhook events (box/box-openapi[#554][1]) ([#581][2]) ([`966d171`][3])
+* 不足していたWebhookイベントを追加 (box/box-openapi[#554][1]) ([#581][2]) ([`966d171`][3])
 
 [1]: https://github.com/box/box-swift-sdk-gen/issues/554
 
