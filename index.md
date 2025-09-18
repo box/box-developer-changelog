@@ -21,3 +21,6 @@ source_url: 'https://github.com/box/box-developer-changelog/blob/main/content/in
 published_at: null
 ---
 # Changelog
+
+All release notes for Box Platform,
+including the APIs, SDKs, Box UI elements, CLI and Box AI.
