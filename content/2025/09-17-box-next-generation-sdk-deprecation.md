@@ -24,7 +24,7 @@ In keeping with industry best practices, we are consolidating the Box Next Gener
 
 All future development, including new features and updates for the Next Generation SDKs, will be delivered through Box core SDKs starting with version `v10`. Currently, `v10` is available as a separate branch.
 
-For more information and migration guides, see the [SDK versioning strategy document][versioning]. Follow developer changelog for future updates.
+For more information and migration guides, see the [SDK versioning strategy document][versioning]. Follow the developer changelog for future updates.
 
 ## Where to get support
 
