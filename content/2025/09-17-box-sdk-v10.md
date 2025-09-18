@@ -19,6 +19,8 @@ release_source_url: ''
 
 Introducing Box SDK `v10`, a major release designed to elevate your developer experience and streamline integration with Box Content Cloud. Currently available as a separate branch for each SDK, `v10` will ultimately become the main branch.
 
+<!-- more -->
+
 What's new in `v10`:
 
 * Full API Support — Complete coverage of the Box API ecosystem, giving you access to all the latest features and functionalities to build feature-rich applications.
