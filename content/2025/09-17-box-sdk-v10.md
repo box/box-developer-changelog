@@ -29,7 +29,7 @@ What's new in `v10`:
 * Enhanced convenience Methods — New methods for authentication, chunk uploads, automatic retries, retry strategy, and more.
 
 This version includes the Box Next Generation SDK artifact, previously developed in parallel to Box core SDKs. To facilitate migration and provide access to the newest features, we'll soon release an additional major version containing both artifacts.
-No immediate action required — If you're using the current SDK version, your existing code will continue to work without changes. However, migrating to `v10` includes breaking changes. For more information and migration guides, see the [SDK versioning strategy document][versioning]. Follow developer changelog for future updates.
+No immediate action required — If you're using the current SDK version, your existing code will continue to work without changes. However, migrating to `v10` includes breaking changes. For more information and migration guides, see the [SDK versioning strategy document][versioning]. Follow the developer changelog for future updates.
 
 ## Where to get support
 
