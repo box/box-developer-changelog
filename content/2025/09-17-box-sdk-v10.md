@@ -15,9 +15,9 @@ show_excerpt: true
 release_source_url: ''
 ---
 
-# Box SDK `v10`
+# Box SDKs `v10`
 
-Introducing Box SDK `v10`, a major release designed to elevate your developer experience and streamline integration with Box Content Cloud. Currently available as a separate branch for each SDK, `v10` will ultimately become the main branch.
+Introducing Box SDKs `v10`, a major release designed to elevate your developer experience and streamline integration with Box Content Cloud. Currently available as a separate branch for each SDK, `v10` will ultimately become the main branch.
 
 <!-- more -->
 
