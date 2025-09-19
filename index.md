@@ -22,3 +22,5 @@ published_at: null
 fullyTranslated: true
 ---
 # 変更ログ
+
+All release notes for Box Platform, including the APIs, SDKs, Box UI elements, CLI and Box AI.
