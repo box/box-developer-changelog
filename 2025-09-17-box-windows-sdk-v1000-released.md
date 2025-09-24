@@ -25,46 +25,46 @@ fullyTranslated: true
 ---
 # Box Windows SDK `v10.0.0`のリリース
 
-Introducing **`Box SDK v10`**, a major release designed to elevate your developer experience and streamline integration with Box Content Cloud. Currently available as a separate [`sdk-gen`][1] branch, `v10` will ultimately become the main branch.
+開発者エクスペリエンスを向上させ、Boxコンテンツクラウドとの統合を効率化する、**`Box SDK v10`**を導入しました。現在は個別の[`sdk-gen`][1]ブランチとして利用可能な`v10`が、最終的にメインブランチになります。
 
 ### 重大な変更
 
-* This SDK version is auto-generated and introduces a new interface for all methods. Extensive documentation is available [here][2].
+* このSDKのバージョンは、自動生成されており、すべてのメソッドに新しいインターフェースを導入しています。詳細なドキュメントについては、[こちら][2]を参照してください。
 
-### What's New in `v10`
+### `v10`の新機能
 
-* **Full API Support** — Complete coverage of the Box API ecosystem, giving you access to all the latest features and functionalities to build feature-rich applications.
+* **APIの全面的なサポート** — Box APIエコシステム全体がカバーされるため、最新機能をすべて利用して、機能豊富なアプリケーションを作成できます。
 
-* **Rapid API Updates** — Our new auto-generation approach enables Box API additions within days, ensuring you can leverage the most up-to-date features without delay.
+* **迅速なAPIの更新** — Boxの自動生成による新しいアプローチにより、数日以内にBox APIの追加が可能になり、最新の機能をすぐに利用できるようになります。
 
-* **Embedded Documentation** — All objects and parameters are documented directly in the SDK source code, keeping essential information in one place.
+* **ドキュメントへの埋め込み** — すべてのオブジェクトおよびパラメータはSDKのソースコードに直接記述され、必要な情報が1か所で保持されます。
 
-* **Enhanced Convenience Methods** — New methods for authentication, chunk uploads, automatic retries, retry strategy, and more.
+* **便利なメソッドの強化** — 認証、分割アップロード、自動再試行、再試行戦略などに対応した新しいメソッド。
 
-### Important Notes
+### 重要な注意事項
 
-This version includes the Box Next Generation SDK artifact, previously developed in parallel to core Box SDKs. To facilitate migration and provide access to the newest features, we'll soon release an additional major version combining both artifacts. Migration to `v10` includes breaking changes, please review the [migration guide][3] for details. For more information, see the [SDK versioning strategy document][4]. Follow developer changelog for future updates.
+このバージョンには、核となるBox SDKと並行して以前に開発された、Boxの次世代のSDKのアーティファクトが含まれています。Boxでは、移行を促進し、最新の機能を利用できるようにするため、まもなく、両方のアーティファクトを兼ね備えたメジャーバージョンを追加でリリースする予定です。`v10`への移行には重大な変更が含まれるため、詳細については[移行ガイド][3]を確認してください。詳細については、[SDKのバージョン戦略に関するドキュメント][4]を参照してください。今後の更新については、開発者向け変更ログをフォローしてください。
 ---
-### What’s New Compared to [Dotnet SDK Gen][5] `v1.12.0`
+### 新機能 ([Dotnet SDK Gen][5] `v1.12.0`との比較)
 
 #### ⚠ 重大な変更
 
-* Change names of unions (box/box-openapi[#549][6]) ([#1007][7]) ([`fcef4ec`][8])
-* Remove unused models from schemas (box/box-openapi[#547][9]) ([#999][10]) ([`ffcb488`][11])
+* 共用体の名前を変更 (box/box-openapi[#549][6]) ([#1007][7]) ([`fcef4ec`][8])
+* スキーマから未使用のモデルを削除 (box/box-openapi[#547][9]) ([#999][10]) ([`ffcb488`][11])
 
 #### バグ修正
 
-* Fix `net462` debug build ([#1020][12]) ([`04f8343`][13])
-* Rename external user deletion method (box/box-codegen[#796][14]) ([#1024][15]) ([`13928c5`][16])
+* `net462`のデバッグビルドを修正 ([#1020][12]) ([`04f8343`][13])
+* 外部ユーザー削除メソッドの名前を変更 (box/box-codegen[#796][14]) ([#1024][15]) ([`13928c5`][16])
 
 #### 新機能と機能強化
 
-* Add External User Deletion API (box/box-openapi[#550][17]) ([#1009][18]) ([`2178bc8`][19])
-* Add missing webhook events (box/box-openapi[#554][20]) ([#1068][21]) ([`7fe3b99`][22])
-* Add Net Framework 462 support for `v10` (box/box-codegen[#773][23]) ([#986][24]) ([`67366c7`][25])
-* Allow injecting custom decryption mechanism for `jwt` ([#974][26]) ([`b877355`][27])
+* 外部ユーザー削除APIを追加 (box/box-openapi[#550][17]) ([#1009][18]) ([`2178bc8`][19])
+* 不足していたWebhookイベントを追加 (box/box-openapi[#554][20]) ([#1068][21]) ([`7fe3b99`][22])
+* `v10`用に.Net Framework 4.6.2のサポートを追加 (box/box-codegen[#773][23]) ([#986][24]) ([`67366c7`][25])
+* `jwt`のカスタム復号メカニズムの挿入を許可 ([#974][26]) ([`b877355`][27])
 
-For more details check [migration guide][28] from `box-dotnet-sdk-gen` `v1` to `box-windows-sdk-v2` `v10`.
+詳細については、`box-dotnet-sdk-gen` `v1`から`box-windows-sdk-v2` `v10`への[移行ガイド][28]をご確認ください。
 
 [1]: https://github.com/box/box-windows-sdk-v2/tree/sdk-gen
 
