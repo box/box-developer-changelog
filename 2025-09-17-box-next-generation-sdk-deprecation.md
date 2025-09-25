@@ -28,17 +28,17 @@ source_url: >-
 published_at: '2025-09-17'
 fullyTranslated: true
 ---
-# Box Next Generation SDK deprecation
+# Boxの次世代SDKの公式サポート終了
 
-As of September 17, 2025 Box Next Generation SDKs are no longer supported as separate artifacts. Don’t worry, your existing code will continue to work without changes. You can still use your applications based on Box Next Generation SDKs with no impact, but you won't receive new features, updates, or bug fixes.
+日本時間2025年9月18日をもって、Boxの次世代SDKは、個別のアーティファクトとしてサポートされなくなりました。既存のコードは、変更しなくても引き続き動作します。Boxの次世代SDKをベースにしたアプリケーションは影響なく引き続きご利用いただけますが、新機能、更新、バグ修正は提供されなくなります。
 
 <!-- more -->
 
-In keeping with industry best practices, we are consolidating the Box Next Generation SDKs and Box core SDKs into a single package for each programming language. This makes migration efforts much easier and allows seamless addition of new capabilities to existing applications still powered by Box core SDKs, which were maintained manually.
+Boxでは、業界のベストプラクティスに従って、プログラミング言語ごとにBoxの次世代SDKとBoxコアSDKを1つのパッケージに統合します。これにより、移行作業がさらに容易になり、手動で管理されていたBoxコアSDKを引き続き使用している既存のアプリケーションに新機能をシームレスに追加できるようになります。
 
-All future development, including new features and updates for the Next Generation SDKs, will be delivered through Box core SDKs starting with version `v10`. Currently, `v10` is available as a separate branch.
+次世代SDK向けの新機能や更新を含む、今後の開発はすべて、`v10`以降のBoxコアSDKを通じて提供されます。現在、`v10`は個別のブランチとして提供されています。
 
-For more information and migration guides, see the [SDK versioning strategy document][versioning]. Follow the developer changelog for future updates.
+詳細や移行ガイドについては、[SDKのバージョン戦略に関するドキュメント][versioning]を参照してください。今後の更新については、開発者向け変更ログをフォローしてください。
 
 ## サポート情報
 

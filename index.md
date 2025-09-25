@@ -23,4 +23,4 @@ fullyTranslated: true
 ---
 # 変更ログ
 
-All release notes for Box Platform, including the APIs, SDKs, Box UI elements, CLI and Box AI.
+Box Platform (API、SDK、Box UI Elements、CLI、Box AIを含む) に関するすべてのリリースノート。
