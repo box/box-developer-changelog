@@ -9,7 +9,7 @@ collapse: true
 show_excerpt: true
 ---
 
-# Metadata view v2 in Content Explorer
+# Metadata view `v2` in Content Explorer
 
 We introduced `v2` of the [metadata view in the Box Content Explorer][1] UI element.
 It's a ground-up redesign of the original version, introducing a streamlined interface tailored for metadata-driven workflows. 
@@ -22,10 +22,10 @@ It's a ground-up redesign of the original version, introducing a streamlined int
 
 <!-- more -->
 
-## Migration from v1 to v2
+## Migration from `v1` to `v2`
 
-The v1 of the metadata view Content Explorer has reached end of support and it will no longer receive bug fixes or new features. 
-We recommend to migrate to the new v2 metadata view. See the [migration guide][3] for a detailed instruction.
+The `v1` of the metadata view Content Explorer has reached end of support and it will no longer receive bug fixes or new features. 
+We recommend to migrate to the new `v2` metadata view. See the [migration guide][3] for a detailed instruction.
 
 ## Where to get support
 
