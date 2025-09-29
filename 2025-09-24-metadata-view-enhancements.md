@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-09-29-box-cli-v431-released
 previous_page_id: 2025-09-17-box-windows-sdk-v1000-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/09-24-metadata-view-enhancements.md
