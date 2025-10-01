@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix multi item mode in `ai:ask` command ([#593][1]) ([`5081d43`][2])
+* `ai:ask`コマンドの複数項目モードを修正 ([#593][1]) ([`5081d43`][2])
 
 [1]: https://github.com/box/boxcli/issues/593
 

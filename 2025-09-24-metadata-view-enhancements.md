@@ -23,21 +23,21 @@ source_url: >-
 published_at: '2025-09-24'
 fullyTranslated: true
 ---
-# Metadata view `v2` in Content Explorer
+# コンテンツエクスプローラのメタデータビュー`v2`
 
-We introduced `v2` of the [metadata view in the Box Content Explorer][1] UI element. It's a ground-up redesign of the original version, introducing a streamlined interface tailored for metadata-driven workflows.
+[Box Content Explorer UI Elementのメタデータビュー][1]の`v2`を導入しました。元のバージョンのデザインが根本から変更されており、メタデータ駆動型ワークフローに合わせて合理化されたインターフェースが導入されています。
 
-## Key features
+## 主な機能
 
-* filtering and editing interfaces with dedicated UI for each metadata field type,
-* flexible display options with list and grid views,
-* pagination support.
+* メタデータフィールドのタイプごとに専用のUIを備えたフィルタおよび編集用のインターフェース
+* リストビューとグリッドビューを使用した柔軟な表示オプション
+* ページ割りのサポート
 
 <!-- more -->
 
-## Migration from `v1` to `v2`
+## `v1`から`v2`への移行
 
-The `v1` of the metadata view Content Explorer has reached end of support and it will no longer receive bug fixes or new features. We recommend to migrate to the new `v2` metadata view. See the [migration guide][3] for a detailed instruction.
+コンテンツエクスプローラのメタデータビューの`v1`は公式サポートが終了しているため、バグ修正や新機能は提供されなくなります。Boxでは、新しい`v2`のメタデータビューに移行することをお勧めします。詳細な手順については、[移行ガイド][3]を参照してください。
 
 ## サポート情報
 
