@@ -15,8 +15,8 @@ collapse: true
 
 ### Bug Fixes
 
-* **classification:** use AsyncLoad for AppliedByAiClassificationReason ([#4274][2]) ([`b80df38`][3])
-* **common:** Remove findDOMNode from makeDroppable (BREAKING CHANGE) ([#4276][4]) ([`c3bcad3`][5])
+* **classification:** use `AsyncLoad` for `AppliedByAiClassificationReason` ([#4274][2]) ([`b80df38`][3])
+* **common:** Remove `findDOMNode` from `makeDroppable` (BREAKING CHANGE) ([#4276][4]) ([`c3bcad3`][5])
 * **i18n:** update translations ([#4269][6]) ([`d27c054`][7])
 * **i18n:** update translations ([#4272][8]) ([`9f3520b`][9])
 * **i18n:** update translations ([#4277][10]) ([`23b27f6`][11])
@@ -27,9 +27,9 @@ collapse: true
 
 ### Features
 
-* **classification:** AppliedByAiClassificationReason card to support empty reason ([#4279][20]) ([`cb04234`][21])
+* **classification:** `AppliedByAiClassificationReason` card to support empty reason ([#4279][20]) ([`cb04234`][21])
 * **classification:** support AI reasoning and new applied by labels ([#4271][22]) ([`681bace`][23])
-* **content-sharing:** Create ContentSharingV2 component ([#4282][24]) ([`ef49c77`][25])
+* **content-sharing:** Create `ContentSharingV2` component ([#4282][24]) ([`ef49c77`][25])
 * **metadata-view:** bump metadata view version ([#4287][26]) ([`f5887d7`][27])
 * **metadata-view:** update blueprint web version ([#4288][28]) ([`6d599a3`][29])
 * **timestamped-comments:** enable timestamp handling in sidebar ([#4275][30]) ([`7f9defa`][31]), closes [#4226][32] [#4230][33] [#4274][2]
@@ -37,8 +37,8 @@ collapse: true
 
 ### BREAKING CHANGES
 
-* **common:** Wrapped component of makeDroppable must have ref prop,
-    i.e. with React.forwardRef
+* **common:** Wrapped component of `makeDroppable` must have ref prop,
+    for example with `React.forwardRef`
 
 * fix: Clean up tests
 
