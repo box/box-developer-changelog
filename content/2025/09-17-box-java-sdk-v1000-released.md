@@ -35,10 +35,12 @@ This version includes the Box Next Generation SDK artifact, previously developed
 
 ### What’s New Compared to [Java SDK Gen][5] `v0.8.1`
 
+<!--alex ignore -->
+
 #### ⚠ BREAKING CHANGES
 
 * Change names of unions (box/box-codegen[#787][6]) ([#1359][7]) ([`114e778`][8])
-* Remove unused models from schemas (box/box-openapi[#547][9]) ([#1354][10]) ([`e031308`][11]), closes [box/box-openapi#542][12] [box/box-openapi#544][13] [box/box-codegen#781][14] [box/box-openapi#545][15] [box/box-codegen#782][16]
+* Remove unused models from schemas (box/box-openapi[#547][9]) ([#1354][10]) ([`e031308`][11]), closes [box/`box-openapi#542`][12] [box/`box-openapi#544`][13] [box/`box-codegen#781`][14] [box/`box-openapi#545`][15] [`box/box-codegen#782`][16]
 * Replace `Date` with `OffsetDateTime` (box/box-codegen[#826][17]) ([#1419][18]) ([`ed04407`][19])
 
 #### New Features and Enhancements
