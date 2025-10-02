@@ -16,7 +16,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2025-09-24-metadata-view-enhancements
+previous_page_id: 2025-09-26-box-ui-elements-v2500-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/09-29-box-cli-v431-released.md
 published_at: '2025-09-29'
