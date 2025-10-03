@@ -12,11 +12,11 @@ show_excerpt: true
 
 # Salesforce Developer Toolkit updates
 
-The developer guides for the [Salesforce Developer Toolkit](7) have been updated to include:
- - Methods and operations for [Box Sign](1) and [Box Hubs](2)
- - Code samples for [Box Sign](3) and [Box Hubs](4)
- - All methods that can be invoked in [Salesforce Flows](5)
- - Methods in Agentforce Flows for [Box Hubs](6) 
+The developer guides for the [Salesforce Developer Toolkit][7] have been updated to include:
+ - Methods and operations for [Box Sign][1] and [Box Hubs][2]
+ - Code samples for [Box Sign][3] and [Box Hubs][4]
+ - All methods that can be invoked in [Salesforce Flows][5]
+ - Methods in Agentforce Flows for [Box Hubs][6] 
 
 
 [1]: https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-sign
