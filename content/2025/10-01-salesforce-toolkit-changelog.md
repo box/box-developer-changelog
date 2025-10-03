@@ -12,17 +12,8 @@ show_excerpt: true
 
 # Salesforce Developer Toolkit updates
 
-The developer guides for the [Salesforce Developer Toolkit](7) have been updated to include:
- - Methods and operations for [Box Sign](1) and [Box Hubs](2)
- - Code samples for [Box Sign](3) and [Box Hubs](4)
- - All methods that can be invoked in [Salesforce Flows](5)
- - Methods in Agentforce Flows for [Box Hubs](6) 
-
-
-[1]: https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-sign
-[2]: https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-hubs
-[3]: https://developer.box.com/guides/tooling/salesforce-toolkit/samples/#create-a-sign-request
-[4]: https://developer.box.com/guides/tooling/salesforce-toolkit/samples/#get-box-hubs
-[5]: https://developer.box.com/guides/tooling/salesforce-toolkit/flow-actions/#methods-in-salesforce-flows
-[6]: https://developer.box.com/guides/tooling/salesforce-toolkit/box-agentforce-package/#box-hubs
-[7]: https://developer.box.com/guides/tooling/salesforce-toolkit/
+The developer guides for the [Salesforce Developer Toolkit](https://developer.box.com/guides/tooling/salesforce-toolkit/) have been updated to include:
+ - Methods and operations for [Box Sign](https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-sign) and [Box Hubs](https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-hubs)
+ - Code samples for [Box Sign](https://developer.box.com/guides/tooling/salesforce-toolkit/samples/#create-a-sign-request) and [Box Hubs](https://developer.box.com/guides/tooling/salesforce-toolkit/samples/#get-box-hubs)
+ - All methods that can be invoked in [Salesforce Flows](https://developer.box.com/guides/tooling/salesforce-toolkit/flow-actions/#methods-in-salesforce-flows)
+ - Methods in Agentforce Flows for [Box Hubs](https://developer.box.com/guides/tooling/salesforce-toolkit/box-agentforce-package/#box-hubs) 
