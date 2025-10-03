@@ -25,35 +25,35 @@ fullyTranslated: true
 ---
 # Box UI Elements `v25.0.0`のリリース
 
-# [25.0.0][1] (2025-09-26)
+# [25.0.0][1] (2025/09/26)
 
 ### バグ修正
 
-* **classification:** use `AsyncLoad` for `AppliedByAiClassificationReason` ([#4274][2]) ([`b80df38`][3])
-* **common:** Remove `findDOMNode` from `makeDroppable` (BREAKING CHANGE) ([#4276][4]) ([`c3bcad3`][5])
-* **i18n:** update translations ([#4269][6]) ([`d27c054`][7])
-* **i18n:** update translations ([#4272][8]) ([`9f3520b`][9])
-* **i18n:** update translations ([#4277][10]) ([`23b27f6`][11])
-* **i18n:** update translations ([#4280][12]) ([`7c633b8`][13])
-* **i18n:** update translations ([#4289][14]) ([`8453128`][15])
-* **metadata-view:** show error state when exception is thrown ([#4270][16]) ([`246f2df`][17])
-* **metadataeditor:** portal dropdown to preview container ([#4273][18]) ([`540a957`][19])
+* **classification:** `AppliedByAiClassificationReason`に`AsyncLoad`を使用 ([#4274][2]) ([`b80df38`][3])
+* **common:** `makeDroppable`から`findDOMNode`を削除 (重大な変更) ([#4276][4]) ([`c3bcad3`][5])
+* **i18n:** 翻訳を更新 ([#4269][6]) ([`d27c054`][7])
+* **i18n:** 翻訳を更新 ([#4272][8]) ([`9f3520b`][9])
+* **i18n:** 翻訳を更新 ([#4277][10]) ([`23b27f6`][11])
+* **i18n:** 翻訳を更新 ([#4280][12]) ([`7c633b8`][13])
+* **i18n:** 翻訳を更新 ([#4289][14]) ([`8453128`][15])
+* **metadata-view:** 例外がスローされたときにエラー状態を表示 ([#4270][16]) ([`246f2df`][17])
+* **metadataeditor:** ポータルのドロップダウンでコンテナをプレビュー ([#4273][18]) ([`540a957`][19])
 
 ### 機能
 
-* **classification:** `AppliedByAiClassificationReason` card to support empty reason ([#4279][20]) ([`cb04234`][21])
-* **classification:** support AI reasoning and new applied by labels ([#4271][22]) ([`681bace`][23])
-* **content-sharing:** Create `ContentSharingV2` component ([#4282][24]) ([`ef49c77`][25])
-* **metadata-view:** bump metadata view version ([#4287][26]) ([`f5887d7`][27])
-* **metadata-view:** update blueprint web version ([#4288][28]) ([`6d599a3`][29])
-* **timestamped-comments:** enable timestamp handling in sidebar ([#4275][30]) ([`7f9defa`][31]), closes [#4226][32] [#4230][33] [#4274][2]
-* **timestamped-comments:** timestamped comments editor updates ([#4244][34]) ([`6e1bd80`][35]), closes [#4226][32] [#4230][33]
+* **classification:** `AppliedByAiClassificationReason`カードで空の理由をサポート ([#4279][20]) ([`cb04234`][21])
+* **classification:** AIによる推論と新しいapplied byラベルをサポート ([#4271][22]) ([`681bace`][23])
+* **content-sharing:** `ContentSharingV2`コンポーネントを作成 ([#4282][24]) ([`ef49c77`][25])
+* **metadata-view:** メタデータビューのバージョンを昇格 ([#4287][26]) ([`f5887d7`][27])
+* **metadata-view:** blueprintウェブバージョンを更新 ([#4288][28]) ([`6d599a3`][29])
+* **timestamped-comments:** サイドバーのタイムスタンプの処理を有効化 ([#4275][30]) ([`7f9defa`][31])、[#4226][32] [#4230][33] [#4274][2]をクローズ
+* **timestamped-comments:** タイプスタンプ付きのコメントのエディタの更新 ([#4244][34]) ([`6e1bd80`][35])、[#4226][32] [#4230][33]をクローズ
 
 ### 重大な変更
 
-* **common:** Wrapped component of `makeDroppable` must have ref prop, for example with `React.forwardRef`
+* **common:** `makeDroppable`のラップされたコンポーネントにはrefプロパティが必要 (例: `React.forwardRef`を使用)
 
-* fix: Clean up tests
+* 修正: テストをクリーンアップ
 
 [1]: https://github.com/box/box-ui-elements/compare/v24.0.0...v25.0.0
 
