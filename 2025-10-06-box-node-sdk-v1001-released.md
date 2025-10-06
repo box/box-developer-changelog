@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-10-06-box-python-sdk-v1001-released
-previous_page_id: 2025-10-03-box-java-sdk-v4164-released
+previous_page_id: 2025-10-06-box-ios-sdk-1001-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/10-06-box-node-sdk-v1001-released.md
 published_at: '2025-10-06'
