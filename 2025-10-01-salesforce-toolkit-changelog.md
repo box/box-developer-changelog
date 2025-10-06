@@ -24,14 +24,14 @@ source_url: >-
 published_at: '2025-10-01'
 fullyTranslated: true
 ---
-# Salesforce Developer Toolkit updates
+# Salesforce Developer Toolkitの更新
 
-The developer guides for the [Salesforce Developer Toolkit][7] have been updated to include:
+[Salesforce Developer Toolkit][7]に関する開発者向けガイドが更新され、以下の内容が追加されました。
 
-* Methods and operations for [Box Sign][1] and [Box Hubs][2]
-* Code samples for [Box Sign][3] and [Box Hubs][4]
-* All methods that can be invoked in [Salesforce Flows][5]
-* Methods in Agentforce Flows for [Box Hubs][6]
+* [Box Sign][1]および[Box Hubs][2]に関するメソッドと操作
+* [Box Sign][3]および[Box Hubs][4]のコードサンプル
+* [Salesforceフロー][5]で呼び出し可能なすべてのメソッド
+* [Box Hubs][6]に関するAgentforceフローのメソッド
 
 [1]: https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-sign
 

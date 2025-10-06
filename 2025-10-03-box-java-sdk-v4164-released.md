@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Bump Bouncy Castle to fix `CVE-2025-8916` ([#1454][1]) ([`a3605f4`][2])
+* `CVE-2025-8916`を修正するためにBouncy Castleを昇格 ([#1454][1]) ([`a3605f4`][2])
 
 [1]: https://github.com/box/box-java-sdk/issues/1454
 

@@ -45,19 +45,19 @@ fullyTranslated: true
 
 このバージョンには、BoxのコアSDKと並行して以前に開発された、Boxの次世代SDKのアーティファクトが含まれています。Boxでは、移行を促進し、最新の機能を利用できるようにするため、まもなく、両方のアーティファクトを兼ね備えたメジャーバージョンを追加でリリースする予定です。`v10`への移行には重大な変更が含まれるため、詳細については[移行ガイド][3]を確認してください。詳細については、[SDKのバージョン戦略に関するドキュメント][4]を参照してください。今後の更新については、開発者向け変更ログをフォローしてください。
 ---
-### What’s New Compared to [Java SDK Gen][5] `v0.8.1`
+### 新機能 ([Java SDK Gen][5] `v0.8.1`との比較)
 
 <!--alex ignore -->
 
 #### ⚠ 重大な変更
 
-* Change names of unions (box/box-codegen[#787][6]) ([#1359][7]) ([`114e778`][8])
-* Remove unused models from schemas (box/box-openapi[#547][9]) ([#1354][10]) ([`e031308`][11]), closes [box/`box-openapi#542`][12] [box/`box-openapi#544`][13] [box/`box-codegen#781`][14] [box/`box-openapi#545`][15] [`box/box-codegen#782`][16]
-* Replace `Date` with `OffsetDateTime` (box/box-codegen[#826][17]) ([#1419][18]) ([`ed04407`][19])
+* 共用体の名前を変更 (box/box-codegen[#787][6]) ([#1359][7]) ([`114e778`][8])
+* スキーマから未使用のモデルを削除 (box/box-openapi[#547][9]) ([#1354][10]) ([`e031308`][11])、[box/`box-openapi#542`][12] [box/`box-openapi#544`][13] [box/`box-codegen#781`][14] [box/`box-openapi#545`][15] [`box/box-codegen#782`][16]をクローズ
+* `Date`を`OffsetDateTime`に置き換え (box/box-codegen[#826][17]) ([#1419][18]) ([`ed04407`][19])
 
 #### 新機能と機能強化
 
-* Add proxy support (box/box-codegen[#830][20]) ([#1424][21]) ([`cc53247`][22])
+* プロキシのサポートを追加 (box/box-codegen[#830][20]) ([#1424][21]) ([`cc53247`][22])
 
 詳細については、`box-java-sdk-gen` `v0`から`box-java-sdk` `v10`への[移行ガイド][23]をご確認ください。
 
