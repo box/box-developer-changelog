@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Allow flexible key-value data in `AiExtractResponse.answer` and `Event.additionalDetails` (box/box-openapi[#556][1]) ([#1128][2]) ([`3e9a78c`][3])
-* Make `role` parameter of update collaboration optional (box/box-openapi[#557][4]) ([#1138][5]) ([`3fc5dc9`][6])
+* `AiExtractResponse.answer`および`Event.additionalDetails`で柔軟なキーと値のデータを許可 (box/box-openapi[#556][1]) ([#1128][2]) ([`3e9a78c`][3])
+* コラボレーション更新の`role`パラメータを任意化 (box/box-openapi[#557][4]) ([#1138][5]) ([`3fc5dc9`][6])
 
 [1]: https://github.com/box/box-ios-sdk/issues/556
 

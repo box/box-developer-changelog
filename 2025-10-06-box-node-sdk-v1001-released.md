@@ -27,9 +27,9 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Allow flexible key-value data in `AiExtractResponse.answer` and `Event.additionalDetails` (box/box-openapi[#556][1]) ([#1051][2]) ([`70a2275`][3])
-* Make `role` parameter of update collaboration optional (box/box-openapi[#557][4]) ([#1068][5]) ([`3992171`][6])
-* Relax JSON deserialization guard by removing strict `content-type` check (box/box-codegen[#844][7]) ([#1033][8]) ([`1eb2c32`][9])
+* `AiExtractResponse.answer`および`Event.additionalDetails`で柔軟なキーと値のデータを許可 (box/box-openapi[#556][1]) ([#1051][2]) ([`70a2275`][3])
+* コラボレーション更新の`role`パラメータを任意化 (box/box-openapi[#557][4]) ([#1068][5]) ([`3992171`][6])
+* 厳密な`content-type`のチェックを削除してJSONの逆シリアル化のガードを緩和 (box/box-codegen[#844][7]) ([#1033][8]) ([`1eb2c32`][9])
 
 [1]: https://github.com/box/box-node-sdk/issues/556
 

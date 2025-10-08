@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Allow flexible key-value data in `AiExtractResponse.answer` and `Event.additionalDetails` (box/box-openapi[#556][1]) ([#1147][2]) ([`c41a444`][3])
-* Make `role` parameter of update collaboration optional (box/box-openapi[#557][4]) ([#1156][5]) ([`8247918`][6])
+* `AiExtractResponse.answer`および`Event.additionalDetails`で柔軟なキーと値のデータを許可 (box/box-openapi[#556][1]) ([#1147][2]) ([`c41a444`][3])
+* コラボレーション更新の`role`パラメータを任意化 (box/box-openapi[#557][4]) ([#1156][5]) ([`8247918`][6])
 
 ### 新機能と機能強化
 
-* Handle Dictionary with object values deserialization (box/box-codegen[#850][7]) ([#1144][8]) ([`611b474`][9])
+* オブジェクト値の逆シリアル化でディクショナリを処理 (box/box-codegen[#850][7]) ([#1144][8]) ([`611b474`][9])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/556
 

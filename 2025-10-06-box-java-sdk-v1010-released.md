@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Allow flexible key-value data in `AiExtractResponse.answer` and `Event.additionalDetails` (box/box-openapi[#556][1]) ([#1470][2]) ([`e215a5f`][3])
-* Make `role` parameter of update collaboration optional (box/box-openapi[#557][4]) ([#1479][5]) ([`6896386`][6])
+* `AiExtractResponse.answer`および`Event.additionalDetails`で柔軟なキーと値のデータを許可 (box/box-openapi[#556][1]) ([#1470][2]) ([`e215a5f`][3])
+* コラボレーション更新の`role`パラメータを任意化 (box/box-openapi[#557][4]) ([#1479][5]) ([`6896386`][6])
 
 ### 新機能と機能強化
 
-* Add `Javadoc` comments (box/box-codegen[#839][7]) ([#1465][8]) ([`c72407d`][9])
+* `Javadoc`のコメントを追加 (box/box-codegen[#839][7]) ([#1465][8]) ([`c72407d`][9])
 
 [1]: https://github.com/box/box-java-sdk/issues/556
 
