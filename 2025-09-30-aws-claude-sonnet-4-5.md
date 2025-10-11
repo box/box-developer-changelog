@@ -1,0 +1,48 @@
+---
+applied_at: '2025-09-30'
+applies_to:
+  - guides
+  - api
+  - ai
+is_impactful: true
+is_new_feature: false
+collapse: true
+show_excerpt: true
+release_source_url: ''
+is_index: false
+category_id: changelog
+subcategory_id: ''
+id: 2025-09-30-aws-claude-sonnet-4-5
+rank: null
+total_steps: null
+type: changelog
+sibling_id: ''
+parent_id: changelog
+next_page_id: 2025-10-01-salesforce-toolkit-changelog
+previous_page_id: 2025-09-29-box-cli-v431-released
+source_url: >-
+  https://github.com/box/box-developer-changelog/blob/main/content/2025/09-30-aws-claude-sonnet-4-5.md
+published_at: '2025-09-30'
+fullyTranslated: true
+---
+# Box AI API - AWS Claude 4.5 Sonnet now available
+
+The list of [available AI models][1] has been recently updated with AWS Claude 4.5 Sonnet.
+
+**プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままでの利用となるため、モデル/出力の品質、可用性、精度にはばらつきがある可能性があります。
+
+提供されているモデルを使用して、AIエージェントの構成で使用されている[デフォルトモデルを上書き][1]できます。Box AI APIの詳細については、[ガイド][2]と[APIリファレンス][3]を参照してください。
+
+<!-- more -->
+
+## サポート情報
+
+問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][4]に英語でリクエストを投稿してください。
+
+[1]: https://developer.box.com/guides/box-ai/supported-models/
+
+[2]: https://developer.box.com/guides/box-ai
+
+[3]: https://developer.box.com/reference/post-ai-ask/
+
+[4]: https://forum.box.com/
