@@ -25,9 +25,9 @@ source_url: >-
 published_at: '2025-09-30'
 fullyTranslated: true
 ---
-# Box AI API - AWS Claude 4.5 Sonnet now available
+# Box AI API - AWS Claude 4.5 Sonnetの提供開始
 
-The list of [available AI models][1] has been recently updated with AWS Claude 4.5 Sonnet.
+[利用可能なAIモデル][1]のリストが更新され、AWS Claude 4.5 Sonnetが追加されました。
 
 **プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままでの利用となるため、モデル/出力の品質、可用性、精度にはばらつきがある可能性があります。
 
