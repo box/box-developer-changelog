@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support update users notification email ([#596][1]) ([`49356f4`][2])
+* ユーザー更新の通知メールをサポート ([#596][1]) ([`49356f4`][2])
 
 [1]: https://github.com/box/boxcli/issues/596
 
