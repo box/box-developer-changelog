@@ -16,7 +16,7 @@ release_source_url: ''
 
 # Box SDKs major version
 
-Introducing a new major release of Box SDKs that includes two packages — the manually maintained package and the generated package. The coexisting packages provide easy access to the latest Box API features and support gradual migration to the standalone generated package.
+Introducing a new major release of Box SDKs that includes two packages — the manually maintained package and the generated package. The coexisting packages provide easier access to the latest Box API features and support gradual migration to the standalone generated package.
 
 <!-- more -->
 
