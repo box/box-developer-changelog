@@ -24,12 +24,12 @@ Introducing a new major release of Box SDKs that includes two packages — the m
 
 To facilitate this migration process, there are two actively maintained major Box core SDK versions:
 
-* **The latest major version that follows sequential versioning includes:** the manually maintained package and the generated one. This SDK version enables leveraging coexisting packages at the same time, and serves as a transition phase. Support for the consolidated version of each Box core SDK will continue in 2027.
-* `v10` includes **only the generated package**, a consistent version number across all Box SDK artifacts.
+* **The latest major version that follows sequential versioning and includes** the manually maintained package and the generated one. This SDK version enables leveraging coexisting packages at the same time, and serves as a transition phase. Support for the consolidated version of each Box core SDK will continue in 2027.
+* `v10` that includes **only the generated package**, a consistent version number across all Box SDK artifacts.
 
 ## Additional information and migration guides
 
-For additional information on recommended actions and migration guides visit [Box SDK versioning strategy page][1].
+For additional information on recommended actions and migration guides, visit [Box SDK versioning strategy page][1].
 
 ## Where to get support
 
