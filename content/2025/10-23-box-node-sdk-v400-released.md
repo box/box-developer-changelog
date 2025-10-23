@@ -17,9 +17,9 @@ Introducing a new major version of Box Node SDK `v4` that includes two modules â
 
 * With `v4` of Box Node SDK, support for Node version below 18 has been dropped. While it may still be possible to download and use this SDK under Node below 18, we do not provide support for issues encountered on that version.
 
-* We have updated the module export style in the manually maintained `box-node-sdk` module to support the ES module and be more consistent with the generated `sdk-gen` module. Classes in the manual SDK are now exported as default exports from their respective files. When importing via CommonJS (`require`), use `.default` to access the class (e.g., `const BoxSDK = require('box-node-sdk').default;`).
+* We have updated the module export style in the manually maintained `box-node-sdk` module to support the ES module and be more consistent with the generated `sdk-gen` module. Classes in the manual SDK are now exported as default exports from their respective files. When importing with `CommonJS` (`require`), use `.default` to access the class (e.g., `const BoxSDK = require('box-node-sdk').default;`).
 
-For more information about migrating to v4 visit [v3 to v4 migration guide][1]
+For more information about migrating to `v4` visit [`v3` to `v4` migration guide][1]
 
 ### What's New in `v4`
 
@@ -35,7 +35,7 @@ With this SDK version, alongside the existing manually maintained module, weâ€™r
 
 ### Important Notes
 
-This version allows you to gradually migrate your codebase to the `sdk-gen` module. The key differences between the modules are documented in the [module migration guide][2].
+This version allows you to gradually migrate your code base to the `sdk-gen` module. The key differences between the modules are documented in the [module migration guide][2].
 
 Ultimately, we recommend to migrate to `v10` which includes only the generated `sdk-gen` module. To migrate from `v4` to `v10` follow this [migration guide][3].
 
