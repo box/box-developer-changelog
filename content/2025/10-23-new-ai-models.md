@@ -19,7 +19,7 @@ The list of [available AI models][supported-models] has been recently updated wi
 * [Mistral Small 3.1][mistral-small]
 * [Claude Haiku 4.5][claude-haiku]
 
-Also, [OpenAI GPT 5][gpt-5] is now the default model for Box AI (Box AI for Hubs, Box AI for Documents, and Box AI for Notes Q&A).
+Additionally, [OpenAI GPT 5][gpt-5] is now the default model for Box AI (Box AI for Hubs, Box AI for Documents, and Box AI for Notes Q&A).
 
 <!-- more -->
 
@@ -27,7 +27,6 @@ Also, [OpenAI GPT 5][gpt-5] is now the default model for Box AI (Box AI for Hubs
 
 You can use the provided models to [override the default model][override] used in the AI agent configuration. 
 For further details on Box AI API, see the [guides][ai-guides] and [API reference][api].
-
 
 ## Where to get support
 
