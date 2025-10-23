@@ -5,7 +5,7 @@ applies_to:
   - api
   - ai
 is_impactful: true
-is_new_feature: false
+is_new_feature: true
 collapse: true
 show_excerpt: true
 release_source_url: ""
