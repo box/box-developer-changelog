@@ -26,7 +26,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix the `--exempt-from-2fa` flag in `create` and `update` users commands ([#598][1]) ([`8f897fe`][2])
+* ユーザーコマンド`create`および`update`の`--exempt-from-2fa`フラグを修正 ([#598][1]) ([`8f897fe`][2])
 
 [1]: https://github.com/box/boxcli/issues/598
 
