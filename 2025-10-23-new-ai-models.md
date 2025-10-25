@@ -25,7 +25,7 @@ source_url: >-
 published_at: '2025-10-23'
 fullyTranslated: true
 ---
-# Box AI API — new AI models available and default model update
+# Box AI API — 利用可能な新しいAIモデルとデフォルトモデルの更新
 
 [利用可能なAIモデル][supported-models]のリストが更新され、以下のモデルが追加されました。
 
@@ -33,11 +33,11 @@ fullyTranslated: true
 * [Mistral Small 3.1][mistral-small]
 * [Claude Haiku 4.5][claude-haiku]
 
-Additionally, [OpenAI GPT 5][gpt-5] is now the default model for Box AI (Box AI for Hubs, Box AI for Documents, and Box AI for Notes Q&A).
+また、Box AI (Box AI for Hubs、Box AI for Documents、Box AI for Notes Q&A) のデフォルトモデルが[OpenAI GPT 5][gpt-5]になりました。
 
 <!-- more -->
 
-**Note:** Models offered in **Preview** mode have not been fully performance-tested at scale and are provided on an as-is basis. You may experience variability in model/output quality, availability, and accuracy.
+**注:** **プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままでの利用となるため、モデル/出力の品質、可用性、精度にはばらつきがある可能性があります。
 
 提供されているモデルを使用して、AIエージェントの構成で使用されている[デフォルトモデルを上書き][override]できます。Box AI APIの詳細については、[ガイド][ai-guides]と[APIリファレンス][api]を参照してください。
 
