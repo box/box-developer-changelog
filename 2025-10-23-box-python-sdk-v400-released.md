@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-10-23-box-sdks-major-version
-previous_page_id: 2025-10-23-box-java-sdk-v500-released
+previous_page_id: 2025-10-23-box-node-sdk-v400-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/10-23-box-python-sdk-v400-released.md
 published_at: '2025-10-23'
