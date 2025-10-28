@@ -21,8 +21,8 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2025-10-23-new-ai-models
-previous_page_id: 2025-10-21-box-cli-v441-released
+next_page_id: 2025-10-23-box-windows-sdk-v600-released
+previous_page_id: 2025-10-23-box-python-sdk-v400-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/10-23-box-sdks-major-version.md
 published_at: '2025-10-23'
