@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2025-10-23-box-sdks-major-version
+next_page_id: 2025-10-23-box-ios-sdk-600-released
 previous_page_id: 2025-10-14-box-cli-v440-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/10-21-box-cli-v441-released.md

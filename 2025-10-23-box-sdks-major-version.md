@@ -21,33 +21,33 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2025-10-23-new-ai-models
-previous_page_id: 2025-10-21-box-cli-v441-released
+next_page_id: 2025-10-23-box-windows-sdk-v600-released
+previous_page_id: 2025-10-23-box-python-sdk-v400-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/10-23-box-sdks-major-version.md
 published_at: '2025-10-23'
 fullyTranslated: true
 ---
-# Box SDKs major version
+# Box SDKのメジャーバージョン
 
-Introducing a new major release of Box SDKs that includes two packages — the manually maintained package and the generated package. The coexisting packages provide easier access to the latest Box API features and support gradual migration to the standalone generated package.
+2つのパッケージ (手動で管理されているパッケージと生成されたパッケージ) を含むBox SDKの新しいメジャーリリースを導入しました。共存するこれらのパッケージにより、最新のBox APIの機能をより簡単に使用できるようになるほか、生成されたスタンドアロンのパッケージへの段階的な移行がサポートされます。
 
 <!-- more -->
 
-## Overview
+## 概要
 
-To facilitate this migration process, there are two actively maintained major Box core SDK versions:
+この移行プロセスを容易にするために、積極的に管理されているBoxコアSDKのメジャーバージョンが2つあります。
 
-* **The latest major version that follows sequential versioning and includes** the manually maintained package and the generated one. This SDK version enables leveraging coexisting packages at the same time, and serves as a transition phase. Support for the consolidated version of each Box core SDK will continue in 2027.
-* `v10` that includes **only the generated package**, a consistent version number across all Box SDK artifacts.
+* 手動で管理されているパッケージと生成されたパッケージを含む、**シーケンシャルなバージョン管理に従っている最新のメジャーバージョン**。このSDKバージョンは、共存するパッケージを同時に利用できるようにするほか、移行フェーズとして機能します。各BoxコアSDKの統合バージョンのサポートは2027年も継続されます。
+* **生成されたパッケージのみ**を含む`v10`。これは、Box SDKのすべてのアーティファクトで一貫したバージョン番号です。
 
-## Additional information and migration guides
+## 詳細と移行ガイド
 
-For additional information on recommended actions and migration guides, visit [Box SDK versioning strategy page][1].
+推奨される操作と移行ガイドの詳細については、[Box SDKのバージョン戦略ページ][1]を参照してください。
 
 ## サポート情報
 
-Should you have any issues or need further guidance, please post a request to our [developer forum][2] or report issues directly in the individual Box SDK repositories on GitHub.
+本件に関するご質問は、[Developer Forum][2]に英語でリクエストを投稿していただくか、GitHubの個々のBox SDKリポジトリで直接問題をご報告ください。
 
 [1]: https://developer.box.com/guides/tooling/sdks/sdk-versioning/
 
