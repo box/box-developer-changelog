@@ -25,17 +25,17 @@ fullyTranslated: true
 ---
 # Box Windows SDK `v6.0.0`のリリース
 
-Introducing a new major version of Box Windows SDK V2 `v6` that includes two `namespaces` - the manually maintained `namespace` and the generated `namespace`. The coexisting `namespaces` provide easier access to the latest Box API features and support gradual migration to the standalone generated `namespace`.
+2つの`namespaces` (手動で管理されている`namespace`と生成された`namespace`) を含むBox Windows SDK V2 `v6`の新しいメジャーバージョンを導入しました。共存するこれらの`namespaces`により、最新のBox APIの機能をより簡単に使用できるようになるほか、生成されたスタンドアロンの`namespace`への段階的な移行がサポートされます。
 
 ### 重大な変更
 
-* With `v6` of Box Windows SDK V2, support for .NET 6 has been dropped. We follow the official [.NET Release Lifecycle][1]. Since November 12, 2024, .NET 6 is no longer officially supported. While it may still be possible to compile and use this SDK under .NET 6, we do not provide support for issues encountered on that version.
+* Box Windows SDK V2の`v6`により、.NET 6のサポートは終了しました。Boxでは、公式の[.NETのリリースライフサイクル][1]に従います。日本時間2024年11月13日以降、.NET 6は公式サポート対象外となりました。.NET 6でもこのSDKをコンパイルして使用することは可能ですが、そのバージョンで発生した問題についてサポートは提供されません。
 
-For more information about migrating to `v6` visit [`v5` to `v6` migration guide][2]
+`v6`への移行の詳細については、[`v5`から`v6`への移行ガイド][2]を参照してください。
 
 ### `v6`の新機能
 
-With this SDK version, alongside the existing `Box.V2` `namespace`, we're introducing a new `Box.Sdk.Gen` `namespace`, which gives you access to:
+このSDKバージョンでは、既存の`Box.V2` `namespace`に加え、新しい`Box.Sdk.Gen` `namespace`を導入します。これにより、以下を利用できます。
 
 * **APIの全面的なサポート** — Box APIエコシステム全体がカバーされるため、最新機能をすべて利用して、機能豊富なアプリケーションを作成できます。
 
@@ -47,11 +47,11 @@ With this SDK version, alongside the existing `Box.V2` `namespace`, we're introd
 
 ### 重要な注意事項
 
-This version allows you to gradually migrate your code base to the `Box.Sdk.Gen` `namespace`. The key differences between the `namespaces` are documented in the [`namespace` migration guide][3].
+このバージョンにより、ご利用のコードベースを`Box.Sdk.Gen` `namespace`に段階的に移行できます。`namespaces`間の主な違いについては、[`namespace`の移行ガイド][3]を参照してください。
 
-Ultimately, we recommend to migrate to `v10` which includes only the generated `namespace` `Box.Sdk.Gen`. To migrate from `v6` to `v10` follow this [migration guide][4].
+最終的には、生成された`namespace` `Box.Sdk.Gen`のみを含む`v10`に移行することをお勧めします。`v6`から`v10`に移行するには、こちらの[移行ガイド][4]に従います。
 
-For more information, see the [SDK versioning strategy document][5]. Follow developer changelog for future updates.
+詳細については、[SDKのバージョン戦略に関するドキュメント][5]を参照してください。今後の更新については、開発者向け変更ログをフォローしてください。
 
 [1]: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
 

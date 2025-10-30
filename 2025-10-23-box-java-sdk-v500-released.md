@@ -25,13 +25,13 @@ fullyTranslated: true
 ---
 # Box Java SDK `v5.0.0`のリリース
 
-Introducing a new major version of Box Java SDK `v5` that includes two packages — the manually maintained `com.box.sdk` package and the generated `com.box.sdkgen` package. The coexisting packages provide easier access to the latest Box API features and support gradual migration to the standalone generated package.
+2つのパッケージ (手動で管理されている`com.box.sdk`パッケージと生成された`com.box.sdkgen`パッケージ) を含むBox Java SDK `v5`の新しいメジャーバージョンを導入しました。共存するこれらのパッケージにより、最新のBox APIの機能をより簡単に使用できるようになるほか、生成されたスタンドアロンのパッケージへの段階的な移行がサポートされます。
 
-There are no breaking changes between `v4` and `v5` of Box Java SDK. For more information about migrating to `v5` visit [`v4` to `v5` migration guide][1]
+Box Java SDKの`v4`と`v5`の間には重大な変更はありません。`v5`への移行の詳細については、[`v4`から`v5`への移行ガイド][1]を参照してください。
 
 ### `v5`の新機能
 
-With this SDK version, alongside the existing `com.box.sdk` package, we’re introducing a new `com.box.sdkgen` package, which gives you access to:
+このSDKバージョンでは、既存の`com.box.sdk`パッケージに加え、新しい`com.box.sdkgen`パッケージを導入します。これにより、以下を利用できます。
 
 * **APIの全面的なサポート** — Box APIエコシステム全体がカバーされるため、最新機能をすべて利用して、機能豊富なアプリケーションを作成できます。
 
@@ -43,11 +43,11 @@ With this SDK version, alongside the existing `com.box.sdk` package, we’re int
 
 ### 重要な注意事項
 
-This version allows you to gradually migrate your code base to the `com.box.sdkgen` package. The key differences between the packages are documented in the [package migration guide][2].
+このバージョンにより、ご利用のコードベースを`com.box.sdkgen`パッケージに段階的に移行できます。パッケージ間の主な違いについては、[パッケージの移行ガイド][2]を参照してください。
 
-Ultimately, we recommend to migrate to `v10` which includes only the generated `com.box.sdkgen` package. To migrate from `v5` to `v10` follow this [migration guide][3].
+最終的には、生成された`com.box.sdkgen`パッケージのみを含む`v10`に移行することをお勧めします。`v5`から`v10`に移行するには、こちらの[移行ガイド][3]に従います。
 
-For more information, see the [SDK versioning strategy document][4]. Follow developer changelog for future updates.
+詳細については、[SDKのバージョン戦略に関するドキュメント][4]を参照してください。今後の更新については、開発者向け変更ログをフォローしてください。
 
 [1]: https://github.com/box/box-java-sdk/blob/combined-sdk/migration-guides/from-v4-to-v5.md
 

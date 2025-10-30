@@ -25,17 +25,17 @@ fullyTranslated: true
 ---
 # Box Python SDK `v4.0.0`のリリース
 
-Introducing a new major version of Box Python SDK `v4` that includes two packages — the manually maintained `boxsdk` package and the generated `box_sdk_gen` package. The coexisting packages provide easier access to the latest Box API features and support gradual migration to the standalone generated package.
+2つのパッケージ (手動で管理されている`boxsdk`パッケージと生成された`box_sdk_gen`パッケージ) を含むBox Python SDK `v4`の新しいメジャーバージョンを導入しました。共存するこれらのパッケージにより、最新のBox APIの機能をより簡単に使用できるようになるほか、生成されたスタンドアロンのパッケージへの段階的な移行がサポートされます。
 
 ### 重大な変更
 
-* `v4` of Box Python SDK supports Python versions: 3.8+. Compared to `v3`, Python 3.6 and 3.7 are no longer supported.
+* Box Python SDKの`v4`でサポートされるのは、Pythonバージョン3.8以上です。`v3`と比較した場合、Python 3.6と3.7のサポートは終了しています。
 
-For more information about migrating to `v4` visit [`v3` to `v4` migration guide][1]
+`v4`への移行の詳細については、[`v3`から`v4`への移行ガイド][1]を参照してください。
 
 ### `v4`の新機能
 
-With this SDK version, alongside the existing `boxsdk` package, we’re introducing a new `box_sdk_gen` package, which gives you access to:
+このSDKバージョンでは、既存の`boxsdk`パッケージに加え、新しい`box_sdk_gen`パッケージを導入します。これにより、以下を利用できます。
 
 * **APIの全面的なサポート** — Box APIエコシステム全体がカバーされるため、最新機能をすべて利用して、機能豊富なアプリケーションを作成できます。
 
@@ -47,11 +47,11 @@ With this SDK version, alongside the existing `boxsdk` package, we’re introduc
 
 ### 重要な注意事項
 
-This version allows you to gradually migrate your code base to the `box_sdk_gen` package. The key differences between the packages are documented in the [package migration guide][2].
+このバージョンにより、ご利用のコードベースを`box_sdk_gen`パッケージに段階的に移行できます。パッケージ間の主な違いについては、[パッケージの移行ガイド][2]を参照してください。
 
-Ultimately, we recommend to migrate to `v10` which includes only the generated `box_sdk_gen` package. To migrate from `v4` to `v10` follow this [migration guide][3].
+最終的には、生成された`box_sdk_gen`パッケージのみを含む`v10`に移行することをお勧めします。`v4`から`v10`に移行するには、こちらの[移行ガイド][3]に従います。
 
-For more information, see the [SDK versioning strategy document][4]. Follow developer changelog for future updates.
+詳細については、[SDKのバージョン戦略に関するドキュメント][4]を参照してください。今後の更新については、開発者向け変更ログをフォローしてください。
 
 [1]: https://github.com/box/box-python-sdk/blob/combined-sdk/migration-guides/from-v3-to-v4.md
 

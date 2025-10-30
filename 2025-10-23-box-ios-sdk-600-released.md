@@ -25,23 +25,23 @@ fullyTranslated: true
 ---
 # Box iOS SDK `6.0.0`のリリース
 
-Introducing a new major version of Box iOS SDK `v6` that includes two modules — the manually maintained module and the generated module. The coexisting modules provide easier access to the latest Box API features and support gradual migration to the standalone generated module.
+2つのモジュール (手動で管理されているモジュールと生成されたモジュール) を含むBox iOS SDK `v6`の新しいメジャーバージョンを導入しました。共存するこれらのモジュールにより、最新のBox APIの機能をより簡単に使用できるようになるほか、生成されたスタンドアロンのモジュールへの段階的な移行がサポートされます。
 
 ### 重大な変更
 
-* With `v6` of Box iOS SDK, support for `iOS 11.0`, `macOS 10.13`, `tvOS 11.0` and `watchOS 4.0` has been dropped.
+* Box iOS SDKの`v6`により、`iOS 11.0`、`macOS 10.13`、`tvOS 11.0`、および`watchOS 4.0`のサポートが終了しました。
 
-Starting with `v6`, the minimum supported versions are `iOS 13.0`, `macOS 10.15`, `tvOS 13.0`, and `watchOS 6.0`.
+`v6`以降、サポート対象の最小バージョンは`iOS 13.0`、`macOS 10.15`、`tvOS 13.0`、`watchOS 6.0`になります。
 
-This update aligns the SDK with current Apple development standards and is required to adopt the new features available in the BoxSdkGen module.
+今回の更新により、SDKは現在のAppleの開発基準に準拠するため、BoxSdkGenモジュールで使用可能な新機能を採用するにはこの更新が必要になります。
 
-For the latest submission and SDK `toolchain` requirements, see Apple’s SDK minimum requirements [Apple Developer][1].
+最新の提出要件およびSDK `toolchain`の要件については、AppleのSDKの最小要件に関する[Apple Developer][1]を参照してください。
 
-For more information about migrating to `v6` visit [`v5` to `v6` migration guide][2].
+`v6`への移行の詳細については、[`v5`から`v6`への移行ガイド][2]を参照してください。
 
 ### `v6`の新機能
 
-With this SDK version, alongside the existing `BoxSDK` module, we’re introducing a new `BoxSdkGen` module, which gives you access to:
+このSDKバージョンでは、既存の`BoxSDK`モジュールに加え、新しい`BoxSdkGen`モジュールを導入します。これにより、以下を利用できます。
 
 * **APIの全面的なサポート** — Box APIエコシステム全体がカバーされるため、最新機能をすべて利用して、機能豊富なアプリケーションを作成できます。
 
@@ -53,11 +53,11 @@ With this SDK version, alongside the existing `BoxSDK` module, we’re introduci
 
 ### 重要な注意事項
 
-This version allows you to gradually migrate your code base to the `BoxSdkGen` module. The key differences between the modules are documented in the [module migration guide][3].
+このバージョンにより、ご利用のコードベースを`BoxSdkGen`モジュールに段階的に移行できます。モジュール間の主な違いについては、[モジュールの移行ガイド][3]を参照してください。
 
-Ultimately, we recommend to migrate to `v10` which includes only the generated module `BoxSdkGen`. To migrate from `v6` to `v10` follow this [migration guide][4].
+最終的には、生成された`BoxSdkGen`モジュールのみを含む`v10`に移行することをお勧めします。`v6`から`v10`に移行するには、こちらの[移行ガイド][4]に従います。
 
-For more information, see the [SDK versioning strategy document][5]. Follow developer changelog for future updates.
+詳細については、[SDKのバージョン戦略に関するドキュメント][5]を参照してください。今後の更新については、開発者向け変更ログをフォローしてください。
 
 [1]: https://developer.apple.com/news/upcoming-requirements/?id=02212025a
 
