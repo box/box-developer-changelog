@@ -1,5 +1,5 @@
 ---
-applied_at: "2025-02-26"
+applied_at: "2025-09-30"
 applies_to:
   - guides
   - api
@@ -11,9 +11,9 @@ show_excerpt: true
 release_source_url: ""
 ---
 
-# Box AI API - AWS Claude 3.7 Sonnet now available
+# Box AI API - AWS Claude 4.5 Sonnet now available
 
-The list of [available AI models][1] has been recently updated with AWS Claude 3.7 Sonnet.
+The list of [available AI models][1] has been recently updated with AWS Claude 4.5 Sonnet.
 
 Models offered in **Preview** mode have not been fully performance-tested at scale and are made available on an as-is basis. You may experience variability in model/output quality, availability, and accuracy.
 
