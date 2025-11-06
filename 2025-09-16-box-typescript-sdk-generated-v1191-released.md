@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-09-17-box-ios-sdk-1000-released
-previous_page_id: 2025-09-05-box-typescript-sdk-generated-v1190-released
+previous_page_id: 2025-09-05-box-ui-elements-v2400-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/09-16-box-typescript-sdk-generated-v1191-released.md
 published_at: '2025-09-16'

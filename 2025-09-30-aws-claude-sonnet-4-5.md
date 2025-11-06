@@ -18,7 +18,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2025-10-01-salesforce-toolkit-changelog
+next_page_id: 2025-10-01-box-ui-elements-v2510-released
 previous_page_id: 2025-09-29-box-cli-v431-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/09-30-aws-claude-sonnet-4-5.md
