@@ -26,4 +26,4 @@ fullyTranslated: true
 # Java SDK `v2.42.0`のリリース
 
 1. `SDK-1168` メタデータクエリ ([#760](https://github.com/box/box-java-sdk/pull/760))
-2. ユーザー取得メソッドにマーカーベースのページ割りを追加 ([#759](https://github.com/box/box-java-sdk/pull/759))
+2. ユーザー取得メソッドにマーカーベースのページネーションを追加 ([#759](https://github.com/box/box-java-sdk/pull/759))

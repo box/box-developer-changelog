@@ -40,7 +40,7 @@ fullyTranslated: true
 
 **バグ修正:**
 
-* `IBoxFilesManager#ViewVersionsAsync`にページ割りオプションを追加 ([#869][6]) ([`2324495`][7])、[#866][8]をクローズ
+* `IBoxFilesManager#ViewVersionsAsync`にページネーションオプションを追加 ([#869][6]) ([`2324495`][7])、[#866][8]をクローズ
 * `GetFileVersionsUnderRetentionForAssignmentAsync`から適切なオブジェクトが戻されるよう修正 ([#881][1]) ([`f1989aa`][2])、[#875][9]をクローズ
 
 <https://www.nuget.org/packages/Box.V2/5.0.0>

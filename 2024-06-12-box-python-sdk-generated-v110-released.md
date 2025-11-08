@@ -31,7 +31,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* 不足していたマーカーページ割りフィールドを追加し、新しいイベントタイプ`AppItemEventSource` `(box/box-openapi[#431](https://github.com/box/box-codegen/issues/431))`を導入 ([#189][4]) ([`8d22ce2`][5])
+* 不足していたマーカーページネーションフィールドを追加し、新しいイベントタイプ`AppItemEventSource` `(box/box-openapi[#431](https://github.com/box/box-codegen/issues/431))`を導入 ([#189][4]) ([`8d22ce2`][5])
 
 [1]: https://github.com/box/box-codegen/issues/506
 
