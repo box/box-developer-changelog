@@ -25,12 +25,12 @@ fullyTranslated: true
 ---
 # Box UI Elements `v25.3.0`のリリース
 
-# [25.3.0][1] (2025-11-07)
+# [25.3.0][1] (2025/11/07)
 
 ### 機能
 
-* **deps:** Upgrade blueprint-web to 12.93.5 ([#4362][2]) ([`84aaf2f`][3])
-* **metadata:** enable multilevel taxonomy field filter in preview ([#4354][4]) ([`4851c37`][5])
+* **deps:** blueprint-webを12.93.5にアップグレード ([#4362][2]) ([`84aaf2f`][3])
+* **metadata:** プレビューで複数レベルのメタデータ階層フィールドのフィルタを有効化 ([#4354][4]) ([`4851c37`][5])
 
 [1]: https://github.com/box/box-ui-elements/compare/v25.2.0...v25.3.0
 

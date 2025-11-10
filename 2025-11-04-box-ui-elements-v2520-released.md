@@ -25,49 +25,49 @@ fullyTranslated: true
 ---
 # Box UI Elements `v25.2.0`のリリース
 
-# [25.2.0][1] (2025-11-04)
+# [25.2.0][1] (2025/11/04)
 
 ### バグ修正
 
-* **classification:** Fix flaky ai-icon check ([#4323][2]) ([`0061f34`][3])
-* **content-picker:** folder nav ([#4329][4]) ([`8053fa7`][5])
-* **content-picker:** Upgrade blueprint to fix scrolling issue ([#4349][6]) ([`d0ce8a6`][7])
-* **content-sharing:** Collaborator current user ([#4328][8]) ([`2e9dd6a`][9])
+* **classification:** 不安定なai-iconチェックを修正 ([#4323][2]) ([`0061f34`][3])
+* **content-picker:** フォルダナビゲーション ([#4329][4]) ([`8053fa7`][5])
+* **content-picker:** blueprintをアップグレードしてスクロールの問題を修正 ([#4349][6]) ([`d0ce8a6`][7])
+* **content-sharing:** コラボレータの現在のユーザー ([#4328][8]) ([`2e9dd6a`][9])
 * **content-sharing:** null sharingServiceProps ([#4352][10]) ([`4ea0f83`][11])
-* **content-sharing:** Shared link modal and collaborators ([#4360][12]) ([`76e94f1`][13])
-* Fix modernization hook for ContentSharing v2 ([#4339][14]) ([`e0a67e0`][15])
-* **i18n:** update translations ([#4321][16]) ([`4d89663`][17])
-* **i18n:** update translations ([#4325][18]) ([`3e8eeea`][19])
-* **i18n:** update translations ([#4330][20]) ([`bd0dd5f`][21])
-* **i18n:** update translations ([#4333][22]) ([`b2a4e01`][23])
-* **i18n:** update translations ([#4343][24]) ([`847557b`][25])
-* **i18n:** update translations ([#4348][26]) ([`d4eae4b`][27])
-* **i18n:** update translations ([#4353][28]) ([`e3f4cf9`][29])
-* **i18n:** update translations ([#4355][30]) ([`094e633`][31])
-* **i18n:** update translations ([#4357][32]) ([`a817d9c`][33])
-* **i18n:** update translations ([#4358][34]) ([`33a5861`][35])
-* **storybook:** update brand url ([#4337][36]) ([`c73965b`][37])
-* **video-annotations:** fixing mentions not being properly parsed ([#4351][38]) ([`6bb2b15`][39])
+* **content-sharing:** 共有リンクウィンドウとコラボレータ ([#4360][12]) ([`76e94f1`][13])
+* ContentSharing v2のモダナイゼーションフックを修正 ([#4339][14]) ([`e0a67e0`][15])
+* **i18n:** 翻訳を更新 ([#4321][16]) ([`4d89663`][17])
+* **i18n:** 翻訳を更新 ([#4325][18]) ([`3e8eeea`][19])
+* **i18n:** 翻訳を更新 ([#4330][20]) ([`bd0dd5f`][21])
+* **i18n:** 翻訳を更新 ([#4333][22]) ([`b2a4e01`][23])
+* **i18n:** 翻訳を更新 ([#4343][24]) ([`847557b`][25])
+* **i18n:** 翻訳を更新 ([#4348][26]) ([`d4eae4b`][27])
+* **i18n:** 翻訳を更新 ([#4353][28]) ([`e3f4cf9`][29])
+* **i18n:** 翻訳を更新 ([#4355][30]) ([`094e633`][31])
+* **i18n:** 翻訳を更新 ([#4357][32]) ([`a817d9c`][33])
+* **i18n:** 翻訳を更新 ([#4358][34]) ([`33a5861`][35])
+* **storybook:** ブランドURLを更新 ([#4337][36]) ([`c73965b`][37])
+* **video-annotations:** メンションが適切に解析されないケースに関する修正 ([#4351][38]) ([`6bb2b15`][39])
 
 ### 機能
 
-* **api:** respect hidden collaborators ([#4346][40]) ([`955e6cb`][41])
-* **content-explorer:** Disable selection while editing ([#4317][42]) ([`c08d9b5`][43])
-* **content-sharing:** convert api response for collabs ([#4322][44]) ([`6937b60`][45])
-* **content-sharing:** Create contact service getContactByEmail ([#4342][46]) ([`05b50cd`][47])
-* **content-sharing:** Create contact service getContacts ([#4338][48]) ([`8ae6ccc`][49])
-* **content-sharing:** Create contact service getContactsAvatarUrls ([#4345][50]) ([`6f9260b`][51])
-* **content-sharing:** Create sharing service changeSharedLinkPermission ([#4332][52]) ([`e64a61b`][53])
-* **content-sharing:** Create sharing service sendInvitations ([#4344][54]) ([`d497350`][55])
-* **content-sharing:** Define sharing service for shared link and access ([#4340][56]) ([`2f7185d`][57])
-* **content-sharing:** Handle error when fetch init data failed ([#4350][58]) ([`f0c9efd`][59])
-* **content-sharing:** Render notification for sendInvitations ([#4347][60]) ([`051bd7c`][61])
-* **content-sharing:** Sharing service updateSharedLink ([#4336][62]) ([`b39a482`][63])
-* **deps:** upgrade package dependencies ([#4359][64]) ([`2f025e3`][65])
+* **api:** 非表示のコラボレータを考慮 ([#4346][40]) ([`955e6cb`][41])
+* **content-explorer:** 編集中の選択を無効化 ([#4317][42]) ([`c08d9b5`][43])
+* **content-sharing:** コラボレーションのAPIレスポンスを変換 ([#4322][44]) ([`6937b60`][45])
+* **content-sharing:** コンタクトサービスgetContactByEmailを作成 ([#4342][46]) ([`05b50cd`][47])
+* **content-sharing:** コンタクトサービスgetContactsを作成 ([#4338][48]) ([`8ae6ccc`][49])
+* **content-sharing:** コンタクトサービスgetContactsAvatarUrlsを作成 ([#4345][50]) ([`6f9260b`][51])
+* **content-sharing:** 共有サービスchangeSharedLinkPermissionを作成 ([#4332][52]) ([`e64a61b`][53])
+* **content-sharing:** 共有サービスsendInvitationsを作成 ([#4344][54]) ([`d497350`][55])
+* **content-sharing:** 共有リンクとアクセスの共有サービスを定義 ([#4340][56]) ([`2f7185d`][57])
+* **content-sharing:** 初期データの取得に失敗した際のエラーを処理 ([#4350][58]) ([`f0c9efd`][59])
+* **content-sharing:** sendInvitationsの通知をレンダリング ([#4347][60]) ([`051bd7c`][61])
+* **content-sharing:** 共有サービスupdateSharedLink ([#4336][62]) ([`b39a482`][63])
+* **deps:** パッケージ依存関係をアップグレード ([#4359][64]) ([`2f025e3`][65])
 
 ### 取り消し
 
-* "feat(content-sidebar): implement for custom sidebar panels (#… ([#4320][66]) ([`230f417`][67]), closes [#4239][68]
+* "feat(content-sidebar): カスタムサイドバーパネルを実装 (#… ([#4320][66]) ([`230f417`][67])、[#4239][68]をクローズ
 
 [1]: https://github.com/box/box-ui-elements/compare/v25.1.0...v25.2.0
 

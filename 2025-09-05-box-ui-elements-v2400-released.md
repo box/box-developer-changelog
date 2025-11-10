@@ -25,51 +25,51 @@ fullyTranslated: true
 ---
 # Box UI Elements `v24.0.0`のリリース
 
-# [24.0.0][1] (2025-09-05)
+# [24.0.0][1] (2025/09/05)
 
 ### バグ修正
 
-* **blueprint-web:** Upgrade blueprint-web packages ([#4261][2]) ([`ac48f93`][3])
-* **blueprint:** Blueprint Modernization ([#4204][4]) ([`29030a9`][5])
-* **box-ai:** Fix suggested questions not appearing ([#4249][6]) ([`0c63595`][7])
-* **box-ai:** Update box-ai-content-answers peer dependency version ([#4238][8]) ([`8967acf`][9])
-* **content-explorer:** Fix flaky SubheaderV2 folder title ([#4229][10]) ([`330ae33`][11])
-* **content-explorer:** Fix grid selection ([#4267][12]) ([`4beb05d`][13])
-* **content-explorer:** Validate selected item ids after item changes ([#4268][14]) ([`baaaa83`][15])
-* **i18n:** update translations ([#4241][16]) ([`5e7030a`][17])
-* **i18n:** update translations ([#4247][18]) ([`29f266c`][19])
-* **i18n:** update translations ([#4253][20]) ([`f9e4e79`][21])
-* **i18n:** update translations ([#4254][22]) ([`59e30e3`][23])
-* **i18n:** update translations ([#4258][24]) ([`2522af9`][25])
-* **i18n:** update translations ([#4259][26]) ([`d3c5a78`][27])
-* **i18n:** update translations ([#4264][28]) ([`8118ab6`][29])
-* **metadata-view:** default iconcolumnvariant ([#4262][30]) ([`141cf6e`][31])
-* **metadata-view:** Enable sorting dropdown ([#4265][32]) ([`fac795f`][33])
-* **metadata-view:** fix filtering file extensions and filters visibility ([#4257][34]) ([`504aed7`][35])
-* **metadata-view:** fix filtering folders and files ([#4255][36]) ([`bdd6d1d`][37])
-* **metadata-view:** Hide keyword and location filters ([#4260][38]) ([`1ca5029`][39])
-* **metadata-view:** Use internal pagination ([#4263][40]) ([`b274e73`][41])
-* set version in release assets ([#4266][42]) ([`1ba15df`][43])
+* **blueprint-web:** blueprint-webパッケージをアップグレード ([#4261][2]) ([`ac48f93`][3])
+* **blueprint:** blueprintのモダナイゼーション ([#4204][4]) ([`29030a9`][5])
+* **box-ai:** 質問の候補が表示されない状態を修正 ([#4249][6]) ([`0c63595`][7])
+* **box-ai:** box-ai-content-answersピア依存関係のバージョンを更新 ([#4238][8]) ([`8967acf`][9])
+* **content-explorer:** 不適切なSubheaderV2フォルダタイトルを修正 ([#4229][10]) ([`330ae33`][11])
+* **content-explorer:** グリッド選択を修正 ([#4267][12]) ([`4beb05d`][13])
+* **content-explorer:** 項目の変更後に選択した項目IDを検証 ([#4268][14]) ([`baaaa83`][15])
+* **i18n:** 翻訳を更新 ([#4241][16]) ([`5e7030a`][17])
+* **i18n:** 翻訳を更新 ([#4247][18]) ([`29f266c`][19])
+* **i18n:** 翻訳を更新 ([#4253][20]) ([`f9e4e79`][21])
+* **i18n:** 翻訳を更新 ([#4254][22]) ([`59e30e3`][23])
+* **i18n:** 翻訳を更新 ([#4258][24]) ([`2522af9`][25])
+* **i18n:** 翻訳を更新 ([#4259][26]) ([`d3c5a78`][27])
+* **i18n:** 翻訳を更新 ([#4264][28]) ([`8118ab6`][29])
+* **metadata-view:** デフォルトのiconcolumnvariant ([#4262][30]) ([`141cf6e`][31])
+* **metadata-view:** 並べ替えのドロップダウンを有効化 ([#4265][32]) ([`fac795f`][33])
+* **metadata-view:** ファイル拡張子のフィルタをフィルタの可視性を修正 ([#4257][34]) ([`504aed7`][35])
+* **metadata-view:** フォルダとファイルのフィルタを修正 ([#4255][36]) ([`bdd6d1d`][37])
+* **metadata-view:** キーワードと場所のフィルタを非表示 ([#4260][38]) ([`1ca5029`][39])
+* **metadata-view:** 内部ページネーションを使用 ([#4263][40]) ([`b274e73`][41])
+* リリースアセットのバージョンを設定 ([#4266][42]) ([`1ba15df`][43])
 
 ### 機能
 
-* add client version to element api calls ([#4198][44]) ([`468d6c1`][45])
-* **box-ai:** Bump box-ai-content-answers version ([#4233][46]) ([`47cea9f`][47])
-* **classification:** implement AppliedByAiClassificationReason ([#4250][48]) ([`e23fbf3`][49])
-* **content-explorer:** Add initial filter values to Metadata View ([#4225][50]) ([`b68cd70`][51])
-* **metadata-instance-editor:** remove ai agent selector split and fi… ([#4226][52]) ([`1f953c0`][53])
-* **metadata-view:** Add Filtering ([#4235][54]) ([`2f5e42b`][55])
-* **metadata-view:** bulk custom actions ([#4227][56]) ([`371ad5e`][57])
-* **metadata-view:** default sortBy ([#4232][58]) ([`1a86aa5`][59])
-* **metadata-view:** Implement metadata sidepanel ([#4230][60]) ([`4f89946`][61])
-* **metadata-view:** Multi value display and onSave in metadata sidepanel ([#4245][62]) ([`7ddea1e`][63])
-* **metadata-view:** pass-thru onSortChange ([#4248][64]) ([`1a8a59f`][65])
+* 要素のAPIコールにクライアントバージョンを追加 ([#4198][44]) ([`468d6c1`][45])
+* **box-ai:** box-ai-content-answersバージョンを昇格 ([#4233][46]) ([`47cea9f`][47])
+* **classification:** AppliedByAiClassificationReasonを実装 ([#4250][48]) ([`e23fbf3`][49])
+* **content-explorer:** メタデータビューにフィルタの初期値を追加 ([#4225][50]) ([`b68cd70`][51])
+* **metadata-instance-editor:** AIエージェントセレクタの分割を削除… ([#4226][52]) ([`1f953c0`][53])
+* **metadata-view:** フィルタを追加 ([#4235][54]) ([`2f5e42b`][55])
+* **metadata-view:** 一括カスタム操作 ([#4227][56]) ([`371ad5e`][57])
+* **metadata-view:** デフォルトのsortBy ([#4232][58]) ([`1a86aa5`][59])
+* **metadata-view:** メタデータサイドパネルを実装 ([#4230][60]) ([`4f89946`][61])
+* **metadata-view:** メタデータサイドパネルでの複数値の表示とonSave ([#4245][62]) ([`7ddea1e`][63])
+* **metadata-view:** onSortChangeをパススルー ([#4248][64]) ([`1a8a59f`][65])
 * **router:** withRouterIfEnabled ([#4221][66]) ([`f969170`][67])
-* **timestamped-comments:** enabling time stamped video comments ([#4228][68]) ([`31b580d`][69]), closes [#4226][52] [#4230][60]
+* **timestamped-comments:** ビデオのタイムスタンプ付きコメントを有効化 ([#4228][68]) ([`31b580d`][69])、[#4226][52] [#4230][60]をクローズ
 
 ### 重大な変更
 
-* **box-ai:** isResetChatEnabled prop removed
+* **box-ai:** isResetChatEnabledプロパティを削除
 
 [1]: https://github.com/box/box-ui-elements/compare/v23.4.0...v24.0.0
 

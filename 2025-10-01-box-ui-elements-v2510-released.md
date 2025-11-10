@@ -25,24 +25,24 @@ fullyTranslated: true
 ---
 # Box UI Elements `v25.1.0`のリリース
 
-# [25.1.0][1] (2025-10-01)
+# [25.1.0][1] (2025/10/01)
 
 ### バグ修正
 
-* **i18n:** update translations ([#4298][2]) ([`86df699`][3])
-* **security-cloud-game:** Use nodeRef in DragCloud for React 19 ([#4286][4]) ([`ee8cba8`][5])
+* **i18n:** 翻訳を更新 ([#4298][2]) ([`86df699`][3])
+* **security-cloud-game:** React 19のDragCloudでnodeRefを使用 ([#4286][4]) ([`ee8cba8`][5])
 
 ### 機能
 
-* **content-sharing:** Convert Content Sharing V2 API Response ([#4285][6]) ([`6730ffe`][7])
-* **content-sidebar:** handle success event for creating metadata instance ([#4284][8]) ([`371c1a9`][9])
-* **content-sidebar:** implement for custom sidebar panels ([#4239][10]) ([`750737c`][11])
-* **item-properties:** Add files count for folder in item properties ([#4283][12]) ([`f12340a`][13])
-* **video-annotations:** sidebar support for video annotations ([#4318][14]) ([`aa5fc16`][15])
+* **content-sharing:** コンテンツ共有のV2 APIレスポンスを変換 ([#4285][6]) ([`6730ffe`][7])
+* **content-sidebar:** メタデータインスタンスの作成の成功イベントを処理 ([#4284][8]) ([`371c1a9`][9])
+* **content-sidebar:** カスタムサイドバーパネルを実装 ([#4239][10]) ([`750737c`][11])
+* **item-properties:** 項目プロパティにフォルダのファイル数を追加 ([#4283][12]) ([`f12340a`][13])
+* **video-annotations:** ビデオの注釈でサイドバーをサポート ([#4318][14]) ([`aa5fc16`][15])
 
 ### 取り消し
 
-* "chore(mergify): update circleci and mergify configuration ([#4][16]… ([#4296][17]) ([`b915e45`][18]), closes [#4295][19]
+* chore(mergify): CircleCIとMergifyの構成を更新 ([#4][16]… ([#4296][17]) ([`b915e45`][18])、[#4295][19]をクローズ
 
 [1]: https://github.com/box/box-ui-elements/compare/v25.0.0...v25.1.0
 

@@ -25,15 +25,15 @@ fullyTranslated: true
 ---
 # Box UI Elements `v23.0.0`のリリース
 
-# [23.0.0][1] (2025-03-26)
+# [23.0.0][1] (2025/03/26)
 
 ### 機能
 
-* BREAKING CHANGE noop to trigger major version release ([#4034][2]) ([`4e1751f`][3])
+* 重大な変更 (noop) でメジャーバージョンリリースをトリガー ([#4034][2]) ([`4e1751f`][3])
 
 ### 重大な変更
 
-* update peer dependencies for `@box/` packages
+* `@box/`パッケージのピア依存関係を更新
 
 [1]: https://github.com/box/box-ui-elements/compare/v22.1.0...v23.0.0
 
