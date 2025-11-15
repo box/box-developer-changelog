@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdkgen:** Fix error propagation and empty fetch response handling in node SDK (box/box-codegen[#883][1]) ([#1196][2]) ([`9615a34`][3])
+* **boxsdkgen:** Node SDKでエラー伝搬およびレスポンスの取得が空であった場合の処理を修正 (box/box-codegen[#883][1]) ([#1196][2]) ([`9615a34`][3])
 
 [1]: https://github.com/box/box-node-sdk/issues/883
 
