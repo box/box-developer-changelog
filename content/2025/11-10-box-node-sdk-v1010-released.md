@@ -15,7 +15,7 @@ collapse: true
 
 * Fix error handling in TS (box/box-codegen[#882][1]) ([#1180][2]) ([`2b68145`][3])
 * Fix error propagation and empty fetch response handling in node SDK (box/box-codegen[#883][4]) ([#1192][5]) ([`5664231`][6])
-* Remove enum types from GET enterprise configurations endpoint (box/box-openapi[#560][7]) ([#1155][8]) ([`3ba01aa`][9]), closes [box/box-openapi#558][10] [box/box-openapi#558][10] [box/box-openapi#559][11] [box/box-codegen#869][12] [box/box-codegen#871][13] [box/box-codegen#872][14]
+* Remove enum types from GET enterprise configurations endpoint (box/box-openapi[#560][7]) ([#1155][8]) ([`3ba01aa`][9]), closes [`box/box-openapi#558`][10] [`box/box-openapi#558`][10] [`box/box-openapi#559`][11] [`box/box-codegen#869`][12] [`box/box-codegen#871`][13] [`box/box-codegen#872`][14]
 
 ### New Features and Enhancements
 
