@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-11-27-new-ai-models
 previous_page_id: 2025-11-20-box-ios-sdk-1010-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/11-20-box-ios-sdk-610-released.md
