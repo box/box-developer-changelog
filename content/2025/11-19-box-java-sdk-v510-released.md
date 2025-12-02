@@ -14,7 +14,7 @@ collapse: true
 ### New Features and Enhancements
 
 * **boxsdkgen:** Support GET enterprise configuration API (box/box-openapi[#559][1]) ([#1529][2]) ([`e6924bb`][3])
-* **boxsdkgen:** Disable OkHttp auto retries on connection failure (box/box-codegen[#874][4]) ([#1540][5]) ([`6842fa4`][6]), closes [box/box-codegen#873][7]
+* **boxsdkgen:** Disable OkHttp auto retries on connection fail (box/box-codegen[#874][4]) ([#1540][5]) ([`6842fa4`][6]), closes [`box/box-codegen#873`][7]
 * **boxsdkgen:** Support Archive API (box/box-openapi[#563][8]) ([#1552][9]) ([`ba7f012`][10])
 
 ### Bug Fixes
