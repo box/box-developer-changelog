@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2025-11-19-box-java-sdk-v510-released
+next_page_id: 2025-11-19-box-java-sdk-v1020-released
 previous_page_id: 2025-11-10-box-node-sdk-v1010-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/11-12-box-node-sdk-v411-released.md
