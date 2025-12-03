@@ -27,5 +27,5 @@ Should you have any issues or need further guidance, please post a request to
 our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
-[2]: g://authorization/custom-app-approval
+[2]: g://authorization/platform-app-approval
 [3]: g://authentication/oauth2/oauth2-setup

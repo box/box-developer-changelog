@@ -33,6 +33,6 @@ our [developer forum][1] for any help needed.
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 [2]: https://medium.com/box-developer-blog/custom-apps-manager-updates-c79ccf8ebe97
 [3]: g://authorization
-[4]: g://authorization/custom-app-approval
+[4]: g://authorization/platform-app-approval
 [5]: g://authorization/limited-access-approval
 [6]: g://security

@@ -14,7 +14,7 @@ collapse: true
 ### Bug Fixes
 
 * Add missing token scope (box/box-openapi[#490][1]) ([#420][2]) ([`41afe8b`][3])
-* Fix invalid variant config for Integration mapping Slack (box/box-openapi[#492][4]) ([#423][5]) ([`d03ccd4`][6])
+* Fix incorrect variant config for Integration mapping Slack (box/box-openapi[#492][4]) ([#423][5]) ([`d03ccd4`][6])
 * order of fields in the `IntegrationMapping` schema (box/box-openapi[#497][7]) ([#438][8]) ([`13dea88`][9])
 
 ### New Features and Enhancements
