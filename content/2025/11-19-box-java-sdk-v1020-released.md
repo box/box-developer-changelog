@@ -18,7 +18,7 @@ collapse: true
 ### New Features and Enhancements
 
 * Support GET enterprise configuration API (box/box-openapi[#559][4]) ([#1519][5]) ([`88dd8d2`][6])
-* Disable OkHttp auto retries on connection failure (box/box-codegen[#874][7]) ([#1541][8]) ([`c2bd137`][9])
+* Disable OkHttp auto retries on connection fail (box/box-codegen[#874][7]) ([#1541][8]) ([`c2bd137`][9])
 * Support Archive API (box/box-openapi[#563][10]) ([#1553][11]) ([`609e8bb`][12])
 
 [1]: https://github.com/box/box-java-sdk/issues/887
