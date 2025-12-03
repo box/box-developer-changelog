@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2024-12-02-box-python-sdk-generated-v180-released
-previous_page_id: 2024-11-12-naming-change-apps-integrations
+previous_page_id: 2024-11-21-box-java-sdk-v4130-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/11-29-box-java-sdk-v4131-released.md
 published_at: '2024-11-29'
