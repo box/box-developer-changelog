@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-01-28-box-cli-v400-released
-previous_page_id: 2025-01-21-box-python-sdk-generated-v1100-released
+previous_page_id: 2025-01-21-box-typescript-sdk-generated-v1110-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/01-22-box-java-sdk-v4140-released.md
 published_at: '2025-01-22'
