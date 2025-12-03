@@ -16,7 +16,7 @@ collapse: true
 * Add missing field assignments in constructor  (box/box-codegen[#646][1]) ([#485][2]) ([`0592f7b`][3])
 * Add missing token scope (box/box-openapi[#490][4]) ([#459][5]) ([`f0c0d91`][6])
 * correct parameters types in file representation (box/box-openapi[#503][7]) ([#489][8]) ([`d11529a`][9])
-* Fix invalid variant config for Integration mapping Slack (box/box-openapi[#492][10]) ([#462][11]) ([`660dc6e`][12])
+* Fix incorrect variant config for Integration mapping Slack (box/box-openapi[#492][10]) ([#462][11]) ([`660dc6e`][12])
 * order of fields in the `IntegrationMapping` schema (box/box-openapi[#497][13]) ([#476][14]) ([`93e2bc3`][15])
 * Remove `eval` usage (box/box-codegen[#636][16]) ([#474][17]) ([`7c86f34`][18])
 * Remove auth when cross origin redirect (box/box-codegen[#648][19]) ([#488][20]) ([`56fb287`][21])
