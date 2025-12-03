@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2024-11-29-box-java-sdk-v4131-released
+next_page_id: 2024-11-25-box-cli-v3160-released
 previous_page_id: 2024-11-12-naming-change-apps-integrations
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2024/11-21-box-java-sdk-v4130-released.md
