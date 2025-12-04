@@ -13,7 +13,7 @@ collapse: true
 
 ### Bug Fixes
 
-* Fix handling responses with invalid JSON (box/box-codegen[#667][1]) ([#485][2]) ([`46399d8`][3]), closes [#470][4]
+* Fix handling responses with incorrect JSON (box/box-codegen[#667][1]) ([#485][2]) ([`46399d8`][3]), closes [#470][4]
 
 ### New Features and Enhancements
 
