@@ -18,7 +18,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-12-03-ransomware-activity-detection
 previous_page_id: 2025-11-20-box-ios-sdk-610-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/11-27-new-ai-models.md
