@@ -10,9 +10,9 @@ release_source_url: ""
 ---
 
 # Ransomware Activity detection rule
-
+<!--alex ignore -->
 The Ransomware Activity detection rule, available in Box Shield Pro, monitors user activity and leverages Box machine learning to identify suspicious file extensions that may indicate a ransomware attack.
-
+<!--alex enable -->
 ## Fighting ransomware
 
 With the Ransomware Activity detection rule, you can better protect yourself by:
