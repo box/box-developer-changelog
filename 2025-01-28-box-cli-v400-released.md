@@ -16,7 +16,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-02-06-box-dotnet-sdk-generated-v170-released
-previous_page_id: 2025-01-22-box-java-sdk-v4140-released
+previous_page_id: 2025-01-27-box-swift-sdk-generated-060-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/01-28-box-cli-v400-released.md
 published_at: '2025-01-28'
