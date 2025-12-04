@@ -17,7 +17,7 @@ collapse: true
 * Change signature of `readBufferFromFile` method (box/box-codegen[#575][4]) ([#250][5]) ([`21e08ff`][6])
 * Correct types of `paged` and `thumb` properties in File representation (box/box-openapi[#503][7]) ([#347][8]) ([`58ff930`][9])
 * fix `IntegrationMapping` schemas description (box/box-openapi[#463][10]) ([#257][11]) ([`794f315`][12])
-* Fix invalid variant config for Integration mapping Slack (box/box-openapi[#492][13]) ([#322][14]) ([`97f4f94`][15])
+* Fix incorrect variant config for Integration mapping Slack (box/box-openapi[#492][13]) ([#322][14]) ([`97f4f94`][15])
 * Fix order of fields in the `IntegrationMapping` schema (box/box-openapi[#497][16]) ([#335][17]) ([`cb28e6d`][18])
 * remove unused parameter from `SignRequest` (box/box-openapi[#489][19]) ([#310][20]) ([`879897b`][21])
 * Support status codes with no content (box/box-codegen[#604][22]) ([#284][23]) ([`5823d2b`][24])
