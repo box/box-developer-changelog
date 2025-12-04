@@ -43,7 +43,7 @@ This version includes the Box Next Generation SDK artifact, previously developed
 
 * Change names of unions (box/box-codegen[#789][12]) ([#939][13]) ([`cf2b1d5`][14])
 
-* Remove unused models from schemas (box/box-openapi[#547][15]) ([#932][16]) ([`6ef6d63`][17]), closes [box/box-openapi#542][18] [box/box-openapi#544][19] [box/box-codegen#781][20] [box/box-openapi#545][21]
+* Remove unused models from schemas (box/box-openapi[#547][15]) ([#932][16]) ([`6ef6d63`][17]), closes box/box-openapi[#542][18], box/box-openapi[#544][19], box/box-codegen[#781][20], box/box-openapi[#545][21]
 
 For more details check [migration guide][22] from `box-python-sdk-gen` `v1` to `box-python-sdk` `v10`.
 
