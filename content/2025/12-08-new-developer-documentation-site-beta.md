@@ -11,7 +11,7 @@ release_source_url: ''
 
 # New developer documentation site (beta)
 
-We are exited to announce the beta launch of the new Box developer documentation site at developer.box.com. This release provides early access to the redesigned, AI-first, purpose-built developer experience platform for Box Developer Guides and API Reference.
+We are exited to announce the beta launch of the new Box developer documentation site at `developer.box.com`. This release provides early access to the redesigned, AI-first, purpose-built developer experience platform for Box Developer Guides and API Reference.
 
 <!-- more -->
 
