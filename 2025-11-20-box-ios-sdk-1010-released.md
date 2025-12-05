@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support GET enterprise configuration API (box/box-openapi[#559][1]) ([#1179][2]) ([`936edf7`][3])
-* Support Archive API (box/box-openapi[#563][4]) ([#1238][5]) ([`a2662e3`][6])
+* Enterprise構成の取得APIをサポート (box/box-openapi[#559][1]) ([#1179][2]) ([`936edf7`][3])
+* アーカイブAPIをサポート (box/box-openapi[#563][4]) ([#1238][5]) ([`a2662e3`][6])
 
 [1]: https://github.com/box/box-ios-sdk/issues/559
 

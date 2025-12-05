@@ -27,10 +27,10 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support Archive API (box/box-codegen[#865][1]) ([#1266][2]) ([`bca0473`][3])
-* Support GET enterprise configuration API (box/box-openapi[#559][4]) ([#1198][5]) ([`426aaed`][6])
-* Include `pdb` files when packing .net root project (box/box-codegen[#859][7]) ([#1169][8]) ([`8b7e7c8`][9])
-* Use generated `RetryStrategy` for retrying requests (box/box-codegen[#872][10]) ([#1232][11]) ([`5567fef`][12])
+* アーカイブAPIをサポート (box/box-codegen[#865][1]) ([#1266][2]) ([`bca0473`][3])
+* Enterprise構成の取得APIをサポート (box/box-openapi[#559][4]) ([#1198][5]) ([`426aaed`][6])
+* .NETルートプロジェクトをパックする際に`pdb`ファイルを含める (box/box-codegen[#859][7]) ([#1169][8]) ([`8b7e7c8`][9])
+* リクエストの再試行に生成された`RetryStrategy`を使用 (box/box-codegen[#872][10]) ([#1232][11]) ([`5567fef`][12])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/865
 

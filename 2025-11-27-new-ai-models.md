@@ -18,14 +18,14 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-12-03-ransomware-activity-detection
 previous_page_id: 2025-11-20-box-ios-sdk-610-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/11-27-new-ai-models.md
 published_at: '2025-11-27'
 fullyTranslated: true
 ---
-# Box AI API — new AI models available and default models update
+# Box AI API — 利用可能な新しいAIモデルとデフォルトモデルの更新
 
 [利用可能なAIモデル][supported-models]のリストが更新され、以下のモデルが追加されました。
 
@@ -36,12 +36,12 @@ fullyTranslated: true
 
 <!-- more -->
 
-Additionally, default AI models have been updated for Box AI features:
+さらに、デフォルトのAIモデルは、Box AI機能に対応するために更新されました。
 
-* [Gemini 2.5 Pro][gemini-2-5-pro] is now the default model for Box AI Enhanced Extract.
-* [Gemini 2.5 Flash][gemini-2-5-flash] is now the default model for Box AI Standard Extract.
-* [OpenAI GPT-5][gpt-5] is now the default model for Box AI Advanced Agent for Hubs, Documents, and Notes Q&A.
-* [OpenAI GPT-5 mini][gpt-5-mini] is now the default model for Box AI for Hubs, Documents, and Notes Q&A.
+* Box AI抽出エージェント (強化) のデフォルトモデルが[Gemini 2.5 Pro][gemini-2-5-pro]になりました。
+* Box AI抽出エージェント (標準) のデフォルトモデルが[Gemini 2.5 Flash][gemini-2-5-flash]になりました。
+* Box AI for Hubs、Box AI for Documents、Box AI for Notes Q&AのBox AI Advancedのデフォルトモデルが[OpenAI GPT-5][gpt-5]になりました。
+* Box AI for Hubs、Box AI for Documents、Box AI for Notes Q&Aのデフォルトモデルが[OpenAI GPT-5 mini][gpt-5-mini]になりました。
 
 **注:** **プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままでの利用となるため、モデル/出力の品質、可用性、精度にはばらつきがある可能性があります。
 

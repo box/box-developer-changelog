@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support GET enterprise configuration API (box/box-openapi[#559][1]) ([#1134][2]) ([`1106d32`][3])
-* Support Archive API (box/box-openapi[#563][4]) ([#1174][5]) ([`d21ec4d`][6])
+* Enterprise構成の取得APIをサポート (box/box-openapi[#559][1]) ([#1134][2]) ([`1106d32`][3])
+* アーカイブAPIをサポート (box/box-openapi[#563][4]) ([#1174][5]) ([`d21ec4d`][6])
 
 [1]: https://github.com/box/box-python-sdk/issues/559
 

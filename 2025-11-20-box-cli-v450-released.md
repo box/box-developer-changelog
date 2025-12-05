@@ -26,11 +26,11 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* support auto update using Github releases ([#603][1]) ([`2460e1b`][2])
+* GitHubリリースを使用して自動更新をサポート ([#603][1]) ([`2460e1b`][2])
 
 ### バグ修正
 
-* update dependencies to fix `tmp` vulnerability ([#600][3]) ([`7e270eb`][4])
+* `tmp`の脆弱性を修正するために依存関係を更新 ([#600][3]) ([`7e270eb`][4])
 
 [1]: https://github.com/box/boxcli/issues/603
 

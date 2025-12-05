@@ -27,9 +27,9 @@ fullyTranslated: true
 
 ### **新機能と機能強化:**
 
-* **boxsdkgen:** Support Archive API (box/box-codegen[#865][1]) ([#1270][2]) ([`307a5d4`][3])
-* **boxsdkgen:** Support GET enterprise configuration API (box/box-openapi[#559][4]) ([#1212][5]) ([`0d97d4d`][6])
-* **boxsdkgen:** Use generated `RetryStrategy` for retrying requests (box/box-codegen[#872][7]) ([#1227][8]) ([`5b42a3e`][9])
+* **boxsdkgen:** アーカイブAPIをサポート (box/box-codegen[#865][1]) ([#1270][2]) ([`307a5d4`][3])
+* **boxsdkgen:** Enterprise構成の取得APIをサポート (box/box-openapi[#559][4]) ([#1212][5]) ([`0d97d4d`][6])
+* **boxsdkgen:** リクエストの再試行に生成された`RetryStrategy`を使用 (box/box-codegen[#872][7]) ([#1227][8]) ([`5b42a3e`][9])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/865
 

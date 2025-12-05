@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-02-24-box-java-sdk-v4151-released
-previous_page_id: 2025-02-20-box-dotnet-sdk-generated-v180-released
+previous_page_id: 2025-02-20-box-python-sdk-generated-v1120-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/02-20-box-typescript-sdk-generated-v1130-released.md
 published_at: '2025-02-20'

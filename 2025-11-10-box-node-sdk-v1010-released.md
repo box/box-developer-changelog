@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix error handling in TS (box/box-codegen[#882][1]) ([#1180][2]) ([`2b68145`][3])
+* TSでのエラー処理を修正 (box/box-codegen[#882][1]) ([#1180][2]) ([`2b68145`][3])
 * Fix error propagation and empty fetch response handling in node SDK (`box/box-codegen`[#883][4]) ([#1192][5]) ([`5664231`][6])
-* Remove enum types from GET enterprise configurations endpoint (box/box-openapi[#560][7]) ([#1155][8]) ([`3ba01aa`][9]), closes [`box/box-openapi#558`][10] [`box/box-openapi#558`][10] [`box/box-openapi#559`][11] [`box/box-codegen#869`][12] [`box/box-codegen#871`][13] [`box/box-codegen#872`][14]
+* Enterprise構成を取得エンドポイントから列挙型を削除 (box/box-openapi[#560][7]) ([#1155][8]) ([`3ba01aa`][9])、[`box/box-openapi#558`][10] [`box/box-openapi#558`][10] [`box/box-openapi#559`][11] [`box/box-codegen#869`][12] [`box/box-codegen#871`][13] [`box/box-codegen#872`][14]をクローズ
 
 ### 新機能と機能強化
 
-* Add GET enterprise configuration endpoint (box/box-openapi[#559][15]) ([#1143][16]) ([`5eeeb4f`][17])
-* support delete Archive endpoint (box/box-openapi[#563][18]) ([#1173][19]) ([`7dc774d`][20])
+* Enterprise構成を取得エンドポイントを追加 (box/box-openapi[#559][15]) ([#1143][16]) ([`5eeeb4f`][17])
+* アーカイブを削除エンドポイントをサポート (box/box-openapi[#563][18]) ([#1173][19]) ([`7dc774d`][20])
 
 [1]: https://github.com/box/box-node-sdk/issues/882
 
