@@ -28,7 +28,7 @@ fullyTranslated: true
 ### バグ修正
 
 * TSでのエラー処理を修正 (box/box-codegen[#882][1]) ([#1180][2]) ([`2b68145`][3])
-* Fix error propagation and empty fetch response handling in node SDK (`box/box-codegen`[#883][4]) ([#1192][5]) ([`5664231`][6])
+* Node SDKでエラー伝搬およびレスポンスの取得が空であった場合の処理を修正 (`box/box-codegen`[#883][4]) ([#1192][5]) ([`5664231`][6])
 * Enterprise構成を取得エンドポイントから列挙型を削除 (box/box-openapi[#560][7]) ([#1155][8]) ([`3ba01aa`][9])、[`box/box-openapi#558`][10] [`box/box-openapi#558`][10] [`box/box-openapi#559`][11] [`box/box-codegen#869`][12] [`box/box-codegen#871`][13] [`box/box-codegen#872`][14]をクローズ
 
 ### 新機能と機能強化

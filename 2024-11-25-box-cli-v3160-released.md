@@ -26,11 +26,11 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* add support for `template_id` during sign request creation ([#549][1]) ([`95963c1`][2])
+* 署名リクエストの作成時の`template_id`のサポートを追加 ([#549][1]) ([`95963c1`][2])
 
 ### バグ修正
 
-* Change zone name in the mass update user zone script ([#546][3]) ([`1a1d603`][4])
+* ユーザーのゾーンの一括更新スクリプトでゾーン名を変更 ([#546][3]) ([`1a1d603`][4])
 
 [1]: https://github.com/box/boxcli/issues/549
 

@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Enforce exact byte reading from `Content-Length` header for `BoxFile` representation ([#1274][1]) ([`0b45cdb`][2])
-* Expose `getVersionByID` method on `BoxFile` ([#1268][3]) ([`6ea70f7`][4])
-* make `tryRestoreUsingAccessTokenCache` in Box API connection public ([#1272][5]) ([`50f5a61`][6])
+* `BoxFile`レプリゼンテーションで`Content-Length`ヘッダーからのバイトの完全一致の読み取りを適用 ([#1274][1]) ([`0b45cdb`][2])
+* `BoxFile`で`getVersionByID`メソッドを公開 ([#1268][3]) ([`6ea70f7`][4])
+* Box API接続の`tryRestoreUsingAccessTokenCache`をpublicに変更 ([#1272][5]) ([`50f5a61`][6])
 
 ### バグ修正
 
-* Fix `accessToken` locking mechanism ([#1270][7]) ([`5eb4c93`][8])
+* `accessToken`のロックメカニズムを修正 ([#1270][7]) ([`5eb4c93`][8])
 
 [1]: https://github.com/box/box-java-sdk/issues/1274
 

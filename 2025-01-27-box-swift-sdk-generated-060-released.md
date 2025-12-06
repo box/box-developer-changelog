@@ -27,23 +27,23 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add missing token scope (box/box-openapi[#490][1]) ([#319][2]) ([`220134e`][3])
+* 不足していたトークンのスコープを追加 (box/box-openapi[#490][1]) ([#319][2]) ([`220134e`][3])
 * Change signature of `readBufferFromFile` method (box/box-codegen[#575][4]) ([#250][5]) ([`21e08ff`][6])
 * Correct types of `paged` and `thumb` properties in File representation (box/box-openapi[#503][7]) ([#347][8]) ([`58ff930`][9])
 * fix `IntegrationMapping` schemas description (box/box-openapi[#463][10]) ([#257][11]) ([`794f315`][12])
-* Fix incorrect variant config for Integration mapping Slack (box/box-openapi[#492][13]) ([#322][14]) ([`97f4f94`][15])
+* Slack統合マッピングのバリアント構成の誤りを修正 (box/box-openapi[#492][13]) ([#322][14]) ([`97f4f94`][15])
 * Fix order of fields in the `IntegrationMapping` schema (box/box-openapi[#497][16]) ([#335][17]) ([`cb28e6d`][18])
-* remove unused parameter from `SignRequest` (box/box-openapi[#489][19]) ([#310][20]) ([`879897b`][21])
+* `SignRequest`から未使用のパラメータを削除 (box/box-openapi[#489][19]) ([#310][20]) ([`879897b`][21])
 * Support status codes with no content (box/box-codegen[#604][22]) ([#284][23]) ([`5823d2b`][24])
 * update client error schema to support schema errors (box/box-openapi[#467][25]) ([#259][26]) ([`40e2279`][27])
 * update collaboration, metadata and collection resources (box/box-openapi[#483][28]) ([#286][29]) ([`f5b190a`][30])
 
 ### 新機能と機能強化
 
-* Add `aiAgent` info to `AiResponse` (box/box-openapi[#485][31]) ([#304][32]) ([`b614a6f`][33])
+* `AiResponse`に`aiAgent`情報を追加 (box/box-openapi[#485][31]) ([#304][32]) ([`b614a6f`][33])
 * add AI LLM endpoint AWS `params` (box/box-openapi[#478][34]) ([#267][35]) ([`36ee37d`][36])
 * Add Box Sign shared requests (box/box-openapi[#504][37]) ([#348][38]) ([`2f5e2f1`][39])
-* Add support for replacing the network client implementation (box/box-codegen[#629][40]) ([#313][41]) ([`e08a117`][42])
+* ネットワーククライアントの実装を置き換えるサポートを追加 (box/box-codegen[#629][40]) ([#313][41]) ([`e08a117`][42])
 * Expose method for making custom HTTP requests (box/box-codegen[#610][43]) ([#297][44]) ([`f7da2e3`][45])
 * Support `ai/extract` and `ai/extract_structured` endpoints (box/box-codegen[#564][46]) ([#239][47]) ([`9b5d6e9`][48])
 * Support Box Doc Gen API (box/box-codegen[#644][49]) ([#343][50]) ([`8ef2533`][51])

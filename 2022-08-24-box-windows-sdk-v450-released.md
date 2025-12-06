@@ -28,7 +28,7 @@ fullyTranslated: true
 **新機能と機能強化:**
 
 * 署名リクエストに`content-type`フィールドを追加 ([#850][1]) ([`054d3e1`][2])
-* `BoxSharedLink`で`effective_access`を開示 [#843][3] ([`d84ddd4`][4])
+* `BoxSharedLink`で`effective_access`を公開 [#843][3] ([`d84ddd4`][4])
 
 **バグ修正:**
 

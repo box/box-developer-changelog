@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** Support GET enterprise configuration API (box/box-openapi[#559][1]) ([#1529][2]) ([`e6924bb`][3])
-* **boxsdkgen:** Disable OkHttp auto retries on connection fail (box/box-codegen[#874][4]) ([#1540][5]) ([`6842fa4`][6]), closes [`box/box-codegen#873`][7]
-* **boxsdkgen:** Support Archive API (box/box-openapi[#563][8]) ([#1552][9]) ([`ba7f012`][10])
+* **boxsdkgen:** Enterprise構成の取得APIをサポート (box/box-openapi[#559][1]) ([#1529][2]) ([`e6924bb`][3])
+* **boxsdkgen:** 接続に失敗した場合のOkHttpの自動再試行を無効化 (box/box-codegen[#874][4]) ([#1540][5]) ([`6842fa4`][6])、[`box/box-codegen#873`][7]をクローズ
+* **boxsdkgen:** アーカイブAPIをサポート (box/box-openapi[#563][8]) ([#1552][9]) ([`ba7f012`][10])
 
 ### バグ修正
 
-* **boxsdkgen:** Fix parsing `OffsetDateTime` from String (box/box-codegen[#887][11]) ([#1581][12]) ([`4f9e1b3`][13])
+* **boxsdkgen:** 文字列からの`OffsetDateTime`の解析を修正 (box/box-codegen[#887][11]) ([#1581][12]) ([`4f9e1b3`][13])
 
 [1]: https://github.com/box/box-java-sdk/issues/559
 
