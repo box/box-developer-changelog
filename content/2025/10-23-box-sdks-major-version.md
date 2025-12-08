@@ -35,5 +35,5 @@ For additional information on recommended actions and migration guides, visit [B
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][2] or report issues directly in the individual Box SDK repositories on GitHub.
 
-[1]: https://developer.box.com/guides/tooling/sdks/sdk-versioning/
+[1]: g://tooling/sdks/sdk-versioning/
 [2]: https://forum.box.com/

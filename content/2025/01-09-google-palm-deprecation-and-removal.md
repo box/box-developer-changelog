@@ -21,5 +21,5 @@ As a result, the following models will be removed from Box AI on 2025-01-17
 * `text_unicorn`
 * `google_text_embedding_gecko*`
 
-If you are using one of these models via agent override, check our [list of 
-supported models](https://developer.box.com/guides/box-ai/ai-agents/) here. 
+If you are using one of these models with an agent override, check our [list of 
+supported models](g://box-ai/ai-agents/). 
