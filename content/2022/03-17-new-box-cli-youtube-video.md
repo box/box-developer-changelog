@@ -31,6 +31,6 @@ our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 [2]: https://www.youtube.com/playlist?list=PL0F3BD5B64D6A39F1
-[3]: /changelog/#2022-02-01-box-cli-v300-released
+[3]: p://changelog/#2022-02-01-box-cli-v300-released
 [4]: https://www.youtube.com/watch?v=66wlIyS07Aw&list=PL0F3BD5B64D6A39F1&index=2
 [5]: https://www.youtube.com/user/box/featured

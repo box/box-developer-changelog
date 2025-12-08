@@ -50,7 +50,7 @@ our [developer forum][forum] or file a ticket
 with [Box Support][support].
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
-[oauth-cl]: /2021/#2021-11-29-oauth-20-redirect-url-updates
+[oauth-cl]: p://changelog/#2021-11-29-oauth-20-redirect-url-updates
 [url-redirect]: e://get-authorize/#param-redirect_uri
 [oauth-setup]: g://authentication/oauth2/oauth2-setup/
 [oauth-sdk]: g://authentication/oauth2/with-sdk/
