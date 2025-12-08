@@ -45,8 +45,8 @@ To learn more about using Box Hubs, visit the [Box Hubs support documentation][4
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][5] for any help needed.
 
-[1]: https://developer.box.com/reference/v2025.0/resources/hub/
-[2]: https://developer.box.com/reference/v2025.0/resources/hub-collaboration/
-[3]: https://developer.box.com/reference/v2025.0/resources/hub-item/
+[1]: r://hub
+[2]: r://hub-collaboration
+[3]: r://hub-item
 [4]: https://support.box.com/hc/en-us/sections/26102544955027-Box-Hubs
 [5]: https://community.box.com/

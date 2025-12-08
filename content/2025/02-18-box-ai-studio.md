@@ -34,5 +34,5 @@ Should you have any issues or need further guidance, please post a request to ou
 
 [ai-studio]: https://support.box.com/hc/en-us/articles/37228079461267-Enabling-Box-AI-Studio-and-Managing-Agents
 [community]: https://community.box.com/
-[guide]: https://developer.box.com/guides/ai-studio/getting-started-ai-studio
-[reference]: https://developer.box.com/reference/get-ai-agents/
+[guide]: g://ai-studio/getting-started-ai-studio
+[reference]: e://get-ai-agents

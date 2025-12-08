@@ -11,7 +11,7 @@ release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v3.4
 
 # Windows .NET SDK `v3.4.1` released
 
-Added support for [Allowed Collaboration Domains](https://developer.box.com/reference/resources/collaboration-allowlist-entry/)
+Added support for [Allowed Collaboration Domains](r://collaboration_allowlist_entry)
 Added Event Type enum
 Fixed deserialization issue with `BoxRepresentationStatus`
 

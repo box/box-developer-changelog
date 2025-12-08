@@ -109,6 +109,6 @@ Should you have any issues or need further guidance, please
 [salesforce-sdk]: https://github.com/box/box-salesforce-sdk
 [salesforce-sdk-releases]: https://github.com/box/box-salesforce-sdk/releases
 [salesforce-code]: https://github.com/box/box-salesforce-sdk/compare/1.0.0...v1.1.0#diff-1855f83ffd4977e5b9e4bfc167154f2e11b0161fd6c380502c48082b6837b0af
-[box-sdks]: https://developer.box.com/sdks-and-tools/
+[box-sdks]: pages://sdks-and-tools
 [support]: https://support.box.com/hc/en-us/requests/new
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

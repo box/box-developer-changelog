@@ -32,5 +32,5 @@ This new parameter may be used instead of using the `resource` parameter, which 
 ```
 - Added `box_shared_link` request parameter to [request access token API reference][2].
 
-[1]: https://developer.box.com/guides/authentication/access-tokens/downscope/#downscoping-in-practice
-[2]: https://developer.box.com/reference/post-oauth2-token/#request
+[1]: g://authentication/tokens/downscope
+[2]: r://post_oauth2_token/#request

@@ -35,5 +35,5 @@ No immediate action required — If you're using the current SDK version, your e
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][2] for any help needed.
 
-[versioning]: https://developer.box.com/guides/tooling/sdks/sdk-versioning
+[versioning]: g://tooling/sdks/sdk-versioning
 [2]: https://community.box.com/

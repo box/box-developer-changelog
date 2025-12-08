@@ -25,5 +25,5 @@ To learn more, see our guide on [User Types][ut] and [Service Accounts][sa].
 * Added auto-generated email address of Service Account user to Developer
 Console
 
-[ut]: https://developer.box.com/guides/authentication/user-types/
-[sa]: https://developer.box.com/guides/authentication/user-types/service-account/
+[ut]: pages/platform/user-types
+[sa]: pages/platform/user-types#service_account

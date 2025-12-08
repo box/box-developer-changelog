@@ -47,4 +47,4 @@ For more information, see the [SDK versioning strategy document][5]. Follow deve
 
 [4]: https://github.com/box/box-windows-sdk-v2/blob/combined-sdk/migration-guides/from-v6-to-v10.md
 
-[5]: https://developer.box.com/guides/tooling/sdks/sdk-versioning/
+[5]: g://tooling/sdks/sdk-versioning/
