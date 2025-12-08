@@ -35,7 +35,7 @@ AI-first functionality:
 
 ## Launch plan
 
-This beta launch focuses on Developer Guides and API Reference. The remaining content will be migrated from the current [box.dev](box.dev) site over the coming weeks. Throughout the process, both sites will remain available and interlinked to ensure a smooth transition.
+This beta launch focuses on Developer Guides and API Reference. The remaining content will be migrated from the current [box.dev](box.dev) site over the coming weeks. Throughout the process, both sites will be available and interlinked to ensure a smooth transition.
 
 ## Developer impact
 
