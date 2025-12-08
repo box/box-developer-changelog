@@ -60,7 +60,7 @@ For more details check [migration guide][28] from `box-dotnet-sdk-gen` `v1` to `
 
 [3]: https://github.com/box/box-windows-sdk-v2/blob/sdk-gen/migration-guides/from-v5-to-v10.md
 
-[4]: https://developer.box.com/guides/tooling/sdks/sdk-versioning/
+[4]: g://tooling/sdks/sdk-versioning
 
 [5]: https://github.com/box/box-dotnet-sdk-gen
 

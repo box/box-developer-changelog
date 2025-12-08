@@ -37,6 +37,6 @@ to see when items are opened as a content owner.
 Should you have any issues or need further guidance, please post a request to
 our [developer forum][forum] for any help needed.
 
-[event-apis]: https://developer.box.com/reference/get-events
+[event-apis]: r://get-events
 [user-events]: g://events/enterprise-events/for-enterprise
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

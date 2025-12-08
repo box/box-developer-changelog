@@ -45,4 +45,4 @@ For more information, see the [SDK versioning strategy document][4]. Follow deve
 
 [3]: https://github.com/box/box-python-sdk/blob/combined-sdk/migration-guides/from-v4-to-v10.md 
 
-[4]: https://developer.box.com/guides/tooling/sdks/sdk-versioning/
+[4]: g://tooling/sdks/sdk-versioning/

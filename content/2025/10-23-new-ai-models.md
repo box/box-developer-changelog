@@ -32,13 +32,13 @@ For further details on Box AI API, see the [guides][ai-guides] and [API referenc
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][forum] for any help needed.
 
-[supported-models]: https://developer.box.com/guides/box-ai/supported-models/
-[override]: https://developer.box.com/guides/box-ai/ai-agents/ai-agent-overrides/
-[ai-guides]: https://developer.box.com/guides/box-ai
-[api]: https://developer.box.com/reference/post-ai-ask/
-[forum]: https://forum.box.com/
-[mistral-medium]: https://developer.box.com/guides/box-ai/ai-models/ibm-mistral-medium-3-model-card/
-[mistral-small]: https://developer.box.com/guides/box-ai/ai-models/ibm-mistral-small-3-1-model-card/
-[claude-haiku]: https://developer.box.com/guides/box-ai/ai-models/aws-claude-4-5-haiku-model-card/
-[gpt-5]: https://developer.box.com/guides/box-ai/ai-models/openai-gpt-5-model-card/
+[supported-models]: g://box-ai/ai-models
+[override]: g://box-ai/ai-agents/ai-agent-overrides
+[ai-guides]: g://box-ai
+[api]: e://post-ai-ask
+[forum]: https://forum.box.com
+[mistral-medium]: g://box-ai/ai-models/ibm-mistral-medium-3-model-card
+[mistral-small]: g://box-ai/ai-models/ibm-mistral-small-3-1-model-card
+[claude-haiku]: g://box-ai/ai-models/aws-claude-4-5-haiku-model-card
+[gpt-5]: g://box-ai/ai-models/openai-gpt-5-model-card
 

@@ -95,6 +95,6 @@ Should you have any questions or need further guidance, please email
 jwt-set-rollout@box.com.
 
 
-[box-sdks]: https://developer.box.com/sdks-and-tools
-[tokendoc]: https://developer.box.com/reference/post-oauth2-token/
-[downscope]: https://developer.box.com/guides/authentication/access-tokens/downscope
+[box-sdks]: /sdks-and-tools
+[tokendoc]: r://post-oauth2-token/
+[downscope]: g://authentication/tokens/downscope
