@@ -69,5 +69,5 @@ be set to `search_result`.
 For complete format information see the
 [shared link search result][search_result_shared_link] response object.
 
-[search_content]: https://developer.box.com/reference/get-search/
-[search_result_shared_link]: https://developer.box.com/reference/resources/search-result-with-shared-link/
+[search_content]: r://get-search
+[search_result_shared_link]: r://search-result-with-shared-link

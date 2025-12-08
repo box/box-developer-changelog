@@ -52,9 +52,9 @@ For further details on Box AI API, see the [guides][3] and [API reference][4].
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][5] for any help needed.
 
-[1]: https://developer.box.com/guides/box-ai/supported-models/
-[2]: https://box-ai/ai-agents/ai-agent-overrides
-[3]: https://developer.box.com/guides/box-ai
-[4]: https://developer.box.com/reference/post-ai-ask/
+[1]: g://box-ai/ai-models
+[2]: g://box-ai/ai-agents/ai-agent-overrides
+[3]: g://box-ai
+[4]: e://post-ai-ask
 [5]: https://forum.box.com/
 [deprecated]: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions#expandable-1

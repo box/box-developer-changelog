@@ -31,11 +31,10 @@ The developer guides for the [Salesforce Developer Toolkit][7] have been updated
 - All methods that can be invoked in [Salesforce Flows][5]
 - Methods in Agentforce Flows for [Box Hubs][6]
 
-
-[1]: https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-sign
-[2]: https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-hubs
-[3]: https://developer.box.com/guides/tooling/salesforce-toolkit/samples/#create-a-sign-request
-[4]: https://developer.box.com/guides/tooling/salesforce-toolkit/samples/#get-box-hubs
-[5]: https://developer.box.com/guides/tooling/salesforce-toolkit/flow-actions/#methods-in-salesforce-flows
-[6]: https://developer.box.com/guides/tooling/salesforce-toolkit/box-agentforce-package/#box-hubs
-[7]: https://developer.box.com/guides/tooling/salesforce-toolkit/
+[1]: g://tooling/salesforce-toolkit/methods/#box-sign
+[2]: g://tooling/salesforce-toolkit/methods/#box-hubs
+[3]: g://tooling/salesforce-toolkit/samples/#create-a-sign-request
+[4]: g://tooling/salesforce-toolkit/samples/#get-box-hubs
+[5]: g://tooling/salesforce-toolkit/flow-actions/#methods-in-salesforce-flows
+[6]: g://tooling/salesforce-toolkit/box-agentforce-package/#box-hubs
+[7]: g://tooling/salesforce-toolkit/

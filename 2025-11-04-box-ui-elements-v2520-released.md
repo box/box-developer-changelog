@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2025-11-07-box-ui-elements-v2530-released
+next_page_id: 2025-11-07-box-node-sdk-v410-released
 previous_page_id: 2025-10-23-new-ai-models
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/11-04-box-ui-elements-v2520-released.md

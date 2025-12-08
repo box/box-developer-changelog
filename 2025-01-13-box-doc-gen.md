@@ -43,10 +43,10 @@ Check the [Box Doc Gen developer guides][1] to learn more about Box Doc Gen and 
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][7] for any help needed.
 
-[1]: https://developer.box.com/guides/docgen
-[2]: g://docgen/docgen-getting-started/
-[3]: g://docgen/mark-template/
-[4]: g://docgen/generate-document/
-[5]: g://docgen/docgen-jobs/
-[6]: e://post-docgen-templates/
-[7]: https://forum.box.com/
+[1]: g://docgen
+[2]: g://docgen/docgen-getting-started
+[3]: g://docgen/mark-template
+[4]: g://docgen/generate-document
+[5]: g://docgen/docgen-jobs
+[6]: e://post-docgen-templates
+[7]: https://forum.box.com

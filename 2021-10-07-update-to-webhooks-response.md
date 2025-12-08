@@ -34,7 +34,7 @@ Webhook (Mini) object in the entries array.
 * Added a `mini` resource for [Webhook][mini]
 * Corrected the [get-webhooks][webhooks] response object
 
-[support]: https://developer.box.com/support
+[support]: page/support
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 [webhooks]: e://get-webhooks
 [mini]: e://resources/webhook--mini

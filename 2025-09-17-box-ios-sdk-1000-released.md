@@ -62,7 +62,7 @@ For more details check [migration guide][14] from `box-swift-sdk-gen` `v0` to `b
 
 [3]: https://github.com/box/box-ios-sdk/blob/sdk-gen/migration-guides/from-v5-to-v10.md
 
-[4]: https://developer.box.com/tooling/sdks/sdk-versioning
+[4]: g://tooling/sdks/sdk-versioning
 
 [5]: https://github.com/box/box-swift-sdk-gen
 

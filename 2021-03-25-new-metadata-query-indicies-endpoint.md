@@ -56,5 +56,5 @@ This release includes the following updated content.
 * Updated metadata query indices guide to include details
  on how to get a list of metadata query indices. 
 
-[mdq-indices-response]: https://developer.box.com/reference/resources/metadata-query-index/
-[mdq-index-response]: https://developer.box.com/reference/resources/metadata-query-indices/
+[mdq-indices-response]: r://metadata_query_index
+[mdq-index-response]: r://metadata-query-indices
