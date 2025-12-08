@@ -40,5 +40,5 @@ our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 [2]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
-[3]: https://developer.box.com/reference/post-sign-requests/
-[4]: https://developer.box.com/guides/box-sign/create-sign-request/
+[3]: r://post-sign-requests
+[4]: g://box-sign/create-sign-request

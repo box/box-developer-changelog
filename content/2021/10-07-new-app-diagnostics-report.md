@@ -24,5 +24,5 @@ As always, if you have issues you may file a
 [support ticket][support] or post on our [developer forum][forum].
 
 [report]: g://api-calls/permissions-and-errors/app-diagnostics-report
-[support]: https://developer.box.com/support
+[support]: /support
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

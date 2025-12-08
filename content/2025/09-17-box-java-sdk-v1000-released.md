@@ -55,7 +55,7 @@ For more details check [migration guide][23] from `box-java-sdk-gen` `v0` to `bo
 
 [3]: https://github.com/box/box-java-sdk/blob/sdk-gen/migration-guides/from-v4-to-v10.md
 
-[4]: https://developer.box.com/tooling/sdks/sdk-versioning
+[4]: g://tooling/sdks/sdk-versioning
 
 [5]: https://github.com/box/box-java-sdk-gen
 

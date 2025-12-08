@@ -23,9 +23,9 @@ We are thrilled to announce the release of our new dedicated resource page [Work
 * [Webhooks][5]
 * [Workshops][6]
 
-[1]: https://developer.box.com/sign/
-[2]: https://developer.box.com/sign/quick-start/
-[3]: https://developer.box.com/sign/technical-use-cases/
-[4]: https://developer.box.com/sign/request-options/
-[5]: https://developer.box.com/sign/webhooks/
+[1]: p://sign
+[2]: p://sign/quick-start
+[3]: p://sign/technical-use-cases
+[4]: p://sign/request-options
+[5]: p://sign/webhooks
 [6]: https://github.com/barduinor/box-python-gen-workshop/blob/main/workshops/sign/sign.md

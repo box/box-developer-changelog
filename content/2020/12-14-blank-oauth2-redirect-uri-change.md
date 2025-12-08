@@ -41,5 +41,5 @@ use the following steps:
  from the Box auth step,
  [as is described in this guide](g://authentication/oauth2/with-sdk/#2-redirect-user).
 
-[oauth2-changelog-notice]: https://developer.box.com/changelog/#2020-09-29-changes-to-oauth-2-app-redirect-url-requirements
+[oauth2-changelog-notice]: /changelog/#2020-09-29-changes-to-oauth-2-app-redirect-url-requirements
 [dev-console]: https://cloud.app.box.com/developers/console

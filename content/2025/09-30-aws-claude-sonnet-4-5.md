@@ -27,7 +27,7 @@ For further details on Box AI API, see the [guides][2] and [API reference][3].
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][4] for any help needed.
 
-[1]: https://developer.box.com/guides/box-ai/supported-models/
-[2]: https://developer.box.com/guides/box-ai
-[3]: https://developer.box.com/reference/post-ai-ask/
+[1]: g://box-ai/ai-models
+[2]: g://box-ai
+[3]: e://post-ai-ask
 [4]: https://forum.box.com/
