@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2025-12-03-ransomware-activity-detection
+previous_page_id: 2025-12-08-box-windows-sdk-v1030-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-08-box-windows-sdk-v620-released.md
 published_at: '2025-12-08'
