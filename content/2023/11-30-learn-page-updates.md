@@ -21,5 +21,5 @@ for you to use when coming on to the platform. Checkout the learn section [here]
 Should you have any issues or need further guidance, please post a request to our [developer forum][2] for any help needed.
 
 
-[1]: /platform
+[1]: pages/platform
 [2]: https://forum.box.com/

@@ -33,5 +33,5 @@ Should you have any further questions, please contact us by opening a
 [support][support] ticket or posting on the [developer forum][forum]. 
 
 [owuie]: g://embed/ui-elements/open-with
-[support]: /support
+[support]: page/support
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

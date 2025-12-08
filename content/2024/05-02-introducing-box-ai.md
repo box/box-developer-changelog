@@ -35,7 +35,7 @@ The new Box AI for UI Elements allows the users to embed AI functionality in the
 Should you have any issues or need further guidance, please post a request to our [developer forum][5] for any help needed.
 
 [1]: g://box-ai
-[2]: p://ai-dev-zone
+[2]: pages/ai-dev-zone
 [3]: g://embed/ui-elements/preview#box-ai-ui-element
 [4]: g://embed/ui-elements/preview
 [5]: https://forum.box.com/

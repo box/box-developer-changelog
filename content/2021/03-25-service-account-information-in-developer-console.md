@@ -25,5 +25,5 @@ To learn more, see our guide on [User Types][ut] and [Service Accounts][sa].
 * Added auto-generated email address of Service Account user to Developer
 Console
 
-[ut]: p://platform/user-types
-[sa]: p://platform/user-types#service_account
+[ut]: pages/platform/user-types
+[sa]: pages/platform/user-types#service_account
