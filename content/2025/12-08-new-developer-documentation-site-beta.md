@@ -39,7 +39,7 @@ This beta launch focuses on Developer Guides and API Reference. The remaining co
 
 ## Developer impact
 
-We encourage you to test out the beta functionality and and share feedback. During the beta release, you can switch back to the [current developer documentation](https://box.dev/) site to engage with our content in the environment that you know best. For users leveraging the Japanese version, switch back to [localized version](https://ja.developer.box.com/)
+We encourage you to test out the beta functionality and and share feedback. During the beta release, you can switch back to the [current developer documentation](https://box.dev/) site to engage with our content in the environment that you know best. For users of the Japanese version, switch back to [localized version](https://ja.developer.box.com/).
 
 ## Where to get support
 
