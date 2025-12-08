@@ -14,7 +14,7 @@ collapse: true
 ### Bug Fixes
 
 * **boxsdkgen:** Fix error handling in TS (box/box-codegen[#882][1]) ([#1182][2]) ([`c6c0f50`][3])
-* **boxsdkgen:** Remove enum types from GET enterprise configurations endpoint (box/box-openapi[#560][4]) ([#1154][5]) ([`5fd824b`][6]), closes [box/box-codegen#869][7] [box/box-openapi#559][8] [box/box-codegen#872][9]
+* **boxsdkgen:** Remove enum types from GET enterprise configurations endpoint (box/box-openapi[#560][4]) ([#1154][5]) ([`5fd824b`][6]), closes [`box/box-codegen#869`][7] [`box/box-openapi#559`][8] [`box/box-codegen#872`][9]
 
 ### New Features and Enhancements
 

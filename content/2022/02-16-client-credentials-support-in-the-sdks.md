@@ -33,7 +33,7 @@ Should you have any issues or need further guidance, please post a request to
 our [developer forum][1] for any help needed.
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
-[2]: https://developer.box.com/changelog/#2020-11-17-client-credentials-grant
+[2]: /2020/#2020-11-17-client-credentials-grant
 [3]: https://github.com/box/box-windows-sdk-v2
 [4]: g://authentication/client-credentials/
 [5]: https://github.com/box/box-java-sdk

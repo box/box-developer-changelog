@@ -39,5 +39,5 @@ You can use these webhooks to trigger actions in your own applications or notify
 Should you have any issues or need further guidance, please post a request to our [developer forum][3] for any help needed.
 
 [1]: e://post-sign-requests
-[2]: https://developer.box.com/sign/webhooks/
+[2]: p://sign/webhooks
 [3]: https://forum.box.com/

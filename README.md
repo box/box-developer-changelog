@@ -90,7 +90,7 @@ specific language governing permissions and limitations under the License.
 
 [license]: LICENSE
 [contrib]: CONTRIBUTING.md
-[boxdev]: https://developer.box.com/changelog
+[boxdev]: /changelog
 [opensource]: http://opensource.box.com/badges
 [cibadge]: https://github.com/box/box-developer-changelog/workflows/Tests/badge.svg
 [cilink]: https://github.com/box/box-developer-changelog/actions?query=workflow%3ATests
