@@ -38,15 +38,15 @@ For further details on Box AI API, see the [guides][ai-guides] and [API referenc
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][forum] for any help needed.
 
-[supported-models]: https://developer.box.com/guides/box-ai/supported-models/
-[override]: https://developer.box.com/guides/box-ai/ai-agents/ai-agent-overrides/
-[ai-guides]: https://developer.box.com/guides/box-ai
-[api]: https://developer.box.com/reference/post-ai-ask/
+[supported-models]: g://box-ai/ai-models
+[override]: g://box-ai/ai-agents/ai-agent-overrides
+[ai-guides]: g://box-ai
+[api]: e://post-ai-ask
 [forum]: https://forum.box.com/
-[gpt-5]: https://developer.box.com/guides/box-ai/ai-models/openai-gpt-5-model-card/
-[gpt-5-1]: https://developer.box.com/guides/box-ai/ai-models/openai-gpt-5-1-model-card/
-[gpt-5-mini]: https://developer.box.com/guides/box-ai/ai-models/openai-gpt-5-mini-model-card/
-[gemini-3-pro]: https://developer.box.com/guides/box-ai/ai-models/google-gemini-3-pro-model-card/
-[llama-4-maverick]: https://developer.box.com/guides/box-ai/ai-models/ibm-llama-4-maverick-model-card/
-[gemini-2-5-pro]: https://developer.box.com/guides/box-ai/ai-models/google-gemini-2-5-pro-model-card/
-[gemini-2-5-flash]: https://developer.box.com/guides/box-ai/ai-models/google-gemini-2-5-flash-model-card/
+[gpt-5]: g://box-ai/ai-models/openai-gpt-5-model-card
+[gpt-5-1]: g://box-ai/ai-models/openai-gpt-5-1-model-card
+[gpt-5-mini]: g://box-ai/ai-models/openai-gpt-5-mini-model-card
+[gemini-3-pro]: g://box-ai/ai-models/google-gemini-3-pro-model-card
+[llama-4-maverick]: g://box-ai/ai-models/ibm-llama-4-maverick-model-card
+[gemini-2-5-pro]: g://box-ai/ai-models/google-gemini-2-5-pro-model-card
+[gemini-2-5-flash]: g://box-ai/ai-models/google-gemini-2-5-flash-model-card

@@ -36,5 +36,5 @@ New response format example:
 }
 ```
 
-[1]: https://developer.box.com/changelog/
+[1]: page/changelog
 [2]: https://medium.com/box-developer-blog

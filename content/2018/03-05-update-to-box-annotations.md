@@ -16,7 +16,7 @@ updates are as follows:
 * **Point Annotations mode**: We are enhancing point annotations by introducing
 Point Annotations mode. This allows users to expediently add annotations on a
 document without having to re-select the point annotation icon after each
-annotation. [here](guide://embed/ui-elements).
+annotation. [here](g://embed/ui-elements).
 * **Drawing Annotations via Expiring Embed**: We launched Drawing Annotations
 in November of 2017. This provided end users the ability to free-form draw on
 their touch-enabled devices using touch or a stylus. We are excited to share

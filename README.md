@@ -12,7 +12,7 @@ Platform.
 ## Manual contributions
 
 To edit any of the existing release notes, please have a look at the
-[`./content`](./content) folder.
+[`./content`](https://github.com/box/box-developer-changelog/tree/main/content) folder.
 
 Please follow the [contribution guidelines](./CONTRIBUTING.md) when contributing
 to the source of this project.
@@ -90,7 +90,7 @@ specific language governing permissions and limitations under the License.
 
 [license]: LICENSE
 [contrib]: CONTRIBUTING.md
-[boxdev]: https://developer.box.com/changelog
+[boxdev]: https://github.com/box/box-developer-changelog/tree/main/content
 [opensource]: http://opensource.box.com/badges
 [cibadge]: https://github.com/box/box-developer-changelog/workflows/Tests/badge.svg
 [cilink]: https://github.com/box/box-developer-changelog/actions?query=workflow%3ATests
