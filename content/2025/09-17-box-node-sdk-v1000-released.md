@@ -38,7 +38,7 @@ This version includes the Box Next Generation SDK artifact, previously developed
 #### ⚠ BREAKING CHANGES
 
 * Change names of unions (box/box-codegen[#787][6]) ([#938][7]) ([`06a8e9b`][8])
-* Remove unused models from schemas (box/box-openapi[#547][9]) ([#933][10]) ([`35690f4`][11]), closes [box/box-codegen#773][12] [box/box-openapi#542][13] [box/box-openapi#544][14] [box/box-codegen#781][15] [box/box-openapi#545][16]
+* Remove unused models from schemas (box/box-openapi[#547][9]) ([#933][10]) ([`35690f4`][11]), closes box/box-codegen[#773][12] box/box-openapi[#542][13] box/box-openapi[#544][14] box/box-codegen[#781][15] box/box-openapi[#545][16]
 * Remove generated suffix from files (box/box-codegen[#779][17]) ([#948][18]) ([`4bfb073`][19])
 * Adjust imports and exports (box/box-codegen[#801][20]) ([#965][21]) ([`d8e6a0a`][22])
 
