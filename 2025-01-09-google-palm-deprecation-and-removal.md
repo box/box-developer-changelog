@@ -36,4 +36,4 @@ fullyTranslated: true
 * `text_unicorn`
 * `google_text_embedding_gecko*`
 
-エージェントの上書きでこれらのいずれかのモデルを使用している場合は、[サポートされているモデルのリスト](https://developer.box.com/guides/box-ai/ai-agents/)をご確認ください。
+If you are using one of these models with an agent override, check our [list of supported models](g://box-ai/ai-agents/).

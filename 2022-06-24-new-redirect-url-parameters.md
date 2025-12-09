@@ -50,6 +50,6 @@ Box App Centerでのアプリケーションの作成、またはBoxパートナ
 
 [2]: https://support.box.com/hc/en-us/sections/360009473734-Box-Partner-Resources
 
-[3]: https://developer.box.com/reference/post-sign-requests/
+[3]: r://post-sign-requests
 
-[4]: https://developer.box.com/guides/box-sign/create-sign-request/
+[4]: g://box-sign/create-sign-request

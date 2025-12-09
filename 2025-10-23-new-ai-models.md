@@ -45,20 +45,20 @@ fullyTranslated: true
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
-[supported-models]: https://developer.box.com/guides/box-ai/supported-models/
+[supported-models]: g://box-ai/ai-models
 
-[override]: https://developer.box.com/guides/box-ai/ai-agents/ai-agent-overrides/
+[override]: g://box-ai/ai-agents/ai-agent-overrides
 
-[ai-guides]: https://developer.box.com/guides/box-ai
+[ai-guides]: g://box-ai
 
-[api]: https://developer.box.com/reference/post-ai-ask/
+[api]: e://post-ai-ask
 
-[forum]: https://forum.box.com/
+[forum]: https://forum.box.com
 
-[mistral-medium]: https://developer.box.com/guides/box-ai/ai-models/ibm-mistral-medium-3-model-card/
+[mistral-medium]: g://box-ai/ai-models/ibm-mistral-medium-3-model-card
 
-[mistral-small]: https://developer.box.com/guides/box-ai/ai-models/ibm-mistral-small-3-1-model-card/
+[mistral-small]: g://box-ai/ai-models/ibm-mistral-small-3-1-model-card
 
-[claude-haiku]: https://developer.box.com/guides/box-ai/ai-models/aws-claude-4-5-haiku-model-card/
+[claude-haiku]: g://box-ai/ai-models/aws-claude-4-5-haiku-model-card
 
-[gpt-5]: https://developer.box.com/guides/box-ai/ai-models/openai-gpt-5-model-card/
+[gpt-5]: g://box-ai/ai-models/openai-gpt-5-model-card

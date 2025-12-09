@@ -44,6 +44,6 @@ Boxでは、業界のベストプラクティスに従って、プログラミ�
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][2]に英語でリクエストを投稿してください。
 
-[versioning]: https://developer.box.com/guides/tooling/sdks/sdk-versioning
+[versioning]: g://tooling/sdks/sdk-versioning
 
 [2]: https://community.box.com/

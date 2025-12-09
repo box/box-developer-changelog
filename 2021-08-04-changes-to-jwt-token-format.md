@@ -94,8 +94,8 @@ fbwYl2CmHdXAKbZKtXTHjzB0CZixZriT_wRUpsN8GTrrxGbx9ukgzJWRJwelGZ_1Yx7vP4Zkx3OfR5Be
 
 ご質問がある場合やさらにガイドが必要な場合は、[jwt-set-rollout@box.com](mailto:jwt-set-rollout@box.com)に英語でお問い合わせください。
 
-[box-sdks]: https://developer.box.com/sdks-and-tools
+[box-sdks]: /sdks-and-tools
 
-[tokendoc]: https://developer.box.com/reference/post-oauth2-token/
+[tokendoc]: r://post-oauth2-token/
 
-[downscope]: https://developer.box.com/guides/authentication/access-tokens/downscope
+[downscope]: g://authentication/tokens/downscope

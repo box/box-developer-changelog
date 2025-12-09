@@ -22,4 +22,4 @@ fullyTranslated: true
 ---
 # メタデータ駆動のリテンションポリシー
 
-[リテンションポリシーオブジェクト](endpoint://resources/retention-policy/)APIエクスプローラElementに、メタデータ駆動のリテンションポリシーをサポートする新しい機能が導入されました。この機能では、カスタムメタデータに基づいてリテンションポリシーを個々のファイルに適用できます。これにより、グローバルレベルおよびフォルダレベルに加えて、起動ファイルレベルでもリテンションポリシーを設定できます。これらの新しい拡張されたBox Governance機能は、Box管理コンソールを介してBox管理者に提供され、さらに[リテンションポリシー](endpoint://resources/retention-policy/)および[リテンションの割り当て](endpoint://resources/retention-policy-assignment/)API、BoxのJava、Node、および.NET [ SDK](guides://tooling/sdks)でも使用できるようになります。
+[リテンションポリシーオブジェクト](e://retention-policy)APIエクスプローラElementに、メタデータ駆動のリテンションポリシーをサポートする新しい機能が導入されました。この機能では、カスタムメタデータに基づいてリテンションポリシーを個々のファイルに適用できます。これにより、グローバルレベルおよびフォルダレベルに加えて、起動ファイルレベルでもリテンションポリシーを設定できます。これらの新しい拡張されたBox Governance機能は、Box管理コンソールを介してBox管理者に提供され、さらに[リテンションポリシー](e://retention-policy)および[リテンションの割り当て](e://retention-policy-assignment)API、BoxのJava、Node、および.NET [ SDK](g://tooling/sdks)でも使用できるようになります。

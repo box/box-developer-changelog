@@ -34,7 +34,7 @@ fullyTranslated: true
 * [Webhook][mini]用に`mini`リソースを追加
 * [Webhookを取得][webhooks]のレスポンスオブジェクトを修正
 
-[support]: https://developer.box.com/support
+[support]: page/support
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 

@@ -41,12 +41,12 @@ Boxでは、`all`ストリームと`changes`ストリーム間にパリティを
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
-[event-apis]: https://developer.box.com/reference/get-events/
+[event-apis]: r://get-events
 
-[user-events]: https://developer.box.com/guides/events/user-events/for-user/#event-types
+[user-events]: g://events/user-events/for-user/#event-types
 
-[enterprise-events]: https://developer.box.com/guides/events/enterprise-events/for-enterprise/
+[enterprise-events]: g://events/enterprise-events/for-enterprise
 
-[user-access-token]: g://authentication/jwt/user-access-tokens/
+[user-access-token]: g://authentication/jwt/user-access-tokens
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

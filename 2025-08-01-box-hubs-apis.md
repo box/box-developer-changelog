@@ -59,11 +59,11 @@ Box Hubsの使用の詳細については、[Box Hubsのサポートドキュメ
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][5]に英語でリクエストを投稿してください。
 
-[1]: https://developer.box.com/reference/v2025.0/resources/hub/
+[1]: r://hub
 
-[2]: https://developer.box.com/reference/v2025.0/resources/hub-collaboration/
+[2]: r://hub-collaboration
 
-[3]: https://developer.box.com/reference/v2025.0/resources/hub-item/
+[3]: r://hub-item
 
 [4]: https://support.box.com/hc/en-us/sections/26102544955027-Box-Hubs
 

@@ -33,6 +33,6 @@ fullyTranslated: true
 
 * サービスアカウントユーザーの自動生成メールアドレスを開発者コンソールに追加
 
-[ut]: https://developer.box.com/guides/authentication/user-types/
+[ut]: pages/platform/user-types
 
-[sa]: https://developer.box.com/guides/authentication/user-types/service-account/
+[sa]: pages/platform/user-types#service_account

@@ -46,6 +46,6 @@ Box AI Studio APIを使用すると、以下を実行できます。
 
 [community]: https://community.box.com/
 
-[guide]: https://developer.box.com/guides/ai-studio/getting-started-ai-studio
+[guide]: g://ai-studio/getting-started-ai-studio
 
-[reference]: https://developer.box.com/reference/get-ai-agents/
+[reference]: e://get-ai-agents

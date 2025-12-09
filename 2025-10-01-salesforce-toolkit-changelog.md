@@ -33,16 +33,16 @@ fullyTranslated: true
 * [Salesforceフロー][5]で呼び出し可能なすべてのメソッド
 * [Box Hubs][6]に関するAgentforceフローのメソッド
 
-[1]: https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-sign
+[1]: g://tooling/salesforce-toolkit/methods/#box-sign
 
-[2]: https://developer.box.com/guides/tooling/salesforce-toolkit/methods/#box-hubs
+[2]: g://tooling/salesforce-toolkit/methods/#box-hubs
 
-[3]: https://developer.box.com/guides/tooling/salesforce-toolkit/samples/#create-a-sign-request
+[3]: g://tooling/salesforce-toolkit/samples/#create-a-sign-request
 
-[4]: https://developer.box.com/guides/tooling/salesforce-toolkit/samples/#get-box-hubs
+[4]: g://tooling/salesforce-toolkit/samples/#get-box-hubs
 
-[5]: https://developer.box.com/guides/tooling/salesforce-toolkit/flow-actions/#methods-in-salesforce-flows
+[5]: g://tooling/salesforce-toolkit/flow-actions/#methods-in-salesforce-flows
 
-[6]: https://developer.box.com/guides/tooling/salesforce-toolkit/box-agentforce-package/#box-hubs
+[6]: g://tooling/salesforce-toolkit/box-agentforce-package/#box-hubs
 
-[7]: https://developer.box.com/guides/tooling/salesforce-toolkit/
+[7]: g://tooling/salesforce-toolkit/

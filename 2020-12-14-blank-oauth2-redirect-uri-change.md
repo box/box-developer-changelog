@@ -40,6 +40,6 @@ OAuth 2アプリケーションでリダイレクト時にエラーが発生し�
 * \[**OAuth 2.0リダイレクトURI**] セクションまで下にスクロールします。 
 * このURIが空のアプリケーションでは、\<c0>こちらのガイドで説明されているように\<c0>、Boxの認証手順からアプリケーションにユーザーをリダイレクトする際にアプリケーションコードで使用されるURIを追加します。
 
-[oauth2-changelog-notice]: https://developer.box.com/changelog/#2020-09-29-changes-to-oauth-2-app-redirect-url-requirements
+[oauth2-changelog-notice]: page/changelog/#2020-09-29-changes-to-oauth-2-app-redirect-url-requirements
 
 [dev-console]: https://cloud.app.box.com/developers/console

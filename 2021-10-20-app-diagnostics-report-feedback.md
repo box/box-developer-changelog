@@ -29,6 +29,6 @@ fullyTranslated: true
 
 [forum]: https://support.box.com/hc/en-us/community/posts/4408877038483-App-Diagnostics-Report-Feedback
 
-[changelog]: https://developer.box.com/changelog/#2021-10-07-new-app-diagnostics-report
+[changelog]: page/changelog/#2021-10-07-new-app-diagnostics-report
 
-[guide]: https://developer.box.com/guides/api-calls/permissions-and-errors/app-diagnostics-report/
+[guide]: g://api-calls/permissions-and-errors/app-diagnostics-report/

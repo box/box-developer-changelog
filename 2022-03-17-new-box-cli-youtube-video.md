@@ -42,7 +42,7 @@ fullyTranslated: true
 
 [2]: https://www.youtube.com/playlist?list=PL0F3BD5B64D6A39F1
 
-[3]: https://developer.box.com/changelog/#2022-02-01-box-cli-v300-released
+[3]: page/changelog/#2022-02-01-box-cli-v300-released
 
 [4]: https://www.youtube.com/watch?v=66wlIyS07Aw&list=PL0F3BD5B64D6A39F1&index=2
 

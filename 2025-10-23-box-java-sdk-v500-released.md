@@ -55,4 +55,4 @@ Box Java SDKの`v4`と`v5`の間には重大な変更はありません。`v5`�
 
 [3]: https://github.com/box/box-java-sdk/blob/combined-sdk/migration-guides/from-v5-to-v10.md
 
-[4]: https://developer.box.com/guides/tooling/sdks/sdk-versioning/
+[4]: g://tooling/sdks/sdk-versioning

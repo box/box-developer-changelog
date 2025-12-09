@@ -50,6 +50,6 @@ Boxでは、通知の抑制機能とともに、電子サインワークフロ�
 
 [1]: e://post-sign-requests
 
-[2]: https://developer.box.com/sign/webhooks/
+[2]: pages/sign/webhooks
 
 [3]: https://forum.box.com/

@@ -53,7 +53,7 @@ Box AIの詳細については、[Box AI APIの開発者向けガイド][1]を�
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][8]に英語でリクエストを投稿してください。
 
-[1]: https://developer.box.com/guides/box-ai
+[1]: g://box-ai
 
 [2]: g://box-ai/ai-tutorials/ask-questions/
 

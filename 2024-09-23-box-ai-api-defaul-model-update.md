@@ -38,8 +38,8 @@ Box AI Platform APIの`POST /2.0/ai/ask`エンドポイントが新しいデフ�
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][3]に英語でリクエストを投稿してください。
 
-[1]: https://developer.box.com/guides/box-ai/ai-agents/get-agent-default-config/
+[1]: g://box-ai/ai-agents/get-agent-default-config
 
-[2]: https://developer.box.com/guides/box-ai/supported-models/
+[2]: g://box-ai/ai-models
 
 [3]: https://community.box.com/

@@ -39,7 +39,7 @@ fullyTranslated: true
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
-[event-apis]: https://developer.box.com/reference/get-events
+[event-apis]: r://get-events
 
 [user-events]: g://events/enterprise-events/for-enterprise
 

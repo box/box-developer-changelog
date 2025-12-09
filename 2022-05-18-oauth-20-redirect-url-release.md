@@ -59,7 +59,7 @@ fullyTranslated: true
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 
-[oauth-cl]: https://developer.box.com/changelog/#2021-11-29-oauth-20-redirect-url-updates
+[oauth-cl]: page/changelog/#2021-11-29-oauth-20-redirect-url-updates
 
 [url-redirect]: e://get-authorize/#param-redirect_uri
 

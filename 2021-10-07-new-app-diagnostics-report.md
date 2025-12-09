@@ -35,6 +35,6 @@ fullyTranslated: true
 
 [report]: g://api-calls/permissions-and-errors/app-diagnostics-report
 
-[support]: https://developer.box.com/support
+[support]: page/support
 
 [forum]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum

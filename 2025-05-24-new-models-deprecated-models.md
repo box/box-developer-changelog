@@ -51,13 +51,13 @@ Azure OpenAI GPT o4 Miniモデルは削除されました。
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][5]に英語でリクエストを投稿してください。
 
-[1]: https://developer.box.com/guides/box-ai/supported-models/
+[1]: g://box-ai/ai-models
 
-[2]: https://box-ai/ai-agents/ai-agent-overrides
+[2]: g://box-ai/ai-agents/ai-agent-overrides
 
-[3]: https://developer.box.com/guides/box-ai
+[3]: g://box-ai
 
-[4]: https://developer.box.com/reference/post-ai-ask/
+[4]: e://post-ai-ask
 
 [5]: https://forum.box.com/
 

@@ -51,26 +51,26 @@ fullyTranslated: true
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
-[supported-models]: https://developer.box.com/guides/box-ai/supported-models/
+[supported-models]: g://box-ai/ai-models
 
-[override]: https://developer.box.com/guides/box-ai/ai-agents/ai-agent-overrides/
+[override]: g://box-ai/ai-agents/ai-agent-overrides
 
-[ai-guides]: https://developer.box.com/guides/box-ai
+[ai-guides]: g://box-ai
 
-[api]: https://developer.box.com/reference/post-ai-ask/
+[api]: e://post-ai-ask
 
 [forum]: https://forum.box.com/
 
-[gpt-5]: https://developer.box.com/guides/box-ai/ai-models/openai-gpt-5-model-card/
+[gpt-5]: g://box-ai/ai-models/openai-gpt-5-model-card
 
-[gpt-5-1]: https://developer.box.com/guides/box-ai/ai-models/openai-gpt-5-1-model-card/
+[gpt-5-1]: g://box-ai/ai-models/openai-gpt-5-1-model-card
 
-[gpt-5-mini]: https://developer.box.com/guides/box-ai/ai-models/openai-gpt-5-mini-model-card/
+[gpt-5-mini]: g://box-ai/ai-models/openai-gpt-5-mini-model-card
 
-[gemini-3-pro]: https://developer.box.com/guides/box-ai/ai-models/google-gemini-3-pro-model-card/
+[gemini-3-pro]: g://box-ai/ai-models/google-gemini-3-pro-model-card
 
-[llama-4-maverick]: https://developer.box.com/guides/box-ai/ai-models/ibm-llama-4-maverick-model-card/
+[llama-4-maverick]: g://box-ai/ai-models/ibm-llama-4-maverick-model-card
 
-[gemini-2-5-pro]: https://developer.box.com/guides/box-ai/ai-models/google-gemini-2-5-pro-model-card/
+[gemini-2-5-pro]: g://box-ai/ai-models/google-gemini-2-5-pro-model-card
 
-[gemini-2-5-flash]: https://developer.box.com/guides/box-ai/ai-models/google-gemini-2-5-flash-model-card/
+[gemini-2-5-flash]: g://box-ai/ai-models/google-gemini-2-5-flash-model-card

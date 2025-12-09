@@ -43,7 +43,7 @@ Boxの[`.NET`][3]および[`Java`][5] SDKでは、クライアント資格情報
 
 [1]: https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum
 
-[2]: https://developer.box.com/changelog/#2020-11-17-client-credentials-grant
+[2]: page/changelog/#2020-11-17-client-credentials-grant
 
 [3]: https://github.com/box/box-windows-sdk-v2
 

@@ -41,11 +41,11 @@ fullyTranslated: true
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
-[event-apis]: https://developer.box.com/reference/get-events/
+[event-apis]: r://get-events/
 
-[user-events]: https://developer.box.com/guides/events/user-events/for-user/#event-types
+[user-events]: g://events/user-events/for-user/#event-types
 
-[enterprise-events]: https://developer.box.com/guides/events/enterprise-events/for-enterprise/
+[enterprise-events]: g://events/enterprise-events/for-enterprise/
 
 [user-access-token]: g://authentication/jwt/user-access-tokens/
 

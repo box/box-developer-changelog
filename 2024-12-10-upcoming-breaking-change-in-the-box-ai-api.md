@@ -51,6 +51,6 @@ Box AI APIの抽出 (構造化) エンドポイントに重大な変更を予定
 }
 ```
 
-[1]: https://developer.box.com/changelog/
+[1]: page/changelog
 
 [2]: https://medium.com/box-developer-blog

@@ -86,7 +86,7 @@ public final static String HEADER_LOCATION_CAPITALIZED = 'Location';
 
 [salesforce-code]: https://github.com/box/box-salesforce-sdk/compare/1.0.0...v1.1.0#diff-1855f83ffd4977e5b9e4bfc167154f2e11b0161fd6c380502c48082b6837b0af
 
-[box-sdks]: https://developer.box.com/sdks-and-tools/
+[box-sdks]: pages://sdks-and-tools
 
 [support]: https://support.box.com/hc/en-us/requests/new
 

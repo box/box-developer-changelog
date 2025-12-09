@@ -46,9 +46,9 @@ Boxでは、Box AI APIと一緒に、Developerドキュメントのデモペー�
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][5]に英語でリクエストを投稿してください。
 
-[1]: https://developer.box.com/guides/box-ai
+[1]: g://box-ai
 
-[2]: https://developer.box.com/ai-dev-zone
+[2]: pages/ai-dev-zone
 
 [3]: g://embed/ui-elements/preview#box-ai-ui-element
 

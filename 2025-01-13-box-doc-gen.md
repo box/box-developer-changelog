@@ -44,16 +44,16 @@ Box Doc GenおよびBox Doc Gen APIの詳細については、[Box Doc Genの開
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][7]に英語でリクエストを投稿してください。
 
-[1]: https://developer.box.com/guides/docgen
+[1]: g://docgen
 
-[2]: g://docgen/docgen-getting-started/
+[2]: g://docgen/docgen-getting-started
 
-[3]: g://docgen/mark-template/
+[3]: g://docgen/mark-template
 
-[4]: g://docgen/generate-document/
+[4]: g://docgen/generate-document
 
-[5]: g://docgen/docgen-jobs/
+[5]: g://docgen/docgen-jobs
 
-[6]: e://post-docgen-templates/
+[6]: e://post-docgen-templates
 
-[7]: https://forum.box.com/
+[7]: https://forum.box.com

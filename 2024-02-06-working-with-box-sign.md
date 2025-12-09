@@ -37,14 +37,14 @@ Boxでは、専用リソースページとして[Box Signの使用][1]を新し�
 * [Webhook][5]
 * [ワークショップ][6]
 
-[1]: https://developer.box.com/sign/
+[1]: pages/sign
 
-[2]: https://developer.box.com/sign/quick-start/
+[2]: pages/sign/quick-start
 
-[3]: https://developer.box.com/sign/technical-use-cases/
+[3]: pages/sign/technical-use-cases
 
-[4]: https://developer.box.com/sign/request-options/
+[4]: pages/sign/request-options
 
-[5]: https://developer.box.com/sign/webhooks/
+[5]: pages/sign/webhooks
 
 [6]: https://github.com/barduinor/box-python-gen-workshop/blob/main/workshops/sign/sign.md

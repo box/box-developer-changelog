@@ -49,6 +49,6 @@ fullyTranslated: true
 
 * `box_shared_link`リクエストパラメータを[アクセストークンをリクエストAPIリファレンス][2]に追加しました。
 
-[1]: https://developer.box.com/guides/authentication/access-tokens/downscope/#downscoping-in-practice
+[1]: g://authentication/tokens/downscope
 
-[2]: https://developer.box.com/reference/post-oauth2-token/#request
+[2]: r://post_oauth2_token/#request

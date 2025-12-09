@@ -61,6 +61,6 @@ fullyTranslated: true
 
 形式の詳細については、[共有リンクの検索結果][search_result_shared_link]レスポンスオブジェクトを参照してください。
 
-[search_content]: https://developer.box.com/reference/get-search/
+[search_content]: r://get-search
 
-[search_result_shared_link]: https://developer.box.com/reference/resources/search-result-with-shared-link/
+[search_result_shared_link]: r://search-result-with-shared-link

@@ -49,6 +49,6 @@ fullyTranslated: true
 
 * メタデータクエリインデックスのリストを取得する方法の詳細が記載されているメタデータクエリインデックスガイドを更新。 
 
-[mdq-indices-response]: https://developer.box.com/reference/resources/metadata-query-index/
+[mdq-indices-response]: r://metadata_query_index
 
-[mdq-index-response]: https://developer.box.com/reference/resources/metadata-query-indices/
+[mdq-index-response]: r://metadata-query-indices

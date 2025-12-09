@@ -65,7 +65,7 @@ fullyTranslated: true
 
 [3]: https://github.com/box/box-python-sdk/blob/sdk-gen/migration-guides/from-v3-to-v10.md
 
-[4]: https://developer.box.com/tooling/sdks/sdk-versioning
+[4]: hg://tooling/sdks/sdk-versioning
 
 [5]: https://github.com/box/box-python-sdk-gen
 

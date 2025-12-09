@@ -39,10 +39,10 @@ fullyTranslated: true
 
 問題がある場合やさらにガイドが必要な場合は、必要なサポートについて、Boxの[Developer Forum][4]に英語でリクエストを投稿してください。
 
-[1]: https://developer.box.com/guides/box-ai/supported-models/
+[1]: g://box-ai/ai-models
 
-[2]: https://developer.box.com/guides/box-ai
+[2]: g://box-ai
 
-[3]: https://developer.box.com/reference/post-ai-ask/
+[3]: e://post-ai-ask
 
 [4]: https://forum.box.com/

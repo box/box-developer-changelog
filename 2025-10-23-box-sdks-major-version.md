@@ -49,6 +49,6 @@ fullyTranslated: true
 
 本件に関するご質問は、[Developer Forum][2]に英語でリクエストを投稿していただくか、GitHubの個々のBox SDKリポジトリで直接問題をご報告ください。
 
-[1]: https://developer.box.com/guides/tooling/sdks/sdk-versioning/
+[1]: g://tooling/sdks/sdk-versioning/
 
 [2]: https://forum.box.com/
