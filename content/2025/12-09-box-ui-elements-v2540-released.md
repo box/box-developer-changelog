@@ -30,12 +30,12 @@ collapse: true
 * **deps:** No-op to trigger release for blueprint-web upgrades ([#4368][20]) ([`58b9697`][21])
 * **form-elements:** Remove Form legacy context ([#4383][22]) ([`62c77b4`][23])
 * **hotkeys:** Remove legacy context from Hotkeys ([#4382][24]) ([`5db66df`][25])
-* **presence-avatar-list:** add BP tooltip to presenceAvatarList (WEBAPP-41740) ([#4384][26]) ([`5653500`][27])
-* **preview-modernization:** BP AddTaskButton ([#4366][28]) ([`f76ed73`][29])
+* **presence-avatar-list:** add BP tooltip to `presenceAvatarList` (`WEBAPP-41740`) ([#4384][26]) ([`5653500`][27])
+* **preview-modernization:** BP `AddTaskButton` ([#4366][28]) ([`f76ed73`][29])
 * **preview-modernization:** Update Sidebar Nav icons and tooltips ([#4373][30]) ([`60eda40`][31])
-* **preview-modernization:** Update SidebarNav overflow separator ([#4370][32]) ([`671a067`][33])
+* **preview-modernization:** Update Sidebar Nav overflow separator ([#4370][32]) ([`671a067`][33])
 * **preview-optimizations:** modernize Versions sidebar ([#4381][34]) ([`2b136e4`][35])
-* **SecurityControls:** Add Shared Link Auto-Expiration restriction ([#4365][36]) ([`40ff462`][37])
+* **`SecurityControls`:** Add Shared Link Auto-Expiration restriction ([#4365][36]) ([`40ff462`][37])
 
 [1]: https://github.com/box/box-ui-elements/compare/v25.3.0...v25.4.0
 
