@@ -31,7 +31,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Support GET enterprise configuration API (box/box-openapi[#559][4]) ([#1519][5]) ([`88dd8d2`][6])
+* Enterprise構成の取得APIをサポート (box/box-openapi[#559][4]) ([#1519][5]) ([`88dd8d2`][6])
 * 接続に失敗した場合のOkHttpの自動再試行を無効化 (box/box-codegen[#874][7]) ([#1541][8]) ([`c2bd137`][9])
 * アーカイブAPIをサポート (box/box-openapi[#563][10]) ([#1553][11]) ([`609e8bb`][12])
 

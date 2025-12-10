@@ -23,25 +23,25 @@ source_url: >-
 published_at: '2025-12-03'
 fullyTranslated: true
 ---
-# Ransomware Activity detection rule
+# ランサムウェアアクティビティの検出ルール
 
 <!--alex ignore -->
 
-The Ransomware Activity detection rule, available in Box Shield Pro, monitors user activity and leverages Box machine learning to identify suspicious file extensions that may indicate a ransomware attack.
+ランサムウェアアクティビティの検出ルール (Box Shield Proで利用可能) は、ユーザーアクティビティを監視し、Boxの機械学習を利用して、ランサムウェア攻撃を示す可能性がある不審なファイル拡張子を特定します。
 
 <!--alex enable -->
 
-## Fighting ransomware
+## ランサムウェアへの対応
 
-With the Ransomware Activity detection rule, you can better protect yourself by:
+ランサムウェアアクティビティの検出ルールを使用すると、以下の方法で自身をより確実に保護できます。
 
 <!-- more -->
 
-* [Creating and editing the detection rule][1]
-* [Viewing alerts][2]
-* [Taking action to remediate threats][3]
+* [検出ルールの作成と編集][1]
+* [アラートの表示][2]
+* [脅威の是正措置の実施][3]
 
-To learn more about using the Ransomware Activity detection rule, visit our [support documentation][4].
+ランサムウェアアクティビティの検出ルールの使用の詳細については、Boxの[サポートドキュメント][4]を参照してください。
 
 [1]: https://support.box.com/hc/en-us/articles/46976660378643-Create-Edit-and-Delete-a-Threat-Detection-Rule
 

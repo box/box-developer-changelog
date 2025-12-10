@@ -27,18 +27,18 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Add missing field assignments in constructor (box/box-codegen[#646][1]) ([#485][2]) ([`0592f7b`][3])
+* コンストラクタで不足しているフィールド割り当てを追加 (box/box-codegen[#646][1]) ([#485][2]) ([`0592f7b`][3])
 * 不足していたトークンのスコープを追加 (box/box-openapi[#490][4]) ([#459][5]) ([`f0c0d91`][6])
-* correct parameters types in file representation (box/box-openapi[#503][7]) ([#489][8]) ([`d11529a`][9])
+* ファイルレプリゼンテーションのパラメータのタイプを修正 (box/box-openapi[#503][7]) ([#489][8]) ([`d11529a`][9])
 * Slack統合マッピングのバリアント構成の誤りを修正 (box/box-openapi[#492][10]) ([#462][11]) ([`660dc6e`][12])
-* order of fields in the `IntegrationMapping` schema (box/box-openapi[#497][13]) ([#476][14]) ([`93e2bc3`][15])
-* Remove `eval` usage (box/box-codegen[#636][16]) ([#474][17]) ([`7c86f34`][18])
-* Remove auth when cross origin redirect (box/box-codegen[#648][19]) ([#488][20]) ([`56fb287`][21])
+* `IntegrationMapping`スキーマ内のフィールドの順序 (box/box-openapi[#497][13]) ([#476][14]) ([`93e2bc3`][15])
+* `eval`の使用を削除 (box/box-codegen[#636][16]) ([#474][17]) ([`7c86f34`][18])
+* クロスオリジンのリダイレクト時に認証を削除 (box/box-codegen[#648][19]) ([#488][20]) ([`56fb287`][21])
 
 ### 新機能と機能強化
 
-* Support Box Doc Gen API (box/box-codegen[#644][22]) ([#486][23]) ([`0d3bc18`][24])
-* Use extensible enums (box/box-codegen[#639][25]) ([#487][26]) ([`2a24c7a`][27])
+* Box Doc Gen APIをサポート (box/box-codegen[#644][22]) ([#486][23]) ([`0d3bc18`][24])
+* 拡張可能な列挙型を使用 (box/box-codegen[#639][25]) ([#487][26]) ([`2a24c7a`][27])
 
 [1]: https://github.com/box/box-typescript-sdk-gen/issues/646
 

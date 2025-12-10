@@ -45,17 +45,17 @@ fullyTranslated: true
 
 このバージョンには、BoxのコアSDKと並行して以前に開発された、Boxの次世代SDKのアーティファクトが含まれています。Boxでは、移行を促進し、最新の機能を利用できるようにするため、まもなく、両方のアーティファクトを兼ね備えたメジャーバージョンを追加でリリースする予定です。`v10`への移行には重大な変更が含まれるため、詳細については[移行ガイド][3]を確認してください。詳細については、[SDKのバージョン戦略に関するドキュメント][4]を参照してください。今後の更新については、開発者向け変更ログをフォローしてください。
 ---
-### What’s New Compared to [Python SDK Gen][5] `v1.17.0`
+### 新機能 ([Python SDK Gen][5] `v1.17.0`との比較)
 
 #### 新機能と機能強化
 
-* Add External User Deletion API (box/box-openapi[#550][6]) ([#941][7]) ([`a80ad85`][8])
+* 外部ユーザー削除APIを追加 (box/box-openapi[#550][6]) ([#941][7]) ([`a80ad85`][8])
 
-* Add missing webhook events (box/box-openapi[#554][9]) ([#988][10]) ([`575ce0b`][11])
+* 不足していたWebhookイベントを追加 (box/box-openapi[#554][9]) ([#988][10]) ([`575ce0b`][11])
 
-* Change names of unions (box/box-codegen[#789][12]) ([#939][13]) ([`cf2b1d5`][14])
+* 共用体の名前を変更 (box/box-codegen[#789][12]) ([#939][13]) ([`cf2b1d5`][14])
 
-* Remove unused models from schemas (box/box-openapi[#547][15]) ([#932][16]) ([`6ef6d63`][17]), closes box/box-openapi[#542][18], box/box-openapi[#544][19], box/box-codegen[#781][20], box/box-openapi[#545][21]
+* スキーマから未使用のモデルを削除 (box/box-openapi[#547][15]) ([#932][16]) ([`6ef6d63`][17])、box/box-openapi[#542][18]、box/box-openapi[#544][19]、box/box-codegen[#781][20]、box/box-openapi[#545][21]をクローズ
 
 詳細については、`box-python-sdk-gen` `v1`から`box-python-sdk` `v10`への[移行ガイド][22]をご確認ください。
 

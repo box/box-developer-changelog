@@ -29,16 +29,16 @@ fullyTranslated: true
 
 * 不足していたトークンのスコープを追加 (box/box-openapi[#490][1]) ([#353][2]) ([`d41e1c8`][3])
 * Slack統合マッピングのバリアント構成の誤りを修正 (box/box-openapi[#492][4]) ([#356][5]) ([`8320fb7`][6])
-* order of fields in the `IntegrationMapping` schema (box/box-openapi[#497][7]) ([#370][8]) ([`3361ad1`][9])
+* `IntegrationMapping`スキーマ内のフィールドの順序 (box/box-openapi[#497][7]) ([#370][8]) ([`3361ad1`][9])
 * `SignRequest`から未使用のパラメータを削除 (box/box-openapi[#489][10]) ([#343][11]) ([`5d88a51`][12])
 
 ### 新機能と機能強化
 
 * `AiResponse`に`aiAgent`情報を追加 (box/box-openapi[#485][13]) ([#336][14]) ([`cbf91fc`][15])
 * ネットワーククライアントの実装を置き換えるサポートを追加 (box/box-codegen[#629][16]) ([#347][17]) ([`29d904e`][18])
-* Support Box Doc Gen API (box/box-codegen[#644][19]) ([#378][20]) ([`5cd0fde`][21])
-* Support getting file download URL and file thumbnail URL (box/box-codegen[#642][22]) ([#374][23]) ([`76b1513`][24])
-* Support optional `userId` parameter for updating files, folders and web links (box/box-openapi[#488][25]) ([#340][26]) ([`fd1c597`][27])
+* Box Doc Gen APIをサポート (box/box-codegen[#644][19]) ([#378][20]) ([`5cd0fde`][21])
+* ファイルのダウンロードURLとファイルのサムネイルURLの取得をサポート (box/box-codegen[#642][22]) ([#374][23]) ([`76b1513`][24])
+* ファイル、フォルダ、ウェブリンクの更新で`userId`パラメータ (省略可) をサポート (box/box-openapi[#488][25]) ([#340][26]) ([`fd1c597`][27])
 
 [1]: https://github.com/box/box-dotnet-sdk-gen/issues/490
 

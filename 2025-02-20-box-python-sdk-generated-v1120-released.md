@@ -27,11 +27,11 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Fix handling responses with incorrect JSON (box/box-codegen[#667][1]) ([#485][2]) ([`46399d8`][3]), closes [#470][4]
+* 誤ったJSONを含むレスポンスの処理を修正 (box/box-codegen[#667][1]) ([#485][2]) ([`46399d8`][3])、[#470][4]をクローズ
 
 ### 新機能と機能強化
 
-* Support AI Studio API (box/box-codegen[#626][5]) ([#483][6]) ([`bd7fefa`][7])
+* AI Studio APIをサポート (box/box-codegen[#626][5]) ([#483][6]) ([`bd7fefa`][7])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/667
 

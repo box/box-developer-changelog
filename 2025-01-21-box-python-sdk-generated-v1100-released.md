@@ -29,11 +29,11 @@ fullyTranslated: true
 
 * 不足していたトークンのスコープを追加 (box/box-openapi[#490][1]) ([#420][2]) ([`41afe8b`][3])
 * Slack統合マッピングのバリアント構成の誤りを修正 (box/box-openapi[#492][4]) ([#423][5]) ([`d03ccd4`][6])
-* order of fields in the `IntegrationMapping` schema (box/box-openapi[#497][7]) ([#438][8]) ([`13dea88`][9])
+* `IntegrationMapping`スキーマ内のフィールドの順序 (box/box-openapi[#497][7]) ([#438][8]) ([`13dea88`][9])
 
 ### 新機能と機能強化
 
-* Support Box Doc Gen API (box/box-codegen[#644][10]) ([#446][11]) ([`41fa63c`][12])
+* Box Doc Gen APIをサポート (box/box-codegen[#644][10]) ([#446][11]) ([`41fa63c`][12])
 
 [1]: https://github.com/box/box-python-sdk-gen/issues/490
 
