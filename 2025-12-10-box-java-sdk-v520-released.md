@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2025-12-10-box-python-sdk-v1020-released
+next_page_id: 2025-12-10-box-node-sdk-v420-released
 previous_page_id: 2025-12-08-box-windows-sdk-v620-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-10-box-java-sdk-v520-released.md
