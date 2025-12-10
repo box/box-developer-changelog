@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-12-10-box-node-sdk-v1020-released
-previous_page_id: 2025-12-08-box-windows-sdk-v620-released
+previous_page_id: 2025-12-10-box-ios-sdk-620-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-10-box-java-sdk-v520-released.md
 published_at: '2025-12-10'
