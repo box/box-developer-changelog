@@ -11,7 +11,7 @@ collapse: true
 
 # Box Sign Text Input Validations for Public API and Template Tags
 
-We've extended Box Sign's text input validation capabilities to support both Public API and Template Tags. This enables developers and users to apply validation rules programmatically and through templates, closing a critical feature gap for enterprise workflows.
+We've extended Box Sign's text input validation capabilities to support both Public API and template tags. This enables developers and users to apply validation rules programmatically and through templates, closing a critical feature gap for enterprise workflows.
 
 ## What's new
 
@@ -19,15 +19,15 @@ We've extended Box Sign's text input validation capabilities to support both Pub
 
 Text input validation is now supported through:
 * **Public API**: Create signature requests with validation rules using the Sign API endpoints.
-* **Template Tags**: Apply validation rules directly in document templates for use with Public API, Doc Gen, and Salesforce integrations.
+* **Template tags**: Apply validation rules directly in document templates for use with Public API, Doc Gen, and Salesforce integrations.
 * **Custom regex patterns**: Define custom validation patterns beyond the predefined validation types.
 
 ## Why it matters
 
 This update addresses key integration needs:
-* Public API developers can programmatically create signature requests with validation rules, including custom regex, ensuring data quality at scale.
-* Salesforce integration users can now leverage text input validation rules for fields that sync back to Salesforce.
-* Doc Gen users can apply validation to fields in automated document workflows.
+* **Public API developers** can programmatically create signature requests with validation rules, including custom regex, ensuring data quality at scale.
+* **Salesforce integration** users can now leverage text input validation rules for fields that sync back to Salesforce.
+* **Doc Gen users** can apply validation to fields in automated document workflows.
 Template Tags with validation support particularly benefits workflows where templates are used programmatically through integrations, eliminating the previous gap where validation was only available through the web interface.
 
 ## API updates
