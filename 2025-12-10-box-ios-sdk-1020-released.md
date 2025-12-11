@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-12-10-box-ios-sdk-620-released
-previous_page_id: 2025-12-08-box-windows-sdk-v620-released
+previous_page_id: 2025-12-09-box-ui-elements-v2540-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-10-box-ios-sdk-1020-released.md
 published_at: '2025-12-10'
