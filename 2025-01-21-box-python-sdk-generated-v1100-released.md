@@ -29,7 +29,7 @@ fullyTranslated: true
 
 * 不足していたトークンのスコープを追加 (box/box-openapi[#490][1]) ([#420][2]) ([`41afe8b`][3])
 * Slack統合マッピングのバリアント構成の誤りを修正 (box/box-openapi[#492][4]) ([#423][5]) ([`d03ccd4`][6])
-* `IntegrationMapping`スキーマ内のフィールドの順序 (box/box-openapi[#497][7]) ([#438][8]) ([`13dea88`][9])
+* `IntegrationMapping`スキーマ内のフィールドの順序を修正 (box/box-openapi[#497][7]) ([#438][8]) ([`13dea88`][9])
 
 ### 新機能と機能強化
 

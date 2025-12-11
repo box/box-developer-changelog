@@ -29,7 +29,7 @@ fullyTranslated: true
 
 * 不足していたトークンのスコープを追加 (box/box-openapi[#490][1]) ([#353][2]) ([`d41e1c8`][3])
 * Slack統合マッピングのバリアント構成の誤りを修正 (box/box-openapi[#492][4]) ([#356][5]) ([`8320fb7`][6])
-* `IntegrationMapping`スキーマ内のフィールドの順序 (box/box-openapi[#497][7]) ([#370][8]) ([`3361ad1`][9])
+* `IntegrationMapping`スキーマ内のフィールドの順序を修正 (box/box-openapi[#497][7]) ([#370][8]) ([`3361ad1`][9])
 * `SignRequest`から未使用のパラメータを削除 (box/box-openapi[#489][10]) ([#343][11]) ([`5d88a51`][12])
 
 ### 新機能と機能強化

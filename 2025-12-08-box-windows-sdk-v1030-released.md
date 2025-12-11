@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### バグ修正
 
-* fix string extension in dotnet (box/box-codegen[#899][1]) ([#1307][2]) ([`8c46af4`][3])
+* Dotnetの文字列拡張を修正 (box/box-codegen[#899][1]) ([#1307][2]) ([`8c46af4`][3])
 
 ### 新機能と機能強化
 
-* Support long polling event for dotnet (box/box-codegen[#893][4]) ([#1298][5]) ([`e35cd67`][6])
-* Support new sign request metadata (box/box-openapi[#565][7]) ([#1294][8]) ([`da19f7c`][9])
+* DotnetでLong pollingイベントをサポート (box/box-codegen[#893][4]) ([#1298][5]) ([`e35cd67`][6])
+* 新しい署名リクエストのメタデータをサポート (box/box-openapi[#565][7]) ([#1294][8]) ([`da19f7c`][9])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/899
 

@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-12-10-box-ios-sdk-1020-released
 previous_page_id: 2025-12-08-box-windows-sdk-v1030-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-08-box-windows-sdk-v620-released.md
@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### **新機能と機能強化:**
 
-* **boxsdkgen:** Support long polling event for dotnet (box/box-codegen[#893][1]) ([#1297][2]) ([`d064e76`][3])
-* **boxsdkgen:** Support new sign request metadata (box/box-openapi[#565][4]) ([#1293][5]) ([`3efe490`][6])
+* **boxsdkgen:** DotnetでLong pollingイベントをサポート (box/box-codegen[#893][1]) ([#1297][2]) ([`d064e76`][3])
+* **boxsdkgen:** 新しい署名リクエストのメタデータをサポート (box/box-openapi[#565][4]) ([#1293][5]) ([`3efe490`][6])
 
 ### **バグ修正:**
 
-* **boxsdkgen:** fix string extension in dotnet (box/box-codegen[#899][7]) ([#1306][8]) ([`b97f971`][9])
+* **boxsdkgen:** Dotnetの文字列拡張を修正 (box/box-codegen[#899][7]) ([#1306][8]) ([`b97f971`][9])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/893
 

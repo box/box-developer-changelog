@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdkgen:** Fix error handling in TS (box/box-codegen[#882][1]) ([#1182][2]) ([`c6c0f50`][3])
-* **boxsdkgen:** Remove enum types from GET enterprise configurations endpoint (box/box-openapi[#560][4]) ([#1154][5]) ([`5fd824b`][6]), closes [`box/box-codegen#869`][7] [`box/box-openapi#559`][8] [`box/box-codegen#872`][9]
+* **boxsdkgen:** TSでエラーの処理を修正 (box/box-codegen[#882][1]) ([#1182][2]) ([`c6c0f50`][3])
+* **boxsdkgen:** Enterprise構成を取得エンドポイントから列挙型を削除 (box/box-openapi[#560][4]) ([#1154][5]) ([`5fd824b`][6])、[`box/box-codegen#869`][7] [`box/box-openapi#559`][8] [`box/box-codegen#872`][9]をクローズ
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** Add GET enterprise configuration endpoint (box/box-openapi[#559][10]) ([#1149][11]) ([`55ffde1`][12])
-* **boxsdkgen:** add update Archive API (box/box-openapi[#563][13]) ([#1172][14]) ([`fbe3d0f`][15])
+* **boxsdkgen:** Enterprise構成を取得エンドポイントを追加 (box/box-openapi[#559][10]) ([#1149][11]) ([`55ffde1`][12])
+* **boxsdkgen:** アーカイブAPIの更新を追加 (box/box-openapi[#563][13]) ([#1172][14]) ([`fbe3d0f`][15])
 
 [1]: https://github.com/box/box-node-sdk/issues/882
 
