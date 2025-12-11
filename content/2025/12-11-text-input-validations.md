@@ -32,11 +32,11 @@ Template Tags with validation support particularly benefits workflows where temp
 
 ## API updates
 The following endpoints now support text input validation:
-* [POST /sign_requests][1] — Create sign request with validation.
-* [GET /:sign_request_id][2] — Get sign request details including validation.
-* [GET /sign_requests][3] — List sign requests with validation info.
-* [GET /:template_id][4] — Get template with validation rules.
-* [GET /sign_templates][5] — List templates with validation info.
+* [`POST /sign_requests`][1] — Create sign request with validation.
+* [`GET /:sign_request_id`][2] — Get sign request details including validation.
+* [`GET /sign_requests`][3] — List sign requests with validation info.
+* [`GET /:template_id`][4] — Get template with validation rules.
+* [`GET /sign_templates`][5] — List templates with validation info.
 
 ## Getting started
 
