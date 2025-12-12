@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2025-12-11-text-input-validations
+previous_page_id: 2025-12-12-box-windows-sdk-v1040-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-12-box-windows-sdk-v630-released.md
 published_at: '2025-12-12'
