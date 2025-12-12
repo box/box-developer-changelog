@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Remove `confidence_score` and `include_confidence_score` from AI extract (box/box-openapi[#567][1]) ([#1615][2]) ([`0a069cd`][3])
-* Support new sign request metadata (box/box-openapi[#565][4]) ([#1599][5]) ([`b3c46bb`][6])
+* AI抽出から`confidence_score`と`include_confidence_score`を削除 (box/box-openapi[#567][1]) ([#1615][2]) ([`0a069cd`][3])
+* 新しい署名リクエストのメタデータをサポート (box/box-openapi[#565][4]) ([#1599][5]) ([`b3c46bb`][6])
 
 [1]: https://github.com/box/box-java-sdk/issues/567
 

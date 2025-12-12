@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-12-10-box-ios-sdk-620-released
-previous_page_id: 2025-12-08-box-windows-sdk-v620-released
+previous_page_id: 2025-12-09-box-ui-elements-v2540-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-10-box-ios-sdk-1020-released.md
 published_at: '2025-12-10'
@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Remove duplicate optional wrapping (box/box-codegen[#898][1]) ([#1301][2]) ([`0fff45e`][3])
+* 重複したオプションのラッピングを削除 (box/box-codegen[#898][1]) ([#1301][2]) ([`0fff45e`][3])
 
 ### 新機能と機能強化
 
-* Remove `confidence_score` and `include_confidence_score` from AI extract (box/box-openapi[#567][4]) ([#1305][5]) ([`702de7b`][6])
-* Support new sign request metadata (box/box-openapi[#565][7]) ([#1285][8]) ([`d541f12`][9])
+* AI抽出から`confidence_score`と`include_confidence_score`を削除 (box/box-openapi[#567][4]) ([#1305][5]) ([`702de7b`][6])
+* 新しい署名リクエストのメタデータをサポート (box/box-openapi[#565][7]) ([#1285][8]) ([`d541f12`][9])
 
 [1]: https://github.com/box/box-ios-sdk/issues/898
 

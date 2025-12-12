@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdkgen:** Remove duplicate optional wrapping (box/box-codegen[#898][1]) ([#1302][2]) ([`4fae34a`][3])
+* **boxsdkgen:** 重複したオプションのラッピングを削除 (box/box-codegen[#898][1]) ([#1302][2]) ([`4fae34a`][3])
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** Remove `confidence_score` and `include_confidence_score` from AI extract (box/box-openapi[#567][4]) ([#1304][5]) ([`143ef03`][6])
-* **boxsdkgen:** Support new sign request metadata (box/box-openapi[#565][7]) ([#1286][8]) ([`e6c0826`][9])
+* **boxsdkgen:** AI抽出から`confidence_score`と`include_confidence_score`を削除 (box/box-openapi[#567][4]) ([#1304][5]) ([`143ef03`][6])
+* **boxsdkgen:** 新しい署名リクエストのメタデータをサポート (box/box-openapi[#565][7]) ([#1286][8]) ([`e6c0826`][9])
 
 [1]: https://github.com/box/box-ios-sdk/issues/898
 

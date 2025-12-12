@@ -45,23 +45,23 @@ fullyTranslated: true
 
 このバージョンには、BoxのコアSDKと並行して以前に開発された、Boxの次世代SDKのアーティファクトが含まれています。Boxでは、移行を促進し、最新の機能を利用できるようにするため、まもなく、両方のアーティファクトを兼ね備えたメジャーバージョンを追加でリリースする予定です。`v10`への移行には重大な変更が含まれるため、詳細については[移行ガイド][3]を確認してください。詳細については、[SDKのバージョン戦略に関するドキュメント][4]を参照してください。今後の更新については、開発者向け変更ログをフォローしてください。
 ---
-### What’s New Compared to [Typescript SDK Gen][5] `v1.19.1`
+### 新機能 ([Typescript SDK Gen][5] `v1.19.1`との比較)
 
 #### ⚠ 重大な変更
 
-* Change names of unions (box/box-codegen[#787][6]) ([#938][7]) ([`06a8e9b`][8])
-* Remove unused models from schemas (box/box-openapi[#547][9]) ([#933][10]) ([`35690f4`][11]), closes box/box-codegen[#773][12] box/box-openapi[#542][13] box/box-openapi[#544][14] box/box-codegen[#781][15] box/box-openapi[#545][16]
-* Remove generated suffix from files (box/box-codegen[#779][17]) ([#948][18]) ([`4bfb073`][19])
-* Adjust imports and exports (box/box-codegen[#801][20]) ([#965][21]) ([`d8e6a0a`][22])
+* 共用体の名前を変更 (box/box-codegen[#787][6]) ([#938][7]) ([`06a8e9b`][8])
+* スキーマから未使用のモデルを削除 (box/box-openapi[#547][9]) ([#933][10]) ([`35690f4`][11])、box/box-codegen[#773][12] box/box-openapi[#542][13] box/box-openapi[#544][14] box/box-codegen[#781][15] box/box-openapi[#545][16]をクローズ
+* 生成されたサフィックスをファイルから削除 (box/box-codegen[#779][17]) ([#948][18]) ([`4bfb073`][19])
+* インポートとエクスポートを調整 (box/box-codegen[#801][20]) ([#965][21]) ([`d8e6a0a`][22])
 
 #### バグ修正
 
-* Fix serialization for unions (box/box-codegen[#800][23]) ([#954][24]) ([`7f75f6d`][25])
+* Unionのシリアル化を修正 (box/box-codegen[#800][23]) ([#954][24]) ([`7f75f6d`][25])
 
 #### 新機能と機能強化
 
-* Add missing webhook events (box/box-openapi[#554][26]) ([#982][27]) ([`2f5e245`][28])
-* Support external user deletion API (box/box-codegen[#796][29]) ([#946][30]) ([`44b37a4`][31])
+* 不足していたWebhookイベントを追加 (box/box-openapi[#554][26]) ([#982][27]) ([`2f5e245`][28])
+* 外部ユーザー削除APIをサポート (box/box-codegen[#796][29]) ([#946][30]) ([`44b37a4`][31])
 
 詳細については、`box-typescript-sdk-gen` `v1`から`box-node-sdk` `v10`への[移行ガイド][32]をご確認ください。
 

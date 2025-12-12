@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Remove duplicated in union type (box/box-codegen[#898][1]) ([#1240][2]) ([`0b03b60`][3])
+* unionタイプの重複を削除 (box/box-codegen[#898][1]) ([#1240][2]) ([`0b03b60`][3])
 
 ### 新機能と機能強化
 
-* Remove `confidence_score` and `include_confidence_score` from AI extract (box/box-openapi[#567][4]) ([#1243][5]) ([`55d6cd0`][6])
-* support `includeConfidenceScore` and `includeConfidenceScore` fields in AI extract structured (box/box-openapi[#566][7]) ([#1228][8]) ([`4bf9f46`][9])
-* Support new sign request metadata (box/box-openapi[#565][10]) ([#1226][11]) ([`8dfc1cc`][12])
-* update error message on exception (box/box-codegen[#896][13]) ([#1233][14]) ([`b298afa`][15])
+* AI抽出から`confidence_score`と`include_confidence_score`を削除 (box/box-openapi[#567][4]) ([#1243][5]) ([`55d6cd0`][6])
+* AIによる抽出 (構造化) で`includeConfidenceScore`および`includeConfidenceScore`フィールドをサポート (box/box-openapi[#566][7]) ([#1228][8]) ([`4bf9f46`][9])
+* 新しい署名リクエストのメタデータをサポート (box/box-openapi[#565][10]) ([#1226][11]) ([`8dfc1cc`][12])
+* 例外のエラーメッセージを更新 (box/box-codegen[#896][13]) ([#1233][14]) ([`b298afa`][15])
 
 [1]: https://github.com/box/box-node-sdk/issues/898
 

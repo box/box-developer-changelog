@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2025-12-11-text-input-validations
 previous_page_id: 2025-12-10-box-python-sdk-v1020-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-10-box-python-sdk-v420-released.md
@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** Remove `confidence_score` and `include_confidence_score` from AI extract (box/box-openapi[#567][1]) ([#1237][2]) ([`2ac9408`][3])
-* **boxsdkgen:** Support new sign request metadata (box/box-openapi[#565][4]) ([#1221][5]) ([`56a93ac`][6])
+* **boxsdkgen:** AI抽出から`confidence_score`と`include_confidence_score`を削除 (box/box-openapi[#567][1]) ([#1237][2]) ([`2ac9408`][3])
+* **boxsdkgen:** 新しい署名リクエストのメタデータをサポート (box/box-openapi[#565][4]) ([#1221][5]) ([`56a93ac`][6])
 
 [1]: https://github.com/box/box-python-sdk/issues/567
 

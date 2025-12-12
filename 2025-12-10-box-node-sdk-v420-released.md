@@ -27,15 +27,15 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdkgen:** Remove duplicated in union type (box/box-codegen[#898][1]) ([#1241][2]) ([`c56f808`][3])
-* bump `jsonwebtoken` dependency ([#1244][4]) ([`49692e3`][5])
+* **boxsdkgen:** unionタイプの重複を削除  (box/box-codegen[#898][1]) ([#1241][2]) ([`c56f808`][3])
+* `jsonwebtoken`の依存関係を昇格 ([#1244][4]) ([`49692e3`][5])
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** Remove `confidence_score` and `include_confidence_score` from AI extract (box/box-openapi[#567][6]) ([#1245][7]) ([`3a74388`][8])
-* **boxsdkgen:** support `includeConfidenceScore` and `includeConfidenceScore` fields in AI extract structured (box/box-openapi[#566][9]) ([#1227][10]) ([`8e2b109`][11])
-* **boxsdkgen:** Support new sign request metadata (box/box-openapi[#565][12]) ([#1225][13]) ([`955b6ba`][14])
-* **boxsdkgen:** update error message on exception (box/box-codegen[#896][15]) ([#1232][16]) ([`b140428`][17])
+* **boxsdkgen:** AI抽出から`confidence_score`と`include_confidence_score`を削除 (box/box-openapi[#567][6]) ([#1245][7]) ([`3a74388`][8])
+* **boxsdkgen:** AIによる抽出 (構造化) で`includeConfidenceScore`および`includeConfidenceScore`フィールドをサポート (box/box-openapi[#566][9]) ([#1227][10]) ([`8e2b109`][11])
+* **boxsdkgen:** 新しい署名リクエストのメタデータをサポート (box/box-openapi[#565][12]) ([#1225][13]) ([`955b6ba`][14])
+* **boxsdkgen:** 例外のエラーメッセージを更新 (box/box-codegen[#896][15]) ([#1232][16]) ([`b140428`][17])
 
 [1]: https://github.com/box/box-node-sdk/issues/898
 
