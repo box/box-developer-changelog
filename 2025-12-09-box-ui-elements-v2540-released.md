@@ -25,31 +25,31 @@ fullyTranslated: true
 ---
 # Box UI Elements `v25.4.0`のリリース
 
-# [25.4.0][1] (2025-12-09)
+# [25.4.0][1] (2025/12/09)
 
 ### バグ修正
 
-* bump node-forge version ([#4386][2]) ([`5f46b8b`][3])
-* **i18n:** update translations ([#4369][4]) ([`abc11ee`][5])
-* **i18n:** update translations ([#4372][6]) ([`8dd5f9f`][7])
-* **i18n:** update translations ([#4374][8]) ([`7f37b4b`][9])
-* **i18n:** update translations ([#4375][10]) ([`df948b4`][11])
-* **i18n:** update translations ([#4377][12]) ([`7e61a9c`][13])
-* improve accessibility in sidebar content and tags components ([#4363][14]) ([`35080aa`][15])
-* **metadata-editor:** Preserve field order when fetching taxonomy levels for fields ([#4378][16]) ([`fbd155e`][17])
-* **video-annotations:** Add version links for video annotations ([#4379][18]) ([`8bf7c63`][19])
+* node-forgeのバージョンを昇格 ([#4386][2]) ([`5f46b8b`][3])
+* **i18n:** 翻訳を更新 ([#4369][4]) ([`abc11ee`][5])
+* **i18n:** 翻訳を更新 ([#4372][6]) ([`8dd5f9f`][7])
+* **i18n:** 翻訳を更新 ([#4374][8]) ([`7f37b4b`][9])
+* **i18n:** 翻訳を更新 ([#4375][10]) ([`df948b4`][11])
+* **i18n:** 翻訳を更新 ([#4377][12]) ([`7e61a9c`][13])
+* サイドバーコンテンツとタグコンポーネントにおけるアクセシビリティを改善 ([#4363][14]) ([`35080aa`][15])
+* **metadata-editor:** フィールドのメタデータ階層レベルを取得する際にフィールドの順序を保持 ([#4378][16]) ([`fbd155e`][17])
+* **video-annotations:** ビデオの注釈用にバージョンのリンクを追加 ([#4379][18]) ([`8bf7c63`][19])
 
 ### 機能
 
-* **deps:** No-op to trigger release for blueprint-web upgrades ([#4368][20]) ([`58b9697`][21])
-* **form-elements:** Remove Form legacy context ([#4383][22]) ([`62c77b4`][23])
-* **hotkeys:** Remove legacy context from Hotkeys ([#4382][24]) ([`5db66df`][25])
-* **presence-avatar-list:** add BP tooltip to `presenceAvatarList` (`WEBAPP-41740`) ([#4384][26]) ([`5653500`][27])
+* **deps:** blueprint-webのアップグレード向けのリリースを無操作 (no-op) でトリガー ([#4368][20]) ([`58b9697`][21])
+* **form-elements:** フォームの従来のコンテキストを削除 ([#4383][22]) ([`62c77b4`][23])
+* **hotkeys:** ホットキーから従来のコンテキストを削除 ([#4382][24]) ([`5db66df`][25])
+* **presence-avatar-list:** `presenceAvatarList` (`WEBAPP-41740`) にBPのツールチップを追加 ([#4384][26]) ([`5653500`][27])
 * **preview-modernization:** BP `AddTaskButton` ([#4366][28]) ([`f76ed73`][29])
-* **preview-modernization:** Update Sidebar Nav icons and tooltips ([#4373][30]) ([`60eda40`][31])
-* **preview-modernization:** Update Sidebar Nav overflow separator ([#4370][32]) ([`671a067`][33])
-* **preview-optimizations:** modernize Versions sidebar ([#4381][34]) ([`2b136e4`][35])
-* **`SecurityControls`:** Add Shared Link Auto-Expiration restriction ([#4365][36]) ([`40ff462`][37])
+* **preview-modernization:** サイドバーのナビゲーションのアイコンとツールチップを更新 ([#4373][30]) ([`60eda40`][31])
+* **preview-modernization:** サイドバーのナビゲーションのはみ出した区切り線を更新 ([#4370][32]) ([`671a067`][33])
+* **preview-optimizations:** バージョンのサイドバーを最新化 ([#4381][34]) ([`2b136e4`][35])
+* **`SecurityControls`:** 共有リンクの自動有効期限切れの制限を追加 ([#4365][36]) ([`40ff462`][37])
 
 [1]: https://github.com/box/box-ui-elements/compare/v25.3.0...v25.4.0
 

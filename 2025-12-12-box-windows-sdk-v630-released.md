@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### **新機能と機能強化:**
 
-* **boxsdkgen:** Remove `confidence_score` and `include_confidence_score` from AI extract (box/box-openapi[#567][1]) ([#1314][2]) ([`1733727`][3])
+* **boxsdkgen:** AI抽出から`confidence_score`と`include_confidence_score`を削除 (box/box-openapi[#567][1]) ([#1314][2]) ([`1733727`][3])
 
 ### **バグ修正:**
 
-* **boxsdkgen:** fix `RetryAfter` function when there's no Retry-After header (box/box-codegen[#903][4]) ([#1319][5]) ([`1647641`][6])
-* **boxsdkgen:** remove duplicate optional tag (box/box-codegen[#898][7]) ([#1313][8]) ([`5c3cca9`][9])
+* **boxsdkgen:** Retry-Afterヘッダーがない場合の`RetryAfter`関数を修正 (box/box-codegen[#903][4]) ([#1319][5]) ([`1647641`][6])
+* **boxsdkgen:** 重複した省略可能なタグを削除 (box/box-codegen[#898][7]) ([#1313][8]) ([`5c3cca9`][9])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/567
 

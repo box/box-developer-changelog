@@ -23,45 +23,45 @@ source_url: >-
 published_at: '2025-12-11'
 fullyTranslated: true
 ---
-# Box Sign Text Input Validations for Public API and Template Tags
+# Box Sign: 公開APIおよびテンプレートタグに対応したテキスト入力の検証
 
-We've extended Box Sign's text input validation capabilities to support both Public API and template tags. This enables developers and users to apply validation rules programmatically and through templates, closing a critical feature gap for enterprise workflows.
+Boxでは、公開APIとテンプレートタグの両方に対応するようBox Signのテキスト入力の検証機能を拡張しました。これにより、開発者およびユーザーは、プログラムやテンプレートで検証ルールを適用できるようになるため、企業のワークフローにおける重大な機能のギャップが解消されます。
 
-## What's new
+## 新機能
 
 <!-- more -->
 
-Text input validation is now supported through:
+テキスト入力の検証は、以下を通じてサポートされるようになりました。
 
-* **Public API**: Create signature requests with validation rules using the Sign API endpoints.
-* **Template tags**: Apply validation rules directly in document templates for use with Public API, Doc Gen, and Salesforce integrations.
-* **Custom regex patterns**: Define custom validation patterns beyond the predefined validation types.
+* **公開API**: Sign APIエンドポイントを使用して、検証ルール付きの署名リクエストを作成する。
+* **テンプレートタグ**: 公開API、Doc Gen、Salesforce統合とともに使用するドキュメントテンプレート内で直接、検証ルールを適用する。
+* **カスタム正規表現パターン**: あらかじめ定義された検証の種類以外にカスタム検証パターンを定義する。
 
-## Why it matters
+## これが重要な理由
 
-This update addresses key integration needs:
+今回の更新では、主な統合のニーズに対応しています。
 
-* **Public API developers** can programmatically create signature requests with validation rules, including custom regex, ensuring data quality at scale.
-* **Salesforce integration** users can now leverage text input validation rules for fields that sync back to Salesforce.
-* **Doc Gen users** can apply validation to fields in automated document workflows. Template Tags with validation support particularly benefits workflows where templates are used programmatically through integrations, eliminating the previous gap where validation was only available through the web interface.
+* **公開APIの開発者**は、検証ルール (カスタム正規表現など) 付きの署名リクエストをプログラムによって作成できるため、大規模なデータ品質が保証されます。
+* **Salesforce統合**のユーザーは、Salesforceと再度同期されるフィールドにテキスト入力の検証ルールを利用できるようになりました。
+* **Doc Genのユーザー**は、自動化されたドキュメントワークフロー内でフィールドに検証を適用できます。検証がサポートされているテンプレートタグは、特に統合を介してプログラムによってテンプレートが使用されるワークフローに役立ち、ウェブインターフェースのみで検証が可能だった以前のギャップを解消します。
 
-## API updates
+## APIの更新
 
-The following endpoints now support text input validation:
+以下のエンドポイントでは、テキスト入力の検証がサポートされるようになりました。
 
-* [`POST /sign_requests`][1] — Create sign request with validation.
-* [`GET /:sign_request_id`][2] — Get sign request details including validation.
-* [`GET /sign_requests`][3] — List sign requests with validation info.
-* [`GET /:template_id`][4] — Get template with validation rules.
-* [`GET /sign_templates`][5] — List templates with validation info.
+* [`POST /sign_requests`][1] — 検証付きの署名リクエストを作成する。
+* [`GET /:sign_request_id`][2] — 検証を含む署名リクエストの詳細を取得する。
+* [`GET /sign_requests`][3] — 検証の情報を含む署名リクエストのリストを取得する。
+* [`GET /:template_id`][4] — 検証ルールを使用してテンプレートを取得する。
+* [`GET /sign_templates`][5] — 検証の情報を含むテンプレートのリストを取得する。
 
-## Getting started
+## はじめに
 
-To use text input validation:
+テキスト入力の検証を使用するには、以下を実行します。
 
-1. Review the [Create sign request endpoint][1] for adding validation to signature requests.
-2. Check out the Box Sign documentation for [applying validation in Template Tags][6].
-3. Explore [custom regex patterns][7] for advanced validation scenarios.
+1. 署名リクエストへの検証の追加について、[署名リクエストの作成エンドポイント][1]を確認します。
+2. [テンプレートタグでの検証の適用][6]について、Box Signのドキュメントを確認します。
+3. 高度な検証シナリオについて、[カスタム正規表現パターン][7]を調査します。
 
 ## サポート情報
 
