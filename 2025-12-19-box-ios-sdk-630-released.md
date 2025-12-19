@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-12-19-box-java-sdk-v1040-released
-previous_page_id: 2025-12-12-box-windows-sdk-v630-released
+previous_page_id: 2025-12-19-box-ios-sdk-1030-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-19-box-ios-sdk-630-released.md
 published_at: '2025-12-19'
