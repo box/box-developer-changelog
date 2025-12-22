@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** add Metadata Taxonomies api (box/box-openapi[#569][1]) ([#1629][2]) ([`7236f16`][3])
-* **boxsdkgen:** text input validation for Box Sign (box/box-openapi[#568][4]) ([#1623][5]) ([`a5d74ee`][6])
-* **boxsdkgen:** treat `nullable` fields as Optional (box/box-codegen[#906][7]) ([#1633][8]) ([`e14e97b`][9])
+* **boxsdkgen:** メタデータ階層APIを追加 (box/box-openapi[#569][1]) ([#1629][2]) ([`7236f16`][3])
+* **boxsdkgen:** Box Signのテキスト入力の検証 (box/box-openapi[#568][4]) ([#1623][5]) ([`a5d74ee`][6])
+* **boxsdkgen:** `nullable`フィールドを省略可として処理 (box/box-codegen[#906][7]) ([#1633][8]) ([`e14e97b`][9])
 
 ### バグ修正
 
-* **boxsdkgen:** add taxonomy to Metadata Field (read) definition (box/box-openapi[#572][10]) ([#1643][11]) ([`492684e`][12])
-* **boxsdkgen:** fix `RetryAfter` function when there's no `Retry-After` header (box/box-codegen[#903][13]) ([#1621][14]) ([`af4861f`][15])
+* **boxsdkgen:** メタデータフィールド (読み取り) の定義にメタデータ階層を追加 (box/box-openapi[#572][10]) ([#1643][11]) ([`492684e`][12])
+* **boxsdkgen:** `Retry-After`ヘッダーがない場合の`RetryAfter`関数を修正 (box/box-codegen[#903][13]) ([#1621][14]) ([`af4861f`][15])
 
 [1]: https://github.com/box/box-java-sdk/issues/569
 

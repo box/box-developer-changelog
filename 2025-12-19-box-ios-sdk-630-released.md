@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdkgen:** add taxonomy to Metadata Field (read) definition (box/box-openapi[#572][1]) ([#1334][2]) ([`373240a`][3])
-* **boxsdkgen:** fix `RetryAfter` function when there's no `Retry-After` header (box/box-codegen[#903][4]) ([#1312][5]) ([`783ef91`][6])
+* **boxsdkgen:** メタデータフィールド (読み取り) の定義にメタデータ階層を追加 (box/box-openapi[#572][1]) ([#1334][2]) ([`373240a`][3])
+* **boxsdkgen:** `Retry-After`ヘッダーがない場合の`RetryAfter`関数を修正 (box/box-codegen[#903][4]) ([#1312][5]) ([`783ef91`][6])
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** add Metadata Taxonomies api (box/box-openapi[#569][7]) ([#1320][8]) ([`2b52332`][9])
-* **boxsdkgen:** text input validation for Box Sign (box/box-openapi[#568][10]) ([#1314][11]) ([`bebd148`][12])
-* **boxsdkgen:** Treat `nullable` fields as Optional (box/box-codegen[#906][13]) ([#1324][14]) ([`c17e23a`][15])
+* **boxsdkgen:** メタデータ階層APIを追加 (box/box-openapi[#569][7]) ([#1320][8]) ([`2b52332`][9])
+* **boxsdkgen:** Box Signのテキスト入力の検証 (box/box-openapi[#568][10]) ([#1314][11]) ([`bebd148`][12])
+* **boxsdkgen:** `nullable`フィールドを省略可として処理 (box/box-codegen[#906][13]) ([#1324][14]) ([`c17e23a`][15])
 
 [1]: https://github.com/box/box-ios-sdk/issues/572
 
