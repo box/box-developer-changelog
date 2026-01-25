@@ -43,7 +43,7 @@ fullyTranslated: true
 * Box AI for Hubs、Box AI for Documents、Box AI for Notes Q&AのBox AI Advancedのデフォルトモデルが[OpenAI GPT-5][gpt-5]になりました。
 * Box AI for Hubs、Box AI for Documents、Box AI for Notes Q&Aのデフォルトモデルが[OpenAI GPT-5 mini][gpt-5-mini]になりました。
 
-**注:** **プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままでの利用となるため、モデル/出力の品質、可用性、精度にはばらつきがある可能性があります。
+**注:** **プレビュー**モードで提供されているモデルはパフォーマンスが大規模にテストされておらず、現状のままでの利用となるため、モデル/出力の品質、提供状況、精度にはばらつきがある可能性があります。
 
 提供されているモデルを使用して、AIエージェントの構成で使用されている[デフォルトモデルを上書き][override]できます。Box AI APIの詳細については、[ガイド][ai-guides]と[APIリファレンス][api]を参照してください。
 
