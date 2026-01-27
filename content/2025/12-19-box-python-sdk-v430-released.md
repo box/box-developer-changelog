@@ -20,7 +20,7 @@ collapse: true
 ### Bug Fixes
 
 * **boxsdkgen:** add taxonomy to Metadata Field (read) definition (box/box-openapi[#572][10]) ([#1267][11]) ([`d97f493`][12])
-* **boxsdkgen:** fix RetryAfter function when there's no Retry-After header (box/box-codegen[#903][13]) ([#1243][14]) ([`4371cf3`][15])
+* **boxsdkgen:** fix `RetryAfter` function when there's no Retry-After header (box/box-codegen[#903][13]) ([#1243][14]) ([`4371cf3`][15])
 
 [1]: https://github.com/box/box-python-sdk/issues/569
 
