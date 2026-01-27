@@ -23,17 +23,17 @@ collapse: true
     requires React 18 or 19. react-tether has been upgraded to v3, so
     components using react-tether may affect some layouts.
 
-* fix: update .flowconfig to take .cjs
+* fix: update `.flowconfig` to take `.cjs`
 
-* fix: Replace Checkbox, InfoIcon, and FooterIndicator tooltips with BP
+* fix: Replace `Checkbox`, `InfoIcon`, and `FooterIndicator` tooltips with BP
 
-* fix: Use createRoot instead of ReactDOM render
+* fix: Use `createRoot` instead of `ReactDOM` render
 
 * fix: Respond to feedback
 
 * fix: Round 2
 
-* fix: flow tests for SidebarNavButton
+* fix: flow tests for `SidebarNavButton`
 
 * fix: legacy comment styling
 
