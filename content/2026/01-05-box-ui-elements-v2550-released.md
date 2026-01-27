@@ -31,7 +31,7 @@ collapse: true
 ### Features
 
 * **metadata-editor:** Parse autofill values correctly for taxonomy fields ([#4398][26]) ([`65f764d`][27])
-* **sidebar-nav:** update skills and docgen icons to BP (WEBAPP-42958) ([#4399][28]) ([`e63cd39`][29])
+* **sidebar-nav:** update skills and docgen icons to BP (`WEBAPP-42958`) ([#4399][28]) ([`e63cd39`][29])
 
 [1]: https://github.com/box/box-ui-elements/compare/v25.4.0...v25.5.0
 
