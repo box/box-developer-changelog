@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2025-12-19-box-python-sdk-v430-released
-previous_page_id: 2025-12-19-box-node-sdk-v1030-released
+previous_page_id: 2025-12-19-box-node-sdk-v430-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2025/12-19-box-python-sdk-v1030-released.md
 published_at: '2025-12-19'
