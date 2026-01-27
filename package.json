@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/box/box-developer-changelog.git"
+    "url": "git+https://github.com/box/box-developer-changelog.git"
   },
   "author": "Box <developer@box.com>",
   "license": "Apache-2.0",
@@ -62,5 +62,13 @@
     "uslug": "^1.0.4",
     "watch": "^1.0.2",
     "yarn": "^1.22.19"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/box/box-developer-changelog/issues"
+  },
+  "homepage": "https://github.com/box/box-developer-changelog#readme"
 }
