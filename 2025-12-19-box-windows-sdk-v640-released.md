@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### **新機能と機能強化:**
 
-* **boxsdkgen:** add Metadata Taxonomies api (box/box-openapi[#569][1]) ([#1329][2]) ([`5908cf2`][3])
-* **boxsdkgen:** text input validation for Box Sign (box/box-openapi[#568][4]) ([#1323][5]) ([`d094726`][6])
-* **boxsdkgen:** Treat `nullable` fields as Optional (box/box-codegen[#906][7]) ([#1333][8]) ([`1b61619`][9])
+* **boxsdkgen:** メタデータ階層APIを追加 (box/box-openapi[#569][1]) ([#1329][2]) ([`5908cf2`][3])
+* **boxsdkgen:** Box Signのテキスト入力の検証 (box/box-openapi[#568][4]) ([#1323][5]) ([`d094726`][6])
+* **boxsdkgen:** `nullable`フィールドを省略可として処理 (box/box-codegen[#906][7]) ([#1333][8]) ([`1b61619`][9])
 
 ### **バグ修正:**
 
-* **boxsdkgen:** add taxonomy to Metadata Field (read) definition (box/box-openapi[#572][10]) ([#1343][11]) ([`8152df7`][12])
-* **boxsdkgen:** Fix convert to long in CSharp (box/box-codegen[#911][13]) ([#1354][14]) ([`25433e5`][15])
+* **boxsdkgen:** メタデータフィールド (読み取り) の定義にメタデータ階層を追加 (box/box-openapi[#572][10]) ([#1343][11]) ([`8152df7`][12])
+* **boxsdkgen:** C#でのlong型への返還を修正 (box/box-codegen[#911][13]) ([#1354][14]) ([`25433e5`][15])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/569
 

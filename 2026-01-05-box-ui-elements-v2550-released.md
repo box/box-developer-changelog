@@ -29,23 +29,23 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **classification:** preload component in jest ([#4403][2]) ([`8aaa6a1`][3])
-* **i18n:** update translations ([#4396][4]) ([`03bd678`][5])
-* **i18n:** update translations ([#4400][6]) ([`83917df`][7])
-* **i18n:** update translations ([#4408][8]) ([`7f16b5a`][9])
-* **preview:** add preview sdk load check ([#4391][10]) ([`5555899`][11])
-* Replace `defaultProps` with inline defaults ([#4385][12]) ([`72e7fbf`][13])
-* **timestamped-comments:** replacing dash container class with media container ([#4409][14]) ([`953b6f6`][15])
-* update glob 10.x dependency ([#4404][16]) ([`f59e209`][17])
-* update storybook dependencies ([#4406][18]) ([`7c2546c`][19])
-* **video-annotations:** changing test wording ([#4394][20]) ([`f885f8c`][21])
-* **video-annotations:** fix video annotation version change issue ([#4380][22]) ([`121de79`][23])
-* **video-annotations:** sidebar button fix to not propagate mousedown event ([#4388][24]) ([`454ede0`][25])
+* **classification:** Jestでコンポーネントを事前読み込み ([#4403][2]) ([`8aaa6a1`][3])
+* **i18n:** 翻訳を更新 ([#4396][4]) ([`03bd678`][5])
+* **i18n:** 翻訳を更新 ([#4400][6]) ([`83917df`][7])
+* **i18n:** 翻訳を更新 ([#4408][8]) ([`7f16b5a`][9])
+* **preview:** preview sdkの読み込みチェックを追加 ([#4391][10]) ([`5555899`][11])
+* `defaultProps`をインラインデフォルトに置き換え ([#4385][12]) ([`72e7fbf`][13])
+* **timestamped-comments:** dash containerクラスをmedia containerに置き換え ([#4409][14]) ([`953b6f6`][15])
+* glob 10.xの依存関係を更新 ([#4404][16]) ([`f59e209`][17])
+* storybookの依存関係を更新 ([#4406][18]) ([`7c2546c`][19])
+* **video-annotations:** テストの文言を変更 ([#4394][20]) ([`f885f8c`][21])
+* **video-annotations:** ビデオの注釈のバージョン変更の問題を修正 ([#4380][22]) ([`121de79`][23])
+* **video-annotations:** mousedownイベントが伝搬しないよう、サイドバーボタンを修正 ([#4388][24]) ([`454ede0`][25])
 
 ### 機能
 
-* **metadata-editor:** Parse autofill values correctly for taxonomy fields ([#4398][26]) ([`65f764d`][27])
-* **sidebar-nav:** update skills and docgen icons to BP (`WEBAPP-42958`) ([#4399][28]) ([`e63cd39`][29])
+* **metadata-editor:** メタデータ階層フィールドの自動入力値を正確に解析 ([#4398][26]) ([`65f764d`][27])
+* **sidebar-nav:** skillsおよびdocgenアイコンをBPに更新 (`WEBAPP-42958`) ([#4399][28]) ([`e63cd39`][29])
 
 [1]: https://github.com/box/box-ui-elements/compare/v25.4.0...v25.5.0
 

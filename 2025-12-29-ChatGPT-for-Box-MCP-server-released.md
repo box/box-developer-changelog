@@ -24,11 +24,11 @@ source_url: >-
 published_at: '2025-12-29'
 fullyTranslated: true
 ---
-# ChatGPT for remote Box MCP server released
+# リモートBox MCPサーバー向けChatGPTをリリース
 
 <!--alex ignore -->
 
-We've added the ability to [integrate ChatGPT with the remote Box MCP server][gpt-remote-box-mcp]. This allows ChatGPT to securely access Box content through a custom Model Context Protocol (MCP) connector using OAuth and the MCP.
+[ChatGPTとリモートBox MCPサーバーを統合][gpt-remote-box-mcp]できるようになりました。これにより、カスタムModel Context Protocol (MCP) コネクタを介してOAuthとMCPを使用し、ChatGPTが安全にBoxコンテンツにアクセスすることができます。
 
 <!--alex enable -->
 

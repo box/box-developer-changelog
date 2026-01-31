@@ -29,17 +29,17 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **content-sharing:** Add error handler ([#4414][2]) ([`81b0071`][3])
-* **content-sharing:** Improve content sharing performance and add consumer ability to override config ([#4413][4]) ([`788b32f`][5])
-* **docgen-sidebar:** modernized blueprint dropdown (`DOCGEN-7872`) ([#4392][6]) ([`5fd9164`][7])
-* **i18n:** update translations ([#4419][8]) ([`5ba3e69`][9])
+* **content-sharing:** エラーハンドラを追加 ([#4414][2]) ([`81b0071`][3])
+* **content-sharing:** コンテンツ共有のパフォーマンスを改善し、ユーザーが構成を上書きできる機能を追加 ([#4413][4]) ([`788b32f`][5])
+* **docgen-sidebar:** blueprintドロップダウンを刷新 (`DOCGEN-7872`) ([#4392][6]) ([`5fd9164`][7])
+* **i18n:** 翻訳を更新 ([#4419][8]) ([`5ba3e69`][9])
 
 ### 機能
 
-* **content-sidebar:** add ability to defer sidebar data fetching requests ([#4410][10]) ([`69be418`][11])
-* **deps:** Bump blueprint-web to 12.115.2 ([#4415][12]) ([`c60dd13`][13])
-* **deps:** bump qs version ([#4417][14]) ([`9f174dc`][15])
-* **preview:** add `minimalFile` prop for content sidebar to render faster ([#4412][16]) ([`70e2846`][17])
+* **content-sidebar:** サイドバーのデータ取得リクエストを保留にする機能を追加 ([#4410][10]) ([`69be418`][11])
+* **deps:** blueprint-webを12.115.2に昇格 ([#4415][12]) ([`c60dd13`][13])
+* **deps:** qsバージョンを昇格 ([#4417][14]) ([`9f174dc`][15])
+* **preview:** Content Sidebarのレンダリングを高速にするため、`minimalFile`プロパティを追加 ([#4412][16]) ([`70e2846`][17])
 
 [1]: https://github.com/box/box-ui-elements/compare/v26.0.0...v26.1.0
 

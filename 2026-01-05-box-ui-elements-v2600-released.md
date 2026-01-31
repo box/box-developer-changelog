@@ -29,25 +29,25 @@ fullyTranslated: true
 
 ### 機能
 
-* **react-tether:** BREAKING CHANGE Bump BUIE to React 19 ([#4278][2]) ([`02bc171`][3])
+* **react-tether:** 重大な変更: BUIEをReact 19に昇格 ([#4278][2]) ([`02bc171`][3])
 
 ### 重大な変更
 
-* **react-tether:** React 17 is no longer supported. This package now requires React 18 or 19. react-tether has been upgraded to v3, so components using react-tether may affect some layouts.
+* **react-tether:** React 17はサポートされなくなりました。このパッケージにはReact 18または19が必要です。react-tetherはv3にアップグレードされたため、react-tetherを使用するコンポーネントでは一部のレイアウトに影響がある可能性があります。
 
-* fix: update `.flowconfig` to take `.cjs`
+* 修正: `.cjs`に対応するように`.flowconfig`を更新
 
-* fix: Replace `Checkbox`, `InfoIcon`, and `FooterIndicator` tooltips with BP
+* 修正: `Checkbox`、`InfoIcon`、`FooterIndicator`ツールチップをBPに置き換え
 
-* fix: Use `createRoot` instead of `ReactDOM` render
+* 修正: `ReactDOM` renderの代わりに`createRoot`を使用
 
-* fix: Respond to feedback
+* 修正: フィードバックへの応答
 
-* fix: Round 2
+* 修正: ラウンド2
 
-* fix: flow tests for `SidebarNavButton`
+* 修正: `SidebarNavButton`のフローテスト
 
-* fix: legacy comment styling
+* 修正: 従来のコメントスタイル
 
 [1]: https://github.com/box/box-ui-elements/compare/v25.5.0...v26.0.0
 

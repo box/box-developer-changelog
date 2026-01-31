@@ -27,15 +27,15 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdkgen:** add taxonomy to Metadata Field (read) definition (box/box-openapi[#572][1]) ([#1274][2]) ([`3850e6b`][3])
-* **boxsdkgen:** fix `RetryAfter` function when there's no `Retry-After` header (box/box-codegen[#903][4]) ([#1250][5]) ([`cd917ee`][6])
+* **boxsdkgen:** メタデータフィールド (読み取り) の定義にメタデータ階層を追加 (box/box-openapi[#572][1]) ([#1274][2]) ([`3850e6b`][3])
+* **boxsdkgen:** `Retry-After`ヘッダーがない場合の`RetryAfter`関数を修正 (box/box-codegen[#903][4]) ([#1250][5]) ([`cd917ee`][6])
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** add Metadata Taxonomies api (box/box-openapi[#569][7]) ([#1256][8]) ([`12d8c9f`][9])
-* **boxsdkgen:** text input validation for Box Sign (box/box-openapi[#568][10]) ([#1253][11]) ([`5d4f8bf`][12])
-* **boxsdkgen:** Treat `nullable` fields as Optional (box/box-codegen[#906][13]) ([#1259][14]) ([`50d7080`][15])
-* Reuse auth and network settings between legacy and sdk-gen ([#1242][16]) ([`320c35e`][17])
+* **boxsdkgen:** メタデータ階層APIを追加 (box/box-openapi[#569][7]) ([#1256][8]) ([`12d8c9f`][9])
+* **boxsdkgen:** Box Signのテキスト入力の検証 (box/box-openapi[#568][10]) ([#1253][11]) ([`5d4f8bf`][12])
+* **boxsdkgen:** `nullable`フィールドを省略可として処理 (box/box-codegen[#906][13]) ([#1259][14]) ([`50d7080`][15])
+* 従来のSDKとsdk-genで認証とネットワークの設定を再利用 ([#1242][16]) ([`320c35e`][17])
 
 [1]: https://github.com/box/box-node-sdk/issues/572
 

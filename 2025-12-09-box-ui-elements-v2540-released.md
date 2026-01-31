@@ -48,7 +48,7 @@ fullyTranslated: true
 * **preview-modernization:** BP `AddTaskButton` ([#4366][28]) ([`f76ed73`][29])
 * **preview-modernization:** サイドバーのナビゲーションのアイコンとツールチップを更新 ([#4373][30]) ([`60eda40`][31])
 * **preview-modernization:** サイドバーのナビゲーションのはみ出した区切り線を更新 ([#4370][32]) ([`671a067`][33])
-* **preview-optimizations:** バージョンのサイドバーを最新化 ([#4381][34]) ([`2b136e4`][35])
+* **preview-optimizations:** バージョンのサイドバーを刷新 ([#4381][34]) ([`2b136e4`][35])
 * **`SecurityControls`:** 共有リンクの自動有効期限の制限を追加 ([#4365][36]) ([`40ff462`][37])
 
 [1]: https://github.com/box/box-ui-elements/compare/v25.3.0...v25.4.0
