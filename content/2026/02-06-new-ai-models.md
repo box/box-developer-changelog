@@ -28,7 +28,7 @@ For further details on Box AI API, see the [guides][ai-guides] and [API referenc
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][forum] for any help needed.
 
-[supported-models]: https://developer.box.com/guides/box-ai/supported-models/
+[supported-models]: https://developer.box.com/guides/box-ai/ai-models
 [override]: https://developer.box.com/guides/box-ai/ai-agents/ai-agent-overrides/
 [ai-guides]: https://developer.box.com/guides/box-ai
 [api]: https://developer.box.com/reference/post-ai-ask/
