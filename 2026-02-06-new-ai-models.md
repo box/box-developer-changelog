@@ -25,7 +25,7 @@ source_url: >-
 published_at: '2026-02-06'
 fullyTranslated: true
 ---
-## Box AI API — new AI models available
+## Box AI API — 利用可能な新しいAIモデル
 
 [利用可能なAIモデル][supported-models]のリストが更新され、以下のモデルが追加されました。
 
