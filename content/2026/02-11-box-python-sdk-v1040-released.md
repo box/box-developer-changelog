@@ -1,0 +1,46 @@
+---
+applied_at: '2026-02-11'
+applies_to:
+  - sdks
+  - python
+is_impactful: false
+is_new_feature: false
+release_source_url: 'https://github.com/box/box-python-sdk/releases/tag/v10.4.0'
+collapse: true
+---
+
+# Box Python SDK `v10.4.0` released
+
+### Bug Fixes
+
+* Correct enum value for legal hold policy changes (box/box-openapi[#581][1]) ([#1304][2]) ([`d51b4ea`][3])
+
+### New Features and Enhancements
+
+* add confidence scores for structured extract (box/box-openapi[#582][4]) ([#1311][5]) ([`9db7a80`][6])
+* add signer language, cancel sign request reason (box/box-openapi[#584][7]) ([#1331][8]) ([`fcca2a4`][9])
+* Add watermarking permissions and sources information (box/box-openapi[#579][10]) ([#1300][11]) ([`7a2c7e3`][12])
+
+[1]: https://github.com/box/box-python-sdk/issues/581
+
+[2]: https://github.com/box/box-python-sdk/issues/1304
+
+[3]: https://github.com/box/box-python-sdk/commit/d51b4eac0a0e2cbb593871bd35e48f0e4cbe6693
+
+[4]: https://github.com/box/box-python-sdk/issues/582
+
+[5]: https://github.com/box/box-python-sdk/issues/1311
+
+[6]: https://github.com/box/box-python-sdk/commit/9db7a80514e4d0c45baf05cd6823c88e6666b395
+
+[7]: https://github.com/box/box-python-sdk/issues/584
+
+[8]: https://github.com/box/box-python-sdk/issues/1331
+
+[9]: https://github.com/box/box-python-sdk/commit/fcca2a47439189c2f4986596cdfd7d3c303c9ec2
+
+[10]: https://github.com/box/box-python-sdk/issues/579
+
+[11]: https://github.com/box/box-python-sdk/issues/1300
+
+[12]: https://github.com/box/box-python-sdk/commit/7a2c7e3596c352a3f4d1f73f57c8032bd02f8cdf
