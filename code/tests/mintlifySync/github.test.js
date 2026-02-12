@@ -1,8 +1,9 @@
-const nock = require('nock')
-const axios = require('axios')
-const { fetchReleaseByTag } = require('../../src/MintlifySync/github')
+/**
+ * @jest-environment node
+ */
 
-axios.defaults.adapter = require('axios/lib/adapters/http')
+const nock = require('nock')
+const { fetchReleaseByTag } = require('../../src/MintlifySync/github')
 
 describe('fetchReleaseByTag', () => {
   const repository = 'box/box-windows-sdk-v2'
