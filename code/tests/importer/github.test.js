@@ -1,10 +1,11 @@
+/**
+ * @jest-environment node
+ */
+
 import fs from 'fs'
-import axios from 'axios'
 import nock from 'nock'
 
 import { GitHub } from '../../src/Importer/github'
-
-axios.defaults.adapter = require('axios/lib/adapters/http')
 
 describe('#constructor', () => {
   test('should store instance variables', () => {
