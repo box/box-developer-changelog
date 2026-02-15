@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Correct enum value for legal hold policy changes (box/box-openapi[#581][1]) ([#1319][2]) ([`c14bb0d`][3])
-* Fix config to make `esm` build `esm` compatible (box/box-codegen[#915][4]) ([#1315][5]) ([`ecb8967`][6])
+* リーガルホールドポリシーの変更に合わせて列挙値を修正 (box/box-openapi[#581][1]) ([#1319][2]) ([`c14bb0d`][3])
+* `esm`ビルドが`esm`互換になるよう構成を修正 (box/box-codegen[#915][4]) ([#1315][5]) ([`ecb8967`][6])
 
 ### 新機能と機能強化
 
-* add confidence scores for structured extract (box/box-openapi[#582][7]) ([#1321][8]) ([`e7738ba`][9])
-* add signer language, cancel sign request reason (box/box-openapi[#584][10]) ([#1343][11]) ([`f4def35`][12])
-* Add watermarking permissions and sources information (box/box-openapi[#579][13]) ([#1312][14]) ([`92a3ed4`][15])
+* 抽出 (構造化) の信頼度スコアを追加 (box/box-openapi[#582][7]) ([#1321][8]) ([`e7738ba`][9])
+* 署名者の言語を追加し、署名リクエストの理由をキャンセル (box/box-openapi[#584][10]) ([#1343][11]) ([`f4def35`][12])
+* 電子すかしの権限とソースの情報を追加 (box/box-openapi[#579][13]) ([#1312][14]) ([`92a3ed4`][15])
 
 [1]: https://github.com/box/box-node-sdk/issues/581
 

@@ -27,13 +27,13 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Correct enum value for legal hold policy changes (box/box-openapi[#581][1]) ([#1304][2]) ([`d51b4ea`][3])
+* リーガルホールドポリシーの変更に合わせて列挙値を修正 (box/box-openapi[#581][1]) ([#1304][2]) ([`d51b4ea`][3])
 
 ### 新機能と機能強化
 
-* add confidence scores for structured extract (box/box-openapi[#582][4]) ([#1311][5]) ([`9db7a80`][6])
-* add signer language, cancel sign request reason (box/box-openapi[#584][7]) ([#1331][8]) ([`fcca2a4`][9])
-* Add watermarking permissions and sources information (box/box-openapi[#579][10]) ([#1300][11]) ([`7a2c7e3`][12])
+* 抽出 (構造化) の信頼度スコアを追加 (box/box-openapi[#582][4]) ([#1311][5]) ([`9db7a80`][6])
+* 署名者の言語を追加し、署名リクエストの理由をキャンセル (box/box-openapi[#584][7]) ([#1331][8]) ([`fcca2a4`][9])
+* 電子すかしの権限とソースの情報を追加 (box/box-openapi[#579][10]) ([#1300][11]) ([`7a2c7e3`][12])
 
 [1]: https://github.com/box/box-python-sdk/issues/581
 

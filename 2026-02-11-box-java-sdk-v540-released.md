@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdkgen:** Correct enum value for legal hold policy changes (box/box-openapi[#581][1]) ([#1694][2]) ([`4620812`][3])
-* **boxsdkgen:** Move assigning default values from builder constructor to `build()` method (box/box-codegen[#922][4]) ([#1712][5]) ([`aa962a0`][6])
+* **boxsdkgen:** リーガルホールドポリシーの変更に合わせて列挙値を修正 (box/box-openapi[#581][1]) ([#1694][2]) ([`4620812`][3])
+* **boxsdkgen:** デフォルト値の割り当てをビルダーコンストラクタから`build()`メソッドに移動 (box/box-codegen[#922][4]) ([#1712][5]) ([`aa962a0`][6])
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** add confidence scores for structured extract (box/box-openapi[#582][7]) ([#1696][8]) ([`241b5f2`][9])
-* **boxsdkgen:** add signer language, cancel sign request reason (box/box-openapi[#584][10]) ([#1720][11]) ([`f838a35`][12])
-* **boxsdkgen:** Add watermarking permissions and sources information (box/box-openapi[#579][13]) ([#1686][14]) ([`d13c98b`][15])
+* **boxsdkgen:** 抽出 (構造化) の信頼度スコアを追加 (box/box-openapi[#582][7]) ([#1696][8]) ([`241b5f2`][9])
+* **boxsdkgen:** 署名者の言語を追加し、署名リクエストの理由をキャンセル (box/box-openapi[#584][10]) ([#1720][11]) ([`f838a35`][12])
+* **boxsdkgen:** 電子すかしの権限とソースの情報を追加 (box/box-openapi[#579][13]) ([#1686][14]) ([`d13c98b`][15])
 
 [1]: https://github.com/box/box-java-sdk/issues/581
 

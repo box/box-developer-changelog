@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdk:** Bump `cypress/request` to fix `CVE-2025-15284` ([#1309][1]) ([`bbd6b88`][2])
-* **boxsdkgen:** Correct enum value for legal hold policy changes (box/box-openapi[#581][3]) ([#1318][4]) ([`00305a0`][5])
+* **boxsdk:** `CVE-2025-15284`を修正するために`cypress/request`を昇格 ([#1309][1]) ([`bbd6b88`][2])
+* **boxsdkgen:** リーガルホールドポリシーの変更に合わせて列挙値を修正 (box/box-openapi[#581][3]) ([#1318][4]) ([`00305a0`][5])
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** add confidence scores for structured extract (box/box-openapi[#582][6]) ([#1320][7]) ([`e8435d0`][8])
-* **boxsdkgen:** add signer language, cancel sign request reason (box/box-openapi[#584][9]) ([#1342][10]) ([`f77ee6b`][11])
-* **boxsdkgen:** Add watermarking permissions and sources information (box/box-openapi[#579][12]) ([#1310][13]) ([`4c89711`][14])
+* **boxsdkgen:** 抽出 (構造化) の信頼度スコアを追加 (box/box-openapi[#582][6]) ([#1320][7]) ([`e8435d0`][8])
+* **boxsdkgen:** 署名者の言語を追加し、署名リクエストの理由をキャンセル (box/box-openapi[#584][9]) ([#1342][10]) ([`f77ee6b`][11])
+* **boxsdkgen:** 電子すかしの権限とソースの情報を追加 (box/box-openapi[#579][12]) ([#1310][13]) ([`4c89711`][14])
 
 [1]: https://github.com/box/box-node-sdk/issues/1309
 

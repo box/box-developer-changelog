@@ -29,14 +29,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **content-sharing:** Fix create shared link bug ([#4443][2]) ([`8cffb09`][3])
-* **preview:** annotation delete modal z-index ([#4445][4]) ([`6655e8d`][5])
-* USM text input not taking up full width ([#4435][6]) ([`7036b71`][7])
+* **content-sharing:** 共有リンク作成のバグを修正 ([#4443][2]) ([`8cffb09`][3])
+* **preview:** 注釈削除ウィンドウのZインデックス ([#4445][4]) ([`6655e8d`][5])
+* 全幅で表示されないUSMのテキスト入力 ([#4435][6]) ([`7036b71`][7])
 
 ### 機能
 
-* **content-sharing:** bump usm version for desktop view ([#4442][8]) ([`8c84972`][9])
-* **content-sidebar:** implement for custom sidebar panels ([#4326][10]) ([`7148457`][11])
+* **content-sharing:** デスクトップ表示のためにusmのバージョンを昇格 ([#4442][8]) ([`8c84972`][9])
+* **content-sidebar:** カスタムサイドバーパネルを実装 ([#4326][10]) ([`7148457`][11])
 
 [1]: https://github.com/box/box-ui-elements/compare/v26.2.0...v26.3.0
 

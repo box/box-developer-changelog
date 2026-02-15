@@ -27,14 +27,14 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdkgen:** Correct enum value for legal hold policy changes (box/box-openapi[#581][1]) ([#1309][2]) ([`83f7014`][3])
+* **boxsdkgen:** リーガルホールドポリシーの変更に合わせて列挙値を修正 (box/box-openapi[#581][1]) ([#1309][2]) ([`83f7014`][3])
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** add confidence scores for structured extract (box/box-openapi[#582][4]) ([#1310][5]) ([`cd3e910`][6])
-* **boxsdkgen:** add signer language, cancel sign request reason (box/box-openapi[#584][7]) ([#1329][8]) ([`db79b21`][9])
-* **boxsdkgen:** Add watermarking permissions and sources information (box/box-openapi[#579][10]) ([#1305][11]) ([`8b19658`][12])
-* **boxsdk:** shared network client and token storage ([#1299][13]) ([`246bac9`][14])
+* **boxsdkgen:** 抽出 (構造化) の信頼度スコアを追加 (box/box-openapi[#582][4]) ([#1310][5]) ([`cd3e910`][6])
+* **boxsdkgen:** 署名者の言語を追加し、署名リクエストの理由をキャンセル (box/box-openapi[#584][7]) ([#1329][8]) ([`db79b21`][9])
+* **boxsdkgen:** 電子すかしの権限とソースの情報を追加 (box/box-openapi[#579][10]) ([#1305][11]) ([`8b19658`][12])
+* **boxsdk:** 共有のネットワーククライアントとトークンストレージ ([#1299][13]) ([`246bac9`][14])
 
 [1]: https://github.com/box/box-python-sdk/issues/581
 
