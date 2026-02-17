@@ -30,12 +30,12 @@ jobs:
 
     steps:
       - name: Checkout changelog repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 18
+          node-version: 24
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -57,7 +57,7 @@ jobs:
           fi
 
       - name: Checkout box-mintlify
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: box/box-mintlify
           token: ${{ secrets.MINTLIFY_TOKEN }}
