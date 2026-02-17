@@ -1,10 +1,11 @@
+/**
+ * @jest-environment node
+ */
+
 import fs, { removeSync } from 'fs-extra'
-import axios from 'axios'
 import nock from 'nock'
 
 import Importer from '../../src/Importer'
-
-axios.defaults.adapter = require('axios/lib/adapters/http')
 
 const destination =  './tmp'
 const expectedFilename = 'tmp/2020/06-25-test-v1010-released.md'
