@@ -4,6 +4,8 @@ const MARKDOWN_LINK_REGEX = /(!?\[[^\]]+\]\()([^)\s]+)(\s+"[^"]*")?(\))/g
 const URL_REGEX = /https?:\/\/[^\s)]+/g
 const REFERENCE_LINK_DEFINITION_REGEX = /^\s*\[[^\]]+\]:\s+/ // preserve these lines as-is
 
+let _tokenIndex = 0
+
 function cleanReleaseBody({ body, repository } = {}) {
   if (typeof body !== 'string') {
     throw new Error('Missing required "body" markdown string.')
@@ -13,6 +15,7 @@ function cleanReleaseBody({ body, repository } = {}) {
     throw new Error('Missing required "repository" (expected "owner/repo").')
   }
 
+  _tokenIndex = 0
   return transformOutsideCodeBlocks(body, (segment) => {
     const lines = segment.split(/\r?\n/)
 
@@ -124,11 +127,10 @@ function transformOutsideLinksAndUrls(content, transformFn) {
 
 function protect(content, pattern) {
   const tokens = []
-  let index = 0
 
   const text = content.replace(pattern, (match) => {
-    const token = `@@MINTLIFY_SYNC_TOKEN_${index}@@`
-    index += 1
+    const token = `@@MINTLIFY_SYNC_TOKEN_${_tokenIndex}@@`
+    _tokenIndex += 1
     tokens.push({ token, value: match })
     return token
   })
