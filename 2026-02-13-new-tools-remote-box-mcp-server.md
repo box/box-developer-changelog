@@ -18,7 +18,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2026-02-18-box-windows-sdk-v650-released
 previous_page_id: 2026-02-11-box-ui-elements-v2630-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/02-13-new-tools-remote-box-mcp-server.md
