@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2026-02-20-new-ai-models
 previous_page_id: 2026-02-18-box-windows-sdk-v1060-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/02-18-box-windows-sdk-v650-released.md
@@ -27,15 +27,15 @@ fullyTranslated: true
 
 ### **バグ修正:**
 
-* **boxsdkgen:** Correct enum value for legal hold policy changes (box/box-openapi[#581][1]) ([#1377][2]) ([`dbd17a9`][3])
-* **boxsdkgen:** Fix casing for `PATCH` in `Network Client` (box/box-codegen[#913][4]) ([#1365][5]) ([`c90bfaf`][6])
+* **boxsdkgen:** リーガルホールドポリシーの変更に合わせて列挙値を修正 (box/box-openapi[#581][1]) ([#1377][2]) ([`dbd17a9`][3])
+* **boxsdkgen:** `Network Client`の`PATCH`の大文字小文字を修正 (box/box-codegen[#913][4]) ([#1365][5]) ([`c90bfaf`][6])
 
 ### **新機能と機能強化:**
 
-* **boxsdkgen:** add confidence scores for structured extract (box/box-openapi[#582][7]) ([#1379][8]) ([`769f39f`][9])
-* **boxsdkgen:** Add configurable timeouts (box/box-codegen[#924][10]) ([#1404][11]) ([`5824149`][12])
-* **boxsdkgen:** add signer language, cancel sign request reason (box/box-openapi[#584][13]) ([#1395][14]) ([`ab436df`][15])
-* **boxsdkgen:** Add watermarking permissions and sources information (box/box-openapi[#579][16]) ([#1369][17]) ([`04bc507`][18])
+* **boxsdkgen:** 抽出 (構造化) の信頼度スコアを追加 (box/box-openapi[#582][7]) ([#1379][8]) ([`769f39f`][9])
+* **boxsdkgen:** 設定可能なタイムアウトを追加 (box/box-codegen[#924][10]) ([#1404][11]) ([`5824149`][12])
+* **boxsdkgen:** 署名者の言語、署名リクエストのキャンセル理由を追加 (box/box-openapi[#584][13]) ([#1395][14]) ([`ab436df`][15])
+* **boxsdkgen:** 電子すかしの権限とソースの情報を追加 (box/box-openapi[#579][16]) ([#1369][17]) ([`04bc507`][18])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/581
 

@@ -25,37 +25,37 @@ source_url: >-
 published_at: '2026-02-13'
 fullyTranslated: true
 ---
-# New tools for remote Box MCP server
+# リモートBox MCPサーバー向けの新しいツール
 
-We've added new tools to the [remote Box MCP server][remote-mcp] so AI agents can do more with Box content and collaboration.
+AIエージェントがBoxのコンテンツやコラボレーションを使用してさらに多くのことを実行できるように、[リモートBox MCPサーバー][remote-mcp]に新しいツールを追加しました。
 
 **Doc Gen**
 
-* `get_docgen_template_by_id` — Retrieve details about a Doc Gen template.
-* `list_docgen_templates` — List all Box Doc Gen templates available to the authenticated user.
-* `create_docgen_batch` — Generate documents from a Doc Gen template by filling placeholder tags with provided data.
+* `get_docgen_template_by_id` — Doc Genテンプレートの詳細を取得する。
+* `list_docgen_templates` — 認証済みユーザーが利用できるすべてのBox Doc Genテンプレートのリストを取得する。
+* `create_docgen_batch` — 指定されたデータをプレースホルダタグに入力して、Doc Genテンプレートからドキュメントを生成する。
 
-**Search**
+**検索**
 
-* `search_files_metadata` — Search for files using SQL-like metadata queries, with support for complex filtering, field selection, and folder scoping.
+* `search_files_metadata` — SQLに似たメタデータクエリを使用してファイルを検索する。複雑なフィルタ処理、フィールドの選択、フォルダの範囲指定がサポートされています。
 
 **Box AI**
 
-* `ai_extract_structured_from_fields_enhanced` — Extract structured metadata from files using the Box AI Enhanced Extract Agent and custom field definitions.
+* `ai_extract_structured_from_fields_enhanced` — Box AI抽出エージェント (強化) やカスタムフィールドの定義を使用して、ファイルから構造化メタデータを抽出する。
 
-**Collaboration**
+**コラボレーション**
 
-* `list_item_collaborations` — List all existing collaborations on an item.
+* `list_item_collaborations` — 項目の既存のすべてのコラボレーションのリストを取得する。
 
-**Hubs**
+**Hub**
 
-* `copy_hub` — Create a copy of an existing Box Hub with all its structure and settings. The original hub stays unchanged.
+* `copy_hub` — すべての構造と設定を維持して既存のBox Hubのコピーを作成する。元のHubは変更されません。
 
-For setup and client-side steps, see the [remote Box MCP server guide][remote-mcp].
+設定およびクライアント側の手順については、[リモートBox MCPサーバーガイド][remote-mcp]を参照してください。
 
 ## サポート情報
 
-Should you have any issues or need further guidance, post a request to our [developer forum][forum].
+問題がある場合やさらにガイドが必要な場合は、Boxの[Developer Forum][forum]に英語でリクエストを投稿してください。
 
 [forum]: https://forum.box.com/
 

@@ -27,15 +27,15 @@ fullyTranslated: true
 
 ### バグ修正
 
-* Correct enum value for legal hold policy changes (box/box-openapi[#581][1]) ([#1378][2]) ([`d756351`][3])
-* Fix casing for `PATCH` in `Network Client` (box/box-codegen[#913][4]) ([#1366][5]) ([`53333a0`][6])
+* リーガルホールドポリシーの変更に合わせて列挙値を修正 (box/box-openapi[#581][1]) ([#1378][2]) ([`d756351`][3])
+* `Network Client`の`PATCH`の大文字小文字を修正 (box/box-codegen[#913][4]) ([#1366][5]) ([`53333a0`][6])
 
 ### 新機能と機能強化
 
-* add confidence scores for structured extract (box/box-openapi[#582][7]) ([#1380][8]) ([`8c18af1`][9])
-* Add configurable timeouts (box/box-codegen[#924][10]) ([#1403][11]) ([`fed7629`][12])
-* add signer language, cancel sign request reason (box/box-openapi[#584][13]) ([#1396][14]) ([`29a5332`][15])
-* Add watermarking permissions and sources information (box/box-openapi[#579][16]) ([#1371][17]) ([`16e2c6a`][18])
+* 抽出 (構造化) の信頼度スコアを追加 (box/box-openapi[#582][7]) ([#1380][8]) ([`8c18af1`][9])
+* 設定可能なタイムアウトを追加 (box/box-codegen[#924][10]) ([#1403][11]) ([`fed7629`][12])
+* 署名者の言語、署名リクエストのキャンセル理由を追加 (box/box-openapi[#584][13]) ([#1396][14]) ([`29a5332`][15])
+* 電子すかしの権限とソースの情報を追加 (box/box-openapi[#579][16]) ([#1371][17]) ([`16e2c6a`][18])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/581
 

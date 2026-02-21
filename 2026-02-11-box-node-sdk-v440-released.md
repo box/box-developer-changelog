@@ -33,7 +33,7 @@ fullyTranslated: true
 ### 新機能と機能強化
 
 * **boxsdkgen:** 抽出 (構造化) の信頼度スコアを追加 (box/box-openapi[#582][6]) ([#1320][7]) ([`e8435d0`][8])
-* **boxsdkgen:** 署名者の言語を追加し、署名リクエストの理由をキャンセル (box/box-openapi[#584][9]) ([#1342][10]) ([`f77ee6b`][11])
+* **boxsdkgen:** 署名者の言語、署名リクエストのキャンセル理由を追加 (box/box-openapi[#584][9]) ([#1342][10]) ([`f77ee6b`][11])
 * **boxsdkgen:** 電子すかしの権限とソースの情報を追加 (box/box-openapi[#579][12]) ([#1310][13]) ([`4c89711`][14])
 
 [1]: https://github.com/box/box-node-sdk/issues/1309
