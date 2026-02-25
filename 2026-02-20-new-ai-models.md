@@ -25,7 +25,7 @@ source_url: >-
 published_at: '2026-02-20'
 fullyTranslated: true
 ---
-## Box AI API — Claude Sonnet 4.6 and Gemini 3.1 Pro now available
+## Box AI API — Claude Sonnet 4.6およびGemini 3.1 Proの提供開始
 
 [利用可能なAIモデル][supported-models]のリストが更新され、以下のモデルが追加されました。
 
