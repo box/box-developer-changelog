@@ -1,0 +1,30 @@
+---
+applied_at: "2026-03-16"
+applies_to:
+  - guides
+  - api
+  - ai
+is_impactful: true
+is_new_feature: true
+collapse: true
+show_excerpt: true
+release_source_url: "https://github.com/box/boxcli"
+---
+
+## New Box CLI launched
+
+We've launched a new version of the Box CLI, so you can: 
+* Authenticate instantly with your own Box credentials via OAuth
+* Automate complex, multi-step workflows — upload files, extract metadata, apply watermarks, trigger document signing — all from the command line
+* Give your AI agents a composable interface to retrieve, transform, and act on content in Box without extra configuration
+
+Developers and agents can now work together seamlessly, with Box content at the center. To learn more, visit our [cli][BoxCLIdocumentation].
+
+The Box CLI works with agentic tools and harnesses, letting you manage content, automate tasks, and integrate Box into scripts, tools, and AI agents.
+
+## Where to get support
+
+Should you have any issues or need further guidance, please post a request to our [developer forum][forum] for any help needed.
+
+[cli]: https://developer.box.com//guides/cli
+[forum]: https://forum.box.com/
