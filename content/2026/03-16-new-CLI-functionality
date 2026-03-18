@@ -1,5 +1,5 @@
 ---
-applied_at: "2026-03-16"
+applied_at: "2026-03-17"
 applies_to:
   - guides
   - api
@@ -18,11 +18,10 @@ We've launched a new version of the Box CLI, so you can:
 * Automate complex, multi-step workflows — upload files, extract metadata, apply watermarks, trigger document signing — all from the command line
 * Give your AI agents a composable interface to retrieve, transform, and act on content in Box without extra configuration
 
-Developers and agents can now work together seamlessly, with Box content at the center. To learn more, visit our [cli][BoxCLIdocumentation].
+Developers and agents can now work together seamlessly, with Box content at the center. To learn more, visit our <Link href="/guides/cli">CLI documentation</Link>.
 
 ## Where to get support
 
 Should you have any issues or need further guidance, please post a request to our [developer forum][forum] for any help needed.
 
-[cli]: https://developer.box.com//guides/cli
 [forum]: https://forum.box.com/
