@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2026-03-18-box-windows-sdk-v660-released
 previous_page_id: 2026-03-18-box-python-sdk-v1050-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/03-18-box-python-sdk-v450-released.md
