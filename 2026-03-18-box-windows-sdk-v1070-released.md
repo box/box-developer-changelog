@@ -1,0 +1,36 @@
+---
+applied_at: '2026-03-18'
+applies_to:
+  - sdks
+  - dotnet
+is_impactful: false
+is_new_feature: true
+release_source_url: 'https://github.com/box/box-windows-sdk-v2/releases/tag/v10.7.0'
+collapse: true
+is_index: false
+category_id: changelog
+subcategory_id: ''
+id: 2026-03-18-box-windows-sdk-v1070-released
+rank: null
+total_steps: null
+type: changelog
+sibling_id: ''
+parent_id: changelog
+next_page_id: 2026-03-18-box-windows-sdk-v660-released
+previous_page_id: 2026-03-18-box-python-sdk-v450-released
+source_url: >-
+  https://github.com/box/box-developer-changelog/blob/main/content/2026/03-18-box-windows-sdk-v1070-released.md
+published_at: '2026-03-18'
+fullyTranslated: true
+---
+# Box Windows SDK `v10.7.0`のリリース
+
+### 新機能と機能強化
+
+* add `canPublicSharedLinkBeCreated` to `Hubs` (box/box-codegen[#928][1]) ([#1414][2]) ([`29ebe15`][3])
+
+[1]: https://github.com/box/box-windows-sdk-v2/issues/928
+
+[2]: https://github.com/box/box-windows-sdk-v2/issues/1414
+
+[3]: https://github.com/box/box-windows-sdk-v2/commit/29ebe15915bef4d5d90d7005f857436ea44ce7ac

@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2026-03-18-box-java-sdk-v1060-released
 previous_page_id: 2026-02-20-new-ai-models
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/03-17-box-cli-v460-released.md
@@ -26,19 +26,19 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Add `--overwrite` flag to `files:upload` command ([#637][1]) ([`6231663`][2])
-* Add support for Box Official App in login command ([#638][3]) ([`bcd6835`][4])
-* Improve developer and agent experience in `boxcli` commands ([#643][5]) ([`fbc817f`][6])
-* Improve login prompt ([#642][7]) ([`a58ff34`][8])
-* Store access token encrypted in secure storage ([#639][9]) ([`bed6db3`][10])
-* Support logout command ([#635][11]) ([`842e308`][12])
-* Unify secure storage backend across platforms ([#647][13]) ([`6b2ed36`][14])
+* `files:upload`コマンドに`--overwrite`フラグを追加 ([#637][1]) ([`6231663`][2])
+* loginコマンドにBox公式アプリのサポートを追加 ([#638][3]) ([`bcd6835`][4])
+* `boxcli`コマンドの開発者およびエージェントエクスペリエンスを改善 ([#643][5]) ([`fbc817f`][6])
+* ログインプロンプトを改善 ([#642][7]) ([`a58ff34`][8])
+* 安全なストレージにアクセストークンを暗号化して保存 ([#639][9]) ([`bed6db3`][10])
+* logoutコマンドをサポート ([#635][11]) ([`842e308`][12])
+* 複数のプラットフォーム間で安全なストレージバックエンドを統一 ([#647][13]) ([`6b2ed36`][14])
 
 ### バグ修正
 
-* Fix encoding for example scripts on Windows ([#613][15]) ([`0265e2a`][16])
-* fix help commands ([#611][17]) ([`7aec97b`][18])
-* Normalize inquirer `signal-exit` compatibility on Windows ([#645][19]) ([`310b2f6`][20])
+* Windowsのスクリプト例のエンコードを修正 ([#613][15]) ([`0265e2a`][16])
+* helpコマンドを修正 ([#611][17]) ([`7aec97b`][18])
+* WindowsでのInquirerの`signal-exit`に対する互換性を正常化 ([#645][19]) ([`310b2f6`][20])
 
 [1]: https://github.com/box/boxcli/issues/637
 
