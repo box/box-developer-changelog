@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** add `canPublicSharedLinkBeCreated` to `Hubs` (box/box-codegen[#928][1]) ([#1419][2]) ([`fc31122`][3])
-* **boxsdkgen:** Add configurable timeouts for SDKs (box/box-codegen[#924][4]) ([#1413][5]) ([`2ec0103`][6])
+* **boxsdkgen:** `canPublicSharedLinkBeCreated`を`Hubs`に追加 (box/box-codegen[#928][1]) ([#1419][2]) ([`fc31122`][3])
+* **boxsdkgen:** SDKの設定可能なタイムアウトを追加 (box/box-codegen[#924][4]) ([#1413][5]) ([`2ec0103`][6])
 
 [1]: https://github.com/box/box-ios-sdk/issues/928
 

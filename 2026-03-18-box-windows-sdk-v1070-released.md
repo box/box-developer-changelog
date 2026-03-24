@@ -27,7 +27,7 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* add `canPublicSharedLinkBeCreated` to `Hubs` (box/box-codegen[#928][1]) ([#1414][2]) ([`29ebe15`][3])
+* `canPublicSharedLinkBeCreated`を`Hubs`に追加 (box/box-codegen[#928][1]) ([#1414][2]) ([`29ebe15`][3])
 
 [1]: https://github.com/box/box-windows-sdk-v2/issues/928
 

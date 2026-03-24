@@ -27,8 +27,8 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* add `canPublicSharedLinkBeCreated` to `Hubs` (box/box-codegen[#928][1]) ([#1356][2]) ([`6af2956`][3])
-* Add configurable timeouts for SDKs (box/box-codegen[#924][4]) ([#1349][5]) ([`6c556cc`][6])
+* `canPublicSharedLinkBeCreated`を`Hubs`に追加 (box/box-codegen[#928][1]) ([#1356][2]) ([`6af2956`][3])
+* SDKの設定可能なタイムアウトを追加 (box/box-codegen[#924][4]) ([#1349][5]) ([`6c556cc`][6])
 
 [1]: https://github.com/box/box-python-sdk/issues/928
 

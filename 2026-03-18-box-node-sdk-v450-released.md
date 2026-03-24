@@ -27,12 +27,12 @@ fullyTranslated: true
 
 ### バグ修正
 
-* **boxsdkgen:** Convert `retryAfter` seconds to milliseconds for `setTimeout` (box/box-codegen[#926][1]) ([#1357][2]) ([`07c81a1`][3])
+* **boxsdkgen:** `setTimeout`で`retryAfter`の秒をミリ秒に変換 (box/box-codegen[#926][1]) ([#1357][2]) ([`07c81a1`][3])
 
 ### 新機能と機能強化
 
-* **boxsdkgen:** add `canPublicSharedLinkBeCreated` to `Hubs` (box/box-codegen[#928][4]) ([#1366][5]) ([`1709a94`][6])
-* **boxsdkgen:** Add configurable timeouts for SDKs (box/box-codegen[#924][7]) ([#1361][8]) ([`d743f4c`][9])
+* **boxsdkgen:** `canPublicSharedLinkBeCreated`を`Hubs`に追加 (box/box-codegen[#928][4]) ([#1366][5]) ([`1709a94`][6])
+* **boxsdkgen:** SDKの設定可能なタイムアウトを追加 (box/box-codegen[#924][7]) ([#1361][8]) ([`d743f4c`][9])
 
 [1]: https://github.com/box/box-node-sdk/issues/926
 
