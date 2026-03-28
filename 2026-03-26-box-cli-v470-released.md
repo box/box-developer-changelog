@@ -26,12 +26,12 @@ fullyTranslated: true
 
 ### 新機能と機能強化
 
-* Mask client secret in configure environments command ([#654][1]) ([`ba62245`][2])
-* Secure OAuth callback handling ([#653][3]) ([`307d181`][4])
+* 構成環境のコマンドでクライアントシークレットをマスク ([#654][1]) ([`ba62245`][2])
+* OAuthコールバック処理を保護 ([#653][3]) ([`307d181`][4])
 
 ### バグ修正
 
-* Fix `oss` command ([#650][5]) ([`63959c6`][6])
+* `oss`コマンドを修正 ([#650][5]) ([`63959c6`][6])
 
 [1]: https://github.com/box/boxcli/issues/654
 
