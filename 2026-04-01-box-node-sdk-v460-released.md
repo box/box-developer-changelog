@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2026-04-01-box-python-sdk-v1060-released
-previous_page_id: 2026-03-26-box-cli-v470-released
+previous_page_id: 2026-04-01-box-java-sdk-v560-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/04-01-box-node-sdk-v460-released.md
 published_at: '2026-04-01'
