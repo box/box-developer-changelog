@@ -11,7 +11,7 @@ collapse: true
 
 # Box Windows SDK `v10.8.0` released
 
-### ⚠  BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
 * Correct search content type `tags` to match API (box/box-openapi[#591][1]) ([#1431][2])
 * Align `LegalHoldPolicyAssignedItem` with API (box/box-openapi[#1554][3]) (box/box-openapi[#590][4]) ([#1427][5])
