@@ -13,8 +13,8 @@ collapse: true
 
 ### ⚠ BREAKING CHANGES
 
-* Correct search content type `tags` to match API ([box/box-openapi#591][1]) ([#1766][2])
-* Align `LegalHoldPolicyAssignedItem` with API ([box/box-openapi#1554][3]) ([box/box-openapi#590][4]) ([#1762][5])
+* Correct search content type `tags` to match API (box/box-openapi[#591][1]) ([#1766][2])
+* Align `LegalHoldPolicyAssignedItem` with API (box/box-openapi[#1554][3]) (box/box-openapi[#590][4]) ([#1762][5])
 
 ### Bug Fixes
 
