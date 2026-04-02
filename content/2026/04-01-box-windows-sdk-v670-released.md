@@ -11,9 +11,9 @@ collapse: true
 
 # Box Windows SDK `v6.7.0` released
 
-### âš  BREAKING CHANGES
+### ⚠ BREAKING CHANGES
 
-* **boxsdkgen:** Correct search content type `tags` to match API ([box/box-openapi#591][1]) ([#1432][2])
+* **boxsdkgen:** Correct search content type `tags` to match API (box/box-openapi[#591][1]) ([#1432][2])
 
 ### **New Features and Enhancements:**
 
