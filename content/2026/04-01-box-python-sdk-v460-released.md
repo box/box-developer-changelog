@@ -13,7 +13,7 @@ collapse: true
 
 ### ⚠ BREAKING CHANGES
 
-* **boxsdkgen:** Correct search content type `tags` to match API ([box/box-openapi#591][1]) ([#1370][2])
+* **boxsdkgen:** Correct search content type `tags` to match API (box/box-openapi[#591][1]) ([#1370][2])
 
 ### Bug Fixes
 
