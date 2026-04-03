@@ -13,7 +13,7 @@ collapse: true
 
 ### ⚠ BREAKING CHANGES
 
-* Align `LegalHoldPolicyAssignedItem` with API ([box/box-openapi#1554][1]) ([box/box-openapi#590][2]) ([#1378][3])
+* Align `LegalHoldPolicyAssignedItem` with API (box/box-openapi[#1554][1]) (box/box-openapi[#590][2]) ([#1378][3])
 
 ### Bug Fixes
 
