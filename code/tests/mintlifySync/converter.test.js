@@ -1,4 +1,14 @@
 const { convertReleaseToMintlifyEntry } = require('../../src/MintlifySync/converter')
+const { parseChangelogEntry } = require('../../src/MintlifySync/changelog')
+const path = require('path')
+const fs = require('fs-extra')
+
+const REPO_ROOT = path.resolve(__dirname, '../../..')
+
+async function readParsedEntry(contentPath) {
+  const content = await fs.readFile(path.join(REPO_ROOT, contentPath), 'utf8')
+  return parseChangelogEntry({ content, contentPath })
+}
 
 describe('convertReleaseToMintlifyEntry', () => {
   const baseInput = {
@@ -14,7 +24,7 @@ describe('convertReleaseToMintlifyEntry', () => {
       { labels: 'sdks,java', expected: '["SDKs","Java"]' },
       { labels: 'sdks,python', expected: '["SDKs","Python"]' },
       { labels: 'sdks,node', expected: '["SDKs","Node"]' },
-      { labels: 'sdks,windows', expected: '["SDKs","Windows"]' },
+      { labels: 'sdks,dotnet', expected: '["SDKs",".NET"]' },
       { labels: 'sdks,ios', expected: '["SDKs","iOS"]' }
     ]
 
@@ -87,5 +97,23 @@ describe('convertReleaseToMintlifyEntry', () => {
     expect(result.mdxContent).toContain('### New Features')
     expect(result.mdxContent).toContain('* Added great things.')
     expect(result.mdxContent.endsWith('</Update>')).toBeTruthy()
+  })
+
+  test('converts real merged iOS and Windows changelog entries', async () => {
+    const iosEntry = await readParsedEntry('content/2026/04-01-box-ios-sdk-1060-released.md')
+    const windowsEntry = await readParsedEntry('content/2026/04-01-box-windows-sdk-v1080-released.md')
+
+    const iosResult = convertReleaseToMintlifyEntry(iosEntry)
+    const windowsResult = convertReleaseToMintlifyEntry(windowsEntry)
+
+    expect(iosResult.componentName).toBe('BoxIosSdk1060Released_2026_04_01')
+    expect(iosResult.mdxContent).toContain('tags={["SDKs","iOS"]}')
+    expect(iosResult.mdxContent).toContain('## Box iOS SDK `10.6.0` released')
+
+    expect(windowsResult.componentName).toBe('BoxWindowsSdkV1080Released_2026_04_01')
+    expect(windowsResult.mdxContent).toContain('tags={["SDKs",".NET"]}')
+    expect(windowsResult.filePath).toBe(
+      'snippets/changelog/2026/04-01-box-windows-sdk-v1080-released.mdx'
+    )
   })
 })

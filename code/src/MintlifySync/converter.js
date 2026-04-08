@@ -2,6 +2,7 @@ function convertReleaseToMintlifyEntry({
   repoDisplayName,
   labels,
   version,
+  appliedAt,
   publishedAt,
   body
 } = {}) {
@@ -13,12 +14,16 @@ function convertReleaseToMintlifyEntry({
     throw new Error('Missing required "version".')
   }
 
-  if (!publishedAt || typeof publishedAt !== 'string') {
-    throw new Error('Missing required "publishedAt".')
+  const changelogDate = typeof appliedAt === 'string' && appliedAt.trim()
+    ? appliedAt
+    : publishedAt
+
+  if (!changelogDate || typeof changelogDate !== 'string') {
+    throw new Error('Missing required "appliedAt" or "publishedAt".')
   }
 
-  const { year, month, day, labelDate } = parsePublishedDate(publishedAt)
-  const mappedTags = mapLabelsToTags(labels)
+  const { year, month, day, labelDate } = parsePublishedDate(changelogDate)
+  const mappedTags = mapLabelsToTags({ labels, repoDisplayName })
   const normalizedVersion = normalizeVersion(version)
   const isIosRelease = isIos({ labels, repoDisplayName })
   const componentVersion = isIosRelease ? normalizedVersion : `V${normalizedVersion}`
@@ -40,17 +45,26 @@ function convertReleaseToMintlifyEntry({
   }
 }
 
-function mapLabelsToTags(labels) {
-  return String(labels || '')
-    .split(',')
-    .map((label) => label.trim())
+function mapLabelsToTags({ labels, repoDisplayName }) {
+  const labelList = Array.isArray(labels)
+    ? labels
+    : String(labels || '').split(',')
+
+  return labelList
+    .map((label) => String(label).trim())
     .filter(Boolean)
     .map((label) => {
       const lower = label.toLowerCase()
       if (lower === 'sdks') {
         return 'SDKs'
       }
-      if (lower === 'ios') {
+      if (lower === 'typescript') {
+        return 'TypeScript'
+      }
+      if (lower === 'dotnet') {
+        return '.NET'
+      }
+      if (lower === 'ios' || (lower === 'swift' && String(repoDisplayName).toLowerCase().includes('ios'))) {
         return 'iOS'
       }
       return lower.charAt(0).toUpperCase() + lower.slice(1)
@@ -105,9 +119,8 @@ function slugify(value) {
 }
 
 function isIos({ labels, repoDisplayName }) {
-  const labelParts = String(labels || '')
-    .split(',')
-    .map((label) => label.trim().toLowerCase())
+  const labelParts = (Array.isArray(labels) ? labels : String(labels || '').split(','))
+    .map((label) => String(label).trim().toLowerCase())
 
   return labelParts.includes('ios') || String(repoDisplayName).toLowerCase().includes('ios')
 }
