@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: ''
+next_page_id: 2026-04-23-box-cli-v480-released
 previous_page_id: 2026-04-22-box-windows-sdk-v10100-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/04-22-box-windows-sdk-v690-released.md
