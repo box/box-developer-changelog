@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2026-04-22-box-java-sdk-v1090-released
+next_page_id: 2026-04-17-box-agent-skills
 previous_page_id: 2026-04-02-new-ai-models
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/04-16-box-windows-sdk-v1090-released.md
