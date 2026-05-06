@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2026-05-06-box-node-sdk-v490-released
+next_page_id: 2026-05-06-box-node-sdk-v1090-released
 previous_page_id: 2026-05-06-box-java-sdk-v10110-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/05-06-box-java-sdk-v5100-released.md
