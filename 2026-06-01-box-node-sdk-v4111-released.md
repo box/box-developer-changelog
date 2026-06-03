@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2026-5-26-box-tutorials-released
+next_page_id: 2026-06-03-box-node-sdk-v4112-released
 previous_page_id: 2026-06-01-box-cli-v490-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/06-01-box-node-sdk-v4111-released.md
