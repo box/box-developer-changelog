@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2026-06-11-box-java-sdk-v5130-released
+next_page_id: 2026-06-11-box-java-sdk-v10140-released
 previous_page_id: 2026-06-03-box-python-sdk-v10110-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/06-11-box-ios-sdk-6120-released.md
