@@ -32,12 +32,12 @@ async function runMintlifySync() {
     repoPath: changelogRepoPath
   })
 
-  console.log(`[MintlifySync] Eligible SDK entries: ${changelogEntries.length}`)
+  console.log(`[MintlifySync] Eligible release entries: ${changelogEntries.length}`)
   if (changelogEntries.length === 0) {
     const output = buildWorkflowOutput([])
     console.log(`[MintlifySync] Writing workflow output: ${workflowOutputPath}`)
     await fs.outputFile(workflowOutputPath, JSON.stringify(output, null, 2))
-    console.log('[MintlifySync] No eligible SDK changelog entries found.')
+    console.log('[MintlifySync] No eligible changelog entries found.')
     return output
   }
 
@@ -100,7 +100,7 @@ function buildWorkflowOutput(entries = []) {
 
   const prTitle = normalizedEntries.length === 1
     ? `Add changelog: ${normalizedEntries[0].repoDisplayName} ${normalizedEntries[0].version}`
-    : `Add changelog entries: ${normalizedEntries.length} SDK releases`
+    : `Add changelog entries: ${normalizedEntries.length} release entries`
 
   return {
     branchSuffix: normalizedEntries.length === 1

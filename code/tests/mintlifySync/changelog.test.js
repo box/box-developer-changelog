@@ -14,31 +14,47 @@ async function readChangelog(contentPath) {
 }
 
 describe('Mintlify changelog parsing', () => {
-  test('parses real merged SDK changelog files', async () => {
+  test('parses real merged release changelog files', async () => {
     const cases = [
       {
         contentPath: 'content/2026/04-01-box-java-sdk-v1070-released.md',
+        appliedAt: '2026-04-01',
         repoDisplayName: 'Box Java SDK',
         version: 'v10.7.0',
-        labels: ['sdks', 'java']
+        labels: ['sdks', 'java'],
+        isSdkRelease: true
       },
       {
         contentPath: 'content/2026/04-01-box-java-sdk-v560-released.md',
+        appliedAt: '2026-04-01',
         repoDisplayName: 'Box Java SDK',
         version: 'v5.6.0',
-        labels: ['sdks', 'java']
+        labels: ['sdks', 'java'],
+        isSdkRelease: true
       },
       {
         contentPath: 'content/2026/04-01-box-ios-sdk-1060-released.md',
+        appliedAt: '2026-04-01',
         repoDisplayName: 'Box iOS SDK',
         version: '10.6.0',
-        labels: ['sdks', 'swift']
+        labels: ['sdks', 'swift'],
+        isSdkRelease: true
       },
       {
         contentPath: 'content/2026/04-01-box-windows-sdk-v1080-released.md',
+        appliedAt: '2026-04-01',
         repoDisplayName: 'Box Windows SDK',
         version: 'v10.8.0',
-        labels: ['sdks', 'dotnet']
+        labels: ['sdks', 'dotnet'],
+        isSdkRelease: true
+      },
+      {
+        contentPath: 'content/2026/01-05-box-ui-elements-v2600-released.md',
+        appliedAt: '2026-01-05',
+        repoDisplayName: 'Box UI Elements',
+        version: 'v26.0.0',
+        labels: ['frontend', 'ui-elements'],
+        isSdkRelease: false
       }
     ]
 
@@ -49,20 +65,22 @@ describe('Mintlify changelog parsing', () => {
         contentPath: testCase.contentPath
       })
 
-      expect(entry.isSdkRelease).toBeTruthy()
-      expect(entry.appliedAt).toBe('2026-04-01')
+      expect(entry.isMintlifySyncEligible).toBeTruthy()
+      expect(entry.isSdkRelease).toBe(testCase.isSdkRelease)
+      expect(entry.appliedAt).toBe(testCase.appliedAt)
       expect(entry.repoDisplayName).toBe(testCase.repoDisplayName)
       expect(entry.version).toBe(testCase.version)
       expect(entry.labels).toEqual(testCase.labels)
       expect(entry.releaseSourceUrl).toContain('/releases/tag/')
-      expect(entry.body.startsWith('###')).toBeTruthy()
+      expect(entry.body).toContain('###')
     }
   })
 
-  test('skips non-SDK changelog posts even when they are in the candidate list', async () => {
+  test('loads eligible release entries and skips non-release posts', async () => {
     const entries = await loadEligibleChangelogEntries({
       repoPath: REPO_ROOT,
       contentPaths: [
+        'content/2026/01-05-box-ui-elements-v2600-released.md',
         'content/2026/04-01-box-java-sdk-v1070-released.md',
         'content/2026/04-02-new-ai-models.md',
         'content/2026/04-01-box-ios-sdk-1060-released.md'
@@ -70,6 +88,7 @@ describe('Mintlify changelog parsing', () => {
     })
 
     expect(entries.map((entry) => entry.contentPath)).toEqual([
+      'content/2026/01-05-box-ui-elements-v2600-released.md',
       'content/2026/04-01-box-ios-sdk-1060-released.md',
       'content/2026/04-01-box-java-sdk-v1070-released.md'
     ])
