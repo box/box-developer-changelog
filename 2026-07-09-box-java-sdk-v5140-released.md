@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2026-5-26-box-tutorials-released
+next_page_id: 2026-07-09-box-python-sdk-v4130-released
 previous_page_id: 2026-07-09-box-java-sdk-v10150-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/07-09-box-java-sdk-v5140-released.md
