@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2026-5-26-box-tutorials-released
-previous_page_id: 2026-07-09-box-windows-sdk-v6150-released
+previous_page_id: 2026-07-10-box-python-sdk-v10130-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/07-10-box-windows-sdk-v10150-released.md
 published_at: '2026-07-10'
