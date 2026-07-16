@@ -60,7 +60,33 @@ describe('runMintlifySync', () => {
     expect(await fs.readJson(outputPath)).toEqual(output)
   })
 
-  test('handles multiple SDK changelog files in a single run and ignores non-SDK posts', async () => {
+  test('writes Mintlify files for a real Box UI Elements changelog file', async () => {
+    const outputPath = path.join(tempDir, 'workflow-output-buie.json')
+    process.env.CHANGELOG_REPO_PATH = REPO_ROOT
+    process.env.CONTENT_PATHS = 'content/2026/01-05-box-ui-elements-v2600-released.md'
+    process.env.MINTLIFY_REPO_PATH = tempDir
+    process.env.MINTLIFY_SYNC_OUTPUT_PATH = outputPath
+
+    const output = await runMintlifySync()
+    const snippetPath = path.join(
+      tempDir,
+      'snippets/changelog/2026/01-05-box-ui-elements-v2600-released.mdx'
+    )
+    const indexContent = await fs.readFile(path.join(tempDir, 'changelog/index.mdx'), 'utf8')
+    const snippetContent = await fs.readFile(snippetPath, 'utf8')
+
+    expect(output.entries).toHaveLength(1)
+    expect(output.prTitle).toBe('Add changelog: Box UI Elements v26.0.0')
+    expect(snippetContent).toContain('## Box UI Elements `v26.0.0` released')
+    expect(snippetContent).toContain('tags={["Frontend","UI Elements"]}')
+    expect(indexContent).toContain(
+      'import BoxUiElementsV2600Released_2026_01_05 from "/snippets/changelog/2026/01-05-box-ui-elements-v2600-released.mdx";'
+    )
+    expect(indexContent).toContain('<BoxUiElementsV2600Released_2026_01_05 />')
+    expect(await fs.readJson(outputPath)).toEqual(output)
+  })
+
+  test('handles multiple release changelog files in a single run and ignores non-release posts', async () => {
     process.env.CHANGELOG_REPO_PATH = REPO_ROOT
     process.env.CONTENT_PATHS = [
       'content/2026/04-02-new-ai-models.md',
@@ -74,7 +100,7 @@ describe('runMintlifySync', () => {
     const indexContent = await fs.readFile(path.join(tempDir, 'changelog/index.mdx'), 'utf8')
 
     expect(output.entries).toHaveLength(2)
-    expect(output.prTitle).toBe('Add changelog entries: 2 SDK releases')
+    expect(output.prTitle).toBe('Add changelog entries: 2 releases')
     expect(output.filePaths).toEqual([
       'snippets/changelog/2026/04-01-box-ios-sdk-v1060-released.mdx',
       'snippets/changelog/2026/04-01-box-windows-sdk-v1080-released.mdx'
@@ -84,7 +110,7 @@ describe('runMintlifySync', () => {
     expect(indexContent).not.toContain('new-ai-models')
   })
 
-  test('returns a no-op workflow output when there are no eligible SDK entries', async () => {
+  test('returns a no-op workflow output when there are no eligible release entries', async () => {
     process.env.CHANGELOG_REPO_PATH = REPO_ROOT
     process.env.CONTENT_PATHS = 'content/2026/04-02-new-ai-models.md'
     process.env.MINTLIFY_REPO_PATH = tempDir

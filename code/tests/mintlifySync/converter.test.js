@@ -116,4 +116,16 @@ describe('convertReleaseToMintlifyEntry', () => {
       'snippets/changelog/2026/04-01-box-windows-sdk-v1080-released.mdx'
     )
   })
+
+  test('converts real Box UI Elements changelog entries', async () => {
+    const entry = await readParsedEntry('content/2026/01-05-box-ui-elements-v2600-released.md')
+    const result = convertReleaseToMintlifyEntry(entry)
+
+    expect(result.componentName).toBe('BoxUiElementsV2600Released_2026_01_05')
+    expect(result.filePath).toBe(
+      'snippets/changelog/2026/01-05-box-ui-elements-v2600-released.mdx'
+    )
+    expect(result.mdxContent).toContain('tags={["Frontend","UI Elements"]}')
+    expect(result.mdxContent).toContain('## Box UI Elements `v26.0.0` released')
+  })
 })
