@@ -100,7 +100,7 @@ function buildWorkflowOutput(entries = []) {
 
   const prTitle = normalizedEntries.length === 1
     ? `Add changelog: ${normalizedEntries[0].repoDisplayName} ${normalizedEntries[0].version}`
-    : `Add changelog entries: ${normalizedEntries.length} release entries`
+    : `Add changelog entries: ${normalizedEntries.length} releases`
 
   return {
     branchSuffix: normalizedEntries.length === 1

@@ -100,7 +100,7 @@ describe('runMintlifySync', () => {
     const indexContent = await fs.readFile(path.join(tempDir, 'changelog/index.mdx'), 'utf8')
 
     expect(output.entries).toHaveLength(2)
-    expect(output.prTitle).toBe('Add changelog entries: 2 release entries')
+    expect(output.prTitle).toBe('Add changelog entries: 2 releases')
     expect(output.filePaths).toEqual([
       'snippets/changelog/2026/04-01-box-ios-sdk-v1060-released.mdx',
       'snippets/changelog/2026/04-01-box-windows-sdk-v1080-released.mdx'

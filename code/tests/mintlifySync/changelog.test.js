@@ -22,7 +22,7 @@ describe('Mintlify changelog parsing', () => {
         repoDisplayName: 'Box Java SDK',
         version: 'v10.7.0',
         labels: ['sdks', 'java'],
-        isSdkRelease: true
+        isMintlifySyncEligible: true
       },
       {
         contentPath: 'content/2026/04-01-box-java-sdk-v560-released.md',
@@ -30,7 +30,7 @@ describe('Mintlify changelog parsing', () => {
         repoDisplayName: 'Box Java SDK',
         version: 'v5.6.0',
         labels: ['sdks', 'java'],
-        isSdkRelease: true
+        isMintlifySyncEligible: true
       },
       {
         contentPath: 'content/2026/04-01-box-ios-sdk-1060-released.md',
@@ -38,7 +38,7 @@ describe('Mintlify changelog parsing', () => {
         repoDisplayName: 'Box iOS SDK',
         version: '10.6.0',
         labels: ['sdks', 'swift'],
-        isSdkRelease: true
+        isMintlifySyncEligible: true
       },
       {
         contentPath: 'content/2026/04-01-box-windows-sdk-v1080-released.md',
@@ -46,7 +46,7 @@ describe('Mintlify changelog parsing', () => {
         repoDisplayName: 'Box Windows SDK',
         version: 'v10.8.0',
         labels: ['sdks', 'dotnet'],
-        isSdkRelease: true
+        isMintlifySyncEligible: true
       },
       {
         contentPath: 'content/2026/01-05-box-ui-elements-v2600-released.md',
@@ -54,7 +54,7 @@ describe('Mintlify changelog parsing', () => {
         repoDisplayName: 'Box UI Elements',
         version: 'v26.0.0',
         labels: ['frontend', 'ui-elements'],
-        isSdkRelease: false
+        isMintlifySyncEligible: true
       }
     ]
 
@@ -65,8 +65,7 @@ describe('Mintlify changelog parsing', () => {
         contentPath: testCase.contentPath
       })
 
-      expect(entry.isMintlifySyncEligible).toBeTruthy()
-      expect(entry.isSdkRelease).toBe(testCase.isSdkRelease)
+      expect(entry.isMintlifySyncEligible).toBe(testCase.isMintlifySyncEligible)
       expect(entry.appliedAt).toBe(testCase.appliedAt)
       expect(entry.repoDisplayName).toBe(testCase.repoDisplayName)
       expect(entry.version).toBe(testCase.version)

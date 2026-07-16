@@ -98,13 +98,9 @@ function parseChangelogEntry({ content, contentPath = '' } = {}) {
     repoDisplayName,
     version
   }
-  const isMintlifySyncEligible = isMintlifySyncEligibleEntry(entry)
-  const isSdkRelease = isSdkReleaseEntry(entry)
-
   return {
     ...entry,
-    isMintlifySyncEligible,
-    isSdkRelease
+    isMintlifySyncEligible: isMintlifySyncEligibleEntry(entry)
   }
 }
 
@@ -113,15 +109,6 @@ function isMintlifySyncEligibleEntry(entry = {}) {
 
   return (
     (labels.includes('sdks') || labels.includes('ui-elements')) &&
-    hasRequiredReleaseFields(entry)
-  )
-}
-
-function isSdkReleaseEntry(entry = {}) {
-  const labels = normalizeLabels(entry.labels)
-
-  return (
-    labels.includes('sdks') &&
     hasRequiredReleaseFields(entry)
   )
 }
