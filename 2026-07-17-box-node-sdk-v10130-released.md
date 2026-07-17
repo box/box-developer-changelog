@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2026-5-26-box-tutorials-released
+next_page_id: 2026-07-17-box-node-sdk-v4130-released
 previous_page_id: 2026-07-15-box-java-sdk-v10152-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/07-17-box-node-sdk-v10130-released.md
