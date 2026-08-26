@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2026-5-26-box-tutorials-released
-previous_page_id: 2026-08-05-box-windows-sdk-v6160-released
+previous_page_id: 2026-08-26-box-java-sdk-v10161-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/08-26-box-java-sdk-v5151-released.md
 published_at: '2026-08-26'
