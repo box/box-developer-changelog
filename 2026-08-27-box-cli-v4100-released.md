@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2026-5-26-box-tutorials-released
+next_page_id: 2026-09-02-box-java-sdk-v10162-released
 previous_page_id: 2026-08-26-box-java-sdk-v5151-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/08-27-box-cli-v4100-released.md
