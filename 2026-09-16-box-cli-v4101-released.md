@@ -15,7 +15,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2026-09-23-box-ios-sdk-6160-released
+next_page_id: 2026-09-23-box-ios-sdk-10160-released
 previous_page_id: 2026-09-09-box-windows-sdk-v6170-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/09-16-box-cli-v4101-released.md
