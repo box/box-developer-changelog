@@ -13,7 +13,7 @@ collapse: true
 
 ### **New Features and Enhancements:**
 
-* **boxsdkgen:** Update `RetentionLength` field to accept both string and integer ([box/box-codegen#932][1]) ([#1444][2])
+* **boxsdkgen:** Update `RetentionLength` field to accept both string and integer ([box/box-codegen[#932][1]) ([#1444][2])
 
 * **boxsdkgen:** Extensible enum in DotNet (box/box-codegen[#937][3]) ([#1459][4]) ([`23fc4c8`][5])
 
