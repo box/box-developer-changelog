@@ -13,8 +13,8 @@ collapse: true
 
 ### ⚠ BREAKING CHANGES
 
-* Update `retentionLength` field to accept both string and integer ([box/box-codegen#932][1]) ([#1452][2])
-* Add `max_extension_length` field to Retention Policies ([box/box-openapi#539][3]) ([#1464][4])
+* Update `retentionLength` field to accept both string and integer ([box/box-codegen[#932][1]) ([#1452][2])
+* Add `max_extension_length` field to Retention Policies ([box/box-openapi[#539][3]) ([#1464][4])
 
 ### Bug Fixes
 
