@@ -13,7 +13,7 @@ collapse: true
 
 ### New Features and Enhancements
 
-* **boxsdkgen:** add failure related fields to `DocGenJob` (box/box-openapi[#598][1]) ([#1446][2]) ([`a2b59df`][3])
+* **boxsdkgen:** add fail related fields to `DocGenJob` (box/box-openapi[#598][1]) ([#1446][2]) ([`a2b59df`][3])
 * **boxsdkgen:** Add new event types (box/box-openapi[#597][4]) ([#1434][5]) ([`c700173`][6])
 * **boxsdkgen:** Sanitize request body in `BoxAPIError` (box/box-codegen[#948][7]) ([#1441][8]) ([`8f08bcc`][9])
 
