@@ -14,7 +14,7 @@ collapse: true
 ### New Features and Enhancements
 
 * **boxsdkgen:** Add Convert Note API (box/box-openapi[#600][1]) ([#1478][2]) ([`c346d39`][3])
-* **boxsdkgen:** add failure related fields to `DocGenJob` (box/box-openapi[#598][4]) ([#1469][5]) ([`e95d705`][6])
+* **boxsdkgen:** add fail related fields to `DocGenJob` (box/box-openapi[#598][4]) ([#1469][5]) ([`e95d705`][6])
 
 [1]: https://github.com/box/box-node-sdk/issues/600
 
