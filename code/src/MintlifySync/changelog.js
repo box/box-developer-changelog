@@ -5,7 +5,7 @@ const fs = require('fs-extra')
 const yaml = require('js-yaml')
 
 const FRONTMATTER_REGEX = /^---\r?\n([\s\S]*?)\r?\n---\r?\n*/
-const SDK_RELEASE_HEADING_REGEX = /^#\s+(.+?)\s+`([^`]+)`\s+released\s*$/m
+const RELEASE_HEADING_REGEX = /^#\s+(.+?)\s+`([^`]+)`\s+released\s*$/m
 
 function normalizeContentPaths(contentPaths) {
   if (Array.isArray(contentPaths)) {
@@ -59,7 +59,7 @@ async function loadEligibleChangelogEntries({ repoPath = process.cwd(), contentP
 
     const content = await fs.readFile(absolutePath, 'utf8')
     const entry = parseChangelogEntry({ content, contentPath })
-    if (entry.isSdkRelease) {
+    if (entry.isMintlifySyncEligible) {
       entries.push(entry)
     }
   }
@@ -79,7 +79,7 @@ function parseChangelogEntry({ content, contentPath = '' } = {}) {
 
   const frontmatter = yaml.load(frontmatterMatch[1]) || {}
   const markdown = content.slice(frontmatterMatch[0].length)
-  const headingMatch = markdown.match(SDK_RELEASE_HEADING_REGEX)
+  const headingMatch = markdown.match(RELEASE_HEADING_REGEX)
   const repoDisplayName = headingMatch ? headingMatch[1].trim() : ''
   const version = headingMatch ? headingMatch[2].trim() : ''
   const body = headingMatch
@@ -98,23 +98,34 @@ function parseChangelogEntry({ content, contentPath = '' } = {}) {
     repoDisplayName,
     version
   }
-
   return {
     ...entry,
-    isSdkRelease: isSdkReleaseEntry(entry)
+    isMintlifySyncEligible: isMintlifySyncEligibleEntry(entry)
   }
 }
 
-function isSdkReleaseEntry(entry = {}) {
-  const labels = Array.isArray(entry.labels) ? entry.labels.map((label) => label.toLowerCase()) : []
+function isMintlifySyncEligibleEntry(entry = {}) {
+  const labels = normalizeLabels(entry.labels)
 
   return (
-    labels.includes('sdks') &&
+    (labels.includes('sdks') || labels.includes('ui-elements')) &&
+    hasRequiredReleaseFields(entry)
+  )
+}
+
+function hasRequiredReleaseFields(entry = {}) {
+  return (
     typeof entry.repoDisplayName === 'string' &&
     entry.repoDisplayName.startsWith('Box ') &&
     Boolean(entry.version) &&
     Boolean(entry.releaseSourceUrl)
   )
+}
+
+function normalizeLabels(labels = []) {
+  return Array.isArray(labels)
+    ? labels.map((label) => String(label).trim().toLowerCase()).filter(Boolean)
+    : []
 }
 
 function sortEntriesForInsertion(entries = []) {
@@ -142,6 +153,7 @@ function isZeroSha(value) {
 }
 
 module.exports = {
+  isMintlifySyncEligibleEntry,
   loadEligibleChangelogEntries,
   normalizeContentPaths,
   parseChangelogEntry,
