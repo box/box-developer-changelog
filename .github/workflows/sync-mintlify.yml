@@ -73,15 +73,15 @@ jobs:
           ENTRY_COUNT="$(jq '.entries | length' "$OUTPUT_JSON")"
           echo "entry_count=${ENTRY_COUNT}" >> "$GITHUB_OUTPUT"
           if [ "$ENTRY_COUNT" -eq 0 ]; then
-            echo "No eligible SDK changes detected, skipping commit and PR creation."
-            echo "sync_target=no eligible SDK changes" >> "$GITHUB_OUTPUT"
+            echo "No eligible changelog entries detected, skipping commit and PR creation."
+            echo "sync_target=no eligible changelog entries" >> "$GITHUB_OUTPUT"
             echo "pr_url=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           BRANCH_SUFFIX="$(jq -r '.branchSuffix' "$OUTPUT_JSON")"
           PR_TITLE="$(jq -r '.prTitle' "$OUTPUT_JSON")"
-          SYNC_TARGET="$(jq -r 'if (.entries | length) == 1 then "\(.entries[0].repoDisplayName) \(.entries[0].version)" else "\(.entries | length) SDK releases" end' "$OUTPUT_JSON")"
+          SYNC_TARGET="$(jq -r 'if (.entries | length) == 1 then "\(.entries[0].repoDisplayName) \(.entries[0].version)" else "\(.entries | length) release changelog entries" end' "$OUTPUT_JSON")"
           SUMMARY_LINES="$(jq -r '.entries[] | "- \(.repoDisplayName) \(.version) ([Release](\(.releaseUrl)))"' "$OUTPUT_JSON")"
           FILE_LINES="$(jq -r '.entries[] | "- `\(.filePath)` (new or updated snippet)"' "$OUTPUT_JSON")"
 
