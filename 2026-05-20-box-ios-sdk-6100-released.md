@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2026-05-20-box-java-sdk-v10120-released
-previous_page_id: 2026-05-18-box-cli-v481-released
+previous_page_id: 2026-05-20-box-ios-sdk-10100-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/05-20-box-ios-sdk-6100-released.md
 published_at: '2026-05-20'
