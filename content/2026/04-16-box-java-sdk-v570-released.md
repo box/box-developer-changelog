@@ -13,7 +13,7 @@ collapse: true
 
 ### New Features and Enhancements
 
-* **boxsdkgen:** Update `retentionLength` field to accept both string and integer ([box/box-codegen#932][1]) ([#1775][2])
+* **boxsdkgen:** Update `retentionLength` field to accept both string and integer ([box/box-codegen[#932][1]) ([#1775][2])
 
 ### Bug Fixes
 
