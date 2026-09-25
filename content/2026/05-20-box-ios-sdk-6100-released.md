@@ -13,11 +13,11 @@ collapse: true
 
 ### ⚠ BREAKING CHANGES
 
-* **boxsdkgen:** add failure related fields to `DocGenJob` (box/box-openapi[#598][1]) (box/box-openapi[#598][1]) ([#1513][2]) ([`3a4b1c4`][3])
+* **boxsdkgen:** add fail related fields to `DocGenJob` (box/box-openapi[#598][1]) (box/box-openapi[#598][1]) ([#1513][2]) ([`3a4b1c4`][3])
 
 ### New Features and Enhancements
 
-* **boxsdkgen:** add failure related fields to `DocGenJob` (box/box-openapi[#598][1]) (box/box-openapi[#598][1]) ([#1513][2]) ([`3a4b1c4`][3])
+* **boxsdkgen:** add fail related fields to `DocGenJob` (box/box-openapi[#598][1]) (box/box-openapi[#598][1]) ([#1513][2]) ([`3a4b1c4`][3])
 * **boxsdkgen:** Add new event types (box/box-openapi[#597][4]) ([#1500][5]) ([`630367f`][6])
 * **boxsdkgen:** Sanitize request body in `BoxAPIError` (box/box-codegen[#948][7]) ([#1505][8]) ([`046029e`][9])
 
