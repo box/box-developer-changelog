@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2026-08-05-box-python-sdk-v10140-released
-previous_page_id: 2026-08-05-box-java-sdk-v5150-released
+previous_page_id: 2026-08-05-box-node-sdk-v10140-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/08-05-box-node-sdk-v4140-released.md
 published_at: '2026-08-05'
