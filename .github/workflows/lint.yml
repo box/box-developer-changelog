@@ -27,16 +27,16 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [24.x]
 
     steps:
       # Check out the current branch
       - name: Check out the repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
 
       # Set up Node JS
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node-version }}
 
@@ -101,7 +101,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [24.x]
 
     # Requires the lint job to pass first
     needs:
