@@ -13,7 +13,7 @@ collapse: true
 
 ### Bug Fixes
 
-* **boxsdkgen:** bump bouncyCastle version (box/box-codegen[#982][1])  ([#1971][2]) ([`c6cc5d6`][3])
+* **boxsdkgen:** bump `bouncyCastle` version (box/box-codegen[#982][1])  ([#1971][2]) ([`c6cc5d6`][3])
 
 [1]: https://github.com/box/box-java-sdk/issues/982
 
