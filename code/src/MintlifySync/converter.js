@@ -67,6 +67,9 @@ function mapLabelsToTags({ labels, repoDisplayName }) {
       if (lower === 'ios' || (lower === 'swift' && String(repoDisplayName).toLowerCase().includes('ios'))) {
         return 'iOS'
       }
+      if (lower === 'ui-elements') {
+        return 'UI Elements'
+      }
       return lower.charAt(0).toUpperCase() + lower.slice(1)
     })
 }
