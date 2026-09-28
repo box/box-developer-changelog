@@ -73,8 +73,8 @@ jobs:
           ENTRY_COUNT="$(jq '.entries | length' "$OUTPUT_JSON")"
           echo "entry_count=${ENTRY_COUNT}" >> "$GITHUB_OUTPUT"
           if [ "$ENTRY_COUNT" -eq 0 ]; then
-            echo "No eligible changelog entries detected, skipping commit and PR creation."
-            echo "sync_target=no eligible changelog entries" >> "$GITHUB_OUTPUT"
+            echo "No new changelog entries detected, skipping commit and PR creation."
+            echo "sync_target=no new changelog entries" >> "$GITHUB_OUTPUT"
             echo "pr_url=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -83,7 +83,7 @@ jobs:
           PR_TITLE="$(jq -r '.prTitle' "$OUTPUT_JSON")"
           SYNC_TARGET="$(jq -r 'if (.entries | length) == 1 then "\(.entries[0].repoDisplayName) \(.entries[0].version)" else "\(.entries | length) release changelog entries" end' "$OUTPUT_JSON")"
           SUMMARY_LINES="$(jq -r '.entries[] | "- \(.repoDisplayName) \(.version) ([Release](\(.releaseUrl)))"' "$OUTPUT_JSON")"
-          FILE_LINES="$(jq -r '.entries[] | "- `\(.filePath)` (new or updated snippet)"' "$OUTPUT_JSON")"
+          FILE_LINES="$(jq -r '.changedFiles[] | "- `\(.)`"' "$OUTPUT_JSON")"
 
           BRANCH_NAME="changelog-sync/${BRANCH_SUFFIX}"
           if git ls-remote --exit-code --heads origin "$BRANCH_NAME" >/dev/null 2>&1; then
@@ -94,7 +94,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git checkout -b "$BRANCH_NAME"
-          git add "snippets/changelog" "changelog/index.mdx"
+          jq -r '.changedFiles[]' "$OUTPUT_JSON" | xargs git add --
 
           if git diff --cached --quiet; then
             echo "No changes detected, skipping commit and PR creation."
@@ -114,7 +114,6 @@ jobs:
           ${SUMMARY_LINES}
 
           ## Files changed
-          - \`changelog/index.mdx\` (updated import + component usage)
           ${FILE_LINES}
 
           ---
