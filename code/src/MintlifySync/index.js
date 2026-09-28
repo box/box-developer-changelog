@@ -6,9 +6,14 @@ const {
   resolveCandidateContentPaths
 } = require('./changelog')
 const { convertReleaseToMintlifyEntry } = require('./converter')
-const { updateMintlifyChangelogIndex } = require('./indexUpdater')
+const {
+  addYearToDocsConfig,
+  createYearPage,
+  insertEntryIntoYearPage
+} = require('./yearPage')
 
 const DEFAULT_WORKFLOW_OUTPUT_PATH = '/tmp/mintlify-sync-output.json'
+const DOCS_CONFIG_PATH = 'docs.json'
 
 async function runMintlifySync() {
   const mintlifyRepoPath = readRequiredEnv('MINTLIFY_REPO_PATH')
@@ -33,17 +38,10 @@ async function runMintlifySync() {
   })
 
   console.log(`[MintlifySync] Eligible release entries: ${changelogEntries.length}`)
-  if (changelogEntries.length === 0) {
-    const output = buildWorkflowOutput([])
-    console.log(`[MintlifySync] Writing workflow output: ${workflowOutputPath}`)
-    await fs.outputFile(workflowOutputPath, JSON.stringify(output, null, 2))
-    console.log('[MintlifySync] No eligible changelog entries found.')
-    return output
-  }
 
-  const indexPath = path.join(mintlifyRepoPath, 'changelog', 'index.mdx')
+  const pages = new Map()
   const convertedEntries = []
-  let indexContent = await fs.readFile(indexPath, 'utf8')
+  let docsContent = null
 
   for (const changelogEntry of changelogEntries) {
     console.log(
@@ -59,16 +57,33 @@ async function runMintlifySync() {
       version: changelogEntry.version
     })
 
-    const snippetAbsolutePath = path.join(mintlifyRepoPath, convertedEntry.filePath)
-    console.log(`[MintlifySync] Writing snippet: ${snippetAbsolutePath}`)
-    await fs.outputFile(snippetAbsolutePath, convertedEntry.mdxContent)
+    if (!pages.has(convertedEntry.filePath)) {
+      const pagePath = path.join(mintlifyRepoPath, convertedEntry.filePath)
+      if (await fs.pathExists(pagePath)) {
+        pages.set(convertedEntry.filePath, await fs.readFile(pagePath, 'utf8'))
+      } else {
+        console.log(`[MintlifySync] Creating year page: ${convertedEntry.filePath}`)
+        pages.set(convertedEntry.filePath, createYearPage(convertedEntry.year))
+        docsContent = addYearToDocsConfig({
+          docsContent: docsContent === null
+            ? await fs.readFile(path.join(mintlifyRepoPath, DOCS_CONFIG_PATH), 'utf8')
+            : docsContent,
+          year: convertedEntry.year
+        })
+      }
+    }
 
-    indexContent = updateMintlifyChangelogIndex({
-      componentName: convertedEntry.componentName,
-      filePath: convertedEntry.filePath,
-      indexContent
+    const { content, inserted } = insertEntryIntoYearPage({
+      entry: convertedEntry,
+      pageContent: pages.get(convertedEntry.filePath)
     })
 
+    if (!inserted) {
+      console.log(`[MintlifySync] Already present in ${convertedEntry.filePath}, skipping.`)
+      continue
+    }
+
+    pages.set(convertedEntry.filePath, content)
     convertedEntries.push({
       ...convertedEntry,
       releaseUrl: changelogEntry.releaseSourceUrl,
@@ -77,21 +92,33 @@ async function runMintlifySync() {
     })
   }
 
-  console.log(`[MintlifySync] Updating index: ${indexPath}`)
-  await fs.writeFile(indexPath, indexContent, 'utf8')
+  const changedFiles = [...new Set(convertedEntries.map((entry) => entry.filePath))]
+  for (const filePath of changedFiles) {
+    console.log(`[MintlifySync] Writing year page: ${filePath}`)
+    await fs.outputFile(path.join(mintlifyRepoPath, filePath), pages.get(filePath), 'utf8')
+  }
 
-  const output = buildWorkflowOutput(convertedEntries)
+  if (docsContent !== null && changedFiles.length > 0) {
+    console.log(`[MintlifySync] Updating ${DOCS_CONFIG_PATH}`)
+    await fs.writeFile(path.join(mintlifyRepoPath, DOCS_CONFIG_PATH), docsContent, 'utf8')
+    changedFiles.push(DOCS_CONFIG_PATH)
+  }
+
+  const output = buildWorkflowOutput(convertedEntries, changedFiles)
 
   console.log(`[MintlifySync] Writing workflow output: ${workflowOutputPath}`)
   await fs.outputFile(workflowOutputPath, JSON.stringify(output, null, 2))
 
-  console.log('[MintlifySync] Completed successfully.')
+  console.log(
+    convertedEntries.length > 0
+      ? '[MintlifySync] Completed successfully.'
+      : '[MintlifySync] No new changelog entries to sync.'
+  )
   return output
 }
 
-function buildWorkflowOutput(entries = []) {
+function buildWorkflowOutput(entries = [], changedFiles = []) {
   const normalizedEntries = entries.map((entry) => ({
-    componentName: entry.componentName,
     filePath: entry.filePath,
     releaseUrl: entry.releaseUrl,
     repoDisplayName: entry.repoDisplayName,
@@ -104,10 +131,10 @@ function buildWorkflowOutput(entries = []) {
 
   return {
     branchSuffix: normalizedEntries.length === 1
-      ? normalizedEntries[0].componentName
+      ? entries[0].branchName
       : `batch-${normalizedEntries.length}-releases`,
+    changedFiles,
     entries: normalizedEntries,
-    filePaths: normalizedEntries.map((entry) => entry.filePath),
     prTitle,
     releaseUrls: normalizedEntries
       .map((entry) => entry.releaseUrl)

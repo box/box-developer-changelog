@@ -1,3 +1,24 @@
+const LINK_DEFINITION_REGEX = /^ {0,3}\[([^\]]+)\]:[ \t]*<?(\S+?)>?[ \t]*$/gm
+const CROSS_REPO_ISSUE_REFERENCE_REGEX = /([A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+)\[#(\d+)\]\[([^\]]+)\]/g
+const ISSUE_REFERENCE_REGEX = /\[#(\d+)\]\[([^\]]+)\]/g
+const REFERENCE_LINK_REGEX = /\[((?:[^\[\]]|\[[^\]]*\])+)\]\[([^\]]*)\]/g
+const GITHUB_ISSUE_URL_REGEX = /^https:\/\/github\.com\/[^/]+\/([^/]+)\/(?:issues|pull)\/(\d+)\/?$/
+
+const TAG_BY_LABEL = {
+  cli: 'CLI',
+  dotnet: '.NET',
+  frontend: 'Frontend',
+  ios: 'iOS',
+  java: 'Java',
+  node: 'Node',
+  python: 'Python',
+  sdks: 'SDKs',
+  swift: 'iOS',
+  typescript: 'Node',
+  'ui-elements': 'UI Elements',
+  windows: '.NET'
+}
+
 function convertReleaseToMintlifyEntry({
   repoDisplayName,
   labels,
@@ -22,68 +43,99 @@ function convertReleaseToMintlifyEntry({
     throw new Error('Missing required "appliedAt" or "publishedAt".')
   }
 
-  const { year, month, day, labelDate } = parsePublishedDate(changelogDate)
-  const mappedTags = mapLabelsToTags({ labels, repoDisplayName })
-  const normalizedVersion = normalizeVersion(version)
-  const isIosRelease = isIos({ labels, repoDisplayName })
-  const componentVersion = isIosRelease ? normalizedVersion : `V${normalizedVersion}`
-  const componentName = `${toPascalCase(repoDisplayName)}${componentVersion}Released_${year}_${month}_${day}`
-  const slug = `${slugify(repoDisplayName)}-v${normalizedVersion.toLowerCase()}-released`
-  const filePath = `snippets/changelog/${year}/${month}-${day}-${slug}.mdx`
-  const markdownBody = String(body || '').trimEnd()
+  const { year, labelDate } = parsePublishedDate(changelogDate)
+  const tags = mapLabelsToTags(labels)
+  const heading = `## ${repoDisplayName} \`${version}\` released`
+  const markdownBody = convertMarkdownBody(body)
 
   const mdxContent =
-    `<Update label="${labelDate}" tags={${JSON.stringify(mappedTags)}}>\n` +
-    `## ${repoDisplayName} \`${version}\` released\n\n` +
-    `${markdownBody}\n` +
-    `</Update>`
+    `<Update label="${labelDate}" tags={[${tags.map((tag) => JSON.stringify(tag)).join(', ')}]}>\n` +
+    `${heading}\n\n` +
+    (markdownBody ? `${markdownBody}\n\n` : '') +
+    '</Update>'
 
   return {
+    branchName: `${slugify(repoDisplayName)}-${slugify(version)}`,
+    filePath: `changelog/${year}.mdx`,
+    heading,
+    label: labelDate,
     mdxContent,
-    filePath,
-    componentName
+    year
   }
 }
 
-function mapLabelsToTags({ labels, repoDisplayName }) {
+function convertMarkdownBody(body) {
+  const { definitions, markdown } = extractLinkDefinitions(String(body || ''))
+  const resolve = (reference) => definitions.get(normalizeReference(reference))
+
+  return markdown
+    .replace(CROSS_REPO_ISSUE_REFERENCE_REGEX, (match, repo, number, reference) => (
+      resolve(reference)
+        ? `[${repo}#${number}](https://github.com/${repo}/issues/${number})`
+        : match
+    ))
+    .replace(ISSUE_REFERENCE_REGEX, (match, number, reference) => {
+      const url = resolve(reference)
+      if (!url) {
+        return match
+      }
+
+      const issueUrlMatch = url.match(GITHUB_ISSUE_URL_REGEX)
+      const text = issueUrlMatch && issueUrlMatch[2] === number
+        ? `${issueUrlMatch[1]}#${number}`
+        : `#${number}`
+      return `[${text}](${url})`
+    })
+    .replace(REFERENCE_LINK_REGEX, (match, text, reference) => {
+      const url = resolve(reference || text)
+      return url ? `[${text}](${url})` : match
+    })
+    .replace(/^#[ \t]+/gm, '### ')
+    .split(/(^```[\s\S]*?^```[ \t]*$)/m)
+    .map((segment) => (segment.startsWith('```') ? segment : escapeMdxText(segment)))
+    .join('')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+}
+
+function escapeMdxText(markdown) {
+  return markdown
+    .split(/(`+[^`\n]*?`+)/)
+    .map((segment) => (
+      segment.startsWith('`')
+        ? segment
+        : segment
+          .replace(/<(https?:\/\/[^>\s]+)>/g, '$1')
+          .replace(/(\\?)([<{}])/g, (match, backslash, character) => (backslash ? match : `\\${character}`))
+    ))
+    .join('')
+}
+
+function extractLinkDefinitions(markdown) {
+  const definitions = new Map()
+  const withoutDefinitions = markdown.replace(LINK_DEFINITION_REGEX, (match, reference, url) => {
+    definitions.set(normalizeReference(reference), url)
+    return ''
+  })
+
+  return { definitions, markdown: withoutDefinitions }
+}
+
+function normalizeReference(reference) {
+  return String(reference).trim().replace(/\s+/g, ' ').toLowerCase()
+}
+
+function mapLabelsToTags(labels) {
   const labelList = Array.isArray(labels)
     ? labels
     : String(labels || '').split(',')
 
-  return labelList
+  const tags = labelList
     .map((label) => String(label).trim())
     .filter(Boolean)
-    .map((label) => {
-      const lower = label.toLowerCase()
-      if (lower === 'sdks') {
-        return 'SDKs'
-      }
-      if (lower === 'typescript') {
-        return 'TypeScript'
-      }
-      if (lower === 'dotnet') {
-        return '.NET'
-      }
-      if (lower === 'ios' || (lower === 'swift' && String(repoDisplayName).toLowerCase().includes('ios'))) {
-        return 'iOS'
-      }
-      if (lower === 'ui-elements') {
-        return 'UI Elements'
-      }
-      return lower.charAt(0).toUpperCase() + lower.slice(1)
-    })
-}
+    .map((label) => TAG_BY_LABEL[label.toLowerCase()] || label.charAt(0).toUpperCase() + label.slice(1))
 
-function normalizeVersion(version) {
-  const cleaned = version
-    .replace(/^[vV]/, '')
-    .replace(/[^A-Za-z0-9]/g, '')
-
-  if (!cleaned) {
-    throw new Error(`Invalid "version": "${version}"`)
-  }
-
-  return cleaned
+  return [...new Set(tags)]
 }
 
 function parsePublishedDate(publishedAt) {
@@ -98,20 +150,8 @@ function parsePublishedDate(publishedAt) {
 
   return {
     year,
-    month,
-    day,
     labelDate: `${year}-${month}-${day}`
   }
-}
-
-function toPascalCase(value) {
-  return String(value)
-    .replace(/[^A-Za-z0-9]+/g, ' ')
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
-    .join('')
 }
 
 function slugify(value) {
@@ -121,13 +161,8 @@ function slugify(value) {
     .replace(/^-+|-+$/g, '')
 }
 
-function isIos({ labels, repoDisplayName }) {
-  const labelParts = (Array.isArray(labels) ? labels : String(labels || '').split(','))
-    .map((label) => String(label).trim().toLowerCase())
-
-  return labelParts.includes('ios') || String(repoDisplayName).toLowerCase().includes('ios')
-}
-
 module.exports = {
-  convertReleaseToMintlifyEntry
+  convertMarkdownBody,
+  convertReleaseToMintlifyEntry,
+  mapLabelsToTags
 }
