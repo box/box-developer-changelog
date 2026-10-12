@@ -13,16 +13,16 @@ collapse: true
 
 ### ⚠ BREAKING CHANGES
 
-* **boxsdkgen:** use `FileMini`/`FolderMini`/`WebLinkMini` in `CollaborationItem` ([box/box-openapi#619][1]) ([#1601][2])
+* **boxsdkgen:** use `FileMini`/`FolderMini`/`WebLinkMini` in `CollaborationItem` ([#619][issue-619]) ([#1601][issue-1601])
 
 ### New Features and Enhancements
 
-* **boxsdkgen:** replace `MultipartEncoder` with streaming `MultipartStream` for multipart uploads (box/box-codegen[#994][3]) ([`a232fd3`][4])
+* **boxsdkgen:** replace `MultipartEncoder` with streaming `MultipartStream` for multipart uploads (box/box-codegen[#994][issue-994]) ([`a232fd3`][commit-a232fd3999b938024ec3a7e7c816519871b4f007])
 
-[1]: https://github.com/box/box-openapi/issues/619
+[issue-619]: https://github.com/box/box-openapi/issues/619
 
-[2]: https://github.com/box/box-python-sdk/issues/1601
+[issue-1601]: https://github.com/box/box-python-sdk/issues/1601
 
-[3]: https://github.com/box/box-python-sdk/issues/994
+[issue-994]: https://github.com/box/box-python-sdk/issues/994
 
-[4]: https://github.com/box/box-python-sdk/commit/a232fd3999b938024ec3a7e7c816519871b4f007
+[commit-a232fd3999b938024ec3a7e7c816519871b4f007]: https://github.com/box/box-python-sdk/commit/a232fd3999b938024ec3a7e7c816519871b4f007
