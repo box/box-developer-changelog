@@ -17,7 +17,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: 2026-10-15-box-python-sdk-v4190-released
-previous_page_id: 2026-10-07-box-python-sdk-v4180-released
+previous_page_id: 2026-10-15-box-ios-sdk-10170-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/10-15-box-ios-sdk-6180-released.md
 published_at: '2026-10-15'
