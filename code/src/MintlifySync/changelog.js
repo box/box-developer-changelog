@@ -108,7 +108,7 @@ function isMintlifySyncEligibleEntry(entry = {}) {
   const labels = normalizeLabels(entry.labels)
 
   return (
-    (labels.includes('sdks') || labels.includes('ui-elements')) &&
+    (labels.includes('sdks') || labels.includes('ui-elements')) || labels.includes('cli') &&
     hasRequiredReleaseFields(entry)
   )
 }
