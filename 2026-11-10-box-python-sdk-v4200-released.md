@@ -16,7 +16,7 @@ total_steps: null
 type: changelog
 sibling_id: ''
 parent_id: changelog
-next_page_id: 2026-5-26-box-tutorials-released
+next_page_id: 2026-11-10-box-windows-sdk-v6210-released
 previous_page_id: 2026-11-10-box-java-sdk-v5200-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/11-10-box-python-sdk-v4200-released.md
