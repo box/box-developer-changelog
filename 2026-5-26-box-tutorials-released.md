@@ -18,7 +18,7 @@ type: changelog
 sibling_id: ''
 parent_id: changelog
 next_page_id: ''
-previous_page_id: 2026-11-18-box-ios-sdk-6200-released
+previous_page_id: 2026-11-18-box-python-sdk-v4210-released
 source_url: >-
   https://github.com/box/box-developer-changelog/blob/main/content/2026/5-26-box-tutorials-released.md
 published_at: null
