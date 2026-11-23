@@ -16,11 +16,11 @@ collapse: true
 ### Bug Fixes
 
 * **activity-sidebar:** tell the annotator when resolved comments are hidden ([#4926][2]) ([`67a2525`][3])
-* **activity:** remove threaded replies feature flags (PREVIEW-2348) ([#4946][4]) ([`6c00bd3`][5])
+* **activity:** remove threaded replies feature flags (`PREVIEW-2348`) ([#4946][4]) ([`6c00bd3`][5])
 * **api:** prevent deep merge in share response for arrays ([#4927][6]) ([`24aa6a5`][7])
 * bump usm and blueprint packages ([#4933][8]) ([`75e0474`][9])
 * **content-preview:** keep sidebar width stable when resizing in comparison mode ([#4936][10]) ([`5a5cb20`][11])
-* **content-sidebar:** honor host metadataNamespaceMode without opt-in ([#4928][12]) ([`20aea28`][13])
+* **content-sidebar:** honor host `metadataNamespaceMode` without opt-in ([#4928][12]) ([`20aea28`][13])
 * **dev:** serve html demos from dist ([#4943][14]) ([`84612c7`][15])
 * **i18n:** update translations ([#4925][16]) ([`b5db5bd`][17])
 * **i18n:** update translations ([#4939][18]) ([`e3b0250`][19])
@@ -29,8 +29,8 @@ collapse: true
 ### Features
 
 * **content-explorer:** migrate vrts to playwright ([#4887][22]) ([`a6444d0`][23])
-* **content-explorer:** support custom default order_by ([#4951][24]) ([`3621a73`][25])
-* **router:** SidebarPanel now has routerles version ([#4956][26]) ([`773b39a`][27])
+* **content-explorer:** support custom default `order_by` ([#4951][24]) ([`3621a73`][25])
+* **router:** `SidebarPanel` now has routerless version ([#4956][26]) ([`773b39a`][27])
 
 [1]: https://github.com/box/box-ui-elements/compare/v28.0.0...v28.1.0
 
